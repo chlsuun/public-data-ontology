@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "개체·관계 식별자와 참조",
+      "passed": true
+    },
+    {
+      "name": "모든 관계의 근거 존재",
+      "passed": true
+    },
+    {
+      "name": "상관·인과를 계산 없이 선언하지 않음",
+      "passed": true
+    },
+    {
+      "name": "깊이 2에서도 자료·기관까지 연결",
+      "passed": true
+    },
+    {
+      "name": "개념 확장 제한으로 직접 인구이동 자료만 반환",
+      "passed": true
+    },
+    {
+      "name": "max_nodes 상한과 잘림 표시",
+      "passed": true
+    },
+    {
+      "name": "max_edges 상한과 잘림 표시",
+      "passed": true
+    },
+    {
+      "name": "max_datasets 상한과 잘림 표시",
+      "passed": true
+    },
+    {
+      "name": "max_scanned_edges 상한과 잘림 표시",
+      "passed": true
+    },
+    {
+      "name": "시간 초과 시 추가 탐색 중단",
+      "passed": true
+    },
+    {
+      "name": "후보와 직접 측정 경로의 구별",
+      "passed": true
+    },
+    {
+      "name": "결합 허가와 검색 안내 분리",
+      "passed": true
+    },
+    {
+      "name": "추천 이유가 실제 연속 경로를 가리킴",
+      "passed": true
+    },
+    {
+      "name": "해결되지 않은 지표가 가짜 자료로 변환되지 않음",
+      "passed": true
+    },
+    {
+      "name": "요청이 서버 정책 한도를 높일 수 없음",
+      "passed": true
+    },
+    {
+      "name": "순환 관계가 있어도 탐색 한도 유지",
+      "passed": true
+    },
+    {
+      "name": "RDF에서 후보 관계를 확정 사실로 내보내지 않음",
+      "passed": true
+    },
+    {
+      "name": "원본 행·자료 API 미검증 상태 보존",
+      "passed": true
+    },
+    {
+      "name": "기존 전국 조사와 국제 범위를 유지",
+      "passed": true
+    }
+  ],
+  "scope": "로컬 관계 모델·탐색 상한·근거 검증; 실 LLM·배포·원본 품질 검증 제외",
+  "rdf_triples": 298
+}

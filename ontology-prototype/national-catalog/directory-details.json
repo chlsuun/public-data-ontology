@@ -1,0 +1,8 @@
+[
+ {"id":"alio-list","url":"https://alio.go.kr/guide/publicAgencyList.do"},
+ {"id":"alio-disclosure","url":"https://alio.go.kr/organ/organDisclosureList.do"},
+ {"id":"education-directory","url":"https://news.jbe.go.kr/index.jbe?menuCd=DOM_000000106011005000"},
+ {"id":"ecos-official","url":"https://www.bok.or.kr/portal/bbs/B0000501/view.do?menuNo=201264&nttId=10070857"},
+ {"id":"education-official","url":"https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=103466&lev=0&m=0206&opType=N&page=25&s=moe"},
+ {"id":"localdata-migration","url":"https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=123477"}
+]

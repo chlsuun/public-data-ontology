@@ -1,0 +1,180 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pc: <https://example.org/kr-public-catalog/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+pc:AuditEvent a owl:Class ;
+    rdfs:label "검토·수정·제공 이력"@ko ;
+    rdfs:subClassOf prov:Activity .
+
+pc:CatalogRecord a owl:Class ;
+    rdfs:label "포털별 등록정보"@ko ;
+    rdfs:subClassOf dcat:CatalogRecord .
+
+pc:ConceptScheme a owl:Class ;
+    rdfs:label "출처별·공통 개념 사전"@ko ;
+    rdfs:subClassOf skos:ConceptScheme .
+
+pc:DataService a owl:Class ;
+    rdfs:label "데이터 접근 서비스"@ko ;
+    rdfs:subClassOf dcat:DataService .
+
+pc:DatasetSeries a owl:Class ;
+    rdfs:label "자료 계열"@ko ;
+    rdfs:subClassOf dcat:DatasetSeries .
+
+pc:Dimension a owl:Class ;
+    rdfs:label "지역·시간·성별 등의 구분 항목"@ko .
+
+pc:Distribution a owl:Class ;
+    rdfs:label "다운로드·배포 형태"@ko ;
+    rdfs:subClassOf dcat:Distribution .
+
+pc:Measure a owl:Class ;
+    rdfs:label "측정값 항목"@ko .
+
+pc:RelationshipClaim a owl:Class ;
+    rdfs:label "근거·상태를 가진 관계 주장"@ko ;
+    rdfs:subClassOf rdf:Statement .
+
+pc:SpatialExtent a owl:Class ;
+    rdfs:label "자료의 공간 범위"@ko ;
+    rdfs:subClassOf dct:Location .
+
+pc:TemporalExtent a owl:Class ;
+    rdfs:label "자료의 관측 기간"@ko ;
+    rdfs:subClassOf dct:PeriodOfTime .
+
+pc:assessesResource a owl:ObjectProperty ;
+    rdfs:label "정책 검토 대상"@ko ;
+    rdfs:domain pc:PolicyAssessment .
+
+pc:evidence a owl:ObjectProperty ;
+    rdfs:label "주장의 근거"@ko ;
+    rdfs:range pc:SourceEvidence .
+
+pc:hasCodeScheme a owl:ObjectProperty ;
+    rdfs:label "항목의 코드 체계"@ko ;
+    rdfs:domain pc:Field ;
+    rdfs:range pc:CodeScheme .
+
+pc:hasField a owl:ObjectProperty ;
+    rdfs:label "구조에 포함된 항목"@ko ;
+    rdfs:domain pc:Schema ;
+    rdfs:range pc:Field .
+
+pc:hasSchema a owl:ObjectProperty ;
+    rdfs:label "자료의 구조 버전"@ko ;
+    rdfs:domain pc:Dataset ;
+    rdfs:range pc:Schema .
+
+pc:hasUnit a owl:ObjectProperty ;
+    rdfs:label "측정 항목의 단위"@ko ;
+    rdfs:domain pc:Field ;
+    rdfs:range pc:Unit .
+
+pc:hostsCatalog a owl:ObjectProperty ;
+    rdfs:label "서비스에서 목록을 제공"@ko ;
+    rdfs:domain pc:ServiceEntry ;
+    rdfs:range pc:Catalog .
+
+pc:inputDataset a owl:ObjectProperty ;
+    rdfs:label "분석에 사용한 자료"@ko ;
+    rdfs:domain pc:AnalysisResult ;
+    rdfs:range pc:Dataset .
+
+pc:leftDataset a owl:ObjectProperty ;
+    rdfs:label "결합 검토의 자료 A"@ko ;
+    rdfs:domain pc:JoinAssessment ;
+    rdfs:range pc:Dataset .
+
+pc:mapsConcept a owl:ObjectProperty ;
+    rdfs:label "매핑 검토의 대상 개념"@ko ;
+    rdfs:domain pc:FieldMapping ;
+    rdfs:range pc:Concept .
+
+pc:mapsField a owl:ObjectProperty ;
+    rdfs:label "매핑 검토의 원본 항목"@ko ;
+    rdfs:domain pc:FieldMapping ;
+    rdfs:range pc:Field .
+
+pc:operatedBy a owl:ObjectProperty ;
+    rdfs:label "확인된 운영기관"@ko ;
+    rdfs:domain pc:ServiceEntry ;
+    rdfs:range pc:Organization .
+
+pc:pageHyperlink a owl:ObjectProperty ;
+    rdfs:label "조회 페이지의 실제 하이퍼링크"@ko .
+
+pc:producedEvidence a owl:ObjectProperty ;
+    rdfs:label "수집으로 확보한 근거"@ko ;
+    rdfs:domain pc:CollectionRun ;
+    rdfs:range pc:SourceEvidence .
+
+pc:reviewedTopic a owl:ObjectProperty ;
+    rdfs:label "편집자가 붙인 조사 주제"@ko ;
+    rdfs:domain pc:ServiceEntry ;
+    rdfs:range pc:Concept .
+
+pc:rightDataset a owl:ObjectProperty ;
+    rdfs:label "결합 검토의 자료 B"@ko ;
+    rdfs:domain pc:JoinAssessment ;
+    rdfs:range pc:Dataset .
+
+pc:AnalysisResult a owl:Class ;
+    rdfs:label "범위가 한정된 분석 결과"@ko ;
+    rdfs:subClassOf prov:Entity .
+
+pc:Catalog a owl:Class ;
+    rdfs:label "데이터 목록"@ko ;
+    rdfs:subClassOf dcat:Catalog .
+
+pc:CodeScheme a owl:Class ;
+    rdfs:label "식별·분류 코드 체계"@ko ;
+    rdfs:subClassOf skos:ConceptScheme .
+
+pc:CollectionRun a owl:Class ;
+    rdfs:label "수집 실행"@ko ;
+    rdfs:subClassOf prov:Activity .
+
+pc:Organization a owl:Class ;
+    rdfs:label "기관"@ko ;
+    rdfs:subClassOf foaf:Organization .
+
+pc:PolicyAssessment a owl:Class ;
+    rdfs:label "특정 이용행위의 조건 검토"@ko .
+
+pc:Unit a owl:Class ;
+    rdfs:label "수량의 단위"@ko .
+
+pc:Concept a owl:Class ;
+    rdfs:label "표준화한 의미 개념"@ko ;
+    rdfs:subClassOf skos:Concept .
+
+pc:FieldMapping a owl:Class ;
+    rdfs:label "원본 필드와 개념의 대응 검토"@ko .
+
+pc:JoinAssessment a owl:Class ;
+    rdfs:label "자료 결합 가능성 검토"@ko .
+
+pc:Schema a owl:Class ;
+    rdfs:label "특정 버전의 자료 구조"@ko .
+
+pc:SourceEvidence a owl:Class ;
+    rdfs:label "출처와 관찰 기록"@ko ;
+    rdfs:subClassOf prov:Entity .
+
+pc:ServiceEntry a owl:Class ;
+    rdfs:label "포털·제공 서비스 조사 항목"@ko .
+
+pc:Dataset a owl:Class ;
+    rdfs:label "실제 자료"@ko ;
+    rdfs:subClassOf dcat:Dataset .
+
+pc:Field a owl:Class ;
+    rdfs:label "원본 컬럼·응답 항목"@ko .

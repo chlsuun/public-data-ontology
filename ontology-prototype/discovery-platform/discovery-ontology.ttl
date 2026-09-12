@@ -1,0 +1,384 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix discovery: <https://example.org/public-data-discovery/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+discovery:BudgetRun a owl:Class ;
+    rdfs:label "예산을 적용한 실행"@ko .
+
+discovery:RecommendationPath a owl:Class ;
+    rdfs:label "추천 경로"@ko .
+
+discovery:ResourcePolicy a owl:Class ;
+    rdfs:label "자원 정책"@ko .
+
+<https://example.org/public-data-discovery/evidence/aws-fargate> a prov:Entity ;
+    dct:source <https://aws.amazon.com/fargate/pricing/> .
+
+<https://example.org/public-data-discovery/evidence/aws-rds> a prov:Entity ;
+    dct:source <https://aws.amazon.com/rds/pricing/> .
+
+<https://example.org/public-data-discovery/evidence/oecd-housing> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/housing-prices.html> .
+
+<https://example.org/public-data-discovery/evidence/oecd-neet> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/youth-not-in-employment-education-or-training-neet.html> .
+
+<https://example.org/public-data-discovery/evidence/oecd-neet-web> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/youth-not-in-employment-education-or-training-neet.html> .
+
+<https://example.org/public-data-discovery/evidence/oecd-unemployment> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html> .
+
+<https://example.org/public-data-discovery/evidence/openai-models> a prov:Entity ;
+    dct:source <https://developers.openai.com/api/docs/models> .
+
+<https://example.org/public-data-discovery/evidence/openai-retention> a prov:Entity ;
+    dct:source <https://developers.openai.com/api/docs/guides/your-data> .
+
+<https://example.org/public-data-discovery/evidence/wb-unemployment-page> a prov:Entity ;
+    dct:source <https://data.worldbank.org/indicator/SL.UEM.1524.ZS> .
+
+discovery:r-01721876a9a8 a rdf:Statement ;
+    rdf:object discovery:c-education ;
+    rdf:predicate discovery:explorationHypothesis ;
+    rdf:subject discovery:c-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-14f0a12d1fd3 a rdf:Statement ;
+    rdf:object discovery:c-housing ;
+    rdf:predicate discovery:interpretedAs ;
+    rdf:subject discovery:q-housing ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-214581da5a9e a rdf:Statement ;
+    rdf:object discovery:provider-wb ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-wb-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/wb-employment> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-2a6e492fd0b4 a rdf:Statement ;
+    rdf:object discovery:i-out ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-393db8c3cac1 a rdf:Statement ;
+    rdf:object discovery:d-kosis-net ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-net ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/kosis-migration>,
+        <https://example.org/public-data-discovery/evidence/kosis-table-access> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-3cbbc988fa60 a rdf:Statement ;
+    rdf:object discovery:i-house ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-housing ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-3ebfaa92f163 a rdf:Statement ;
+    rdf:object discovery:provider-mods ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-kosis-flows ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/kosis-migration>,
+        <https://example.org/public-data-discovery/evidence/kosis-table-access> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-442b5ce5e8f0 a rdf:Statement ;
+    rdf:object discovery:d-kosis-flows ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-in ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/kosis-migration>,
+        <https://example.org/public-data-discovery/evidence/kosis-table-access> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-469a8194a2f2 a rdf:Statement ;
+    rdf:object discovery:provider-wb ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-wb-unemployment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/wb-unemployment> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-62a2741c3e3b a rdf:Statement ;
+    rdf:object discovery:i-neet ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-education ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-6b09a8a44367 a rdf:Statement ;
+    rdf:object discovery:i-unemployment ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-6e18da008003 a rdf:Statement ;
+    rdf:object discovery:c-employment ;
+    rdf:predicate discovery:interpretedAs ;
+    rdf:subject discovery:q-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-7410a73ab7c8 a rdf:Statement ;
+    rdf:object discovery:i-net ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-77d3d2b11c2c a rdf:Statement ;
+    rdf:object discovery:d-oecd-housing ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-rent ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/oecd-housing-web> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-7c054165458d a rdf:Statement ;
+    rdf:object discovery:c-migration ;
+    rdf:predicate discovery:interpretedAs ;
+    rdf:subject discovery:q-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-7d4da1c5592e a rdf:Statement ;
+    rdf:object discovery:c-employment ;
+    rdf:predicate discovery:explorationHypothesis ;
+    rdf:subject discovery:c-education ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-7d5a01a773ed a rdf:Statement ;
+    rdf:object discovery:c-housing ;
+    rdf:predicate discovery:explorationHypothesis ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-8ccbfb4143bc a rdf:Statement ;
+    rdf:object discovery:d-oecd-housing ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-house ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/oecd-housing-web> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-8ee0a49ed72c a rdf:Statement ;
+    rdf:object discovery:i-employment ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-98bd39dcd151 a rdf:Statement ;
+    rdf:object discovery:i-rent ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-housing ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-ad4c905f9efe a rdf:Statement ;
+    rdf:object discovery:i-graduate ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-education ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:r-bff6a37d9e3b a rdf:Statement ;
+    rdf:object discovery:d-wb-unemployment ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-unemployment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/wb-unemployment> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-c6da93d847f8 a rdf:Statement ;
+    rdf:object discovery:d-oecd-unemployment ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-unemployment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/oecd-unemployment-web> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-d23d04edcb72 a rdf:Statement ;
+    rdf:object discovery:provider-mods ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-kosis-net ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/kosis-migration>,
+        <https://example.org/public-data-discovery/evidence/kosis-table-access> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-d4546e8dce56 a rdf:Statement ;
+    rdf:object discovery:d-kosis-flows ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-out ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/kosis-migration>,
+        <https://example.org/public-data-discovery/evidence/kosis-table-access> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-d531e88be642 a rdf:Statement ;
+    rdf:object discovery:provider-oecd ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-oecd-housing ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/oecd-housing-web> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-eb66a6bad6a2 a rdf:Statement ;
+    rdf:object discovery:provider-oecd ;
+    rdf:predicate discovery:providedBy ;
+    rdf:subject discovery:d-oecd-unemployment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/oecd-unemployment-web> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-ec83f4db154f a rdf:Statement ;
+    rdf:object discovery:c-employment ;
+    rdf:predicate discovery:explorationHypothesis ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-f6292fc89b0e a rdf:Statement ;
+    rdf:object discovery:c-education ;
+    rdf:predicate discovery:explorationHypothesis ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "candidate" .
+
+discovery:r-f6448e7d3459 a rdf:Statement ;
+    rdf:object discovery:d-wb-employment ;
+    rdf:predicate discovery:availableFrom ;
+    rdf:subject discovery:i-employment ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/wb-employment> ;
+    discovery:reviewStatus "documented" .
+
+discovery:r-fdc5c86c04c3 a rdf:Statement ;
+    rdf:object discovery:i-in ;
+    rdf:predicate discovery:hasIndicator ;
+    rdf:subject discovery:c-migration ;
+    discovery:evidence <https://example.org/public-data-discovery/evidence/user-requirements> ;
+    discovery:reviewStatus "curated" .
+
+discovery:i-graduate a discovery:Indicator ;
+    rdfs:label "대학 졸업 후 지역 이동" .
+
+discovery:i-neet a discovery:Indicator ;
+    rdfs:label "청년 NEET 비율" .
+
+discovery:q-employment a discovery:QueryTopic ;
+    rdfs:label "청년 고용과 관련된 데이터를 찾아줘" .
+
+discovery:q-housing a discovery:QueryTopic ;
+    rdfs:label "주거비와 관련된 데이터를 찾아줘" .
+
+discovery:q-migration a discovery:QueryTopic ;
+    rdfs:label "청년 인구 유출과 관련된 데이터를 찾아줘" .
+
+discovery:d-oecd-unemployment a dcat:Dataset ;
+    rdfs:label "Monthly unemployment rates" ;
+    dct:source <https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M&df%5Bvs%5D=1.0&dq=..._Z.Y._T.Y_GE15..M&lo=13&lom=LASTNPERIODS&ly%5Bcl%5D=TIME_PERIOD&ly%5Brw%5D=REF_AREA&pd=%2C&to%5BTIME_PERIOD%5D=false&vw=ov> ;
+    discovery:providedBy discovery:provider-oecd .
+
+<https://example.org/public-data-discovery/evidence/oecd-unemployment-web> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html> .
+
+<https://example.org/public-data-discovery/evidence/wb-employment> a prov:Entity ;
+    dct:source <https://api.worldbank.org/v2/indicator/SL.EMP.1524.SP.ZS?format=json> .
+
+<https://example.org/public-data-discovery/evidence/wb-unemployment> a prov:Entity ;
+    dct:source <https://api.worldbank.org/v2/indicator/SL.UEM.1524.ZS?format=json> .
+
+discovery:i-employment a discovery:Indicator ;
+    rdfs:label "청년 고용률" ;
+    discovery:availableFrom discovery:d-wb-employment .
+
+discovery:i-house a discovery:Indicator ;
+    rdfs:label "주택가격지수" ;
+    discovery:availableFrom discovery:d-oecd-housing .
+
+discovery:i-in a discovery:Indicator ;
+    rdfs:label "전입자수" .
+
+discovery:i-net a discovery:Indicator ;
+    rdfs:label "순이동자수" ;
+    discovery:availableFrom discovery:d-kosis-net .
+
+discovery:i-out a discovery:Indicator ;
+    rdfs:label "전출자수" .
+
+discovery:i-rent a discovery:Indicator ;
+    rdfs:label "주택 임대료 지수" .
+
+discovery:QueryTopic a owl:Class ;
+    rdfs:label "질문 주제"@ko .
+
+discovery:d-kosis-flows a dcat:Dataset ;
+    rdfs:label "시군구/성/연령(5세)별 이동자수" ;
+    dct:source <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26001> ;
+    discovery:providedBy discovery:provider-mods .
+
+discovery:d-kosis-net a dcat:Dataset ;
+    rdfs:label "시군구/성/연령(5세)별 순이동자수" ;
+    dct:source <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26002> ;
+    discovery:providedBy discovery:provider-mods .
+
+discovery:d-wb-employment a dcat:Dataset ;
+    rdfs:label "Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)" ;
+    dct:source <https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS> ;
+    discovery:providedBy discovery:provider-wb .
+
+discovery:d-wb-unemployment a dcat:Dataset ;
+    rdfs:label "Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)" ;
+    dct:source <https://data.worldbank.org/indicator/SL.UEM.1524.ZS> ;
+    discovery:providedBy discovery:provider-wb .
+
+<https://example.org/public-data-discovery/evidence/oecd-housing-web> a prov:Entity ;
+    dct:source <https://www.oecd.org/en/data/indicators/housing-prices.html> .
+
+discovery:i-unemployment a discovery:Indicator ;
+    rdfs:label "청년 실업률" ;
+    discovery:availableFrom discovery:d-wb-unemployment .
+
+discovery:c-housing a skos:Concept ;
+    rdfs:label "주거" .
+
+discovery:d-oecd-housing a dcat:Dataset ;
+    rdfs:label "Analytical house price indicators" ;
+    dct:source <https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES&df%5Bvs%5D=1.0&dq=.Q.RHP.&lc=en&pd=%2C&pg=0&snb=1&tm=DF_HOUSE_PRICES&to%5BTIME_PERIOD%5D=false&vw=tb> ;
+    discovery:providedBy discovery:provider-oecd .
+
+discovery:provider-mods a foaf:Organization ;
+    rdfs:label "국가데이터처" .
+
+discovery:provider-oecd a foaf:Organization ;
+    rdfs:label "OECD" .
+
+discovery:provider-wb a foaf:Organization ;
+    rdfs:label "World Bank" .
+
+discovery:c-education a skos:Concept ;
+    rdfs:label "교육·노동시장 이행" .
+
+<https://example.org/public-data-discovery/evidence/kosis-migration> a prov:Entity ;
+    dct:source <https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1976003&boardOrgId=101> .
+
+<https://example.org/public-data-discovery/evidence/kosis-table-access> a prov:Entity ;
+    dct:source <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26001> .
+
+discovery:c-employment a skos:Concept ;
+    rdfs:label "고용" .
+
+discovery:c-migration a skos:Concept ;
+    rdfs:label "인구이동" .
+
+discovery:Indicator a owl:Class ;
+    rdfs:label "측정 지표"@ko .
+
+<https://example.org/public-data-discovery/evidence/user-requirements> a prov:Entity .

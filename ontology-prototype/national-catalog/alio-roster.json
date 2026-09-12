@@ -1,0 +1,3923 @@
+{
+  "source_url": "https://alio.go.kr/guide/publicAgencyList.do",
+  "endpoint": "https://alio.go.kr/organ/findOrganApbaList.json",
+  "method": "POST (public read-only listing)",
+  "retrieved_at": "2026-09-12T08:50:59.243238+00:00",
+  "source_roster_complete": true,
+  "national_institution_roster_complete": false,
+  "reported_total": 355,
+  "pages": [
+    {
+      "page": 1,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 1
+      },
+      "sha256": "26428fcf313a83cdf7f6eb8616dd06b1043a868bc01858e4743c3e6e59305739",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 2,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 2
+      },
+      "sha256": "13bcbe55106c0e41ccb84011f5fd45793dda5ea744af998563ee021446db6f39",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 3,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 3
+      },
+      "sha256": "d12f5f88f3c98efc736bef3ef8e8add2d68168bcb7c4f4c81141d05f086b7cbe",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 4,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 4
+      },
+      "sha256": "6c62f7d67fcb2cd19f942cdc9d48aa29105cc43d84c9eb3155ffb040b0d2acb1",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 5,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 5
+      },
+      "sha256": "278ac8bcbf7fc83a80ade2e06210745190e3a3d601ecdd8071ff60c7f3d87e06",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 6,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 6
+      },
+      "sha256": "7c3da3fbb668b6edc5840433eec30a65b7a23e1b94d862dc7a8a173cf0ae9025",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 7,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 7
+      },
+      "sha256": "cead6f75ff22b6d0faf71d3c64748fc3222a08f6d14bf559ad05fbb52992f51a",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 8,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 8
+      },
+      "sha256": "e03c31806612bc7e4823db5bdcf9d7855ffb458d4b9a9c1cf6ef573939c26565",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 9,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 9
+      },
+      "sha256": "6630649fc66a39dd37fef61b3e7b0d2d26af36ddee438e82db5200630e238431",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 10,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 10
+      },
+      "sha256": "2f68b3c201eda2f3bb2140e3771865eccda9e1d45d8e1947c01999a8ee42f80c",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 11,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 11
+      },
+      "sha256": "536453ed82225c47b763b516995190b445f678d21aa9c677beb8dd5ca2918b14",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 12,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 12
+      },
+      "sha256": "6f5aec1d06ccc7a67a75c108e5c2852fa73d279efea2a0f4936fd3501dc49d46",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 13,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 13
+      },
+      "sha256": "1fa4669ddee4c9149195847f8e59235d3a2a063d56945a59a4eaf2ff87e88090",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 14,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 14
+      },
+      "sha256": "fa3c301b56a7d441d05ce4fbdaa5d8723c2d7ef589637135cc234af3973ec0b8",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 15,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 15
+      },
+      "sha256": "2504fce60a43f412f701252de16fedf4944530170a2b5d2fd046be2d5420dfab",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 16,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 16
+      },
+      "sha256": "03fae7bdd8e9414fc8af6c31ab9d74a5fce0829335f4af85aa2939e988864544",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 17,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 17
+      },
+      "sha256": "a9aa5a27aaccb1916d1706dce451765cef086de351a9593fc9de0ce128075bce",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 18,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 18
+      },
+      "sha256": "92c74c77ac8f0d57db226a7ceedfed22ce8e458ca91eab37ec040e72fc6f14ab",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 19,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 19
+      },
+      "sha256": "a6218b52df3f802908423528b13b33bab16b4fad7185a501c8a4397dea6ec619",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 20,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 20
+      },
+      "sha256": "10f1973c2289053f64fe6ded7381f75e458294a6c8f24427a4a0995829b24597",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 21,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 21
+      },
+      "sha256": "8a2203713b0d75b54cce4b624b61d9fe10d6211bd0f4090340c5da1273f59673",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 22,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 22
+      },
+      "sha256": "6c15ae84e70a21c90d61d98287d1996d3e4e757f94db58e8944b13f4b3a300da",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 23,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 23
+      },
+      "sha256": "6e9507f30bbeb254e3202e26a35a705798ae167f49e766c92e7a79d9170803df",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 24,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 24
+      },
+      "sha256": "b1c0832e90c43d221f703b10eded1f79a1108ce58959d0aa1f521b10face3c1f",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 25,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 25
+      },
+      "sha256": "4ad5394eba098d064ee7a349882a8c8f84bef8b2e20bca98aa32307787e893b2",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 26,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 26
+      },
+      "sha256": "7381f3ee56f58b56f0c29e6152c27eb23fc168b47f5a07607c7624ec1d9ad2df",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 27,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 27
+      },
+      "sha256": "3bb54b54c76db76614955eb83b774bb4810e6937aefc87d2319e3186f789a53d",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 28,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 28
+      },
+      "sha256": "e08b4b03a58e6536fb01ccb82fcb43cdbf2165b903caeca2defde14b9e9cab63",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 29,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 29
+      },
+      "sha256": "5515183c2ef8a8dc45912f445d9f8dff822718c5254ada4758ab5b5ad9a4a98b",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 30,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 30
+      },
+      "sha256": "d1faebe48b2434994238bfa346d85df4a1d75876578b1fee7acb2b66d1842703",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 31,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 31
+      },
+      "sha256": "06e02aebadaaea59ed3478bac5dc98c76824705e3e398d2aa3b0c9b4d089d987",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 32,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 32
+      },
+      "sha256": "9129d03642fb9c589e9d4a617f7270788ecc1deb15a10e93b88f7e7ec4d71e23",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 33,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 33
+      },
+      "sha256": "2e5813b56e1ca4145c1643bd374d2ee777cd2619df2833c128ae15852e0d85da",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 34,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 34
+      },
+      "sha256": "11f4082827c8f7f04226a9aa8ee2447e347cf1240a4798ffb2d194003b152528",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 35,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 35
+      },
+      "sha256": "2658f915f547418a929cbe3b523aade87cb70588e192d9f3c0bdea9a44d81234",
+      "rows": 10,
+      "reported_total": 355
+    },
+    {
+      "page": 36,
+      "request": {
+        "apbaNa": "",
+        "pageNo": 36
+      },
+      "sha256": "c0ee5e6a28b73bc76629df50d20754d2f79e939b73017396d7e8a5cedc9b373e",
+      "rows": 5,
+      "reported_total": 355
+    }
+  ],
+  "rows": [
+    {
+      "apbaId": "C0847",
+      "apbaNa": "(사)남북교류협력지원협회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "통일부",
+      "homepage": "www.sonosa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0454",
+      "apbaNa": "(재)예술경영지원센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.gokams.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0352",
+      "apbaNa": "(재)우체국금융개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.posid.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0331",
+      "apbaNa": "(재)우체국물류지원단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://www.pola.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0368",
+      "apbaNa": "(재)우체국시설관리단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://www.poma.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0931",
+      "apbaNa": "(재)일제강제동원피해자지원재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "행정안전부",
+      "homepage": "https://www.fomo.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1030",
+      "apbaNa": "(재)축산환경관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://www.lemi.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C1304",
+      "apbaNa": "(재)한국보건의료정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.khis.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0354",
+      "apbaNa": "(재)한국우편사업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.posa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1060",
+      "apbaNa": "(재)한국통계정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국가데이터처",
+      "homepage": "https://www.kosii.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0887",
+      "apbaNa": "(재)한국통계진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국가데이터처",
+      "homepage": "https://www.stat.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0005",
+      "apbaNa": "(주)강원랜드",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "산업통상부",
+      "homepage": "https://kangwonland.high1.com",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C1024",
+      "apbaNa": "(주)공영홈쇼핑",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.gongyoung.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0125",
+      "apbaNa": "(주)한국가스기술공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kogas-tech.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0001",
+      "apbaNa": "88관광개발(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국가보훈부",
+      "homepage": "www.88countryclub.co.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1399",
+      "apbaNa": "가덕도신공항건설공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.g-airport.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0002",
+      "apbaNa": "가축위생방역지원본부",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://www.lhca.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0004",
+      "apbaNa": "강원대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "https://www.knuh.or.kr/",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0003",
+      "apbaNa": "강원대학교치과병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.knudh.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0006",
+      "apbaNa": "건강보험심사평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "보건복지부",
+      "homepage": "www.hira.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0672",
+      "apbaNa": "건설근로자공제회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "https://www.cw.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0438",
+      "apbaNa": "건축공간연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.auri.re.kr/",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0402",
+      "apbaNa": "게임물관리위원회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.grac.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0008",
+      "apbaNa": "경북대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://knuh.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C1031",
+      "apbaNa": "경북대학교치과병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.knudh.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0009",
+      "apbaNa": "경상국립대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.gnuh.co.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0010",
+      "apbaNa": "경제인문사회연구회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.nrc.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0440",
+      "apbaNa": "육아정책연구소",
+      "parnApbaId": "C0010",
+      "parnApbaNa": "경제인문사회연구회",
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kicce.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1028",
+      "apbaNa": "공간정보산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.spacen.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1327",
+      "apbaNa": "공간정보품질관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.siqms.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0013",
+      "apbaNa": "공무원연금공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "인사혁신처",
+      "homepage": "https://www.geps.or.kr",
+      "addrCd": "제주특별자치도"
+    },
+    {
+      "apbaId": "C1038",
+      "apbaNa": "과학기술사업화진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.compa.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0017",
+      "apbaNa": "과학기술정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.stepi.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C1120",
+      "apbaNa": "국가생명윤리정책원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://nibp.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1303",
+      "apbaNa": "국가아동권리보장원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.ncrc.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0191",
+      "apbaNa": "국가유산진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국가유산청",
+      "homepage": "www.kh.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0270",
+      "apbaNa": "국가철도공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.kr.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0410",
+      "apbaNa": "국가평생교육진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.nile.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0021",
+      "apbaNa": "국립공원공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.knps.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0923",
+      "apbaNa": "국립광주과학관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.sciencecenter.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C1018",
+      "apbaNa": "국립낙동강생물자원관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.nnibr.re.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C1375",
+      "apbaNa": "국립농업박물관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://namuk.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0924",
+      "apbaNa": "국립대구과학관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.dnsm.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0344",
+      "apbaNa": "국립박물관문화재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.nmf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1051",
+      "apbaNa": "국립부산과학관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://www.sciport.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0879",
+      "apbaNa": "국립생태원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "http://www.nie.re.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C1362",
+      "apbaNa": "국립아시아문화전당재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.accf.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0023",
+      "apbaNa": "국립암센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.ncc.re.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1333",
+      "apbaNa": "국립울진해양과학관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.kosm.or.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C1395",
+      "apbaNa": "국립인천해양박물관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "https://www.inmm.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C0446",
+      "apbaNa": "국립중앙의료원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.nmc.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1324",
+      "apbaNa": "국립항공박물관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "wwww.aviation.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1016",
+      "apbaNa": "국립해양박물관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.mmk.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C1021",
+      "apbaNa": "국립해양생물자원관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.mabik.re.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C1334",
+      "apbaNa": "국립호남권생물자원관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "http://hnibr.re.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0026",
+      "apbaNa": "국민건강보험공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "보건복지부",
+      "homepage": "www.nhis.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0459",
+      "apbaNa": "국민건강보험공단 일산병원",
+      "parnApbaId": "C0026",
+      "parnApbaNa": "국민건강보험공단",
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.nhimc.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0939",
+      "apbaNa": "서울요양원",
+      "parnApbaId": "C0026",
+      "parnApbaNa": "국민건강보험공단",
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "보건복지부",
+      "homepage": "www.서울요양원.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0028",
+      "apbaNa": "국민연금공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "보건복지부",
+      "homepage": "www.nps.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0345",
+      "apbaNa": "국방과학연구소",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "방위사업청",
+      "homepage": "www.add.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0347",
+      "apbaNa": "국방기술품질원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "방위사업청",
+      "homepage": "www.dtaq.re.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C1402",
+      "apbaNa": "국방기술진흥연구소",
+      "parnApbaId": "C0347",
+      "parnApbaNa": "국방기술품질원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "방위사업청",
+      "homepage": "https://www.krit.re.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C1027",
+      "apbaNa": "국방전직교육원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국방부",
+      "homepage": "https://www.moti.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0406",
+      "apbaNa": "국악방송",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.igbf.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0031",
+      "apbaNa": "국제방송교류재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.arirang.com",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0866",
+      "apbaNa": "국제식물검역인증원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.ipab.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0318",
+      "apbaNa": "국토교통과학기술진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.kaia.re.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0225",
+      "apbaNa": "국토안전관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "국토교통부",
+      "homepage": "http://www.kalis.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0032",
+      "apbaNa": "국토연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "http://www.krihs.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0357",
+      "apbaNa": "그랜드코리아레저(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.grandkorea.com",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0035",
+      "apbaNa": "근로복지공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "고용노동부",
+      "homepage": "www.comwel.or.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0038",
+      "apbaNa": "기술보증기금",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.kibo.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0856",
+      "apbaNa": "기초과학연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://ibs.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0441",
+      "apbaNa": "국가수리과학연구소",
+      "parnApbaId": "C0856",
+      "parnApbaNa": "기초과학연구원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://www.nims.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0173",
+      "apbaNa": "노사발전재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "https://www.nosa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0860",
+      "apbaNa": "농림수산식품교육문화정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.epis.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0404",
+      "apbaNa": "농림식품기술기획평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://www.ipet.re.kr/",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0542",
+      "apbaNa": "농업정책보험금융원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.apfs.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0894",
+      "apbaNa": "대구경북첨단의료산업진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.kmedihub.re.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0051",
+      "apbaNa": "대외경제정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.kiep.go.kr/",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0054",
+      "apbaNa": "대한무역투자진흥공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "http://www.kotra.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0055",
+      "apbaNa": "대한법률구조공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "법무부",
+      "homepage": "https://www.klac.or.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C0057",
+      "apbaNa": "대한석탄공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kocoal.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0315",
+      "apbaNa": "대한장애인체육회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.koreanpc.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0059",
+      "apbaNa": "대한적십자사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.redcross.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0063",
+      "apbaNa": "대한체육회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.sports.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0065",
+      "apbaNa": "독립기념관",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국가보훈부",
+      "homepage": "www.i815.or.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C0358",
+      "apbaNa": "동북아역사재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.nahf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0367",
+      "apbaNa": "무역안보관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kosti.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0068",
+      "apbaNa": "민주화운동기념사업회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "행정안전부",
+      "homepage": "https://www.kdemo.or.kr/",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0071",
+      "apbaNa": "부산대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.pnuh.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0853",
+      "apbaNa": "부산대학교치과병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.pnudh.co.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0072",
+      "apbaNa": "부산항만공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "https://busanpa.com",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0449",
+      "apbaNa": "북한이탈주민지원재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "통일부",
+      "homepage": "www.koreahana.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0075",
+      "apbaNa": "사립학교교직원연금공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "https://www.tp.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0078",
+      "apbaNa": "산업연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.kiet.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C1130",
+      "apbaNa": "새만금개발공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.sdco.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C1046",
+      "apbaNa": "서민금융진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "금융위원회",
+      "homepage": "www.kinfa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0083",
+      "apbaNa": "서울대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://snuh.org",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0444",
+      "apbaNa": "분당서울대학교병원",
+      "parnApbaId": "C0083",
+      "parnApbaNa": "서울대학교병원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.snubh.org",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0084",
+      "apbaNa": "서울대학교치과병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.snudh.org",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0029",
+      "apbaNa": "서울올림픽기념국민체육진흥공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kspo.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0867",
+      "apbaNa": "세종학당재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.ksif.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0903",
+      "apbaNa": "소상공인시장진흥공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.semas.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0089",
+      "apbaNa": "수도권매립지관리공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "http://www.slc.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C1331",
+      "apbaNa": "스포츠윤리센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.k-sec.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1033",
+      "apbaNa": "시청자미디어재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "방송미디어통신위원회",
+      "homepage": "www.kcmf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0661",
+      "apbaNa": "식품안전정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "식품의약품안전처",
+      "homepage": "http://www.foodinfo.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0091",
+      "apbaNa": "신용보증기금",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "금융위원회",
+      "homepage": "http://www.kodit.co.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0112",
+      "apbaNa": "신용보증재단중앙회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "http://www.koreg.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0918",
+      "apbaNa": "아시아·태평양경제협력체 기후센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기상청",
+      "homepage": "www.apcc21.org",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C1398",
+      "apbaNa": "양육비이행관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "https://www.childsupport.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0096",
+      "apbaNa": "에너지경제연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.keei.re.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0281",
+      "apbaNa": "여수광양항만공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.ygpa.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0050",
+      "apbaNa": "연구개발특구진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.innopolis.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0098",
+      "apbaNa": "영상물등급위원회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kmrb.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0099",
+      "apbaNa": "영화진흥위원회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kofic.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0101",
+      "apbaNa": "예금보험공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "금융위원회",
+      "homepage": "www.kdic.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0102",
+      "apbaNa": "예술의전당",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.sac.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0896",
+      "apbaNa": "오송첨단의료산업진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.kbiohealth.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0365",
+      "apbaNa": "울산항만공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.upa.or.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C1064",
+      "apbaNa": "의료기관평가인증원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.koiha.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0105",
+      "apbaNa": "인천국제공항공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.airport.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C0107",
+      "apbaNa": "인천항만공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "https://icpa.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C1401",
+      "apbaNa": "자동차손해배상진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.tacss.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1318",
+      "apbaNa": "재단법인 건설기술교육원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.kicte.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C1108",
+      "apbaNa": "재단법인 대한건설기계안전관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.kcesi.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1017",
+      "apbaNa": "재단법인 장애인기업종합지원센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "http://www.debc.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1102",
+      "apbaNa": "재단법인 한국공공조직은행",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://kptb.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1109",
+      "apbaNa": "재단법인 한국에너지재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.koref.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0861",
+      "apbaNa": "재단법인 한국자활복지개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.kdissw.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1103",
+      "apbaNa": "재단법인 한국장기조직기증원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.koda1458.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1383",
+      "apbaNa": "재외동포협력센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "재외동포청",
+      "homepage": "www.okocc.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0553",
+      "apbaNa": "전국재해구호협회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "행정안전부",
+      "homepage": "https://hopebridge.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0113",
+      "apbaNa": "전남대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.cnuh.com",
+      "addrCd": "광주광역시"
+    },
+    {
+      "apbaId": "C0114",
+      "apbaNa": "전북대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "https://www.jbuh.co.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0115",
+      "apbaNa": "전쟁기념사업회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국방부",
+      "homepage": "www.warmemo.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0394",
+      "apbaNa": "정보통신산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.nipa.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0906",
+      "apbaNa": "소프트웨어정책연구소",
+      "parnApbaId": "C0394",
+      "parnApbaNa": "정보통신산업진흥원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.spri.kr/",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0120",
+      "apbaNa": "정보통신정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "http://www.kisdi.re.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0376",
+      "apbaNa": "정부법무공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "법무부",
+      "homepage": "http://www.kgls.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0121",
+      "apbaNa": "제주국제자유도시개발센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.jdcenter.com",
+      "addrCd": "제주특별자치도"
+    },
+    {
+      "apbaId": "C0122",
+      "apbaNa": "제주대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.jejunuh.co.kr",
+      "addrCd": "제주특별자치도"
+    },
+    {
+      "apbaId": "C1044",
+      "apbaNa": "주식회사 에스알",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.srail.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0124",
+      "apbaNa": "주택관리공단(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.kohom.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0061",
+      "apbaNa": "주택도시보증공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.khug.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0129",
+      "apbaNa": "중소기업기술정보진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.tipa.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0127",
+      "apbaNa": "중소기업은행",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "금융위원회",
+      "homepage": "http://www.ibk.co.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0884",
+      "apbaNa": "중소벤처기업연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.kosi.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0130",
+      "apbaNa": "중소벤처기업진흥공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "https://www.kosmes.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C1378",
+      "apbaNa": "중앙사회서비스원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.kcpass.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1330",
+      "apbaNa": "차세대수치예보모델개발사업단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기상청",
+      "homepage": "https://www.kiaps.org",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0451",
+      "apbaNa": "창업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "https://www.kised.or.kr/",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0134",
+      "apbaNa": "축산물품질평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.ekape.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0135",
+      "apbaNa": "충남대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.cnuh.co.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0136",
+      "apbaNa": "충북대학교병원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.cbnuh.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0314",
+      "apbaNa": "코레일관광개발(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.korailtravel.com",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0327",
+      "apbaNa": "코레일네트웍스(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.korailnetworks.com",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0140",
+      "apbaNa": "코레일로지스(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.koraillogis.com/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0272",
+      "apbaNa": "코레일유통(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.korailretail.com",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0387",
+      "apbaNa": "코레일테크(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.korailtech.com",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0409",
+      "apbaNa": "태권도진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.tpf.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0141",
+      "apbaNa": "통일연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kinu.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0144",
+      "apbaNa": "학교법인한국폴리텍",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "http://www.kopo.ac.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C0147",
+      "apbaNa": "한국가스공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kogas.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0148",
+      "apbaNa": "한국가스안전공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kgs.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0151",
+      "apbaNa": "한국개발연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.kdi.re.kr/",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0437",
+      "apbaNa": "KDI국제정책대학원",
+      "parnApbaId": "C0151",
+      "parnApbaNa": "한국개발연구원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kdischool.ac.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0845",
+      "apbaNa": "한국건강가정진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "http://www.kihf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0854",
+      "apbaNa": "한국건강증진개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.khepi.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1319",
+      "apbaNa": "한국고용노동교육원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "https://www.keli.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0321",
+      "apbaNa": "한국고용정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "고용노동부",
+      "homepage": "https://keis.or.kr/",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0067",
+      "apbaNa": "한국고전번역원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.itkc.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0452",
+      "apbaNa": "한국공예디자인문화진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kcdf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0655",
+      "apbaNa": "한국공정거래조정원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "공정거래위원회",
+      "homepage": "www.kofair.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0157",
+      "apbaNa": "한국공항공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "http://www.airport.co.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0158",
+      "apbaNa": "한국과학기술기획평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.kistep.re.kr/",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0457",
+      "apbaNa": "국가과학기술인력개발원",
+      "parnApbaId": "C0158",
+      "parnApbaNa": "한국과학기술기획평가원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.kird.re.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0163",
+      "apbaNa": "한국과학창의재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.kosac.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0165",
+      "apbaNa": "한국관광공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://knto.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C1400",
+      "apbaNa": "한국관세정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "관세청",
+      "homepage": "https://kcits.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C1364",
+      "apbaNa": "한국광해광업공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.komir.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0167",
+      "apbaNa": "한국교육개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kedi.re.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0168",
+      "apbaNa": "한국교육과정평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kice.re.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0145",
+      "apbaNa": "한국교육학술정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.keris.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0019",
+      "apbaNa": "한국교통안전공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.kotsa.or.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C0170",
+      "apbaNa": "한국교통연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.koti.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0171",
+      "apbaNa": "한국국방연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국방부",
+      "homepage": "https://www.kida.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0172",
+      "apbaNa": "한국국제교류재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "외교부",
+      "homepage": "www.kf.or.kr",
+      "addrCd": "제주특별자치도"
+    },
+    {
+      "apbaId": "C0379",
+      "apbaNa": "한국국제보건의료재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.kofih.org",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0146",
+      "apbaNa": "한국국제협력단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "외교부",
+      "homepage": "www.koica.go.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0062",
+      "apbaNa": "한국국토정보공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.lx.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0864",
+      "apbaNa": "한국기상산업기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기상청",
+      "homepage": "https://www.kmiti.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0175",
+      "apbaNa": "한국기술교육대학교",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "www.koreatech.ac.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C0631",
+      "apbaNa": "한국나노기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.kanc.re.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0042",
+      "apbaNa": "한국남동발전(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.koenergy.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0043",
+      "apbaNa": "한국남부발전(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kospo.co.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0179",
+      "apbaNa": "한국노동연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kli.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0378",
+      "apbaNa": "한국노인인력개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.kordi.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0045",
+      "apbaNa": "한국농수산식품유통공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.at.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0046",
+      "apbaNa": "한국농어촌공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.ekr.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0422",
+      "apbaNa": "한국농업기술진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농촌진흥청",
+      "homepage": "https://www.koat.or.kr/",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0181",
+      "apbaNa": "한국농촌경제연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.krei.re.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0527",
+      "apbaNa": "한국데이터산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.kdata.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0183",
+      "apbaNa": "한국도로공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.ex.co.kr/",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C1294",
+      "apbaNa": "한국도로공사서비스(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.exservice.co.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0064",
+      "apbaNa": "한국도로교통공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "경찰청",
+      "homepage": "www.koroad.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0922",
+      "apbaNa": "한국도박문제예방치유원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.kcgp.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0066",
+      "apbaNa": "한국동서발전(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.ewp.co.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0844",
+      "apbaNa": "한국등산·트레킹지원센터",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산림청",
+      "homepage": "https://komount.or.kr/",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0184",
+      "apbaNa": "한국디자인진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kidp.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0450",
+      "apbaNa": "한국로봇산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kiria.org",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0185",
+      "apbaNa": "한국마사회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "농림축산식품부",
+      "homepage": "www.kra.co.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0571",
+      "apbaNa": "한국마약퇴치운동본부",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "식품의약품안전처",
+      "homepage": "drugfree.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0222",
+      "apbaNa": "한국무역보험공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "산업통상부",
+      "homepage": "https://www.ksure.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0188",
+      "apbaNa": "한국문학번역원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.ltikorea.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0189",
+      "apbaNa": "한국문화관광연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.kcti.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0320",
+      "apbaNa": "한국문화예술교육진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.arte.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0190",
+      "apbaNa": "한국문화예술위원회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.arko.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0663",
+      "apbaNa": "한국문화정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kcisa.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0192",
+      "apbaNa": "한국문화진흥주식회사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://newseoulgolf.co.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1335",
+      "apbaNa": "한국물기술인증원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.kwtc.or.kr/",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0348",
+      "apbaNa": "한국발명진흥회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "www.kipa.org",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0196",
+      "apbaNa": "한국방송광고진흥공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "방송미디어통신위원회",
+      "homepage": "www.kobaco.co.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0187",
+      "apbaNa": "한국방송통신전파진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.kca.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0152",
+      "apbaNa": "한국법무보호복지공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "법무부",
+      "homepage": "https://koreha.or.kr/",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C0198",
+      "apbaNa": "한국법제연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.klri.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0199",
+      "apbaNa": "한국벤처투자",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.kvic.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0070",
+      "apbaNa": "한국보건복지인재원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.kohi.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0200",
+      "apbaNa": "한국보건사회연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.kihasa.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0201",
+      "apbaNa": "한국보건산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.khidi.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0662",
+      "apbaNa": "한국보건의료연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.neca.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0202",
+      "apbaNa": "한국보건의료인국가시험원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.kuksiwon.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0203",
+      "apbaNa": "한국보훈복지의료공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "국가보훈부",
+      "homepage": "www.bohun.or.kr",
+      "addrCd": "강원도"
+    },
+    {
+      "apbaId": "C0150",
+      "apbaNa": "한국부동산원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.reb.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0205",
+      "apbaNa": "한국사학진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "www.kasfo.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0411",
+      "apbaNa": "한국사회보장정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "보건복지부",
+      "homepage": "http://www.ssis.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0377",
+      "apbaNa": "한국사회복지협의회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.bokji.net",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0456",
+      "apbaNa": "한국사회적기업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "https://www.socialenterprise.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1055",
+      "apbaNa": "한국산림복지진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산림청",
+      "homepage": "https://www.fowi.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0397",
+      "apbaNa": "한국산업기술기획평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.keit.re.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0076",
+      "apbaNa": "한국산업기술시험원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.ktl.re.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0393",
+      "apbaNa": "한국산업기술진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kiat.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0208",
+      "apbaNa": "한국산업단지공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kicox.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0209",
+      "apbaNa": "한국산업안전보건공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "고용노동부",
+      "homepage": "https://kosha.or.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0210",
+      "apbaNa": "한국산업은행",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "금융위원회",
+      "homepage": "http://www.kdb.co.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0211",
+      "apbaNa": "한국산업인력공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "고용노동부",
+      "homepage": "www.hrdkorea.or.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0620",
+      "apbaNa": "한국상하수도협회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kwwa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1367",
+      "apbaNa": "한국생명존중희망재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.kfsp.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0082",
+      "apbaNa": "한국서부발전(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.iwest.co.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C0214",
+      "apbaNa": "한국석유공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "산업통상부",
+      "homepage": "www.knoc.co.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0215",
+      "apbaNa": "한국석유관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산업통상부",
+      "homepage": "http://www.kpetro.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0103",
+      "apbaNa": "한국세라믹기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kicet.re.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0217",
+      "apbaNa": "한국소방산업기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "소방청",
+      "homepage": "www.kfi.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0218",
+      "apbaNa": "한국소비자원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "공정거래위원회",
+      "homepage": "https://www.kca.go.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0220",
+      "apbaNa": "한국수력원자력(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.khnp.co.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C1107",
+      "apbaNa": "한국수목원정원관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "산림청",
+      "homepage": "www.koagi.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0455",
+      "apbaNa": "한국수산자원공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "http://www.fira.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0221",
+      "apbaNa": "한국수자원공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kwater.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C1127",
+      "apbaNa": "한국수자원조사기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kihs.re.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0223",
+      "apbaNa": "한국수출입은행",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "재정경제부",
+      "homepage": "www.koreaexim.go.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1410",
+      "apbaNa": "한국스포츠레저(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kospole.co.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0224",
+      "apbaNa": "한국승강기안전공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "행정안전부",
+      "homepage": "home.koelsa.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C1138",
+      "apbaNa": "한국식품산업클러스터진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://www.foodpolis.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C1100",
+      "apbaNa": "한국식품안전관리인증원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "식품의약품안전처",
+      "homepage": "https://www.haccp.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0594",
+      "apbaNa": "한국양성평등교육진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "http://www.kigepe.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0335",
+      "apbaNa": "한국어촌어항공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.fipa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0412",
+      "apbaNa": "한국언론진흥재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kpf.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0097",
+      "apbaNa": "한국에너지공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "http://www.energy.or.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0389",
+      "apbaNa": "한국에너지기술평가원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.ketep.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0233",
+      "apbaNa": "한국에너지정보문화재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://e-policy.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0901",
+      "apbaNa": "한국여성과학기술인육성재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "https://www.wiset.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0902",
+      "apbaNa": "한국여성인권진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "https://www.stop.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0231",
+      "apbaNa": "한국여성정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kwdi.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0388",
+      "apbaNa": "한국연구재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.nrf.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0908",
+      "apbaNa": "정보통신기획평가원",
+      "parnApbaId": "C0388",
+      "parnApbaNa": "한국연구재단",
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "http://www.iitp.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0232",
+      "apbaNa": "한국영상자료원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.koreafilm.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0849",
+      "apbaNa": "한국영유아보육·교육진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.kicece.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0868",
+      "apbaNa": "한국예술인복지재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.kawf.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0916",
+      "apbaNa": "한국원산지정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "관세청",
+      "homepage": "www.origin.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0234",
+      "apbaNa": "한국원자력안전기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "원자력안전위원회",
+      "homepage": "www.kins.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0932",
+      "apbaNa": "한국원자력안전재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "원자력안전위원회",
+      "homepage": "www.kofons.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0104",
+      "apbaNa": "한국원자력의학원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.kirams.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0448",
+      "apbaNa": "동남권원자력의학원",
+      "parnApbaId": "C0104",
+      "parnApbaNa": "한국원자력의학원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.dirams.re.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0020",
+      "apbaNa": "한국원자력통제기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "원자력안전위원회",
+      "homepage": "https://www.kinac.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0371",
+      "apbaNa": "한국원자력환경공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.korad.or.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C0865",
+      "apbaNa": "한국의료기기안전정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "식품의약품안전처",
+      "homepage": "http://www.nids.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0870",
+      "apbaNa": "한국의료분쟁조정중재원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.k-medi.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0862",
+      "apbaNa": "한국의약품안전관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "식품의약품안전처",
+      "homepage": "https://www.drugsafe.or.kr/",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0399",
+      "apbaNa": "한국인터넷진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.kisa.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0857",
+      "apbaNa": "한국임업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산림청",
+      "homepage": "www.kofpi.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0240",
+      "apbaNa": "한국자산관리공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "금융위원회",
+      "homepage": "http://www.kamco.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0859",
+      "apbaNa": "한국잡월드",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "고용노동부",
+      "homepage": "http://www.koreajobworld.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0243",
+      "apbaNa": "한국장애인개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "https://www.koddi.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0242",
+      "apbaNa": "한국장애인고용공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "고용노동부",
+      "homepage": "https://www.kead.or.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0415",
+      "apbaNa": "한국장학재단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "교육부",
+      "homepage": "www.kosaf.go.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C1042",
+      "apbaNa": "한국재정정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기획예산처",
+      "homepage": "www.fis.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1049",
+      "apbaNa": "한국저작권보호원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.kcopa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0390",
+      "apbaNa": "한국저작권위원회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "www.copyright.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0244",
+      "apbaNa": "한국전기안전공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "http://www.kesco.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0246",
+      "apbaNa": "한국전력거래소",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.kpx.or.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0247",
+      "apbaNa": "한국전력공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "kepco.co.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C1070",
+      "apbaNa": "한국전력국제원자력대학원대학교",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://kings.ac.kr",
+      "addrCd": "울산광역시"
+    },
+    {
+      "apbaId": "C0248",
+      "apbaNa": "한국전력기술주식회사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kepco-enc.com",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C1124",
+      "apbaNa": "한국제품안전관리원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kips.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0256",
+      "apbaNa": "한국조세재정연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kipf.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0257",
+      "apbaNa": "한국조폐공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "재정경제부",
+      "homepage": "www.komsco.com",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0258",
+      "apbaNa": "한국주택금융공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(기금관리형)",
+      "jidtNa": "금융위원회",
+      "homepage": "www.hf.go.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0259",
+      "apbaNa": "한국중부발전(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.komipo.co.kr",
+      "addrCd": "충청남도"
+    },
+    {
+      "apbaId": "C0126",
+      "apbaNa": "한국중소벤처기업유통원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "중소벤처기업부",
+      "homepage": "www.kodma.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0392",
+      "apbaNa": "한국지능정보사회진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "과학기술정보통신부",
+      "homepage": "www.nia.or.kr",
+      "addrCd": "대구광역시"
+    },
+    {
+      "apbaId": "C0416",
+      "apbaNa": "한국지식재산보호원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "https://www.koipa.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0407",
+      "apbaNa": "한국지식재산연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "www.kiip.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0261",
+      "apbaNa": "한국지역난방공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kdhc.co.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C0264",
+      "apbaNa": "한국직업능력연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.krivet.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0268",
+      "apbaNa": "한국철도공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "https://info.korail.com",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0278",
+      "apbaNa": "한국청소년상담복지개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "http://www.kyci.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0276",
+      "apbaNa": "한국청소년정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.nypi.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0447",
+      "apbaNa": "한국청소년활동진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "성평등가족부",
+      "homepage": "www.kywa.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0280",
+      "apbaNa": "한국체육산업개발(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.ksponco.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0149",
+      "apbaNa": "한국출판문화산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "http://www.kpipa.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C1386",
+      "apbaNa": "한국치산기술협회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산림청",
+      "homepage": "https://www.kafet.or.kr",
+      "addrCd": "충청북도"
+    },
+    {
+      "apbaId": "C0395",
+      "apbaNa": "한국콘텐츠진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "문화체육관광부",
+      "homepage": "https://www.kocca.kr/",
+      "addrCd": "전라남도"
+    },
+    {
+      "apbaId": "C1368",
+      "apbaNa": "한국탄소산업진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "산업통상부",
+      "homepage": "www.kcarbon.or.kr",
+      "addrCd": "전라북도"
+    },
+    {
+      "apbaId": "C0396",
+      "apbaNa": "한국토지주택공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "국토교통부",
+      "homepage": "www.lh.or.kr",
+      "addrCd": "경상남도"
+    },
+    {
+      "apbaId": "C0284",
+      "apbaNa": "한국투자공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "재정경제부",
+      "homepage": "www.kic.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0858",
+      "apbaNa": "한국특허기술진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "www.kipro.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0899",
+      "apbaNa": "한국특허전략개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "www.kista.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0340",
+      "apbaNa": "한국특허정보원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "지식재산처",
+      "homepage": "www.kipi.or.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0290",
+      "apbaNa": "한국학중앙연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "교육부",
+      "homepage": "http://www.aks.ac.kr",
+      "addrCd": "경기도"
+    },
+    {
+      "apbaId": "C1053",
+      "apbaNa": "한국한의약진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "보건복지부",
+      "homepage": "www.nikom.or.kr",
+      "addrCd": "경상북도"
+    },
+    {
+      "apbaId": "C0373",
+      "apbaNa": "한국항로표지기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.katon.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0297",
+      "apbaNa": "한국해양과학기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.kiost.ac.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0383",
+      "apbaNa": "극지연구소",
+      "parnApbaId": "C0297",
+      "parnApbaNa": "한국해양과학기술원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "https://www.kopri.re.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C0905",
+      "apbaNa": "선박해양플랜트연구소",
+      "parnApbaId": "C0297",
+      "parnApbaNa": "한국해양과학기술원",
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.kriso.re.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0087",
+      "apbaNa": "한국해양교통안전공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "해양수산부",
+      "homepage": "https://www.komsa.or.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0295",
+      "apbaNa": "한국해양수산개발원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kmi.re.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0296",
+      "apbaNa": "한국해양수산연수원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.seaman.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C0654",
+      "apbaNa": "한국해양조사협회",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.khra.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C1119",
+      "apbaNa": "한국해양진흥공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "www.kobc.or.kr",
+      "addrCd": "부산광역시"
+    },
+    {
+      "apbaId": "C1131",
+      "apbaNa": "한국해외인프라도시개발지원공사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "https://www.kindkorea.or.kr/",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0298",
+      "apbaNa": "한국행정연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "www.kipa.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0299",
+      "apbaNa": "한국형사·법무정책연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "http://www.kicj.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0400",
+      "apbaNa": "한국환경공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.keco.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C1062",
+      "apbaNa": "한국환경보전원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.keci.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0391",
+      "apbaNa": "한국환경산업기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "준정부기관(위탁집행형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.keiti.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0302",
+      "apbaNa": "한국환경연구원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국무조정실",
+      "homepage": "https://www.kei.re.kr",
+      "addrCd": "세종특별자치시"
+    },
+    {
+      "apbaId": "C0920",
+      "apbaNa": "한식진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "농림축산식품부",
+      "homepage": "https://www.hansik.or.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0306",
+      "apbaNa": "한전KDN",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kdn.com",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0305",
+      "apbaNa": "한전KPS(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.kps.co.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C1352",
+      "apbaNa": "한전MCS(주)",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "https://www.kepcomcs.co.kr",
+      "addrCd": "전남광주통합특별시"
+    },
+    {
+      "apbaId": "C0236",
+      "apbaNa": "한전원자력연료주식회사",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "기후에너지환경부",
+      "homepage": "www.knfc.co.kr",
+      "addrCd": "대전광역시"
+    },
+    {
+      "apbaId": "C0900",
+      "apbaNa": "항공안전기술원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "국토교통부",
+      "homepage": "www.kiast.or.kr",
+      "addrCd": "인천광역시"
+    },
+    {
+      "apbaId": "C0374",
+      "apbaNa": "해양수산과학기술진흥원",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "기타공공기관",
+      "jidtNa": "해양수산부",
+      "homepage": "https://www.kimst.re.kr",
+      "addrCd": "서울특별시"
+    },
+    {
+      "apbaId": "C0533",
+      "apbaNa": "해양환경공단",
+      "parnApbaId": null,
+      "parnApbaNa": null,
+      "typeNa": "공기업(준시장형)",
+      "jidtNa": "해양수산부",
+      "homepage": "www.koem.or.kr",
+      "addrCd": "서울특별시"
+    }
+  ]
+}

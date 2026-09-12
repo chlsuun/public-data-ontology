@@ -1,0 +1,1566 @@
+{
+  "entries": [
+    {
+      "id": "data-go",
+      "research_name": "공공데이터포털",
+      "requested_url": "https://www.data.go.kr/",
+      "region": "전국",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kosis",
+      "research_name": "KOSIS 국가통계포털",
+      "requested_url": "https://kosis.kr/index/index.do",
+      "region": "전국",
+      "topics": [
+        "통계",
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "index",
+      "research_name": "지표누리",
+      "requested_url": "https://www.index.go.kr/",
+      "region": "전국",
+      "topics": [
+        "통계",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "mdis",
+      "research_name": "MDIS 마이크로데이터 서비스",
+      "requested_url": "https://mdis.mods.go.kr/",
+      "region": "전국",
+      "topics": [
+        "통계",
+        "연구"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "sgis",
+      "research_name": "SGIS 통계지리정보서비스",
+      "requested_url": "https://sgis.mods.go.kr/",
+      "region": "전국",
+      "topics": [
+        "통계",
+        "공간"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "sdc",
+      "research_name": "통계데이터센터",
+      "requested_url": "https://data.mods.go.kr/",
+      "region": "전국",
+      "topics": [
+        "통계",
+        "연구"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "ecos",
+      "research_name": "한국은행 경제통계시스템",
+      "requested_url": "https://ecos.bok.or.kr/",
+      "region": "전국",
+      "topics": [
+        "경제",
+        "금융",
+        "통계"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "seoul",
+      "research_name": "서울 열린데이터광장",
+      "requested_url": "https://data.seoul.go.kr/",
+      "region": "서울특별시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gyeonggi",
+      "research_name": "경기데이터드림",
+      "requested_url": "https://data.gg.go.kr/",
+      "region": "경기도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "busan",
+      "research_name": "부산 Big-데이터웨이브",
+      "requested_url": "https://data.busan.go.kr/",
+      "region": "부산광역시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "daegu",
+      "research_name": "D-데이터허브",
+      "requested_url": "https://data.daegu.go.kr/",
+      "region": "대구광역시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "incheon",
+      "research_name": "인천데이터포털",
+      "requested_url": "https://data.incheon.go.kr/",
+      "region": "인천광역시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "ulsan",
+      "research_name": "울산광역시 데이터포털",
+      "requested_url": "https://data.ulsan.go.kr/",
+      "region": "울산광역시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gwangju",
+      "research_name": "광주권 빅데이터 플랫폼",
+      "requested_url": "https://bigdata.gwangju.go.kr/",
+      "region": "전남광주통합특별시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "daejeon",
+      "research_name": "대전 데이터 포털",
+      "requested_url": "https://openlab.daejeon.go.kr/",
+      "region": "대전광역시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "sejong",
+      "research_name": "세종시 데이터 제공처 조사",
+      "requested_url": "https://www.sejong.go.kr/",
+      "region": "세종특별자치시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "interstitial_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "chungbuk",
+      "research_name": "충청북도 데이터허브",
+      "requested_url": "https://data.chungbuk.go.kr/",
+      "region": "충청북도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "chungnam",
+      "research_name": "충남 데이터포털 올담",
+      "requested_url": "https://alldam.chungnam.go.kr/",
+      "region": "충청남도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "jeonbuk",
+      "research_name": "전북특별자치도 빅데이터 허브",
+      "requested_url": "https://www.bigdatahub.go.kr/",
+      "region": "전북특별자치도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gyeongbuk",
+      "research_name": "경북 공공데이터 제공처 조사",
+      "requested_url": "https://www.gb.go.kr/",
+      "region": "경상북도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "interstitial_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gyeongnam",
+      "research_name": "경남 빅데이터 허브플랫폼",
+      "requested_url": "https://bigdata.gyeongnam.go.kr/",
+      "region": "경상남도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gangwon",
+      "research_name": "강원 데이터 제공처 조사",
+      "requested_url": "https://state.gwd.go.kr/",
+      "region": "강원특별자치도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "jeju",
+      "research_name": "제주데이터허브",
+      "requested_url": "https://www.jejudatahub.net/",
+      "region": "제주특별자치도",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gunsan",
+      "research_name": "군산시 데이터포털",
+      "requested_url": "https://www.gunsan.go.kr/data/",
+      "region": "전북특별자치도 군산시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kma",
+      "research_name": "기상자료개방포털",
+      "requested_url": "https://data.kma.go.kr/",
+      "region": "전국",
+      "topics": [
+        "기상"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kma-api",
+      "research_name": "기상청 API허브",
+      "requested_url": "https://apihub.kma.go.kr/",
+      "region": "전국",
+      "topics": [
+        "기상"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "vworld",
+      "research_name": "공간정보 오픈플랫폼 VWorld",
+      "requested_url": "https://www.vworld.kr/",
+      "region": "전국",
+      "topics": [
+        "공간",
+        "국토"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "ngii",
+      "research_name": "국토정보플랫폼",
+      "requested_url": "https://map.ngii.go.kr/",
+      "region": "전국",
+      "topics": [
+        "공간",
+        "국토"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "address",
+      "research_name": "주소기반산업지원서비스",
+      "requested_url": "https://business.juso.go.kr/",
+      "region": "전국",
+      "topics": [
+        "공간",
+        "행정"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "environment",
+      "research_name": "환경 데이터 포털",
+      "requested_url": "https://www.bigdata-environment.kr/",
+      "region": "전국",
+      "topics": [
+        "환경"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "airkorea",
+      "research_name": "에어코리아",
+      "requested_url": "https://www.airkorea.or.kr/",
+      "region": "전국",
+      "topics": [
+        "환경"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "water",
+      "research_name": "국가수자원관리종합정보시스템",
+      "requested_url": "https://www.wamis.go.kr/",
+      "region": "전국",
+      "topics": [
+        "환경",
+        "재난"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "hira",
+      "research_name": "보건의료데이터개방시스템",
+      "requested_url": "https://opendata.hira.or.kr/",
+      "region": "전국",
+      "topics": [
+        "보건",
+        "복지"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "nhis",
+      "research_name": "국민건강보험 자료공유서비스",
+      "requested_url": "https://nhiss.nhis.or.kr/",
+      "region": "전국",
+      "topics": [
+        "보건",
+        "복지",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kdca",
+      "research_name": "질병관리청 감염병포털",
+      "requested_url": "https://dportal.kdca.go.kr/",
+      "region": "전국",
+      "topics": [
+        "보건"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "foodsafety",
+      "research_name": "식품안전나라",
+      "requested_url": "https://www.foodsafetykorea.go.kr/",
+      "region": "전국",
+      "topics": [
+        "식품",
+        "보건"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "neis",
+      "research_name": "나이스 교육정보 개방 포털",
+      "requested_url": "https://open.neis.go.kr/",
+      "region": "전국",
+      "topics": [
+        "교육"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kess",
+      "research_name": "교육통계서비스",
+      "requested_url": "https://kess.kedi.re.kr/",
+      "region": "전국",
+      "topics": [
+        "교육",
+        "통계"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "edmgr",
+      "research_name": "교육데이터플랫폼",
+      "requested_url": "https://edmgr.kr/",
+      "region": "전국",
+      "topics": [
+        "교육"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "schoolinfo",
+      "research_name": "학교알리미",
+      "requested_url": "https://www.schoolinfo.go.kr/",
+      "region": "전국",
+      "topics": [
+        "교육"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "academyinfo",
+      "research_name": "대학알리미",
+      "requested_url": "https://www.academyinfo.go.kr/",
+      "region": "전국",
+      "topics": [
+        "교육"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "culture",
+      "research_name": "문화데이터광장",
+      "requested_url": "https://www.culture.go.kr/data/",
+      "region": "전국",
+      "topics": [
+        "문화"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "tourapi",
+      "research_name": "한국관광공사 TourAPI",
+      "requested_url": "https://api.visitkorea.or.kr/",
+      "region": "전국",
+      "topics": [
+        "관광",
+        "문화"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "tourlab",
+      "research_name": "한국관광 데이터랩",
+      "requested_url": "https://datalab.visitkorea.or.kr/",
+      "region": "전국",
+      "topics": [
+        "관광",
+        "문화"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "library",
+      "research_name": "도서관 정보나루",
+      "requested_url": "https://www.data4library.kr/",
+      "region": "전국",
+      "topics": [
+        "문화",
+        "교육"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "mafra",
+      "research_name": "농림축산식품 공공데이터포털",
+      "requested_url": "https://data.mafra.go.kr/main.do",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "식품"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "forest",
+      "research_name": "산림 공공데이터 포털",
+      "requested_url": "https://data.forest.go.kr/",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "환경"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "rda",
+      "research_name": "농촌진흥청 공공데이터 제공처",
+      "requested_url": "https://data.rda.go.kr/",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "연구"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "marine",
+      "research_name": "해양수산부 공공데이터 제공처",
+      "requested_url": "https://www.mof.go.kr/",
+      "region": "전국",
+      "topics": [
+        "해양",
+        "수산",
+        "물류"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "ktdb",
+      "research_name": "국가교통DB",
+      "requested_url": "https://www.ktdb.go.kr/",
+      "region": "전국",
+      "topics": [
+        "교통",
+        "물류"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "its",
+      "research_name": "국가교통정보센터",
+      "requested_url": "https://www.its.go.kr/",
+      "region": "전국",
+      "topics": [
+        "교통"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "expressway",
+      "research_name": "고속도로 공공데이터 포털",
+      "requested_url": "https://data.ex.co.kr/",
+      "region": "전국",
+      "topics": [
+        "교통"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "rtms",
+      "research_name": "실거래가 공개시스템",
+      "requested_url": "https://rt.molit.go.kr/",
+      "region": "전국",
+      "topics": [
+        "주택",
+        "국토"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "safemap",
+      "research_name": "생활안전지도",
+      "requested_url": "https://www.safemap.go.kr/",
+      "region": "전국",
+      "topics": [
+        "재난",
+        "공간"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "safekorea",
+      "research_name": "국민재난안전포털",
+      "requested_url": "https://www.safekorea.go.kr/",
+      "region": "전국",
+      "topics": [
+        "재난"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "epsis",
+      "research_name": "전력통계정보시스템",
+      "requested_url": "https://epsis.kpx.or.kr/",
+      "region": "전국",
+      "topics": [
+        "에너지",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kepco",
+      "research_name": "전력데이터 개방 포털",
+      "requested_url": "https://bigdata.kepco.co.kr/",
+      "region": "전국",
+      "topics": [
+        "에너지"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "opendart",
+      "research_name": "금융감독원 OpenDART",
+      "requested_url": "https://opendart.fss.or.kr/",
+      "region": "전국",
+      "topics": [
+        "금융",
+        "산업"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "fisis",
+      "research_name": "금융통계정보시스템",
+      "requested_url": "https://fisis.fss.or.kr/",
+      "region": "전국",
+      "topics": [
+        "금융",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "openfiscal",
+      "research_name": "열린재정",
+      "requested_url": "https://www.openfiscaldata.go.kr/",
+      "region": "전국",
+      "topics": [
+        "재정"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "lofin",
+      "research_name": "지방재정365",
+      "requested_url": "https://www.lofin365.go.kr/",
+      "region": "전국",
+      "topics": [
+        "재정",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "alio",
+      "research_name": "ALIO 공공기관 경영정보 공개시스템",
+      "requested_url": "https://alio.go.kr/",
+      "region": "전국",
+      "topics": [
+        "행정",
+        "산업",
+        "고용"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "cleaneye",
+      "research_name": "클린아이 지방공공기관 경영정보 공개시스템",
+      "requested_url": "https://www.cleaneye.go.kr/",
+      "region": "전국",
+      "topics": [
+        "행정",
+        "산업"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "pps",
+      "research_name": "조달청 공공데이터 제공 안내",
+      "requested_url": "https://www.pps.go.kr/kor/content.do?key=00122",
+      "region": "전국",
+      "topics": [
+        "조달",
+        "재정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "work24",
+      "research_name": "고용24",
+      "requested_url": "https://www.work24.go.kr/",
+      "region": "전국",
+      "topics": [
+        "고용",
+        "복지"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "bokjiro",
+      "research_name": "복지로",
+      "requested_url": "https://www.bokjiro.go.kr/",
+      "region": "전국",
+      "topics": [
+        "복지"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "law",
+      "research_name": "국가법령정보센터",
+      "requested_url": "https://www.law.go.kr/",
+      "region": "전국",
+      "topics": [
+        "법령",
+        "행정"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "assembly",
+      "research_name": "열린국회정보",
+      "requested_url": "https://open.assembly.go.kr/",
+      "region": "전국",
+      "topics": [
+        "법령",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "nec",
+      "research_name": "중앙선거관리위원회 개방포털",
+      "requested_url": "https://www.nec.go.kr/",
+      "region": "전국",
+      "topics": [
+        "선거",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "ntis",
+      "research_name": "국가과학기술지식정보서비스",
+      "requested_url": "https://www.ntis.go.kr/",
+      "region": "전국",
+      "topics": [
+        "과학기술",
+        "연구"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "dataon",
+      "research_name": "국가연구데이터플랫폼 DataON",
+      "requested_url": "https://dataon.kisti.re.kr/",
+      "region": "전국",
+      "topics": [
+        "과학기술",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "scienceon",
+      "research_name": "과학기술 지식인프라 ScienceON",
+      "requested_url": "https://scienceon.kisti.re.kr/",
+      "region": "전국",
+      "topics": [
+        "과학기술",
+        "연구"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kipris",
+      "research_name": "KIPRISPlus 특허정보 활용서비스",
+      "requested_url": "https://plus.kipris.or.kr/",
+      "region": "전국",
+      "topics": [
+        "지식재산",
+        "산업"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "aihub",
+      "research_name": "AI Hub",
+      "requested_url": "https://www.aihub.or.kr/",
+      "region": "전국",
+      "topics": [
+        "과학기술",
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "bigdata-map",
+      "research_name": "통합 데이터지도",
+      "requested_url": "https://www.bigdata-map.kr/",
+      "region": "전국",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "koica",
+      "research_name": "KOICA 오픈데이터포털",
+      "requested_url": "https://www.oda.go.kr/",
+      "region": "국제",
+      "topics": [
+        "국제협력",
+        "외교"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "unification",
+      "research_name": "통일부 북한정보포털",
+      "requested_url": "https://nkinfo.unikorea.go.kr/",
+      "region": "북한",
+      "topics": [
+        "통일",
+        "통계"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "archives",
+      "research_name": "국가기록원",
+      "requested_url": "https://www.archives.go.kr/",
+      "region": "전국",
+      "topics": [
+        "기록",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "yongsan",
+      "research_name": "용산구 빅데이터플랫폼",
+      "requested_url": "https://bigdata.yongsan.go.kr/usr/index.do",
+      "region": "서울특별시 용산구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "jongno",
+      "research_name": "종로구 빅데이터플랫폼",
+      "requested_url": "https://dp.jongno.go.kr/jrcitizen/main",
+      "region": "서울특별시 종로구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "response_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "seodaemun",
+      "research_name": "서대문구 공공데이터 플랫폼",
+      "requested_url": "https://www.sdm.go.kr/sdmbigdata/index.do",
+      "region": "서울특별시 서대문구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "dongjak",
+      "research_name": "동작구 빅데이터 플랫폼",
+      "requested_url": "https://bigdata.dongjak.go.kr/",
+      "region": "서울특별시 동작구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "yeosu",
+      "research_name": "여수시 빅데이터 포털",
+      "requested_url": "https://www.yeosu.go.kr/data",
+      "region": "전남광주통합특별시 여수시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gwangsan",
+      "research_name": "광산구 공공데이터플랫폼",
+      "requested_url": "https://imap.gwangsan.go.kr",
+      "region": "전남광주통합특별시 광산구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "becos",
+      "research_name": "부산경제통계포털",
+      "requested_url": "http://www.becos.kr/",
+      "region": "부산광역시",
+      "topics": [
+        "경제",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "yeonje",
+      "research_name": "연제구 데이터포털",
+      "requested_url": "https://www.yeonje.go.kr/opendata/main.do",
+      "region": "부산광역시 연제구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "yeonsu",
+      "research_name": "연수구 데이터플랫폼",
+      "requested_url": "https://data.yeonsu.go.kr",
+      "region": "인천광역시 연수구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "daedeok",
+      "research_name": "대덕구 공공빅데이터포털",
+      "requested_url": "http://bigdata.daedeok.go.kr/bigdata/",
+      "region": "대전광역시 대덕구",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "pyeongtaek",
+      "research_name": "평택시 데이터포털",
+      "requested_url": "https://www.pyeongtaek.go.kr/data/main.do",
+      "region": "경기도 평택시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gwacheon",
+      "research_name": "과천통계포털",
+      "requested_url": "https://www.gccity.go.kr/stat/main.do",
+      "region": "경기도 과천시",
+      "topics": [
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "chuncheon",
+      "research_name": "춘천시 스마트행정 데이터플랫폼",
+      "requested_url": "https://www.chuncheon.go.kr/data/",
+      "region": "강원특별자치도 춘천시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "cheonan",
+      "research_name": "천안시 데이터 포털",
+      "requested_url": "https://www.cheonan.go.kr/dataportal/dataportal/index.do",
+      "region": "충청남도 천안시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "nonsan",
+      "research_name": "논산시 데이터포털",
+      "requested_url": "https://www.nonsan.go.kr/bigdata/dataportal.do",
+      "region": "충청남도 논산시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "seosan",
+      "research_name": "서산시 데이터 포털",
+      "requested_url": "https://www.seosan.go.kr/dataportal/",
+      "region": "충청남도 서산시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "buyeo",
+      "research_name": "부여군 데이터 포털",
+      "requested_url": "https://buyeo.go.kr/dataportal/homepage/index.do",
+      "region": "충청남도 부여군",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "jeonju",
+      "research_name": "전주시 데이터포털",
+      "requested_url": "https://jeonju.go.kr/data/main/main.do",
+      "region": "전북특별자치도 전주시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "changwon",
+      "research_name": "창원시 데이터 포털",
+      "requested_url": "https://bigdata.changwon.go.kr/portal/main/main.do",
+      "region": "경상남도 창원시",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "gimhae",
+      "research_name": "김해 공공데이터플랫폼",
+      "requested_url": "http://stat.gimhae.go.kr/",
+      "region": "경상남도 김해시",
+      "topics": [
+        "통계",
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "jeju-stat",
+      "research_name": "제주통계포털",
+      "requested_url": "https://www.jeju.go.kr/stats/index.htm",
+      "region": "제주특별자치도",
+      "topics": [
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "hcdl",
+      "research_name": "보건의료 빅데이터 플랫폼",
+      "requested_url": "https://hcdl.mohw.go.kr/",
+      "region": "전국",
+      "topics": [
+        "보건",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "grac",
+      "research_name": "게임물관리위원회 Open API",
+      "requested_url": "https://www.grac.or.kr/OpenBook/OpenAPI.aspx",
+      "region": "전국",
+      "topics": [
+        "문화",
+        "게임"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kspo",
+      "research_name": "국민체육진흥공단 Open API",
+      "requested_url": "https://www.kspo.or.kr/kspo/main/contents.do?menuNo=200052",
+      "region": "전국",
+      "topics": [
+        "체육"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "mcst-stat",
+      "research_name": "문화통계포털",
+      "requested_url": "https://stat.mcst.go.kr/portal/main",
+      "region": "전국",
+      "topics": [
+        "문화",
+        "통계"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "livestock",
+      "research_name": "스마트축산 빅데이터플랫폼",
+      "requested_url": "https://smart.ekape.or.kr/smart/pf/main.do",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "식품"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kdi-api",
+      "research_name": "KDI Open API",
+      "requested_url": "https://www.kdi.re.kr/share/openAPI",
+      "region": "전국",
+      "topics": [
+        "경제",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "airport-api",
+      "research_name": "한국공항공사 Open API",
+      "requested_url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=1270",
+      "region": "전국",
+      "topics": [
+        "교통",
+        "물류"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kadx",
+      "research_name": "농식품빅데이터거래소",
+      "requested_url": "https://kadx.co.kr/",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "식품"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "atfis",
+      "research_name": "식품산업통계정보",
+      "requested_url": "https://www.atfis.or.kr/home/index.do",
+      "region": "전국",
+      "topics": [
+        "식품",
+        "산업",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "krei-api",
+      "research_name": "한국농촌경제연구원 공공데이터 Open API",
+      "requested_url": "https://www.krei.re.kr/krei/page/474",
+      "region": "전국",
+      "topics": [
+        "농림",
+        "경제",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "bigdata-culture",
+      "research_name": "문화 빅데이터 플랫폼",
+      "requested_url": "https://www.bigdata-culture.kr/bigdata/user/main.do",
+      "region": "전국",
+      "topics": [
+        "문화"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kvic-api",
+      "research_name": "한국벤처투자 펀드현황 Open API",
+      "requested_url": "https://www.kvic.or.kr/information-center/public-data/public-data-open-api",
+      "region": "전국",
+      "topics": [
+        "금융",
+        "산업"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kihasa",
+      "research_name": "보건복지 데이터포털",
+      "requested_url": "https://data.kihasa.re.kr/",
+      "region": "전국",
+      "topics": [
+        "보건",
+        "복지",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "klri",
+      "research_name": "글로벌입법데이터플랫폼",
+      "requested_url": "https://klri.re.kr/Platform/",
+      "region": "국제",
+      "topics": [
+        "법령",
+        "연구"
+      ],
+      "observation_status": "interstitial_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "hrdk-api",
+      "research_name": "HRDK 오픈 API",
+      "requested_url": "https://openapi.hrdkorea.or.kr/main",
+      "region": "전국",
+      "topics": [
+        "고용",
+        "교육"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "koddi-stat",
+      "research_name": "장애통계 데이터포털",
+      "requested_url": "https://koddi.or.kr/stat/html/user/main/main",
+      "region": "전국",
+      "topics": [
+        "복지",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kocca-api",
+      "research_name": "한국콘텐츠진흥원 Open API",
+      "requested_url": "https://www.kocca.kr/kocca/subPage.do?menuNo=204795",
+      "region": "전국",
+      "topics": [
+        "문화",
+        "산업"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kcarbon-stat",
+      "research_name": "탄소산업 통계포털",
+      "requested_url": "https://stat.kcarbon.or.kr/main",
+      "region": "전국",
+      "topics": [
+        "산업",
+        "통계"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "patent-bigdata",
+      "research_name": "특허 빅데이터 포털",
+      "requested_url": "https://biz.kista.re.kr/pbcenter/",
+      "region": "전국",
+      "topics": [
+        "지식재산",
+        "산업"
+      ],
+      "observation_status": "fetch_unresolved",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "kei-data",
+      "research_name": "KEI 데이터 포털",
+      "requested_url": "https://data.kei.re.kr",
+      "region": "전국",
+      "topics": [
+        "환경",
+        "연구"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "nec-data",
+      "research_name": "중앙선거관리위원회 공공데이터 개방",
+      "requested_url": "http://data.nec.go.kr/open-data/info.do",
+      "region": "전국",
+      "topics": [
+        "선거",
+        "행정"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "education-map",
+      "research_name": "교육데이터 활용·지원 서비스",
+      "requested_url": "https://data.edmgr.kr/datamap/",
+      "region": "전국",
+      "topics": [
+        "교육",
+        "전분야"
+      ],
+      "observation_status": "title_only",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "koreaconnect",
+      "research_name": "디지털융합플랫폼",
+      "requested_url": "https://portal.koreaconnect.kr/user/ma/main",
+      "region": "전국",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "body_observed",
+      "scope_origin": "domestic_v0.2",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "oecd",
+      "research_name": "OECD Data Explorer",
+      "requested_url": "https://data-explorer.oecd.org/",
+      "region": "국제",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "indicator_referrals_observed",
+      "scope_origin": "international_v0.3",
+      "dataset_catalog_collected": false
+    },
+    {
+      "id": "worldbank",
+      "research_name": "World Bank Open Data",
+      "requested_url": "https://data.worldbank.org/",
+      "region": "국제",
+      "topics": [
+        "전분야"
+      ],
+      "observation_status": "selected_indicator_metadata_verified",
+      "scope_origin": "international_v0.3",
+      "dataset_catalog_collected": false
+    }
+  ],
+  "complete": false,
+  "note": "국내 조사 122개를 유지하고 국제 제공처 2개를 추가. 예시 자료 6개는 제품 범위의 제한이 아님."
+}

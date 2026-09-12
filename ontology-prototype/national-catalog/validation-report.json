@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "등록부 ID 유일성",
+      "passed": true,
+      "detail": 122
+    },
+    {
+      "name": "모든 제공처의 관찰 근거 존재",
+      "passed": true,
+      "detail": 736
+    },
+    {
+      "name": "상태 enum과 합계 일치",
+      "passed": true,
+      "detail": {
+        "body_observed": 75,
+        "response_only": 13,
+        "title_only": 24,
+        "interstitial_observed": 3,
+        "fetch_unresolved": 7
+      }
+    },
+    {
+      "name": "페이지 접근과 자료 API·전량수집 분리",
+      "passed": true,
+      "detail": "기관목록 ALIO 조회 성공과 개별 자료 API 검증을 혼동하지 않음"
+    },
+    {
+      "name": "이용 조건 미확인을 허용으로 바꾸지 않음",
+      "passed": true,
+      "detail": "실제 자료·행위별 검토 전"
+    },
+    {
+      "name": "후보 기관 관계는 실제 운영 사실로 출력하지 않음",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "확인된 링크·운영 관계의 근거 연결",
+      "passed": true,
+      "detail": {
+        "missing_facts": [],
+        "bad_evidence": []
+      }
+    },
+    {
+      "name": "포털·자료 동일성 자동 선언 없음",
+      "passed": true,
+      "detail": "owl:sameAs 0개"
+    },
+    {
+      "name": "데이터목록 미확보 항목을 Catalog로 과장하지 않음",
+      "passed": true,
+      "detail": "현 단계는 ServiceEntry로 표현"
+    },
+    {
+      "name": "ALIO 출처의 전체 페이지 수집·식별자 중복 확인",
+      "passed": true,
+      "detail": {
+        "source_rows": 355,
+        "reported": 355,
+        "pages": 36
+      }
+    },
+    {
+      "name": "전국 완료와 출처별 수집 완료 구별",
+      "passed": true,
+      "detail": [
+        "대학교 개별 기관 목록 미확보",
+        "지방공공기관 전체 목록 미확보",
+        "중앙기관 소속기관 전체 목록 미확보",
+        "출처 사이 중복 기관·조직변경 대응 미검증",
+        "기관별 데이터 제공처 전수조사 미완료"
+      ]
+    },
+    {
+      "name": "홈페이지 탐색 manifest 완료 및 유일성",
+      "passed": true,
+      "detail": {
+        "targets": 600,
+        "attempted": 600,
+        "pages_with_candidates": 265,
+        "candidate_links": 737,
+        "scope": "One public landing page per listed homepage; not a full website crawl or portal verification",
+        "complete_for_manifest": true,
+        "national_census_complete": false
+      }
+    },
+    {
+      "name": "추가 경로 후보의 기관·관찰 근거 유효성",
+      "passed": true,
+      "detail": 703
+    },
+    {
+      "name": "RDF 스키마와 등록부 재파싱 성공",
+      "passed": true,
+      "detail": {
+        "schema_triples": 129,
+        "registry_triples": 4918
+      }
+    }
+  ],
+  "scope": "참조·상태·출처집계·RDF 검증; 원본 데이터 품질·법률·자료 API 검증 제외"
+}

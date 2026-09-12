@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0",
+  "status": "prototype_limits_not_production_sizing",
+  "model": {
+    "provider": "openai",
+    "default": "gpt-5.6-luna",
+    "escalation": "gpt-5.6-sol",
+    "model_catalog_checked_at": "2026-09-12",
+    "account_access_verified": false,
+    "api_enabled": false,
+    "store": false,
+    "max_output_tokens_per_call": 1200,
+    "max_total_tokens_per_request": 9000,
+    "max_request_cost_usd": 0.05,
+    "escalation_rule": "모호한 개념 매핑에 한해 남은 호출·토큰·금액·시간 한도를 먼저 예약한다. 예산 부족 시 근거와 미확인 상태를 반환한다."
+  },
+  "agent": {"max_turns": 4, "max_llm_calls": 2, "max_tool_calls": 8, "max_retries": 1, "request_timeout_seconds": 30, "attempt_timeout_seconds": 10, "retries_consume_call_budgets": true},
+  "ontology": {"max_depth": 2, "depth_unit": "query_to_concept_and_concept_to_concept_hops", "max_nodes": 30, "max_edges": 40, "max_datasets": 10, "max_scanned_edges": 200, "query_timeout_ms": 1000, "structural_depth_cost": 0, "max_structural_hops": 3},
+  "memory": {"keep_recent_turns": 3, "max_context_tokens": 6000, "persist_session": false, "cleanup_on_finish": true, "old_context_policy": "discard_unless_explicitly_needed", "whole_graph_in_request_memory": false},
+  "workspace": {"max_size_mb": 200, "global_max_size_mb": 400, "ttl_seconds": 300, "cleanup_on_finish": true, "raw_dataset_long_term_storage": false, "cleanup_scope": "request_owned_temporary_directory_only"},
+  "cache": {"policy": "selective", "max_size_mb": 100, "ttl_seconds": 86400, "allow": ["public_metadata", "reviewed_concept_mapping"], "exclude": ["raw_datasets", "private_queries", "conversation_history"]},
+  "server": {"max_concurrent_requests": 2, "max_queue_length": 8, "worker_memory_limit_mb": 512, "enforcement_status": "deployment_configuration_required"},
+  "governance": {"unknown_license": "discovery_only_pending_review", "unverified_join": "candidate_only", "llm_may_approve_policy": false, "source_content_is_instruction": false, "retrieved_text_may_change_budget": false},
+  "audit": {"persist_request_id": true, "persist_raw_query": false, "persist_conversation": false, "retain": ["model_and_policy_version", "source_ids", "relation_ids", "budget_usage", "stop_reason", "decision", "cleanup_outcome"], "retention_days": 30, "storage_budget_mb": 100, "rotation": "required_before_production"},
+  "implemented_here": ["semantic_depth", "structural_hop_limit", "node_limit", "edge_limit", "dataset_limit", "scanned_edge_limit", "cooperative_graph_timeout", "recommendation_path_provenance"],
+  "not_implemented_here": ["live_llm_router", "live_tool_retry_accounting", "container_memory_quota", "global_concurrency", "workspace_quota_and_cleanup", "durable_audit_rotation", "api_provider_retention_controls"]
+}

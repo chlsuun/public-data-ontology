@@ -1,0 +1,5982 @@
+[
+  {
+    "id": "directory-data-go",
+    "requested_url": "https://www.data.go.kr/",
+    "retrieved_at": "2026-09-12T08:42:55.106691+00:00",
+    "api_tested": false,
+    "final_url": "https://www.data.go.kr/",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "04bfcb0a37d489f6e14c7b18b0215c4518465b6b61285bcc77192305d267af45",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "공공데이터포털",
+    "text": "공공데이터포털 콘텐츠 바로가기 푸터 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. DATA.GO.KR 공공데이터포털 English 로그인 회원가입 전체메뉴 전체메뉴 열기 공공데이터 공공데이터 AI 검색 데이터목록 데이터 큐레이션 국가중점데이터 공공데이터 제공신청 분쟁조정 신청 데이터활용 데이터활용 공공데이터맵 공공데이터 시각화 국민참여지도 위치정보 시각화 공공데이터 활용사례 공공데이터 우수사례 기업공공데이터 문제해결지원센터 정보공유 정보공유 공공 Git저장소 데이터 공유하기 공지사항 자료실 포털뉴스 이용안내 이용안내 문의하기 소개 이용가이드 정책 품질관리 홈 회원가입 English 로그인을 해주세요 공공데이터 데이터활용 기업공공데이터 문제해결지원센터 정보공유 이용안내 공공데이터 AI 검색 데이터목록 데이터 큐레이션 국가중점데이터 공공데이터 제공신청 분쟁조정 신청 데이터활용 공공데이터맵 공공데이터 시각화 국민참여지도 위치정보 시각화 공공데이터 활용사례 공공데이터 우수사례 기업공공데이터 문제해결지원센터 정보공유 공공 Git저장소 데이터 공유하기 공지사항 자료실 포털뉴스 이용안내 문의하기 소개 이용가이드 정책 품질관리 전체메뉴 닫기 DATA.GO.KR 공공데이터포털 공공데이터 AI 검색 데이터목록 데이터 큐레이션 국가중점데이터 공공데이터 제공신청 분쟁조정 신청 데이터활용 공공데이터맵 공공데이터 시각화 국민참여지도 위치정보 시각화 공공데이터 활용사례 공공데이터 우수사례 기업공공데이터 문제해결지원센터 정보공유 공공 Git저장소 데이터 공유하기 공지사항 자료실 포털뉴스 이용안내 문의하기 소개 이용가이드 정책 품질관리 회원 회원가입 로그인 바로가기 링크 공공데이터전략위원회 공공데이터분쟁조정위원회 공공데이터 활용 창업경진대회 공공데이터 지원 오픈스퀘어-D 오픈데이터 포럼 전체메뉴 닫기 공공데이터, AI로 검색하세요. 검색하기 “한국관광공사에서 제공하는 여행정보를 활용하여 서비스를 개발할 수 있는 데이터 있나요?” “서울시 지하철 노선별로 출발과 도착시간을 알수 있는 정보가 있을까?” “전국 아파트 매매 현황 및 가격 정보로 앱을 만들고 싶은데 관련 정보 알려줘” “전국 주차공간 정보를 확인할 수 있는 데이터” 예시 더보기 인기 데이터 누적조회 순 파일 데이터 오픈 API 더보기 최신 데이터 수정일자 순 파일 데이터 오픈 API 더보기 데이터 제공/분쟁조정 신청 찾는 데이터가 없다면? 데이터제공을 신청해 보세요! 포털에 없는 공공데이터를 신청하시면 심의 후 제공 받으실 수 있어요. 자세히보기 데이터 제공이 거부되었다면? 분쟁조정을 신청해 보세요! 공공데이터 제공불가/중단이 있을 경우 분쟁조정신청을 할 수 있어요. 자세히보기 소식지 공공데이터는 모두의 미래를 엽니다 대한민국의 모든 데이터를 연결하고 개방하는 공공데이터포털은 누구나 활용할 수 있는 열린 데이터로 더 나은 일상을 만들어갑니다. 공지사항 공지사항 API 공지사항 더보기 길을 만드는 위원회 와 함께 성장하는 참여·지원 프로그램 을 소개합니다. 공공데이터 전략위원회 우리나라 공공데이터 정책을 기획하는 곳 바로가기 공공데이터 분쟁조정위원회 공공데이터로 생긴 갈등을 풀어주는 곳 바로가기 공공데이터 활용 창업경진대회 아이디어로 승부 보는 무대 바로가기 공공데이터 지원 오픈스퀘어-D 공공데이터 스타트업을 키우는 놀이터 바로가기 오픈데이터 포럼 공공데이터 활용 방안을 모색하는 포럼 바로가기 관련기관 행정안전부 한국지능정보사회진흥원 오픈데이터포럼 국가정보자원관리원 한국지역정보개발원 지역별 데이터포털 서울 열린데이터광장 경기데이터드림 부산데이터웨이브 D-데이터허브 인천데이터포털 울산광역시 데이터포털 전남광주통합특별시 빅데이터 플랫폼 대전광역시 데이터포털 세종특별자치시 데이터포털 충청북도 데이터허브 분야별 데이터포털 기상자료개방포털 국토교통부 공간정보오픈플랫폼 환경부 환경데이터포털 문화데이터광장 농림축산식품 공공데이터포털 보건의료빅데이터개방시스템 식품의약품안전처 데이터포털 교육통계서비스 공공데이터포털 바로가기 (30112) 세종특별자치시 도움6로 42 대표전화 1566-0025 | (유료, 평일 09시-18시) 운영자 메일 상담 opendata_help@nia.or.kr 이용가이드 분쟁조정 신청 문의하기 유튜브 X 페이스북 블로그 이용약관 개인정보처리방침 공공데이터포털 소개 © Ministry of the Interior and Safety. All rights reserved. 행정안전부 이 누리집은 행정안전부 누리집입니다. 자동등록방지 새로고침 음성듣기 닫기 확인 닫기",
+    "links": [
+      {
+        "url": "https://www.data.go.kr/index.do",
+        "label": "DATA.GO.KR 공공데이터포털"
+      },
+      {
+        "url": "https://www.data.go.kr/en/index.do",
+        "label": "English"
+      },
+      {
+        "url": "https://www.data.go.kr/en/index.do",
+        "label": "English"
+      },
+      {
+        "url": "https://www.mois.go.kr/",
+        "label": "행정안전부"
+      },
+      {
+        "url": "https://www.nia.or.kr/",
+        "label": "한국지능정보사회진흥원"
+      },
+      {
+        "url": "https://www.odf.or.kr/",
+        "label": "오픈데이터포럼"
+      },
+      {
+        "url": "https://www.nirs.go.kr/",
+        "label": "국가정보자원관리원"
+      },
+      {
+        "url": "https://www.klid.or.kr/",
+        "label": "한국지역정보개발원"
+      },
+      {
+        "url": "https://data.seoul.go.kr/",
+        "label": "서울 열린데이터광장"
+      },
+      {
+        "url": "https://data.gg.go.kr/",
+        "label": "경기데이터드림"
+      },
+      {
+        "url": "https://data.busan.go.kr/",
+        "label": "부산데이터웨이브"
+      },
+      {
+        "url": "https://data.daegu.go.kr/",
+        "label": "D-데이터허브"
+      },
+      {
+        "url": "https://data.incheon.go.kr/",
+        "label": "인천데이터포털"
+      },
+      {
+        "url": "https://data.ulsan.go.kr/",
+        "label": "울산광역시 데이터포털"
+      },
+      {
+        "url": "https://bigdata.gwangju.go.kr/",
+        "label": "전남광주통합특별시 빅데이터 플랫폼"
+      },
+      {
+        "url": "https://openlab.daejeon.go.kr/",
+        "label": "대전광역시 데이터포털"
+      },
+      {
+        "url": "https://www.sejong.go.kr/",
+        "label": "세종특별자치시 데이터포털"
+      },
+      {
+        "url": "https://data.chungbuk.go.kr/",
+        "label": "충청북도 데이터허브"
+      },
+      {
+        "url": "https://data.kma.go.kr/",
+        "label": "기상자료개방포털"
+      },
+      {
+        "url": "https://www.vworld.kr/",
+        "label": "국토교통부 공간정보오픈플랫폼"
+      },
+      {
+        "url": "https://www.bigdata-environment.kr/",
+        "label": "환경부 환경데이터포털"
+      },
+      {
+        "url": "https://www.culture.go.kr/",
+        "label": "문화데이터광장"
+      },
+      {
+        "url": "https://data.mafra.go.kr/",
+        "label": "농림축산식품 공공데이터포털"
+      },
+      {
+        "url": "https://opendata.hira.or.kr/",
+        "label": "보건의료빅데이터개방시스템"
+      },
+      {
+        "url": "https://www.foodsafetykorea.go.kr/",
+        "label": "식품의약품안전처 데이터포털"
+      },
+      {
+        "url": "https://kess.kedi.re.kr/",
+        "label": "교육통계서비스"
+      },
+      {
+        "url": "https://www.data.go.kr/index.do",
+        "label": "공공데이터포털 바로가기"
+      },
+      {
+        "url": "https://www.data.go.kr/ugs/selectPublicDataUseGuideView.do",
+        "label": "이용가이드"
+      },
+      {
+        "url": "https://www.data.go.kr/tcs/dor/insertTrublMdatReqstProcssView.do",
+        "label": "분쟁조정 신청"
+      },
+      {
+        "url": "https://www.data.go.kr/bbs/faq/selectFaqList.do",
+        "label": "문의하기"
+      },
+      {
+        "url": "https://www.youtube.com/@koropendata",
+        "label": "유튜브"
+      },
+      {
+        "url": "https://twitter.com/koreadataportal",
+        "label": "X"
+      },
+      {
+        "url": "http://www.facebook.com/koreadataportal",
+        "label": "페이스북"
+      },
+      {
+        "url": "http://blog.naver.com/nia_korea",
+        "label": "블로그"
+      },
+      {
+        "url": "https://www.data.go.kr/ugs/selectPortalPolicyView.do#use_stplat",
+        "label": "이용약관"
+      },
+      {
+        "url": "https://www.data.go.kr/ugs/selectPortalPolicyView.do#indvdlinfo_process",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://www.data.go.kr/ugs/selectPortalInfoView.do#portal_info",
+        "label": "공공데이터포털 소개"
+      }
+    ],
+    "select_options": []
+  },
+  {
+    "id": "directory-kosis",
+    "requested_url": "https://kosis.kr/index/index.do",
+    "retrieved_at": "2026-09-12T08:42:55.107205+00:00",
+    "api_tested": false,
+    "final_url": "https://kosis.kr/index/index.do",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "f549f29e9231c8a86fcd3616ead92e9bc87f8a6a9357bece449ecd807692ef5a",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "KOSIS 국가통계포털",
+    "text": "KOSIS 국가통계포털 상단메뉴 바로가기 본문 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 9월 통계찾기 퀴즈이벤트 09.11.(금) ~ 09.25.(금) 팝업보기 1/1 이전 다음 정지 재생 하루 동안 열지않기 다시 열지않기 팝업닫기 국내통계 주제별 통계 기관별 통계 e-지방지표(통계표) e-지방지표(시각화) 과거ㆍ중지통계 실험적통계 국제ㆍ북한통계 국제통계 세계속의 한국 국제지역통계 북한통계 쉽게 보는 통계 대상별 접근 이슈별 접근 통계시각화콘텐츠 온라인간행물 주제별 명칭별 기획간행물 민원안내 FAQ Q&A KOSIS 길라잡이 홈페이지 개선의견 찾아가는 KOSIS 서비스 소개 국가통계포털 소개 국가통계현황 국가통계 공표일정 새소식 팩트체크 서비스 서비스정책 공유서비스 (OpenAPI) 로그인 회원가입 English 어린이 전체메뉴 메뉴전체보기 1뎁스 2뎁스 국내통계 주제별 통계 첫화면 고정 기관별 통계 e-지방지표(통계표) 주제별 지역별 테마별 e-지방지표(시각화) 과거ㆍ중지통계 광복이전통계 대한민국통계연감 작성중지통계 실험적통계 국제ㆍ북한통계 국제통계 세계속의 한국 국제지역통계 북한통계 쉽게 보는 통계 대상별 접근 이슈별 접근 통계시각화콘텐츠 KOSIS 100대 지표 데이터 시각화 체험하기 인구로 보는 대한민국 e-지방지표(시각화) 세계속의 한국 경제상황판 국민생활 돋보기 통계놀이터 통계로 보는 자화상 세상을 그리는 통계 버블차트로 보는 통계 통계로 시간여행 나의 물가 체험하기 통계웹툰 카드뉴스 경기순환시계 내가 말하는 통계 해·석·남·녀 통계교육동영상 온라인간행물 주제별 명칭별 기획간행물 민원안내 FAQ Q&A KOSIS 길라잡이 홈페이지 개선의견 찾아가는 KOSIS 교육안내 교육신청 신청확인 서비스 소개 국가통계포털 소개 국가통계포털이란? 국가통계포털 연혁 KOSIS 소개 영상 국가통계현황 국가통계제도 국내통계 작성현황 국가통계 공표일정 새소식 공지사항 최근수록자료 보도자료 팩트체크 서비스 서비스정책 통계정보 이용지침 사이트 이용약관 통계정보 활용약관 개인정보처리방침 이메일무단수집거부 공유서비스 (OpenAPI) 복합통계표 마이페이지 나의 통계 나의 질문/의견 Q&A 홈페이지 개선의견 회원정보수정 회원탈퇴 회원정보 로그인 회원가입 아이디찾기 비밀번호 재발급 관련사이트 통계설명자료 공유서비스 국가데이터처홈페이지 KOSIS 통계놀이터 통계인재개발원 홈페이지 국가통계연구원 홈페이지 SGIS 통계지리정보서비스 MDIS 마이크로데이터 지표누리 SDC 통계데이터센터 빅데이터 활용 북한통계 통계분류포털 통그라미 통계제공기관 통계DB통합관리시스템 로그인 회원가입 English 닫기 내가본통계표 통계놀이터 실험적통계 코봇 1.5 KOSIS 시범서비스 내가 본 통계표 최근 본 통계표 10개가 저장됩니다. 닫기 검색어를 입력해주세요 자동완성 열기 첫단어 더보기 끝단어 더보기 자동완성 끄기 자동완성 켜기 자동 추천 기능 을 사용해보세요. 검색어 입력시 자동으로 관련어를 추천합니다. 자동완성 닫기 검색 인기검색어 이전 1 2 3 4 5 6 7 8 9 10 다음 재생 정지 오른쪽으로 스크롤하면 표 내용을 확인할 수 있습니다. 추계인구 (´ 26) 통계표 보도자료 5,161 만명 출생아수 (´ 25) 통계표 보도자료 254,341 명 합계출산율 (´ 25) 통계표 보도자료 0.799 명 사망자수 (´ 25) 통계표 보도자료 363,389 명 기대수명 (´ 24) 통계표 보도자료 83.7 세 관심지표설정 관심지표 인구 사회일반 범죄ㆍ안전 소득ㆍ소비ㆍ자산 보건 닫기 고용 2026년 08월 기준 물가 2026년 08월 기준 산업 2026년 07월 기준 인구 2026년 06월 기준 1 2 3 4 이전 정지 재생 다음 취업자수 통계표 보도자료 29,151 천명 고용률 통계표 보도자료 63.3 % 실업률 통계표 보도자료 2.0 % 소비자물가지수 통계표 보도자료 3.1 % (전년동월대비) 생활물가지수 통계표 보도자료 3.2 % (전년동월대비) 신선식품지수 통계표 보도자료 -6.7 % (전년동월대비) 전산업 생산 통계표 보도자료 0.0 % (전월대비) 소매 판매 통계표 보도자료 -2.4 % (전월대비) 설비 투자 통계표 보도자료 7.5 % (전월대비) 출생아수 통계표 보도자료 23,111 명 사망자수 통계표 보도자료 27,794 명 혼인건수 통계표 보도자료 21,075 건 KOSIS 서비스 점검 안내 작업내용 공유 데이터스토어 내 Clustered VMDK 기능 비활성화 영향도 공유 데이터스토어 내 가상서버 서비스 중단 발생 일시 ‘26.07.10 23:00 ~ 07.11 02:30(3시간 30분) ※ 점검일시는 상황에 따라 변경될 수 있습니다. 오늘 하루 보이지 않기 닫기 닫기 오른쪽으로 스크롤하면 표 내용을 확인할 수 있습니다. 인구 사회일반 범죄ㆍ안전 노동 소득ㆍ소비ㆍ자산 보건 복지 교육ㆍ훈련 문화ㆍ여가 주거 국토이용 경제일반ㆍ경기 기업경영 농림 수산 광업ㆍ제조업 건설 교통ㆍ물류 정보통신 과학ㆍ기술 도소매ㆍ서비스 임금 물가 국민계정 정부ㆍ재정 금융 무역ㆍ국제수지 환경 에너지 지역통계 공지사항 2026년 8월 국가통계포털 퀴즈 이벤트 당첨자 발표 2026년 8월 KOSIS 수록자료 변동사항 안내 2026년 8월 말 기준 KOSIS 수록자료 현행화율 공개 제13회 국가승인통계 활용 디지털콘텐츠 공모전 심사이벤트 당첨자 알림 제13회 국가승인통계 활용 디지털콘텐츠 공모전 수상작 발표 더보기 최근수록자료 생산자물가조사 New 펀드산업현황 New 통화금융통계 New 국민계정 New 수출입물가조사 New 더보기 KOSIS 길라잡이 통계표에서 내가 원하는 자료만 추출해서 보고 싶어요. 내가 원하는 형태대로 통계표를 보려면 어떻게 해야 하나요? 내가 자주 찾는 통계표를 따로 모아서 보고 싶어요. 통계자료를 내가 원하는 형태로 다운로드 받고 싶어요. 서로 다른 통계표를 조합해서 새로운 '나만의 통계표'를 만들고 싶어요. 더보기 Q&A 기업활동조사 추가 질문 유업업체별 브랜드별 우유 소비자 가격 추이 수출액, 수입액 관련 문의 기업활동조사 경제활동인구조사 단위 더보기 FAQ 국가통계포털 사이트에서는 어떤 서비스를 하고 있나요? 우리나라의 통계작성현황은 어떤가요? 통계표를 보는 방법은 무엇인가요? 통계자료가 너무 방대하여 찾기가 어려워요. 서로 다른 통계표를 조합하여 새로운 '나만의 통계표'를 만들고 싶어요. 더보기 통계시각화콘텐츠 100대 지표 데이터 시각화 체험하기 세계속의 한국 국민생활 돋보기 통계로 시간여행 통계로 보는 자화상 통계웹툰 버블차트로 보는 통계 경제상황판 인구로 보는 대한민국 더보기 누리소통망 유튜브 인스타그램 블로그 페이스북 엑스 알림판 1/7 이전 정지 재생 다음 이용지침 개인정보처리방침 이메일무단수집거부 RSS OpenAPI 통계제공기관 관련사이트 바로가기 통계설명자료 KOSIS 공유서비스 국가데이터처홈페이지 KOSIS 통계놀이터 국가데이터인재개발원 홈페이지 국가데이터연구원 홈페이지 SGIS 통계지리정보서비스 MDIS 마이크로데이터 지표누리 SDC 통계데이터센터 빅데이터 활용 북한통계 홈페이지 통계분류포털 통그라미 통계제공기관 통계DB관리시스템 국가데이터처 (35208) 대전광역시 서구 청사로 189 (둔산동, 정부대전청사 3동) 콜센터 02-2012-9114 (국번없이 110 ) Copyright Ministry of Data and Statistics. All rights reserved.",
+    "links": [
+      {
+        "url": "https://kosis.kr/index/index.do",
+        "label": "KOSIS 국가통계포털- KOrean Statistical Information Service"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM1_TITLE&menuId=M_03_01",
+        "label": "쉽게 보는 통계"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM1_TITLE&menuId=M_03_01",
+        "label": "대상별 접근"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM2_TITLE&menuId=M_03_02",
+        "label": "이슈별 접근"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/visualizationIndex.do",
+        "label": "통계시각화콘텐츠"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationThema.do",
+        "label": "온라인간행물"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationThema.do",
+        "label": "주제별"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationWord.do",
+        "label": "명칭별"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationStat.do",
+        "label": "기획간행물"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/faqList.do",
+        "label": "민원안내"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/faqList.do",
+        "label": "FAQ"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/qnaList.do",
+        "label": "Q&A"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisGuideIndex.do",
+        "label": "KOSIS 길라잡이"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/siteRequestList.do",
+        "label": "홈페이지 개선의견"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisEduIndex.do",
+        "label": "찾아가는 KOSIS"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduce.do",
+        "label": "서비스 소개"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduce.do",
+        "label": "국가통계포털 소개"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisInstitution.do",
+        "label": "국가통계현황"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisPublicationList.do",
+        "label": "국가통계 공표일정"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/noticeList.do",
+        "label": "새소식"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/factCheckList.do",
+        "label": "팩트체크 서비스"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/useGuide.do",
+        "label": "서비스정책"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/openAPIGuide.do",
+        "label": "공유서비스 (OpenAPI)"
+      },
+      {
+        "url": "https://kosis.kr/eng",
+        "label": "English"
+      },
+      {
+        "url": "https://kosis.kr/edu",
+        "label": "어린이"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM1_TITLE&menuId=M_03_01",
+        "label": "쉽게 보는 통계"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM1_TITLE&menuId=M_03_01",
+        "label": "대상별 접근"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/customStatisIndex.do?vwcd=MT_TM2_TITLE&menuId=M_03_02",
+        "label": "이슈별 접근"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/visualizationIndex.do",
+        "label": "통계시각화콘텐츠"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/dynamicChartList.do",
+        "label": "세상을 그리는 통계"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/webtoonList.do",
+        "label": "통계웹툰"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/cardNewsList.do",
+        "label": "카드뉴스"
+      },
+      {
+        "url": "http://kosis.kr/easyViewStatis/uccList.do",
+        "label": "내가 말하는 통계"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationThema.do",
+        "label": "온라인간행물"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationThema.do",
+        "label": "주제별"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationWord.do",
+        "label": "명칭별"
+      },
+      {
+        "url": "http://kosis.kr/publication/publicationStat.do",
+        "label": "기획간행물"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/faqList.do",
+        "label": "민원안내"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/faqList.do",
+        "label": "FAQ"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/qnaList.do",
+        "label": "Q&A"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisGuideIndex.do",
+        "label": "KOSIS 길라잡이"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/siteRequestList.do",
+        "label": "홈페이지 개선의견"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisEduIndex.do",
+        "label": "찾아가는 KOSIS"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisEduIndex.do",
+        "label": "교육안내"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisEduApply.do",
+        "label": "교육신청"
+      },
+      {
+        "url": "http://kosis.kr/civilComplaint/kosisEduApplyConfirm.do",
+        "label": "신청확인"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduce.do",
+        "label": "서비스 소개"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduce.do",
+        "label": "국가통계포털 소개"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduce.do",
+        "label": "국가통계포털이란?"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisHistory.do",
+        "label": "국가통계포털 연혁"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/kosisIntroduceMove.do",
+        "label": "KOSIS 소개 영상"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisInstitution.do",
+        "label": "국가통계현황"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisInstitution.do",
+        "label": "국가통계제도"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisWriteStatus.do",
+        "label": "국내통계 작성현황"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/statisPublicationList.do",
+        "label": "국가통계 공표일정"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/noticeList.do",
+        "label": "새소식"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/noticeList.do",
+        "label": "공지사항"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/newContrainDataList.do",
+        "label": "최근수록자료"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/factCheckList.do",
+        "label": "팩트체크 서비스"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/useGuide.do",
+        "label": "서비스정책"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/useGuide.do",
+        "label": "통계정보 이용지침"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/useClause.do",
+        "label": "사이트 이용약관"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/applicationClause.do",
+        "label": "통계정보 활용약관"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/privacy_policy.do",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/emailCollectClause.do",
+        "label": "이메일무단수집거부"
+      },
+      {
+        "url": "http://kosis.kr/serviceInfo/openAPIGuide.do",
+        "label": "공유서비스 (OpenAPI)"
+      },
+      {
+        "url": "http://kosis.kr/multiStatNew/multiStatIndex.do",
+        "label": "복합통계표"
+      },
+      {
+        "url": "http://kosis.kr/myPage/myStatisList.do",
+        "label": "마이페이지"
+      },
+      {
+        "url": "http://kosis.kr/myPage/myStatisList.do",
+        "label": "나의 통계"
+      },
+      {
+        "url": "http://kosis.kr/myPage/qnaList.do",
+        "label": "나의 질문/의견"
+      },
+      {
+        "url": "http://kosis.kr/myPage/qnaList.do",
+        "label": "Q&A"
+      },
+      {
+        "url": "http://kosis.kr/myPage/siteRequestList.do",
+        "label": "홈페이지 개선의견"
+      },
+      {
+        "url": "https://kosis.kr/eng",
+        "label": "English"
+      },
+      {
+        "url": "https://kosis.kr/edu",
+        "label": "통계놀이터"
+      },
+      {
+        "url": "https://kosis.kr/statisticsList/experimentStatistical.do",
+        "label": "실험적통계"
+      },
+      {
+        "url": "https://ai.kosis.kr",
+        "label": "코봇 1.5"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2553",
+        "label": "KOSIS 시범서비스"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2568",
+        "label": "2026년 8월 국가통계포털 퀴즈 이벤트 당첨자 발표"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2567",
+        "label": "2026년 8월 KOSIS 수록자료 변동사항 안내"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2566",
+        "label": "2026년 8월 말 기준 KOSIS 수록자료 현행화율 공개"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2565",
+        "label": "제13회 국가승인통계 활용 디지털콘텐츠 공모전 심사이벤트 당첨자 알림"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2564",
+        "label": "제13회 국가승인통계 활용 디지털콘텐츠 공모전 수상작 발표"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeList.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1966003&boardOrgId=301",
+        "label": "생산자물가조사 New"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=2006090&boardOrgId=325",
+        "label": "펀드산업현황 New"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1976015&boardOrgId=301",
+        "label": "통화금융통계 New"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1976017&boardOrgId=301",
+        "label": "국민계정 New"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1976001&boardOrgId=301",
+        "label": "수출입물가조사 New"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/newContrainDataList.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do?q_no=1#A_1",
+        "label": "통계표에서 내가 원하는 자료만 추출해서 보고 싶어요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do?q_no=2#A_2",
+        "label": "내가 원하는 형태대로 통계표를 보려면 어떻게 해야 하나요?"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do?q_no=3#A_3",
+        "label": "내가 자주 찾는 통계표를 따로 모아서 보고 싶어요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do?q_no=4#A_4",
+        "label": "통계자료를 내가 원하는 형태로 다운로드 받고 싶어요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do?q_no=5#A_5",
+        "label": "서로 다른 통계표를 조합해서 새로운 '나만의 통계표'를 만들고 싶어요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/kosisGuideIndex.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=26180",
+        "label": "수출액, 수입액 관련 문의"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=26176",
+        "label": "경제활동인구조사 단위"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/qnaList.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do?q_no=1#A_1",
+        "label": "국가통계포털 사이트에서는 어떤 서비스를 하고 있나요?"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do?q_no=2#A_2",
+        "label": "우리나라의 통계작성현황은 어떤가요?"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do?q_no=3#A_3",
+        "label": "통계표를 보는 방법은 무엇인가요?"
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do?q_no=4#A_4",
+        "label": "통계자료가 너무 방대하여 찾기가 어려워요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do?q_no=5#A_5",
+        "label": "서로 다른 통계표를 조합하여 새로운 '나만의 통계표'를 만들고 싶어요."
+      },
+      {
+        "url": "https://kosis.kr/civilComplaint/faqList.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://kosis.kr/easyViewStatis/webtoonDetail.do?boardIdx=241",
+        "label": "통계웹툰"
+      },
+      {
+        "url": "https://kosis.kr/easyViewStatis/visualizationIndex.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://www.youtube.com/@MODS_korea",
+        "label": "유튜브"
+      },
+      {
+        "url": "https://www.instagram.com/mods_korea",
+        "label": "인스타그램"
+      },
+      {
+        "url": "https://blog.naver.com/hi_nso",
+        "label": "블로그"
+      },
+      {
+        "url": "https://www.facebook.com/modskorea",
+        "label": "페이스북"
+      },
+      {
+        "url": "https://twitter.com/MODS_korea",
+        "label": "엑스"
+      },
+      {
+        "url": "https://blog.naver.com/hi_nso/224374136734",
+        "label": "살고싶은 우리동네 여기어때요 유소년인구 비율이 가장 높은 동네는? blog 일상 속 통계 유소년 인구 비율이 가장 높은 동네는? SGIS에 따르면, 전국 시·도 중 유소년인구 비율이 가장 높은 지역은 ``세종특별자치시``로 나타났습니다."
+      },
+      {
+        "url": "https://blog.naver.com/hi_nso/224396915178",
+        "label": "알아두면 무조건 이득! 일상 꿀팁 blog 국가데이터처 뉴스 알아두면 무조건 이득! 일상 꿀팁 데이터 서비스! 나에게 필요한 진짜 팩트 데이터를 확인할 수 있는 대한민국 공식 데이터 플랫폼 4가지를 소개합니다!"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/qk8OBBnAKxU",
+        "label": "2025 사회조사로 본 국민들의 여행 경험률 국내 관광여행 일상 속 통계 사회조사로 본 우리나라 국민들의 여행 이야기 국내 관광여행 여행 경험률, 2023년 66.7%에서 2025년 70.2%까지 약 3.5%p 상승!"
+      },
+      {
+        "url": "https://kosis.kr/eventLink.jsp",
+        "label": "국가통계포털(KOSIS)과 함께 9월 통계찾기 퀴즈 이벤트,참여대상:국가통계포털(KOSIS)이용자 누구나,참여기간:2026년9월11일금요일부터9월25일금요일까지,참여방법:팝업존 참여하기 버튼 클릭 후 국가통계포털 퀴즈 풀이, 참여하러가기"
+      },
+      {
+        "url": "https://www.index.go.kr/unity/potal/Event.do",
+        "label": "지표누리 9월 퀴즈 이벤트, 참여기간 : 2026년9월11일금요일부터 9월25일 금요일까지, 당첨자 발표 : 이벤트 종료 후 1개월 이내 지표누리 공지사항 게시, 이벤트 참여하기"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/noticeDetail.do?boardIdx=2553",
+        "label": "인공지능(AI) 기반 이용자 맞춤형 KOSIS 통계표 생성 시범 서비스 안내 바로가기"
+      },
+      {
+        "url": "https://blog.naver.com/hi_nso/224376225365",
+        "label": "2026년9월29일14시00분부터17시00분까지 대전통계센터 1층 국제회의실 참가신청QR CODE 2026 국가데이터 이용 확대를 위한 마이크로데이터 활용 세미나"
+      },
+      {
+        "url": "https://mdis.mods.go.kr/survey/qustnrRespondInfoManageRegist.do?qestnrId=QMANAGE_000000000550&qestnrTmplatId=QTMPLA_0000000000000&qestnrTrget=1",
+        "label": "MDIS 이용자 설문조사 조사기간 2026년8월24일월요일부터 9월 23일수요일까지 우수의견 100명에게 1만원 상당의 모바일 상품권을 드립니다. 설문 참여하기"
+      },
+      {
+        "url": "https://sgis.mods.go.kr/jsp/event/2026Q2/quiz.jsp",
+        "label": "2026년 SGIS OX퀴즈 이벤트 참여기간 2026년 9월 3일 목요일부터 9월 23일 수요일까지, 21일간 당첨자발표 2026년 10월 15일 목요일 *SGIS 홈페이지 알림마당(공지사항)에 공지 상품내역(모든 문제 정답자 중 무작위 추첨) 만점상(120명):1만원 상당 모바일상품권"
+      },
+      {
+        "url": "https://mods.go.kr/newsPln.es?mid=a10305000000",
+        "label": "2026년 국가데이터처 보도계획 국가데이터처 통계 공표 계획과 그 밖의 보도 일정을 월별 및 전체로 조회할 수 있습니다. 바로가기"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/useGuide.do",
+        "label": "이용지침"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/privacy_policy.do",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/emailCollectClause.do",
+        "label": "이메일무단수집거부"
+      },
+      {
+        "url": "https://kosis.kr/serviceInfo/openAPIGuide.do",
+        "label": "OpenAPI"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "관련사이트 바로가기"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "통계설명자료"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "KOSIS 공유서비스"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "국가데이터처홈페이지"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "KOSIS 통계놀이터"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "국가데이터인재개발원 홈페이지"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "국가데이터연구원 홈페이지"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "SGIS 통계지리정보서비스"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "MDIS 마이크로데이터"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "지표누리"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "SDC 통계데이터센터"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "빅데이터 활용"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "북한통계 홈페이지"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "통계분류포털"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "통그라미"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "통계제공기관"
+      },
+      {
+        "url": "https://kosis.kr/common/tech/gatePage.do",
+        "label": "통계DB관리시스템"
+      }
+    ],
+    "select_options": []
+  },
+  {
+    "id": "directory-gov24",
+    "requested_url": "https://www.gov.kr/portal/orgSite?pageIndex=1",
+    "retrieved_at": "2026-09-12T08:42:55.107572+00:00",
+    "api_tested": false,
+    "final_url": "https://www.gov.kr/portal/orgSite?pageIndex=1",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "2f5ffc84c2acd9f239c7072baf85b434b15ec83e821a7184688f18ce90f0d0b1",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "누리집 | 정부/지자체 누리집 | 기관 정보 | 정부24",
+    "text": "누리집 | 정부/지자체 누리집 | 기관 정보 | 정부24 검색 검색어 입력 문자검색 서비스 바로가기 닫기 본문 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 정부24 검색 My Gov For Foreigners 목록 펼치기 한국어 ENG 中文 Guide 어린이 시니어 지원 목록 펼치기 인증등록/관리 복합인증관리 보안센터 누리집 안내지도 화면크기 제어 목록 펼치기 작게 보통 조금 크게 크게 가장 크게 초기화 정부24 AI 통합검색 로그인 회원가입 비회원 님 서비스 신청내역 로그아웃 로그아웃 정부24 AI 로그인 전체메뉴 민원서비스 민원서비스 민원 찾기 신청 · 조회 · 발급 기능 서비스 이용 및 정보를 확인할 수 있어요 주제별 보기 서비스를 주제별로 분류하여 쉽게 찾을 수 있어요 행정서식 간편이름 행정서식 명칭 중 혼동되는 명칭에 대하여 간편이름(약칭·약호)을 확인할 수 있어요 사실/진위확인 서비스 이용 사실관계 확인 및 발급한 증명서의 진위를 확인할 수 있어요 원스톱서비스 서비스를 통합하여 한 번에 신청하거나 유사 서비스를 확인할 수 있어요 기업/단체 서비스 정부24에서 직접 이용 가능한 모든 서비스를 확인할 수 있어요 돌봄시설 등 위치 찾기 영·유아/초등 돌봄 및 청소년 지원센터 등 시설의 위치를 찾을 수 있어요 정부24 다운로드파일 진본확인 정부24의 발급증명서 뷰어를 통해 다운로드한 파일의 진본을 검증합니다 혜택알리미 혜택알리미 혜택알리미 홈 몰라서 놓쳤던 혜택, 이제는 정부가 먼저 챙겨드립니다 나의 혜택 내가 받을 수 있는 혜택을 한 눈에 확인하세요 관심 내 상황과 연관된 혜택을 확인해보세요 발견 아직 몰랐던 숨은 혜택을 찾아드려요 간편찾기 선택한 상황 조건으로 빠르게 원하는 혜택을 찾아요 전체 혜택 분야별로 제공되는 모든 혜택을 한곳에서 확인해요 설정 가족등록, 맞춤안내 조건 등 서비스 이용 환경을 관리해요 생활 생활 생활·가족가이드 결혼, 출산, 이사 등 상황별로 필요한 정부 서비스를 한곳에서 안내합니다. 생활안전 정부의 주요 안전 소식을 알아볼 수 있어요 정책정보 정책정보 분야별 정책정보 국가 주요 정책뉴스, 연구보고서 등의 원문정보 및 동영상 자료를 확인할 수 있어요 정부/지자체 조직도 정부 조직 구조 및 각 조직의 역할, 제공 서비스 등을 확인할 수 있어요 정부/지자체 누리집 정부와 지자체에서 운영하고 있는 누리집, 모바일 웹/앱 정보를 확인할 수 있어요 지자체 소식 전국 지자체에서 운영하는 누리집 소식을 확인할 수 있어요 고객센터 고객센터 공지사항 새소식, 운영점검 등 서비스 이용에 필요한 정보를 확인할 수 있어요 이용안내 정부24 서비스의 이용방법을 확인할 수 있어요 자주 묻는 질문 가장 많이 받는 질문을 FAQ형식으로 확인할 수 있어요 자료실 서비스 이용, 민원사무 처리 관련 자료를 확인할 수 있어요 상담예약 정부24 이용 중 기술지원에 대한 상담을 받을 수 있어요 정부24 소개 정부24에 대한 소개를 확인할 수 있어요 인증센터 인증서를 등록·관리할 수 있어요 보안센터 보안 및 발급 프로그램 설치, 약관 등을 확인할 수 있어요 모든 정부 서비스, 이제 한 곳에서 찾아보세요 검색 인기 검색어 많이 찾는 서비스 통합검색 닫기 정부24 홈 민원서비스 민원 찾기 주제별 보기 행정서식 간편이름 사실/진위확인 원스톱서비스 기업/단체 서비스 돌봄시설 등 위치 찾기 정부24 다운로드파일 진본확인 혜택알리미 혜택알리미 홈 나의 혜택 관심 발견 간편찾기 전체 혜택 설정 생활 생활·가족가이드 생활안전 정책정보 분야별 정책정보 정부/지자체 조직도 정부/지자체 누리집 지자체 소식 고객센터 공지사항 이용안내 목록 펼치기 누리집 안내지도 전자결제안내 무인민원발급안내 어디서나민원 장애인이용안내 행정정보공동이용 전자증명서안내 공공 마이데이터 안내 자주 묻는 질문 자료실 상담예약 정부24 소개 목록 펼치기 정부24 개요 데이터로 보는 정부24 인증센터 목록 펼치기 인증서등록/관리 복합인증관리 인증서 내보내기 보안센터 목록 펼치기 보안프로그램 개인정보처리방침 저작권보호정책 이용약관 서비스 바로가기 국민비서 구삐 주민등록증 모바일 확인 서비스 전자증명서·공공마이데이터 기업 공공 마이데이터 어린이 For Foreigners For Foreigners 목록 펼치기 한국어 ENG 中文 Guide 어린이 시니어 지원 목록 펼치기 인증등록/관리 복합인증관리 보안센터 누리집 안내지도 모바일 메뉴 닫기 접속 대기 중입니다. 잠시만 기다리시면 해당 페이지로 자동 접속됩니다. 예상대기시간 --:--:-- ※ 재접속하시면 대기 시간이 길어질 수 있습니다. 서비스 접속이 차단 되었습니다. 현재 접속하신 아이피에서는 접속이 불가능합니다. 서비스 접속이 불가합니다. 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요 Home 정책정보 정부/지자체 누리집 이전페이지 정부/지자체 누리집 전체 중앙행정기관 지방자치단체 대학교 헌법기관 전체 전체 감사원 개인정보보호위원회 검찰청 경찰청 고용노동부 고위공직자범죄수사처 공정거래위원회 과학기술정보통신부 관세청 교육부 국가건축정책위원회 국가과학기술자문회의 국가데이터처 국가보훈부 국가안전보장회의 국가유산청 국가인권위원회 국가정보원 국무조정실/국무총리비서실 국민경제자문회의 국민권익위원회 국방부 국세청 국토교통부 금융위원회 기상청 기획예산처 기후에너지환경부 농림축산식품부 농촌진흥청 대통령경호처 대통령비서실 문화체육관광부 민주평화통일자문회의 방송미디어통신위원회 방위사업청 법무부 법제처 병무청 보건복지부 산림청 산업통상부 새만금개발청 성평등가족부 소방청 식품의약품안전처 외교부 우주항공청 원자력안전위원회 인사혁신처 재외동포청 재정경제부 조달청 중소벤처기업부 지식재산처 질병관리청 통일부 해양경찰청 해양수산부 행정안전부 행정중심복합도시건설청 전체 서울특별시 부산광역시 인천광역시 대구광역시 대전광역시 울산광역시 세종특별자치시 경기도 강원특별자치도 충청북도 충청남도 경상북도 경상남도 전북특별자치도 전남광주통합특별시 제주특별자치도 서울특별시교육청 부산광역시교육청 인천광역시교육청 대구광역시교육청 대전광역시교육청 광주광역시교육청 울산광역시교육청 세종특별자치시교육청 경기도교육청 강원특별자치도교육청 충청북도교육청 충청남도교육청 경상북도교육청 경상남도교육청 전북특별자치도교육청 전라남도교육청 제주특별자치도교육청 전체 대학교 전체 대한민국국회 대법원 헌법재판소 중앙선거관리위원회 검색 누리집 921 건 모바일앱 171 건 기관순 가나다순 감사원 (감사원) 감사원 누리집으로 기관소개, 감사결과, 간행물, 감사제보 안내, 심사청구 안내 등 정보를 제공합니다. https://www.bai.go.kr 개인정보보호위원회 (개인정보보호위원회) 개인정보보호위원회 누리집으로 위원회소개, 위원회활동, 개인정보 침해예방, 회의일정/회의록, 의결문, 방청안내, 정보공개/개방, 법령자료 등 정보를 제공합니다. https://www.pipc.go.kr/ 대검찰청 (검찰청) 대검찰청 누리집으로 검찰 발표 자료, 통계자료, 국정감사, 알기 쉬운 법률정보, 검찰 주요 활동 등 정보를 제공합니다. https://www.spo.go.kr 경찰청 대표 누리집 (경찰청) 경찰청 대표 누리집으로 보도자료, 법령정보, 경찰 자료, 경찰관서 소개 등 정보를 제공합니다. http://www.police.go.kr 경찰대학 (경찰청) 경찰대학 누리집으로 대학소개, 대학행사, 학사정보, 입학안내 등 정보를 제공합니다. http://www.police.ac.kr 중앙경찰학교 (경찰청) 중앙경찰학교 누리집으로 중앙경찰학교소개, 알림과 참여, 정보공개, 교육과정, 입교안내 등 정보를 제공합니다. http://www.cpa.go.kr 경찰병원 (경찰청) 경찰병원 누리집으로 진료안내, 의학건강정보, 병원소개, 병원소식 등 정보를 제공합니다. http://www.nph.go.kr 경찰수사연수원 (경찰청) 경찰수사연수원 누리집으로 연수원소개, 입교안내, 교육과정안내, 연수원소식 등 정보를 제공합니다. http://www.kpia.go.kr 경찰인재개발원 (경찰청) 경찰인재개발원 누리집으로 교육자료, 입교안내, 교육과정안내, 생활안내 등 정보를 제공합니다. https://www.phrdi.go.kr 고용노동부 (고용노동부) 고용노동부 누리집으로 기관 소개, 국정과제, 정책 추진방향, 업무보고 등 정보를 제공합니다. https://www.moel.go.kr 1 2 3 4 5 국민소통채널 국민소통채널 닫기 디지털증명 디지털증명 전자증명서 모든 정부 전자증명서를 발급 공공 마이데이터 행정/공공기관에 있는 내 정보 모바일 신분증 스마트폰에 안전하게 저장·이용 닫기 부가서비스 부가서비스 주소 영문 변환 서비스 국문 도로명 주소를 영문으로 변환 국민비서 구삐 내 삶의 든든한 동반자 ‘구삐’ 닫기 정부24 정부24 안내 열기 인스타그램 엑스 카카오스토리 네이버블로그 콜센터 1588-2188 , 02-721-0600 (지역번호 '02'를 확인하세요.) (09:00 ~ 18:00 평일) 정부민원안내콜센터 국번없이 110 (무료, 휴일포함 365일 24시간) 본관 : 30112 세종특별자치시 도움6로 42(어진동) 별관 : 30116 세종특별자치시 가름로 143(어진동) 콜센터 1588-2188 , 02-721-0600 (지역번호 '02'를 확인하세요.) (09:00 ~ 18:00 평일) 정부민원안내콜센터 국번없이 110 (무료, 휴일포함 365일 24시간) 내선번호 1번 주민등록표 등본(초본), 건축물대장, 토지대장 2번 민원신청 및 발급문의 3번 혜택알리미, 디지털지갑(내지갑) 이용방법 문의 4번 회원가입 및 로그인 문의 찾아오시는 길 상담예약 원격지원 공공서비스 활용(Open API) 개인정보처리방침 이용약관 보안센터 웹 접근성 품질인증 마크 획득 © Ministry of the Interior and Safety. All Rights Reserved.",
+    "links": [
+      {
+        "url": "https://www.gov.kr/portal/main",
+        "label": "정부24"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=ko",
+        "label": "한국어"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=en",
+        "label": "ENG"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=zh",
+        "label": "中文"
+      },
+      {
+        "url": "https://foreigner.gov.kr/foreignerService/for_guide/kor/UserGuideForeigners_ko.pdf",
+        "label": "Guide"
+      },
+      {
+        "url": "https://kids.gov.kr",
+        "label": "어린이"
+      },
+      {
+        "url": "https://plus.gov.kr/member/authCenter",
+        "label": "인증등록/관리"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/authIntro",
+        "label": "복합인증관리"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/scrtyprgrm",
+        "label": "보안센터"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/utztngd/hmpggd",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/?Mcode=10003",
+        "label": "로그인"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/usr?Mcode=10004",
+        "label": "회원가입"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/?Mcode=10003",
+        "label": "로그인"
+      },
+      {
+        "url": "https://plus.gov.kr/minwon",
+        "label": "민원 찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/topic",
+        "label": "주제별 보기"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/pbdmstmpltsmplnm",
+        "label": "행정서식 간편이름"
+      },
+      {
+        "url": "https://www.gov.kr/mw/EgovPageLink.do?link=confirm/AA040_confirm_index&Mcode=11167",
+        "label": "사실/진위확인"
+      },
+      {
+        "url": "https://www.gov.kr/portal/onestopSvc/main",
+        "label": "원스톱서비스"
+      },
+      {
+        "url": "https://www.gov.kr/search/svcmidCor?Mcode=11173",
+        "label": "기업/단체 서비스"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/fcltPstnFind",
+        "label": "돌봄시설 등 위치 찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/minwon/downloadConfirm/downloadConfirm",
+        "label": "정부24 다운로드파일 진본확인"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2",
+        "label": "혜택알리미 홈"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/myBenefit",
+        "label": "나의 혜택"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitInterest",
+        "label": "관심"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitFind",
+        "label": "발견"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitEasyFind",
+        "label": "간편찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList",
+        "label": "전체 혜택"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitSettings",
+        "label": "설정"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/lgd",
+        "label": "생활·가족가이드"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/lifeSafe/main",
+        "label": "생활안전"
+      },
+      {
+        "url": "https://www.gov.kr/portal/gvrnPolicy/listAll?Mcode=11175",
+        "label": "분야별 정책정보"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgInfo?Mcode=11180",
+        "label": "정부/지자체 조직도"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?Mcode=11181",
+        "label": "정부/지자체 누리집"
+      },
+      {
+        "url": "https://www.gov.kr/portal/locgovNews?Mcode=11182",
+        "label": "지자체 소식"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/ntcmttr",
+        "label": "공지사항"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/utztngd/hmpggd",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/faq",
+        "label": "자주 묻는 질문"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/rpstr",
+        "label": "자료실"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/dscsnrsvt",
+        "label": "상담예약"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/gov24intrcn/gov24otln",
+        "label": "정부24 소개"
+      },
+      {
+        "url": "https://plus.gov.kr/member/authCenter",
+        "label": "인증센터"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/scrtyprgrm",
+        "label": "보안센터"
+      },
+      {
+        "url": "https://www.gov.kr/portal/main",
+        "label": "정부24 홈"
+      },
+      {
+        "url": "https://plus.gov.kr/minwon",
+        "label": "민원 찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/topic",
+        "label": "주제별 보기"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/pbdmstmpltsmplnm",
+        "label": "행정서식 간편이름"
+      },
+      {
+        "url": "https://www.gov.kr/mw/EgovPageLink.do?link=confirm/AA040_confirm_index&Mcode=11167",
+        "label": "사실/진위확인"
+      },
+      {
+        "url": "https://www.gov.kr/portal/onestopSvc/main",
+        "label": "원스톱서비스"
+      },
+      {
+        "url": "https://www.gov.kr/search/svcmidCor?Mcode=11173",
+        "label": "기업/단체 서비스"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/fcltPstnFind",
+        "label": "돌봄시설 등 위치 찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/minwon/downloadConfirm/downloadConfirm",
+        "label": "정부24 다운로드파일 진본확인"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2",
+        "label": "혜택알리미 홈"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/myBenefit",
+        "label": "나의 혜택"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitInterest",
+        "label": "관심"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitFind",
+        "label": "발견"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitEasyFind",
+        "label": "간편찾기"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList",
+        "label": "전체 혜택"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/benefitV2/benefitSettings",
+        "label": "설정"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/lgd",
+        "label": "생활·가족가이드"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/lifeSafe/main",
+        "label": "생활안전"
+      },
+      {
+        "url": "https://www.gov.kr/portal/gvrnPolicy/listAll?Mcode=11175",
+        "label": "분야별 정책정보"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgInfo?Mcode=11180",
+        "label": "정부/지자체 조직도"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?Mcode=11181",
+        "label": "정부/지자체 누리집"
+      },
+      {
+        "url": "https://www.gov.kr/portal/locgovNews?Mcode=11182",
+        "label": "지자체 소식"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/ntcmttr",
+        "label": "공지사항"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/utztngd/hmpggd",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/elstlmgd",
+        "label": "전자결제안내"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/unmncvlcptissugd",
+        "label": "무인민원발급안내"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/anywherecvlcpt",
+        "label": "어디서나민원"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/pwdbsutztngd",
+        "label": "장애인이용안내"
+      },
+      {
+        "url": "https://www.gov.kr/etc/AA090_g4c_admin.jsp?Mcode=12000",
+        "label": "행정정보공동이용"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/elprdocgd",
+        "label": "전자증명서안내"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/utztngd/publicmydatgd",
+        "label": "공공 마이데이터 안내"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/faq",
+        "label": "자주 묻는 질문"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/rpstr",
+        "label": "자료실"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/dscsnrsvt",
+        "label": "상담예약"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/gov24intrcn/gov24otln",
+        "label": "정부24 개요"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/gov24intrcn/datviewgov24",
+        "label": "데이터로 보는 정부24"
+      },
+      {
+        "url": "https://plus.gov.kr/member/authCenter",
+        "label": "인증서등록/관리"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/authIntro",
+        "label": "복합인증관리"
+      },
+      {
+        "url": "https://www.gov.kr/mw/common/AA060_common_total_install.jsp",
+        "label": "보안프로그램"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/prvc",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://www.gov.kr/portal/cpyrhtPrtc",
+        "label": "저작권보호정책"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/utztntrms",
+        "label": "이용약관"
+      },
+      {
+        "url": "https://www.ips.go.kr/",
+        "label": "국민비서 구삐"
+      },
+      {
+        "url": "https://kids.gov.kr",
+        "label": "어린이"
+      },
+      {
+        "url": "https://foreigner.gov.kr",
+        "label": "For Foreigners"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=ko",
+        "label": "한국어"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=en",
+        "label": "ENG"
+      },
+      {
+        "url": "https://foreigner.gov.kr/?langCd=zh",
+        "label": "中文"
+      },
+      {
+        "url": "https://foreigner.gov.kr/foreignerService/for_guide/kor/UserGuideForeigners_ko.pdf",
+        "label": "Guide"
+      },
+      {
+        "url": "https://kids.gov.kr",
+        "label": "어린이"
+      },
+      {
+        "url": "https://plus.gov.kr/member/authCenter",
+        "label": "인증등록/관리"
+      },
+      {
+        "url": "https://www.gov.kr/nlogin/authIntro",
+        "label": "복합인증관리"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/scrtyprgrm",
+        "label": "보안센터"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/utztngd/hmpggd",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://www.gov.kr/portal/main",
+        "label": "Home"
+      },
+      {
+        "url": "https://www.gov.kr/portal/gvrnPolicy/listAll",
+        "label": "정책정보"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite",
+        "label": "정부/지자체 누리집"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=1",
+        "label": "처음 페이지"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=1",
+        "label": "이전 5페이지"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=1",
+        "label": "1"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=2",
+        "label": "2"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=3",
+        "label": "3"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=4",
+        "label": "4"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=5",
+        "label": "5"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=6",
+        "label": "다음 5페이지"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgSite?&pageIndex=93",
+        "label": "마지막 페이지"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/custcntr/dscsnrsvt",
+        "label": "상담예약"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/publicsrvcutlzopenapi",
+        "label": "공공서비스 활용(Open API)"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/prvc",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/utztntrms",
+        "label": "이용약관"
+      },
+      {
+        "url": "https://plus.gov.kr/portal/scrtycntr/scrtyprgrm",
+        "label": "보안센터"
+      },
+      {
+        "url": "https://www.wa.or.kr/board/list.asp?BoardID=0006",
+        "label": "웹 접근성 품질인증 마크 획득"
+      }
+    ],
+    "select_options": [
+      {
+        "select": "srchFsOrgAstCd",
+        "value": "ALL",
+        "text": "전체"
+      },
+      {
+        "select": "srchFsOrgAstCd",
+        "value": "01000000",
+        "text": "중앙행정기관"
+      },
+      {
+        "select": "srchFsOrgAstCd",
+        "value": "02000000",
+        "text": "지방자치단체"
+      },
+      {
+        "select": "srchFsOrgAstCd",
+        "value": "03000000",
+        "text": "대학교"
+      },
+      {
+        "select": "srchFsOrgAstCd",
+        "value": "04000000",
+        "text": "헌법기관"
+      },
+      {
+        "select": "jrsdOrgCdAll",
+        "value": "",
+        "text": "전체"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "ALL",
+        "text": "전체"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000800",
+        "text": "감사원"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005600",
+        "text": "개인정보보호위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004200",
+        "text": "검찰청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004500",
+        "text": "경찰청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002500",
+        "text": "고용노동부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01006000",
+        "text": "고위공직자범죄수사처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003400",
+        "text": "공정거래위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001400",
+        "text": "과학기술정보통신부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003900",
+        "text": "관세청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001300",
+        "text": "교육부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005500",
+        "text": "국가건축정책위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000700",
+        "text": "국가과학기술자문회의"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004100",
+        "text": "국가데이터처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003000",
+        "text": "국가보훈부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000400",
+        "text": "국가안전보장회의"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004700",
+        "text": "국가유산청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000300",
+        "text": "국가인권위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000900",
+        "text": "국가정보원"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001100",
+        "text": "국무조정실/국무총리비서실"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000600",
+        "text": "국민경제자문회의"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003600",
+        "text": "국민권익위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001800",
+        "text": "국방부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003800",
+        "text": "국세청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002700",
+        "text": "국토교통부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003500",
+        "text": "금융위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005100",
+        "text": "기상청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01006100",
+        "text": "기획예산처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002400",
+        "text": "기후에너지환경부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002100",
+        "text": "농림축산식품부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004800",
+        "text": "농촌진흥청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000200",
+        "text": "대통령경호처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000100",
+        "text": "대통령비서실"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002000",
+        "text": "문화체육관광부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01000500",
+        "text": "민주평화통일자문회의"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001000",
+        "text": "방송미디어통신위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004400",
+        "text": "방위사업청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001700",
+        "text": "법무부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003200",
+        "text": "법제처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004300",
+        "text": "병무청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002300",
+        "text": "보건복지부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004900",
+        "text": "산림청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002200",
+        "text": "산업통상부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005300",
+        "text": "새만금개발청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002600",
+        "text": "성평등가족부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004600",
+        "text": "소방청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003300",
+        "text": "식품의약품안전처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001500",
+        "text": "외교부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005900",
+        "text": "우주항공청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003700",
+        "text": "원자력안전위원회"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01003100",
+        "text": "인사혁신처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005800",
+        "text": "재외동포청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001200",
+        "text": "재정경제부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01004000",
+        "text": "조달청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002900",
+        "text": "중소벤처기업부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005000",
+        "text": "지식재산처"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005700",
+        "text": "질병관리청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001600",
+        "text": "통일부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005400",
+        "text": "해양경찰청"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01002800",
+        "text": "해양수산부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01001900",
+        "text": "행정안전부"
+      },
+      {
+        "select": "jrsdOrgAstCd1",
+        "value": "01005200",
+        "text": "행정중심복합도시건설청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "ALL",
+        "text": "전체"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010100",
+        "text": "서울특별시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010200",
+        "text": "부산광역시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010300",
+        "text": "인천광역시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010400",
+        "text": "대구광역시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010500",
+        "text": "대전광역시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010700",
+        "text": "울산광역시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010800",
+        "text": "세종특별자치시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02010900",
+        "text": "경기도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011000",
+        "text": "강원특별자치도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011100",
+        "text": "충청북도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011200",
+        "text": "충청남도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011300",
+        "text": "경상북도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011400",
+        "text": "경상남도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011500",
+        "text": "전북특별자치도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011800",
+        "text": "전남광주통합특별시"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02011700",
+        "text": "제주특별자치도"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020100",
+        "text": "서울특별시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020200",
+        "text": "부산광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020300",
+        "text": "인천광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020400",
+        "text": "대구광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020500",
+        "text": "대전광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020600",
+        "text": "광주광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020700",
+        "text": "울산광역시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020800",
+        "text": "세종특별자치시교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02020900",
+        "text": "경기도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021000",
+        "text": "강원특별자치도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021100",
+        "text": "충청북도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021200",
+        "text": "충청남도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021300",
+        "text": "경상북도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021400",
+        "text": "경상남도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021500",
+        "text": "전북특별자치도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021600",
+        "text": "전라남도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd2",
+        "value": "02021700",
+        "text": "제주특별자치도교육청"
+      },
+      {
+        "select": "jrsdOrgAstCd3",
+        "value": "ALL",
+        "text": "전체"
+      },
+      {
+        "select": "jrsdOrgAstCd3",
+        "value": "03010400",
+        "text": "대학교"
+      },
+      {
+        "select": "jrsdOrgAstCd4",
+        "value": "ALL",
+        "text": "전체"
+      },
+      {
+        "select": "jrsdOrgAstCd4",
+        "value": "04000100",
+        "text": "대한민국국회"
+      },
+      {
+        "select": "jrsdOrgAstCd4",
+        "value": "04000200",
+        "text": "대법원"
+      },
+      {
+        "select": "jrsdOrgAstCd4",
+        "value": "04000300",
+        "text": "헌법재판소"
+      },
+      {
+        "select": "jrsdOrgAstCd4",
+        "value": "04000400",
+        "text": "중앙선거관리위원회"
+      }
+    ]
+  },
+  {
+    "id": "directory-alio",
+    "requested_url": "https://alio.go.kr/home.do",
+    "retrieved_at": "2026-09-12T08:42:55.107882+00:00",
+    "api_tested": false,
+    "final_url": "https://alio.go.kr/main.do;jsessionid=hfyGrsOzF6yX2YJ1p1EoIrB1qg3XHSe-bidBbCX1.portal20",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "842217c0502d8c9a0b496c1f259c928e9f7eb0d3dcdb847fa9e9c195a5d55cb3",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "ALIO : 공공기관 경영정보 공개시스템",
+    "text": "ALIO : 공공기관 경영정보 공개시스템 이 누리집은 대한민국 공식 전자정부 누리집입니다. 본문 바로가기 주메뉴 바로가기 HOME 재정경제부 JOB-ALIO ALIOPLUS YOUTUBE 검색 상세검색 {{searchRank.searchRank}} {{searchRank.searchText}} {{searchRank.searchRank}} {{searchRank.searchText}} 글자크기 글자크기 축소 글자크기 확대 이용안내 누리집 안내지도 상세검색 닫기 알리오 안내 알리오 소개 경영공시 제도 공공기관 현황 정보 경영공시 공시현황 ·최근공시 ·우수 공시기관 기관별 공시 항목별 공시 주요 수시공시 ·채용정보 ·임원 모집공고 ·입찰공고 ·연구보고서 ·국회 지적사항 ·감사원/주무부처 지적사항 ·이사회회의록 ·내부·외부감사결과 ·내부규정 통계 주요통계 ·개요 ·임직원 현황 ·신규채용 현황 ·AI 활용현황 ·저공해 자동차 현황 ·안전관리등급 ·개인정보보호 ·사회공헌활동 ·협력사 지원 ·장애인 고용현황 ·구매 실적 ·투자집행내역 통계분석 ·단일항목 통계 ·복합 통계 공공정책자료 공공기관 법령/지침 공공정책자료 기타정보공개 소식·참여 공지사항 이용안내 누리집 안내지도 저작권정책 개인정보처리방침 경영개선제안센터 ·경영개선 제안 ·나의 제안확인 ·민원신청 ·나의 민원확인 메뉴 더보기 공공기관 경영정보 공개시스템 ALIO 는 엣지 , 크롬브라우저 이용을 권장합니다. ※ 익스플로러 9,10,11 버전에서 네이버, 다음 등을 통하여 접속하시는 분들은 \"알리오\"를 검색 후 마우스 우클릭 하시고 \"새탭에서 열기\" 를 클릭하시거나 주소창에 직접 알리오 주소(www.alio.go.kr)를 입력해서 접속하시기 바랍니다. * 익스플로러 9, 10, 11 버전에서는 일부기능이 제한 될 수 있습니다. 닫기 오늘 하루 창 열지 않음 창닫기 공시 항목 을 검색해 보세요 “알리오” 는 공공기관의 경영과 관련된 주요 정보를 종합적으로 한눈에 파악할 수 있는 시스템입니다. 검색 금주 신규 수시공시 {{weekDisclosureCnt}} 건 금주 신규 채용정보 {{weekRecruitMViewCnt}} 건 금주 신규 입찰공고 {{weekBidMViewCnt}} 건 더보기 다운로드 지역 별로 공공기관 분포 현황을 조회할 수 있습니다. 서울특별시 공기업 4 준정부기관 10 기타공공기관 114 경기도 공기업 2 준정부기관 3 기타공공기관 21 인천광역시 공기업 1 준정부기관 1 기타공공기관 6 강원도 공기업 2 준정부기관 6 기타공공기관 4 충청북도 공기업 0 준정부기관 3 기타공공기관 11 충청남도 공기업 2 준정부기관 1 기타공공기관 3 대전광역시 공기업 4 준정부기관 4 기타공공기관 15 세종특별자치시 공기업 0 준정부기관 3 기타공공기관 22 전라북도 공기업 0 준정부기관 3 기타공공기관 7 전남광주통합특별시 공기업 3 준정부기관 5 기타공공기관 11 경상북도 공기업 3 준정부기관 3 기타공공기관 4 경상북도 공기업 3 준정부기관 3 기타공공기관 4 경상북도 공기업 3 준정부기관 3 기타공공기관 4 경상남도 공기업 2 준정부기관 3 기타공공기관 7 대구광역시 공기업 2 준정부기관 5 기타공공기관 8 부산광역시 공기업 2 준정부기관 3 기타공공기관 16 울산광역시 공기업 2 준정부기관 4 기타공공기관 3 제주특별자치도 공기업 1 준정부기관 1 기타공공기관 2 항목별 공시 기관별 공시 통계 분석 알리오 안내 공공기관 지정현황 알리오 플러스 이용안내 채용정보 공지사항 최근공시 입찰공고 {{recruit.title}} {{recruit.openDate}} 최근 등록된 채용공고가 없습니다. 더보기+ {{notice.title}} {{notice.regiDt}} 최근 등록된 공지사항이 없습니다. 더보기+ {{disclosure.title}} | {{disclosure.pname}} {{disclosure.idate}} 최근 등록된 공시가 없습니다. 더보기+ {{bid.title}} {{bid.bdate}} 최근 등록된 입찰공고가 없습니다. 더보기+ 채용정보 {{recruitDtl.title}} 기관명 : {{recruitDtl.pname}} 표준직무(NCS) : {{recruitDtl.detailCode}} 근무지 : {{recruitDtl.location}} 고용형태 : {{recruitDtl.workType}} {{recruitDtl.idate}} 상세보기 최근 등록된 채용공고가 없습니다. 공지사항 {{noticeDtl.title}} 작성자 : {{noticeDtl.regiUserNe}} 내용 : {{noticeDtl.content}} {{noticeDtl.regiDt}} 상세보기 최근 등록된 공지사항이 없습니다. 최근공시 {{disclosureDtl.title}} 새창으로 보고서를 열면 첨부파일을 내려 받을 수 있습니다. {{disclosureDtl.idate}} 상세보기 최근 등록된 공시가 없습니다. 입찰공고 {{bidDtl.title}} 기관명 : {{bidDtl.pname}} 입찰종료 : {{bidDtl.bidInfoEndDt}} {{bidDtl.bdate}} 상세보기 최근 등록된 입찰공고가 없습니다. QR 코드를 찍으면 모바일 페이지에 바로 접속할 수 있습니다. Top (우)30112 세종특별자치시 도움6로 42 정부세종청사 재정경제부 | 시스템오류관련문의 : 044)215-7581 Copyright ⓒ 2011 Ministry of Finance and Economy. Republic of Korea. Some Rights Reserved. 저작권정책 개인정보처리방침 경영개선제안센터",
+    "links": [
+      {
+        "url": "https://alio.go.kr/main.do",
+        "label": "HOME"
+      },
+      {
+        "url": "http://www.mofe.go.kr",
+        "label": "재정경제부"
+      },
+      {
+        "url": "http://job.alio.go.kr",
+        "label": "JOB-ALIO"
+      },
+      {
+        "url": "http://www.alioplus.go.kr",
+        "label": "ALIOPLUS"
+      },
+      {
+        "url": "https://www.youtube.com/moefkorea",
+        "label": "YOUTUBE"
+      },
+      {
+        "url": "https://alio.go.kr/notice/serviceGuide.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://alio.go.kr/notice/siteMap.do",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://alio.go.kr/main.do",
+        "label": "alio"
+      },
+      {
+        "url": "https://alio.go.kr/guide/alioGuide.do",
+        "label": "알리오 안내"
+      },
+      {
+        "url": "https://alio.go.kr/guide/alioGuide.do",
+        "label": "알리오 소개"
+      },
+      {
+        "url": "https://alio.go.kr/guide/managementDisclosure.do",
+        "label": "경영공시 제도"
+      },
+      {
+        "url": "https://alio.go.kr/guide/publicAgencyStatus.do",
+        "label": "공공기관 현황 정보"
+      },
+      {
+        "url": "https://alio.go.kr/status/disclosureStatus.do",
+        "label": "경영공시"
+      },
+      {
+        "url": "https://alio.go.kr/status/disclosureStatus.do",
+        "label": "공시현황"
+      },
+      {
+        "url": "https://alio.go.kr/status/recentDisclosureList.do",
+        "label": "·최근공시"
+      },
+      {
+        "url": "https://alio.go.kr/status/organEvaluation.do",
+        "label": "·우수 공시기관"
+      },
+      {
+        "url": "https://alio.go.kr/organ/organDisclosureList.do",
+        "label": "기관별 공시"
+      },
+      {
+        "url": "https://alio.go.kr/item/itemList.do",
+        "label": "항목별 공시"
+      },
+      {
+        "url": "https://alio.go.kr/information/informationMain.do",
+        "label": "주요 수시공시"
+      },
+      {
+        "url": "https://alio.go.kr/information/informationRecruitList.do",
+        "label": "·채용정보"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/officerList.do",
+        "label": "·임원 모집공고"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/bidList.do",
+        "label": "·입찰공고"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/researchList.do",
+        "label": "·연구보고서"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/nationalAssemblyList.do",
+        "label": "·국회 지적사항"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/auditPointList.do",
+        "label": "·감사원/주무부처 지적사항"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/boardDirectorsList.do?reportType=43005",
+        "label": "·이사회회의록"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/boardDirectorsList.do?reportType=43006",
+        "label": "·내부·외부감사결과"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/ruleList.do",
+        "label": "·내부규정"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/statisticsHome.do",
+        "label": "통계"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/statisticsHome.do",
+        "label": "주요통계"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/statisticsHome.do",
+        "label": "·개요"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/employeeStatues.do",
+        "label": "·임직원 현황"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/newRecruit.do",
+        "label": "·신규채용 현황"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/aiUtilStatus.do",
+        "label": "·AI 활용현황"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/levStatus.do",
+        "label": "·저공해 자동차 현황"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/safetyManage.do",
+        "label": "·안전관리등급"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/privacyStatus.do",
+        "label": "·개인정보보호"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/socialActivities.do",
+        "label": "·사회공헌활동"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/partnerSupport.do",
+        "label": "·협력사 지원"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/disabilityEmploymentStatus.do",
+        "label": "·장애인 고용현황"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/purchasePerformance.do",
+        "label": "·구매 실적"
+      },
+      {
+        "url": "https://alio.go.kr/statistics/investmentList.do",
+        "label": "·투자집행내역"
+      },
+      {
+        "url": "https://alio.go.kr/statisticsSearch/singleStatisticsSearch.do",
+        "label": "통계분석"
+      },
+      {
+        "url": "https://alio.go.kr/statisticsSearch/singleStatisticsSearch.do",
+        "label": "·단일항목 통계"
+      },
+      {
+        "url": "https://alio.go.kr/statisticsSearch/complexStatisticsSearch.do",
+        "label": "·복합 통계"
+      },
+      {
+        "url": "https://alio.go.kr/etc/etcLawList.do",
+        "label": "공공정책자료"
+      },
+      {
+        "url": "https://alio.go.kr/etc/etcLawList.do",
+        "label": "공공기관 법령/지침"
+      },
+      {
+        "url": "https://alio.go.kr/etc/etcPdsList.do",
+        "label": "공공정책자료"
+      },
+      {
+        "url": "https://alio.go.kr/etc/etcInfoList.do",
+        "label": "기타정보공개"
+      },
+      {
+        "url": "https://alio.go.kr/notice/noticeList.do",
+        "label": "소식·참여"
+      },
+      {
+        "url": "https://alio.go.kr/notice/noticeList.do",
+        "label": "공지사항"
+      },
+      {
+        "url": "https://alio.go.kr/notice/serviceGuide.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://alio.go.kr/notice/siteMap.do",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://alio.go.kr/notice/copyright.do",
+        "label": "저작권정책"
+      },
+      {
+        "url": "https://alio.go.kr/notice/privacyPolicy.do",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://alio.go.kr/notice/managementJoin.do",
+        "label": "경영개선제안센터"
+      },
+      {
+        "url": "https://alio.go.kr/notice/suggestion.do",
+        "label": "·경영개선 제안"
+      },
+      {
+        "url": "https://alio.go.kr/notice/checkSuggestion.do",
+        "label": "·나의 제안확인"
+      },
+      {
+        "url": "https://alio.go.kr/notice/civilComplaint.do",
+        "label": "·민원신청"
+      },
+      {
+        "url": "https://alio.go.kr/notice/checkCivilComplaint.do",
+        "label": "·나의 민원확인"
+      },
+      {
+        "url": "https://alio.go.kr/guide/publicAgencyStatus.do",
+        "label": "더보기"
+      },
+      {
+        "url": "https://alio.go.kr/item/itemList.do",
+        "label": "항목별 공시"
+      },
+      {
+        "url": "https://alio.go.kr/organ/organDisclosureList.do",
+        "label": "기관별 공시"
+      },
+      {
+        "url": "https://alio.go.kr/statisticsSearch/singleStatisticsSearch.do",
+        "label": "통계 분석"
+      },
+      {
+        "url": "https://alio.go.kr/guide/alioGuide.do",
+        "label": "알리오 안내"
+      },
+      {
+        "url": "https://alio.go.kr/guide/publicAgencyList.do",
+        "label": "공공기관 지정현황"
+      },
+      {
+        "url": "http://www.alioplus.go.kr",
+        "label": "알리오 플러스"
+      },
+      {
+        "url": "https://alio.go.kr/notice/serviceGuide.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://alio.go.kr/information/informationRecruitList.do",
+        "label": "더보기+"
+      },
+      {
+        "url": "https://alio.go.kr/notice/noticeList.do",
+        "label": "더보기+"
+      },
+      {
+        "url": "https://alio.go.kr/status/recentDisclosureList.do",
+        "label": "더보기+"
+      },
+      {
+        "url": "https://alio.go.kr/occasional/bidList.do",
+        "label": "더보기+"
+      },
+      {
+        "url": "http://www.mofe.go.kr/",
+        "label": "재정경제부"
+      },
+      {
+        "url": "https://job.alio.go.kr/",
+        "label": "잡알리오"
+      },
+      {
+        "url": "http://www.work.go.kr",
+        "label": "워크넷"
+      },
+      {
+        "url": "http://www.openfiscaldata.go.kr/",
+        "label": "열린재정"
+      },
+      {
+        "url": "https://www.epeople.go.kr/",
+        "label": "국민신문고"
+      },
+      {
+        "url": "http://www.alioplus.go.kr",
+        "label": "알리오플러스"
+      },
+      {
+        "url": "https://www.gov.kr",
+        "label": "정부24"
+      },
+      {
+        "url": "https://opendata.alio.go.kr",
+        "label": "청년일자리"
+      },
+      {
+        "url": "http://matchingbank.career.co.kr",
+        "label": "인재채움뱅크"
+      },
+      {
+        "url": "https://alio.go.kr/notice/copyright.do",
+        "label": "저작권정책"
+      },
+      {
+        "url": "https://alio.go.kr/notice/privacyPolicy.do",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://alio.go.kr/notice/managementJoin.do",
+        "label": "경영개선제안센터"
+      }
+    ],
+    "select_options": []
+  },
+  {
+    "id": "directory-org",
+    "requested_url": "https://www.org.go.kr/",
+    "retrieved_at": "2026-09-12T08:42:55.441818+00:00",
+    "api_tested": false,
+    "final_url": "https://www.org.go.kr/",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "b0284ea0eb20e4feb4b38ac8e92e0428abe926ec361fc062506f4825eec5b8bc",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "정부조직관리정보시스템",
+    "text": "정부조직관리정보시스템 본문바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 조직 · 제도소개 조직 · 제도소개 정부조직이란 제도소개 총액인건비 책임운영기관 행정기관위원회 신설기구 · 인력 평가 조직진단 정부기구도 정부기구도 정부기구도 기관별기구도 정부기구도(영문) 역대정부기구도 자료실 통계자료 통계자료 공무원정원 공무원정원분석표 공무원정원 공무원역대정부증감현황 기구정원통계 행정기관위원회 국민생각함 전체메뉴 제도 · 조직소개 정부조직이란 제도소개 총액인건비 책임운영기관 행정기관위원회 신설기구 · 인력 평가 조직진단 정부기구도 정부기구도 기관별기구도 정부기구도(영문) 역대정부기구도 자료실 통계자료 공무원정원 공무원정원분석표 공무원정원 공무원역대정부증감현황 기구정원통계 행정기관위원회 국민생각함 메뉴닫기 정부조직관리정보시스템 정부조직 데이터 기반 스마트행정 으로 혁신을 선도합니다 정부기구도 역대정부기구도 공무원정원 역대정부 정원 증감현황 공무원 정원 2025년 12월 31일 기준 계 1,175,295 명 국가직 753,689 명 지방직 395,690 명 헌법기관 25,916 명 (우편번호) 30112, 세종특별자치시 도움6로 42(어진동) / (우편번호) 30112, 세종특별자치시 어진동 572 정부세종청사 중앙동 행정안전부 정부민원안내콜센터 국번없이 110 / 정부조직관리시스템 1544-9392 / 044-205-2314 (월∼금 09:00∼18:00, 공휴일제외) ⓒ Ministry of the Interior and Safety. All rights reserved. 이 누리집은 행정안전부 누리집입니다.",
+    "links": [
+      {
+        "url": "https://www.org.go.kr/intrcn/orgnzt/viewDc.do",
+        "label": "정부조직이란"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewLbcst.do",
+        "label": "총액인건비"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewExecutive.do",
+        "label": "책임운영기관"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewCmit.do",
+        "label": "행정기관위원회"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewNewOrgHnfEvl.do",
+        "label": "신설기구 · 인력 평가"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewDgnss.do",
+        "label": "조직진단"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/getInstiChartList.do",
+        "label": "기관별기구도"
+      },
+      {
+        "url": "https://www.org.go.kr/orgnzt/chart/viewEng.do",
+        "label": "정부기구도(영문)"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000",
+        "label": "자료실"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/analysisPage.do",
+        "label": "공무원정원분석표"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectAll.do",
+        "label": "공무원정원"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectIrds.do",
+        "label": "공무원역대정부증감현황"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050",
+        "label": "기구정원통계"
+      },
+      {
+        "url": "https://www.org.go.kr/orgnzt/cmitSttus/viewGnrl.do",
+        "label": "행정기관위원회"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/orgnzt/viewDc.do",
+        "label": "정부조직이란"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewLbcst.do",
+        "label": "총액인건비"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewExecutive.do",
+        "label": "책임운영기관"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewCmit.do",
+        "label": "행정기관위원회"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewNewOrgHnfEvl.do",
+        "label": "신설기구 · 인력 평가"
+      },
+      {
+        "url": "https://www.org.go.kr/intrcn/system/viewDgnss.do",
+        "label": "조직진단"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/getInstiChartList.do",
+        "label": "기관별기구도"
+      },
+      {
+        "url": "https://www.org.go.kr/orgnzt/chart/viewEng.do",
+        "label": "정부기구도(영문)"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_400000010000",
+        "label": "자료실"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/analysisPage.do",
+        "label": "공무원정원분석표"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectAll.do",
+        "label": "공무원정원"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectIrds.do",
+        "label": "공무원역대정부증감현황"
+      },
+      {
+        "url": "https://www.org.go.kr/cop/bbs/getOrgMembStatsList.do?bbsId=BBSMSTR_000000010050",
+        "label": "기구정원통계"
+      },
+      {
+        "url": "https://www.org.go.kr/orgnzt/cmitSttus/viewGnrl.do",
+        "label": "행정기관위원회"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectAll.do",
+        "label": "공무원정원"
+      },
+      {
+        "url": "https://www.org.go.kr/psncpa/pbsvnt/selectIrds.do",
+        "label": "역대정부 정원 증감현황"
+      }
+    ],
+    "select_options": []
+  },
+  {
+    "id": "directory-local",
+    "requested_url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+    "retrieved_at": "2026-09-12T08:42:55.457367+00:00",
+    "api_tested": false,
+    "final_url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+    "http_status": 200,
+    "media_type": "text/html",
+    "sha256": "28775d3793982bba8c8c38f17370c5955d732369403f560300051a2cd8d31b7c",
+    "truncated": false,
+    "status": "page_observed",
+    "title": "행정안전부> 뉴스·소식> 지자체소식> 지자체 누리집",
+    "text": "행정안전부> 뉴스·소식> 지자체소식> 지자체 누리집 본문 내용 바로가기 대메뉴 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. ENGLISH 어린이 누리집 안내지도 행정안전부 페이스북 새창으로 열기 행정안전부 엑스(X) 새창으로 열기 행정안전부 블로그 새창으로 열기 행정안전부 유튜브 새창으로 열기 행정안전부 인스타그램 새창으로 열기 행정안전부 안전한 tv 새창으로 열기 행정안전부 상단으로 가기 위로 이 누리집은 대한민국 공식 전자정부 누리집입니다. 정보공개 정보공개 홈 정보공개안내 메뉴가 없습니다. 정보공개청구 메뉴가 없습니다. 사전정보공개 정보목록 정보공개수수료 업무추진비 공개 비공개 대상정보 세부기준 주요 보존기록 국무·차관회의 회의록 중앙지방협력회의 회의록 기관장 일정 사전정보공표 사전정보 공표목록 발주계획 및 계약현황 감사(감찰)계획 및 결과공개 정책실명제 국고보조금 현황공개 민간보조금 현황공개 세입 · 세출예산 운용상황 정부포상 추천대상자 공개검증 반부패 · 청렴시책자료 반부패 · 청렴현황 정보공개심의회 결과 공개 정보공개 연차보고서 메뉴가 없습니다. 공공데이터 개방 공공데이터 개방 협동조합 경영공시 협동조합 경영공시 지방물가정보공개 지방물가정보공개 지방공공요금 개인서비스 및 농축산물 참여 · 민원 참여 · 민원 홈 이용안내 민원 이용안내 민원행정 서비스 헌장 온라인 민원신청 유사민원 검색 온라인 민원FAQ 온라인 민원신청 나의민원보기 국민참여 국민제안 나의 제안보기 국민생각함 온라인공청회 특별성과 공무원 추천 적극행정 제도소개 적극행정 홍보·교육 적극행정 국민추천 소극행정 신고 규제합리화 규제합리화 실적 심사중인 규제법안 관련 보도자료 규제법령 정보 국무조정실 규제신문고 규제입증요청 신고센터 부패·공익신고 공직비리 익명신고 갑질신고센터 예산낭비신고센터 안전신문고 상훈부조리 신고센터 뉴스 · 소식 뉴스 · 소식 홈 새소식 알립니다 보도자료 보도자료 설명자료 사진자료실 동영상자료실 지자체소식 지자체 정보 정책 소식 지자체 누리집 홍보자료 카드뉴스 정보 그림 웹툰 국민행동요령 안전한 TV 주요 성과뉴스 정책자료 정책자료 홈 주요업무계획 주요업무계획 국정과제 법령정보 최근 제·개정 법령 법령 훈령·예규·고시 입법·행정예고 온라인공청회 법령종합검색 법령자료실 전자관보 메뉴가 없습니다. 통계 통계연보·주제별 통계 승인통계 e-나라지표 주민등록 인구통계 행정안전통계 시각화 간행물 메뉴가 없습니다. 정책연구보고서 메뉴가 없습니다. 참고자료 메뉴가 없습니다. 업무안내 업무안내 홈 기획조정실 주요업무 기획·예산·국회 성과 및 고객관리 입법·송무·규제혁신 정보자원·보안 정책관리 행정관리 국제협력지원 업무추진비 공개 참여혁신조직실 주요업무 국민참여혁신 민원제도혁신 정보공개제도 정부조직관리 정부혁신 행정절차 지원·교육,행정사 행정제도 개선 업무추진비 공개 인공지능정부실 주요업무 공공데이터 개방 대민서비스 기반확충 디지털정부 온라인홍보관 스마트전자정부 구축 정보자원관리 효율화 정보화 표준·지침 자료실 행정서비스통합포털(정부24) 행정정보 공동이용 업무추진비 공개 자치혁신실 주요업무 공무원 노사관계 공직선거 내고장알리미 도로명주소 안내 사회연대경제 안전하고 편리한 공중화장실 여성공무원정책 옥외광고물 온천 개발관리 자전거 이용 활성화 추진 자치법규 주민등록,인감 주민참여 지방소멸대응 지방자치제도 지방행정지원 지역발전지원 업무추진비 공개 지방재정경제실 주요업무 고유가 피해지원금 공유재산·물품관리 마을세무사 지방계약, 회계예규 지방공기업제도·운영 지방교부세 지방물가 관리 지방세 납세자보호관 지방세 상담 챗봇 지방세 종합정보 지방자치단체 선정 대리인 지방재정 지역사랑상품권 업무추진비 공개 안전예방정책실 주요업무 AI 기반 CCTV 관제지원시스템 국가승강기정보센터 국민안전체험관 국민안전24 긴급신고 통합서비스 생애주기별 대국민 안전교육 생활안전지도 안전디딤돌 안전신문고 어린이안전관리 제도 재난안전예산 사전협의 제도 재난안전제품 인증제도 재난안전통신망 재해경감 우수기업 인증제도 지역안전지수 업무추진비 공개 자연재난실 주요업무 우수유출저감시설 설치 사업 위기관리 매뉴얼 자연재해저감 예방대책 강화 재난관리자원 통합관리시스템 재난대비훈련 재해예방사업 지역자율방재단 지진대비인프라구축 업무추진비 공개 사회재난실 주요업무 해빙기 안전점검 집중안전점검 지역축제 안전관리 여름철 수상안전관리 정부합동 안전점검 반복적 재난에 대한 재난원인조사 사회재난 유형 및 대응체계 관리 다중운집인파 안전관리 국가핵심기반 보호 재난연감 발간 10·29이태원참사 피해자 지원 업무추진비 공개 재난복구지원국 주요업무 재난 현장지원 재난 구호 재난 복구 풍수해·지진재해보험 운영 재난배상책임보험 운영 재해연보 발간 업무추진비 공개 비상대비정책국 주요업무 민방위 제도 운영 비상대비 계획 비상대비 자원관리 비상대비 참고자료실 비상대비 훈련 비상대비업무담당자 중점관리대상업체 지원 업무추진비 공개 장차관직속 주요업무 감사관 안전감찰담당관 안전관리일일상황 의정관 중앙재난안전상황실 업무추진비 공개 기관소개 기관소개 홈 행정안전부 안내 주요업무 연혁 기관문양 예산현황 행정안전부 누리집 안내 조직안내 조직과 기능 업무검색 열린장관실 메뉴가 없습니다. 찾아오시는 길 약도 사무실 배치도 통합검색 자주 찾는 정보 자주 찾는 정보 검색창 자주 찾는 정보 메인 화면에서 행정안전부 메뉴를 빠르게 접속 할 수 있도록 메뉴를 설정할 수 있습니다. (최대 6개 지정) 선택된 자주 찾는 정보 메뉴 목록입니다. 보도자료 알림·채용 적극행정 업무검색 공직비리 익명신고 훈령·예규·고시 사진 자료실 생활안전 지도 전자관보 간행물 민원안내 조직과기능 통계 지방물가정보공개 안전관리 일일상황 업무안내 보도자료 전자관보 알림·채용 간행물 적극행정 민원안내 업무검색 조직과 기능 안전관리 일일상황 업무안내 공직비리 익명신고 통계 훈령·예규·고시 지방물가정보공개 사진자료실 생활안전지도 저장 자주 찾는 정보 6개를 선택하셔야 저장이 가능합니다. 초기화 선택된 자주 찾는 정보를 초기화 한 후 자동 저장합니다. 검색창 통합검색 모바일 메뉴 닫기 행정안전부 페이스북 새창으로 열기 행정안전부 엑스(X) 새창으로 열기 행정안전부 블로그 새창으로 열기 행정안전부 유튜브 새창으로 열기 행정안전부 인스타그램 새창으로 열기 행정안전부 안전한 tv 새창으로 열기 누리집 안내지도 어린이 ENGLISH 정보공개 정보공개 홈 정보공개안내 정보공개청구 사전정보공개 정보목록 정보공개수수료 업무추진비 공개 비공개 대상정보 세부기준 주요 보존기록 국무·차관회의 회의록 중앙지방협력회의 회의록 기관장 일정 사전정보공표 사전정보 공표목록 발주계획 및 계약현황 감사(감찰)계획 및 결과공개 정책실명제 - 정책실명제 안내 - 중점관리 대상사업 국고보조금 현황공개 민간보조금 현황공개 세입 · 세출예산 운용상황 정부포상 추천대상자 공개검증 반부패 · 청렴시책자료 반부패 · 청렴현황 정보공개심의회 결과 공개 정보공개 연차보고서 공공데이터 개방 공공데이터 개방 협동조합 경영공시 지방물가정보공개 지방물가정보공개 지방공공요금 개인서비스 및 농축산물 참여·민원 참여 · 민원 홈 이용안내 민원 이용안내 민원행정 서비스 헌장 온라인 민원신청 유사민원 검색 온라인 민원FAQ 온라인 민원신청 나의민원보기 국민참여 국민제안 나의 제안보기 국민생각함 온라인공청회 특별성과 공무원 추천 적극행정 제도소개 적극행정 홍보·교육 적극행정 국민추천 소극행정 신고 규제합리화 규제합리화 실적 심사중인 규제법안 관련 보도자료 규제법령 정보 국무조정실 규제신문고 규제입증요청 신고센터 부패·공익신고 - 공익신고 - 부패행위신고 - 청탁금지법 위반신고 - 이해충돌 위반신고 - 보조금 부조리 신고센터 공직비리 익명신고 갑질신고센터 예산낭비신고센터 안전신문고 상훈부조리 신고센터 뉴스·소식 뉴스 · 소식 홈 새소식 알립니다 보도자료 보도자료 설명자료 사진자료실 동영상자료실 지자체소식 지자체 정보 정책 소식 지자체 누리집 홍보자료 카드뉴스 정보 그림 웹툰 국민행동요령 안전한 TV 주요 성과뉴스 정책자료 정책자료 홈 주요업무계획 주요업무계획 국정과제 법령정보 최근 제·개정 법령 법령 훈령·예규·고시 입법·행정예고 온라인공청회 법령종합검색 법령자료실 전자관보 통계 통계연보·주제별 통계 승인통계 e-나라지표 주민등록 인구통계 행정안전통계 시각화 간행물 정책연구보고서 참고자료 업무안내 업무안내 홈 기획조정실 주요업무 기획·예산·국회 성과 및 고객관리 정책관리 입법·송무·규제혁신 정보자원·보안 행정관리 국제협력지원 업무추진비 공개 참여혁신조직실 주요업무 국민참여혁신 - 국민참여혁신 - 생활공감정책 - 국민디자인단 - 제안제도 민원제도 혁신 - 민원제도 혁신 - 무인민원발급창구 운영 - 민원제도 개선 우수사례 정보공개제도 정부조직관리 정부혁신 행정절차 지원·교육,행정사 행정제도 개선 업무추진비 공개 인공지능정부실 주요업무 공공데이터 개방 - 공공데이터 개방 - 공공데이터 품질 제고 - 공공데이터 제공신청 및 분쟁조정 - 기업 지원 정책 대민서비스 기반확충 - 전자정부지원사업 개요 - 정보화사업 사전협의제 운영 - 지방행정정보화 디지털정부 온라인홍보관 - 디지털정부 국제협력 현황 - 디지털정부 전시체험관 - 자료실 스마트전자정부 구축 - 스마트워크 활성화 - 모바일 전자정부 구축 - 국민비서 서비스 - 모바일 신분증 - 정부 통합인증(Any-ID) 정보자원관리 효율화 - 정보자원관리 - 전자정부 인프라 - 전자정부표준관리 - 공공 웹·앱 UI/UX 혁신 정보화 표준·지침 자료실 행정서비스통합포털(정부24) 행정정보 공동이용 - 행정정보공유 - 비대면 자격확인 서비스 - 공공 마이데이터 활성화 업무추진비 공개 자치혁신실 주요업무 공무원 노사관계 공직선거 내고장알리미 도로명주소 안내 사회연대경제 - 마을기업 - 민간협력 - 새마을금고 - 지역사회 활성화 안전하고 편리한 공중화장실 - 공중화장실 제도의 이해 - 안전하고 편리한 사용환경 조성 - 유관기관 협업사업 추진 - 공중화장실 자료실 여성공무원정책 옥외광고물 - 옥외광고물이란? - 간판개선사업 현황 - 거리가 아파요 온천 개발관리 자전거 이용 활성화 추진 자치법규 주민등록,인감 - 주민등록,인감 - 주민등록번호 변경제도 - 주민등록증 - 재외국민 주민등록 주민참여 지방소멸대응 - 인구감소지역 지정 - 지방소멸대응기금 - 인구감소지역 지원 특별법 - 고향사랑기부제 지방자치제도 지방행정지원 지역발전지원 - 특수상황지역 개발 - 접경권 발전 지원 - 주한미군 공여구역 주변지역 등 지원 - 주한미군기지 이전에 따른 평택지원 업무추진비 공개 지방재정경제실 주요업무 공유재산·물품관리 마을세무사 지방계약, 회계예규 지방공기업제도·운영 지방교부세 지방물가 관리 지방세 납세자보호관 지방세 상담 챗봇 지방세 종합정보 지방자치단체 선정 대리인 지방재정 지역사랑상품권 업무추진비 공개 안전예방정책실 주요업무 AI 기반 CCTV 관제지원시스템 국가승강기정보센터 국민안전체험관 국민안전24 긴급신고 통합서비스 생애주기별 대국민 안전교육 생활안전지도 안전디딤돌 안전신문고 어린이안전관리 제도 재난안전예산 사전협의 제도 재난안전제품 인증제도 재난안전통신망 재해경감 우수기업 인증제도 지역안전지수 업무추진비 공개 자연재난실 주요업무 우수유출저감시설 설치 사업 위기관리 매뉴얼 자연재해저감 예방대책 강화 - 자연재해저감 종합계획 수립 제도 - 재해영향평가 협의제도 - 방재관리대책대행자 제도 - 자연재해 안전도 진단 제도 재난관리자원 통합관리시스템 재난대비훈련 재해예방사업 지역자율방재단 지진대비인프라구축 - 지진안전시설물 인증제도 - 지진방재 전문인력 양성 업무추진비 공개 사회재난실 주요업무 해빙기 안전점검 집중안전점검 지역축제 안전관리 여름철 수상안전관리 정부합동 안전점검 반복적 재난에 대한 재난원인조사 사회재난 유형 및 대응체계 관리 다중운집인파 안전관리 국가핵심기반 보호 재난연감 발간 10·29이태원참사 피해자 지원 - 피해자 인정신청 안내 - Victim Recognition application - 피해지원 - Living Assistance fund - 추모지원 - 최신소식 - 개인정보 목적 외 이용 및 제3자 제공 업무추진비 공개 재난복구지원국 주요업무 재난 현장지원 재난 구호 재난 복구 풍수해·지진재해보험 운영 재난배상책임보험 운영 재해연보 발간 업무추진비 공개 비상대비정책국 주요업무 민방위 제도 운영 비상대비 계획 비상대비 자원관리 비상대비 참고자료실 비상대비 훈련 - 을지연습 - 충무훈련 비상대비업무담당자 중점관리대상업체 지원 업무추진비 공개 장차관직속 주요업무 감사관 - 담당업무 - 감사제도·운영 - 사전 컨설팅감사 - 공무원부조리신고 - 정부합동감사에 바란다 안전감찰담당관 - 안전감찰 안전관리일일상황 의정관 - 담당업무 - 국가상징 - 국경일·기념일 - 정부포상 중앙재난안전상황실 업무추진비 공개 기관소개 기관소개 홈 행정안전부 안내 주요업무 연혁 기관문양 예산현황 행정안전부 누리집 안내 조직안내 조직과 기능 업무검색 열린장관실 찾아오시는 길 약도 사무실 배치도 지자체소식 지자체 정보 정책 소식 지자체 누리집 지자체 누리집 HOME > 뉴스·소식 > 지자체소식 > 지자체 누리집 인쇄하기 서울특별시 전남광주통합특별시 부산광역시 대구광역시 인천광역시 대전광역시 울산광역시 세종특별자치시 경기도 강원특별자치도 충청북도 충청남도 전북특별자치도 경상북도 경상남도 제주특별자치도 서울특별시 종로구 중구 용산구 성동구 광진구 동대문구 중랑구 성북구 강북구 도봉구 노원구 은평구 서대문구 마포구 양천구 강서구 구로구 금천구 영등포구 동작구 관악구 서초구 강남구 송파구 강동구 전남광주통합특별시 목포시 여수시 순천시 나주시 광양시 동구 서구 남구 북구 광산구 담양군 곡성군 구례군 고흥군 보성군 화순군 장흥군 강진군 해남군 영암군 무안군 함평군 영광군 장성군 완도군 진도군 신안군 부산광역시 중구 서구 동구 영도구 부산진구 동래구 남구 북구 해운대구 사하구 금정구 강서구 연제구 수영구 사상구 기장군 대구광역시 중구 동구 서구 남구 북구 수성구 달서구 달성군 군위군 인천광역시 제물포구 영종구 미추홀구 연수구 남동구 부평구 계양구 서해구 검단구 강화군 옹진군 대전광역시 동구 중구 서구 유성구 대덕구 울산광역시 중구 남구 동구 북구 울주군 세종특별자치시 경기도 수원시 성남시 의정부시 안양시 부천시 광명시 평택시 동두천시 안산시 고양시 과천시 구리시 남양주시 오산시 시흥시 군포시 의왕시 하남시 용인시 파주시 이천시 안성시 김포시 화성시 광주시 양주시 포천시 여주시 연천군 가평군 양평군 강원특별자치도 춘천시 원주시 강릉시 동해시 태백시 속초시 삼척시 홍천군 횡성군 영월군 평창군 정선군 철원군 화천군 양구군 인제군 고성군 양양군 충청북도 청주시 충주시 제천시 보은군 옥천군 영동군 증평군 진천군 괴산군 음성군 단양군 충청남도 천안시 공주시 당진시 보령시 아산시 서산시 논산시 계룡시 금산군 부여군 서천군 청양군 홍성군 예산군 태안군 전북특별자치도 전주시 군산시 익산시 정읍시 남원시 김제시 완주군 진안군 무주군 장수군 임실군 순창군 고창군 부안군 경상북도 포항시 경주시 김천시 안동시 구미시 영주시 영천시 상주시 문경시 경산시 의성군 청송군 영양군 영덕군 청도군 고령군 성주군 칠곡군 예천군 봉화군 울진군 울릉군 경상남도 창원시 진주시 통영시 사천시 김해시 밀양시 거제시 양산시 의령군 함안군 창녕군 고성군 남해군 하동군 산청군 함양군 거창군 합천군 제주특별자치도 제주시 서귀포시 이용안내 문서보기 프로그램 저작권정책 개인정보처리방침 기관소개(직원검색, 약도 등) 정부·지자체 기관정보(정부24) 소속기관 누리집 열기 지방자치인재개발원 국가기록원 정부청사관리본부 이북5도 주민등록번호변경위원회 국가재난안전교육원 대통령기록관 국립과학수사연구원 국가정보자원관리원 국립재난안전연구원 소속기관 누리집 소속기관 누리집 닫기 산하기관 누리집 열기 한국지능정보사회진흥원 한국승강기안전공단 민주화운동기념사업회 일제강제동원 피해자지원재단 한국지방행정연구원 대한지방행정공제회 한국지방재정공제회 한국지역정보개발원 지방공기업평가원 한국섬진흥원 한국지방세연구원 국립국가폭력트라우마치유센터 산하기관 누리집 산하기관 누리집 닫기 본관 : 30112 세종특별자치시 도움6로 42(어진동) / 별관 : 30116 세종특별자치시 가름로 143(어진동) 정부민원안내콜센터 국번없이 110 (무료, 평일 9시~18시) 행정안전부 대표전화 02-2100-3399 / 팩스 044-204-8911 © Ministry of the Interior and Safety. All rights reserved.",
+    "links": [
+      {
+        "url": "https://www.mois.go.kr/eng/a01/engMain.do",
+        "label": "ENGLISH"
+      },
+      {
+        "url": "https://www.mois.go.kr/chd/a01/chdMain.do",
+        "label": "어린이"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/sitemap/screen.do",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://evaluation.go.kr/p123.jsp",
+        "label": "국민이 주인인 나라,함께 행복한 대한민국"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do",
+        "label": "국가상징 국무회의 알아보기"
+      },
+      {
+        "url": "https://www.facebook.com/withyou3542",
+        "label": "행정안전부 페이스북 새창으로 열기 행정안전부 페이스북 새창으로 열기"
+      },
+      {
+        "url": "https://twitter.com/withyou3542",
+        "label": "행정안전부 엑스(X) 새창으로 열기 행정안전부 엑스(X) 새창으로 열기"
+      },
+      {
+        "url": "http://blog.naver.com/mopaspr",
+        "label": "행정안전부 블로그 새창으로 열기 행정안전부 블로그 새창으로 열기"
+      },
+      {
+        "url": "https://www.youtube.com/withyou3542",
+        "label": "행정안전부 유튜브 새창으로 열기 행정안전부 유튜브 새창으로 열기"
+      },
+      {
+        "url": "https://www.instagram.com/withyou3542/",
+        "label": "행정안전부 인스타그램 새창으로 열기 행정안전부 인스타그램 새창으로 열기"
+      },
+      {
+        "url": "http://www.safetv.go.kr/",
+        "label": "행정안전부 안전한 tv 새창으로 열기 행정안전부 안전한 tv 새창으로 열기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a01/frtMain.do",
+        "label": "행정안전부 로고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/selectInfoPublish.do",
+        "label": "정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/selectInfoPublish.do",
+        "label": "정보공개 홈"
+      },
+      {
+        "url": "https://www.open.go.kr/infOthbc/infOthbc/infOthbc.do",
+        "label": "정보공개안내"
+      },
+      {
+        "url": "https://www.open.go.kr/com/login/memberLogin.do",
+        "label": "정보공개청구"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/info1304List/screen.do",
+        "label": "사전정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/info1304List/screen.do",
+        "label": "정보목록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/infoDisclosureFee/screen.do",
+        "label": "정보공개수수료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openBusinessPromotion/screen.do",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/standard/screen.do",
+        "label": "비공개 대상정보 세부기준"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/selectInfoRcordList.do",
+        "label": "주요 보존기록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000430",
+        "label": "국무·차관회의 회의록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000450",
+        "label": "중앙지방협력회의 회의록"
+      },
+      {
+        "url": "https://www.mois.go.kr/mns/a03/selectGpScheduleCalendar.do?cat=90010001",
+        "label": "기관장 일정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/localGovernmentList2.do",
+        "label": "사전정보공표"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/localGovernmentList2.do",
+        "label": "사전정보 공표목록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type017/commonSelectBoardList.do?bbsId=BBSMSTR_000000000144",
+        "label": "발주계획 및 계약현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000002",
+        "label": "감사(감찰)계획 및 결과공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/policy/screen.do",
+        "label": "정책실명제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/goversub/screen.do",
+        "label": "국고보조금 현황공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000165",
+        "label": "민간보조금 현황공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/fiscaldatain.do",
+        "label": "세입 · 세출예산 운용상황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000072",
+        "label": "정부포상 추천대상자 공개검증"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000196",
+        "label": "반부패 · 청렴시책자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000195",
+        "label": "반부패 · 청렴현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000620",
+        "label": "정보공개심의회 결과 공개"
+      },
+      {
+        "url": "https://www.open.go.kr/infOthbc/dta/dtaDta.do",
+        "label": "정보공개 연차보고서"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openInfo_1/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openInfo_1/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/coopinfo/screen.do",
+        "label": "협동조합 경영공시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/coopinfo/screen.do",
+        "label": "협동조합 경영공시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid/screen.do",
+        "label": "지방물가정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid/screen.do",
+        "label": "지방물가정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid010101/screen.do",
+        "label": "지방공공요금"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid020101/screen.do",
+        "label": "개인서비스 및 농축산물"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a03/civilComplaintHome.do",
+        "label": "참여 · 민원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a03/civilComplaintHome.do",
+        "label": "참여 · 민원 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo/screen.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo/screen.do",
+        "label": "민원 이용안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo2_1/screen.do",
+        "label": "민원행정 서비스 헌장"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/similarCivilComplaint/screen.do",
+        "label": "온라인 민원신청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/similarCivilComplaint/screen.do",
+        "label": "유사민원 검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/onlineCivilComplaint/screen.do",
+        "label": "온라인 민원FAQ"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintRequest/screen.do",
+        "label": "온라인 민원신청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/myCivilComplaint/screen.do",
+        "label": "나의민원보기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/suggestion/screen.do#epeopleFrameFocus",
+        "label": "국민참여"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/suggestion/screen.do#epeopleFrameFocus",
+        "label": "국민제안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/my_suggestion/screen.do?pgm_no=mps_pgm_020507#epeopleFrameFocus",
+        "label": "나의 제안보기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/ideaepeople/screen.do",
+        "label": "국민생각함"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicHearing/screen.do#epeopleFrameFocus",
+        "label": "온라인공청회"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/award/screen.do",
+        "label": "특별성과 공무원 추천"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/systemIntroduce/screen.do",
+        "label": "적극행정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/systemIntroduce/screen.do",
+        "label": "제도소개"
+      },
+      {
+        "url": "https://www.mpm.go.kr/proactivePublicService/local/passive",
+        "label": "적극행정 홍보·교육"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/peopleRecommend/screen.do",
+        "label": "적극행정 국민추천"
+      },
+      {
+        "url": "https://idea.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid",
+        "label": "소극행정 신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better01/screen.do",
+        "label": "규제합리화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better01/screen.do",
+        "label": "규제합리화 실적"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better02/screen.do",
+        "label": "심사중인 규제법안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better03/screen.do",
+        "label": "관련 보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better04/screen.do",
+        "label": "규제법령 정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/sinmungo/screen.do",
+        "label": "국무조정실 규제신문고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/regulationProof/screen.do",
+        "label": "규제입증요청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicStatement/screen.do",
+        "label": "신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicStatement/screen.do",
+        "label": "부패·공익신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/pcadMain/screen.do",
+        "label": "공직비리 익명신고"
+      },
+      {
+        "url": "https://cloud.redwhistle.org",
+        "label": "갑질신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/wasteBudget/screen.do",
+        "label": "예산낭비신고센터"
+      },
+      {
+        "url": "https://www.safetyreport.go.kr/",
+        "label": "안전신문고"
+      },
+      {
+        "url": "https://www.sanghun.go.kr/nation/participation/corruption/corruptionRegister.do",
+        "label": "상훈부조리 신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a04/newsInfoHome.do",
+        "label": "뉴스 · 소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a04/newsInfoHome.do",
+        "label": "뉴스 · 소식 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000006",
+        "label": "새소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000006",
+        "label": "알립니다"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008",
+        "label": "보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008",
+        "label": "보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000009",
+        "label": "설명자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000010",
+        "label": "사진자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/video/a01/videoMain.do",
+        "label": "동영상자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localInfo/screen.do",
+        "label": "지자체소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localInfo/screen.do",
+        "label": "지자체 정보"
+      },
+      {
+        "url": "https://www.gov.kr/portal/locgovNews",
+        "label": "정책 소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+        "label": "지자체 누리집"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000205",
+        "label": "홍보자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000205",
+        "label": "카드뉴스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000215",
+        "label": "정보 그림"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000216",
+        "label": "웹툰"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000530",
+        "label": "국민행동요령"
+      },
+      {
+        "url": "http://www.safetv.go.kr/",
+        "label": "안전한 TV"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000590",
+        "label": "주요 성과뉴스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a05/policyDataHome.do",
+        "label": "정책자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a05/policyDataHome.do",
+        "label": "정책자료 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000245",
+        "label": "주요업무계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000245",
+        "label": "주요업무계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/nationalTaskList/screen.do",
+        "label": "국정과제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/lawInfo/screen.do",
+        "label": "법령정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/lawInfo/screen.do",
+        "label": "최근 제·개정 법령"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsAstSc.do?menuId=391&subMenuId=397&tabMenuId=437&cptOfiCd=1741000&eventGubun=060102#cptOfi1741000",
+        "label": "법령"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000016",
+        "label": "훈령·예규·고시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/publicHearing/screen.do#epeopleFrameFocus",
+        "label": "입법·행정예고 온라인공청회"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/main.html",
+        "label": "법령종합검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000018",
+        "label": "법령자료실"
+      },
+      {
+        "url": "https://gwanbo.go.kr",
+        "label": "전자관보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000013",
+        "label": "통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000013",
+        "label": "통계연보·주제별 통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000014",
+        "label": "승인통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/statistics/screen.do",
+        "label": "e-나라지표"
+      },
+      {
+        "url": "https://jumin.mois.go.kr/index.jsp",
+        "label": "주민등록 인구통계"
+      },
+      {
+        "url": "https://data.mois.go.kr",
+        "label": "행정안전통계 시각화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000012",
+        "label": "간행물"
+      },
+      {
+        "url": "http://www.prism.go.kr",
+        "label": "정책연구보고서"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000015",
+        "label": "참고자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a06/guideBusinessHome.do",
+        "label": "업무안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a06/guideBusinessHome.do",
+        "label": "업무안내 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b01/mainBusiness/screen.do",
+        "label": "기획조정실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b01/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000031",
+        "label": "기획·예산·국회"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000034",
+        "label": "성과 및 고객관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000033",
+        "label": "입법·송무·규제혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000035",
+        "label": "정보자원·보안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000030",
+        "label": "정책관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000032",
+        "label": "행정관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000036",
+        "label": "국제협력지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000185",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/mainBusiness/screen.do",
+        "label": "참여혁신조직실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000039",
+        "label": "국민참여혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000040",
+        "label": "민원제도혁신"
+      },
+      {
+        "url": "https://www.open.go.kr/com/main/mainView.do",
+        "label": "정보공개제도"
+      },
+      {
+        "url": "http://www.org.go.kr/",
+        "label": "정부조직관리"
+      },
+      {
+        "url": "https://sotong.go.kr/front/main/inno_index.do",
+        "label": "정부혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000037",
+        "label": "행정절차 지원·교육,행정사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/InnerControlAdministrationInfo/screen.do",
+        "label": "행정제도 개선"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000186",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovMainBusiness/screen.do",
+        "label": "인공지능정부실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovMainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovBusinessGuidelines/screen.do",
+        "label": "대민서비스 기반확충"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/evaluationByIO/screen.do",
+        "label": "디지털정부 온라인홍보관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/smartWork/screen.do",
+        "label": "스마트전자정부 구축"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/infoResourceMgr/screen.do",
+        "label": "정보자원관리 효율화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000045",
+        "label": "정보화 표준·지침 자료실"
+      },
+      {
+        "url": "https://plus.gov.kr/",
+        "label": "행정서비스통합포털(정부24)"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/digitalOpendataSharing/screen.do",
+        "label": "행정정보 공동이용"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000187",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/localAdministrationMainBis/screen.do",
+        "label": "자치혁신실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/localAdministrationMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/meaning/screen.do",
+        "label": "공무원 노사관계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000049",
+        "label": "공직선거"
+      },
+      {
+        "url": "https://www.laiis.go.kr/myMain.do",
+        "label": "내고장알리미"
+      },
+      {
+        "url": "https://www.juso.go.kr/openIndexPage.do",
+        "label": "도로명주소 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/village/screen.do",
+        "label": "사회연대경제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/understandToilet/screen.do",
+        "label": "안전하고 편리한 공중화장실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000051",
+        "label": "여성공무원정책"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/outdoorAdvertisemen/screen.do",
+        "label": "옥외광고물"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/hotSpringMgr/screen.do",
+        "label": "온천 개발관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/bicycle/screen.do",
+        "label": "자전거 이용 활성화 추진"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000056",
+        "label": "자치법규"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000052",
+        "label": "주민등록,인감"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000050",
+        "label": "주민참여"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/populationDecline/screen.do",
+        "label": "지방소멸대응"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000055",
+        "label": "지방자치제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000054",
+        "label": "지방행정지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/specialAreaDev/screen.do",
+        "label": "지역발전지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000188",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localTaxMainBis/screen.do",
+        "label": "지방재정경제실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localTaxMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
+        "label": "고유가 피해지원금"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000063",
+        "label": "공유재산·물품관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/villagetax/screen.do",
+        "label": "마을세무사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000061",
+        "label": "지방계약, 회계예규"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000062",
+        "label": "지방공기업제도·운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localSharedTax/screen.do",
+        "label": "지방교부세"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localPrice/screen.do",
+        "label": "지방물가 관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/countryTaxSafeFrtIntro/screen.do",
+        "label": "지방세 납세자보호관"
+      },
+      {
+        "url": "https://chatbot.wetax.go.kr",
+        "label": "지방세 상담 챗봇"
+      },
+      {
+        "url": "https://www.wetax.go.kr/main.do",
+        "label": "지방세 종합정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localGovernmentChoice/screen.do",
+        "label": "지방자치단체 선정 대리인"
+      },
+      {
+        "url": "https://www.lofin365.go.kr/",
+        "label": "지방재정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localVoucher/screen.do",
+        "label": "지역사랑상품권"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000189",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/mainBusiness/screen.do",
+        "label": "안전예방정책실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/cctvBasedonAi/screen.do",
+        "label": "AI 기반 CCTV 관제지원시스템"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/elevator/screen.do",
+        "label": "국가승강기정보센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyExperience/screen.do",
+        "label": "국민안전체험관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/safekorea/screen.do",
+        "label": "국민안전24"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/emergencycall/screen.do",
+        "label": "긴급신고 통합서비스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyEducation/screen.do",
+        "label": "생애주기별 대국민 안전교육"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safemap/screen.do",
+        "label": "생활안전지도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/safetyStep/screen.do",
+        "label": "안전디딤돌"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyReport/screen.do",
+        "label": "안전신문고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/childSafety/screen.do",
+        "label": "어린이안전관리 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyBudget/screen.do",
+        "label": "재난안전예산 사전협의 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterSafetyProduct/screen.do",
+        "label": "재난안전제품 인증제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/policyBriefingView/screen.do",
+        "label": "재난안전통신망"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterMitigationCompanies/screen.do",
+        "label": "재해경감 우수기업 인증제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyIndex/screen.do",
+        "label": "지역안전지수"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000306",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/mainBusiness/screen.do",
+        "label": "자연재난실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/runoffPrevention/screen.do",
+        "label": "우수유출저감시설 설치 사업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/crisisManual/screen.do",
+        "label": "위기관리 매뉴얼"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/reducingNaturalDisasters/screen.do",
+        "label": "자연재해저감 예방대책 강화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterManager/screen.do",
+        "label": "재난관리자원 통합관리시스템"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterTraining/screen.do",
+        "label": "재난대비훈련"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterPrevention/screen.do",
+        "label": "재해예방사업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/autonomousEMA/screen.do",
+        "label": "지역자율방재단"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/earthquakeSafety/screen.do",
+        "label": "지진대비인프라구축"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000307",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/mainBusiness/screen.do",
+        "label": "사회재난실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/thawSafety/screen.do",
+        "label": "해빙기 안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/intenseSafety/screen.do",
+        "label": "집중안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do",
+        "label": "지역축제 안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/waterSafety/screen.do",
+        "label": "여름철 수상안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/jointSafety/screen.do",
+        "label": "정부합동 안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/disasterInvest/screen.do",
+        "label": "반복적 재난에 대한 재난원인조사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/socialDisaster/screen.do",
+        "label": "사회재난 유형 및 대응체계 관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/crowdSafety/screen.do",
+        "label": "다중운집인파 안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/protectNationCoreFoundation/screen.do",
+        "label": "국가핵심기반 보호"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/disasterAnnual/screen.do",
+        "label": "재난연감 발간"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/applyItaewon01/screen.do",
+        "label": "10·29이태원참사 피해자 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000410",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b15/mainBusiness/screen.do",
+        "label": "재난복구지원국"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b15/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/fieldSupport/screen.do",
+        "label": "재난 현장지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/reliefOverview/screen.do",
+        "label": "재난 구호"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/recoveryOverview/screen.do",
+        "label": "재난 복구"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceOverview/screen.do",
+        "label": "풍수해·지진재해보험 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterGuarantee/screen.do",
+        "label": "재난배상책임보험 운영"
+      },
+      {
+        "url": "http://www.safekorea.go.kr/idsiSFK/neo/sfk/cs/csc/bbs_conf.jsp?bbs_no=26&emgPage=Y&menuSeq=735",
+        "label": "재해연보 발간"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000510",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/mainBusiness/screen.do",
+        "label": "비상대비정책국"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/civildefensework/screen.do",
+        "label": "민방위 제도 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyplan/screen.do",
+        "label": "비상대비 계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyresource/screen.do",
+        "label": "비상대비 자원관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000327",
+        "label": "비상대비 참고자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/euljitraining/screen.do",
+        "label": "비상대비 훈련"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyman/screen.do",
+        "label": "비상대비업무담당자"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/managementsupport/screen.do",
+        "label": "중점관리대상업체 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000308",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmIGMainBis/screen.do",
+        "label": "장차관직속"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmIGMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmTask/screen.do",
+        "label": "감사관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/siTask/screen.do",
+        "label": "안전감찰담당관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000336",
+        "label": "안전관리일일상황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmGUMainBis/screen.do",
+        "label": "의정관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/ndsTask/screen.do",
+        "label": "중앙재난안전상황실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000190",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/organInfo.do",
+        "label": "기관소개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/organInfo.do",
+        "label": "기관소개 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/ministryInfo/screen.do",
+        "label": "행정안전부 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/ministryInfo/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/history/screen.do",
+        "label": "연혁"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/miBanner/screen.do",
+        "label": "기관문양"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000031&nttId=115186",
+        "label": "예산현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/selectOpSiteList.do",
+        "label": "행정안전부 누리집 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/orgranFunction/screen.do",
+        "label": "조직안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/orgranFunction/screen.do",
+        "label": "조직과 기능"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/searchStaff.do",
+        "label": "업무검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/mns/a01/mnsMain.do",
+        "label": "열린장관실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map/screen.do",
+        "label": "찾아오시는 길"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map/screen.do",
+        "label": "약도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map3/screen.do",
+        "label": "사무실 배치도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/sitemap/screen.do",
+        "label": "전체메뉴 열기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008",
+        "label": "보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000006",
+        "label": "알림·채용"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/systemIntroduce/screen.do",
+        "label": "적극행정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/searchStaff.do",
+        "label": "업무검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/pcadMain/screen.do",
+        "label": "공직비리 익명신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000016",
+        "label": "훈령·예규·고시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000010",
+        "label": "사진 자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safemap/screen.do",
+        "label": "생활안전 지도"
+      },
+      {
+        "url": "https://gwanbo.go.kr",
+        "label": "전자관보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000012",
+        "label": "간행물"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo/screen.do",
+        "label": "민원안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/orgranFunction/screen.do",
+        "label": "조직과기능"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/statistics/screen.do",
+        "label": "통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid/screen.do",
+        "label": "지방물가정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000336",
+        "label": "안전관리 일일상황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a06/guideBusinessHome.do",
+        "label": "업무안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a01/frtMain.do",
+        "label": "행정안전부 로고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do",
+        "label": "국가상징 알아보기"
+      },
+      {
+        "url": "https://www.facebook.com/withyou3542",
+        "label": "행정안전부 페이스북 새창으로 열기 행정안전부 페이스북 새창으로 열기"
+      },
+      {
+        "url": "https://twitter.com/withyou3542",
+        "label": "행정안전부 엑스(X) 새창으로 열기 행정안전부 엑스(X) 새창으로 열기"
+      },
+      {
+        "url": "http://blog.naver.com/mopaspr",
+        "label": "행정안전부 블로그 새창으로 열기 행정안전부 블로그 새창으로 열기"
+      },
+      {
+        "url": "https://www.youtube.com/withyou3542",
+        "label": "행정안전부 유튜브 새창으로 열기 행정안전부 유튜브 새창으로 열기"
+      },
+      {
+        "url": "https://www.instagram.com/withyou3542/",
+        "label": "행정안전부 인스타그램 새창으로 열기 행정안전부 인스타그램 새창으로 열기"
+      },
+      {
+        "url": "http://www.safetv.go.kr/",
+        "label": "행정안전부 안전한 tv 새창으로 열기 행정안전부 안전한 tv 새창으로 열기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/sitemap/screen.do",
+        "label": "누리집 안내지도"
+      },
+      {
+        "url": "https://www.mois.go.kr/chd/a01/chdMain.do",
+        "label": "어린이"
+      },
+      {
+        "url": "https://www.mois.go.kr/eng/a01/engMain.do",
+        "label": "ENGLISH"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/selectInfoPublish.do",
+        "label": "정보공개 홈"
+      },
+      {
+        "url": "https://www.open.go.kr/infOthbc/infOthbc/infOthbc.do",
+        "label": "정보공개안내"
+      },
+      {
+        "url": "https://www.open.go.kr/com/login/memberLogin.do",
+        "label": "정보공개청구"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/info1304List/screen.do",
+        "label": "사전정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/info1304List/screen.do",
+        "label": "정보목록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/infoDisclosureFee/screen.do",
+        "label": "정보공개수수료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openBusinessPromotion/screen.do",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/standard/screen.do",
+        "label": "비공개 대상정보 세부기준"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/selectInfoRcordList.do",
+        "label": "주요 보존기록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000430",
+        "label": "국무·차관회의 회의록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000450",
+        "label": "중앙지방협력회의 회의록"
+      },
+      {
+        "url": "https://www.mois.go.kr/mns/a03/selectGpScheduleCalendar.do?cat=90010001",
+        "label": "기관장 일정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/localGovernmentList2.do",
+        "label": "사전정보공표"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/localGovernmentList2.do",
+        "label": "사전정보 공표목록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type017/commonSelectBoardList.do?bbsId=BBSMSTR_000000000144",
+        "label": "발주계획 및 계약현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000002",
+        "label": "감사(감찰)계획 및 결과공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/policy/screen.do",
+        "label": "정책실명제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/policy/screen.do",
+        "label": "- 정책실명제 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type014/commonSelectBoardList.do?bbsId=BBSMSTR_000000000003",
+        "label": "- 중점관리 대상사업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/goversub/screen.do",
+        "label": "국고보조금 현황공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000165",
+        "label": "민간보조금 현황공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a02/fiscaldatain.do",
+        "label": "세입 · 세출예산 운용상황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000072",
+        "label": "정부포상 추천대상자 공개검증"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000196",
+        "label": "반부패 · 청렴시책자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000195",
+        "label": "반부패 · 청렴현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000620",
+        "label": "정보공개심의회 결과 공개"
+      },
+      {
+        "url": "https://www.open.go.kr/infOthbc/dta/dtaDta.do",
+        "label": "정보공개 연차보고서"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openInfo_1/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/openInfo_1/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/coopinfo/screen.do",
+        "label": "협동조합 경영공시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid/screen.do",
+        "label": "지방물가정보공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid010101/screen.do",
+        "label": "지방공공요금"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a02/lpid020101/screen.do",
+        "label": "개인서비스 및 농축산물"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a03/civilComplaintHome.do",
+        "label": "참여 · 민원 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo/screen.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo/screen.do",
+        "label": "민원 이용안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintInfo2_1/screen.do",
+        "label": "민원행정 서비스 헌장"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/similarCivilComplaint/screen.do",
+        "label": "온라인 민원신청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/similarCivilComplaint/screen.do",
+        "label": "유사민원 검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/onlineCivilComplaint/screen.do",
+        "label": "온라인 민원FAQ"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/civilComplaintRequest/screen.do",
+        "label": "온라인 민원신청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/myCivilComplaint/screen.do",
+        "label": "나의민원보기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/suggestion/screen.do#epeopleFrameFocus",
+        "label": "국민참여"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/suggestion/screen.do#epeopleFrameFocus",
+        "label": "국민제안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/my_suggestion/screen.do?pgm_no=mps_pgm_020507#epeopleFrameFocus",
+        "label": "나의 제안보기"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/ideaepeople/screen.do",
+        "label": "국민생각함"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicHearing/screen.do#epeopleFrameFocus",
+        "label": "온라인공청회"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/award/screen.do",
+        "label": "특별성과 공무원 추천"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/systemIntroduce/screen.do",
+        "label": "적극행정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/systemIntroduce/screen.do",
+        "label": "제도소개"
+      },
+      {
+        "url": "https://www.mpm.go.kr/proactivePublicService/local/passive",
+        "label": "적극행정 홍보·교육"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/peopleRecommend/screen.do",
+        "label": "적극행정 국민추천"
+      },
+      {
+        "url": "https://idea.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid",
+        "label": "소극행정 신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better01/screen.do",
+        "label": "규제합리화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better01/screen.do",
+        "label": "규제합리화 실적"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better02/screen.do",
+        "label": "심사중인 규제법안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better03/screen.do",
+        "label": "관련 보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/better04/screen.do",
+        "label": "규제법령 정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/sinmungo/screen.do",
+        "label": "국무조정실 규제신문고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/regulationProof/screen.do",
+        "label": "규제입증요청"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicStatement/screen.do",
+        "label": "신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicStatement/screen.do",
+        "label": "부패·공익신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/publicStatement/screen.do",
+        "label": "- 공익신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/corruptionDeclaration/screen.do",
+        "label": "- 부패행위신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/solicitation/screen.do",
+        "label": "- 청탁금지법 위반신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/conflictInterest/screen.do",
+        "label": "- 이해충돌 위반신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/unfairClaim/screen.do",
+        "label": "- 보조금 부조리 신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/pcadMain/screen.do",
+        "label": "공직비리 익명신고"
+      },
+      {
+        "url": "https://cloud.redwhistle.org",
+        "label": "갑질신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a03/wasteBudget/screen.do",
+        "label": "예산낭비신고센터"
+      },
+      {
+        "url": "https://www.safetyreport.go.kr/",
+        "label": "안전신문고"
+      },
+      {
+        "url": "https://www.sanghun.go.kr/nation/participation/corruption/corruptionRegister.do",
+        "label": "상훈부조리 신고센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a04/newsInfoHome.do",
+        "label": "뉴스 · 소식 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000006",
+        "label": "새소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardList.do?bbsId=BBSMSTR_000000000006",
+        "label": "알립니다"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008",
+        "label": "보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardList.do?bbsId=BBSMSTR_000000000008",
+        "label": "보도자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000009",
+        "label": "설명자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000010",
+        "label": "사진자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/video/a01/videoMain.do",
+        "label": "동영상자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localInfo/screen.do",
+        "label": "지자체소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localInfo/screen.do",
+        "label": "지자체 정보"
+      },
+      {
+        "url": "https://www.gov.kr/portal/locgovNews",
+        "label": "정책 소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+        "label": "지자체 누리집"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000205",
+        "label": "홍보자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000205",
+        "label": "카드뉴스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000215",
+        "label": "정보 그림"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000216",
+        "label": "웹툰"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000530",
+        "label": "국민행동요령"
+      },
+      {
+        "url": "http://www.safetv.go.kr/",
+        "label": "안전한 TV"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardList.do?bbsId=BBSMSTR_000000000590",
+        "label": "주요 성과뉴스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a05/policyDataHome.do",
+        "label": "정책자료 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000245",
+        "label": "주요업무계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000245",
+        "label": "주요업무계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/nationalTaskList/screen.do",
+        "label": "국정과제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/lawInfo/screen.do",
+        "label": "법령정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/lawInfo/screen.do",
+        "label": "최근 제·개정 법령"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsAstSc.do?menuId=391&subMenuId=397&tabMenuId=437&cptOfiCd=1741000&eventGubun=060102#cptOfi1741000",
+        "label": "법령"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000016",
+        "label": "훈령·예규·고시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/publicHearing/screen.do#epeopleFrameFocus",
+        "label": "입법·행정예고 온라인공청회"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/main.html",
+        "label": "법령종합검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000018",
+        "label": "법령자료실"
+      },
+      {
+        "url": "https://gwanbo.go.kr",
+        "label": "전자관보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000013",
+        "label": "통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000013",
+        "label": "통계연보·주제별 통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000014",
+        "label": "승인통계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a05/statistics/screen.do",
+        "label": "e-나라지표"
+      },
+      {
+        "url": "https://jumin.mois.go.kr/index.jsp",
+        "label": "주민등록 인구통계"
+      },
+      {
+        "url": "https://data.mois.go.kr",
+        "label": "행정안전통계 시각화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000012",
+        "label": "간행물"
+      },
+      {
+        "url": "http://www.prism.go.kr",
+        "label": "정책연구보고서"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000015",
+        "label": "참고자료"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a06/guideBusinessHome.do",
+        "label": "업무안내 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b01/mainBusiness/screen.do",
+        "label": "기획조정실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b01/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000031",
+        "label": "기획·예산·국회"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000034",
+        "label": "성과 및 고객관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000030",
+        "label": "정책관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000033",
+        "label": "입법·송무·규제혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000035",
+        "label": "정보자원·보안"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000032",
+        "label": "행정관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000036",
+        "label": "국제협력지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000185",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/mainBusiness/screen.do",
+        "label": "참여혁신조직실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000039",
+        "label": "국민참여혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000039",
+        "label": "- 국민참여혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/ideaEpeople_2/screen.do",
+        "label": "- 생활공감정책"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/govServiceDesign/screen.do",
+        "label": "- 국민디자인단"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/proposition/screen.do",
+        "label": "- 제안제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000040",
+        "label": "민원제도 혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000040",
+        "label": "- 민원제도 혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/automaticSystem/screen.do",
+        "label": "- 무인민원발급창구 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/minwonBest/screen.do",
+        "label": "- 민원제도 개선 우수사례"
+      },
+      {
+        "url": "https://www.open.go.kr/com/main/mainView.do",
+        "label": "정보공개제도"
+      },
+      {
+        "url": "http://www.org.go.kr/",
+        "label": "정부조직관리"
+      },
+      {
+        "url": "https://www.innovation.go.kr/ucms/main/main.do",
+        "label": "정부혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000037",
+        "label": "행정절차 지원·교육,행정사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b16/InnerControlAdministrationInfo/screen.do",
+        "label": "행정제도 개선"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000186",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovMainBusiness/screen.do",
+        "label": "인공지능정부실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovMainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData/screen.do",
+        "label": "공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData/screen.do",
+        "label": "- 공공데이터 개방"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData_3/screen.do",
+        "label": "- 공공데이터 품질 제고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData_4/screen.do",
+        "label": "- 공공데이터 제공신청 및 분쟁조정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/openData_5/screen.do",
+        "label": "- 기업 지원 정책"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovBusinessGuidelines/screen.do",
+        "label": "대민서비스 기반확충"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovBusinessGuidelines/screen.do",
+        "label": "- 전자정부지원사업 개요"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/eBizConsultativeGroup/screen.do",
+        "label": "- 정보화사업 사전협의제 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/localGovernmentIt/screen.do",
+        "label": "- 지방행정정보화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/evaluationByIO/screen.do",
+        "label": "디지털정부 온라인홍보관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/evaluationByIO/screen.do",
+        "label": "- 디지털정부 국제협력 현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/exDirectory/screen.do",
+        "label": "- 디지털정부 전시체험관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000540",
+        "label": "- 자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/smartWork/screen.do",
+        "label": "스마트전자정부 구축"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/smartWork/screen.do",
+        "label": "- 스마트워크 활성화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/mobileEgov/screen.do",
+        "label": "- 모바일 전자정부 구축"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/nationalSecretary/screen.do",
+        "label": "- 국민비서 서비스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/mobileId/screen.do",
+        "label": "- 모바일 신분증"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/easyCertification/screen.do",
+        "label": "- 정부 통합인증(Any-ID)"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/infoResourceMgr/screen.do",
+        "label": "정보자원관리 효율화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/infoResourceMgr/screen.do",
+        "label": "- 정보자원관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/egovInfra/screen.do",
+        "label": "- 전자정부 인프라"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/dat101/screen.do",
+        "label": "- 전자정부표준관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b04/uixInnovation/screen.do",
+        "label": "- 공공 웹·앱 UI/UX 혁신"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000045",
+        "label": "정보화 표준·지침 자료실"
+      },
+      {
+        "url": "https://plus.gov.kr/",
+        "label": "행정서비스통합포털(정부24)"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/digitalOpendataSharing/screen.do",
+        "label": "행정정보 공동이용"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/digitalOpendataSharing/screen.do",
+        "label": "- 행정정보공유"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/digitalOpendataQualification/screen.do",
+        "label": "- 비대면 자격확인 서비스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b02/digitalOpendataMydata/screen.do",
+        "label": "- 공공 마이데이터 활성화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000187",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/localAdministrationMainBis/screen.do",
+        "label": "자치혁신실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/localAdministrationMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/meaning/screen.do",
+        "label": "공무원 노사관계"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000049",
+        "label": "공직선거"
+      },
+      {
+        "url": "https://www.laiis.go.kr/myMain.do",
+        "label": "내고장알리미"
+      },
+      {
+        "url": "https://www.juso.go.kr/openIndexPage.do",
+        "label": "도로명주소 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/village/screen.do",
+        "label": "사회연대경제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/village/screen.do",
+        "label": "- 마을기업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000057",
+        "label": "- 민간협력"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/saemaeul/screen.do",
+        "label": "- 새마을금고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/socialinnovationTask/screen.do",
+        "label": "- 지역사회 활성화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/understandToilet/screen.do",
+        "label": "안전하고 편리한 공중화장실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/understandToilet/screen.do",
+        "label": "- 공중화장실 제도의 이해"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/safeNconvEC/screen.do",
+        "label": "- 안전하고 편리한 사용환경 조성"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/toiletCooperation/screen.do",
+        "label": "- 유관기관 협업사업 추진"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000520",
+        "label": "- 공중화장실 자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000051",
+        "label": "여성공무원정책"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/outdoorAdvertisemen/screen.do",
+        "label": "옥외광고물"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/outdoorAdvertisemen/screen.do",
+        "label": "- 옥외광고물이란?"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/signDemonstration/screen.do",
+        "label": "- 간판개선사업 현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/streetSick/screen.do",
+        "label": "- 거리가 아파요"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/hotSpringMgr/screen.do",
+        "label": "온천 개발관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/bicycle/screen.do",
+        "label": "자전거 이용 활성화 추진"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000056",
+        "label": "자치법규"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000052",
+        "label": "주민등록,인감"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000052",
+        "label": "- 주민등록,인감"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/IDCardChange/screen.do",
+        "label": "- 주민등록번호 변경제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/IDCard/screen.do",
+        "label": "- 주민등록증"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/foreignIDCard/screen.do",
+        "label": "- 재외국민 주민등록"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000050",
+        "label": "주민참여"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/populationDecline/screen.do",
+        "label": "지방소멸대응"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/specialAreaDev/screen.do",
+        "label": "- 인구감소지역 지정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/localextinctionFund/screen.do",
+        "label": "- 지방소멸대응기금"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/populationDeclineLaw/screen.do",
+        "label": "- 인구감소지역 지원 특별법"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/hometownLovedonation/screen.do",
+        "label": "- 고향사랑기부제"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000055",
+        "label": "지방자치제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000054",
+        "label": "지방행정지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/specialAreaDev/screen.do",
+        "label": "지역발전지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/specialAreaDev/screen.do",
+        "label": "- 특수상황지역 개발"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/borderDev/screen.do",
+        "label": "- 접경권 발전 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/provisionSpt/screen.do",
+        "label": "- 주한미군 공여구역 주변지역 등 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b06/pyeongtaekSpt/screen.do",
+        "label": "- 주한미군기지 이전에 따른 평택지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000188",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localTaxMainBis/screen.do",
+        "label": "지방재정경제실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localTaxMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000063",
+        "label": "공유재산·물품관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/villagetax/screen.do",
+        "label": "마을세무사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000061",
+        "label": "지방계약, 회계예규"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000062",
+        "label": "지방공기업제도·운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localSharedTax/screen.do",
+        "label": "지방교부세"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localPrice/screen.do",
+        "label": "지방물가 관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/countryTaxSafeFrtIntro/screen.do",
+        "label": "지방세 납세자보호관"
+      },
+      {
+        "url": "https://chatbot.wetax.go.kr",
+        "label": "지방세 상담 챗봇"
+      },
+      {
+        "url": "https://www.wetax.go.kr/main.do",
+        "label": "지방세 종합정보"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localGovernmentChoice/screen.do",
+        "label": "지방자치단체 선정 대리인"
+      },
+      {
+        "url": "https://www.lofin365.go.kr",
+        "label": "지방재정"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b07/localVoucher/screen.do",
+        "label": "지역사랑상품권"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000189",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/mainBusiness/screen.do",
+        "label": "안전예방정책실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/cctvBasedonAi/screen.do",
+        "label": "AI 기반 CCTV 관제지원시스템"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/elevator/screen.do",
+        "label": "국가승강기정보센터"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyExperience/screen.do",
+        "label": "국민안전체험관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/safekorea/screen.do",
+        "label": "국민안전24"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/emergencycall/screen.do",
+        "label": "긴급신고 통합서비스"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyEducation/screen.do",
+        "label": "생애주기별 대국민 안전교육"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safemap/screen.do",
+        "label": "생활안전지도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/safetyStep/screen.do",
+        "label": "안전디딤돌"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyReport/screen.do",
+        "label": "안전신문고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/childSafety/screen.do",
+        "label": "어린이안전관리 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyBudget/screen.do",
+        "label": "재난안전예산 사전협의 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterSafetyProduct/screen.do",
+        "label": "재난안전제품 인증제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/policyBriefingView/screen.do",
+        "label": "재난안전통신망"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterMitigationCompanies/screen.do",
+        "label": "재해경감 우수기업 인증제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/safetyIndex/screen.do",
+        "label": "지역안전지수"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000306",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/mainBusiness/screen.do",
+        "label": "자연재난실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/runoffPrevention/screen.do",
+        "label": "우수유출저감시설 설치 사업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/crisisManual/screen.do",
+        "label": "위기관리 매뉴얼"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/reducingNaturalDisasters/screen.do",
+        "label": "자연재해저감 예방대책 강화"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/reducingNaturalDisasters/screen.do",
+        "label": "- 자연재해저감 종합계획 수립 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterImpact/screen.do",
+        "label": "- 재해영향평가 협의제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/ema/screen.do",
+        "label": "- 방재관리대책대행자 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/natHazardSafetyDx/screen.do",
+        "label": "- 자연재해 안전도 진단 제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterManager/screen.do",
+        "label": "재난관리자원 통합관리시스템"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterTraining/screen.do",
+        "label": "재난대비훈련"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b10/disasterPrevention/screen.do",
+        "label": "재해예방사업"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/autonomousEMA/screen.do",
+        "label": "지역자율방재단"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/earthquakeSafety/screen.do",
+        "label": "지진대비인프라구축"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/earthquakeSafety/screen.do",
+        "label": "- 지진안전시설물 인증제도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/erbsPeople/screen.do",
+        "label": "- 지진방재 전문인력 양성"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000307",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/mainBusiness/screen.do",
+        "label": "사회재난실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/thawSafety/screen.do",
+        "label": "해빙기 안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/intenseSafety/screen.do",
+        "label": "집중안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do",
+        "label": "지역축제 안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/waterSafety/screen.do",
+        "label": "여름철 수상안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/jointSafety/screen.do",
+        "label": "정부합동 안전점검"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/disasterInvest/screen.do",
+        "label": "반복적 재난에 대한 재난원인조사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/socialDisaster/screen.do",
+        "label": "사회재난 유형 및 대응체계 관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/crowdSafety/screen.do",
+        "label": "다중운집인파 안전관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/protectNationCoreFoundation/screen.do",
+        "label": "국가핵심기반 보호"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/disasterAnnual/screen.do",
+        "label": "재난연감 발간"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/applyItaewon01/screen.do",
+        "label": "10·29이태원참사 피해자 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/applyItaewon01/screen.do",
+        "label": "- 피해자 인정신청 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/applyItaewonENG01/screen.do",
+        "label": "- Victim Recognition application"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/damagedItaewon01/screen.do",
+        "label": "- 피해지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b13/damagedItaewonENG01/screen.do",
+        "label": "- Living Assistance fund"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000570",
+        "label": "- 추모지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000572",
+        "label": "- 최신소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000610",
+        "label": "- 개인정보 목적 외 이용 및 제3자 제공"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000410",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b15/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/fieldSupport/screen.do",
+        "label": "재난 현장지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/reliefOverview/screen.do",
+        "label": "재난 구호"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/recoveryOverview/screen.do",
+        "label": "재난 복구"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceOverview/screen.do",
+        "label": "풍수해·지진재해보험 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b11/disasterGuarantee/screen.do",
+        "label": "재난배상책임보험 운영"
+      },
+      {
+        "url": "http://www.safekorea.go.kr/idsiSFK/neo/sfk/cs/csc/bbs_conf.jsp?bbs_no=26&emgPage=Y&menuSeq=735",
+        "label": "재해연보 발간"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000510",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/mainBusiness/screen.do",
+        "label": "비상대비정책국"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/mainBusiness/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/civildefensework/screen.do",
+        "label": "민방위 제도 운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyplan/screen.do",
+        "label": "비상대비 계획"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyresource/screen.do",
+        "label": "비상대비 자원관리"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000327",
+        "label": "비상대비 참고자료실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/euljitraining/screen.do",
+        "label": "비상대비 훈련"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/euljitraining/screen.do",
+        "label": "- 을지연습"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/chungmutraining/screen.do",
+        "label": "- 충무훈련"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/emergencyman/screen.do",
+        "label": "비상대비업무담당자"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b12/managementsupport/screen.do",
+        "label": "중점관리대상업체 지원"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000308",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmIGMainBis/screen.do",
+        "label": "장차관직속"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmIGMainBis/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmTask/screen.do",
+        "label": "감사관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmTask/screen.do",
+        "label": "- 담당업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/auditSystem/screen.do",
+        "label": "- 감사제도·운영"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/consulting/screen.do",
+        "label": "- 사전 컨설팅감사"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/unreasonable/screen.do",
+        "label": "- 공무원부조리신고"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/govThnk/screen.do",
+        "label": "- 정부합동감사에 바란다"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/siTask/screen.do",
+        "label": "안전감찰담당관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/siTask/screen.do",
+        "label": "- 안전감찰"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000336",
+        "label": "안전관리일일상황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmGUMainBis/screen.do",
+        "label": "의정관"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/mvmGUMainBis/screen.do",
+        "label": "- 담당업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/nationalIcon/screen.do",
+        "label": "- 국가상징"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "label": "- 국경일·기념일"
+      },
+      {
+        "url": "https://www.sanghun.go.kr/nation/nationMain.do",
+        "label": "- 정부포상"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a06/b08/ndsTask/screen.do",
+        "label": "중앙재난안전상황실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000190",
+        "label": "업무추진비 공개"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/organInfo.do",
+        "label": "기관소개 홈"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/ministryInfo/screen.do",
+        "label": "행정안전부 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/ministryInfo/screen.do",
+        "label": "주요업무"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/history/screen.do",
+        "label": "연혁"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/miBanner/screen.do",
+        "label": "기관문양"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000031&nttId=115186",
+        "label": "예산현황"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/selectOpSiteList.do",
+        "label": "행정안전부 누리집 안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/orgranFunction/screen.do",
+        "label": "조직안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/orgranFunction/screen.do",
+        "label": "조직과 기능"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/searchStaff.do",
+        "label": "업무검색"
+      },
+      {
+        "url": "https://www.mois.go.kr/mns/a01/mnsMain.do",
+        "label": "열린장관실"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map/screen.do",
+        "label": "찾아오시는 길"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map/screen.do",
+        "label": "약도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a07/map3/screen.do",
+        "label": "사무실 배치도"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localInfo/screen.do",
+        "label": "지자체 정보"
+      },
+      {
+        "url": "http://www.gov.kr/portal/locgovNews",
+        "label": "정책 소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+        "label": "지자체 누리집"
+      },
+      {
+        "url": "https://www.mois.go.kr",
+        "label": "HOME"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a04/newsInfoHome.do",
+        "label": "뉴스·소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a01/secondMenuLocation.do?pgm=mps_pgm_030304",
+        "label": "지자체소식"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a04/localGovernment/screen.do",
+        "label": "지자체 누리집"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/popup/pop_print/screen.do",
+        "label": "인쇄하기"
+      },
+      {
+        "url": "https://www.seoul.go.kr/",
+        "label": "서울특별시"
+      },
+      {
+        "url": "https://www.jongno.go.kr/",
+        "label": "종로구"
+      },
+      {
+        "url": "https://www.junggu.seoul.kr/",
+        "label": "중구"
+      },
+      {
+        "url": "https://www.yongsan.go.kr/",
+        "label": "용산구"
+      },
+      {
+        "url": "https://www.sd.go.kr/",
+        "label": "성동구"
+      },
+      {
+        "url": "https://www.gwangjin.go.kr/",
+        "label": "광진구"
+      },
+      {
+        "url": "https://www.ddm.go.kr/",
+        "label": "동대문구"
+      },
+      {
+        "url": "https://www.jungnang.go.kr/",
+        "label": "중랑구"
+      },
+      {
+        "url": "https://www.sb.go.kr/",
+        "label": "성북구"
+      },
+      {
+        "url": "https://www.gangbuk.go.kr/",
+        "label": "강북구"
+      },
+      {
+        "url": "https://www.dobong.go.kr/",
+        "label": "도봉구"
+      },
+      {
+        "url": "https://www.nowon.kr/",
+        "label": "노원구"
+      },
+      {
+        "url": "https://www.ep.go.kr/",
+        "label": "은평구"
+      },
+      {
+        "url": "https://www.sdm.go.kr/",
+        "label": "서대문구"
+      },
+      {
+        "url": "https://www.mapo.go.kr/",
+        "label": "마포구"
+      },
+      {
+        "url": "https://www.yangcheon.go.kr/",
+        "label": "양천구"
+      },
+      {
+        "url": "https://www.gangseo.seoul.kr/",
+        "label": "강서구"
+      },
+      {
+        "url": "https://www.guro.go.kr/",
+        "label": "구로구"
+      },
+      {
+        "url": "https://www.geumcheon.go.kr/",
+        "label": "금천구"
+      },
+      {
+        "url": "https://www.ydp.go.kr/",
+        "label": "영등포구"
+      },
+      {
+        "url": "https://www.dongjak.go.kr/",
+        "label": "동작구"
+      },
+      {
+        "url": "https://www.gwanak.go.kr/",
+        "label": "관악구"
+      },
+      {
+        "url": "https://www.seocho.go.kr/",
+        "label": "서초구"
+      },
+      {
+        "url": "https://www.gangnam.go.kr/",
+        "label": "강남구"
+      },
+      {
+        "url": "https://www.songpa.go.kr/",
+        "label": "송파구"
+      },
+      {
+        "url": "https://www.gangdong.go.kr/",
+        "label": "강동구"
+      },
+      {
+        "url": "https://www.jeonnam-gwangju.go.kr/",
+        "label": "전남광주통합특별시"
+      },
+      {
+        "url": "https://www.mokpo.go.kr/",
+        "label": "목포시"
+      },
+      {
+        "url": "https://www.yeosu.go.kr/",
+        "label": "여수시"
+      },
+      {
+        "url": "https://www.suncheon.go.kr/",
+        "label": "순천시"
+      },
+      {
+        "url": "https://www.naju.go.kr/",
+        "label": "나주시"
+      },
+      {
+        "url": "https://www.gwangyang.go.kr/",
+        "label": "광양시"
+      },
+      {
+        "url": "https://www.donggu.kr/",
+        "label": "동구"
+      },
+      {
+        "url": "https://seogu.gwangju.kr/",
+        "label": "서구"
+      },
+      {
+        "url": "https://www.namgu.gwangju.kr/",
+        "label": "남구"
+      },
+      {
+        "url": "https://bukgu.gwangju.kr/",
+        "label": "북구"
+      },
+      {
+        "url": "https://www.gwangsan.go.kr/",
+        "label": "광산구"
+      },
+      {
+        "url": "https://www.damyang.go.kr/",
+        "label": "담양군"
+      },
+      {
+        "url": "https://www.gokseong.go.kr/",
+        "label": "곡성군"
+      },
+      {
+        "url": "https://www.gurye.go.kr/",
+        "label": "구례군"
+      },
+      {
+        "url": "https://www.goheung.go.kr/index.do",
+        "label": "고흥군"
+      },
+      {
+        "url": "https://www.boseong.go.kr/",
+        "label": "보성군"
+      },
+      {
+        "url": "https://www.hwasun.go.kr/",
+        "label": "화순군"
+      },
+      {
+        "url": "https://www.jangheung.go.kr/",
+        "label": "장흥군"
+      },
+      {
+        "url": "https://www.gangjin.go.kr/",
+        "label": "강진군"
+      },
+      {
+        "url": "https://www.haenam.go.kr/",
+        "label": "해남군"
+      },
+      {
+        "url": "https://www.yeongam.go.kr/",
+        "label": "영암군"
+      },
+      {
+        "url": "https://www.muan.go.kr/",
+        "label": "무안군"
+      },
+      {
+        "url": "https://www.hampyeong.go.kr/",
+        "label": "함평군"
+      },
+      {
+        "url": "https://www.yeonggwang.go.kr/",
+        "label": "영광군"
+      },
+      {
+        "url": "https://www.jangseong.go.kr/",
+        "label": "장성군"
+      },
+      {
+        "url": "https://www.wando.go.kr/",
+        "label": "완도군"
+      },
+      {
+        "url": "https://www.jindo.go.kr/",
+        "label": "진도군"
+      },
+      {
+        "url": "https://www.shinan.go.kr/",
+        "label": "신안군"
+      },
+      {
+        "url": "https://www.busan.go.kr/",
+        "label": "부산광역시"
+      },
+      {
+        "url": "https://www.bsjunggu.go.kr/",
+        "label": "중구"
+      },
+      {
+        "url": "https://www.bsseogu.go.kr/",
+        "label": "서구"
+      },
+      {
+        "url": "https://www.bsdonggu.go.kr/",
+        "label": "동구"
+      },
+      {
+        "url": "https://www.yeongdo.go.kr/",
+        "label": "영도구"
+      },
+      {
+        "url": "https://www.busanjin.go.kr/",
+        "label": "부산진구"
+      },
+      {
+        "url": "https://www.dongnae.go.kr/",
+        "label": "동래구"
+      },
+      {
+        "url": "https://www.bsnamgu.go.kr/",
+        "label": "남구"
+      },
+      {
+        "url": "https://www.bsbukgu.go.kr/",
+        "label": "북구"
+      },
+      {
+        "url": "https://www.haeundae.go.kr/",
+        "label": "해운대구"
+      },
+      {
+        "url": "https://www.saha.go.kr/",
+        "label": "사하구"
+      },
+      {
+        "url": "https://www.geumjeong.go.kr/",
+        "label": "금정구"
+      },
+      {
+        "url": "https://www.bsgangseo.go.kr/",
+        "label": "강서구"
+      },
+      {
+        "url": "https://www.yeonje.go.kr/",
+        "label": "연제구"
+      },
+      {
+        "url": "https://www.suyeong.go.kr/",
+        "label": "수영구"
+      },
+      {
+        "url": "https://www.sasang.go.kr/",
+        "label": "사상구"
+      },
+      {
+        "url": "https://www.gijang.go.kr/",
+        "label": "기장군"
+      },
+      {
+        "url": "https://www.daegu.go.kr/",
+        "label": "대구광역시"
+      },
+      {
+        "url": "https://www.jung.daegu.kr/",
+        "label": "중구"
+      },
+      {
+        "url": "https://www.dong.daegu.kr/",
+        "label": "동구"
+      },
+      {
+        "url": "https://www.dgs.go.kr/",
+        "label": "서구"
+      },
+      {
+        "url": "https://www.nam.daegu.kr/",
+        "label": "남구"
+      },
+      {
+        "url": "https://www.buk.daegu.kr/",
+        "label": "북구"
+      },
+      {
+        "url": "https://www.suseong.kr/",
+        "label": "수성구"
+      },
+      {
+        "url": "https://www.dalseo.daegu.kr/",
+        "label": "달서구"
+      },
+      {
+        "url": "https://www.dalseong.daegu.kr/",
+        "label": "달성군"
+      },
+      {
+        "url": "https://www.gunwi.go.kr/",
+        "label": "군위군"
+      },
+      {
+        "url": "https://www.incheon.go.kr/",
+        "label": "인천광역시"
+      },
+      {
+        "url": "https://www.jemulpo.go.kr/",
+        "label": "제물포구"
+      },
+      {
+        "url": "https://www.yeongjong.go.kr/",
+        "label": "영종구"
+      },
+      {
+        "url": "https://michu.incheon.kr/",
+        "label": "미추홀구"
+      },
+      {
+        "url": "https://www.yeonsu.go.kr/",
+        "label": "연수구"
+      },
+      {
+        "url": "https://www.namdong.go.kr/",
+        "label": "남동구"
+      },
+      {
+        "url": "https://www.icbp.go.kr/",
+        "label": "부평구"
+      },
+      {
+        "url": "https://www.gyeyang.go.kr/",
+        "label": "계양구"
+      },
+      {
+        "url": "https://www.seo.incheon.kr/open_content/main/",
+        "label": "서해구"
+      },
+      {
+        "url": "https://www.geomdan.go.kr/",
+        "label": "검단구"
+      },
+      {
+        "url": "https://www.ganghwa.go.kr/",
+        "label": "강화군"
+      },
+      {
+        "url": "https://www.ongjin.go.kr/",
+        "label": "옹진군"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/",
+        "label": "대전광역시"
+      },
+      {
+        "url": "https://www.donggu.go.kr/",
+        "label": "동구"
+      },
+      {
+        "url": "https://www.djjunggu.go.kr/",
+        "label": "중구"
+      },
+      {
+        "url": "https://www.seogu.go.kr/",
+        "label": "서구"
+      },
+      {
+        "url": "https://www.yuseong.go.kr/",
+        "label": "유성구"
+      },
+      {
+        "url": "https://www.daedeok.go.kr/",
+        "label": "대덕구"
+      },
+      {
+        "url": "https://www.ulsan.go.kr/",
+        "label": "울산광역시"
+      },
+      {
+        "url": "https://www.junggu.ulsan.kr/",
+        "label": "중구"
+      },
+      {
+        "url": "https://www.ulsannamgu.go.kr/",
+        "label": "남구"
+      },
+      {
+        "url": "https://www.donggu.ulsan.kr/",
+        "label": "동구"
+      },
+      {
+        "url": "https://www.bukgu.ulsan.kr/",
+        "label": "북구"
+      },
+      {
+        "url": "https://www.ulju.ulsan.kr/",
+        "label": "울주군"
+      },
+      {
+        "url": "https://www.sejong.go.kr/",
+        "label": "세종특별자치시"
+      },
+      {
+        "url": "https://www.gg.go.kr/",
+        "label": "경기도"
+      },
+      {
+        "url": "https://www.suwon.go.kr/",
+        "label": "수원시"
+      },
+      {
+        "url": "https://www.seongnam.go.kr/",
+        "label": "성남시"
+      },
+      {
+        "url": "https://www.ui4u.go.kr/",
+        "label": "의정부시"
+      },
+      {
+        "url": "https://www.anyang.go.kr/",
+        "label": "안양시"
+      },
+      {
+        "url": "https://www.bucheon.go.kr/",
+        "label": "부천시"
+      },
+      {
+        "url": "https://www.gm.go.kr/",
+        "label": "광명시"
+      },
+      {
+        "url": "https://www.pyeongtaek.go.kr/",
+        "label": "평택시"
+      },
+      {
+        "url": "https://www.ddc.go.kr/",
+        "label": "동두천시"
+      },
+      {
+        "url": "https://www.ansan.go.kr/",
+        "label": "안산시"
+      },
+      {
+        "url": "https://www.goyang.go.kr/",
+        "label": "고양시"
+      },
+      {
+        "url": "https://www.gccity.go.kr/",
+        "label": "과천시"
+      },
+      {
+        "url": "https://www.guri.go.kr/",
+        "label": "구리시"
+      },
+      {
+        "url": "https://www.nyj.go.kr/",
+        "label": "남양주시"
+      },
+      {
+        "url": "https://www.osan.go.kr/",
+        "label": "오산시"
+      },
+      {
+        "url": "https://www.siheung.go.kr/",
+        "label": "시흥시"
+      },
+      {
+        "url": "https://www.gunpo.go.kr/",
+        "label": "군포시"
+      },
+      {
+        "url": "https://www.uiwang.go.kr/",
+        "label": "의왕시"
+      },
+      {
+        "url": "https://www.hanam.go.kr/",
+        "label": "하남시"
+      },
+      {
+        "url": "https://www.yongin.go.kr/",
+        "label": "용인시"
+      },
+      {
+        "url": "https://www.paju.go.kr/",
+        "label": "파주시"
+      },
+      {
+        "url": "https://www.icheon.go.kr/",
+        "label": "이천시"
+      },
+      {
+        "url": "https://www.anseong.go.kr/",
+        "label": "안성시"
+      },
+      {
+        "url": "https://www.gimpo.go.kr/",
+        "label": "김포시"
+      },
+      {
+        "url": "https://www.hscity.go.kr/",
+        "label": "화성시"
+      },
+      {
+        "url": "https://www.gjcity.go.kr/",
+        "label": "광주시"
+      },
+      {
+        "url": "https://www.yangju.go.kr/",
+        "label": "양주시"
+      },
+      {
+        "url": "https://www.pocheon.go.kr/",
+        "label": "포천시"
+      },
+      {
+        "url": "https://www.yeoju.go.kr/",
+        "label": "여주시"
+      },
+      {
+        "url": "https://www.yeoncheon.go.kr/",
+        "label": "연천군"
+      },
+      {
+        "url": "https://www.gp.go.kr/",
+        "label": "가평군"
+      },
+      {
+        "url": "https://www.yp21.go.kr/",
+        "label": "양평군"
+      },
+      {
+        "url": "https://state.gwd.go.kr/",
+        "label": "강원특별자치도"
+      },
+      {
+        "url": "https://www.chuncheon.go.kr/",
+        "label": "춘천시"
+      },
+      {
+        "url": "https://www.wonju.go.kr/",
+        "label": "원주시"
+      },
+      {
+        "url": "https://www.gn.go.kr/",
+        "label": "강릉시"
+      },
+      {
+        "url": "https://www.dh.go.kr/",
+        "label": "동해시"
+      },
+      {
+        "url": "https://www.taebaek.go.kr/",
+        "label": "태백시"
+      },
+      {
+        "url": "https://www.sokcho.go.kr/",
+        "label": "속초시"
+      },
+      {
+        "url": "https://www.samcheok.go.kr/",
+        "label": "삼척시"
+      },
+      {
+        "url": "https://www.hongcheon.go.kr/",
+        "label": "홍천군"
+      },
+      {
+        "url": "https://www.hsg.go.kr/",
+        "label": "횡성군"
+      },
+      {
+        "url": "https://www.yw.go.kr/",
+        "label": "영월군"
+      },
+      {
+        "url": "https://www.pc.go.kr/portal",
+        "label": "평창군"
+      },
+      {
+        "url": "https://www.jeongseon.go.kr/",
+        "label": "정선군"
+      },
+      {
+        "url": "https://www.cwg.go.kr/",
+        "label": "철원군"
+      },
+      {
+        "url": "https://www.ihc.go.kr/",
+        "label": "화천군"
+      },
+      {
+        "url": "https://www.yanggu.go.kr/",
+        "label": "양구군"
+      },
+      {
+        "url": "https://www.inje.go.kr/",
+        "label": "인제군"
+      },
+      {
+        "url": "https://www.gwgs.go.kr/",
+        "label": "고성군"
+      },
+      {
+        "url": "https://www.yangyang.go.kr/",
+        "label": "양양군"
+      },
+      {
+        "url": "https://www.chungbuk.go.kr",
+        "label": "충청북도"
+      },
+      {
+        "url": "https://www.cheongju.go.kr/www/index.do#n",
+        "label": "청주시"
+      },
+      {
+        "url": "https://www.chungju.go.kr/",
+        "label": "충주시"
+      },
+      {
+        "url": "https://www.jecheon.go.kr/",
+        "label": "제천시"
+      },
+      {
+        "url": "https://www.boeun.go.kr/",
+        "label": "보은군"
+      },
+      {
+        "url": "https://www.oc.go.kr",
+        "label": "옥천군"
+      },
+      {
+        "url": "https://www.yd21.go.kr/",
+        "label": "영동군"
+      },
+      {
+        "url": "https://www.jp.go.kr/",
+        "label": "증평군"
+      },
+      {
+        "url": "https://www.jincheon.go.kr/",
+        "label": "진천군"
+      },
+      {
+        "url": "https://www.goesan.go.kr/",
+        "label": "괴산군"
+      },
+      {
+        "url": "https://www.eumseong.go.kr",
+        "label": "음성군"
+      },
+      {
+        "url": "https://www.danyang.go.kr/",
+        "label": "단양군"
+      },
+      {
+        "url": "https://www.chungnam.go.kr/",
+        "label": "충청남도"
+      },
+      {
+        "url": "https://www.cheonan.go.kr/",
+        "label": "천안시"
+      },
+      {
+        "url": "https://www.gongju.go.kr/",
+        "label": "공주시"
+      },
+      {
+        "url": "https://www.dangjin.go.kr/",
+        "label": "당진시"
+      },
+      {
+        "url": "https://www.brcn.go.kr/",
+        "label": "보령시"
+      },
+      {
+        "url": "https://www.asan.go.kr/",
+        "label": "아산시"
+      },
+      {
+        "url": "https://www.seosan.go.kr/",
+        "label": "서산시"
+      },
+      {
+        "url": "https://www.nonsan.go.kr/",
+        "label": "논산시"
+      },
+      {
+        "url": "https://www.gyeryong.go.kr/",
+        "label": "계룡시"
+      },
+      {
+        "url": "https://www.geumsan.go.kr/",
+        "label": "금산군"
+      },
+      {
+        "url": "https://www.buyeo.go.kr/",
+        "label": "부여군"
+      },
+      {
+        "url": "https://www.seocheon.go.kr/",
+        "label": "서천군"
+      },
+      {
+        "url": "https://www.cheongyang.go.kr/",
+        "label": "청양군"
+      },
+      {
+        "url": "https://www.hongseong.go.kr/",
+        "label": "홍성군"
+      },
+      {
+        "url": "https://www.yesan.go.kr/",
+        "label": "예산군"
+      },
+      {
+        "url": "https://www.taean.go.kr/",
+        "label": "태안군"
+      },
+      {
+        "url": "https://www.jeonbuk.go.kr/",
+        "label": "전북특별자치도"
+      },
+      {
+        "url": "https://www.jeonju.go.kr/",
+        "label": "전주시"
+      },
+      {
+        "url": "https://www.gunsan.go.kr/",
+        "label": "군산시"
+      },
+      {
+        "url": "https://www.iksan.go.kr/",
+        "label": "익산시"
+      },
+      {
+        "url": "https://www.jeongeup.go.kr/",
+        "label": "정읍시"
+      },
+      {
+        "url": "https://www.namwon.go.kr/",
+        "label": "남원시"
+      },
+      {
+        "url": "https://www.gimje.go.kr/",
+        "label": "김제시"
+      },
+      {
+        "url": "https://www.wanju.go.kr/",
+        "label": "완주군"
+      },
+      {
+        "url": "https://www.jinan.go.kr//",
+        "label": "진안군"
+      },
+      {
+        "url": "https://www.muju.go.kr/",
+        "label": "무주군"
+      },
+      {
+        "url": "https://www.jangsu.go.kr/",
+        "label": "장수군"
+      },
+      {
+        "url": "https://www.imsil.go.kr/",
+        "label": "임실군"
+      },
+      {
+        "url": "https://www.sunchang.go.kr/",
+        "label": "순창군"
+      },
+      {
+        "url": "https://www.gochang.go.kr/",
+        "label": "고창군"
+      },
+      {
+        "url": "https://www.buan.go.kr/",
+        "label": "부안군"
+      },
+      {
+        "url": "https://www.gb.go.kr/",
+        "label": "경상북도"
+      },
+      {
+        "url": "https://www.pohang.go.kr/",
+        "label": "포항시"
+      },
+      {
+        "url": "https://www.gyeongju.go.kr/",
+        "label": "경주시"
+      },
+      {
+        "url": "https://www.gc.go.kr/",
+        "label": "김천시"
+      },
+      {
+        "url": "https://www.andong.go.kr/",
+        "label": "안동시"
+      },
+      {
+        "url": "https://www.gumi.go.kr/",
+        "label": "구미시"
+      },
+      {
+        "url": "https://www.yeongju.go.kr/",
+        "label": "영주시"
+      },
+      {
+        "url": "https://www.yc.go.kr/",
+        "label": "영천시"
+      },
+      {
+        "url": "https://www.sangju.go.kr/",
+        "label": "상주시"
+      },
+      {
+        "url": "https://www.gbmg.go.kr/",
+        "label": "문경시"
+      },
+      {
+        "url": "https://gbgs.go.kr/",
+        "label": "경산시"
+      },
+      {
+        "url": "https://www.usc.go.kr/",
+        "label": "의성군"
+      },
+      {
+        "url": "https://www.cs.go.kr/",
+        "label": "청송군"
+      },
+      {
+        "url": "https://www.yyg.go.kr/",
+        "label": "영양군"
+      },
+      {
+        "url": "https://www.yd.go.kr/",
+        "label": "영덕군"
+      },
+      {
+        "url": "https://www.cheongdo.go.kr/",
+        "label": "청도군"
+      },
+      {
+        "url": "https://www.goryeong.go.kr/",
+        "label": "고령군"
+      },
+      {
+        "url": "https://www.sj.go.kr/",
+        "label": "성주군"
+      },
+      {
+        "url": "https://www.chilgok.go.kr/",
+        "label": "칠곡군"
+      },
+      {
+        "url": "https://www.ycg.kr/",
+        "label": "예천군"
+      },
+      {
+        "url": "https://www.bonghwa.go.kr/",
+        "label": "봉화군"
+      },
+      {
+        "url": "https://www.uljin.go.kr/",
+        "label": "울진군"
+      },
+      {
+        "url": "https://www.ulleung.go.kr/",
+        "label": "울릉군"
+      },
+      {
+        "url": "https://www.gyeongnam.go.kr/",
+        "label": "경상남도"
+      },
+      {
+        "url": "https://www.changwon.go.kr/",
+        "label": "창원시"
+      },
+      {
+        "url": "https://www.jinju.go.kr/",
+        "label": "진주시"
+      },
+      {
+        "url": "https://www.tongyeong.go.kr/",
+        "label": "통영시"
+      },
+      {
+        "url": "https://www.sacheon.go.kr/",
+        "label": "사천시"
+      },
+      {
+        "url": "https://www.gimhae.go.kr/",
+        "label": "김해시"
+      },
+      {
+        "url": "https://www.miryang.go.kr/",
+        "label": "밀양시"
+      },
+      {
+        "url": "https://www.geoje.go.kr/",
+        "label": "거제시"
+      },
+      {
+        "url": "https://www.yangsan.go.kr/",
+        "label": "양산시"
+      },
+      {
+        "url": "https://www.uiryeong.go.kr/",
+        "label": "의령군"
+      },
+      {
+        "url": "https://www.haman.go.kr/",
+        "label": "함안군"
+      },
+      {
+        "url": "https://www.cng.go.kr/",
+        "label": "창녕군"
+      },
+      {
+        "url": "https://www.goseong.go.kr/",
+        "label": "고성군"
+      },
+      {
+        "url": "https://www.namhae.go.kr/",
+        "label": "남해군"
+      },
+      {
+        "url": "https://www.hadong.go.kr/",
+        "label": "하동군"
+      },
+      {
+        "url": "https://www.sancheong.go.kr/",
+        "label": "산청군"
+      },
+      {
+        "url": "https://www.hygn.go.kr/",
+        "label": "함양군"
+      },
+      {
+        "url": "https://www.geochang.go.kr/",
+        "label": "거창군"
+      },
+      {
+        "url": "https://www.hc.go.kr/",
+        "label": "합천군"
+      },
+      {
+        "url": "https://www.jeju.go.kr/",
+        "label": "제주특별자치도"
+      },
+      {
+        "url": "https://www.jejusi.go.kr/",
+        "label": "제주시"
+      },
+      {
+        "url": "https://www.seogwipo.go.kr/",
+        "label": "서귀포시"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/useInfo/screen.do",
+        "label": "이용안내"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/viewerDownload/screen.do",
+        "label": "문서보기 프로그램"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/copyrightPolicy/screen.do",
+        "label": "저작권정책"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/sub/a08/personalInfo/screen.do",
+        "label": "개인정보처리방침"
+      },
+      {
+        "url": "https://www.mois.go.kr/frt/a07/organInfo.do",
+        "label": "기관소개(직원검색, 약도 등)"
+      },
+      {
+        "url": "https://www.gov.kr/portal/orgInfo?Mcode=11180",
+        "label": "정부·지자체 기관정보(정부24)"
+      },
+      {
+        "url": "http://www.logodi.go.kr/",
+        "label": "지방자치인재개발원"
+      },
+      {
+        "url": "http://www.archives.go.kr/",
+        "label": "국가기록원"
+      },
+      {
+        "url": "https://gbmo.go.kr/",
+        "label": "정부청사관리본부"
+      },
+      {
+        "url": "http://www.ibuk5do.go.kr/",
+        "label": "이북5도"
+      },
+      {
+        "url": "http://www.rrncc.go.kr/",
+        "label": "주민등록번호변경위원회"
+      },
+      {
+        "url": "http://www.ndti.go.kr/",
+        "label": "국가재난안전교육원"
+      },
+      {
+        "url": "http://www.pa.go.kr/",
+        "label": "대통령기록관"
+      },
+      {
+        "url": "http://www.nfs.go.kr/",
+        "label": "국립과학수사연구원"
+      },
+      {
+        "url": "http://www.nirs.go.kr/",
+        "label": "국가정보자원관리원"
+      },
+      {
+        "url": "http://www.ndmi.go.kr/",
+        "label": "국립재난안전연구원"
+      },
+      {
+        "url": "https://www.nia.or.kr",
+        "label": "한국지능정보사회진흥원"
+      },
+      {
+        "url": "https://www.koelsa.or.kr",
+        "label": "한국승강기안전공단"
+      },
+      {
+        "url": "https://www.kdemo.or.kr",
+        "label": "민주화운동기념사업회"
+      },
+      {
+        "url": "https://www.fomo.or.kr",
+        "label": "일제강제동원 피해자지원재단"
+      },
+      {
+        "url": "https://www.krila.re.kr",
+        "label": "한국지방행정연구원"
+      },
+      {
+        "url": "https://www.poba.or.kr",
+        "label": "대한지방행정공제회"
+      },
+      {
+        "url": "https://www.lofa.or.kr",
+        "label": "한국지방재정공제회"
+      },
+      {
+        "url": "https://www.klid.or.kr",
+        "label": "한국지역정보개발원"
+      },
+      {
+        "url": "https://www.erc.re.kr",
+        "label": "지방공기업평가원"
+      },
+      {
+        "url": "https://www.kidi.re.kr",
+        "label": "한국섬진흥원"
+      },
+      {
+        "url": "https://www.kilf.re.kr",
+        "label": "한국지방세연구원"
+      },
+      {
+        "url": "https://www.ntrc.or.kr",
+        "label": "국립국가폭력트라우마치유센터"
+      },
+      {
+        "url": "http://www.wa.or.kr/board/list.asp?search=link_url&SearchString=www.mois.go.kr&BoardID=0006",
+        "label": "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)"
+      }
+    ],
+    "select_options": []
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "template_only":true,
+  "record_id":null,
+  "service_id":null,
+  "source_record_id":null,
+  "source_url":null,
+  "title_raw":null,
+  "description_raw":null,
+  "publisher_raw":null,
+  "creator_raw":null,
+  "classification_scheme_id":null,
+  "classification_code_raw":null,
+  "keywords_raw":[],
+  "catalog_modified_at":null,
+  "collected_at":null,
+  "canonical_dataset_id":null,
+  "identity_review_status":"not_reviewed",
+  "distribution_ids":[],
+  "license_raw":null,
+  "access_conditions_raw":null,
+  "evidence_ids":[],
+  "unknown_fields":["양식이며 실제 자료를 기록하지 않았음"]
+}

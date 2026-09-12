@@ -1,0 +1,101 @@
+{
+  "profile_id":"kr-public-catalog-discovery-v0.2",
+  "namespace":"https://example.org/kr-public-catalog/",
+  "status":"local_design_not_official_certification",
+  "standards":["https://www.w3.org/TR/vocab-dcat-3/","https://www.w3.org/TR/skos-primer/","https://www.w3.org/TR/prov-o/"],
+  "classes":[
+    ["ServiceEntry","포털·제공 서비스 조사 항목",null],
+    ["Organization","기관","http://xmlns.com/foaf/0.1/Organization"],
+    ["Catalog","데이터 목록","http://www.w3.org/ns/dcat#Catalog"],
+    ["CatalogRecord","포털별 등록정보","http://www.w3.org/ns/dcat#CatalogRecord"],
+    ["Dataset","실제 자료","http://www.w3.org/ns/dcat#Dataset"],
+    ["DatasetSeries","자료 계열","http://www.w3.org/ns/dcat#DatasetSeries"],
+    ["Distribution","다운로드·배포 형태","http://www.w3.org/ns/dcat#Distribution"],
+    ["DataService","데이터 접근 서비스","http://www.w3.org/ns/dcat#DataService"],
+    ["Schema","특정 버전의 자료 구조",null],
+    ["Field","원본 컬럼·응답 항목",null],
+    ["Dimension","지역·시간·성별 등의 구분 항목",null],
+    ["Measure","측정값 항목",null],
+    ["CodeScheme","식별·분류 코드 체계","http://www.w3.org/2004/02/skos/core#ConceptScheme"],
+    ["Concept","표준화한 의미 개념","http://www.w3.org/2004/02/skos/core#Concept"],
+    ["ConceptScheme","출처별·공통 개념 사전","http://www.w3.org/2004/02/skos/core#ConceptScheme"],
+    ["SpatialExtent","자료의 공간 범위","http://purl.org/dc/terms/Location"],
+    ["TemporalExtent","자료의 관측 기간","http://purl.org/dc/terms/PeriodOfTime"],
+    ["Unit","수량의 단위",null],
+    ["FieldMapping","원본 필드와 개념의 대응 검토",null],
+    ["RelationshipClaim","근거·상태를 가진 관계 주장","http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"],
+    ["SourceEvidence","출처와 관찰 기록","http://www.w3.org/ns/prov#Entity"],
+    ["JoinAssessment","자료 결합 가능성 검토",null],
+    ["PolicyAssessment","특정 이용행위의 조건 검토",null],
+    ["AnalysisResult","범위가 한정된 분석 결과","http://www.w3.org/ns/prov#Entity"],
+    ["CollectionRun","수집 실행","http://www.w3.org/ns/prov#Activity"],
+    ["AuditEvent","검토·수정·제공 이력","http://www.w3.org/ns/prov#Activity"]
+  ],
+  "properties":[
+    ["hostsCatalog","서비스에서 목록을 제공","ServiceEntry","Catalog"],
+    ["operatedBy","확인된 운영기관","ServiceEntry","Organization"],
+    ["hasSchema","자료의 구조 버전","Dataset","Schema"],
+    ["hasField","구조에 포함된 항목","Schema","Field"],
+    ["hasCodeScheme","항목의 코드 체계","Field","CodeScheme"],
+    ["hasUnit","측정 항목의 단위","Field","Unit"],
+    ["mapsField","매핑 검토의 원본 항목","FieldMapping","Field"],
+    ["mapsConcept","매핑 검토의 대상 개념","FieldMapping","Concept"],
+    ["evidence","주장의 근거",null,"SourceEvidence"],
+    ["pageHyperlink","조회 페이지의 실제 하이퍼링크",null,null],
+    ["reviewedTopic","편집자가 붙인 조사 주제","ServiceEntry","Concept"],
+    ["leftDataset","결합 검토의 자료 A","JoinAssessment","Dataset"],
+    ["rightDataset","결합 검토의 자료 B","JoinAssessment","Dataset"],
+    ["assessesResource","정책 검토 대상","PolicyAssessment",null],
+    ["inputDataset","분석에 사용한 자료","AnalysisResult","Dataset"],
+    ["producedEvidence","수집으로 확보한 근거","CollectionRun","SourceEvidence"]
+  ],
+  "claim_statuses":["documented","curated","candidate","rejected","superseded"],
+  "observation_statuses":["body_observed","title_only","response_only","fetch_unresolved","interstitial_observed"],
+  "unknown_value_rule":"미확인은 null과 사유를 함께 저장한다. false/0/빈 문자열로 바꾸지 않는다. 구조 자체가 없는 경우 not_applicable을 구별한다.",
+  "identity_rule":"(service_id, source_record_id)는 등록정보 식별키다. 다른 포털의 같은 제목 자료를 자동 통합하지 않는다. 데이터셋 동일성은 별도 근거 검토가 필요하다.",
+  "materialization_rule":"documented 관계만 실제 관계로 내보낸다. curated 분류는 그 성격이 드러나는 전용 속성을 사용한다. candidate는 RelationshipClaim으로만 보존한다.",
+  "portal_fields":[
+    ["id","필수","내부 서비스 ID"],["research_name","필수","조사 명칭; 공식 이름과 구별"],
+    ["observed_title","선택","조회 페이지의 제목 원문"],["requested_url","필수","실제로 조회한 주소"],
+    ["observed_final_url","선택","리디렉션 후 주소; 로그인·오류 페이지 여부 별도"],
+    ["group","필수","통합·통계·지역·분야·기관이라는 조사 분류"],["topics","필수","프로젝트가 편집한 주제; 포털 원문 분류가 아님"],
+    ["region","필수","조사 범위·담당 지역; 자료 관측 범위가 아님"],
+    ["operator","선택","역할이 확인된 운영기관 주장"],["official_referrals","필수","공식 출처의 링크 관찰 목록"],
+    ["observation_status","필수","본문·제목·접속 실패 등의 관찰 상태"],
+    ["navigation_candidates","필수","목록·API·정책 등 안내 경로 후보"],
+    ["data_api_tested","필수","실제 자료 API 실행 검증 여부"],["catalog_collected","필수","전체 등록자료 수집 완료 여부"],
+    ["license_review","필수","미확인 또는 자료·행위별 평가 목록"],["next_action","필수","해당 항목에서 다음으로 확인할 작업"]
+  ],
+  "record_fields":[
+    "record_id","service_id","source_record_id","source_url","title_raw","description_raw",
+    "publisher_raw","creator_raw","classification_scheme_id","classification_code_raw","keywords_raw",
+    "catalog_modified_at","collected_at","canonical_dataset_id","identity_review_status","evidence_ids",
+    "distribution_ids","license_raw","access_conditions_raw","unknown_fields"
+  ],
+  "dataset_fields":[
+    "dataset_id","definition","creator_id","publisher_id","subject_concept_ids","population_scope",
+    "observation_start","observation_end","temporal_resolution","spatial_extent_id","spatial_resolution",
+    "methodology","schema_ids","series_id","version","provenance","evidence_ids","unknown_fields"
+  ],
+  "variable_fields":[
+    "field_id","schema_id","original_name","original_path","description_raw","data_type","role",
+    "measure_concept_id","unit_id","code_scheme_id","missing_value_codes","aggregation_rule",
+    "measurement_scope","version","mapping_status","evidence_ids"
+  ],
+  "join_fields":[
+    "assessment_id","left_dataset_version","right_dataset_version","purpose","observation_unit",
+    "key_pairs","code_crosswalk_version","spatial_alignment","temporal_alignment","aggregation_rules",
+    "key_uniqueness","matched_rows","unmatched_rows","duplicate_expansion","methodology_compatibility",
+    "tested_at","evidence_ids","status"
+  ],
+  "policy_fields":[
+    "assessment_id","resource_id","resource_version","requested_action","purpose","terms_source",
+    "attribution_requirements","commercial_use","redistribution","derivatives","personal_data_review",
+    "decision","checked_at","reviewer","evidence_ids"
+  ],
+  "analysis_fields":[
+    "analysis_id","question","input_versions","variable_definitions","population_scope","observation_unit",
+    "spatial_scope","temporal_scope","preprocessing","method","sample_size","estimate","uncertainty",
+    "dependence_handling","multiple_testing_handling","limitations","code_version","executed_at","evidence_ids"
+  ]
+}

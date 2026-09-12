@@ -1,0 +1,146 @@
+<div id="public-data-ontology-explorer">
+  <style>
+    #public-data-ontology-explorer .ontology-heading { display:flex; flex-wrap:wrap; align-items:baseline; gap:12px; }
+    #public-data-ontology-explorer .ontology-choices { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 22px; }
+    #public-data-ontology-explorer .ontology-diagram { position:relative; display:grid; grid-template-columns:1fr 1.15fr 1fr; gap:44px; align-items:center; padding:20px 0; }
+    #public-data-ontology-explorer .ontology-column { display:flex; flex-direction:column; gap:20px; min-width:0; }
+    #public-data-ontology-explorer .ontology-node { padding:10px 0; text-align:center; overflow-wrap:anywhere; }
+    #public-data-ontology-explorer .ontology-node-label { font-weight:500; }
+    #public-data-ontology-explorer .ontology-node-meta { margin-top:4px; }
+    #public-data-ontology-explorer .ontology-edges { position:absolute; inset:0; width:100%; height:100%; overflow:visible; pointer-events:none; }
+    #public-data-ontology-explorer .ontology-edge { fill:none; stroke:var(--viz-series-1); stroke-width:1.5; }
+    #public-data-ontology-explorer .ontology-edge.is-curated { stroke:var(--viz-series-2); }
+    #public-data-ontology-explorer .ontology-edge.is-candidate { stroke:var(--viz-series-3); stroke-dasharray:4 4; }
+    #public-data-ontology-explorer .ontology-edge-label { fill:var(--foreground); font-size:12px; }
+    #public-data-ontology-explorer .ontology-legend { display:flex; flex-wrap:wrap; gap:16px; margin:10px 0; }
+    #public-data-ontology-explorer .ontology-swatch { display:inline-block; width:22px; border-top:2px solid var(--viz-series-1); vertical-align:middle; margin-right:6px; }
+    #public-data-ontology-explorer .ontology-swatch.curated { border-color:var(--viz-series-2); }
+    #public-data-ontology-explorer .ontology-swatch.candidate { border-color:var(--viz-series-3); border-top-style:dashed; }
+    #public-data-ontology-explorer .ontology-detail { margin-top:18px; }
+    #public-data-ontology-explorer .ontology-links { display:flex; flex-wrap:wrap; gap:10px 18px; margin-top:12px; }
+    #public-data-ontology-explorer .ontology-relations { display:grid; gap:12px; margin:12px 0; }
+    #public-data-ontology-explorer .ontology-relation { display:grid; gap:4px; }
+    #public-data-ontology-explorer .ontology-text-path { display:none; }
+    #public-data-ontology-explorer details { margin-top:14px; }
+    #public-data-ontology-explorer summary { cursor:pointer; }
+    @media (max-width:580px) {
+      #public-data-ontology-explorer .ontology-diagram { grid-template-columns:1fr; gap:4px; padding:0; }
+      #public-data-ontology-explorer .ontology-column { flex-direction:row; flex-wrap:wrap; justify-content:center; gap:8px 24px; }
+      #public-data-ontology-explorer .ontology-node { flex:1 1 130px; }
+      #public-data-ontology-explorer .ontology-edges { display:none; }
+      #public-data-ontology-explorer .ontology-text-path { display:block; text-align:center; }
+    }
+  </style>
+  <div class="ontology-heading"><h3>공공데이터의 출처와 의미 연결</h3><span class="text-small text-muted">프로토타입 0.1 · 2026.09.10 검토</span></div>
+  <div id="ontology-choices" class="ontology-choices" role="group" aria-label="살펴볼 자료 선택"></div>
+  <div class="ontology-diagram" id="ontology-diagram">
+    <svg class="ontology-edges" id="ontology-edges" aria-hidden="true"></svg>
+    <div class="ontology-column" id="ontology-providers"></div>
+    <div class="ontology-text-path text-small" aria-hidden="true">↓ 수록·제공 / 일부 대응은 후보</div>
+    <div class="ontology-node" id="ontology-selected-node"></div>
+    <div class="ontology-text-path text-small" aria-hidden="true">↓ 주제·공간 개념</div>
+    <div class="ontology-column" id="ontology-concepts"></div>
+  </div>
+  <div class="ontology-legend text-small" aria-label="관계 상태 범례">
+    <span><span class="ontology-swatch"></span>공식 자료 확인</span>
+    <span><span class="ontology-swatch curated"></span>온톨로지 분류</span>
+    <span><span class="ontology-swatch candidate"></span>추가 검증 후보</span>
+  </div>
+  <div class="sr-only" id="ontology-accessible-path" aria-live="polite"></div>
+  <hr>
+  <div class="ontology-detail" id="ontology-detail"></div>
+  <script type="application/json" id="ontology-data">__ONTOLOGY_DATA__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('public-data-ontology-explorer');
+      const model = JSON.parse(root.querySelector('#ontology-data').textContent);
+      const datasets = Object.fromEntries(model.datasets.map(d => [d.id,d]));
+      const portals = Object.fromEntries(model.portals.map(p => [p.id,p]));
+      const organizations = Object.fromEntries(model.organizations.map(o => [o.id,o]));
+      const concepts = Object.fromEntries(model.concepts.map(c => [c.id,c]));
+      const sources = Object.fromEntries(model.sources.map(s => [s.id,s]));
+      const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const link = (url,label) => `<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)}</a>`;
+      const choices = root.querySelector('#ontology-choices');
+      const diagram = root.querySelector('#ontology-diagram');
+      const center = root.querySelector('#ontology-selected-node');
+      const providers = root.querySelector('#ontology-providers');
+      const themes = root.querySelector('#ontology-concepts');
+      const svg = root.querySelector('#ontology-edges');
+      const detail = root.querySelector('#ontology-detail');
+      let selected = 'ds-bus-daily';
+      const shortNames = {'ds-bus-daily':'버스 일별','ds-bus-hourly':'버스 시간대별','ds-subway-daily':'지하철 일별','ds-living-old':'생활인구 이전 자료','ds-living-new':'생활인구 현행 자료','ds-resident':'주민등록인구'};
+      for (const d of model.datasets) {
+        const button = document.createElement('button');
+        button.className = 'btn';
+        button.type = 'button';
+        button.dataset.id = d.id;
+        button.textContent = shortNames[d.id];
+        button.setAttribute('aria-pressed', String(d.id === selected));
+        button.addEventListener('click', () => render(d.id));
+        choices.appendChild(button);
+      }
+      function node(label,kind,relation,state) {
+        return `<div class="ontology-node" data-relation="${relation}" data-state="${state}"><div class="ontology-node-label">${escape(label)}</div><div class="ontology-node-meta text-small text-muted">${escape(kind)}</div></div>`;
+      }
+      function draw() {
+        svg.replaceChildren();
+        if (diagram.clientWidth <= 580) return;
+        const bounds = diagram.getBoundingClientRect();
+        const mid = center.getBoundingClientRect();
+        svg.setAttribute('viewBox',`0 0 ${bounds.width} ${bounds.height}`);
+        const ns = 'http://www.w3.org/2000/svg';
+        const defs = document.createElementNS(ns,'defs');
+        for (const [state,color] of [['documented','--viz-series-1'],['curated','--viz-series-2'],['candidate','--viz-series-3']]) {
+          const marker = document.createElementNS(ns,'marker');
+          marker.setAttribute('id','ontology-arrow-'+state); marker.setAttribute('viewBox','0 0 10 10'); marker.setAttribute('refX','9'); marker.setAttribute('refY','5'); marker.setAttribute('markerWidth','5'); marker.setAttribute('markerHeight','5'); marker.setAttribute('orient','auto-start-reverse');
+          const tip = document.createElementNS(ns,'path'); tip.setAttribute('d','M 0 0 L 10 5 L 0 10 z'); tip.setAttribute('fill',`var(${color})`); marker.appendChild(tip); defs.appendChild(marker);
+        }
+        svg.appendChild(defs);
+        for (const container of [providers,themes]) {
+          for (const item of container.children) {
+            const rect = item.getBoundingClientRect();
+            const left = container === providers;
+            const x1 = (left ? rect.right : mid.right) - bounds.left;
+            const y1 = (left ? (rect.top+rect.bottom)/2 : (mid.top+mid.bottom)/2) - bounds.top;
+            const x2 = (left ? mid.left : rect.left) - bounds.left;
+            const y2 = (left ? (mid.top+mid.bottom)/2 : (rect.top+rect.bottom)/2) - bounds.top;
+            const state = item.dataset.state;
+            const path = document.createElementNS(ns,'path');
+            path.setAttribute('d',`M${x1} ${y1} C${(x1+x2)/2} ${y1},${(x1+x2)/2} ${y2},${x2} ${y2}`);
+            path.setAttribute('class','ontology-edge is-'+state);
+            path.setAttribute('marker-end',`url(#ontology-arrow-${state})`);
+            svg.appendChild(path);
+            const text = document.createElementNS(ns,'text'); text.setAttribute('class','ontology-edge-label');
+            text.setAttribute('x',String((x1+x2)/2)); text.setAttribute('y',String((y1+y2)/2-7)); text.setAttribute('text-anchor','middle'); text.textContent=item.dataset.relation; svg.appendChild(text);
+          }
+        }
+      }
+      function render(id) {
+        selected=id;
+        const d=datasets[id];
+        choices.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed',String(b.dataset.id===id)));
+        providers.innerHTML=node(portals[d.portal_id].label,'포털 · 등록정보 경유','수록','documented');
+        const org = organizations[d.publisher_id || d.creator_id];
+        providers.innerHTML+=node(org.label,d.creator_id ? '통계 작성기관' : '자료 제공기관',d.creator_id ? '작성' : '제공','documented');
+        const candidate = model.relationships.find(r => r.predicate==='candidateTopic' && r.object===id);
+        if(candidate) providers.innerHTML+=node('공공데이터포털','15051734 · 정확한 대응 미확정','후보','candidate');
+        center.innerHTML=`<div class="ontology-node-label">${escape(shortNames[id])}</div><div class="ontology-node-meta"><code>${escape(d.identifier)}</code></div><div class="ontology-node-meta text-small">${d.lifecycle==='production_ended' ? '2026.07.31 이후 생산 종료' : '공식 목록 확인 · 원본 행 미검증'}</div>`;
+        themes.innerHTML=d.themes.map(cid=>node(concepts[cid].label,'측정 주제','주제','curated')).join('') + d.spatial_concepts.map(cid=>node(concepts[cid].label,'공간 단위','공간','curated')).join('');
+        const cols=[['자료명',d.label],['시간 단위',d.temporal_grain],['공간 단위',d.spatial_grain],['갱신 안내',d.update_frequency],['이용 조건',d.license_display],['확인 범위','공식 설명·목록 검토 / 원본 행·API 미검증']];
+        const assessment=model.join_assessments.filter(j=>j.left===id || j.right===id);
+        const special=model.relationships.filter(r=>(r.subject===id || r.object===id) && ['candidateTopic','successorCandidate'].includes(r.predicate));
+        detail.innerHTML=`<div class="text-small" aria-live="polite">${escape(d.short_label)} · ${escape(d.measure)}</div>
+          <div class="ontology-links">${link(d.url,'원문 보기')}${d.source_ids.filter(sid=>sources[sid].url!==d.url).map(sid=>link(sources[sid].url,sources[sid].title)).join('')}</div>
+          <details open><summary>자료 정의와 확인 범위</summary><table class="table table-sm"><tbody>${cols.map(([k,v])=>`<tr><th scope="row">${escape(k)}</th><td>${escape(v)}</td></tr>`).join('')}</tbody></table><ul>${d.caveats.map(x=>`<li>${escape(x)}</li>`).join('')}</ul></details>
+          <details><summary>연결 후보와 필요한 검증 · ${assessment.length+special.length}건</summary><div class="ontology-relations">${special.map(r=>`<div class="ontology-relation"><span class="text-small">추가 검증 후보</span><span>${escape(r.note)}</span>${r.source_ids.map(sid=>link(sources[sid].url,sid)).join(' ')}</div>`).join('')}${assessment.map(j=>{const other=j.left===id?j.right:j.left;return `<div class="ontology-relation"><div><button class="btn" type="button" data-select="${other}">${escape(shortNames[other])}</button></div><span>${escape(j.purpose)}</span><span class="text-small">${j.status==='blocked_for_blind_append'?'자동 이어붙이기 차단':'결합 검증 필요'} · 기준: ${escape(j.keys.join(' / '))}</span><ul>${j.conditions.concat(j.blockers.map(v=>'미해결: '+v)).map(v=>`<li>${escape(v)}</li>`).join('')}</ul></div>`}).join('')}</div></details>
+          <details><summary>관련 개념의 정의</summary><table class="table table-sm"><tbody>${d.themes.concat(d.spatial_concepts).map(cid=>`<tr><th scope="row">${escape(concepts[cid].label)}</th><td>${escape(concepts[cid].definition)}</td></tr>`).join('')}</tbody></table></details>`;
+        detail.querySelectorAll('[data-select]').forEach(b=>b.addEventListener('click',()=>render(b.dataset.select)));
+        root.querySelector('#ontology-accessible-path').textContent=`${portals[d.portal_id].label}에 수록된 ${d.label}. ${org.label} ${d.creator_id?'작성':'제공'}. ${d.themes.concat(d.spatial_concepts).map(cid=>concepts[cid].label).join(', ')} 개념과 연결.`;
+        requestAnimationFrame(draw);
+      }
+      new ResizeObserver(draw).observe(diagram);
+      render(selected);
+    })();
+  </script>
+</div>
