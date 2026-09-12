@@ -14,6 +14,8 @@
 
 GitHub의 HTML 파일 화면은 소스 보기다. 이 브랜치에서 **Code → Download ZIP** 후 압축을 풀고 `docs/ontology-explorer.html`을 열면 설치·로그인·API 키 없이 그래프가 실행된다. 원문 출처 링크를 열 때만 인터넷이 필요하다.
 
+공유할 때는 [현재 작업 브랜치 링크](https://github.com/chlsuun/public-data-ontology/tree/codex/ontology-sharing-20260912)를 사용한다. 링크에 404가 표시되면 [공개 범위와 브라우저 로그인 확인 방법](docs/team-guide.md#공유-링크에-404가-표시될-때)을 따른다.
+
 ## 어떤 구조인가
 
 ```mermaid
