@@ -1,0 +1,16 @@
+{
+  "scope": "jeju",
+  "target_count": 1259,
+  "processed": 1259,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 1166,
+    "response_definition_observed": 93
+  },
+  "documented_field_occurrences": 686,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T16:26:46.807771+00:00",
+  "generated_at": "2026-09-13T16:26:48.279583+00:00",
+  "pid": 6384
+}

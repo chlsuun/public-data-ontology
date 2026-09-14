@@ -1,0 +1,16 @@
+{
+  "scope": "ECOS 공개 OpenAPI 통계코드검색 트리; 파일제공 표도 목록에 보존",
+  "generated_at": "2026-09-13T08:33:44.650455+00:00",
+  "source_evidence_id": "ecos-statistical-classification-tree",
+  "reported_tree_nodes": 940,
+  "received_tree_nodes": 940,
+  "node_types": {
+    "C": 259,
+    "S": 681
+  },
+  "statistical_table_registrations": 681,
+  "unique_table_codes": 681,
+  "snapshot_catalog_count_reconciles": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

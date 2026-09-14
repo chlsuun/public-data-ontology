@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-09-13T10:45:23.600302+00:00",
+  "scope": "공개 개발가이드의 API 서비스 6개 분류와 별도 API 소개 게시판 대조; 공시 개별 보고서 목록은 아님",
+  "groups_discovered": {
+    "DS001": {
+      "name": "공시정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS001"
+    },
+    "DS002": {
+      "name": "정기보고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS002"
+    },
+    "DS003": {
+      "name": "정기보고서 재무정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS003"
+    },
+    "DS004": {
+      "name": "지분공시 종합정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS004"
+    },
+    "DS005": {
+      "name": "주요사항보고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS005"
+    },
+    "DS006": {
+      "name": "증권신고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS006"
+    }
+  },
+  "groups_received": [
+    {
+      "code": "DS001",
+      "name": "공시정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS001",
+      "evidence_id": "opendart-guide-DS001",
+      "guide_count": 4
+    },
+    {
+      "code": "DS002",
+      "name": "정기보고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS002",
+      "evidence_id": "opendart-guide-DS002",
+      "guide_count": 30
+    },
+    {
+      "code": "DS003",
+      "name": "정기보고서 재무정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS003",
+      "evidence_id": "opendart-guide-DS003",
+      "guide_count": 7
+    },
+    {
+      "code": "DS004",
+      "name": "지분공시 종합정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS004",
+      "evidence_id": "opendart-guide-DS004",
+      "guide_count": 2
+    },
+    {
+      "code": "DS005",
+      "name": "주요사항보고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS005",
+      "evidence_id": "opendart-guide-DS005",
+      "guide_count": 36
+    },
+    {
+      "code": "DS006",
+      "name": "증권신고서 주요정보",
+      "url": "https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS006",
+      "evidence_id": "opendart-guide-DS006",
+      "guide_count": 6
+    }
+  ],
+  "catalog_records": 85,
+  "unique_api_ids": 85,
+  "introduction_pages": [
+    {
+      "page": 1,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list"
+    },
+    {
+      "page": 2,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-2"
+    },
+    {
+      "page": 3,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-3"
+    },
+    {
+      "page": 4,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-4"
+    },
+    {
+      "page": 5,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-5"
+    },
+    {
+      "page": 6,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-6"
+    },
+    {
+      "page": 7,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-7"
+    },
+    {
+      "page": 8,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 10,
+      "evidence_id": "opendart-api-list-page-8"
+    },
+    {
+      "page": 9,
+      "reported_total": 83,
+      "reported_pages": 9,
+      "received": 3,
+      "evidence_id": "opendart-api-list-page-9"
+    }
+  ],
+  "introduction_records": 83,
+  "introduction_unique_ids": 83,
+  "advertised_introduction_totals": [
+    83
+  ],
+  "guide_and_introduction_titles_match": false,
+  "guide_only_titles": [
+    "감사용역체결현황",
+    "독립(사외)이사 및 그 변동현황",
+    "최대주주 변동현황",
+    "직원 현황",
+    "이사·감사의 개인별 보수현황(5억원 이상) (Ver 2.0)",
+    "개인별 보수지급 금액(5억이상 상위5인)  (Ver 2.0)",
+    "임원ㆍ주요주주 소유보고",
+    "무상증자 결정",
+    "신주인수권부사채권 발행결정",
+    "채권은행 등의 관리절차 중단"
+  ],
+  "introduction_only_titles": [
+    "채권은행등의관리절차중단",
+    "신주인수권부사채권발행결정",
+    "무상증자결정",
+    "사외이사 및 그 변동현황",
+    "감사용역 체결현황",
+    "임원·주요주주 소유보고",
+    "직원현황",
+    "최대주주 변동 현황"
+  ],
+  "duplicate_guide_ids": [],
+  "errors": [],
+  "snapshot_api_catalog_reconciles": false,
+  "all_discovered_guide_groups_read": true,
+  "introduction_pagination_reconciles": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "identity_note": "apiId는 개발가이드 식별자다. 소개 게시판은 건수와 제목 다중집합만 대조하며 nttId와 apiId를 동일 식별자로 선언하지 않는다.",
+  "remaining": "재무정보·XBRL·주석 일괄 다운로드의 별도 목록 및 파일 내부 명세는 추가 조사"
+}

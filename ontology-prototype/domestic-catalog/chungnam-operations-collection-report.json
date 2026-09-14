@@ -1,0 +1,20 @@
+{
+  "scope": "chungnam-operations",
+  "target_count": 211,
+  "processed": 211,
+  "remaining": 0,
+  "status_counts": {
+    "operation_discovery_unresolved": 11,
+    "operation_definitions_observed": 198,
+    "operation_definitions_unresolved": 2
+  },
+  "documented_field_occurrences": 3246,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T15:32:59.011705+00:00",
+  "generated_at": "2026-09-13T15:42:44.006440+00:00",
+  "pid": 7472,
+  "initial_queue_generated_at": "2026-09-13T15:40:16.924319+00:00",
+  "reconciled_from_saved_documents": true,
+  "reconciliation_note": "One selected-operation display mismatch was resolved by HTML whitespace normalization; the raw query name including trailing space was preserved. No successful metadata requests repeated."
+}

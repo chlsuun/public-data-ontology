@@ -1,0 +1,14 @@
+{
+  "scope": "kma-api",
+  "target_count": 626,
+  "processed": 626,
+  "status_counts": {
+    "column_definition_observed": 304,
+    "public_guide_observed_output_schema_pending": 322
+  },
+  "documented_field_occurrences": 4709,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "generated_at": "2026-09-13T12:38:03.198808+00:00",
+  "pid": 18724
+}

@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-09-13T19:04:46.542910+00:00",
+  "portal_id": "grac",
+  "qa_scope": "Public definition consistency; not actual API response validity or data quality scores",
+  "services": [
+    {
+      "dataset_key": "game",
+      "evidence_id": "grac-game-guide",
+      "issues": [
+        {
+          "issue": "response_table_caption_says_request",
+          "table_index": 1,
+          "caption": "이 표는 요청변수,형식,필수,설명을 나타냅니다."
+        },
+        {
+          "issue": "malformed_documentation_xml",
+          "locator": "pre[0]",
+          "error": "unclosed token: line 1, column 0"
+        },
+        {
+          "issue": "output_table_example_name_difference",
+          "locator": "pre[0]",
+          "names_not_in_table": [
+            "canceleddate"
+          ],
+          "table_names_not_in_example": [
+            "canceledddate"
+          ],
+          "comparison_method": "lexical_tags_only_xml_invalid"
+        },
+        {
+          "issue": "malformed_documentation_xml",
+          "locator": "pre[1]",
+          "error": "unclosed token: line 1, column 0"
+        }
+      ]
+    },
+    {
+      "dataset_key": "recruit",
+      "evidence_id": "grac-recruit-usage",
+      "issues": [
+        {
+          "issue": "heading_header_role_mismatch",
+          "table_index": 1,
+          "heading": "출력 변수",
+          "headers": [
+            "요청변수",
+            "형식",
+            "필수",
+            "설명"
+          ]
+        },
+        {
+          "issue": "response_table_caption_says_request",
+          "table_index": 1,
+          "caption": "이 표는 요청변수,형식,필수,설명을 나타냅니다."
+        },
+        {
+          "issue": "output_table_example_name_difference",
+          "locator": "pre[0]",
+          "names_not_in_table": [
+            "resultItem",
+            "results"
+          ],
+          "table_names_not_in_example": [],
+          "comparison_method": "parsed_xml_tags"
+        },
+        {
+          "issue": "repeated_output_name_with_distinct_source_rows",
+          "names": {
+            "result": 2
+          }
+        }
+      ]
+    }
+  ],
+  "structural_elements_excluded_from_scalar_field_counts": true,
+  "repeated_names_not_merged": true,
+  "source_typos_not_silently_corrected": true,
+  "quality_scores_assigned": false,
+  "raw_values_checked": false,
+  "remaining_scope": [
+    "Public data portal agency-specific catalog reconciliation",
+    "Runtime schema vs documentation validation",
+    "File column definitions and non-API catalogs"
+  ],
+  "public_disclosure_navigation": "inventory/grac-disclosure-navigation.json"
+}

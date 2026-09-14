@@ -1,0 +1,15 @@
+{
+  "scope": "assembly",
+  "target_count": 278,
+  "processed": 278,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 278
+  },
+  "documented_field_occurrences": 2188,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:28:07.126242+00:00",
+  "generated_at": "2026-09-13T07:32:45.691653+00:00",
+  "pid": 28644
+}

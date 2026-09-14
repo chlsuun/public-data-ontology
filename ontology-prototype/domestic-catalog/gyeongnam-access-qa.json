@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-13T16:35:44.183176+00:00",
+  "portal_id": "gyeongnam",
+  "status": "access_unresolved",
+  "python_https_evidence_id": "gyeongnam-public-home-20260913",
+  "python_failure": "certificate verification failed: unable to get local issuer certificate",
+  "separate_web_fetch_result": "timeout fetching https://bigdata.gyeongnam.go.kr/",
+  "tls_verification_disabled": false,
+  "api_or_observation_data_called": false,
+  "next_action": "Verify current official public URL and certificate chain through normal trusted HTTPS; continue other available portals meanwhile."
+}

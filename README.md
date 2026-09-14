@@ -1,20 +1,32 @@
 # 공공데이터 온톨로지 · Discovery Platform
 
-**국내외 공공데이터의 의미와 관계를 연결하고, 관련 자료를 추천한 이유와 원문 출처를 보여주는 플랫폼의 프로토타입이다.** 대용량 원본 전체를 복제하는 대신 개념·지표·자료 메타데이터·관계·출처를 축적한다.
+**국내 공공데이터의 의미와 관계를 연결하고, 관련 자료를 추천한 이유와 원문 출처를 보여주는 플랫폼의 프로토타입이다.** 대용량 원본 전체를 복제하는 대신 개념·지표·자료 메타데이터·관계·출처를 축적한다.
 
-현재 공유 버전은 **v0.3 / 2026-09-12**다. 자유로운 자연어 검색 서비스나 실제 통계 분석을 실행하는 제품은 아직 아니며, 3개 질문 예시로 관계 탐색과 자원 제한을 검증한다.
+## 최신 전체 지식 그래프 — 바로 공유하기
+
+**[로그인 없이 전체 지식 그래프 열기](https://chlsuun.github.io/public-data-ontology/)** · **[공유 범위와 사용 안내](docs/graph-sharing.md)** · **[코드·설계서 브랜치](https://github.com/chlsuun/public-data-ontology/tree/codex/knowledge-graph-sharing-20260914)**
+
+2026-09-14 그래프 스냅샷에는 **수집 포털 32곳, 공통 개념 초안 88개, 포털–개념 연결 후보 433쌍**이 있다. 등록 자료 440,356건과 원문 항목 4,122,591개를 표본 제한 없이 함께 공유하며, 포털 → 등록 자료 → 원문 항목 → 공통 개념 순서로 근거를 확인한다. 의미 연결은 사람의 검토 전 후보이며 통계적 상관관계를 계산한 결과가 아니다.
+
+GitHub Pages에서 현재 필터와 페이지의 주소를 복사하면 팀원도 같은 화면을 볼 수 있다. 로컬 수집은 별도로 진행되므로 이 공유본은 고정 시점의 스냅샷이다.
+
+**현재 작업: [국내 포털·기관·칼럼 수집 v0.5](ontology-prototype/domestic-catalog/README.md)** — 국내 전 분야를 대상으로 공식 전체 목록과 공개 칼럼 명세를 수집했다. [현재 국내 model.json](ontology-prototype/domestic-catalog/model.json), [포털별 수집 상태](ontology-prototype/domestic-catalog/portal-coverage.md), 검색 화면 실행 안내를 여기에서 확인한다. 전체 국내 포털·칼럼 수집 완료는 아니며, 출처별 확보량과 미수집 범위를 명시한다. 아래 v0.3 데모의 해외 자료는 과거 설계 예시다.
+
+아래의 **v0.3 / 2026-09-12 자료는 초기 설계 데모**다. 자유로운 자연어 검색 서비스나 실제 통계 분석을 실행하는 제품은 아직 아니며, 초기 데모에서는 3개 질문 예시로 관계 탐색과 자원 제한을 검증했다.
+
+**다음 단계 설계: [v0.4 과정 확충안](docs/process-v0.4.md)** — 사람의 관계 검토, 사이트별 데이터 QA, 자료 중심 커뮤니티, 대용량 데이터의 부분 제공 과정을 구체화했다. [검토 작업 준비 도구](ontology-prototype/governance/README.md)는 기존 관계 31개와 자료 6개를 검토 대기열로 가져오며, 미검증 관계를 승인하거나 실제 품질 점수를 만들어 넣지 않는다. 기존 그래프는 v0.3 탐색 데모다.
 
 ## 팀원이 먼저 볼 것
 
 1. **[팀 공유 안내](docs/team-guide.md)** — 제품 정의, 용어, 역할별 작업과 다음 단계.
-2. **[인터랙티브 지식그래프](docs/ontology-explorer.html)** — 내려받아 브라우저로 열기. 질문·탐색 깊이·노드 한도를 바꾸고 각 연결의 근거를 확인한다.
+2. **[최신 전체 지식 그래프](https://chlsuun.github.io/public-data-ontology/)** — 링크로 바로 열기. 포털·개념을 선택하고 원문 출처와 개념 연결 후보를 확인한다. [v0.3 그래프](docs/ontology-explorer.html)는 과거 질문 예시다.
 3. **[설계서](ontology-prototype/discovery-platform/architecture.md)** — 데이터 구조와 AI·Harness·운영 설계.
 4. **[관계 모델](ontology-prototype/discovery-platform/model.json)** / **[탐색 결과](ontology-prototype/discovery-platform/example-results.json)** — 기계가 사용하는 개체, 관계, 추천 경로.
 5. **[국내 제공처 조사 목록](ontology-prototype/national-catalog/portal-registry.md)** — 제공처와 검토 상태.
 
 GitHub의 HTML 파일 화면은 소스 보기다. 이 브랜치에서 **Code → Download ZIP** 후 압축을 풀고 `docs/ontology-explorer.html`을 열면 설치·로그인·API 키 없이 그래프가 실행된다. 원문 출처 링크를 열 때만 인터넷이 필요하다.
 
-공유할 때는 [현재 작업 브랜치 링크](https://github.com/chlsuun/public-data-ontology/tree/codex/ontology-sharing-20260912)를 사용한다. 링크에 404가 표시되면 [공개 범위와 브라우저 로그인 확인 방법](docs/team-guide.md#공유-링크에-404가-표시될-때)을 따른다.
+그래프를 공유할 때는 [웹 실행 링크](https://chlsuun.github.io/public-data-ontology/)를, 코드를 공유할 때는 [현재 작업 브랜치 링크](https://github.com/chlsuun/public-data-ontology/tree/codex/knowledge-graph-sharing-20260914)를 사용한다. 저장소는 공개 상태로, 로그인 없이 열 수 있다.
 
 ## 어떤 구조인가
 
@@ -39,7 +51,7 @@ flowchart LR
 
 | 구분 | 이번 저장소의 상태 |
 |---|---|
-| 서비스 목표 | 국내외 공공데이터 전 분야를 수용하는 공통 구조 |
+| 서비스 목표 | 현재 국내 공공데이터 전 분야. 아래 수량은 기존 v0.3 공유 데모의 기록 |
 | 제공처 조사 | 국내 122개 조사 항목 + OECD·World Bank 2개 = 124개 항목. 전체 포털 수 또는 전체 연동 완료 수가 아님 |
 | 질문 예시 | 청년 인구 유출·청년 고용·주거의 3개 예시 |
 | 관계 모델 | 전체 25개 노드·31개 관계, 자료 후보 6개 |

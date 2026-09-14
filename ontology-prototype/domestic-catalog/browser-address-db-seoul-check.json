@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-13T11:50:46.440952+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "params": {
+        "portal": "address",
+        "field": "ADM_CD",
+        "documented": "yes"
+      },
+      "total": 3,
+      "passed": true
+    },
+    {
+      "params": {
+        "portal": "address",
+        "field": "confmKey",
+        "documented": "yes"
+      },
+      "total": 0,
+      "passed": true
+    },
+    {
+      "params": {
+        "portal": "seoul",
+        "field": "에너지종류별",
+        "documented": "yes"
+      },
+      "total": 1,
+      "passed": true
+    },
+    {
+      "name": "address_db_detail_available",
+      "passed": true
+    },
+    {
+      "name": "new_queues_visible",
+      "passed": true
+    }
+  ]
+}

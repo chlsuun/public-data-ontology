@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-13T15:45:25.315483+00:00",
+  "index_generated_at": "2026-09-13T15:42:35.472772+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "sgis_all_68_catalog_records_searchable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sgis_all_618_response_fields_in_index",
+      "passed": true,
+      "details": 618
+    },
+    {
+      "name": "sgis_population_fields_have_source_table_coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sgis_non_type_value_not_fabricated_as_datatype",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "javascript_artifact_visible_but_not_a_column",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "request_credential_parameter_not_indexed_as_response",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chungnam_all_saved_operation_fields_in_index",
+      "passed": true,
+      "details": {
+        "expected": 3246,
+        "indexed": 3246
+      }
+    },
+    {
+      "name": "chungnam_request_and_generic_elements_excluded_from_output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "repeated_tabs_do_not_duplicate_imported_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "index_has_no_unmatched_documents_or_parse_errors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "completion_flags_remain_false",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "New SGIS and Chungnam function schemas in SQLite and actual localhost HTTP responses. No full historical-source or statistical validation claim."
+}

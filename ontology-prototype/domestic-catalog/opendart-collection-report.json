@@ -1,0 +1,16 @@
+{
+  "scope": "opendart",
+  "target_count": 85,
+  "processed": 85,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 83,
+    "response_control_observed_payload_unresolved": 2
+  },
+  "documented_field_occurrences": 2175,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T10:38:59.282324+00:00",
+  "generated_at": "2026-09-13T10:40:22.475733+00:00",
+  "pid": 19912
+}

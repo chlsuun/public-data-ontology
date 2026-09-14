@@ -1,0 +1,16 @@
+{
+  "scope": "yeongdeungpo",
+  "target_count": 153,
+  "processed": 153,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 150,
+    "non_api_definition_pending": 3
+  },
+  "documented_field_occurrences": 4523,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T08:36:22.959254+00:00",
+  "generated_at": "2026-09-13T08:38:56.195408+00:00",
+  "pid": 25412
+}

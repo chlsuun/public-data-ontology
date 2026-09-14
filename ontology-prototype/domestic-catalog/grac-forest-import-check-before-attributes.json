@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-09-14T06:38:12.408337+00:00",
+  "passed": true,
+  "checks_passed": 13,
+  "checks": [
+    {
+      "name": "all_58_new_documents_and_180_response_fields_indexed_without_extra_copies",
+      "passed": true,
+      "detail": 58
+    },
+    {
+      "name": "live_http_catalog_counts_match_source_registrations",
+      "passed": true,
+      "detail": 58
+    },
+    {
+      "name": "documented_filter_excludes_46_forest_guides_or_links_without_schema",
+      "passed": true,
+      "detail": 12
+    },
+    {
+      "name": "game_detail_preserves_xml_errors_raw_names_and_separate_inputs",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "name": "source_typo_searches_and_sample_only_names_do_not_create_columns",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "recruit_conflicting_header_and_repeated_structure_rows_are_visible",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "forest_detail_preserves_source_date_type_without_guessing_units",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "name": "forest_authentication_input_excluded_from_response_search",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "map_use_note_and_file_headers_are_not_promoted_to_verified_schema",
+      "passed": true,
+      "detail": "forest-PBD0000059"
+    },
+    {
+      "name": "nine_existing_data_go_references_resolve_without_copying_target_fields",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "all_forest_external_links_reach_frontier_with_original_evidence",
+      "passed": true,
+      "detail": 54
+    },
+    {
+      "name": "browser_labels_and_preview_candidate_wording_cover_new_sources",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "model_registry_source_qa_links_exist_and_completeness_remains_false",
+      "passed": true,
+      "detail": 5
+    }
+  ],
+  "coverage_snapshot": "2026-09-14T06:36:27.214918+00:00",
+  "all_columns_complete": false,
+  "scope": "These new source registrations in SQLite and live local HTTP; not a full recertification of all continuously growing sources"
+}

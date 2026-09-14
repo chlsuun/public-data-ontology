@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-09-13T18:20:06.275865+00:00",
+  "passed": true,
+  "previous_reference_count": 53205,
+  "new_reference_count": 53776,
+  "old_references_missing": 0,
+  "all_previous_identity_provenance_and_nonassertion_flags_preserved": true,
+  "foodsafety_external_reference_count": 1,
+  "frontier_seconds": 3.584,
+  "source_mode": "indexed_schema_metadata_and_catalog_rows"
+}

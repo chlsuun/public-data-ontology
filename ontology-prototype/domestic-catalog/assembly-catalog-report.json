@@ -1,0 +1,14 @@
+{
+  "scope": "열린국회 Open API 목록; 일반 정보공개 목록 및 소속기관 별도 API는 추가 조사",
+  "reported_totals": [
+    278
+  ],
+  "received_rows": 278,
+  "unique_dataset_ids": 278,
+  "pages_received": 6,
+  "pages_expected": 6,
+  "snapshot_pagination_complete": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "generated_at": "2026-09-13T07:28:07.101970+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-13T10:52:47.325518+00:00",
+  "passed": true,
+  "checks": {
+    "fourteen_portals": true,
+    "address_code_search": true,
+    "address_auth_input_excluded": true,
+    "opendart_report_number_search": true,
+    "opendart_auth_input_excluded": true,
+    "incheon_native_schema_search": true
+  },
+  "search_match_counts": {
+    "address_admCd": 9,
+    "address_confmKey": 0,
+    "opendart_rcept_no": 78,
+    "opendart_crtfc_key": 0,
+    "incheon_LBRRY_NM": 1
+  },
+  "coverage_generated_at": "2026-09-13T10:50:44.983222+00:00"
+}

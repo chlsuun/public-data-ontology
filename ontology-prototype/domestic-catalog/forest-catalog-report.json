@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-09-13T19:07:36.364592+00:00",
+  "catalog_records": 56,
+  "catalog_card_occurrences": 56,
+  "category_pages": [
+    {
+      "tab": {
+        "code": "1",
+        "label": "창닫기",
+        "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=1#",
+        "locator": "a[href][654]"
+      },
+      "evidence_id": "forest-public-catalog-page1",
+      "cards": 8,
+      "body_complete": true,
+      "pagination_controls_observed": false
+    },
+    {
+      "tab": {
+        "code": "3",
+        "label": "산림복지",
+        "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=3",
+        "locator": "a[href][515]"
+      },
+      "evidence_id": "forest-public-catalog-tab3",
+      "cards": 13,
+      "body_complete": true,
+      "pagination_controls_observed": false
+    },
+    {
+      "tab": {
+        "code": "4",
+        "label": "산림재난",
+        "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=4",
+        "locator": "a[href][516]"
+      },
+      "evidence_id": "forest-public-catalog-tab4",
+      "cards": 3,
+      "body_complete": true,
+      "pagination_controls_observed": false
+    },
+    {
+      "tab": {
+        "code": "5",
+        "label": "산림통계",
+        "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=5",
+        "locator": "a[href][517]"
+      },
+      "evidence_id": "forest-public-catalog-tab5",
+      "cards": 2,
+      "body_complete": true,
+      "pagination_controls_observed": false
+    },
+    {
+      "tab": {
+        "code": "6",
+        "label": "연구정보",
+        "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=6",
+        "locator": "a[href][518]"
+      },
+      "evidence_id": "forest-public-catalog-tab6",
+      "cards": 30,
+      "body_complete": true,
+      "pagination_controls_observed": false
+    }
+  ],
+  "local_html_guides": 21,
+  "external_reference_records": 35,
+  "explicit_tab_documents_complete": true,
+  "source_reported_total": null,
+  "snapshot_pagination_complete": null,
+  "scope": "Every card in all category tabs explicitly linked by this public page; no source global count or national completeness proof",
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

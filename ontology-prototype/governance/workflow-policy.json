@@ -1,0 +1,63 @@
+{
+  "version": "0.4.0-draft",
+  "implementation_status": "workflow_specification_and_review_workspace_only",
+  "candidate_store": "All proposals including rejected and superseded revisions",
+  "confirmed_store": "Only active approvals bound to proposal content, evidence and applicable source versions",
+  "default_search": "confirmed_only",
+  "candidate_exploration": "Explicitly enabled and labeled as hypotheses; not factual retrieval",
+  "states": ["proposed", "under_review", "needs_revision", "approved", "rejected", "stale", "revoked", "superseded"],
+  "transitions": {
+    "proposed": ["under_review"],
+    "under_review": ["approved", "needs_revision", "rejected"],
+    "needs_revision": ["superseded"],
+    "approved": ["stale", "revoked", "superseded"],
+    "rejected": ["superseded"],
+    "stale": ["under_review", "revoked", "superseded"],
+    "revoked": ["superseded"],
+    "superseded": []
+  },
+  "revision_rule": "A revision creates a new proposal with parent_proposal_id; preserve old content and decisions",
+  "approval_requirements": {
+    "actor": "Authenticated human reviewer with server-checked permission; JSON actor_type alone is not authentication",
+    "ai_may_approve": false,
+    "community_votes_may_approve": false,
+    "fields": ["reviewer_id", "reviewed_at", "proposal_fingerprint", "evidence_snapshots", "review_method", "applicability_scope", "decision_rationale"],
+    "statistical_relation_extra": ["analysis_run_id", "input_versions", "variable_definitions", "sample_size", "preprocessing", "code_hash", "result", "uncertainty", "limitations"],
+    "automatic_p_value_threshold": null,
+    "correlation_implies_causation": false
+  },
+  "review_methods": {
+    "source_provenance": "Official producer, source identity and dataset ID review",
+    "indicator_definition": "Terminology, units, denominator and age definition review",
+    "metadata_mapping": "Actual subseries, schema, codelist and scope review",
+    "query_interpretation": "Question scope and ambiguity review; not a scientific claim",
+    "context_hypothesis": "Domain rationale review; can establish exploration relevance, not statistical association",
+    "join_candidate": "Key uniqueness, cardinality, join coverage, units and time/spatial alignment",
+    "statistical_association": "Reproducible scoped analysis and human interpretation of uncertainty"
+  },
+  "invalidation_triggers": ["proposal_content_change", "source_version_change", "schema_or_unit_change", "scope_change", "evidence_withdrawal", "reproduced_data_issue"],
+  "model_json_role": "Generated view of the review ledger; never direct AI approval output",
+  "migration": {
+    "preserve_legacy_evidence_status": true,
+    "documented_is_not_automatic_human_approval": true,
+    "current_live_llm_used": false,
+    "initial_approved_count": 0
+  },
+  "delivery": {
+    "priority": ["metadata_preview", "source_api_subset", "remote_column_or_partition_subset", "bounded_aggregate", "reviewed_cache_or_resumable_file"],
+    "required_checks": ["use_conditions", "privacy", "source_version", "format_capabilities", "source_read_budget", "scan_budget", "output_budget", "temporary_storage", "cost_budget"],
+    "measure_separately": ["source_bytes_read", "engine_bytes_scanned", "user_bytes_sent", "wall_time_seconds", "queue_time_seconds", "cost"],
+    "web_request_workspace_mb": 200,
+    "web_global_workspace_mb": 400,
+    "large_job_profile": "Not enabled; requires separate workers, quota and explicit job budget",
+    "unbounded_500gb_ingestion_enabled": false
+  },
+  "community": {
+    "post_types": ["question", "data_issue", "relation_proposal", "analysis_recipe", "use_case"],
+    "bind_to": ["dataset_id", "dataset_version", "relation_proposal_id"],
+    "issue_states": ["reported", "reproduced", "under_review", "resolved", "not_reproduced"],
+    "moderation": ["duplicate", "spam", "sensitive_data", "malicious_upload", "rights_complaint", "conflict_of_interest", "appeal"],
+    "popularity_is_quality": false,
+    "default_upload": "Source links, reproducible recipes and reviewed small examples"
+  }
+}

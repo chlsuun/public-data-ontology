@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-14T08:56:54.118421+00:00",
+  "scope": "kdi-api-public-reference",
+  "target_count": 6,
+  "processed": 6,
+  "queue_exhausted": true,
+  "status_counts": {
+    "response_definition_observed": 6
+  },
+  "documented_field_occurrences": 113,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "chungnam-operations",
+  "target_count": 2,
+  "processed": 2,
+  "remaining": 0,
+  "status_counts": {
+    "operation_definitions_observed": 2
+  },
+  "documented_field_occurrences": 22,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T15:32:36.673979+00:00",
+  "generated_at": "2026-09-13T15:32:37.765527+00:00",
+  "pid": 33576
+}

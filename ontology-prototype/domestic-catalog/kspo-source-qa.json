@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-14T08:58:53.373034+00:00",
+  "portal_id": "kspo",
+  "scope": "Official referral plus externally hosted public catalog/preview metadata; primary schemas pending",
+  "catalog_records": 183,
+  "channels_as_reported": {
+    "문화빅데이터포털(파일)": 97,
+    "공공데이터포털(파일)": 16,
+    "공공데이터포털(API)": 70
+  },
+  "access_status_as_reported": {
+    "개방": 178,
+    "플랫폼 한정 조회": 5
+  },
+  "source_generated_date_as_reported": "2026-08-24",
+  "source_label_as_reported": "pinkshark1/kspo_data_explorer main (masked deployment)",
+  "official_referral_evidence_id": "kspo-disclosure-catalog",
+  "catalog_evidence_id": "kspo-referred-explorer-data",
+  "disclosure_table_group_rows": [
+    20,
+    6
+  ],
+  "detached_payload_keys_not_imported": {
+    "1": [
+      "103",
+      "33",
+      "40"
+    ],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "detached_metadata_not_promoted_to_catalog_entries": true,
+  "reported_schema_candidate_groups": 178,
+  "preview_header_candidate_occurrences": 3035,
+  "source_overall_schema_totals_not_assumed_to_match_masked_catalog": true,
+  "basis_letters_not_converted_to_quality_scores": true,
+  "source_relationship_scenarios_not_imported": true,
+  "external_host_ownership_verified": false,
+  "data_go_url_references": 86,
+  "quality_scores_assigned": false,
+  "raw_values_checked": false,
+  "all_columns_complete": false,
+  "remaining_scope": [
+    "Reconcile source-copied schema columns with primary publishers",
+    "Collect full official institution catalogs beyond this referred snapshot",
+    "Clarify source masking and missing primary URLs without importing detached entries or observation rows"
+  ]
+}

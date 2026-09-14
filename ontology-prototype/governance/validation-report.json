@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "기존 관계와 근거 상태 보존",
+      "passed": true
+    },
+    {
+      "name": "기존 공식 근거를 사람의 승인으로 자동 승격하지 않음",
+      "passed": true
+    },
+    {
+      "name": "관계별 검토 방법과 변경 감지 해시",
+      "passed": true
+    },
+    {
+      "name": "기존 6개 자료 QA 준비 및 원본 버전 미확인 표시",
+      "passed": true
+    },
+    {
+      "name": "미검사 자료에 품질 점수 생성 금지",
+      "passed": true
+    },
+    {
+      "name": "네 사이트별 QA 프로파일과 공통 가중치",
+      "passed": true
+    },
+    {
+      "name": "AI·인기도는 승인 권한이 아님",
+      "passed": true
+    },
+    {
+      "name": "500GB 작업은 작은 웹 요청에 활성화하지 않음",
+      "passed": true
+    },
+    {
+      "name": "빈 측정은 0점 대신 미평가",
+      "passed": true
+    },
+    {
+      "name": "합성 예시의 네 축과 종합 계산",
+      "passed": true
+    },
+    {
+      "name": "미평가 축을 빼고 종합 점수를 높이지 않음",
+      "passed": true
+    },
+    {
+      "name": "실측 0은 0점이며 미평가와 다름",
+      "passed": true
+    },
+    {
+      "name": "분모가 0이면 미평가",
+      "passed": true
+    },
+    {
+      "name": "분자 부풀리기 거부",
+      "passed": true
+    },
+    {
+      "name": "음수 측정 거부",
+      "passed": true
+    },
+    {
+      "name": "비정수 관측 수 거부",
+      "passed": true
+    },
+    {
+      "name": "숫자 필드에 불리언 거부",
+      "passed": true
+    },
+    {
+      "name": "무한대·NaN 측정 거부",
+      "passed": true
+    },
+    {
+      "name": "역사 자료 최신성은 미적용·종합 미산출",
+      "passed": true
+    },
+    {
+      "name": "미적용 사유 누락 거부",
+      "passed": true
+    },
+    {
+      "name": "장기 지연 점수의 하한",
+      "passed": true
+    },
+    {
+      "name": "점수는 제공 권한을 승인하지 않음",
+      "passed": true
+    }
+  ],
+  "scope": "검토 대기열·QA 산식의 로컬 검사. 실제 사람 승인·원본 데이터 품질·전송 성능은 검증하지 않음"
+}

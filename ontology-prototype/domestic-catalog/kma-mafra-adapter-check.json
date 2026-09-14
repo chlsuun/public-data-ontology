@@ -1,0 +1,101 @@
+{
+  "checked_at": "2026-09-13T13:04:07.672245+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "kma_public_navigation_traversed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_all_output_fields_match_original_table_cells",
+      "passed": true,
+      "details": {
+        "fields_checked": 4709,
+        "failures": []
+      }
+    },
+    {
+      "name": "kma_input_keys_and_combined_units_not_misclassified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_shared_request_table_scope_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_missing_payload_schemas_remain_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_three_catalog_totals_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_sort_boundary_duplicate_and_recovery_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_all_catalog_ids_resolve_to_source_hits",
+      "passed": true,
+      "details": {
+        "records_checked": 2142,
+        "source_pages_checked": 152,
+        "failures": []
+      }
+    },
+    {
+      "name": "mafra_marketplace_links_not_declared_government_owned",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_api_response_vs_example_and_request_distinction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_all_183_api_schemas_match_source_output_rows",
+      "passed": true,
+      "details": {
+        "documents_checked": 183,
+        "fields_checked": 2725,
+        "failures": []
+      }
+    },
+    {
+      "name": "mafra_function_names_and_ids_trace_to_public_selector",
+      "passed": true,
+      "details": {
+        "function_documents_checked": 20,
+        "failures": []
+      }
+    },
+    {
+      "name": "mafra_failed_sibling_not_hidden_or_invented",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_placeholder_output_rows_not_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_public_marketplace_wrapper_preserves_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_wrong_detail_identity_rejected",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "Public catalog counts, identifiers, navigation and schema cell provenance; no statistical or data quality score validation."
+}

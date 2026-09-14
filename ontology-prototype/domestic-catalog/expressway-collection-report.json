@@ -1,0 +1,19 @@
+{
+  "scope": "expressway",
+  "target_count": 527,
+  "processed": 527,
+  "remaining": 0,
+  "status_counts": {
+    "response_definition_observed": 92,
+    "response_definition_observed_partial": 1,
+    "sample_header_candidates_observed": 239,
+    "public_metadata_observed_schema_pending": 139,
+    "file_column_definition_observed": 56
+  },
+  "documented_field_occurrences": 1859,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-14T08:07:15.108774+00:00",
+  "generated_at": "2026-09-14T08:07:23.649171+00:00",
+  "pid": 16792
+}

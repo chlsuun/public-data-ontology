@@ -1,0 +1,15 @@
+{
+  "scope": "data-go-api",
+  "target_count": 10,
+  "processed": 10,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 10
+  },
+  "documented_field_occurrences": 1123,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:20:14.759478+00:00",
+  "generated_at": "2026-09-13T07:21:52.294306+00:00",
+  "pid": 10668
+}

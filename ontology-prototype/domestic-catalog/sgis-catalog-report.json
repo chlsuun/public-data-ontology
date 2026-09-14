@@ -1,0 +1,563 @@
+{
+  "generated_at": "2026-09-13T15:39:48.941214+00:00",
+  "catalog_records": 68,
+  "unique_guide_anchors": 68,
+  "guide_sections_read": 68,
+  "guide_response_tables_read": 68,
+  "snapshot_all_observed_body_sections_read": true,
+  "all_navigation_targets_resolved": false,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "navigation": [
+    {
+      "target_anchor": "1",
+      "label": "인증",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][8]@href"
+    },
+    {
+      "target_anchor": "2",
+      "label": "JavaScript제공",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][9]@href"
+    },
+    {
+      "target_anchor": "3",
+      "label": "좌표변환",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][10]@href"
+    },
+    {
+      "target_anchor": "4",
+      "label": "총조사 주요지표",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][11]@href"
+    },
+    {
+      "target_anchor": "5",
+      "label": "인구통계 조건검색",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][12]@href"
+    },
+    {
+      "target_anchor": "6",
+      "label": "가구통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][13]@href"
+    },
+    {
+      "target_anchor": "7",
+      "label": "주택통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][14]@href"
+    },
+    {
+      "target_anchor": "8",
+      "label": "사업체통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][15]@href"
+    },
+    {
+      "target_anchor": "9",
+      "label": "산업분류",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][16]@href"
+    },
+    {
+      "target_anchor": "11",
+      "label": "농가통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][17]@href"
+    },
+    {
+      "target_anchor": "12",
+      "label": "임가통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][18]@href"
+    },
+    {
+      "target_anchor": "13",
+      "label": "어가통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][19]@href"
+    },
+    {
+      "target_anchor": "14",
+      "label": "가구원통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][20]@href"
+    },
+    {
+      "target_anchor": "21",
+      "label": "연관어검색",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][21]@href"
+    },
+    {
+      "target_anchor": "22",
+      "label": "SOP검색",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][22]@href"
+    },
+    {
+      "target_anchor": "23",
+      "label": "KOSIS검색",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][23]@href"
+    },
+    {
+      "target_anchor": "31",
+      "label": "생활업종 후보지검색",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][24]@href"
+    },
+    {
+      "target_anchor": "32",
+      "label": "거주인구 요약정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][25]@href"
+    },
+    {
+      "target_anchor": "33",
+      "label": "성별인구비율 요약정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][26]@href"
+    },
+    {
+      "target_anchor": "34",
+      "label": "거처종류 요약정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][27]@href"
+    },
+    {
+      "target_anchor": "35",
+      "label": "점유형태 요약정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][28]@href"
+    },
+    {
+      "target_anchor": "36",
+      "label": "소상공인 업종별 사업체비율",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][29]@href"
+    },
+    {
+      "target_anchor": "37",
+      "label": "소상공인 업종별 사업체증감",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][30]@href"
+    },
+    {
+      "target_anchor": "38",
+      "label": "생활업종 후보지 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][31]@href"
+    },
+    {
+      "target_anchor": "39",
+      "label": "시도별 생활업종 순위",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][32]@href"
+    },
+    {
+      "target_anchor": "40",
+      "label": "시도별 생활업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][33]@href"
+    },
+    {
+      "target_anchor": "41",
+      "label": "시도별 생활업종 속성",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][34]@href"
+    },
+    {
+      "target_anchor": "42",
+      "label": "시군구별 생활업종 사업체수",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][35]@href"
+    },
+    {
+      "target_anchor": "43",
+      "label": "시군구별 생활업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][36]@href"
+    },
+    {
+      "target_anchor": "44",
+      "label": "생활업종별 시군구 순위",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][37]@href"
+    },
+    {
+      "target_anchor": "45",
+      "label": "생활업종 후보지 비교",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][38]@href"
+    },
+    {
+      "target_anchor": "51",
+      "label": "단계별 주소 조회",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][39]@href"
+    },
+    {
+      "target_anchor": "52",
+      "label": "지오코딩",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][40]@href"
+    },
+    {
+      "target_anchor": "53",
+      "label": "리버스 지오코딩",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][41]@href"
+    },
+    {
+      "target_anchor": "54",
+      "label": "행정구역경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][42]@href"
+    },
+    {
+      "target_anchor": "55",
+      "label": "집계구경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][43]@href"
+    },
+    {
+      "target_anchor": "56",
+      "label": "영역내경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][44]@href"
+    },
+    {
+      "target_anchor": "61",
+      "label": "전개도 건물 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][45]@href"
+    },
+    {
+      "target_anchor": "62",
+      "label": "건물 층정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][46]@href"
+    },
+    {
+      "target_anchor": "63",
+      "label": "층별 최외각 공간 속성",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][47]@href"
+    },
+    {
+      "target_anchor": "64",
+      "label": "층별 사업체 공간 속성",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][48]@href"
+    },
+    {
+      "target_anchor": "65",
+      "label": "층별 시설물 공간 속성",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][49]@href"
+    },
+    {
+      "target_anchor": "66",
+      "label": "건물층별 사업체 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][50]@href"
+    },
+    {
+      "target_anchor": "71",
+      "label": "지역현안 소통지도 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][51]@href"
+    },
+    {
+      "target_anchor": "81",
+      "label": "전국 기술업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][52]@href"
+    },
+    {
+      "target_anchor": "82",
+      "label": "시도별 기술업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][53]@href"
+    },
+    {
+      "target_anchor": "83",
+      "label": "시군구별 기술업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][54]@href"
+    },
+    {
+      "target_anchor": "84",
+      "label": "인구와 가구 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][55]@href"
+    },
+    {
+      "target_anchor": "85",
+      "label": "인구와 가구 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][56]@href"
+    },
+    {
+      "target_anchor": "86",
+      "label": "주거와 교통 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][57]@href"
+    },
+    {
+      "target_anchor": "87",
+      "label": "주거와 교통 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][58]@href"
+    },
+    {
+      "target_anchor": "88",
+      "label": "복지와 문화 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][59]@href"
+    },
+    {
+      "target_anchor": "89",
+      "label": "복지와 문화 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][60]@href"
+    },
+    {
+      "target_anchor": "90",
+      "label": "노동과 경제 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][61]@href"
+    },
+    {
+      "target_anchor": "91",
+      "label": "노동과 경제 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][62]@href"
+    },
+    {
+      "target_anchor": "94",
+      "label": "가구/인구비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][63]@href"
+    },
+    {
+      "target_anchor": "95",
+      "label": "가구/인구비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][64]@href"
+    },
+    {
+      "target_anchor": "96",
+      "label": "사회비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][65]@href"
+    },
+    {
+      "target_anchor": "97",
+      "label": "사회비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][66]@href"
+    },
+    {
+      "target_anchor": "98",
+      "label": "주택비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][67]@href"
+    },
+    {
+      "target_anchor": "99",
+      "label": "주택비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][68]@href"
+    },
+    {
+      "target_anchor": "100",
+      "label": "교통비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][69]@href"
+    },
+    {
+      "target_anchor": "101",
+      "label": "교통비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][70]@href"
+    },
+    {
+      "target_anchor": "102",
+      "label": "종교비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][71]@href"
+    },
+    {
+      "target_anchor": "103",
+      "label": "종교비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][72]@href"
+    },
+    {
+      "target_anchor": "104",
+      "label": "사업체비율 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][73]@href"
+    },
+    {
+      "target_anchor": "105",
+      "label": "사업체비율 상세",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][74]@href"
+    },
+    {
+      "target_anchor": "106",
+      "label": "도시권 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][75]@href"
+    },
+    {
+      "target_anchor": "107",
+      "label": "도시/준도시 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][76]@href"
+    },
+    {
+      "target_anchor": "108",
+      "label": "도시/준도시 경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][77]@href"
+    },
+    {
+      "target_anchor": "109",
+      "label": "도시별 인구 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][78]@href"
+    },
+    {
+      "target_anchor": "110",
+      "label": "도시별 가구 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][79]@href"
+    },
+    {
+      "target_anchor": "111",
+      "label": "도시별 주택 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][80]@href"
+    },
+    {
+      "target_anchor": "112",
+      "label": "사업체 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][81]@href"
+    },
+    {
+      "target_anchor": "113",
+      "label": "주요지표 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][82]@href"
+    },
+    {
+      "target_anchor": "114",
+      "label": "소지역 코드찾기",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][83]@href"
+    }
+  ],
+  "menu_targets_without_api_section": [
+    {
+      "target_anchor": "107",
+      "label": "도시/준도시 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][76]@href"
+    },
+    {
+      "target_anchor": "108",
+      "label": "도시/준도시 경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][77]@href"
+    },
+    {
+      "target_anchor": "109",
+      "label": "도시별 인구 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][78]@href"
+    },
+    {
+      "target_anchor": "110",
+      "label": "도시별 가구 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][79]@href"
+    },
+    {
+      "target_anchor": "111",
+      "label": "도시별 주택 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][80]@href"
+    },
+    {
+      "target_anchor": "112",
+      "label": "사업체 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][81]@href"
+    },
+    {
+      "target_anchor": "113",
+      "label": "주요지표 통계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][82]@href"
+    },
+    {
+      "target_anchor": "114",
+      "label": "소지역 코드찾기",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][83]@href"
+    }
+  ],
+  "menu_title_mismatches": [
+    {
+      "target_anchor": "32",
+      "label": "거주인구 요약정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][25]@href",
+      "section_title": "거주인구요약정보"
+    },
+    {
+      "target_anchor": "54",
+      "label": "행정구역경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][42]@href",
+      "section_title": "행정구역 경계"
+    },
+    {
+      "target_anchor": "55",
+      "label": "집계구경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][43]@href",
+      "section_title": "집계구 경계"
+    },
+    {
+      "target_anchor": "56",
+      "label": "영역내경계",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][44]@href",
+      "section_title": "영역내 경계"
+    },
+    {
+      "target_anchor": "83",
+      "label": "시군구별 기술업종 정보",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][54]@href",
+      "section_title": "시군구 기술업종 정보"
+    },
+    {
+      "target_anchor": "106",
+      "label": "도시권 목록",
+      "evidence_id": "sgis-data-api-guide",
+      "locator": "a[href][75]@href",
+      "section_title": "소지역 코드찾기"
+    }
+  ]
+}

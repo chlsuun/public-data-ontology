@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-13T18:22:40.912811+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "service_id": "I0600",
+      "evidence_id": "foodsafety-permalink-I0600",
+      "url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=I0600",
+      "passed": true,
+      "http_status": 200
+    },
+    {
+      "service_id": "I1140",
+      "evidence_id": "foodsafety-permalink-I1140",
+      "url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=I1140",
+      "passed": true,
+      "http_status": 200
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-13T09:05:52.011858+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "query": {
+        "portal": "incheon",
+        "field": "header"
+      },
+      "result": 2
+    },
+    {
+      "query": {
+        "portal": "incheon",
+        "field": "header",
+        "documented": "yes"
+      },
+      "result": 0
+    },
+    {
+      "query": {
+        "portal": "daegu"
+      },
+      "result": 3434
+    },
+    {
+      "query": {
+        "id": "incheon-7661IVAWM27C61E190/15148225"
+      },
+      "result": 1
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-13T11:46:51.791996+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "expressions_identifiers_templates_and_duplicate_keys_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "static_literals_preserve_korean_and_boolean_values",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_all_public_categories_have_schema_documents",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_all_fields_resolve_to_exact_source_literals",
+      "passed": true,
+      "details": {
+        "fields_checked": 1117,
+        "failures": []
+      }
+    },
+    {
+      "name": "address_two_layouts_not_flattened_into_one_file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_grouped_spatial_layouts_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "agency_classification_array_excluded_from_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "release_flags_not_interpreted_as_download_permission",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seoul_fields_and_iframe_reference_match_real_html",
+      "passed": true,
+      "details": {
+        "documents_checked": 6,
+        "fields_checked": 23,
+        "failures": []
+      }
+    },
+    {
+      "name": "initial_dimension_codes_not_claimed_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "statistical_controls_excluded_from_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "wrong_statistical_table_response_rejected",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "Saved public schema literals, layout boundaries, statistical labels and navigation identity; not semantic or observation quality validation."
+}

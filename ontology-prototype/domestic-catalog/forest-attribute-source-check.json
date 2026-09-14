@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-09-14T06:44:15.109764+00:00",
+  "passed": true,
+  "checks_passed": 8,
+  "checks": [
+    {
+      "name": "all_19_usage_tabs_resolve_from_their_original_guide_links",
+      "passed": true,
+      "detail": 19
+    },
+    {
+      "name": "all_61_attributes_reconcile_to_7_original_tables",
+      "passed": true,
+      "detail": 61
+    },
+    {
+      "name": "three_unspecified_lengths_preserved_as_question_marks",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "14_usage_pages_without_attribute_tables_do_not_invent_columns",
+      "passed": true,
+      "detail": 14
+    },
+    {
+      "name": "hiking_point_line_and_safety_layers_preserve_separate_groups_and_raw_lengths",
+      "passed": true,
+      "detail": [
+        9,
+        16,
+        6
+      ]
+    },
+    {
+      "name": "dates_units_geometry_and_file_version_text_are_preserved_without_epsg_inference",
+      "passed": true,
+      "detail": 19
+    },
+    {
+      "name": "file_attributes_indexed_as_61_fields_in_5_existing_registrations",
+      "passed": true,
+      "detail": 61
+    },
+    {
+      "name": "live_http_preserves_repeated_column_names_across_layer_dictionaries",
+      "passed": true,
+      "detail": 31
+    }
+  ],
+  "originals_hashed": 38,
+  "definition_snapshot": [
+    {
+      "path": "forest-schema-PBD0000079-usage.json",
+      "sha256": "04a8a1359fac2253722e2cc49fa88b21a1997e7a8da278a86c855150204a0153"
+    },
+    {
+      "path": "forest-schema-PBD0000061-usage.json",
+      "sha256": "fc04df46ee5c878aeaa2cc29dbdbc560b9e9be83560aa221b67b8bade7273562"
+    },
+    {
+      "path": "forest-schema-PBD0000078-usage.json",
+      "sha256": "e1724f33cc8c41ed6dabd1e4f2a17556124abbee765954ec6a93f3192e2d73b7"
+    },
+    {
+      "path": "forest-schema-PBD0000022-usage.json",
+      "sha256": "3245467091186da268d5d2c17336ed0dc321d60183c8c3e4e7592b5498d49875"
+    },
+    {
+      "path": "forest-schema-PBD0000181-usage.json",
+      "sha256": "90e5a0fd2da5b65dcc9d6c08a3dbf12c0761f33291c58b73591e3f6432b16e2a"
+    },
+    {
+      "path": "forest-schema-PBD0000062-usage.json",
+      "sha256": "4eba2a51efdc6fb254d6822b013c585b6377fb90819cfda42b1d2731481501ad"
+    },
+    {
+      "path": "forest-schema-PBD0000059-usage.json",
+      "sha256": "74c2d9eef82eeaf0c25f3f8e6d92cfffa2c2bb0b60a28575baa515f165e76b0d"
+    },
+    {
+      "path": "forest-schema-PBD0000080-usage.json",
+      "sha256": "ef128525d1c68d73e4a4821a9500e7800946b98736bb197100655643fc752e40"
+    },
+    {
+      "path": "forest-schema-PBD0000041-usage.json",
+      "sha256": "a674b215558c550f8bc81bbd6f605268e29aace7d6ff25a5d13a134a38a77e86"
+    },
+    {
+      "path": "forest-schema-PBD0000021-usage.json",
+      "sha256": "088bf56eb04d67056815766bd68c19973a9727459370ddd5d85a8c4cd83d81ba"
+    },
+    {
+      "path": "forest-schema-PBD0000073-usage.json",
+      "sha256": "9623f1a250dc343674fb2da8023d2c96e57144c38e0038399b38239929cdf372"
+    },
+    {
+      "path": "forest-schema-PBD0000081-usage.json",
+      "sha256": "ca55821864a8b60fc292c0b072fb890575318640d092a1fdc641b884d5f00ad0"
+    },
+    {
+      "path": "forest-schema-PBD0000055-usage.json",
+      "sha256": "a78d46d174d0d1d34274a88878151f88ae47ea9449259e5a0a6894c56dacc319"
+    },
+    {
+      "path": "forest-schema-PBD0000031-usage.json",
+      "sha256": "c8712211aa58959ad9260332775154b9bf8e54281645dfa2cd7e040687f49010"
+    },
+    {
+      "path": "forest-schema-PBD0000057-usage.json",
+      "sha256": "ad630dc649a0ff834813976e46b63da2f5883fb0fd21eafc13eeddd29663b33e"
+    },
+    {
+      "path": "forest-schema-PBD0000056-usage.json",
+      "sha256": "ff738b9126b2721b14a85d24825aa5e4c7d2bb79bf36ac6ef3bf173006dbb097"
+    },
+    {
+      "path": "forest-schema-PBD0000077-usage.json",
+      "sha256": "80fddeda4a54308e3152744ff36691972d1e7f6c916822dad0c6571f7531ee0a"
+    },
+    {
+      "path": "forest-schema-PBD0000180-usage.json",
+      "sha256": "cb18fdc01d0aaa835cd2c37bb07a0ef3c38c9cecb77afa8c75dc0d80cffe415e"
+    },
+    {
+      "path": "forest-schema-PBD0000210-usage.json",
+      "sha256": "3035d0a2ceae8a45a1854b6bd31633830bb3eb0ab709680908a48d72793631d5"
+    }
+  ],
+  "all_columns_complete": false,
+  "scope": "19 additional usage documents and their 19 parent guide link sources, plus named SQLite/HTTP checks"
+}

@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-09-14T08:56:54.232667+00:00",
+  "portal_id": "kocca-api",
+  "scope": "Public documentation availability and consistency; not measured data quality",
+  "records": 6,
+  "response_field_occurrences": 101,
+  "request_parameter_occurrences": 33,
+  "structure_occurrences": 6,
+  "issues": [
+    {
+      "dataset_key": "204104",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[0].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204104",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204104",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "cate",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.intcNoSeq",
+        "List.cata",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.startDt",
+        "List.endDt",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "viewStartDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "cate",
+        "content",
+        "endDt",
+        "hit",
+        "intcNoSeq",
+        "link",
+        "regDt",
+        "startDt",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/pims/List.do?serviceKey=서비스키&pageNo=1&numOfRows=1&viewStartDt=20220419",
+      "automatic_alignment_applied": false
+    },
+    {
+      "dataset_key": "204392",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[3].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204392",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204392",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "cate",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.cate",
+        "List.genre",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.startDt",
+        "List.endDt",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "cate",
+        "viewStartDt",
+        "viewEndDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "cate",
+        "content",
+        "genre",
+        "hit",
+        "link",
+        "regDate",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/finance/List.do?serviceKey=서비스키&cate=a2&numOfRows=1&pageNo=1&viewStartDt=20220201&viewEndDt=20220228",
+      "automatic_alignment_applied": false
+    },
+    {
+      "dataset_key": "204106",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[6].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204106",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204106",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "cate",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.cate",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.tenderLink",
+        "List.startDt",
+        "List.endDt",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "cate",
+        "viewStartDt",
+        "viewEndDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "cate",
+        "content",
+        "endDt",
+        "hit",
+        "regDate",
+        "startDt",
+        "tenderLink",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/tender/List.do?serviceKey=서비스키&cate=03&numOfRows=1&pageNo=1&viewStartDt=20220201&viewEndDt=20220228",
+      "automatic_alignment_applied": false
+    },
+    {
+      "dataset_key": "204145",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[9].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204145",
+      "issue": "source_rowspan_extends_past_table_end",
+      "locator": "table[10].tbody.tr[9].cell[0]",
+      "source_rowspan": 9,
+      "visible_rows": 7,
+      "nonexistent_rows_not_created": true
+    },
+    {
+      "dataset_key": "204145",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204145",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.cate",
+        "List.genre",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "viewStartDt",
+        "viewEndDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "cate",
+        "content",
+        "genre",
+        "hit",
+        "link",
+        "regDate",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/koccaFocus/List.do?serviceKey=서비스키&numOfRows=1&pageNo=1&viewStartDt=20220301&viewEndDt=20220331",
+      "automatic_alignment_applied": false
+    },
+    {
+      "dataset_key": "204156",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[9].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204156",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204156",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "viewStartDt",
+        "viewEndDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "content",
+        "hit",
+        "link",
+        "regDate",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/domesticIndustries/List.do?serviceKey=서비스키&numOfRows=1&pageNo=1&viewStartDt=20220101&viewEndDt=20220131",
+      "automatic_alignment_applied": false
+    },
+    {
+      "dataset_key": "204159",
+      "issue": "request_parameter_td_cells_without_tr",
+      "locator": "table[9].tbody.direct_cells[0:4]",
+      "parameter": "numOfRows",
+      "source_html_repaired": false
+    },
+    {
+      "dataset_key": "204159",
+      "issue": "error_table_resultMgs_differs_from_response_resultMsg",
+      "table_index": 2,
+      "source_header": "오류 메세지 (resultMgs)",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "204159",
+      "issue": "table_example_naming_requires_review",
+      "table_names": [
+        "resultCode",
+        "resultMsg",
+        "title",
+        "boardTitle",
+        "startDt",
+        "endDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "List.title",
+        "List.hit",
+        "List.regDate",
+        "List.link",
+        "List.content"
+      ],
+      "sample_container_keys": [
+        "resultCode",
+        "resultMgs",
+        "title",
+        "boardTitle",
+        "viewStartDt",
+        "viewEndDt",
+        "pageNo",
+        "numOfRows",
+        "listCount",
+        "list"
+      ],
+      "sample_item_keys": [
+        "content",
+        "hit",
+        "link",
+        "regDate",
+        "title"
+      ],
+      "sample_url_not_requested": "https://kocca.kr/api/foreignIndustries/List.do?serviceKey=서비스키&numOfRows=1&pageNo=1&viewStartDt=20220101&viewEndDt=20220131",
+      "automatic_alignment_applied": false
+    }
+  ],
+  "quality_scores_assigned": false,
+  "raw_values_checked": false,
+  "all_columns_complete": false,
+  "intro_rows": 6,
+  "guide_operations": 6,
+  "remaining_scope": [
+    "Other publicly disclosed KOCCA data catalogs",
+    "Sample/definition naming and malformed input row review"
+  ],
+  "source_samples_not_live_service_responses": true
+}

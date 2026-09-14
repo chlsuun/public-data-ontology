@@ -1,0 +1,15 @@
+{
+  "scope": "expressway-files",
+  "target_count": 194,
+  "processed": 194,
+  "remaining": 0,
+  "status_counts": {
+    "file_version_metadata_observed": 194
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-14T08:06:28.202351+00:00",
+  "generated_at": "2026-09-14T08:09:55.775034+00:00",
+  "pid": 1392
+}

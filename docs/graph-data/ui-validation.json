@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "base_url": "http://127.0.0.1:8767/",
+  "checks": [
+    "full overview 32 portals / 88 concepts / 433 pairs",
+    "fullscreen graph fits all nodes",
+    "dictionary 88 concepts and unemployment search",
+    "KOSIS unemployment 40 results across 24 + 16 rows",
+    "URL restores view filters and page 2 after reload",
+    "source inspector official URL locator receipt timestamp and SHA256",
+    "Busan registration 12551 records includes 0-item registrations"
+  ]
+}

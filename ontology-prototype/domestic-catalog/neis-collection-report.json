@@ -1,0 +1,21 @@
+{
+  "portal_id": "neis",
+  "reported_total": 12,
+  "reported_totals_seen": [
+    12
+  ],
+  "pages_requested": 2,
+  "received_rows": 12,
+  "unique_dataset_ids": 12,
+  "unique_ids_in_sorted_pass": 12,
+  "prior_observed_ids": 12,
+  "sort": "portal_default",
+  "snapshot_pagination_complete": true,
+  "all_columns_complete": false,
+  "generated_at": "2026-09-13T06:55:22.047572+00:00",
+  "api_definition_targets": 12,
+  "api_definition_status_counts": {
+    "column_definition_observed": 12
+  },
+  "datasets_without_api_definition_route": 0
+}

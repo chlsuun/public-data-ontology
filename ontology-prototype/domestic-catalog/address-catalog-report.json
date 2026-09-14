@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-13T10:45:22.936206+00:00",
+  "scope": "주소정보 API 연계 목록의 공개 서비스 변형; 주소 DB 다운로드 목록은 별도",
+  "catalog_records": 11,
+  "unique_service_keys": 11,
+  "source_ui_list_length": 11,
+  "source_display_order_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "source_evidence_id": "address-api-store",
+  "navigation_evidence_ids": [
+    "address-main-20260913",
+    "address-main-js-20260913"
+  ],
+  "snapshot_api_list_reconciles": true,
+  "reconciliation_basis": "공개 UI getApiList()에 사용된 정적 배열 전체의 객체 수·고유 uniqKey·가이드 경로 대조",
+  "issues": [],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "remaining": "지도 API 등 다운로드 가이드, 주소 DB·공간정보·코드 자료의 별도 목록 및 명세"
+}

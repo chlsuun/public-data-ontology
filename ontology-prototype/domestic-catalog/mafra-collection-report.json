@@ -1,0 +1,16 @@
+{
+  "scope": "mafra",
+  "target_count": 2142,
+  "processed": 2142,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 183,
+    "public_metadata_observed_schema_pending": 1959
+  },
+  "documented_field_occurrences": 2387,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T12:42:57.163396+00:00",
+  "generated_at": "2026-09-13T13:19:04.098776+00:00",
+  "pid": 16448
+}

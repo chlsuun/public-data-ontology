@@ -1,0 +1,18 @@
+{
+  "scope": "mafra-previews",
+  "target_count": 619,
+  "processed": 619,
+  "remaining": 0,
+  "status_counts": {
+    "preview_header_candidates_observed": 445,
+    "file_preview_not_available": 160,
+    "preview_header_empty": 9,
+    "preview_header_candidates_partial": 5
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T17:29:12.787205+00:00",
+  "generated_at": "2026-09-13T17:43:52.678862+00:00",
+  "pid": 22548
+}

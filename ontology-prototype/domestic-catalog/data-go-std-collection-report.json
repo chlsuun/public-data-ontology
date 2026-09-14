@@ -1,0 +1,16 @@
+{
+  "scope": "data-go-std",
+  "target_count": 179,
+  "processed": 179,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 176,
+    "definition_unresolved": 3
+  },
+  "documented_field_occurrences": 3523,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:50:29.955172+00:00",
+  "generated_at": "2026-09-13T07:50:30.746332+00:00",
+  "pid": 11836
+}

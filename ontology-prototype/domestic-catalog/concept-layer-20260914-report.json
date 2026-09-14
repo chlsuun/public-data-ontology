@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-14T11:12:11.099746+00:00",
+  "work": "Common concept draft linked to collected domestic public metadata",
+  "concept_snapshot_at": "2026-09-14T10:31:40.563999+00:00",
+  "counts": {
+    "catalog_records_scanned": 440356,
+    "portals_scanned": 32,
+    "formal_field_rows_scanned": 1442676,
+    "control_field_rows_excluded_from_analytic_candidates": 68403,
+    "source_label_buckets": 511089,
+    "project_concepts": 88,
+    "concepts_by_kind": {
+      "Topic": 16,
+      "Measure": 25,
+      "EntityType": 13,
+      "Dimension": 7,
+      "SpatialReference": 7,
+      "TemporalReference": 5,
+      "IdentifierScheme": 9,
+      "Unit": 6
+    },
+    "concepts_with_source_examples": 88,
+    "mapping_examples": 703,
+    "human_approved_concept_mappings": 0,
+    "statistical_associations_verified": 0
+  },
+  "mapping_examples_by_source": {
+    "formal_documented_fields": 310,
+    "catalog_categories_or_keywords": 393
+  },
+  "validation": {
+    "automated_groups_passed": 8,
+    "source_receipts_sha256_checked": 294,
+    "source_term_export_rows_checked": 511089,
+    "ui_check": "concepts/ui-check.json"
+  },
+  "state": "Ready for human review; semantics, joins, statistical analysis and dataset quality scores remain unapproved.",
+  "runtime_resumed": {
+    "time_utc": "2026-09-14T11:03:05+00:00",
+    "reason": "Previously configured local services were absent; cause not established.",
+    "data_go_file_pid": 22380,
+    "kosis_pid": 8548,
+    "indexer_pid": 25476,
+    "browser_pid": 21672,
+    "supervisor_pid": 10808
+  },
+  "source_catalog_database_writes_by_concept_builder": false,
+  "remote_server_deployment_performed": false
+}

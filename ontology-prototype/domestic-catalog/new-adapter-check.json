@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-13T09:58:51.219125+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "javascript_expressions_never_executed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_travel_warning_response_and_request_separated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "openapi3_referenced_response_array_locator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "recursive_external_dynamic_schemas_remain_unresolved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "every_cached_openapi_field_resolves_to_saved_source",
+      "passed": true,
+      "details": {
+        "specifications": 259,
+        "fields_checked": 13359,
+        "failures": []
+      }
+    },
+    {
+      "name": "library_19_services_18_endpoints_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_split_url_reconstructed_from_printed_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_visually_reviewed_page5_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_authentication_inputs_not_response_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_field_rows_match_saved_manual_tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_manual_scope_not_entire_portal_complete",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "원문 명세 추출·참조 위치·PDF 표 및 요청/출력 분리 검사. 실제 데이터 분석·관계 승인 아님."
+}

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-14T11:52:15.185795+00:00",
+  "graph_snapshot_at": "2026-09-14T11:25:59.731267+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "overview_graph",
+      "collected_portal_nodes": 32,
+      "concept_nodes": 88,
+      "portal_concept_pairs": 433
+    },
+    {
+      "name": "fullscreen_toggle",
+      "result": "Graph and inspector render across the screen; return button works."
+    },
+    {
+      "name": "canvas_portal_pick",
+      "portal": "kosis",
+      "concepts": 52,
+      "candidate_occurrences": 156018
+    },
+    {
+      "name": "concept_and_path_expansion",
+      "concept": "measure:unemployment-rate",
+      "portal": "kosis",
+      "total": 40,
+      "first_page": 24,
+      "second_page": 16
+    },
+    {
+      "name": "fullscreen_next_page",
+      "page": 2,
+      "total_pages": 2
+    },
+    {
+      "name": "source_item_inspector",
+      "record_id": "kosis-1-20053",
+      "source_locator": "g_jsonStatInfo.itemInfo.itmList[6]",
+      "receipt_and_hash_visible": true
+    },
+    {
+      "name": "registrations_without_concept_matches",
+      "portal": "busan",
+      "total": 12551,
+      "first_page": 24,
+      "no_source_items_notice": true
+    },
+    {
+      "name": "unmapped_item_search",
+      "query": "감염",
+      "total": 781,
+      "status": "공통 개념 미연결"
+    },
+    {
+      "name": "uncollected_portals_toggle",
+      "displayed_portal_nodes": 125,
+      "selected_portal": "index",
+      "fabricated_concept_edges": 0
+    },
+    {
+      "name": "browser_console_errors",
+      "count": 0
+    }
+  ],
+  "checked_url": "http://127.0.0.1:8766/concepts/graph",
+  "semantic_approval_performed": false
+}

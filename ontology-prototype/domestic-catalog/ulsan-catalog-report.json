@@ -1,0 +1,905 @@
+{
+  "generated_at": "2026-09-13T13:50:18.414616+00:00",
+  "scope": "Public FILE, API and STD tabs; other platform/statistics boards remain separate scopes",
+  "snapshot_id": "20260913-size15",
+  "tabs": {
+    "FILE": {
+      "last_page_as_reported": 153,
+      "pages_received": 153,
+      "rows_received": 2284,
+      "page_receipts": [
+        {
+          "page": 1,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page1"
+        },
+        {
+          "page": 2,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page2"
+        },
+        {
+          "page": 3,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page3"
+        },
+        {
+          "page": 4,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page4"
+        },
+        {
+          "page": 5,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page5"
+        },
+        {
+          "page": 6,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page6"
+        },
+        {
+          "page": 7,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page7"
+        },
+        {
+          "page": 8,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page8"
+        },
+        {
+          "page": 9,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page9"
+        },
+        {
+          "page": 10,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page10"
+        },
+        {
+          "page": 11,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page11"
+        },
+        {
+          "page": 12,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page12"
+        },
+        {
+          "page": 13,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page13"
+        },
+        {
+          "page": 14,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page14"
+        },
+        {
+          "page": 15,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page15"
+        },
+        {
+          "page": 16,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page16"
+        },
+        {
+          "page": 17,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page17"
+        },
+        {
+          "page": 18,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page18"
+        },
+        {
+          "page": 19,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page19"
+        },
+        {
+          "page": 20,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page20"
+        },
+        {
+          "page": 21,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page21"
+        },
+        {
+          "page": 22,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page22"
+        },
+        {
+          "page": 23,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page23"
+        },
+        {
+          "page": 24,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page24"
+        },
+        {
+          "page": 25,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page25"
+        },
+        {
+          "page": 26,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page26"
+        },
+        {
+          "page": 27,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page27"
+        },
+        {
+          "page": 28,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page28"
+        },
+        {
+          "page": 29,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page29"
+        },
+        {
+          "page": 30,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page30"
+        },
+        {
+          "page": 31,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page31"
+        },
+        {
+          "page": 32,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page32"
+        },
+        {
+          "page": 33,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page33"
+        },
+        {
+          "page": 34,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page34"
+        },
+        {
+          "page": 35,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page35"
+        },
+        {
+          "page": 36,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page36"
+        },
+        {
+          "page": 37,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page37"
+        },
+        {
+          "page": 38,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page38"
+        },
+        {
+          "page": 39,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page39"
+        },
+        {
+          "page": 40,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page40"
+        },
+        {
+          "page": 41,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page41"
+        },
+        {
+          "page": 42,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page42"
+        },
+        {
+          "page": 43,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page43"
+        },
+        {
+          "page": 44,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page44"
+        },
+        {
+          "page": 45,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page45"
+        },
+        {
+          "page": 46,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page46"
+        },
+        {
+          "page": 47,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page47"
+        },
+        {
+          "page": 48,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page48"
+        },
+        {
+          "page": 49,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page49"
+        },
+        {
+          "page": 50,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page50"
+        },
+        {
+          "page": 51,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page51"
+        },
+        {
+          "page": 52,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page52"
+        },
+        {
+          "page": 53,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page53"
+        },
+        {
+          "page": 54,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page54"
+        },
+        {
+          "page": 55,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page55"
+        },
+        {
+          "page": 56,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page56"
+        },
+        {
+          "page": 57,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page57"
+        },
+        {
+          "page": 58,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page58"
+        },
+        {
+          "page": 59,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page59"
+        },
+        {
+          "page": 60,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page60"
+        },
+        {
+          "page": 61,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page61"
+        },
+        {
+          "page": 62,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page62"
+        },
+        {
+          "page": 63,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page63"
+        },
+        {
+          "page": 64,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page64"
+        },
+        {
+          "page": 65,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page65"
+        },
+        {
+          "page": 66,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page66"
+        },
+        {
+          "page": 67,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page67"
+        },
+        {
+          "page": 68,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page68"
+        },
+        {
+          "page": 69,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page69"
+        },
+        {
+          "page": 70,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page70"
+        },
+        {
+          "page": 71,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page71"
+        },
+        {
+          "page": 72,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page72"
+        },
+        {
+          "page": 73,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page73"
+        },
+        {
+          "page": 74,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page74"
+        },
+        {
+          "page": 75,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page75"
+        },
+        {
+          "page": 76,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page76"
+        },
+        {
+          "page": 77,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page77"
+        },
+        {
+          "page": 78,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page78"
+        },
+        {
+          "page": 79,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page79"
+        },
+        {
+          "page": 80,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page80"
+        },
+        {
+          "page": 81,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page81"
+        },
+        {
+          "page": 82,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page82"
+        },
+        {
+          "page": 83,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page83"
+        },
+        {
+          "page": 84,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page84"
+        },
+        {
+          "page": 85,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page85"
+        },
+        {
+          "page": 86,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page86"
+        },
+        {
+          "page": 87,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page87"
+        },
+        {
+          "page": 88,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page88"
+        },
+        {
+          "page": 89,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page89"
+        },
+        {
+          "page": 90,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page90"
+        },
+        {
+          "page": 91,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page91"
+        },
+        {
+          "page": 92,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page92"
+        },
+        {
+          "page": 93,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page93"
+        },
+        {
+          "page": 94,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page94"
+        },
+        {
+          "page": 95,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page95"
+        },
+        {
+          "page": 96,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page96"
+        },
+        {
+          "page": 97,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page97"
+        },
+        {
+          "page": 98,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page98"
+        },
+        {
+          "page": 99,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page99"
+        },
+        {
+          "page": 100,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page100"
+        },
+        {
+          "page": 101,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page101"
+        },
+        {
+          "page": 102,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page102"
+        },
+        {
+          "page": 103,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page103"
+        },
+        {
+          "page": 104,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page104"
+        },
+        {
+          "page": 105,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page105"
+        },
+        {
+          "page": 106,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page106"
+        },
+        {
+          "page": 107,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page107"
+        },
+        {
+          "page": 108,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page108"
+        },
+        {
+          "page": 109,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page109"
+        },
+        {
+          "page": 110,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page110"
+        },
+        {
+          "page": 111,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page111"
+        },
+        {
+          "page": 112,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page112"
+        },
+        {
+          "page": 113,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page113"
+        },
+        {
+          "page": 114,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page114"
+        },
+        {
+          "page": 115,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page115"
+        },
+        {
+          "page": 116,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page116"
+        },
+        {
+          "page": 117,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page117"
+        },
+        {
+          "page": 118,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page118"
+        },
+        {
+          "page": 119,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page119"
+        },
+        {
+          "page": 120,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page120"
+        },
+        {
+          "page": 121,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page121"
+        },
+        {
+          "page": 122,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page122"
+        },
+        {
+          "page": 123,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page123"
+        },
+        {
+          "page": 124,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page124"
+        },
+        {
+          "page": 125,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page125"
+        },
+        {
+          "page": 126,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page126"
+        },
+        {
+          "page": 127,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page127"
+        },
+        {
+          "page": 128,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page128"
+        },
+        {
+          "page": 129,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page129"
+        },
+        {
+          "page": 130,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page130"
+        },
+        {
+          "page": 131,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page131"
+        },
+        {
+          "page": 132,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page132"
+        },
+        {
+          "page": 133,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page133"
+        },
+        {
+          "page": 134,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page134"
+        },
+        {
+          "page": 135,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page135"
+        },
+        {
+          "page": 136,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page136"
+        },
+        {
+          "page": 137,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page137"
+        },
+        {
+          "page": 138,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page138"
+        },
+        {
+          "page": 139,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page139"
+        },
+        {
+          "page": 140,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page140"
+        },
+        {
+          "page": 141,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page141"
+        },
+        {
+          "page": 142,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page142"
+        },
+        {
+          "page": 143,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page143"
+        },
+        {
+          "page": 144,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page144"
+        },
+        {
+          "page": 145,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page145"
+        },
+        {
+          "page": 146,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page146"
+        },
+        {
+          "page": 147,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page147"
+        },
+        {
+          "page": 148,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page148"
+        },
+        {
+          "page": 149,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page149"
+        },
+        {
+          "page": 150,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page150"
+        },
+        {
+          "page": 151,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page151"
+        },
+        {
+          "page": 152,
+          "rows": 15,
+          "evidence_id": "ulsan-fileList-size15-page152"
+        },
+        {
+          "page": 153,
+          "rows": 4,
+          "evidence_id": "ulsan-fileList-size15-page153"
+        }
+      ]
+    },
+    "API": {
+      "last_page_as_reported": 8,
+      "pages_received": 8,
+      "rows_received": 116,
+      "page_receipts": [
+        {
+          "page": 1,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page1"
+        },
+        {
+          "page": 2,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page2"
+        },
+        {
+          "page": 3,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page3"
+        },
+        {
+          "page": 4,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page4"
+        },
+        {
+          "page": 5,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page5"
+        },
+        {
+          "page": 6,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page6"
+        },
+        {
+          "page": 7,
+          "rows": 15,
+          "evidence_id": "ulsan-openList-size15-page7"
+        },
+        {
+          "page": 8,
+          "rows": 11,
+          "evidence_id": "ulsan-openList-size15-page8"
+        }
+      ]
+    },
+    "STD": {
+      "last_page_as_reported": 13,
+      "pages_received": 13,
+      "rows_received": 182,
+      "page_receipts": [
+        {
+          "page": 1,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page1"
+        },
+        {
+          "page": 2,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page2"
+        },
+        {
+          "page": 3,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page3"
+        },
+        {
+          "page": 4,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page4"
+        },
+        {
+          "page": 5,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page5"
+        },
+        {
+          "page": 6,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page6"
+        },
+        {
+          "page": 7,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page7"
+        },
+        {
+          "page": 8,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page8"
+        },
+        {
+          "page": 9,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page9"
+        },
+        {
+          "page": 10,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page10"
+        },
+        {
+          "page": 11,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page11"
+        },
+        {
+          "page": 12,
+          "rows": 15,
+          "evidence_id": "ulsan-standardList-size15-page12"
+        },
+        {
+          "page": 13,
+          "rows": 2,
+          "evidence_id": "ulsan-standardList-size15-page13"
+        }
+      ]
+    }
+  },
+  "catalog_row_occurrences": 2582,
+  "snapshot_navigation_traversal_complete": true,
+  "advertised_dataset_total": null,
+  "errors": [],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "identity_note": "All page row occurrences are retained. Count is not a deduplicated dataset count; the source provides no independent registration IDs in these rows."
+}

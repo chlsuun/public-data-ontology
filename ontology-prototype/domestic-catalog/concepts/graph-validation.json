@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-14T11:41:34.133817+00:00",
+  "graph_snapshot_at": "2026-09-14T11:25:59.731267+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "graph_integrity_complete_inventory_and_reference_identity",
+      "status": "passed",
+      "records": 440356,
+      "source_items": 4122591,
+      "term_buckets": 720861
+    },
+    {
+      "name": "all_graph_records_catalog_labels_formal_fields_and_declared_tokens_match_source_database",
+      "status": "passed",
+      "catalog_labels": 2008637,
+      "formal_fields": 1473095,
+      "output_tokens": 640859
+    },
+    {
+      "name": "all_lexical_matches_recomputed_without_sample_cap",
+      "status": "passed",
+      "mapping_occurrences": 260507
+    },
+    {
+      "name": "every_portal_concept_aggregate_matches_full_paths",
+      "status": "passed",
+      "portal_concept_pairs": 433,
+      "basis_edges": 619
+    },
+    {
+      "name": "http_paging_reaches_all_matching_items_and_provenance",
+      "status": "passed",
+      "portal": "kosis",
+      "concept": "measure:unemployment-rate",
+      "paths": 40,
+      "pages": 2
+    },
+    {
+      "name": "unmapped_sources_pending_portals_and_query_boundaries",
+      "status": "passed",
+      "unmapped_query": "감염",
+      "unmapped_query_total": 781
+    }
+  ],
+  "scope": "Graph storage and source references, complete lexical match set, aggregation and HTTP; not semantic or statistical approval.",
+  "elapsed_seconds": 41.27
+}

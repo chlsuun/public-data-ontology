@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-09-13T18:17:33.688916+00:00",
+  "passed": true,
+  "source_metadata_cells_checked": 708,
+  "metrics": {
+    "최종수정일": {
+      "with_nonempty_value": 144,
+      "denominator_registrations": 178
+    },
+    "업데이트주기": {
+      "with_nonempty_value": 158,
+      "denominator_registrations": 178
+    },
+    "최초개방일": {
+      "with_nonempty_value": 159,
+      "denominator_registrations": 178
+    },
+    "API호출제한": {
+      "with_nonempty_value": 177,
+      "denominator_registrations": 178
+    }
+  },
+  "freshness_or_quality_score_claimed": false
+}

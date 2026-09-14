@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-13T10:49:13.750812+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "opendart_catalog_discrepancy_exposed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "opendart_all_guide_ids_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "opendart_response_fields_match_source_rows",
+      "passed": true,
+      "details": {
+        "fields_checked": 2175,
+        "failures": []
+      }
+    },
+    {
+      "name": "opendart_control_structure_and_inputs_separated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "binary_payload_not_claimed_as_schema_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_catalog_and_guide_scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_fields_resolve_to_literal_source_tables",
+      "passed": true,
+      "details": {
+        "fields_checked": 199,
+        "failures": []
+      }
+    },
+    {
+      "name": "address_actual_codes_and_rowspan_groups",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_wrapped_input_name_preserves_original",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "map_manual_inputs_not_promoted_to_outputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_native_operation_matches_real_responseInfo",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "수집 명세·원문 위치·식별자·파일 근거 및 입력/출력 분리. 의미 동일성·상관관계 검증 아님."
+}

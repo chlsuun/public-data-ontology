@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-14T08:56:54.119633+00:00",
+  "portal_id": "kdi-api",
+  "scope": "Public documentation availability and consistency; not measured data quality",
+  "records": 6,
+  "response_field_occurrences": 113,
+  "request_parameter_occurrences": 30,
+  "structure_occurrences": 6,
+  "issues": [
+    {
+      "dataset_key": "B",
+      "issue": "request_default_cd_differs_from_category_and_URL",
+      "locator": "table[4].tbody.tr[2]",
+      "value_as_reported": "A",
+      "category_code": "B",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "C",
+      "issue": "request_default_cd_differs_from_category_and_URL",
+      "locator": "table[7].tbody.tr[2]",
+      "value_as_reported": "A",
+      "category_code": "C",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "D",
+      "issue": "request_default_cd_differs_from_category_and_URL",
+      "locator": "table[10].tbody.tr[2]",
+      "value_as_reported": "A",
+      "category_code": "D",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "E",
+      "issue": "request_default_cd_differs_from_category_and_URL",
+      "locator": "table[13].tbody.tr[2]",
+      "value_as_reported": "A",
+      "category_code": "E",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "F",
+      "issue": "request_default_cd_differs_from_category_and_URL",
+      "locator": "table[16].tbody.tr[2]",
+      "value_as_reported": "A",
+      "category_code": "F",
+      "correction_applied": false
+    }
+  ],
+  "quality_scores_assigned": false,
+  "raw_values_checked": false,
+  "all_columns_complete": false,
+  "all_select_options_and_reference_sections_reconciled": true,
+  "national_or_institutional_catalog_complete": false,
+  "remaining_scope": [
+    "Other KDI publicly listed datasets and research publication catalogs",
+    "Source default code discrepancy review"
+  ]
+}

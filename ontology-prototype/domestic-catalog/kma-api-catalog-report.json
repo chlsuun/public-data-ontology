@@ -1,0 +1,1299 @@
+{
+  "generated_at": "2026-09-13T12:38:03.196091+00:00",
+  "scope": "Homepage-linked API guide categories including the special industry guide",
+  "root_groups": [
+    {
+      "group_id": "2",
+      "name": "지상관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2",
+      "evidence_id": "kma-api-group-2",
+      "subcategories": [
+        {
+          "name": "종관기상관측(ASOS)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=238",
+          "group_id": "2",
+          "subcategory_id": "238",
+          "evidence_id": "kma-api-guide-2-238",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "방재기상관측(AWS)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=239",
+          "group_id": "2",
+          "subcategory_id": "239",
+          "evidence_id": "kma-api-guide-2-239",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "기후통계",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=1131",
+          "group_id": "2",
+          "subcategory_id": "1131",
+          "evidence_id": "kma-api-guide-2-1131",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "북한기상관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=240",
+          "group_id": "2",
+          "subcategory_id": "240",
+          "evidence_id": "kma-api-guide-2-240",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "황사관측(PM10)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=243",
+          "group_id": "2",
+          "subcategory_id": "243",
+          "evidence_id": "kma-api-guide-2-243",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "적설관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=244",
+          "group_id": "2",
+          "subcategory_id": "244",
+          "evidence_id": "kma-api-guide-2-244",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "자외선관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=245",
+          "group_id": "2",
+          "subcategory_id": "245",
+          "evidence_id": "kma-api-guide-2-245",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "AWS 객관분석",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=248",
+          "group_id": "2",
+          "subcategory_id": "248",
+          "evidence_id": "kma-api-guide-2-248",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "계절관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=926",
+          "group_id": "2",
+          "subcategory_id": "926",
+          "evidence_id": "kma-api-guide-2-926",
+          "parent_evidence_id": "kma-api-group-2"
+        },
+        {
+          "name": "지상관측 지점정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=317",
+          "group_id": "2",
+          "subcategory_id": "317",
+          "evidence_id": "kma-api-guide-2-317",
+          "parent_evidence_id": "kma-api-group-2"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "3",
+      "name": "해양관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3",
+      "evidence_id": "kma-api-group-3",
+      "subcategories": [
+        {
+          "name": "해양기상부이·파고부이관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=249",
+          "group_id": "3",
+          "subcategory_id": "249",
+          "evidence_id": "kma-api-guide-3-249",
+          "parent_evidence_id": "kma-api-group-3"
+        },
+        {
+          "name": "등표기상관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=250",
+          "group_id": "3",
+          "subcategory_id": "250",
+          "evidence_id": "kma-api-guide-3-250",
+          "parent_evidence_id": "kma-api-group-3"
+        },
+        {
+          "name": "기상1호",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=251",
+          "group_id": "3",
+          "subcategory_id": "251",
+          "evidence_id": "kma-api-guide-3-251",
+          "parent_evidence_id": "kma-api-group-3"
+        },
+        {
+          "name": "해양관측 지점정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=318",
+          "group_id": "3",
+          "subcategory_id": "318",
+          "evidence_id": "kma-api-guide-3-318",
+          "parent_evidence_id": "kma-api-group-3"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "4",
+      "name": "고층관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4",
+      "evidence_id": "kma-api-group-4",
+      "subcategories": [
+        {
+          "name": "레윈존데",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=254",
+          "group_id": "4",
+          "subcategory_id": "254",
+          "evidence_id": "kma-api-guide-4-254",
+          "parent_evidence_id": "kma-api-group-4"
+        },
+        {
+          "name": "연직바람관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=255",
+          "group_id": "4",
+          "subcategory_id": "255",
+          "evidence_id": "kma-api-guide-4-255",
+          "parent_evidence_id": "kma-api-group-4"
+        },
+        {
+          "name": "고층관측 지점정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=319",
+          "group_id": "4",
+          "subcategory_id": "319",
+          "evidence_id": "kma-api-guide-4-319",
+          "parent_evidence_id": "kma-api-group-4"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "5",
+      "name": "레이더",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5",
+      "evidence_id": "kma-api-group-5",
+      "subcategories": [
+        {
+          "name": "레이더 강수량(HSR)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=265",
+          "group_id": "5",
+          "subcategory_id": "265",
+          "evidence_id": "kma-api-guide-5-265",
+          "parent_evidence_id": "kma-api-group-5"
+        },
+        {
+          "name": "레이더 강수량",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=266",
+          "group_id": "5",
+          "subcategory_id": "266",
+          "evidence_id": "kma-api-guide-5-266",
+          "parent_evidence_id": "kma-api-group-5"
+        },
+        {
+          "name": "레이더 원시자료",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=267",
+          "group_id": "5",
+          "subcategory_id": "267",
+          "evidence_id": "kma-api-guide-5-267",
+          "parent_evidence_id": "kma-api-group-5"
+        },
+        {
+          "name": "레이더 AWS지점별 합성자료값",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=269",
+          "group_id": "5",
+          "subcategory_id": "269",
+          "evidence_id": "kma-api-guide-5-269",
+          "parent_evidence_id": "kma-api-group-5"
+        },
+        {
+          "name": "낙뢰관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=264",
+          "group_id": "5",
+          "subcategory_id": "264",
+          "evidence_id": "kma-api-guide-5-264",
+          "parent_evidence_id": "kma-api-group-5"
+        },
+        {
+          "name": "레이더 지점정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=320",
+          "group_id": "5",
+          "subcategory_id": "320",
+          "evidence_id": "kma-api-guide-5-320",
+          "parent_evidence_id": "kma-api-group-5"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "6",
+      "name": "위성",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=6",
+      "evidence_id": "kma-api-group-6",
+      "subcategories": [
+        {
+          "name": "천리안 2A호",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=6&seqApiSub=271",
+          "group_id": "6",
+          "subcategory_id": "271",
+          "evidence_id": "kma-api-guide-6-271",
+          "parent_evidence_id": "kma-api-group-6"
+        },
+        {
+          "name": "천리안 1호",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=6&seqApiSub=270",
+          "group_id": "6",
+          "subcategory_id": "270",
+          "evidence_id": "kma-api-guide-6-270",
+          "parent_evidence_id": "kma-api-group-6"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "7",
+      "name": "지진/화산",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7",
+      "evidence_id": "kma-api-group-7",
+      "subcategories": [
+        {
+          "name": "국내·외 지진정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=273",
+          "group_id": "7",
+          "subcategory_id": "273",
+          "evidence_id": "kma-api-guide-7-273",
+          "parent_evidence_id": "kma-api-group-7"
+        },
+        {
+          "name": "지진해일정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=274",
+          "group_id": "7",
+          "subcategory_id": "274",
+          "evidence_id": "kma-api-guide-7-274",
+          "parent_evidence_id": "kma-api-group-7"
+        },
+        {
+          "name": "화산정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=275",
+          "group_id": "7",
+          "subcategory_id": "275",
+          "evidence_id": "kma-api-guide-7-275",
+          "parent_evidence_id": "kma-api-group-7"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "8",
+      "name": "태풍",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8",
+      "evidence_id": "kma-api-group-8",
+      "subcategories": [
+        {
+          "name": "태풍정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=276",
+          "group_id": "8",
+          "subcategory_id": "276",
+          "evidence_id": "kma-api-guide-8-276",
+          "parent_evidence_id": "kma-api-group-8"
+        },
+        {
+          "name": "태풍정보(TD)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=277",
+          "group_id": "8",
+          "subcategory_id": "277",
+          "evidence_id": "kma-api-guide-8-277",
+          "parent_evidence_id": "kma-api-group-8"
+        },
+        {
+          "name": "태풍 베스트트랙",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=1000",
+          "group_id": "8",
+          "subcategory_id": "1000",
+          "evidence_id": "kma-api-guide-8-1000",
+          "parent_evidence_id": "kma-api-group-8"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "9",
+      "name": "수치모델",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9",
+      "evidence_id": "kma-api-group-9",
+      "subcategories": [
+        {
+          "name": "수치예보모델",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=278",
+          "group_id": "9",
+          "subcategory_id": "278",
+          "evidence_id": "kma-api-guide-9-278",
+          "parent_evidence_id": "kma-api-group-9"
+        },
+        {
+          "name": "초단기예측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=282",
+          "group_id": "9",
+          "subcategory_id": "282",
+          "evidence_id": "kma-api-guide-9-282",
+          "parent_evidence_id": "kma-api-group-9"
+        },
+        {
+          "name": "수치모델 그래픽",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=285",
+          "group_id": "9",
+          "subcategory_id": "285",
+          "evidence_id": "kma-api-guide-9-285",
+          "parent_evidence_id": "kma-api-group-9"
+        },
+        {
+          "name": "분석일기도",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=989",
+          "group_id": "9",
+          "subcategory_id": "989",
+          "evidence_id": "kma-api-guide-9-989",
+          "parent_evidence_id": "kma-api-group-9"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "10",
+      "name": "예특보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10",
+      "evidence_id": "kma-api-group-10",
+      "subcategories": [
+        {
+          "name": "단기예보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=286",
+          "group_id": "10",
+          "subcategory_id": "286",
+          "evidence_id": "kma-api-guide-10-286",
+          "parent_evidence_id": "kma-api-group-10"
+        },
+        {
+          "name": "중기예보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=287",
+          "group_id": "10",
+          "subcategory_id": "287",
+          "evidence_id": "kma-api-guide-10-287",
+          "parent_evidence_id": "kma-api-group-10"
+        },
+        {
+          "name": "기상특보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=288",
+          "group_id": "10",
+          "subcategory_id": "288",
+          "evidence_id": "kma-api-guide-10-288",
+          "parent_evidence_id": "kma-api-group-10"
+        },
+        {
+          "name": "영향예보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=289",
+          "group_id": "10",
+          "subcategory_id": "289",
+          "evidence_id": "kma-api-guide-10-289",
+          "parent_evidence_id": "kma-api-group-10"
+        },
+        {
+          "name": "예·특보 구역정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=321",
+          "group_id": "10",
+          "subcategory_id": "321",
+          "evidence_id": "kma-api-guide-10-321",
+          "parent_evidence_id": "kma-api-group-10"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "971",
+      "name": "융합기상",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971",
+      "evidence_id": "kma-api-group-971",
+      "subcategories": [
+        {
+          "name": "고해상도 격자자료",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=936",
+          "group_id": "971",
+          "subcategory_id": "936",
+          "evidence_id": "kma-api-guide-971-936",
+          "parent_evidence_id": "kma-api-group-971"
+        },
+        {
+          "name": "에너지 지원",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=983",
+          "group_id": "971",
+          "subcategory_id": "983",
+          "evidence_id": "kma-api-guide-971-983",
+          "parent_evidence_id": "kma-api-group-971"
+        },
+        {
+          "name": "생활안전",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=292",
+          "group_id": "971",
+          "subcategory_id": "292",
+          "evidence_id": "kma-api-guide-971-292",
+          "parent_evidence_id": "kma-api-group-971"
+        },
+        {
+          "name": "교통안전",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=293",
+          "group_id": "971",
+          "subcategory_id": "293",
+          "evidence_id": "kma-api-guide-971-293",
+          "parent_evidence_id": "kma-api-group-971"
+        },
+        {
+          "name": "산업",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=987",
+          "group_id": "971",
+          "subcategory_id": "987",
+          "evidence_id": "kma-api-guide-971-987",
+          "parent_evidence_id": "kma-api-group-971"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "14",
+      "name": "항공기상",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14",
+      "evidence_id": "kma-api-group-14",
+      "subcategories": [
+        {
+          "name": "항공기상관측(METAR)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=257",
+          "group_id": "14",
+          "subcategory_id": "257",
+          "evidence_id": "kma-api-guide-14-257",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "공항기상관측(AMOS)",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=259",
+          "group_id": "14",
+          "subcategory_id": "259",
+          "evidence_id": "kma-api-guide-14-259",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "공항예·특보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=260",
+          "group_id": "14",
+          "subcategory_id": "260",
+          "evidence_id": "kma-api-guide-14-260",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "AMDAR 관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=262",
+          "group_id": "14",
+          "subcategory_id": "262",
+          "evidence_id": "kma-api-guide-14-262",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "공항기상정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=933",
+          "group_id": "14",
+          "subcategory_id": "933",
+          "evidence_id": "kma-api-guide-14-933",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "저고도 기상지원",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=1043",
+          "group_id": "14",
+          "subcategory_id": "1043",
+          "evidence_id": "kma-api-guide-14-1043",
+          "parent_evidence_id": "kma-api-group-14"
+        },
+        {
+          "name": "LIDAR 관측자료",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=10655",
+          "group_id": "14",
+          "subcategory_id": "10655",
+          "evidence_id": "kma-api-guide-14-10655",
+          "parent_evidence_id": "kma-api-group-14"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "12",
+      "name": "세계기상",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12",
+      "evidence_id": "kma-api-group-12",
+      "subcategories": [
+        {
+          "name": "GTS 관측",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=298",
+          "group_id": "12",
+          "subcategory_id": "298",
+          "evidence_id": "kma-api-guide-12-298",
+          "parent_evidence_id": "kma-api-group-12"
+        },
+        {
+          "name": "GTS 지점정보",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=322",
+          "group_id": "12",
+          "subcategory_id": "322",
+          "evidence_id": "kma-api-guide-12-322",
+          "parent_evidence_id": "kma-api-group-12"
+        },
+        {
+          "name": "NCEI 관측·통계",
+          "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=988",
+          "group_id": "12",
+          "subcategory_id": "988",
+          "evidence_id": "kma-api-guide-12-988",
+          "parent_evidence_id": "kma-api-group-12"
+        }
+      ],
+      "status": "fetched"
+    },
+    {
+      "group_id": "special",
+      "name": "산업특화",
+      "url": "https://apihub.kma.go.kr/specialApiList.do",
+      "evidence_id": "kma-api-group-special",
+      "subcategories": [],
+      "status": "fetched"
+    }
+  ],
+  "guide_pages": [
+    {
+      "name": "종관기상관측(ASOS)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=238",
+      "group_id": "2",
+      "subcategory_id": "238",
+      "evidence_id": "kma-api-guide-2-238",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 19,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "방재기상관측(AWS)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=239",
+      "group_id": "2",
+      "subcategory_id": "239",
+      "evidence_id": "kma-api-guide-2-239",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 41,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "기후통계",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=1131",
+      "group_id": "2",
+      "subcategory_id": "1131",
+      "evidence_id": "kma-api-guide-2-1131",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 108,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "북한기상관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=240",
+      "group_id": "2",
+      "subcategory_id": "240",
+      "evidence_id": "kma-api-guide-2-240",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "황사관측(PM10)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=243",
+      "group_id": "2",
+      "subcategory_id": "243",
+      "evidence_id": "kma-api-guide-2-243",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 7,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "적설관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=244",
+      "group_id": "2",
+      "subcategory_id": "244",
+      "evidence_id": "kma-api-guide-2-244",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 9,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "자외선관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=245",
+      "group_id": "2",
+      "subcategory_id": "245",
+      "evidence_id": "kma-api-guide-2-245",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "AWS 객관분석",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=248",
+      "group_id": "2",
+      "subcategory_id": "248",
+      "evidence_id": "kma-api-guide-2-248",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "계절관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=926",
+      "group_id": "2",
+      "subcategory_id": "926",
+      "evidence_id": "kma-api-guide-2-926",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 4,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "지상관측 지점정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=2&seqApiSub=317",
+      "group_id": "2",
+      "subcategory_id": "317",
+      "evidence_id": "kma-api-guide-2-317",
+      "parent_evidence_id": "kma-api-group-2",
+      "operation_sections": 4,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "해양기상부이·파고부이관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=249",
+      "group_id": "3",
+      "subcategory_id": "249",
+      "evidence_id": "kma-api-guide-3-249",
+      "parent_evidence_id": "kma-api-group-3",
+      "operation_sections": 18,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "등표기상관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=250",
+      "group_id": "3",
+      "subcategory_id": "250",
+      "evidence_id": "kma-api-guide-3-250",
+      "parent_evidence_id": "kma-api-group-3",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "기상1호",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=251",
+      "group_id": "3",
+      "subcategory_id": "251",
+      "evidence_id": "kma-api-guide-3-251",
+      "parent_evidence_id": "kma-api-group-3",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "해양관측 지점정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=3&seqApiSub=318",
+      "group_id": "3",
+      "subcategory_id": "318",
+      "evidence_id": "kma-api-guide-3-318",
+      "parent_evidence_id": "kma-api-group-3",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "레윈존데",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=254",
+      "group_id": "4",
+      "subcategory_id": "254",
+      "evidence_id": "kma-api-guide-4-254",
+      "parent_evidence_id": "kma-api-group-4",
+      "operation_sections": 11,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "연직바람관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=255",
+      "group_id": "4",
+      "subcategory_id": "255",
+      "evidence_id": "kma-api-guide-4-255",
+      "parent_evidence_id": "kma-api-group-4",
+      "operation_sections": 6,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "고층관측 지점정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=4&seqApiSub=319",
+      "group_id": "4",
+      "subcategory_id": "319",
+      "evidence_id": "kma-api-guide-4-319",
+      "parent_evidence_id": "kma-api-group-4",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "레이더 강수량(HSR)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=265",
+      "group_id": "5",
+      "subcategory_id": "265",
+      "evidence_id": "kma-api-guide-5-265",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 9,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "레이더 강수량",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=266",
+      "group_id": "5",
+      "subcategory_id": "266",
+      "evidence_id": "kma-api-guide-5-266",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 12,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "레이더 원시자료",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=267",
+      "group_id": "5",
+      "subcategory_id": "267",
+      "evidence_id": "kma-api-guide-5-267",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 7,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "레이더 AWS지점별 합성자료값",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=269",
+      "group_id": "5",
+      "subcategory_id": "269",
+      "evidence_id": "kma-api-guide-5-269",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "낙뢰관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=264",
+      "group_id": "5",
+      "subcategory_id": "264",
+      "evidence_id": "kma-api-guide-5-264",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 12,
+      "unassigned": [
+        {
+          "issue": "schema_table_without_operation_heading",
+          "table_index": 1,
+          "caption": "데이터 기본 정보",
+          "section_heading": "1. 낙뢰 원시자료 조회",
+          "headers": [
+            "인자명",
+            "의미",
+            "설명"
+          ],
+          "source_rows": [
+            [
+              "tm1",
+              "년월일시분(KST)",
+              "시작 시각 (없으면 가장 최근파일의 시간)"
+            ],
+            [
+              "tm2",
+              "년월일시분(KST)",
+              "종료 시각 (없으면 가장 최근파일의 시간)"
+            ],
+            [
+              "help",
+              "도움말",
+              "1 이면 필드에 대한 약간의 도움말 추가 (0 이거나 없으면 없음)"
+            ],
+            [
+              "authKey",
+              "인증키",
+              "발급된 API 인증키"
+            ]
+          ],
+          "status": "observed_at_section_scope_not_automatically_assigned_to_operations"
+        }
+      ],
+      "ignored_headings": [
+        {
+          "h4_index": 0,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        }
+      ]
+    },
+    {
+      "name": "레이더 지점정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=320",
+      "group_id": "5",
+      "subcategory_id": "320",
+      "evidence_id": "kma-api-guide-5-320",
+      "parent_evidence_id": "kma-api-group-5",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "천리안 2A호",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=6&seqApiSub=271",
+      "group_id": "6",
+      "subcategory_id": "271",
+      "evidence_id": "kma-api-guide-6-271",
+      "parent_evidence_id": "kma-api-group-6",
+      "operation_sections": 43,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "천리안 1호",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=6&seqApiSub=270",
+      "group_id": "6",
+      "subcategory_id": "270",
+      "evidence_id": "kma-api-guide-6-270",
+      "parent_evidence_id": "kma-api-group-6",
+      "operation_sections": 9,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "국내·외 지진정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=273",
+      "group_id": "7",
+      "subcategory_id": "273",
+      "evidence_id": "kma-api-guide-7-273",
+      "parent_evidence_id": "kma-api-group-7",
+      "operation_sections": 8,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "지진해일정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=274",
+      "group_id": "7",
+      "subcategory_id": "274",
+      "evidence_id": "kma-api-guide-7-274",
+      "parent_evidence_id": "kma-api-group-7",
+      "operation_sections": 4,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "화산정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=7&seqApiSub=275",
+      "group_id": "7",
+      "subcategory_id": "275",
+      "evidence_id": "kma-api-guide-7-275",
+      "parent_evidence_id": "kma-api-group-7",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "태풍정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=276",
+      "group_id": "8",
+      "subcategory_id": "276",
+      "evidence_id": "kma-api-guide-8-276",
+      "parent_evidence_id": "kma-api-group-8",
+      "operation_sections": 4,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "태풍정보(TD)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=277",
+      "group_id": "8",
+      "subcategory_id": "277",
+      "evidence_id": "kma-api-guide-8-277",
+      "parent_evidence_id": "kma-api-group-8",
+      "operation_sections": 3,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "태풍 베스트트랙",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=8&seqApiSub=1000",
+      "group_id": "8",
+      "subcategory_id": "1000",
+      "evidence_id": "kma-api-guide-8-1000",
+      "parent_evidence_id": "kma-api-group-8",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "수치예보모델",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=278",
+      "group_id": "9",
+      "subcategory_id": "278",
+      "evidence_id": "kma-api-guide-9-278",
+      "parent_evidence_id": "kma-api-group-9",
+      "operation_sections": 50,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "초단기예측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=282",
+      "group_id": "9",
+      "subcategory_id": "282",
+      "evidence_id": "kma-api-guide-9-282",
+      "parent_evidence_id": "kma-api-group-9",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "수치모델 그래픽",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=285",
+      "group_id": "9",
+      "subcategory_id": "285",
+      "evidence_id": "kma-api-guide-9-285",
+      "parent_evidence_id": "kma-api-group-9",
+      "operation_sections": 14,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "분석일기도",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=9&seqApiSub=989",
+      "group_id": "9",
+      "subcategory_id": "989",
+      "evidence_id": "kma-api-guide-9-989",
+      "parent_evidence_id": "kma-api-group-9",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "단기예보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=286",
+      "group_id": "10",
+      "subcategory_id": "286",
+      "evidence_id": "kma-api-guide-10-286",
+      "parent_evidence_id": "kma-api-group-10",
+      "operation_sections": 21,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "중기예보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=287",
+      "group_id": "10",
+      "subcategory_id": "287",
+      "evidence_id": "kma-api-guide-10-287",
+      "parent_evidence_id": "kma-api-group-10",
+      "operation_sections": 9,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "기상특보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=288",
+      "group_id": "10",
+      "subcategory_id": "288",
+      "evidence_id": "kma-api-guide-10-288",
+      "parent_evidence_id": "kma-api-group-10",
+      "operation_sections": 7,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "영향예보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=289",
+      "group_id": "10",
+      "subcategory_id": "289",
+      "evidence_id": "kma-api-guide-10-289",
+      "parent_evidence_id": "kma-api-group-10",
+      "operation_sections": 11,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "예·특보 구역정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=10&seqApiSub=321",
+      "group_id": "10",
+      "subcategory_id": "321",
+      "evidence_id": "kma-api-guide-10-321",
+      "parent_evidence_id": "kma-api-group-10",
+      "operation_sections": 4,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "고해상도 격자자료",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=936",
+      "group_id": "971",
+      "subcategory_id": "936",
+      "evidence_id": "kma-api-guide-971-936",
+      "parent_evidence_id": "kma-api-group-971",
+      "operation_sections": 14,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "에너지 지원",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=983",
+      "group_id": "971",
+      "subcategory_id": "983",
+      "evidence_id": "kma-api-guide-971-983",
+      "parent_evidence_id": "kma-api-group-971",
+      "operation_sections": 6,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "생활안전",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=292",
+      "group_id": "971",
+      "subcategory_id": "292",
+      "evidence_id": "kma-api-guide-971-292",
+      "parent_evidence_id": "kma-api-group-971",
+      "operation_sections": 6,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "교통안전",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=293",
+      "group_id": "971",
+      "subcategory_id": "293",
+      "evidence_id": "kma-api-guide-971-293",
+      "parent_evidence_id": "kma-api-group-971",
+      "operation_sections": 9,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "산업",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=971&seqApiSub=987",
+      "group_id": "971",
+      "subcategory_id": "987",
+      "evidence_id": "kma-api-guide-971-987",
+      "parent_evidence_id": "kma-api-group-971",
+      "operation_sections": 17,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "항공기상관측(METAR)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=257",
+      "group_id": "14",
+      "subcategory_id": "257",
+      "evidence_id": "kma-api-guide-14-257",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 14,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "공항기상관측(AMOS)",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=259",
+      "group_id": "14",
+      "subcategory_id": "259",
+      "evidence_id": "kma-api-guide-14-259",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "공항예·특보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=260",
+      "group_id": "14",
+      "subcategory_id": "260",
+      "evidence_id": "kma-api-guide-14-260",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 11,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "AMDAR 관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=262",
+      "group_id": "14",
+      "subcategory_id": "262",
+      "evidence_id": "kma-api-guide-14-262",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "공항기상정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=933",
+      "group_id": "14",
+      "subcategory_id": "933",
+      "evidence_id": "kma-api-guide-14-933",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "저고도 기상지원",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=1043",
+      "group_id": "14",
+      "subcategory_id": "1043",
+      "evidence_id": "kma-api-guide-14-1043",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 3,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "LIDAR 관측자료",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=14&seqApiSub=10655",
+      "group_id": "14",
+      "subcategory_id": "10655",
+      "evidence_id": "kma-api-guide-14-10655",
+      "parent_evidence_id": "kma-api-group-14",
+      "operation_sections": 1,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "GTS 관측",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=298",
+      "group_id": "12",
+      "subcategory_id": "298",
+      "evidence_id": "kma-api-guide-12-298",
+      "parent_evidence_id": "kma-api-group-12",
+      "operation_sections": 30,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "GTS 지점정보",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=322",
+      "group_id": "12",
+      "subcategory_id": "322",
+      "evidence_id": "kma-api-guide-12-322",
+      "parent_evidence_id": "kma-api-group-12",
+      "operation_sections": 2,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "name": "NCEI 관측·통계",
+      "url": "https://apihub.kma.go.kr/apiList.do?seqApi=12&seqApiSub=988",
+      "group_id": "12",
+      "subcategory_id": "988",
+      "evidence_id": "kma-api-guide-12-988",
+      "parent_evidence_id": "kma-api-group-12",
+      "operation_sections": 30,
+      "unassigned": [],
+      "ignored_headings": []
+    },
+    {
+      "url": "https://apihub.kma.go.kr/specialApiList.do",
+      "name": "산업특화",
+      "group_id": "special",
+      "subcategory_id": "special",
+      "evidence_id": "kma-api-group-special",
+      "parent_evidence_id": "kma-api-discovery-20260913",
+      "operation_sections": 6,
+      "unassigned": [],
+      "ignored_headings": [
+        {
+          "h4_index": 1,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        },
+        {
+          "h4_index": 3,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        },
+        {
+          "h4_index": 5,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        },
+        {
+          "h4_index": 7,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        },
+        {
+          "h4_index": 9,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        },
+        {
+          "h4_index": 11,
+          "label": "요청인자",
+          "reason": "parameter_or_output_heading_not_operation"
+        }
+      ]
+    }
+  ],
+  "root_group_count": 13,
+  "guide_page_count": 56,
+  "discovered_guide_page_count": 56,
+  "catalog_records": 626,
+  "snapshot_navigation_traversal_complete": true,
+  "catalog_identity_basis": "Public guide route and h4 position; counts represent documented operation variants, not unique endpoint paths.",
+  "issues": [],
+  "schema_association_issues": [
+    {
+      "guide_url": "https://apihub.kma.go.kr/apiList.do?seqApi=5&seqApiSub=264",
+      "issue": "schema_table_without_operation_heading",
+      "table_index": 1,
+      "caption": "데이터 기본 정보",
+      "section_heading": "1. 낙뢰 원시자료 조회",
+      "headers": [
+        "인자명",
+        "의미",
+        "설명"
+      ],
+      "source_rows": [
+        [
+          "tm1",
+          "년월일시분(KST)",
+          "시작 시각 (없으면 가장 최근파일의 시간)"
+        ],
+        [
+          "tm2",
+          "년월일시분(KST)",
+          "종료 시각 (없으면 가장 최근파일의 시간)"
+        ],
+        [
+          "help",
+          "도움말",
+          "1 이면 필드에 대한 약간의 도움말 추가 (0 이거나 없으면 없음)"
+        ],
+        [
+          "authKey",
+          "인증키",
+          "발급된 API 인증키"
+        ]
+      ],
+      "status": "observed_at_section_scope_not_automatically_assigned_to_operations"
+    }
+  ],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "remaining": "Linked PDF manuals, codebooks, binary/grid/image output structures and public catalogs outside the traversed API navigation."
+}

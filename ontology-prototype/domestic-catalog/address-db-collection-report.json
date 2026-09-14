@@ -1,0 +1,15 @@
+{
+  "scope": "address-db",
+  "target_count": 31,
+  "processed": 31,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 31
+  },
+  "documented_field_occurrences": 1117,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T11:38:14.329940+00:00",
+  "generated_at": "2026-09-13T11:38:14.424087+00:00",
+  "pid": 1356
+}

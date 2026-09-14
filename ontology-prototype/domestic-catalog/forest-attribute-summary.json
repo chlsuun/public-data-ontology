@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-14T06:41:12.748131+00:00",
+  "usage_documents": 19,
+  "with_attribute_definitions": 5,
+  "attribute_fields": 61,
+  "schema_groups": 7,
+  "status_counts": {
+    "public_usage_metadata_observed_schema_pending": 14,
+    "file_attribute_definition_observed_with_source_issues": 2,
+    "file_attribute_definition_observed": 3
+  },
+  "source_issues": [
+    {
+      "dataset_key": "PBD0000061",
+      "evidence_id": "forest-usage-PBD0000061",
+      "issues": [
+        {
+          "issue": "attribute_length_unspecified_in_source",
+          "name": "ZONE_AREA",
+          "value_as_reported": "?",
+          "locator": "table[0].tbody.tr[7].cell[3]"
+        }
+      ]
+    },
+    {
+      "dataset_key": "PBD0000062",
+      "evidence_id": "forest-usage-PBD0000062",
+      "issues": [
+        {
+          "issue": "attribute_length_unspecified_in_source",
+          "name": "HSTR_MNNMB",
+          "value_as_reported": "?",
+          "locator": "table[0].tbody.tr[0].cell[3]"
+        },
+        {
+          "issue": "attribute_length_unspecified_in_source",
+          "name": "FRRD_FCLT_DSTNC",
+          "value_as_reported": "?",
+          "locator": "table[0].tbody.tr[4].cell[3]"
+        }
+      ]
+    }
+  ],
+  "scope": "Only the 19 explicitly linked usage documents, not all current map files or layer versions",
+  "all_columns_complete": false,
+  "file_downloads_performed": false,
+  "coordinate_codes_inferred": false
+}

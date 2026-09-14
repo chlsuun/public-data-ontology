@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-13T11:38:14.328521+00:00",
+  "source_evidence_id": "address-db-catalog-public",
+  "mapping_evidence_id": "address-JspAddrInfoExperience-14b37ad8",
+  "catalog_rows": 31,
+  "unique_category_ids": 31,
+  "mapped_schema_components": 31,
+  "source_release_flag_counts": {
+    "N": 18,
+    "Y": 13
+  },
+  "snapshot_category_list_reconciles": true,
+  "reconciliation_basis": "public UI unpaginated metadata response; source category IDs matched to component dispatch conditions",
+  "issues": [],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "remaining": "주소 DB 31개 분류의 명세 수집은 address-db-collection-report.json 참조. 개별 날짜별 배포 파일 목록과 명세 버전·추가 공개 문서는 미해결."
+}

@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-14T08:53:56.312509+00:00",
+  "scope": "One retry of 9 observed transport disconnects; all prior receipts retained",
+  "outcomes": [
+    {
+      "dataset_key": "15100355",
+      "previous_status": "metadata_unresolved",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectDataSet-15100355-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_13266",
+      "previous_status": "metadata_unresolved",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectDataSet-BT_13266-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_4815",
+      "previous_status": "metadata_unresolved",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectDataSet-BT_4815-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_5472",
+      "previous_status": "metadata_unresolved",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectDataSet-BT_5472-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_10010",
+      "previous_status": "public_metadata_observed_schema_pending",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectFileData-BT_10010-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_10381",
+      "previous_status": "public_metadata_observed_schema_pending",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectFileData-BT_10381-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "BT_4623",
+      "previous_status": "public_metadata_observed_schema_pending",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectFileData-BT_4623-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "K1031_430",
+      "previous_status": "public_metadata_observed_schema_pending",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectFileData-K1031_430-connection-retry-20260914"
+      ]
+    },
+    {
+      "dataset_key": "K1042_249",
+      "previous_status": "public_metadata_observed_schema_pending",
+      "new_status": "public_metadata_observed_schema_pending",
+      "remaining_preview_issues": [],
+      "new_evidence_ids": [
+        "busan-selectFileData-K1042_249-connection-retry-20260914"
+      ]
+    }
+  ],
+  "attempt_count": 9,
+  "all_columns_complete": false,
+  "initial_queue_report_preserved": "busan-collection-report.json",
+  "raw_observation_requests": 0
+}

@@ -1,0 +1,5729 @@
+{
+  "generated_at": "2026-09-13T18:16:55.452745+00:00",
+  "portal_id": "foodsafety",
+  "qa_scope": "Observed public catalog/document metadata; not raw data accuracy, null rates or licensing approval",
+  "catalog_reconciliation": {
+    "registrations": 178,
+    "current_list_pages_matched": true,
+    "separate_api_filter_matched": true,
+    "legacy_home_and_notice_count_difference_unresolved": true
+  },
+  "schema_availability": {
+    "api": {
+      "documented": 169,
+      "target": 169
+    },
+    "file": {
+      "column_definitions": 0,
+      "target": 8
+    },
+    "link": {
+      "external_reference_only": 1,
+      "target": 1
+    }
+  },
+  "metadata_presence": {
+    "최종수정일": {
+      "with_nonempty_value": 144,
+      "denominator_registrations": 178
+    },
+    "업데이트주기": {
+      "with_nonempty_value": 158,
+      "denominator_registrations": 178
+    },
+    "최초개방일": {
+      "with_nonempty_value": 159,
+      "denominator_registrations": 178
+    },
+    "API호출제한": {
+      "with_nonempty_value": 177,
+      "denominator_registrations": 178
+    }
+  },
+  "metadata_observations": [
+    {
+      "dataset_key": "I0600",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I0600",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0600",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0600",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0600",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0580",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0580",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0580",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0580",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0580",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0130",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0130",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0130",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0130",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0130",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2580",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2580",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2580",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "2024-04-10",
+          "evidence_id": "foodsafety-detail-I2580",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2580",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I-0050",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0050",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0050",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0050",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I-0050",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I-0040",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0040",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0040",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0040",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I-0040",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0310",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0310",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0310",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0310",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0310",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0760",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-11-30",
+          "evidence_id": "foodsafety-detail-I0760",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0760",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0760",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0760",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1190",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1190",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1190",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1190",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1190",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I-0020",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0020",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0020",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I-0020",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I-0020",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2822",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2822",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2822",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2822",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2822",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1140",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1140",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1140",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1140",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1140",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2710",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-06-17",
+          "evidence_id": "foodsafety-detail-I2710",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2710",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2018-07-09",
+          "evidence_id": "foodsafety-detail-I2710",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2710",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0030",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-I0030",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0030",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0030",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I0030",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C003",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-C003",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C003",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-10-24",
+          "evidence_id": "foodsafety-detail-C003",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-C003",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0630",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-11-20",
+          "evidence_id": "foodsafety-detail-I0630",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0630",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0630",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0630",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0960",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0960",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0960",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0960",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0960",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2860",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2860",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2860",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "2024-09-23",
+          "evidence_id": "foodsafety-detail-I2860",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2860",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2839",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-09-08",
+          "evidence_id": "foodsafety-detail-I2839",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2839",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2839",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2839",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1290",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I1290",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1290",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1290",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I1290",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2640",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2640",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2640",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-01-30",
+          "evidence_id": "foodsafety-detail-I2640",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2640",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2620",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-06-18",
+          "evidence_id": "foodsafety-detail-I2620",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2620",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-07-16",
+          "evidence_id": "foodsafety-detail-I2620",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2620",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2857",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2857",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2857",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-03-31",
+          "evidence_id": "foodsafety-detail-I2857",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2857",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2600",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2600",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2600",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2600",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2600",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2610",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2610",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2610",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2610",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2610",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2590",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2590",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2590",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2590",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2590",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1660",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1660",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1660",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1660",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1660",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1670",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1670",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1670",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1670",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1670",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0910",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-02-25",
+          "evidence_id": "foodsafety-detail-I0910",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0910",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0910",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0910",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0990",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0990",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0990",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0990",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0990",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1240",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-30",
+          "evidence_id": "foodsafety-detail-I1240",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1240",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1240",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1240",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1130",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-02",
+          "evidence_id": "foodsafety-detail-I1130",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1130",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1130",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1130",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1100",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1100",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1100",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1100",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1100",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1010",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1010",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1010",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": true
+        },
+        "최초개방일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1010",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": true
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1010",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2847",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2847",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2847",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2847",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2847",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1870",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-05-11",
+          "evidence_id": "foodsafety-detail-I1870",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1870",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1870",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1870",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1790",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1790",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1790",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1790",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1790",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1800",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1800",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1800",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1800",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1800",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1910",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I1910",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1910",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1910",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1910",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1040",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-10-05",
+          "evidence_id": "foodsafety-detail-I1040",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1040",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1040",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1040",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1850",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-21",
+          "evidence_id": "foodsafety-detail-I1850",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1850",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1850",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1850",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1860",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-21",
+          "evidence_id": "foodsafety-detail-I1860",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1860",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1860",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1860",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2858",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2858",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2858",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2024-03-27",
+          "evidence_id": "foodsafety-detail-I2858",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2858",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1070",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1070",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1070",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1070",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1070",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1080",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-06-04",
+          "evidence_id": "foodsafety-detail-I1080",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1080",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1080",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1080",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2410",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I2410",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2410",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I2410",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2410",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C005",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-08-13",
+          "evidence_id": "foodsafety-detail-C005",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C005",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-10-24",
+          "evidence_id": "foodsafety-detail-C005",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-C005",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1030",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-06-04",
+          "evidence_id": "foodsafety-detail-I1030",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1030",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1030",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1030",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2540",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-11-09",
+          "evidence_id": "foodsafety-detail-I2540",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2540",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2540",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2540",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2381",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I2381",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2381",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-25",
+          "evidence_id": "foodsafety-detail-I2381",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2381",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2852",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-09",
+          "evidence_id": "foodsafety-detail-I2852",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2852",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2021-06-09",
+          "evidence_id": "foodsafety-detail-I2852",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2852",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1830",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1830",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1830",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1830",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1830",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1810",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1810",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1810",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1810",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1810",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1820",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-12",
+          "evidence_id": "foodsafety-detail-I1820",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1820",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1820",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1820",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0460",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-09-01",
+          "evidence_id": "foodsafety-detail-I0460",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0460",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0460",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0460",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1380",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-06-15",
+          "evidence_id": "foodsafety-detail-I1380",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1380",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1380",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1380",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2020",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-21",
+          "evidence_id": "foodsafety-detail-I2020",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2020",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I2020",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2020",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2050",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I2050",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2050",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I2050",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2050",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1920",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1920",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1920",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1920",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1920",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1930",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1930",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1930",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1930",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1930",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1940",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1940",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1940",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1940",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1940",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2780",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-01-27",
+          "evidence_id": "foodsafety-detail-I2780",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2780",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-02-19",
+          "evidence_id": "foodsafety-detail-I2780",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "100",
+          "evidence_id": "foodsafety-detail-I2780",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1720",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-05",
+          "evidence_id": "foodsafety-detail-I1720",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1720",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1720",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1720",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C001",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-C001",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C001",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-10-24",
+          "evidence_id": "foodsafety-detail-C001",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-C001",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2821",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-12",
+          "evidence_id": "foodsafety-detail-I2821",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2821",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2821",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2821",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2781",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2781",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2781",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-12-15",
+          "evidence_id": "foodsafety-detail-I2781",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "100",
+          "evidence_id": "foodsafety-detail-I2781",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1060",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-10-05",
+          "evidence_id": "foodsafety-detail-I1060",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1060",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1060",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1060",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2530",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2017-10-31",
+          "evidence_id": "foodsafety-detail-I2530",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2530",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2530",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2530",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2836",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2836",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2836",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-11-17",
+          "evidence_id": "foodsafety-detail-I2836",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2836",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2835",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2835",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2835",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2835",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2835",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2827",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-06-07",
+          "evidence_id": "foodsafety-detail-I2827",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2827",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2827",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2827",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2850",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2850",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2850",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2850",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2850",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2849",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2849",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2849",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2849",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2849",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2848",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2848",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2848",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2848",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2848",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1250",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I1250",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1250",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1250",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "2000",
+          "evidence_id": "foodsafety-detail-I1250",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C002",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-C002",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C002",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-10-24",
+          "evidence_id": "foodsafety-detail-C002",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-C002",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0300",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-02",
+          "evidence_id": "foodsafety-detail-I0300",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0300",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0300",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "2000",
+          "evidence_id": "foodsafety-detail-I0300",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0920",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0920",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0920",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-02-24",
+          "evidence_id": "foodsafety-detail-I0920",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0920",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0930",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-02",
+          "evidence_id": "foodsafety-detail-I0930",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0930",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0930",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0930",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2833",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2833",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2833",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2833",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2833",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1110",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-02",
+          "evidence_id": "foodsafety-detail-I1110",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1110",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1110",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1110",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1260",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I1260",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1260",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1260",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I1260",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1590",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-08-13",
+          "evidence_id": "foodsafety-detail-I1590",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1590",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1590",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1590",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1050",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-06-04",
+          "evidence_id": "foodsafety-detail-I1050",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1050",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1050",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1050",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2854",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2854",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2854",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2022-04-26",
+          "evidence_id": "foodsafety-detail-I2854",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2854",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2817",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-06-21",
+          "evidence_id": "foodsafety-detail-I2817",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2817",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2817",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2817",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2831",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-09-06",
+          "evidence_id": "foodsafety-detail-I2831",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2831",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2831",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2831",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2815",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2815",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2815",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2815",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2815",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2859",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2859",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2859",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2024-09-23",
+          "evidence_id": "foodsafety-detail-I2859",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2859",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2791",
+      "source_service_types": [
+        "LINK"
+      ],
+      "reported_metadata": {}
+    },
+    {
+      "dataset_key": "I0940",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-12-24",
+          "evidence_id": "foodsafety-detail-I0940",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0940",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0940",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0940",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2830",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2830",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2830",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2830",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2830",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2814",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2814",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2814",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2814",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2814",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0980",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I0980",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0980",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0980",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0980",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1020",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-09",
+          "evidence_id": "foodsafety-detail-I1020",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1020",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1020",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1020",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2520",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-12-20",
+          "evidence_id": "foodsafety-detail-I2520",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2520",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2520",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2520",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0890",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I0890",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0890",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0890",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0890",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1560",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I1560",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1560",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1560",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1560",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1540",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I1540",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1540",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1540",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1540",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0520",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-02",
+          "evidence_id": "foodsafety-detail-I0520",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0520",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0520",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0520",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0320",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-16",
+          "evidence_id": "foodsafety-detail-I0320",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0320",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-19",
+          "evidence_id": "foodsafety-detail-I0320",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "2000",
+          "evidence_id": "foodsafety-detail-I0320",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2819",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2819",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2819",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2819",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2819",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C004",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-09-03",
+          "evidence_id": "foodsafety-detail-C004",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C004",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-10-24",
+          "evidence_id": "foodsafety-detail-C004",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-C004",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1200",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I1200",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1200",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1200",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "2000",
+          "evidence_id": "foodsafety-detail-I1200",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2811",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2811",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2811",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2811",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2811",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1220",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I1220",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "기타",
+          "evidence_id": "foodsafety-detail-I1220",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1220",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1220",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I-0010",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-02-10",
+          "evidence_id": "foodsafety-detail-I-0010",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I-0010",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-19",
+          "evidence_id": "foodsafety-detail-I-0010",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I-0010",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0950",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-02",
+          "evidence_id": "foodsafety-detail-I0950",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0950",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0950",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0950",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1101",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I1101",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1101",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-05-19",
+          "evidence_id": "foodsafety-detail-I1101",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1101",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1120",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-02",
+          "evidence_id": "foodsafety-detail-I1120",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1120",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1120",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1120",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1000",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I1000",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1000",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1000",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1000",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1230",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-02-17",
+          "evidence_id": "foodsafety-detail-I1230",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1230",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1230",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1230",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2813",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-12",
+          "evidence_id": "foodsafety-detail-I2813",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2813",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2813",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2813",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2832",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-24",
+          "evidence_id": "foodsafety-detail-I2832",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2832",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2832",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2832",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2816",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2816",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2816",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2816",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2816",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1650",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I1650",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1650",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1650",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1650",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1980",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-12-23",
+          "evidence_id": "foodsafety-detail-I1980",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1980",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1980",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1980",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2846",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2846",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2846",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2846",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2846",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0080",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-06-15",
+          "evidence_id": "foodsafety-detail-I0080",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0080",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0080",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0080",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0340",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-12-20",
+          "evidence_id": "foodsafety-detail-I0340",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0340",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0340",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0340",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2840",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2840",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2840",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2840",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2840",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2560",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-11-15",
+          "evidence_id": "foodsafety-detail-I2560",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2560",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2560",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2560",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2818",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2818",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2818",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2818",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2818",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2837",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-29",
+          "evidence_id": "foodsafety-detail-I2837",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2837",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2837",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2837",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0250",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-06-08",
+          "evidence_id": "foodsafety-detail-I0250",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0250",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0250",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0250",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1550",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-02-17",
+          "evidence_id": "foodsafety-detail-I1550",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1550",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1550",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1550",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0680",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-06-04",
+          "evidence_id": "foodsafety-detail-I0680",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0680",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0680",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0680",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2823",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-31",
+          "evidence_id": "foodsafety-detail-I2823",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2823",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2823",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2823",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2714",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-15",
+          "evidence_id": "foodsafety-detail-I2714",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2714",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2018-11-01",
+          "evidence_id": "foodsafety-detail-I2714",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2714",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2851",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-04",
+          "evidence_id": "foodsafety-detail-I2851",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2851",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2851",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2851",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2713",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-15",
+          "evidence_id": "foodsafety-detail-I2713",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2713",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2018-11-01",
+          "evidence_id": "foodsafety-detail-I2713",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2713",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2711",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-I2711",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2711",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2018-10-31",
+          "evidence_id": "foodsafety-detail-I2711",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2711",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2712",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-I2712",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2712",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2018-11-01",
+          "evidence_id": "foodsafety-detail-I2712",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2712",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0140",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-02",
+          "evidence_id": "foodsafety-detail-I0140",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0140",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0140",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0140",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1150",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-02",
+          "evidence_id": "foodsafety-detail-I1150",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1150",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1150",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1150",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2570",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-07-23",
+          "evidence_id": "foodsafety-detail-I2570",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "기타",
+          "evidence_id": "foodsafety-detail-I2570",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2570",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2570",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2861",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2861",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2861",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2024-12-09",
+          "evidence_id": "foodsafety-detail-I2861",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2861",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2500",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I2500",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2500",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2500",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2500",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1090",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-06-05",
+          "evidence_id": "foodsafety-detail-I1090",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1090",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1090",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1090",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "COOKRCP01",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-03",
+          "evidence_id": "foodsafety-detail-COOKRCP01",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-COOKRCP01",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-12-19",
+          "evidence_id": "foodsafety-detail-COOKRCP01",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-COOKRCP01",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0060",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-02",
+          "evidence_id": "foodsafety-detail-I0060",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0060",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-11",
+          "evidence_id": "foodsafety-detail-I0060",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0060",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2829",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2829",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2829",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2829",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2829",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2812",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2812",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2812",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-10-28",
+          "evidence_id": "foodsafety-detail-I2812",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2812",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2400",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-07",
+          "evidence_id": "foodsafety-detail-I2400",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2400",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I2400",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2400",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1210",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I1210",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1210",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1210",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1210",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2834",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2834",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2834",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-11-17",
+          "evidence_id": "foodsafety-detail-I2834",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2834",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2820",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-06",
+          "evidence_id": "foodsafety-detail-I2820",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2820",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2820",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2820",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2550",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-11-09",
+          "evidence_id": "foodsafety-detail-I2550",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2550",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2550",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2550",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2824",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2824",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2824",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2824",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2824",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1300",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-09",
+          "evidence_id": "foodsafety-detail-I1300",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1300",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1300",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1300",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1330",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-16",
+          "evidence_id": "foodsafety-detail-I1330",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1330",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1330",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1330",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1420",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-04",
+          "evidence_id": "foodsafety-detail-I1420",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1420",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1420",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1420",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2825",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-08-30",
+          "evidence_id": "foodsafety-detail-I2825",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2825",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2825",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2825",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1320",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-09-02",
+          "evidence_id": "foodsafety-detail-I1320",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1320",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1320",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1320",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1340",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-03-30",
+          "evidence_id": "foodsafety-detail-I1340",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1340",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1340",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1340",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1370",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-06",
+          "evidence_id": "foodsafety-detail-I1370",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1370",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1370",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1370",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2826",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-26",
+          "evidence_id": "foodsafety-detail-I2826",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2826",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2826",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2826",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1350",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-04-06",
+          "evidence_id": "foodsafety-detail-I1350",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1350",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1350",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1350",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1310",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-03-19",
+          "evidence_id": "foodsafety-detail-I1310",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1310",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-24",
+          "evidence_id": "foodsafety-detail-I1310",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I1310",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2828",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-05-20",
+          "evidence_id": "foodsafety-detail-I2828",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2828",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-12-28",
+          "evidence_id": "foodsafety-detail-I2828",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2828",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0610",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-10-07",
+          "evidence_id": "foodsafety-detail-I0610",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0610",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0610",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0610",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0900",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-08-26",
+          "evidence_id": "foodsafety-detail-I0900",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0900",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I0900",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0900",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1160",
+      "source_service_types": [
+        "FILE"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2018-10-16",
+          "evidence_id": "foodsafety-detail-I1160",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1160",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-12-12",
+          "evidence_id": "foodsafety-detail-I1160",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1160",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "C006",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-23",
+          "evidence_id": "foodsafety-detail-C006",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-C006",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2019-11-07",
+          "evidence_id": "foodsafety-detail-C006",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-C006",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2390",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-07",
+          "evidence_id": "foodsafety-detail-I2390",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2390",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-25",
+          "evidence_id": "foodsafety-detail-I2390",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2390",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I1960",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I1960",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I1960",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I1960",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I1960",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2856",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I2856",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2856",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-02-24",
+          "evidence_id": "foodsafety-detail-I2856",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2856",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2510",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2019-12-19",
+          "evidence_id": "foodsafety-detail-I2510",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2510",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2015-01-19",
+          "evidence_id": "foodsafety-detail-I2510",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2510",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2380",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-12-11",
+          "evidence_id": "foodsafety-detail-I2380",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2380",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-23",
+          "evidence_id": "foodsafety-detail-I2380",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2380",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2810",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-06-25",
+          "evidence_id": "foodsafety-detail-I2810",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2810",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2020-05-12",
+          "evidence_id": "foodsafety-detail-I2810",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2810",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2715",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-08",
+          "evidence_id": "foodsafety-detail-I2715",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2715",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2019-05-16",
+          "evidence_id": "foodsafety-detail-I2715",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I2715",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0470",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-02",
+          "evidence_id": "foodsafety-detail-I0470",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0470",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0470",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0470",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0482",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0482",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0482",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-09-19",
+          "evidence_id": "foodsafety-detail-I0482",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0482",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I2630",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-07-02",
+          "evidence_id": "foodsafety-detail-I2630",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I2630",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2017-09-20",
+          "evidence_id": "foodsafety-detail-I2630",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "1000",
+          "evidence_id": "foodsafety-detail-I2630",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0480",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0480",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0480",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-07-21",
+          "evidence_id": "foodsafety-detail-I0480",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0480",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0481",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "-",
+          "evidence_id": "foodsafety-detail-I0481",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": true
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0481",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2023-08-11",
+          "evidence_id": "foodsafety-detail-I0481",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0481",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0490",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2021-06-18",
+          "evidence_id": "foodsafety-detail-I0490",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0490",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0490",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "2000",
+          "evidence_id": "foodsafety-detail-I0490",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    },
+    {
+      "dataset_key": "I0150",
+      "source_service_types": [
+        "API"
+      ],
+      "reported_metadata": {
+        "최종수정일": {
+          "value_as_reported": "2020-01-29",
+          "evidence_id": "foodsafety-detail-I0150",
+          "locator": "table[0].tbody.tr[1].cell[1]",
+          "missing_placeholder": false
+        },
+        "업데이트주기": {
+          "value_as_reported": "상시",
+          "evidence_id": "foodsafety-detail-I0150",
+          "locator": "table[0].tbody.tr[1].cell[3]",
+          "missing_placeholder": false
+        },
+        "최초개방일": {
+          "value_as_reported": "2014-11-21",
+          "evidence_id": "foodsafety-detail-I0150",
+          "locator": "table[0].tbody.tr[2].cell[1]",
+          "missing_placeholder": false
+        },
+        "API호출제한": {
+          "value_as_reported": "500",
+          "evidence_id": "foodsafety-detail-I0150",
+          "locator": "table[0].tbody.tr[2].cell[3]",
+          "missing_placeholder": false
+        }
+      }
+    }
+  ],
+  "output_datatype_definition_coverage": {
+    "with_explicit_datatype": 0,
+    "response_fields": 1861
+  },
+  "quality_scores_assigned": false,
+  "raw_value_missingness_measured": false,
+  "statistical_associations_validated": false,
+  "source_notice_evidence_ids": [
+    "foodsafety-notice-1151453",
+    "foodsafety-notice-1151919"
+  ],
+  "source_scope_discrepancies": "foodsafety-catalog-crosscheck.json",
+  "all_columns_complete": false
+}

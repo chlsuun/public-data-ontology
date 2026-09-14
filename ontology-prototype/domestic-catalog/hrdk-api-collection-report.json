@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-13T17:16:35.699664+00:00",
+  "scope": "hrdk-api",
+  "target_count": 69,
+  "processed": 69,
+  "status_counts": {
+    "external_schema_reference_observed": 69
+  },
+  "queue_exhausted": true,
+  "documented_field_occurrences": 0,
+  "all_columns_complete": false
+}

@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-09-13T18:07:34.456303+00:00",
+  "catalog_records": 178,
+  "source_reported_total": 178,
+  "page_receipts": [
+    {
+      "page": 1,
+      "rows": 50,
+      "evidence_id": "foodsafety-list-size50-page1",
+      "total": 178
+    },
+    {
+      "page": 2,
+      "rows": 50,
+      "evidence_id": "foodsafety-list-size50-page2",
+      "total": 178
+    },
+    {
+      "page": 3,
+      "rows": 50,
+      "evidence_id": "foodsafety-list-size50-page3",
+      "total": 178
+    },
+    {
+      "page": 4,
+      "rows": 28,
+      "evidence_id": "foodsafety-list-size50-page4",
+      "total": 178
+    }
+  ],
+  "service_type_combinations": {
+    "API": 169,
+    "FILE": 8,
+    "LINK": 1
+  },
+  "snapshot_pagination_complete": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "source_form_parameters": {
+    "menu_no": "661",
+    "menu_grp": "MENU_GRP31",
+    "start_idx": "1",
+    "svc_no": "",
+    "p_svcTypeCd": "",
+    "svc_type_cd": "",
+    "cl_cd": "",
+    "provd_instt": "",
+    "svcChkArr": "",
+    "svc_nm": "",
+    "search_clCdCode": "",
+    "search_provdInsttCode": "",
+    "search_svcTypeCode": "",
+    "search_keyword": "",
+    "show_cnt": "50"
+  },
+  "navigation_evidence_id": "foodsafety-public-catalog-page1",
+  "scope": "Public unfiltered data catalog; separate dictionaries/notices and full agency information are not presumed included."
+}

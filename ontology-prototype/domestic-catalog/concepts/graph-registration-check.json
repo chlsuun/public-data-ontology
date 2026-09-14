@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-09-14T11:47:18.374348+00:00",
+  "status": "passed",
+  "all_registrations_reachable": 440356,
+  "no_concept_match_portal_checked": "busan",
+  "busan_registration_count": 12551,
+  "no_source_item_registration_checked": "busan-PD_LP00003",
+  "registration_specific_item_filter_checked": true,
+  "invalid_filters_and_literal_queries_checked": true
+}

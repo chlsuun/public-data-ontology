@@ -1,0 +1,15 @@
+{
+  "scope": "jeonbuk",
+  "target_count": 2233,
+  "processed": 2233,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 2233
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T14:47:31.095943+00:00",
+  "generated_at": "2026-09-13T15:24:45.508688+00:00",
+  "pid": 9856
+}

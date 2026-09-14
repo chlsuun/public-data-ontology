@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-14T11:26:01.448945+00:00",
+  "source_snapshot_started_at": "2026-09-14T11:24:56.092563+00:00",
+  "counts": {
+    "registered_portal_candidates": 125,
+    "collected_portals": 32,
+    "project_concepts": 88,
+    "catalog_records": 440356,
+    "documented_fields": 1473095,
+    "declared_output_tokens": 640859,
+    "source_items": 4122591,
+    "items_by_kind": {
+      "catalog_label": 2008637,
+      "documented_field": 1473095,
+      "declared_output": 640859
+    },
+    "source_term_buckets": 720861,
+    "lexical_mapping_occurrences": 260507,
+    "matched_source_items": 257597,
+    "unmapped_source_items": 3864994,
+    "matched_catalog_records": 162791,
+    "portal_concept_pairs": 433,
+    "portal_concept_basis_edges": 619,
+    "control_fields_excluded_from_semantic_matches": 68403,
+    "human_approved_semantic_mappings": 0
+  },
+  "graph_database_bytes": 1527365632,
+  "graph_database_path": ".local/domestic-catalog/knowledge-graph.sqlite3",
+  "source_database_modified": false,
+  "semantic_approval_performed": false
+}

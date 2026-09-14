@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-09-14T07:56:24.694918+00:00",
+  "portal_id": "hrfco",
+  "qa_scope": "Definition availability, literal units and source cautions; not raw-value quality or relationship validation",
+  "catalog_operations": 9,
+  "documented_fields": 73,
+  "fields_with_literal_units": 24,
+  "request_table_row_occurrences": 74,
+  "source_caution": {
+    "evidence_id": "hrfco-open-api-reference",
+    "locator": "p.cauTitle.red parent",
+    "text_as_reported": "본 자료는 T/M 관측소에서 송신된 원시자료 입니다. 이 자료는 측정기기의 오작동, 전파경로상의 혼선, 측정지점의 변화 등에 대한 보정을 거친 최종자료와 다를 수 있습니다. 따라서 사용자는 개인(대중)의 안전과 관련된 의사결정 또는 영리를 목적으로 하는 사업에 본 자료를 사용하기에 앞서 주의를 기울여야 하며, 이를 소홀히 함으로써 발생된 제반책임은 사용자에게 있음을 알려드리니, 이상이 있을 경우 담당자에게 문의바랍니다. 한국수자원공사(02-2150-0317), 한국수력원자력(033-245-2430)에서 제공하는 자료에 대한 자세한 사항은 해당기관에 문의하시기 바랍니다. 2024년 홍수특보발령서 개정에 따라 한강홍수통제소 오픈API 제공 정보 변경( 2024.05.04 ~ ) - 자세한 사항은 공지사항을 참고하여 주시기 바랍니다."
+  },
+  "source_description_review_candidates": [
+    {
+      "dataset_key": "dam-info",
+      "evidence_id": "hrfco-open-api-reference",
+      "locator": "table[11].tbody.tr[1]",
+      "name_as_reported": "OBSNM",
+      "description_as_reported": "강수량  관측소 명칭",
+      "issue": "dam_or_weir_section_description_mentions_rainfall",
+      "correction_applied": false
+    },
+    {
+      "dataset_key": "bo-info",
+      "evidence_id": "hrfco-open-api-reference",
+      "locator": "table[15].tbody.tr[1]",
+      "name_as_reported": "OBSNM",
+      "description_as_reported": "강수량  관측소 명칭",
+      "issue": "dam_or_weir_section_description_mentions_rainfall",
+      "correction_applied": false
+    }
+  ],
+  "datatype_inferred_from_values": false,
+  "unit_spellings_normalized": false,
+  "quality_scores_assigned": false,
+  "raw_value_quality_measured": false,
+  "all_columns_complete": false,
+  "remaining_scope": [
+    "Other public API documents beyond this reference",
+    "Radar-service referral scope reconciliation",
+    "Live responses and observation station code lists"
+  ]
+}

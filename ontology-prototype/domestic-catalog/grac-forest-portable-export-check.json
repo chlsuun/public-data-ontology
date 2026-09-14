@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-14T06:45:05.094987+00:00",
+  "passed": true,
+  "new_source_field_occurrences": 241,
+  "counts_by_role": {
+    "api_response_column": 180,
+    "documented_file_layer_attribute": 61
+  },
+  "portable_file": "inventory/documented-columns.jsonl.gz",
+  "portable_file_size": 44776564,
+  "portable_total_rows_at_read": 1294182,
+  "index_receipt": {
+    "generated_at": "2026-09-14T06:43:35.551835+00:00",
+    "changed_documents": 252,
+    "unmatched_definition_documents": [],
+    "parse_errors": [],
+    "documented_field_occurrences": 1294182,
+    "portable_columns_exported": true,
+    "all_columns_complete": false
+  },
+  "all_columns_complete": false,
+  "scope": "All 241 GRAC/forest documented fields agree exactly with SQLite; no claim that other portals were fully revalidated."
+}
