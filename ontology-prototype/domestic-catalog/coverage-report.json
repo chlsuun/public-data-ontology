@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T12:15:58.939467+00:00",
+  "generated_at": "2026-09-14T15:11:38.596963+00:00",
   "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
   "registered_portal_candidates": 125,
-  "portals_with_catalog_acquisition": 32,
+  "portals_with_catalog_acquisition": 34,
   "portal_counts": [
     {
       "portal_id": "address",
@@ -87,10 +87,10 @@
       "distinct_catalog_keys": 95923,
       "provider_codes_in_source_namespace": 1231,
       "declared_output_tokens": 640859,
-      "documented_columns": 839773,
-      "records_with_documented_columns": 58531,
-      "records_without_documented_columns": 49641,
-      "fields_in_source_definition_documents": 591585
+      "documented_columns": 911685,
+      "records_with_documented_columns": 67106,
+      "records_without_documented_columns": 41066,
+      "fields_in_source_definition_documents": 663497
     },
     {
       "portal_id": "ecos",
@@ -113,6 +113,17 @@
       "records_with_documented_columns": 149,
       "records_without_documented_columns": 378,
       "fields_in_source_definition_documents": 1859
+    },
+    {
+      "portal_id": "fisis",
+      "catalog_records": 740,
+      "distinct_catalog_keys": 740,
+      "provider_codes_in_source_namespace": 0,
+      "declared_output_tokens": 0,
+      "documented_columns": 19603,
+      "records_with_documented_columns": 740,
+      "records_without_documented_columns": 0,
+      "fields_in_source_definition_documents": 19603
     },
     {
       "portal_id": "foodsafety",
@@ -252,10 +263,10 @@
       "distinct_catalog_keys": 268269,
       "provider_codes_in_source_namespace": 383,
       "declared_output_tokens": 0,
-      "documented_columns": 426709,
-      "records_with_documented_columns": 60397,
-      "records_without_documented_columns": 207991,
-      "fields_in_source_definition_documents": 426035
+      "documented_columns": 484085,
+      "records_with_documented_columns": 70653,
+      "records_without_documented_columns": 197735,
+      "fields_in_source_definition_documents": 483411
     },
     {
       "portal_id": "kspo",
@@ -267,6 +278,17 @@
       "records_with_documented_columns": 0,
       "records_without_documented_columns": 183,
       "fields_in_source_definition_documents": 0
+    },
+    {
+      "portal_id": "law",
+      "catalog_records": 195,
+      "distinct_catalog_keys": 195,
+      "provider_codes_in_source_namespace": 0,
+      "declared_output_tokens": 0,
+      "documented_columns": 3210,
+      "records_with_documented_columns": 180,
+      "records_without_documented_columns": 15,
+      "fields_in_source_definition_documents": 3210
     },
     {
       "portal_id": "library",
@@ -357,10 +379,10 @@
       "fields_in_source_definition_documents": 4523
     }
   ],
-  "total_catalog_records": 440356,
-  "distinct_catalog_keys_across_portal_namespaces": 427988,
+  "total_catalog_records": 441291,
+  "distinct_catalog_keys_across_portal_namespaces": 428923,
   "declared_output_tokens": 640859,
-  "documented_column_occurrences": 1524621,
+  "documented_column_occurrences": 1676722,
   "quarantined_source_records": 62,
   "all_domestic_portals_complete": false,
   "all_columns_complete": false,
@@ -369,7 +391,7 @@
   "statistical_associations_verified": 0,
   "semantic_relationships_approved": 0,
   "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
-  "fields_in_source_definition_documents": 1275759,
+  "fields_in_source_definition_documents": 1427860,
   "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
   "csv_first_record_header_candidates": 16385,
   "bulk_observation_files_downloaded": 0,

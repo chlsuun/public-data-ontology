@@ -9,14 +9,18 @@ const context=vm.createContext({fetch,URL,Response,Blob,DecompressionStream,Text
   self:{location:{href:new URL('graph-worker.js',base).href}}});
 vm.runInContext(await fs.readFile(new URL('../docs/graph-worker.js',import.meta.url),'utf8'),context);
 const query=(endpoint,params={})=>{context.endpoint=endpoint;context.params=params;return vm.runInContext('query(endpoint,params,()=>{})',context);};
+const overview=await fetch(new URL('graph-data/overview.json',base)).then(r=>r.json());
 const cases=[
- ['paths',{}],['paths',{mode:'all',page:'171775'}],
+ ['paths',{}],['paths',{mode:'all',page:String(Math.ceil(overview.counts.source_items/24))}],
  ['paths',{portal:'kosis',concept:'measure:unemployment-rate'}],
  ['paths',{portal:'kosis',concept:'measure:unemployment-rate',page:'2'}],
  ['paths',{portal:'kosis',concept:'measure:unemployment-rate',basis:'documented_field',q:'실업'}],
  ['paths',{portal:'hrfco',mode:'all',q:'%_'}],
  ['registrations',{}],['registrations',{portal:'busan'}],
  ['registrations',{portal:'busan',page:'523'}],['registrations',{portal:'hrfco',q:'수위'}],
+ ['registrations',{portal:'law'}],['registrations',{portal:'fisis'}],
+ ['paths',{portal:'law',mode:'all',q:'법령'}],
+ ['paths',{portal:'fisis',mode:'all',record:'fisis-SDSA001V'}],
 ];
 let checked=0;
 for(const [endpoint,params] of cases){
@@ -35,6 +39,6 @@ assert.ok(scoped.total>0&&scoped.results.every(i=>i.record_id===item.record_id))
 for(const params of [{portal:'nonexistent'},{basis:'bad'},{page:'0'},{concept:'fake'},{record:'missing'}]){
  await assert.rejects(()=>query('paths',params));checked++;
 }
-const report={passed:true,cases:checked,query_totals_and_result_ids_match_local_api:true,receipt_verified:true};
+const report={passed:true,snapshot_at:overview.generated_at,cases:checked,query_totals_and_result_ids_match_local_api:true,receipt_verified:true};
 await fs.writeFile(new URL('../docs/graph-data/query-validation.json',import.meta.url),JSON.stringify(report,null,2));
 console.log(JSON.stringify(report));

@@ -16,6 +16,9 @@ html=html.replace('수집 자료 상세', '이 자료의 원문 항목')
 html=html.replace('자료 상세 ↗', '원문 항목 ↗')
 html=html.replace('<a href="?view=paths&mode=all&record=${encodeURIComponent(r.id)}" target="_blank" rel="noopener noreferrer">이 자료의 원문 항목 ↗</a>', '<a href="${esc(safe(r.url))}" target="_blank" rel="noopener noreferrer">공식 자료 페이지 ↗</a>')
 html=html.replace('공공데이터 전체 지식 그래프</h1>', '공공데이터 전체 지식 그래프</h1><p class="sub">팀 공유용 스냅샷 · 로그인 없이 탐색할 수 있습니다.</p>')
+html=html.replace('<main class="wrap">', '<main class="wrap"><p class="notice">프로토타입 설계에 필요한 자료 확보를 마쳐 대량 수집을 종료했습니다. <a href="collection.html">최종 수집 범위·종료 판단·다음 작업 보기 ↗</a></p>', 1)
+if 'href="collection.html"' not in html:
+    html=html.replace('</header>', '</header><div class="wrap"><p class="notice">프로토타입 설계에 필요한 자료 확보를 마쳐 대량 수집을 종료했습니다. <a href="collection.html">최종 수집 범위·종료 판단·다음 작업 보기 ↗</a></p></div>', 1)
 old="history.replaceState(null,'','/concepts/graph?'+new URLSearchParams(Object.entries(f).filter(([k,v])=>v&&!(k==='mode'&&v==='mapped'))))"
 assert old in html
 html=html.replace(old,'syncState()')

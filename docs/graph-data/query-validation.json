@@ -1,6 +1,7 @@
 {
   "passed": true,
-  "cases": 17,
+  "snapshot_at": "2026-09-14T16:13:46.793562+00:00",
+  "cases": 21,
   "query_totals_and_result_ids_match_local_api": true,
   "receipt_verified": true
 }

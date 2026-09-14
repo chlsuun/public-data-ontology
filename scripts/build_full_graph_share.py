@@ -8,6 +8,7 @@ import hashlib
 import json
 import sqlite3
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
@@ -93,13 +94,25 @@ def main():
     # Receipts only expose the fields used by the source inspector, never raw
     # responses, local paths, cookies or HTTP authorization headers.
     receipts = {}
-    evidence = SOURCE.parent/'evidence'
-    for n, eid in enumerate(sorted(e for e in evidence_ids if e), 1):
+    evidence = (SOURCE.parent/'evidence').resolve()
+    def load_receipt(eid):
         path = (evidence/(eid+'.json')).resolve()
-        if path.is_relative_to(evidence.resolve()) and path.is_file():
-            obj = json.loads(path.read_text(encoding='utf8'))
-            receipts[eid] = {k:clean(obj.get(k)) for k in ('id','requested_url','retrieved_at','status','sha256')}
-        if n % 10000 == 0: print('EXPORTED_RECEIPTS', n, '/', len(evidence_ids), flush=True)
+        if not path.is_relative_to(evidence):
+            raise ValueError('Receipt path outside the evidence directory')
+        try:
+            return eid, json.loads(path.read_bytes())
+        except FileNotFoundError:
+            return eid, None
+    receipt_ids = sorted(e for e in evidence_ids if e)
+    # Bound both open files and queued work. These are local immutable metadata
+    # reads; no new source requests are issued during publication.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for start in range(0, len(receipt_ids), 512):
+            for eid, obj in pool.map(load_receipt, receipt_ids[start:start+512]):
+                if obj is not None:
+                    receipts[eid] = {k:clean(obj.get(k)) for k in ('id','requested_url','retrieved_at','status','sha256')}
+            if start // 10000 != (start + 512) // 10000:
+                print('EXPORTED_RECEIPTS', min(start+512,len(receipt_ids)), '/', len(receipt_ids), flush=True)
     receipt_groups = {}
     for eid, receipt in receipts.items():
         prefix = hashlib.sha256(eid.encode('utf8')).hexdigest()[:2]
@@ -112,7 +125,8 @@ def main():
     report = {'passed': True, 'snapshot_at': manifest['snapshot_at'], 'source_items': count, 'catalog_records': record_count,
         'matched_source_items': mapped, 'mapping_occurrences': mappings, 'item_shards': len(manifest['items']),
         'record_shards': len(manifest['records']), 'compressed_bytes': total_bytes, 'receipt_count': len(receipts),
-        'redacted_url_parameters': redactions, 'sampling': False}
+        'redacted_url_parameters': redactions, 'sampling': False,
+        'referenced_receipts':len(receipt_ids), 'missing_receipts':len(receipt_ids)-len(receipts)}
     write_json(OUT/'export-report.json', report)
     print(json.dumps(report, ensure_ascii=False), flush=True)
     db.close()

@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-09-14T15:12:50.063500+00:00",
+  "decision_authority": "Codex; user delegated sufficiency judgment on 2026-09-15 KST",
+  "purpose": "국내 전 분야 공공데이터 탐색 온톨로지 프로토타입의 개념·관계 설계를 시작할 자료 확보",
+  "decision": "sufficient_for_prototype",
+  "decision_basis": "현재 프로젝트 목적에 대한 설계 판단이다. 국가 전체 수집률이나 통계적 대표성을 판정하는 기준이 아니다.",
+  "recommended_collection_action": "stop_bulk_collection_and_use_targeted_followup",
+  "criteria": [
+    {
+      "criterion": "선정한 16개 탐색 분야 각각에 검토할 출처 사례가 있다.",
+      "passed": true
+    },
+    {
+      "criterion": "8개 개념 역할(분야·지표·대상·분류·공간·시간·식별자·단위)에 출처 사례가 있다.",
+      "passed": true
+    },
+    {
+      "criterion": "포털→등록정보→명세→근거 구조를 추적하고 제공기관의 원문 표기를 검토할 수 있다.",
+      "passed": true
+    },
+    {
+      "criterion": "파일·API·통계표의 서로 다른 명세 형식을 비교할 수 있다.",
+      "passed": true
+    },
+    {
+      "criterion": "기존 개념 사례의 등록정보와 근거 파일이 유지되며 출처 대조 보고서가 있다.",
+      "passed": true
+    },
+    {
+      "criterion": "미완료 범위와 의미 관계 승인 전 상태를 구분해 보존한다.",
+      "passed": true
+    }
+  ],
+  "national_complete": false,
+  "all_columns_complete": false,
+  "ontology_complete": false,
+  "production_ready": false,
+  "catalog_snapshot_at": "2026-09-14T15:11:38.596963+00:00",
+  "counts": {
+    "registered_portal_candidates": 125,
+    "portals_with_catalog_acquisition": 34,
+    "total_catalog_records": 441291,
+    "fields_in_source_definition_documents": 1427860,
+    "documented_column_occurrences": 1676722
+  },
+  "record_provenance": {
+    "total": 441291,
+    "url_present": 441291,
+    "receipt_id_present": 441291,
+    "locator_present": 441291,
+    "reported_provider_name_present": 422963
+  },
+  "field_metadata_presence": {
+    "occurrences": 1676722,
+    "description": 1151103,
+    "unit": 44312,
+    "datatype": 590290,
+    "receipt_id": 1676722,
+    "note": "필드 출현 기준이며 정확성·완전성 품질 점수나 고유 변수 수가 아니다."
+  },
+  "schema_formats": [
+    {
+      "kind": null,
+      "documents": 38800,
+      "source_field_occurrences": 237669
+    },
+    {
+      "kind": "API",
+      "documents": 12521,
+      "source_field_occurrences": 234738
+    },
+    {
+      "kind": "FILE",
+      "documents": 79177,
+      "source_field_occurrences": 433163
+    },
+    {
+      "kind": "LINK",
+      "documents": 1340,
+      "source_field_occurrences": 0
+    },
+    {
+      "kind": "OPENAPI",
+      "documents": 183,
+      "source_field_occurrences": 2725
+    },
+    {
+      "kind": "STD",
+      "documents": 179,
+      "source_field_occurrences": 3523
+    },
+    {
+      "kind": "documented_api_service",
+      "documents": 115,
+      "source_field_occurrences": 2810
+    },
+    {
+      "kind": "documented_operation_variant",
+      "documents": 626,
+      "source_field_occurrences": 4709
+    },
+    {
+      "kind": "download_dataset_category",
+      "documents": 31,
+      "source_field_occurrences": 1117
+    },
+    {
+      "kind": "financial_statistics_table",
+      "documents": 736,
+      "source_field_occurrences": 19562
+    },
+    {
+      "kind": "public_api_operation_definition",
+      "documents": 199,
+      "source_field_occurrences": 3251
+    },
+    {
+      "kind": "statistical_table",
+      "documents": 71271,
+      "source_field_occurrences": 484593
+    }
+  ],
+  "concept_snapshot_at": "2026-09-14T10:31:40.563999+00:00",
+  "concept_facets": {
+    "Topic": 16,
+    "Measure": 25,
+    "EntityType": 13,
+    "Dimension": 7,
+    "SpatialReference": 7,
+    "TemporalReference": 5,
+    "IdentifierScheme": 9,
+    "Unit": 6
+  },
+  "facets_with_selected_source_examples": {
+    "Topic": 16,
+    "Measure": 25,
+    "EntityType": 13,
+    "Dimension": 7,
+    "SpatialReference": 7,
+    "TemporalReference": 5,
+    "IdentifierScheme": 9,
+    "Unit": 6
+  },
+  "topics": [
+    {
+      "id": "topic:population",
+      "label": "인구·가구",
+      "candidate_occurrences": 9527,
+      "selected_source_examples": 6
+    },
+    {
+      "id": "topic:employment",
+      "label": "고용·노동",
+      "candidate_occurrences": 9893,
+      "selected_source_examples": 6
+    },
+    {
+      "id": "topic:economy",
+      "label": "경제·금융",
+      "candidate_occurrences": 4131,
+      "selected_source_examples": 6
+    },
+    {
+      "id": "topic:industry",
+      "label": "산업·기업",
+      "candidate_occurrences": 2681,
+      "selected_source_examples": 7
+    },
+    {
+      "id": "topic:transport",
+      "label": "교통·물류",
+      "candidate_occurrences": 1492,
+      "selected_source_examples": 6
+    },
+    {
+      "id": "topic:land",
+      "label": "국토·주택·주소",
+      "candidate_occurrences": 3893,
+      "selected_source_examples": 8
+    },
+    {
+      "id": "topic:environment",
+      "label": "환경·기상·수문",
+      "candidate_occurrences": 7332,
+      "selected_source_examples": 7
+    },
+    {
+      "id": "topic:agriculture",
+      "label": "농림·수산·식품",
+      "candidate_occurrences": 15745,
+      "selected_source_examples": 8
+    },
+    {
+      "id": "topic:health",
+      "label": "보건·의료",
+      "candidate_occurrences": 11760,
+      "selected_source_examples": 12
+    },
+    {
+      "id": "topic:welfare",
+      "label": "복지·사회",
+      "candidate_occurrences": 11894,
+      "selected_source_examples": 12
+    },
+    {
+      "id": "topic:education",
+      "label": "교육",
+      "candidate_occurrences": 6917,
+      "selected_source_examples": 12
+    },
+    {
+      "id": "topic:culture",
+      "label": "문화·관광·체육",
+      "candidate_occurrences": 4440,
+      "selected_source_examples": 10
+    },
+    {
+      "id": "topic:administration",
+      "label": "행정·재정",
+      "candidate_occurrences": 4624,
+      "selected_source_examples": 9
+    },
+    {
+      "id": "topic:law",
+      "label": "정치·법률",
+      "candidate_occurrences": 361,
+      "selected_source_examples": 4
+    },
+    {
+      "id": "topic:science",
+      "label": "과학·기술·정보통신",
+      "candidate_occurrences": 9349,
+      "selected_source_examples": 10
+    },
+    {
+      "id": "topic:safety",
+      "label": "안전·재난",
+      "candidate_occurrences": 5819,
+      "selected_source_examples": 8
+    }
+  ],
+  "selected_mappings_checked": 703,
+  "missing_mapping_records": [],
+  "selected_receipt_files_checked": 294,
+  "receipt_issues": [],
+  "prior_source_checks": {
+    "concepts/validation-report.json": {
+      "generated_at": "2026-09-14T11:08:57.027929+00:00",
+      "passed": true
+    },
+    "concepts/graph-validation.json": {
+      "generated_at": "2026-09-14T11:41:34.133817+00:00",
+      "passed": true
+    },
+    "law-source-check.json": {
+      "generated_at": "2026-09-14T13:19:57.731860+00:00",
+      "passed": true
+    },
+    "fisis-source-check.json": {
+      "generated_at": "2026-09-14T14:30:17.081479+00:00",
+      "passed": true
+    }
+  },
+  "graph_snapshot_at": "2026-09-14T11:25:59.731267+00:00",
+  "graph_counts": {
+    "registered_portal_candidates": 125,
+    "collected_portals": 32,
+    "project_concepts": 88,
+    "catalog_records": 440356,
+    "documented_fields": 1473095,
+    "declared_output_tokens": 640859,
+    "source_items": 4122591,
+    "items_by_kind": {
+      "catalog_label": 2008637,
+      "documented_field": 1473095,
+      "declared_output": 640859
+    },
+    "source_term_buckets": 720861,
+    "lexical_mapping_occurrences": 260507,
+    "matched_source_items": 257597,
+    "unmapped_source_items": 3864994,
+    "matched_catalog_records": 162791,
+    "portal_concept_pairs": 433,
+    "portal_concept_basis_edges": 619,
+    "control_fields_excluded_from_semantic_matches": 68403,
+    "human_approved_semantic_mappings": 0
+  },
+  "limitations": [
+    "125개 후보는 국내 모든 포털의 확정 모집단이 아니며 34개 수집 포털도 부분 수집이다.",
+    "16개 분야와 88개 개념은 프로젝트 초안이다. 출처 사례 확보는 분야 내 모든 개념·기관·자료의 포괄을 뜻하지 않는다.",
+    "개념 사례는 이름·문서 기반 후보이며 사람의 의미 검증은 남아 있다. 일부 과거 사례에 세부 원문 위치가 없다.",
+    "다른 포털의 기관·데이터셋 중복 정리와 코드·단위·시간·공간의 호환성 검증이 남아 있다.",
+    "라이선스·갱신일·단위 등 누락 정보와 명세 미확보·403/429·인증·서버/파싱 오류는 미해결로 유지한다.",
+    "관측값 품질·결측률·통계적 상관관계는 검사하지 않았다. 데이터 제공·거래 승인을 위한 준비 완료 판정이 아니다.",
+    "공유 지식그래프는 별도 고정 스냅샷이다. 수집 DB의 최신 건수와 같지 않다."
+  ],
+  "next_phase": [
+    "기존 88개 초안 개념과 703개 선별 검토 항목부터 뜻·대상·단위·코드 체계·적용 시점을 검토한다.",
+    "의미가 다른 동명이항과 동일 개념의 다른 이름을 구분하고 근거와 검토자를 기록한다.",
+    "관계 검토에서 특정 명세·코드표·라이선스가 부족한 경우 해당 출처만 범위를 정해 추가 수집한다.",
+    "실제 사용 목적이 데이터 결합·분석·제공으로 확장되면 그 목적에 맞춘 값 QA와 조건 검증을 별도로 수행한다."
+  ],
+  "subsequent_graph_publication": {
+    "snapshot_at": "2026-09-14T16:13:46.793562+00:00",
+    "counts": {
+      "registered_portal_candidates": 125,
+      "collected_portals": 34,
+      "project_concepts": 88,
+      "catalog_records": 441291,
+      "documented_fields": 1676722,
+      "declared_output_tokens": 640859,
+      "source_items": 4326218,
+      "items_by_kind": {
+        "catalog_label": 2008637,
+        "documented_field": 1676722,
+        "declared_output": 640859
+      },
+      "source_term_buckets": 778256,
+      "lexical_mapping_occurrences": 280186,
+      "matched_source_items": 277268,
+      "unmapped_source_items": 4048950,
+      "matched_catalog_records": 173691,
+      "portal_concept_pairs": 434,
+      "portal_concept_basis_edges": 620,
+      "control_fields_excluded_from_semantic_matches": 68839,
+      "human_approved_semantic_mappings": 0
+    },
+    "note": "충분성 판단 후 공유 요청에 따라 최종 수집 DB로 그래프를 갱신했다. 위 graph_counts는 판단 당시의 과거 스냅샷이다.",
+    "url": "https://chlsuun.github.io/public-data-ontology/"
+  }
+}

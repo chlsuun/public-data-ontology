@@ -563,10 +563,10 @@
         "distinct_catalog_keys": 95923,
         "provider_codes_in_source_namespace": 1231,
         "declared_output_tokens": 640859,
-        "documented_columns": 839773,
-        "records_with_documented_columns": 58531,
-        "records_without_documented_columns": 49641,
-        "fields_in_source_definition_documents": 591585
+        "documented_columns": 911685,
+        "records_with_documented_columns": 67106,
+        "records_without_documented_columns": 41066,
+        "fields_in_source_definition_documents": 663497
       },
       "collection_status": "catalog_acquired_columns_partial",
       "all_portal_datasets_collected": false,
@@ -758,10 +758,10 @@
         "distinct_catalog_keys": 268269,
         "provider_codes_in_source_namespace": 383,
         "declared_output_tokens": 0,
-        "documented_columns": 426709,
-        "records_with_documented_columns": 60397,
-        "records_without_documented_columns": 207991,
-        "fields_in_source_definition_documents": 426035
+        "documented_columns": 484085,
+        "records_with_documented_columns": 70653,
+        "records_without_documented_columns": 197735,
+        "fields_in_source_definition_documents": 483411
       },
       "collection_status": "catalog_acquired_columns_partial",
       "all_portal_datasets_collected": false,
@@ -3938,20 +3938,24 @@
       "entry_kind": "data_service_candidate",
       "evidence_ids": [
         "its",
-        "expressway"
+        "expressway",
+        "its-intro-20260914"
       ],
       "navigation_candidates": [],
       "data_api_tested": false,
       "catalog_collected": false,
       "operational_status": "not_verified",
       "license_review": "not_reviewed",
-      "notes": [],
+      "notes": [
+        "2026-09-14 공개 Open API 소개 HTTPS 조회에서 인증서 체인 검증 실패. 원인 미확정, 보안 검증을 해제하지 않았고 목록 확보로 집계하지 않음."
+      ],
       "next_action": "공식 안내·대상 본문과 현행 제공 경로 재확인",
       "scope": "domestic_portal",
       "current_collection": null,
       "collection_status": "catalog_and_columns_pending",
       "all_portal_datasets_collected": false,
-      "all_portal_columns_collected": false
+      "all_portal_columns_collected": false,
+      "qa_report": "its-access-qa.json"
     },
     {
       "id": "expressway",
@@ -4361,10 +4365,14 @@
       "operator": null,
       "responsible_organization_candidate": null,
       "official_referrals": [],
-      "observation_status": "body_observed",
-      "entry_kind": "data_service_candidate",
+      "observation_status": "public_api_documentation_and_metadata_selectors_observed",
+      "entry_kind": "public_financial_statistics_portal",
       "evidence_ids": [
-        "fisis"
+        "fisis",
+        "fisis-api-intro-20260914",
+        "fisis-api-spec-20260914",
+        "fisis-fsv101-20260914",
+        "fisis-stats-ui-101-20260914"
       ],
       "navigation_candidates": [
         {
@@ -4379,16 +4387,29 @@
         }
       ],
       "data_api_tested": false,
-      "catalog_collected": false,
-      "operational_status": "not_verified",
+      "catalog_collected": true,
+      "operational_status": "public_catalog_and_metadata_accessible_keyed_api_not_called",
       "license_review": "not_reviewed",
-      "notes": [],
-      "next_action": "안내 경로에서 전체 목록 획득 방식·원본 분류·인증 조건 확인",
+      "notes": [
+        "2026-09-14 공개 UI의 권역/분류/통계표 목록과 항목·메타데이터 조회 수집. 인증키가 필요한 Open API는 공식 설명서 4종만 수집하고 호출하지 않음. 회사 제출 업무보고서 기반이며 공식 안내는 국가승인통계가 아니라고 명시함."
+      ],
+      "next_action": "공개 통계표 목록의 전 분류와 보고기간별 항목·용어 해설을 대조. 동적 열 정의·미확보 명세·이용조건은 미해결로 관리.",
       "scope": "domestic_portal",
-      "current_collection": null,
-      "collection_status": "catalog_and_columns_pending",
+      "current_collection": {
+        "portal_id": "fisis",
+        "catalog_records": 740,
+        "distinct_catalog_keys": 740,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 19603,
+        "records_with_documented_columns": 740,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 19603
+      },
+      "collection_status": "catalog_acquired_columns_partial",
       "all_portal_datasets_collected": false,
-      "all_portal_columns_collected": false
+      "all_portal_columns_collected": false,
+      "qa_report": "fisis-source-qa.json"
     },
     {
       "id": "openfiscal",
@@ -4852,8 +4873,8 @@
           "scope": "link_to_service_domain; exact dataset or API identity not established"
         }
       ],
-      "observation_status": "response_only",
-      "entry_kind": "data_service_candidate",
+      "observation_status": "public_api_documentation_observed",
+      "entry_kind": "public_data_api_documentation_portal",
       "evidence_ids": [
         "law",
         "directory-local",
@@ -4861,20 +4882,40 @@
         "localdata-migration",
         "kvic-api",
         "hrdk-api",
-        "nec-data"
+        "nec-data",
+        "law-guide-list-20260914"
       ],
-      "navigation_candidates": [],
+      "navigation_candidates": [
+        {
+          "label": "LAW OPEN DATA API 가이드 목록",
+          "url": "https://open.law.go.kr/LSO/openApi/guideList.do",
+          "evidence_id": "law-guide-list-20260914"
+        }
+      ],
       "data_api_tested": false,
-      "catalog_collected": false,
-      "operational_status": "not_verified",
+      "catalog_collected": true,
+      "operational_status": "public_documentation_accessible_content_api_not_tested",
       "license_review": "not_reviewed",
-      "notes": [],
-      "next_action": "공식 안내·대상 본문과 현행 제공 경로 재확인",
+      "notes": [
+        "2026-09-14 공개 안내 195개 확보. 화면 총계 191개와 불일치, 응답 명세 15개 미관측. API 기능별 안내이며 개별 법령·판례 목록 수가 아님."
+      ],
+      "next_action": "총계 191/실제 안내 195의 차이와 명세 미관측 15개를 공식 문서로 조사. 법령 내용 API는 미호출, 재사용 조건 미검토.",
       "scope": "domestic_portal",
-      "current_collection": null,
-      "collection_status": "catalog_and_columns_pending",
+      "current_collection": {
+        "portal_id": "law",
+        "catalog_records": 195,
+        "distinct_catalog_keys": 195,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 3210,
+        "records_with_documented_columns": 180,
+        "records_without_documented_columns": 15,
+        "fields_in_source_definition_documents": 3210
+      },
+      "collection_status": "catalog_acquired_columns_partial",
       "all_portal_datasets_collected": false,
-      "all_portal_columns_collected": false
+      "all_portal_columns_collected": false,
+      "qa_report": "law-source-qa.json"
     },
     {
       "id": "assembly",

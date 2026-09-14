@@ -4,11 +4,11 @@
 
 ## 최신 전체 지식 그래프 — 바로 공유하기
 
-**[로그인 없이 전체 지식 그래프 열기](https://chlsuun.github.io/public-data-ontology/)** · **[공유 범위와 사용 안내](docs/graph-sharing.md)** · **[코드·설계서 브랜치](https://github.com/chlsuun/public-data-ontology/tree/codex/knowledge-graph-sharing-20260914)**
+**[로그인 없이 전체 지식 그래프 열기](https://chlsuun.github.io/public-data-ontology/)** · **[공유 범위와 사용 안내](docs/graph-sharing.md)** · **[코드·설계서 브랜치](https://github.com/chlsuun/public-data-ontology/tree/codex/ontology-collection-share-20260915)**
 
-2026-09-14 그래프 스냅샷에는 **수집 포털 32곳, 공통 개념 초안 88개, 포털–개념 연결 후보 433쌍**이 있다. 등록 자료 440,356건과 원문 항목 4,122,591개를 표본 제한 없이 함께 공유하며, 포털 → 등록 자료 → 원문 항목 → 공통 개념 순서로 근거를 확인한다. 의미 연결은 사람의 검토 전 후보이며 통계적 상관관계를 계산한 결과가 아니다.
+2026-09-15 공유 그래프 스냅샷에는 **수집 포털 34곳, 공통 개념 초안 88개, 포털–개념 연결 후보 434쌍**이 있다. 등록 자료 441,291건과 원문 항목 4,326,218개를 표본 제한 없이 함께 공유하며, 포털 → 등록 자료 → 원문 항목 → 공통 개념 순서로 근거를 확인한다. 의미 연결은 사람의 검토 전 후보이며 통계적 상관관계를 계산한 결과가 아니다.
 
-GitHub Pages에서 현재 필터와 페이지의 주소를 복사하면 팀원도 같은 화면을 볼 수 있다. 로컬 수집은 별도로 진행되므로 이 공유본은 고정 시점의 스냅샷이다.
+GitHub Pages에서 현재 필터와 페이지의 주소를 복사하면 팀원도 같은 화면을 볼 수 있다. 수집 종료 시점의 등록정보와 명세를 반영한 고정 스냅샷이다. **[최종 수집 현황·종료 판단·다음 작업](https://chlsuun.github.io/public-data-ontology/collection.html)**도 함께 공유할 수 있다.
 
 **현재 작업: [국내 포털·기관·칼럼 수집 v0.5](ontology-prototype/domestic-catalog/README.md)** — 국내 전 분야를 대상으로 공식 전체 목록과 공개 칼럼 명세를 수집했다. [현재 국내 model.json](ontology-prototype/domestic-catalog/model.json), [포털별 수집 상태](ontology-prototype/domestic-catalog/portal-coverage.md), 검색 화면 실행 안내를 여기에서 확인한다. 전체 국내 포털·칼럼 수집 완료는 아니며, 출처별 확보량과 미수집 범위를 명시한다. 아래 v0.3 데모의 해외 자료는 과거 설계 예시다.
 
@@ -26,7 +26,7 @@ GitHub Pages에서 현재 필터와 페이지의 주소를 복사하면 팀원�
 
 GitHub의 HTML 파일 화면은 소스 보기다. 이 브랜치에서 **Code → Download ZIP** 후 압축을 풀고 `docs/ontology-explorer.html`을 열면 설치·로그인·API 키 없이 그래프가 실행된다. 원문 출처 링크를 열 때만 인터넷이 필요하다.
 
-그래프를 공유할 때는 [웹 실행 링크](https://chlsuun.github.io/public-data-ontology/)를, 코드를 공유할 때는 [현재 작업 브랜치 링크](https://github.com/chlsuun/public-data-ontology/tree/codex/knowledge-graph-sharing-20260914)를 사용한다. 저장소는 공개 상태로, 로그인 없이 열 수 있다.
+그래프를 공유할 때는 [웹 실행 링크](https://chlsuun.github.io/public-data-ontology/)를, 코드를 공유할 때는 [현재 작업 브랜치 링크](https://github.com/chlsuun/public-data-ontology/tree/codex/ontology-collection-share-20260915)를 사용한다. 저장소는 공개 상태로, 로그인 없이 열 수 있다.
 
 ## 어떤 구조인가
 

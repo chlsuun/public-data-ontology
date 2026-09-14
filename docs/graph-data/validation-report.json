@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "source_items_verified": 4122591,
-  "registrations_verified": 440356,
-  "mapping_occurrences_verified": 260507,
-  "matched_items_verified": 257597,
-  "receipts_verified": 115904,
+  "source_items_verified": 4326218,
+  "registrations_verified": 441291,
+  "mapping_occurrences_verified": 280186,
+  "matched_items_verified": 277268,
+  "receipts_verified": 141795,
   "every_row_compared_to_sqlite": true,
   "every_shard_sha256_checked": true
 }

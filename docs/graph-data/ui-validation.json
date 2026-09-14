@@ -1,13 +1,16 @@
 {
   "passed": true,
+  "snapshot_at": "2026-09-14T16:13:46.793562+00:00",
   "base_url": "http://127.0.0.1:8767/",
   "checks": [
-    "full overview 32 portals / 88 concepts / 433 pairs",
-    "fullscreen graph fits all nodes",
-    "dictionary 88 concepts and unemployment search",
-    "KOSIS unemployment 40 results across 24 + 16 rows",
-    "URL restores view filters and page 2 after reload",
-    "source inspector official URL locator receipt timestamp and SHA256",
-    "Busan registration 12551 records includes 0-item registrations"
+    "collection page shows 34 portals / 441291 registrations / 1427860 source fields / 88 draft concepts",
+    "collection desktop metric cards render in four columns",
+    "collection source table links to portal-filtered registrations",
+    "FISIS filtered URL restores selection and renders actual source records",
+    "graph overview renders 34 portals / 434 pairs / 4326218 source items",
+    "graph collection status banner links to the collection page"
+  ],
+  "not_rerun": [
+    "fullscreen interaction and mobile viewport behavior from prior snapshot"
   ]
 }

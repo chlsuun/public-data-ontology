@@ -1,0 +1,90 @@
+{
+  "requested_at": "2026-09-14T15:06:42.912503+00:00",
+  "reason": "sufficient_for_prototype",
+  "method": "existing cooperative stop markers; finish in-flight requests and indexing without forced termination",
+  "marker_files": [
+    "data-go-file.stop",
+    "kosis.stop",
+    "seoul.stop",
+    "data-go-api.stop",
+    "data-go-std.stop",
+    "assembly.stop",
+    "culture.stop",
+    "indexer.stop",
+    "culture-files.stop",
+    "ecos.stop",
+    "yeongdeungpo.stop",
+    "incheon.stop",
+    "daegu.stop",
+    "seoul-statistics.stop",
+    "mafra.stop",
+    "busan.stop",
+    "chungnam.stop",
+    "jeonbuk.stop",
+    "mafra-previews.stop",
+    "expressway.stop",
+    "supervisor.stop"
+  ],
+  "queue_exhaustion_claimed": false,
+  "data_deleted": false,
+  "browser_should_remain_available": true,
+  "runtime_state": "stopped",
+  "automation_state": "deleted",
+  "automation_id": "automation",
+  "policy_guards": [
+    "supervise.ps1 refuses bulk collection while policy disables it",
+    "resume_runtime.ps1 preserves intentional stop",
+    "check_runtime.ps1 expects inactive collectors and supervisor with preserved markers"
+  ],
+  "finalized_at": "2026-09-14T15:12:51.638054+00:00",
+  "final_coverage_at": "2026-09-14T15:11:38.596963+00:00",
+  "final_counts": {
+    "registered_portal_candidates": 125,
+    "portals_with_catalog_acquisition": 34,
+    "total_catalog_records": 441291,
+    "fields_in_source_definition_documents": 1427860,
+    "documented_column_occurrences": 1676722
+  },
+  "final_index_check": {
+    "generated_at": "2026-09-14T15:12:07.404491+00:00",
+    "changed_documents": 0,
+    "unmatched_definition_documents": [],
+    "parse_errors": [],
+    "documented_field_occurrences": 1676722,
+    "portable_columns_exported": true,
+    "all_columns_complete": false
+  },
+  "portable_export_rows": 1676722,
+  "counts_match_database_and_http": true,
+  "browser_and_graph_http_ok": true,
+  "source_files_and_database_preserved": true,
+  "unfinished_queues_preserved": {
+    "definition-collection-report.json": {
+      "processed": 77604,
+      "target_count": 83691,
+      "remaining": 6087,
+      "status_counts": {
+        "column_definition_observed": 47725,
+        "no_definition_table_observed": 29446,
+        "fetch_unresolved": 433
+      },
+      "queue_exhausted": false,
+      "generated_at": "2026-09-14T15:06:47.527343+00:00"
+    },
+    "kosis-collection-report.json": {
+      "processed": 70590,
+      "target_count": 266688,
+      "remaining": 196098,
+      "status_counts": {
+        "statistical_definition_observed": 70583,
+        "fetch_unresolved": 6,
+        "parse_unresolved": 1
+      },
+      "queue_exhausted": false,
+      "generated_at": "2026-09-14T15:06:46.558827+00:00"
+    }
+  },
+  "runtime_health_report": "workers-20260914T1512-check.json",
+  "runtime_shutdown_verified": true,
+  "no_force_termination_used": true
+}

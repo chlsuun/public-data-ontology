@@ -99,6 +99,7 @@
       "inventory/daegu-catalog-records.jsonl.gz",
       "inventory/ecos-catalog-records.jsonl.gz",
       "inventory/expressway-catalog-records.jsonl.gz",
+      "inventory/fisis-catalog-records.jsonl.gz",
       "inventory/foodsafety-catalog-records.jsonl.gz",
       "inventory/forest-catalog-records.jsonl.gz",
       "inventory/grac-catalog-records.jsonl.gz",
@@ -111,6 +112,7 @@
       "inventory/kma-api-catalog-records.jsonl.gz",
       "inventory/kocca-api-catalog-records.jsonl.gz",
       "inventory/kspo-catalog-records.jsonl.gz",
+      "inventory/law-catalog-records.jsonl.gz",
       "inventory/library-catalog-records.jsonl.gz",
       "inventory/mafra-catalog-records.jsonl.gz",
       "inventory/opendart-catalog-records.jsonl.gz",
@@ -160,14 +162,31 @@
     "concept_term_inventory": "concepts/source-terms.jsonl.gz",
     "concept_review_queue": "concepts/review-queue.json",
     "concept_rdf": "concepts/concept-model.ttl",
-    "knowledge_graph_overview": "concepts/graph-overview.json"
+    "knowledge_graph_overview": "concepts/graph-overview.json",
+    "law_response_columns": "inventory/law-columns-snapshot.jsonl.gz",
+    "law_source_qa": "law-source-qa.json",
+    "law_source_check": "law-source-check.json",
+    "law_import_check": "law-import-check.json",
+    "law_readme": "LAW-README.md",
+    "law_browser_source_check": "law-browser-source-check.json",
+    "fisis_catalog_paths": "inventory/fisis-catalog-paths.json",
+    "fisis_definition_queue": "inventory/fisis-definition-queue.json",
+    "fisis_source_qa": "fisis-source-qa.json",
+    "fisis_readme": "FISIS-README.md",
+    "fisis_company_selector_nodes": "inventory/fisis-company-selector-records.jsonl.gz",
+    "fisis_company_selector_qa": "fisis-companies-source-check.json",
+    "fisis_glossary": "inventory/fisis-glossary-snapshot.jsonl.gz",
+    "fisis_audited_columns": "inventory/fisis-audited-columns-snapshot.jsonl.gz",
+    "fisis_source_check": "fisis-source-check.json",
+    "fisis_import_check": "fisis-import-check.json",
+    "fisis_browser_source_check": "fisis-browser-source-check.json"
   },
   "local_query_index": ".local/domestic-catalog/catalog.sqlite3 (repository root relative; rebuildable)",
   "counts": {
-    "generated_at": "2026-09-14T12:15:58.939467+00:00",
+    "generated_at": "2026-09-14T15:11:38.596963+00:00",
     "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
     "registered_portal_candidates": 125,
-    "portals_with_catalog_acquisition": 32,
+    "portals_with_catalog_acquisition": 34,
     "portal_counts": [
       {
         "portal_id": "address",
@@ -252,10 +271,10 @@
         "distinct_catalog_keys": 95923,
         "provider_codes_in_source_namespace": 1231,
         "declared_output_tokens": 640859,
-        "documented_columns": 839773,
-        "records_with_documented_columns": 58531,
-        "records_without_documented_columns": 49641,
-        "fields_in_source_definition_documents": 591585
+        "documented_columns": 911685,
+        "records_with_documented_columns": 67106,
+        "records_without_documented_columns": 41066,
+        "fields_in_source_definition_documents": 663497
       },
       {
         "portal_id": "ecos",
@@ -278,6 +297,17 @@
         "records_with_documented_columns": 149,
         "records_without_documented_columns": 378,
         "fields_in_source_definition_documents": 1859
+      },
+      {
+        "portal_id": "fisis",
+        "catalog_records": 740,
+        "distinct_catalog_keys": 740,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 19603,
+        "records_with_documented_columns": 740,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 19603
       },
       {
         "portal_id": "foodsafety",
@@ -417,10 +447,10 @@
         "distinct_catalog_keys": 268269,
         "provider_codes_in_source_namespace": 383,
         "declared_output_tokens": 0,
-        "documented_columns": 426709,
-        "records_with_documented_columns": 60397,
-        "records_without_documented_columns": 207991,
-        "fields_in_source_definition_documents": 426035
+        "documented_columns": 484085,
+        "records_with_documented_columns": 70653,
+        "records_without_documented_columns": 197735,
+        "fields_in_source_definition_documents": 483411
       },
       {
         "portal_id": "kspo",
@@ -432,6 +462,17 @@
         "records_with_documented_columns": 0,
         "records_without_documented_columns": 183,
         "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "law",
+        "catalog_records": 195,
+        "distinct_catalog_keys": 195,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 3210,
+        "records_with_documented_columns": 180,
+        "records_without_documented_columns": 15,
+        "fields_in_source_definition_documents": 3210
       },
       {
         "portal_id": "library",
@@ -522,10 +563,10 @@
         "fields_in_source_definition_documents": 4523
       }
     ],
-    "total_catalog_records": 440356,
-    "distinct_catalog_keys_across_portal_namespaces": 427988,
+    "total_catalog_records": 441291,
+    "distinct_catalog_keys_across_portal_namespaces": 428923,
     "declared_output_tokens": 640859,
-    "documented_column_occurrences": 1524621,
+    "documented_column_occurrences": 1676722,
     "quarantined_source_records": 62,
     "all_domestic_portals_complete": false,
     "all_columns_complete": false,
@@ -534,7 +575,7 @@
     "statistical_associations_verified": 0,
     "semantic_relationships_approved": 0,
     "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
-    "fields_in_source_definition_documents": 1275759,
+    "fields_in_source_definition_documents": 1427860,
     "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
     "csv_first_record_header_candidates": 16385,
     "bulk_observation_files_downloaded": 0,
@@ -562,8 +603,17 @@
     "explorer": "concepts/graph.html",
     "guide": "concepts/GRAPH-README.md",
     "database_workspace_relative": ".local/domestic-catalog/knowledge-graph.sqlite3",
-    "snapshot_at": "2026-09-14T11:25:59.731267+00:00",
+    "snapshot_at": "2026-09-14T16:13:46.793562+00:00",
     "all_lexical_matches_indexed_without_sampling": true,
     "human_approved_semantic_mappings": 0
+  },
+  "collection_decision": {
+    "state": "stopped_sufficient_for_prototype",
+    "prototype_metadata_sufficient": true,
+    "national_complete": false,
+    "ontology_complete": false,
+    "assessment": "collection-sufficiency-assessment.json",
+    "stopping_record": "collection-stop-report.json",
+    "automatic_bulk_resume_allowed": false
   }
 }
