@@ -3,13 +3,16 @@
 'use strict';
 const cache = new Map();
 const root = new URL('graph-data/', self.location.href);
+const version = new URL(self.location.href).searchParams.get('v');
+function snapshotUrl(file){const u=new URL(file,root);if(version)u.searchParams.set('v',version);return u;}
 let manifestPromise, overviewPromise;
-const getManifest = () => manifestPromise ||= fetch(new URL('manifest.json', root)).then(checkedJson);
-const getOverview = () => overviewPromise ||= fetch(new URL('overview.json', root)).then(checkedJson);
+const getManifest = () => manifestPromise ||= fetch(snapshotUrl('manifest.json'),{cache:'no-cache'}).then(checkedJson);
+const getOverview = () => overviewPromise ||= fetch(snapshotUrl('overview.json'),{cache:'no-cache'}).then(checkedJson);
 async function checkedJson(r) { if (!r.ok) throw Error('공유 데이터 조회 실패: '+r.status); return r.json(); }
 async function load(part) {
   if (cache.has(part.file)) { const v=cache.get(part.file);cache.delete(part.file);cache.set(part.file,v);return v; }
-  const r=await fetch(new URL(part.file,root));
+  const url=new URL(part.file,root);url.searchParams.set('sha256',part.sha256);
+  const r=await fetch(url);
   if(!r.ok)throw Error('데이터 조각 조회 실패: '+r.status);
   if(typeof DecompressionStream==='undefined')throw Error('압축 데이터를 읽으려면 최신 Chrome, Edge, Firefox 또는 Safari를 사용하세요.');
   const buffer=await r.arrayBuffer();

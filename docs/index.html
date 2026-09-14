@@ -13,7 +13,7 @@
 <aside id="inspector" class="inspector" aria-live="polite"><h2>어느 포털에서 왔을까?</h2><p>포털이나 개념을 선택하면 관련된 원문 근거를 확인할 수 있습니다.</p></aside></div>
 <section class="source-panel"><div class="source-head"><div><h2>실제 출처 경로</h2><p class="muted" id="path-count">현재 저장 범위 전체를 조회합니다. 화면에는 24개씩 펼칩니다.</p></div><div class="pagination"><label class="mode-toggle"><input type="checkbox" id="unmapped">개념 미연결 항목도 조회</label><button class="btn" id="prev">이전</button><small id="page">—</small><button class="btn" id="next">다음</button></div></div><div id="paths" class="cards" aria-live="polite"></div></section>
 <p class="footer" id="snapshot"></p></main>
-<script src="graph-static.js"></script>
+<script src="graph-static.js?v=de31e829df653aa6"></script>
 <script>
 const $=id=>document.getElementById(id), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=v=>{try{const u=new URL(v);return ['http:','https:'].includes(u.protocol)?u.href:'#'}catch{return '#'}};

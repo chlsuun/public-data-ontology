@@ -1,9 +1,11 @@
 """Render Pages entry points from the locally tested graph UI."""
 from pathlib import Path
+import hashlib
 ROOT=Path(__file__).resolve().parents[1]
 src=ROOT/'ontology-prototype/domestic-catalog/concepts'
+version=hashlib.sha256((ROOT/'docs/graph-data/overview.json').read_bytes()).hexdigest()[:16]
 html=(src/'graph.html').read_text(encoding='utf8')
-html=html.replace('<script>', '<script src="graph-static.js"></script>\n<script>', 1)
+html=html.replace('<script>', f'<script src="graph-static.js?v={version}"></script>\n<script>', 1)
 html=html.replace("await fetch('/api/concepts/graph/", "await shareFetch('/api/concepts/graph/")
 html=html.replace('href="/api/concepts/graph/overview?download=1"', 'href="graph-data/overview.json" download')
 html=html.replace('href="/concepts#', 'href="concepts.html#')
