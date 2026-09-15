@@ -1,0 +1,525 @@
+{
+  "generated_at": "2026-09-14T06:47:32.527258+00:00",
+  "new_portals": [
+    "grac",
+    "forest"
+  ],
+  "new_catalog_registrations": 58,
+  "grac_api_response_fields": 24,
+  "forest_api_response_fields": 156,
+  "forest_file_layer_attribute_fields": 61,
+  "new_definition_documents": 77,
+  "new_named_definition_fields": 241,
+  "new_fields_are_not_unique_semantic_variables": true,
+  "forest_catalog_summary": {
+    "generated_at": "2026-09-13T19:07:36.364592+00:00",
+    "catalog_records": 56,
+    "catalog_card_occurrences": 56,
+    "category_pages": [
+      {
+        "tab": {
+          "code": "1",
+          "label": "창닫기",
+          "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=1#",
+          "locator": "a[href][654]"
+        },
+        "evidence_id": "forest-public-catalog-page1",
+        "cards": 8,
+        "body_complete": true,
+        "pagination_controls_observed": false
+      },
+      {
+        "tab": {
+          "code": "3",
+          "label": "산림복지",
+          "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=3",
+          "locator": "a[href][515]"
+        },
+        "evidence_id": "forest-public-catalog-tab3",
+        "cards": 13,
+        "body_complete": true,
+        "pagination_controls_observed": false
+      },
+      {
+        "tab": {
+          "code": "4",
+          "label": "산림재난",
+          "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=4",
+          "locator": "a[href][516]"
+        },
+        "evidence_id": "forest-public-catalog-tab4",
+        "cards": 3,
+        "body_complete": true,
+        "pagination_controls_observed": false
+      },
+      {
+        "tab": {
+          "code": "5",
+          "label": "산림통계",
+          "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=5",
+          "locator": "a[href][517]"
+        },
+        "evidence_id": "forest-public-catalog-tab5",
+        "cards": 2,
+        "body_complete": true,
+        "pagination_controls_observed": false
+      },
+      {
+        "tab": {
+          "code": "6",
+          "label": "연구정보",
+          "url": "https://www.forest.go.kr/kfsweb/opda/dataMng/selectPblicDataList.do?mn=NKFS_06_08_02&tabs=6",
+          "locator": "a[href][518]"
+        },
+        "evidence_id": "forest-public-catalog-tab6",
+        "cards": 30,
+        "body_complete": true,
+        "pagination_controls_observed": false
+      }
+    ],
+    "local_html_guides": 21,
+    "external_reference_records": 35,
+    "explicit_tab_documents_complete": true,
+    "source_reported_total": null,
+    "snapshot_pagination_complete": null,
+    "scope": "Every card in all category tabs explicitly linked by this public page; no source global count or national completeness proof",
+    "all_portal_catalogs_complete": false,
+    "all_columns_complete": false
+  },
+  "forest_attributes": {
+    "generated_at": "2026-09-14T06:41:12.748131+00:00",
+    "usage_documents": 19,
+    "with_attribute_definitions": 5,
+    "attribute_fields": 61,
+    "schema_groups": 7,
+    "status_counts": {
+      "public_usage_metadata_observed_schema_pending": 14,
+      "file_attribute_definition_observed_with_source_issues": 2,
+      "file_attribute_definition_observed": 3
+    },
+    "source_issues": [
+      {
+        "dataset_key": "PBD0000061",
+        "evidence_id": "forest-usage-PBD0000061",
+        "issues": [
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "ZONE_AREA",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[7].cell[3]"
+          }
+        ]
+      },
+      {
+        "dataset_key": "PBD0000062",
+        "evidence_id": "forest-usage-PBD0000062",
+        "issues": [
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "HSTR_MNNMB",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[0].cell[3]"
+          },
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "FRRD_FCLT_DSTNC",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[4].cell[3]"
+          }
+        ]
+      }
+    ],
+    "scope": "Only the 19 explicitly linked usage documents, not all current map files or layer versions",
+    "all_columns_complete": false,
+    "file_downloads_performed": false,
+    "coordinate_codes_inferred": false
+  },
+  "source_checks": {
+    "base_58_documents": "grac-forest-source-check.json",
+    "additional_19_usage_documents": "forest-attribute-source-check.json"
+  },
+  "database_http_check": "grac-forest-import-check.json",
+  "portable_export_check": "grac-forest-portable-export-check.json",
+  "checks_passed": {
+    "base_source": 14,
+    "attribute_source_and_import": 8,
+    "database_http": 13
+  },
+  "coverage_snapshot": {
+    "generated_at": "2026-09-14T06:43:19.522254+00:00",
+    "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
+    "registered_portal_candidates": 124,
+    "portals_with_catalog_acquisition": 26,
+    "portal_counts": [
+      {
+        "portal_id": "address",
+        "catalog_records": 42,
+        "distinct_catalog_keys": 42,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1316,
+        "records_with_documented_columns": 40,
+        "records_without_documented_columns": 2,
+        "fields_in_source_definition_documents": 1316
+      },
+      {
+        "portal_id": "assembly",
+        "catalog_records": 278,
+        "distinct_catalog_keys": 278,
+        "provider_codes_in_source_namespace": 8,
+        "declared_output_tokens": 0,
+        "documented_columns": 2188,
+        "records_with_documented_columns": 278,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2188
+      },
+      {
+        "portal_id": "busan",
+        "catalog_records": 12551,
+        "distinct_catalog_keys": 12551,
+        "provider_codes_in_source_namespace": 30,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 12551,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "chungnam",
+        "catalog_records": 4124,
+        "distinct_catalog_keys": 4124,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 9094,
+        "records_with_documented_columns": 644,
+        "records_without_documented_columns": 3480,
+        "fields_in_source_definition_documents": 9094
+      },
+      {
+        "portal_id": "culture",
+        "catalog_records": 938,
+        "distinct_catalog_keys": 938,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 7927,
+        "records_with_documented_columns": 468,
+        "records_without_documented_columns": 470,
+        "fields_in_source_definition_documents": 7927
+      },
+      {
+        "portal_id": "daegu",
+        "catalog_records": 19954,
+        "distinct_catalog_keys": 19954,
+        "provider_codes_in_source_namespace": 9,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 19954,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "data-go",
+        "catalog_records": 108172,
+        "distinct_catalog_keys": 95923,
+        "provider_codes_in_source_namespace": 1231,
+        "declared_output_tokens": 640859,
+        "documented_columns": 705506,
+        "records_with_documented_columns": 44040,
+        "records_without_documented_columns": 64132,
+        "fields_in_source_definition_documents": 457318
+      },
+      {
+        "portal_id": "ecos",
+        "catalog_records": 681,
+        "distinct_catalog_keys": 681,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1182,
+        "records_with_documented_columns": 681,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 1182
+      },
+      {
+        "portal_id": "foodsafety",
+        "catalog_records": 178,
+        "distinct_catalog_keys": 178,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1861,
+        "records_with_documented_columns": 169,
+        "records_without_documented_columns": 9,
+        "fields_in_source_definition_documents": 1861
+      },
+      {
+        "portal_id": "forest",
+        "catalog_records": 56,
+        "distinct_catalog_keys": 56,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 217,
+        "records_with_documented_columns": 15,
+        "records_without_documented_columns": 41,
+        "fields_in_source_definition_documents": 217
+      },
+      {
+        "portal_id": "grac",
+        "catalog_records": 2,
+        "distinct_catalog_keys": 2,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 24,
+        "records_with_documented_columns": 2,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 24
+      },
+      {
+        "portal_id": "gyeonggi",
+        "catalog_records": 2267,
+        "distinct_catalog_keys": 2267,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 42550,
+        "records_with_documented_columns": 2125,
+        "records_without_documented_columns": 142,
+        "fields_in_source_definition_documents": 42550
+      },
+      {
+        "portal_id": "hrdk-api",
+        "catalog_records": 69,
+        "distinct_catalog_keys": 69,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 69,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "incheon",
+        "catalog_records": 4382,
+        "distinct_catalog_keys": 4382,
+        "provider_codes_in_source_namespace": 72,
+        "declared_output_tokens": 0,
+        "documented_columns": 170,
+        "records_with_documented_columns": 7,
+        "records_without_documented_columns": 4375,
+        "fields_in_source_definition_documents": 170
+      },
+      {
+        "portal_id": "jeju",
+        "catalog_records": 1259,
+        "distinct_catalog_keys": 1259,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 686,
+        "records_with_documented_columns": 93,
+        "records_without_documented_columns": 1166,
+        "fields_in_source_definition_documents": 686
+      },
+      {
+        "portal_id": "jeonbuk",
+        "catalog_records": 2233,
+        "distinct_catalog_keys": 2233,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 2233,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "kma-api",
+        "catalog_records": 626,
+        "distinct_catalog_keys": 626,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4709,
+        "records_with_documented_columns": 304,
+        "records_without_documented_columns": 322,
+        "fields_in_source_definition_documents": 4709
+      },
+      {
+        "portal_id": "kosis",
+        "catalog_records": 268388,
+        "distinct_catalog_keys": 268269,
+        "provider_codes_in_source_namespace": 383,
+        "declared_output_tokens": 0,
+        "documented_columns": 334260,
+        "records_with_documented_columns": 43040,
+        "records_without_documented_columns": 225348,
+        "fields_in_source_definition_documents": 333586
+      },
+      {
+        "portal_id": "library",
+        "catalog_records": 19,
+        "distinct_catalog_keys": 19,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 436,
+        "records_with_documented_columns": 19,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 436
+      },
+      {
+        "portal_id": "mafra",
+        "catalog_records": 2142,
+        "distinct_catalog_keys": 2142,
+        "provider_codes_in_source_namespace": 17,
+        "declared_output_tokens": 0,
+        "documented_columns": 2725,
+        "records_with_documented_columns": 183,
+        "records_without_documented_columns": 1959,
+        "fields_in_source_definition_documents": 2725
+      },
+      {
+        "portal_id": "neis",
+        "catalog_records": 12,
+        "distinct_catalog_keys": 12,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 178,
+        "records_with_documented_columns": 12,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 178
+      },
+      {
+        "portal_id": "opendart",
+        "catalog_records": 85,
+        "distinct_catalog_keys": 85,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 2175,
+        "records_with_documented_columns": 85,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2175
+      },
+      {
+        "portal_id": "seoul",
+        "catalog_records": 8272,
+        "distinct_catalog_keys": 8272,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 171837,
+        "records_with_documented_columns": 7441,
+        "records_without_documented_columns": 831,
+        "fields_in_source_definition_documents": 171837
+      },
+      {
+        "portal_id": "sgis",
+        "catalog_records": 68,
+        "distinct_catalog_keys": 68,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 618,
+        "records_with_documented_columns": 67,
+        "records_without_documented_columns": 1,
+        "fields_in_source_definition_documents": 618
+      },
+      {
+        "portal_id": "ulsan",
+        "catalog_records": 2582,
+        "distinct_catalog_keys": 2582,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 2582,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "yeongdeungpo",
+        "catalog_records": 153,
+        "distinct_catalog_keys": 153,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4523,
+        "records_with_documented_columns": 150,
+        "records_without_documented_columns": 3,
+        "fields_in_source_definition_documents": 4523
+      }
+    ],
+    "total_catalog_records": 439533,
+    "distinct_catalog_keys_across_portal_namespaces": 427165,
+    "declared_output_tokens": 640859,
+    "documented_column_occurrences": 1294182,
+    "quarantined_source_records": 62,
+    "all_domestic_portals_complete": false,
+    "all_columns_complete": false,
+    "cross_portal_deduplication_complete": false,
+    "raw_observation_values_collected": null,
+    "statistical_associations_verified": 0,
+    "semantic_relationships_approved": 0,
+    "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
+    "fields_in_source_definition_documents": 1045320,
+    "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
+    "csv_first_record_header_candidates": 16385,
+    "bulk_observation_files_downloaded": 0,
+    "raw_values_analysis_performed": false,
+    "raw_observation_note": "통계 관측값 본문·원본 전체 파일은 수집 대상으로 삼지 않았다. CSV 첫 레코드 및 크기를 제한한 공개 미리보기 원문에는 표본 관측값이 포함될 수 있으며, 분석·품질 검증을 했다는 의미가 아니다.",
+    "observed_header_candidate_occurrences": 33375
+  },
+  "worker_progress_snapshot": {
+    "definition": {
+      "generated_at": "2026-09-14T06:47:16.983867+00:00",
+      "processed": 43200,
+      "target_count": 83691,
+      "status_counts": {
+        "column_definition_observed": 24589,
+        "no_definition_table_observed": 18395,
+        "fetch_unresolved": 216
+      },
+      "queue_exhausted": false,
+      "pid": 7712
+    },
+    "kosis": {
+      "generated_at": "2026-09-14T06:47:15.403577+00:00",
+      "processed": 43225,
+      "target_count": 266688,
+      "status_counts": {
+        "statistical_definition_observed": 43221,
+        "fetch_unresolved": 4
+      },
+      "queue_exhausted": false,
+      "pid": 15032
+    },
+    "busan": {
+      "generated_at": "2026-09-14T06:47:29.954638+00:00",
+      "processed": 10035,
+      "target_count": 12551,
+      "status_counts": {
+        "public_metadata_observed_schema_pending": 10031,
+        "metadata_unresolved": 4
+      },
+      "queue_exhausted": false,
+      "pid": 6688
+    }
+  },
+  "worker_health": "workers-20260914T0646-check.json",
+  "interruption_observation": {
+    "checked_at": "2026-09-14T06:34:36+00:00",
+    "matching_active_workers": 0,
+    "latest_saved_queue_updates_utc": "2026-09-13T19:11:38+00:00",
+    "cause": "not_established",
+    "resume_used_cached_receipts_and_definitions": true
+  },
+  "resumption": {
+    "supervisor_pid": 12668,
+    "browser_pid": 2384,
+    "file_pid": 7712,
+    "kosis_pid": 15032,
+    "busan_pid": 6688,
+    "indexer_pid": 26444,
+    "no_completed_queue_restarted": true
+  },
+  "startup_export_fix": {
+    "prior_first_export_false_with_monotonic_seconds_below_3600": true,
+    "fix": "Initialize export timer to negative infinity so startup always exports",
+    "verified_real_startup_export": "2026-09-14T06:43:35.551835+00:00"
+  },
+  "all_columns_complete": false,
+  "all_domestic_portals_complete": false,
+  "human_relationship_approval_performed": false,
+  "git_publication_performed": false,
+  "other_projects_modified": false,
+  "prior_whole_catalog_validation_scope": "58 checks at 2026-09-13T12:44 UTC remain a separate fixed-snapshot validation; these new checks do not certify the entire growing catalog."
+}

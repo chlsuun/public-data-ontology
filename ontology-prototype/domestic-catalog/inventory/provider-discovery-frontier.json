@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T12:16:04.961093+00:00",
+  "generated_at": "2026-09-14T15:12:12.454551+00:00",
   "national_census_complete": false,
-  "external_page_references": 67911,
-  "non_license_hosts": 1033,
+  "external_page_references": 73834,
+  "non_license_hosts": 1133,
   "hosts": [
     {
       "host": "www.data.go.kr",
@@ -22,7 +22,7 @@
     },
     {
       "host": "data.seoul.go.kr",
-      "observed_reference_count": 4209,
+      "observed_reference_count": 5809,
       "registered_portal_candidates": [
         "seoul"
       ],
@@ -45,9 +45,18 @@
     },
     {
       "host": "kosis.kr",
-      "observed_reference_count": 1406,
+      "observed_reference_count": 1409,
       "registered_portal_candidates": [
         "kosis"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "data.gg.go.kr",
+      "observed_reference_count": 898,
+      "registered_portal_candidates": [
+        "gyeonggi"
       ],
       "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -62,17 +71,8 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "data.gg.go.kr",
-      "observed_reference_count": 741,
-      "registered_portal_candidates": [
-        "gyeonggi"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "alldam.chungnam.go.kr",
-      "observed_reference_count": 441,
+      "observed_reference_count": 446,
       "registered_portal_candidates": [
         "chungnam"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "host": "data.mafra.go.kr",
-      "observed_reference_count": 263,
+      "observed_reference_count": 284,
       "registered_portal_candidates": [
         "mafra"
       ],
@@ -106,16 +106,43 @@
     },
     {
       "host": "www.reb.or.kr",
-      "observed_reference_count": 249,
+      "observed_reference_count": 275,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
       "host": "data.ex.co.kr",
-      "observed_reference_count": 247,
+      "observed_reference_count": 263,
       "registered_portal_candidates": [
         "expressway"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.vworld.kr",
+      "observed_reference_count": 224,
+      "registered_portal_candidates": [
+        "vworld"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "data.kma.go.kr",
+      "observed_reference_count": 121,
+      "registered_portal_candidates": [
+        "kma"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "plus.kipris.or.kr",
+      "observed_reference_count": 120,
+      "registered_portal_candidates": [
+        "kipris"
       ],
       "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -128,15 +155,15 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.daejeon.go.kr",
-      "observed_reference_count": 117,
+      "host": "portal.kosha.or.kr",
+      "observed_reference_count": 118,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "portal.kosha.or.kr",
-      "observed_reference_count": 115,
+      "host": "www.daejeon.go.kr",
+      "observed_reference_count": 117,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -149,21 +176,10 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "plus.kipris.or.kr",
-      "observed_reference_count": 110,
-      "registered_portal_candidates": [
-        "kipris"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "data.kma.go.kr",
+      "host": "data.g2b.go.kr",
       "observed_reference_count": 108,
-      "registered_portal_candidates": [
-        "kma"
-      ],
-      "status": "target_dataset_mapping_pending",
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -199,7 +215,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "data.g2b.go.kr",
+      "host": "www.ep.go.kr",
+      "observed_reference_count": 100,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "tasis.nts.go.kr",
       "observed_reference_count": 98,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -215,26 +238,10 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.ep.go.kr",
+      "host": "www.mapo.go.kr",
       "observed_reference_count": 97,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "tasis.nts.go.kr",
-      "observed_reference_count": 97,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.vworld.kr",
-      "observed_reference_count": 94,
-      "registered_portal_candidates": [
-        "vworld"
-      ],
-      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -253,20 +260,36 @@
     },
     {
       "host": "www.daegu.go.kr",
-      "observed_reference_count": 90,
+      "observed_reference_count": 92,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.mapo.go.kr",
-      "observed_reference_count": 88,
+      "host": "www.nyj.go.kr",
+      "observed_reference_count": 84,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "epsis.kpx.or.kr",
+      "observed_reference_count": 82,
+      "registered_portal_candidates": [
+        "epsis"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
       "host": "www.kedi.re.kr",
+      "observed_reference_count": 82,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.gasa.go.kr",
       "observed_reference_count": 82,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -290,7 +313,7 @@
     },
     {
       "host": "www.opinet.co.kr",
-      "observed_reference_count": 60,
+      "observed_reference_count": 61,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -326,12 +349,26 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "epsis.kpx.or.kr",
-      "observed_reference_count": 51,
+      "host": "www.geumsan.go.kr",
+      "observed_reference_count": 53,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "bigdata.kepco.co.kr",
+      "observed_reference_count": 49,
       "registered_portal_candidates": [
-        "epsis"
+        "kepco"
       ],
       "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.koenergy.kr",
+      "observed_reference_count": 49,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -344,19 +381,26 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "bigdata.kepco.co.kr",
-      "observed_reference_count": 48,
-      "registered_portal_candidates": [
-        "kepco"
-      ],
-      "status": "target_dataset_mapping_pending",
+      "host": "www.kesco.or.kr",
+      "observed_reference_count": 47,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.koenergy.kr",
-      "observed_reference_count": 48,
+      "host": "search.i815.or.kr",
+      "observed_reference_count": 46,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "map.ngii.go.kr",
+      "observed_reference_count": 46,
+      "registered_portal_candidates": [
+        "ngii"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -367,15 +411,24 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "search.i815.or.kr",
+      "host": "www.yeonje.go.kr",
+      "observed_reference_count": 45,
+      "registered_portal_candidates": [
+        "yeonje"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kipo.go.kr",
       "observed_reference_count": 45,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kipo.go.kr",
-      "observed_reference_count": 45,
+      "host": "www.kobaco.co.kr",
+      "observed_reference_count": 42,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -392,22 +445,6 @@
       "observed_reference_count": 42,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kesco.or.kr",
-      "observed_reference_count": 41,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "map.ngii.go.kr",
-      "observed_reference_count": 41,
-      "registered_portal_candidates": [
-        "ngii"
-      ],
-      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -439,12 +476,10 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.yeonje.go.kr",
+      "host": "www.moel.go.kr",
       "observed_reference_count": 36,
-      "registered_portal_candidates": [
-        "yeonje"
-      ],
-      "status": "target_dataset_mapping_pending",
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -471,20 +506,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.moel.go.kr",
-      "observed_reference_count": 32,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.geumsan.go.kr",
-      "observed_reference_count": 31,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.kotems.or.kr",
       "observed_reference_count": 31,
       "registered_portal_candidates": [],
@@ -503,6 +524,31 @@
       "observed_reference_count": 30,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nfqs.go.kr",
+      "observed_reference_count": 30,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "data.busan.go.kr",
+      "observed_reference_count": 30,
+      "registered_portal_candidates": [
+        "busan"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.academyinfo.go.kr",
+      "observed_reference_count": 28,
+      "registered_portal_candidates": [
+        "academyinfo"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -529,6 +575,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.moj.go.kr",
+      "observed_reference_count": 27,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "bigdata.kosmes.or.kr",
       "observed_reference_count": 27,
       "registered_portal_candidates": [],
@@ -536,7 +589,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.moj.go.kr",
+      "host": "www.molit.go.kr",
       "observed_reference_count": 26,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -550,10 +603,19 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.molit.go.kr",
-      "observed_reference_count": 25,
+      "host": "www.boho.or.kr",
+      "observed_reference_count": 26,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kess.kedi.re.kr",
+      "observed_reference_count": 25,
+      "registered_portal_candidates": [
+        "kess"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -573,24 +635,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "kess.kedi.re.kr",
-      "observed_reference_count": 24,
-      "registered_portal_candidates": [
-        "kess"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.academyinfo.go.kr",
-      "observed_reference_count": 24,
-      "registered_portal_candidates": [
-        "academyinfo"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "atis.koca.go.kr",
       "observed_reference_count": 24,
       "registered_portal_candidates": [],
@@ -605,19 +649,17 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.boho.or.kr",
-      "observed_reference_count": 23,
+      "host": "www.mois.go.kr",
+      "observed_reference_count": 22,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "data.busan.go.kr",
-      "observed_reference_count": 23,
-      "registered_portal_candidates": [
-        "busan"
-      ],
-      "status": "target_dataset_mapping_pending",
+      "host": "www.mpm.go.kr",
+      "observed_reference_count": 22,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -635,17 +677,19 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.mois.go.kr",
+      "host": "www.itstat.go.kr",
       "observed_reference_count": 21,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.itstat.go.kr",
+      "host": "nhiss.nhis.or.kr",
       "observed_reference_count": 21,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
+      "registered_portal_candidates": [
+        "nhis"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -670,10 +714,10 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "nhiss.nhis.or.kr",
-      "observed_reference_count": 20,
+      "host": "open.neis.go.kr",
+      "observed_reference_count": 19,
       "registered_portal_candidates": [
-        "nhis"
+        "neis"
       ],
       "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -688,7 +732,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.mpm.go.kr",
+      "host": "www.moe.go.kr",
       "observed_reference_count": 19,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -709,7 +753,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.kca.kr",
+      "observed_reference_count": 19,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.keis.or.kr",
+      "observed_reference_count": 19,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "mtrace.go.kr",
       "observed_reference_count": 19,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -737,8 +795,15 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nfqs.go.kr",
+      "host": "openapi.jigu.go.kr",
       "observed_reference_count": 18,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.mogef.go.kr",
+      "observed_reference_count": 17,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -758,7 +823,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.moe.go.kr",
+      "host": "www.lawnorder.go.kr",
       "observed_reference_count": 17,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -786,13 +851,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "openapi.jigu.go.kr",
-      "observed_reference_count": 17,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.michuhol.go.kr",
       "observed_reference_count": 17,
       "registered_portal_candidates": [],
@@ -809,8 +867,8 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.mogef.go.kr",
-      "observed_reference_count": 16,
+      "host": "www.sccouncil.go.kr",
+      "observed_reference_count": 17,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -820,6 +878,15 @@
       "observed_reference_count": 16,
       "registered_portal_candidates": [
         "ecos"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.schoolinfo.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [
+        "schoolinfo"
       ],
       "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -839,7 +906,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.icdonggu.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.khoa.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.meis.go.kr",
       "observed_reference_count": 16,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -861,6 +942,43 @@
     },
     {
       "host": "contract.suyeong.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kocca.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [
+        "kocca-api"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kmbs.hf.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "spaceweather.kasa.go.kr",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.ekapepia.com",
+      "observed_reference_count": 16,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kcsc.re.kr",
       "observed_reference_count": 16,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -909,15 +1027,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kocca.kr",
-      "observed_reference_count": 15,
-      "registered_portal_candidates": [
-        "kocca-api"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.code.go.kr",
       "observed_reference_count": 15,
       "registered_portal_candidates": [],
@@ -932,7 +1041,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "kmbs.hf.go.kr",
+      "host": "www.pipc.go.kr",
       "observed_reference_count": 15,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -946,10 +1055,12 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "spaceweather.kasa.go.kr",
+      "host": "state.gwd.go.kr",
       "observed_reference_count": 15,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
+      "registered_portal_candidates": [
+        "gangwon"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -961,13 +1072,6 @@
     },
     {
       "host": "www.gwangju.go.kr",
-      "observed_reference_count": 14,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kobaco.co.kr",
       "observed_reference_count": 14,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -997,7 +1101,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.icdonggu.go.kr",
+      "host": "www.busanjin.go.kr",
+      "observed_reference_count": 14,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kfi.or.kr",
       "observed_reference_count": 14,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1018,30 +1129,28 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.schoolinfo.go.kr",
+      "host": "boho.or.kr",
+      "observed_reference_count": 14,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "data.mapo.go.kr",
+      "observed_reference_count": 14,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jp.go.kr",
       "observed_reference_count": 13,
-      "registered_portal_candidates": [
-        "schoolinfo"
-      ],
-      "status": "target_dataset_mapping_pending",
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
       "host": "www.nts.go.kr",
-      "observed_reference_count": 13,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.busanjin.go.kr",
-      "observed_reference_count": 13,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.meis.go.kr",
       "observed_reference_count": 13,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1062,7 +1171,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "boho.or.kr",
+      "host": "www.nie.re.kr",
       "observed_reference_count": 13,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1070,13 +1179,6 @@
     },
     {
       "host": "mapo.go.kr",
-      "observed_reference_count": 13,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.sccouncil.go.kr",
       "observed_reference_count": 13,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1106,29 +1208,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kfi.or.kr",
-      "observed_reference_count": 12,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "data.mapo.go.kr",
-      "observed_reference_count": 12,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "open.neis.go.kr",
-      "observed_reference_count": 11,
-      "registered_portal_candidates": [
-        "neis"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.qia.go.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
@@ -1137,6 +1216,13 @@
     },
     {
       "host": "www.gyeongju.go.kr",
+      "observed_reference_count": 11,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.cq.or.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1173,6 +1259,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.ulsan.go.kr",
+      "observed_reference_count": 11,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.alio.go.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
@@ -1194,6 +1287,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.kps.co.kr",
+      "observed_reference_count": 11,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "info.childcare.go.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
@@ -1208,6 +1308,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "apply.lh.or.kr",
+      "observed_reference_count": 11,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.sciencecenter.go.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
@@ -1215,14 +1322,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nie.re.kr",
-      "observed_reference_count": 11,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kca.kr",
+      "host": "www.sisul.or.kr",
       "observed_reference_count": 11,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1259,13 +1359,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.cq.or.kr",
-      "observed_reference_count": 10,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.cha.go.kr",
       "observed_reference_count": 10,
       "registered_portal_candidates": [],
@@ -1273,7 +1366,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.fis.kr",
+      "observed_reference_count": 10,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.gyeongnam.go.kr",
+      "observed_reference_count": 10,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.keiti.re.kr",
       "observed_reference_count": 10,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1308,8 +1415,22 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "topis.seoul.go.kr",
+      "observed_reference_count": 10,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.dhsisul.org",
       "observed_reference_count": 10,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nie-ecobank.kr",
+      "observed_reference_count": 9,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -1336,7 +1457,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.keiti.re.kr",
+      "host": "www.motir.go.kr",
       "observed_reference_count": 9,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1352,14 +1473,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.ulsan.go.kr",
+      "host": "www.juso.go.kr",
       "observed_reference_count": 9,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.juso.go.kr",
+      "host": "www.suwon.go.kr",
       "observed_reference_count": 9,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1389,6 +1510,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.ewp.co.kr",
+      "observed_reference_count": 9,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "air.incheon.go.kr",
       "observed_reference_count": 9,
       "registered_portal_candidates": [],
@@ -1396,7 +1524,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nie-ecobank.kr",
+      "host": "www.nongsaro.go.kr",
+      "observed_reference_count": 8,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.mohw.go.kr",
+      "observed_reference_count": 8,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jinju.go.kr",
       "observed_reference_count": 8,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1410,7 +1552,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.jp.go.kr",
+      "host": "doi.org",
       "observed_reference_count": 8,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1418,13 +1560,6 @@
     },
     {
       "host": "www.ydp.go.kr",
-      "observed_reference_count": 8,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.motir.go.kr",
       "observed_reference_count": 8,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1475,14 +1610,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kps.co.kr",
+      "host": "www.nlic.go.kr",
       "observed_reference_count": 8,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nlic.go.kr",
+      "host": "www.yesan.go.kr",
+      "observed_reference_count": 8,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "gb.go.kr",
       "observed_reference_count": 8,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1540,21 +1682,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nongsaro.go.kr",
-      "observed_reference_count": 7,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.mohw.go.kr",
-      "observed_reference_count": 7,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.jinju.go.kr",
+      "host": "www.jung.daegu.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1582,13 +1710,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "doi.org",
-      "observed_reference_count": 7,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "data.songpa.seoul.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
@@ -1597,6 +1718,13 @@
     },
     {
       "host": "data.dongjak.go.kr",
+      "observed_reference_count": 7,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.goyang.go.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1624,21 +1752,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.lawnorder.go.kr",
-      "observed_reference_count": 7,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "eduinfo.go.kr",
-      "observed_reference_count": 7,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "gb.go.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1659,6 +1773,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.kpx.or.kr",
+      "observed_reference_count": 7,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.bigdata-realestate.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
@@ -1666,7 +1787,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "apply.lh.or.kr",
+      "host": "www.kead.or.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1674,6 +1795,13 @@
     },
     {
       "host": "dialogue.unikorea.go.kr",
+      "observed_reference_count": 7,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kbds.re.kr",
       "observed_reference_count": 7,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1712,6 +1840,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.nfa.go.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "stat.molit.go.kr",
       "observed_reference_count": 6,
       "registered_portal_candidates": [],
@@ -1719,7 +1854,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.mcst.go.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "dream.kotra.or.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "fis.kr",
       "observed_reference_count": 6,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1807,6 +1956,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "nyj.go.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.upa.or.kr",
       "observed_reference_count": 6,
       "registered_portal_candidates": [],
@@ -1856,6 +2012,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.iwest.co.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "col.science.go.kr",
       "observed_reference_count": 6,
       "registered_portal_candidates": [],
@@ -1877,7 +2040,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.sisul.or.kr",
+      "host": "www.gbgs.go.kr",
+      "observed_reference_count": 6,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.studyinkorea.go.kr",
       "observed_reference_count": 6,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1906,13 +2076,6 @@
     },
     {
       "host": "www.kdca.go.kr",
-      "observed_reference_count": 5,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.jung.daegu.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1954,14 +2117,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.goyang.go.kr",
+      "host": "www.gumi.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.gumi.go.kr",
+      "host": "data.suwon.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -1991,6 +2154,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "yesan.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.sdm.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [
@@ -2007,6 +2177,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.icheon.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.hira.or.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
@@ -2015,6 +2192,13 @@
     },
     {
       "host": "kfss.forest.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "eis.work24.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2063,6 +2247,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.jigu.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.htdream.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
@@ -2077,7 +2268,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.pipc.go.kr",
+      "host": "www.andong.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2091,7 +2282,28 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.stop.or.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.schoolsafe24.or.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.hifive.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kamco.or.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2105,7 +2317,42 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.namgu.gwangju.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "open.mma.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kdhc.co.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.kotra.or.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.myhealthway.go.kr",
+      "observed_reference_count": 5,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.korec.go.kr",
       "observed_reference_count": 5,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2134,13 +2381,6 @@
     },
     {
       "host": "www.kogas-tech.co.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.nfa.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2184,7 +2424,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.mcst.go.kr",
+      "host": "www.ycg.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jecheon.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2249,6 +2496,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.kmcc.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.jangseong.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
@@ -2256,7 +2510,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.gwangsan.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.climate.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kma.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2271,13 +2539,6 @@
     },
     {
       "host": "www.irm.go.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.suwon.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2326,13 +2587,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.icheon.go.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.sd.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
@@ -2361,14 +2615,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "eis.work24.go.kr",
+      "host": "edu.acrc.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "edu.acrc.go.kr",
+      "host": "www.kosmes.or.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2440,6 +2694,27 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.water.or.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "safe.yesan.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.knps.or.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "museum.lh.or.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
@@ -2448,13 +2723,6 @@
     },
     {
       "host": "lhri.lh.or.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kead.or.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2470,13 +2738,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.iwest.co.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.apfs.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
@@ -2485,6 +2746,13 @@
     },
     {
       "host": "www.gbdc.co.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "aim.koca.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2519,20 +2787,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.stop.or.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.schoolsafe24.or.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.suncheon.go.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
@@ -2548,6 +2802,20 @@
     },
     {
       "host": "www.komipo.co.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nise.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kdic.or.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2577,14 +2845,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "open.mma.go.kr",
-      "observed_reference_count": 4,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kdhc.co.kr",
+      "host": "www.kiet.re.kr",
       "observed_reference_count": 4,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2605,6 +2866,27 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.nics.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jeonju.go.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.srail.or.kr",
+      "observed_reference_count": 4,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "hanaportal.unikorea.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -2613,6 +2895,13 @@
     },
     {
       "host": "labor.moel.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "info.korail.com",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2641,6 +2930,13 @@
     },
     {
       "host": "www.mfds.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kesis.keei.re.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2689,13 +2985,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.jecheon.go.kr",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "adstat.kobaco.co.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -2704,6 +2993,13 @@
     },
     {
       "host": "www.codil.or.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "e-childschoolinfo.moe.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -2857,17 +3153,19 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.gwangsan.go.kr",
+      "host": "www.koreapost.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.koreapost.go.kr",
+      "host": "www.oda.go.kr",
       "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
+      "registered_portal_candidates": [
+        "koica"
+      ],
+      "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
@@ -3018,14 +3316,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.knps.or.kr",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.ewp.co.kr",
+      "host": "archive.gugak.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3053,20 +3344,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.jigu.go.kr",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "aim.koca.go.kr",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.pc.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -3075,6 +3352,13 @@
     },
     {
       "host": "data.kric.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kiscon.net",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3116,6 +3400,20 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "moleg.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kangwonland.high1.com",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.animal.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -3124,6 +3422,22 @@
     },
     {
       "host": "www.dangjin.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.cheonan.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [
+        "cheonan"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jinan.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3144,13 +3458,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kdic.or.kr",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "home.koelsa.or.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -3159,6 +3466,13 @@
     },
     {
       "host": "gyeyak.hampyeong.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.paju.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3193,13 +3507,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.ekapepia.com",
-      "observed_reference_count": 3,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "reits.molit.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
@@ -3215,6 +3522,83 @@
     },
     {
       "host": "assembly.gochang.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "stationj.michuhol.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kpf.or.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kpf.or.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "jangan.suwon.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.gocamping.or.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kotis.visitkorea.or.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.yangcheon.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.gimhae.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.alioplus.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nih.go.kr",
+      "observed_reference_count": 3,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "council.dalseong.go.kr",
       "observed_reference_count": 3,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3249,7 +3633,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "info.korail.com",
+      "host": "www.kipa.re.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3333,14 +3717,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "kesis.keei.re.kr",
+      "host": "www.swit.or.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.swit.or.kr",
+      "host": "www.gne.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3384,13 +3768,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.ycg.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.abs.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3419,13 +3796,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "e-childschoolinfo.moe.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.cng.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3441,13 +3811,6 @@
     },
     {
       "host": "www.open.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "fis.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3483,13 +3846,6 @@
     },
     {
       "host": "dgfc.or.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kmcc.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3552,13 +3908,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kma.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "nts.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3567,22 +3916,6 @@
     },
     {
       "host": "www.tocycle.com",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.oda.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [
-        "koica"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "data.suwon.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3675,6 +4008,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.gjcity.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "contract.bsdonggu.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3738,13 +4078,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nyj.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "minutes.yeonje.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3767,6 +4100,13 @@
     },
     {
       "host": "www.heritage.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.yeonggwang.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -3878,6 +4218,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.recycling-info.or.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "geomarket.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3929,6 +4276,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "youtu.be",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "119.busan.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -3971,21 +4325,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.water.or.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "konetic.or.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "safe.yesan.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4000,6 +4340,13 @@
     },
     {
       "host": "cliks.apcc21.org",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.gp.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4048,6 +4395,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.kiat.or.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.career.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -4076,7 +4430,21 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "gis-heritage.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.eumseong.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.comwel.or.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4112,13 +4480,6 @@
     },
     {
       "host": "www.iksan.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kiscon.net",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4188,13 +4549,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.andong.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "ntis.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -4209,13 +4563,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "moleg.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "socialenterprise.or.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -4223,14 +4570,14 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "kangwonland.high1.com",
+      "host": "www.moti.or.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.moti.or.kr",
+      "host": "drone.onestop.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4265,6 +4612,13 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "bukgu.gwangju.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.junggu.ulsan.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
@@ -4279,7 +4633,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.jinan.go.kr",
+      "host": "english.moef.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4300,14 +4654,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.nise.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kamco.or.kr",
+      "host": "db.history.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4322,20 +4669,6 @@
     },
     {
       "host": "jnbeach.jeonnam.go.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.namgu.gwangju.kr",
-      "observed_reference_count": 2,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.paju.go.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4405,7 +4738,114 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.gbe.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "local.gosi.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.anyang.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kes.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.aihub.or.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [
+        "aihub"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kihs.re.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.gtc.co.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "touredu.visitkorea.or.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "touraz.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.khug.or.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nims.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "moef.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "baro.sen.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kospo.co.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "ifi.moef.go.kr",
+      "observed_reference_count": 2,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "dalseong.daegu.kr",
       "observed_reference_count": 2,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4427,13 +4867,6 @@
     },
     {
       "host": "www.nia.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kipa.re.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4567,13 +5000,6 @@
     },
     {
       "host": "www.ui4u.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.gne.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -4772,13 +5198,6 @@
     },
     {
       "host": "www.groundwater.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.fis.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5209,20 +5628,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "yesan.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.yesan.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.icjg.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -5238,13 +5643,6 @@
     },
     {
       "host": "gn.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.gjcity.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5414,13 +5812,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.yeonggwang.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.foodinfo.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -5429,13 +5820,6 @@
     },
     {
       "host": "contract.anyang.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "nyj.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5477,21 +5861,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kpx.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "hurik.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.kosmes.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5645,13 +6015,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.recycling-info.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.bigdata-covid.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -5688,13 +6051,6 @@
     },
     {
       "host": "data.floodmap.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "youtu.be",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5799,13 +6155,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "archive.gugak.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.ksnara.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -5856,13 +6205,6 @@
     },
     {
       "host": "www.kimst.re.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.gp.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -5939,13 +6281,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kiat.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.kh.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -6002,13 +6337,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "gis-heritage.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.ngii.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -6045,13 +6373,6 @@
     },
     {
       "host": "www.srmc.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.comwel.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -6324,13 +6645,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "topis.seoul.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.nmc.or.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -6520,21 +6834,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "drone.onestop.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.hscity.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.gasa.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -6608,13 +6908,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "bukgu.gwangju.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.goegy.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -6650,26 +6943,10 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "english.moef.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "bigdata.changwon.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [
         "changwon"
-      ],
-      "status": "target_dataset_mapping_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.cheonan.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [
-        "cheonan"
       ],
       "status": "target_dataset_mapping_pending",
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
@@ -6776,13 +7053,6 @@
     },
     {
       "host": "contents.history.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "db.history.go.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -7113,13 +7383,6 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.kiet.re.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "www.kfoodexpo.com",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -7281,21 +7544,7 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
-      "host": "www.gbgs.go.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
       "host": "kpetrorefund.or.kr",
-      "observed_reference_count": 1,
-      "registered_portal_candidates": [],
-      "status": "domestic_public_provider_classification_pending",
-      "source_referral_is_not_ownership_or_dataset_identity_proof": true
-    },
-    {
-      "host": "www.gbe.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
       "status": "domestic_public_provider_classification_pending",
@@ -7367,6 +7616,467 @@
       "source_referral_is_not_ownership_or_dataset_identity_proof": true
     },
     {
+      "host": "www.gjto.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.bike.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "lemi.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.knuh.ac.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "ssif.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jndc.co.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "learning.seongnam.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "yeosu.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "bigdata.sbiz.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jemulpo.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "buseo.sen.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "stat.mcst.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [
+        "mcst-stat"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "council.wonju.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "suma.suwon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "marine.kma.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kasa.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "archiculture.seoul.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "council.jungnang.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "gyeyak.iksan.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kobc.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "dswetland.daegu.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "ksun.suwon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "yt.suwon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "github.com",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "phoko.visitkorea.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.changwon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "knto.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kdata.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "korean.visitkorea.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.crms.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.bloodinfo.net",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "book.ioj.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.liveinkorea.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.nrf.re.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "ebook.lofa.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "enews.sen.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "service.sen.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "open.sen.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.jinhak.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.ijih.org",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "k-startupcenter.org",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "kr.gobizkorea.com",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "opengov.seoul.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.kdn.com",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "council.andong.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "ketep.re.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "etk.srail.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.junggu.seoul.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "jeonju.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [
+        "jeonju"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.waterworks.daejeon.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "stat.gimhae.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [
+        "gimhae"
+      ],
+      "status": "target_dataset_mapping_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.geumcheon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "nuri.goyang.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.councilyesan.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "gris.gg.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.cuc.or.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "data.nyj.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.siheung.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "recruit.incruit.com",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.hsg.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "lib.nyj.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "spri.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.bucheon.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "forestfire.gwd.go.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
+      "host": "www.ulju.ulsan.kr",
+      "observed_reference_count": 1,
+      "registered_portal_candidates": [],
+      "status": "domestic_public_provider_classification_pending",
+      "source_referral_is_not_ownership_or_dataset_identity_proof": true
+    },
+    {
       "host": "www.flowerdaegu.kr",
       "observed_reference_count": 1,
       "registered_portal_candidates": [],
@@ -7375,5 +8085,5 @@
     }
   ],
   "source_mode": "indexed_schema_metadata_and_catalog_rows",
-  "elapsed_seconds": 3.252
+  "elapsed_seconds": 4.983
 }

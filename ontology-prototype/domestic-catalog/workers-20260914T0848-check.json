@@ -1,0 +1,291 @@
+{
+  "workers": [
+    {
+      "name": "data-go-file",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": true,
+      "target_count": 83691,
+      "pids": [
+        8120
+      ],
+      "progress_generated_at": "2026-09-14T17:48:17.720275+09:00",
+      "actual_count": 1,
+      "processed": 50075,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_definitions.py\" --all --workers 3"
+      ],
+      "queue_exhausted": false
+    },
+    {
+      "name": "kosis",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": true,
+      "target_count": 266688,
+      "pids": [
+        11416
+      ],
+      "progress_generated_at": "2026-09-14T17:48:20.693875+09:00",
+      "actual_count": 1,
+      "processed": 48650,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_kosis.py\" --workers 2"
+      ],
+      "queue_exhausted": false
+    },
+    {
+      "name": "seoul",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 8272,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T20:14:00.808775+09:00",
+      "actual_count": 0,
+      "processed": 8272,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "data-go-api",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 12053,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T23:49:24.579117+09:00",
+      "actual_count": 0,
+      "processed": 12053,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "data-go-std",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 179,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T16:50:30.746332+09:00",
+      "actual_count": 0,
+      "processed": 179,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "assembly",
+      "current_error_log_bytes": null,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 278,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T16:32:45.691653+09:00",
+      "actual_count": 0,
+      "processed": 278,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "culture",
+      "current_error_log_bytes": null,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 468,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T16:39:06.339277+09:00",
+      "actual_count": 0,
+      "processed": 468,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "indexer",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": true,
+      "target_count": null,
+      "pids": [
+        18188
+      ],
+      "progress_generated_at": null,
+      "actual_count": 1,
+      "processed": null,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py\" --watch --interval 300"
+      ],
+      "queue_exhausted": null
+    },
+    {
+      "name": "culture-files",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 470,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T16:53:33.329896+09:00",
+      "actual_count": 0,
+      "processed": 470,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "ecos",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 681,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T18:04:49.765643+09:00",
+      "actual_count": 0,
+      "processed": 681,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "yeongdeungpo",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 153,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T17:38:56.195408+09:00",
+      "actual_count": 0,
+      "processed": 153,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "incheon",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 4382,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T20:35:24.46081+09:00",
+      "actual_count": 0,
+      "processed": 4382,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "daegu",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 14,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T18:40:17.332146+09:00",
+      "actual_count": 0,
+      "processed": 14,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "seoul-statistics",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 1777,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T21:17:59.480591+09:00",
+      "actual_count": 0,
+      "processed": 1777,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "mafra",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 2142,
+      "pids": [],
+      "progress_generated_at": "2026-09-13T22:19:04.098776+09:00",
+      "actual_count": 0,
+      "processed": 2142,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "busan",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 12551,
+      "pids": [],
+      "progress_generated_at": "2026-09-14T17:40:23.872202+09:00",
+      "actual_count": 0,
+      "processed": 12551,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "chungnam",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 4124,
+      "pids": [],
+      "progress_generated_at": "2026-09-14T01:10:23.442433+09:00",
+      "actual_count": 0,
+      "processed": 4124,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "jeonbuk",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 2233,
+      "pids": [],
+      "progress_generated_at": "2026-09-14T00:24:45.508688+09:00",
+      "actual_count": 0,
+      "processed": 2233,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "mafra-previews",
+      "current_error_log_bytes": 0,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 619,
+      "pids": [],
+      "progress_generated_at": "2026-09-14T02:43:52.678862+09:00",
+      "actual_count": 0,
+      "processed": 619,
+      "command_lines": [],
+      "queue_exhausted": true
+    },
+    {
+      "name": "expressway",
+      "current_error_log_bytes": null,
+      "passed": true,
+      "expected_active": false,
+      "target_count": 527,
+      "pids": [],
+      "progress_generated_at": "2026-09-14T17:07:23.649171+09:00",
+      "actual_count": 0,
+      "processed": 527,
+      "command_lines": [],
+      "queue_exhausted": true
+    }
+  ],
+  "passed": true,
+  "generated_at": "2026-09-14T08:48:36.7881899+00:00",
+  "supervisor_pids": [
+    3744
+  ],
+  "completed_unregistered_finite_queues": [
+    "hrfco",
+    "expressway-files"
+  ],
+  "stop_files": [],
+  "http_coverage_generated_at": "2026-09-14T17:45:39.015504+09:00",
+  "process_existence_is_not_full_service_health": true,
+  "browser_pids": [
+    3236
+  ]
+}

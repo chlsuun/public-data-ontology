@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-15T10:44:08.117037+00:00",
+  "scope": "Captured FISIS public metadata snapshot; concurrent worker may have progressed further",
+  "catalog_report": "fisis-catalog-report.json",
+  "report_count": 736,
+  "api_operation_count": 4,
+  "audited_statistical_documents": 736,
+  "statistical_item_occurrences": 19562,
+  "glossary_term_occurrences": 2707,
+  "api_response_field_occurrences": 41,
+  "api_request_parameter_occurrences": 19,
+  "status_counts": {
+    "statistical_items_observed_columns_partial": 734,
+    "statistical_items_observed": 2
+  },
+  "metadata_status_counts": {
+    "metadata_document_observed": 698,
+    "metadata_fetch_unresolved": 38
+  },
+  "item_issue_counts": {
+    "column_count_exceeds_observed_column_definitions": 734
+  },
+  "source_integrity_receipts_verified": 1702,
+  "source_failure_receipts": [
+    "fisis-metadata-SDSG208V-200906-201103-20260914",
+    "fisis-metadata-SDSG209V-200906-201103-20260914",
+    "fisis-metadata-SDSH149V-202303-202603-20260914",
+    "fisis-metadata-SDSH150V-202303-202603-20260914",
+    "fisis-metadata-SDSH151V-202303-202603-20260914",
+    "fisis-metadata-SDSH152V-202303-202603-20260914",
+    "fisis-metadata-SDSH153V-202303-202603-20260914",
+    "fisis-metadata-SDSH154V-202303-202603-20260914",
+    "fisis-metadata-SDSH155V-202303-202603-20260914",
+    "fisis-metadata-SDSH156V-202303-202603-20260914",
+    "fisis-metadata-SDSH157V-202303-202603-20260914",
+    "fisis-metadata-SDSH158V-202303-202603-20260914",
+    "fisis-metadata-SDSH159V-202303-202603-20260914",
+    "fisis-metadata-SDSH160V-202303-202603-20260914",
+    "fisis-metadata-SDSH161V-202303-202603-20260914",
+    "fisis-metadata-SDSH162V-202303-202603-20260914",
+    "fisis-metadata-SDSH163V-202303-202603-20260914",
+    "fisis-metadata-SDSH164V-202303-202603-20260914",
+    "fisis-metadata-SDSH165V-202303-202603-20260914",
+    "fisis-metadata-SDSH166V-202303-202603-20260914",
+    "fisis-metadata-SDSH167V-202303-202603-20260914",
+    "fisis-metadata-SDSH168V-202303-202603-20260914",
+    "fisis-metadata-SDSH169V-202303-202603-20260914",
+    "fisis-metadata-SDSI145V-202303-202603-20260914",
+    "fisis-metadata-SDSI146V-202303-202603-20260914",
+    "fisis-metadata-SDSI147V-202303-202603-20260914",
+    "fisis-metadata-SDSI148V-202303-202603-20260914",
+    "fisis-metadata-SDSI149V-202303-202603-20260914",
+    "fisis-metadata-SDSI150V-202303-202603-20260914",
+    "fisis-metadata-SDSI151V-202303-202603-20260914",
+    "fisis-metadata-SDSI152V-202303-202603-20260914",
+    "fisis-metadata-SDSI153V-202303-202603-20260914",
+    "fisis-metadata-SDSI154V-202303-202603-20260914",
+    "fisis-metadata-SDSI155V-202303-202603-20260914",
+    "fisis-metadata-SDSI156V-202303-202603-20260914",
+    "fisis-metadata-SDSI157V-202303-202603-20260914",
+    "fisis-metadata-SDSX204V-200906-201103-20260914",
+    "fisis-metadata-SDSX205V-200906-201103-20260914"
+  ],
+  "source_cautions_as_reported": [
+    "본 시스템에 수록된 데이터는 수량적인 정보로, 국가승인통계가 아님을 알려드립니다. 금융감독원 금융통계정보시스템(FISIS) 수록 통계정보는 이용자에게 통보없이\r\n                  추가, 변경, 개선, 업데이트 될 수 있습니다. FISIS 수록 통계정보는 금융회사 책임 하에 작성된 업무보고서 자료를 기초로 하고 있으며 금융감독원은 통계정보의 오류, 누락 및\r\n                  서비스 장애 등으로 발생할 수 있는 활용자의 손해·손실에 대한 책임을 부담하지 않습니다."
+  ],
+  "source_cautions_evidence_id": "fisis-api-intro-20260914",
+  "api_classification_issues": [
+    {
+      "issue": "invalid_source_classification_span",
+      "table_index": 8,
+      "reason": "invalid_explicit_table_span",
+      "automatic_correction": false
+    }
+  ],
+  "raw_data_quality_scores": null,
+  "license_reuse_review": "not_reviewed",
+  "code_identity_note": "Public UI sector/report/account IDs and Open API codes are not equated automatically. DATA_TYPE and CAL_UNIT remain source codes, not inferred storage types or units.",
+  "semantic_approvals": 0,
+  "statistical_analyses": 0,
+  "all_columns_complete": false,
+  "all_domestic_portals_complete": false
+}

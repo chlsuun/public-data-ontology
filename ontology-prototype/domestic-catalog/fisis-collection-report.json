@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-09-14T14:28:44.485908+00:00",
+  "started_at": "2026-09-14T14:16:00.910814+00:00",
+  "scope": "fisis-public-report-period-item-definitions-and-metadata",
+  "target_count": 736,
+  "processed": 736,
+  "remaining": 0,
+  "status_counts": {
+    "statistical_items_observed_columns_partial": 734,
+    "statistical_items_observed": 2
+  },
+  "documented_field_occurrences": 19562,
+  "glossary_term_occurrences": 2707,
+  "metadata_status_counts": {
+    "metadata_document_observed": 698,
+    "metadata_fetch_unresolved": 38
+  },
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "pid": 13112
+}

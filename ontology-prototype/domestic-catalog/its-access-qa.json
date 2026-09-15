@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-14T13:17:34.924994+00:00",
+  "portal_id": "its",
+  "source_url": "https://www.its.go.kr/opendata/intro",
+  "retrieved_at": "2026-09-14T13:05:55.071588+00:00",
+  "evidence_id": "its-intro-20260914",
+  "status": "fetch_unresolved",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+  "http_status": null,
+  "raw_hash": null,
+  "failure_phase": "TLS certificate chain verification before HTTP response",
+  "cause_confirmed": false,
+  "tls_validation_disabled": false,
+  "catalog_acquired": false,
+  "all_columns_complete": false,
+  "next_action": "Recheck official HTTPS documentation through a normally trusted connection or another explicitly linked official manual; preserve failed receipt."
+}

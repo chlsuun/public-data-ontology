@@ -1,0 +1,759 @@
+{
+  "generated_at": "2026-09-14T13:18:05.355449+00:00",
+  "evidence_id": "law-guide-list-20260914",
+  "source_url": "https://open.law.go.kr/LSO/openApi/guideList.do",
+  "reported_total": 191,
+  "observed_unique_guide_links": 195,
+  "all_explicit_table_links_captured": true,
+  "issues": [
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[62]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[62]",
+        "source_cells": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "용어",
+            "locator": "table[0].tbody.tr[62].cell[1]",
+            "source_row": 62,
+            "source_cell": 1,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어 조회",
+            "locator": "table[0].tbody.tr[62].cell[2]",
+            "source_row": 62,
+            "source_cell": 2,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "용어",
+          "법령용어 조회",
+          "법령용어 조회",
+          "법령용어 조회",
+          "법령용어 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "용어",
+            "locator": "table[0].tbody.tr[62].cell[1]",
+            "source_row": 62,
+            "source_cell": 1,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어 조회",
+            "locator": "table[0].tbody.tr[62].cell[2]",
+            "source_row": 62,
+            "source_cell": 2,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어 조회",
+            "locator": "table[0].tbody.tr[62].cell[2]",
+            "source_row": 62,
+            "source_cell": 2,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어 조회",
+            "locator": "table[0].tbody.tr[62].cell[2]",
+            "source_row": 62,
+            "source_cell": 2,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어 조회",
+            "locator": "table[0].tbody.tr[62].cell[2]",
+            "source_row": 62,
+            "source_cell": 2,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[63]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[63]",
+        "source_cells": [
+          {
+            "text": "일상용어 조회",
+            "locator": "table[0].tbody.tr[63].cell[0]",
+            "source_row": 63,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "용어",
+          "일상용어 조회",
+          "일상용어 조회",
+          "일상용어 조회",
+          "일상용어 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "용어",
+            "locator": "table[0].tbody.tr[62].cell[1]",
+            "source_row": 62,
+            "source_cell": 1,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "일상용어 조회",
+            "locator": "table[0].tbody.tr[63].cell[0]",
+            "source_row": 63,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어 조회",
+            "locator": "table[0].tbody.tr[63].cell[0]",
+            "source_row": 63,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어 조회",
+            "locator": "table[0].tbody.tr[63].cell[0]",
+            "source_row": 63,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어 조회",
+            "locator": "table[0].tbody.tr[63].cell[0]",
+            "source_row": 63,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[64]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[64]",
+        "source_cells": [
+          {
+            "text": "용어 간 관계",
+            "locator": "table[0].tbody.tr[64].cell[0]",
+            "source_row": 64,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어-일상용어 연계 조회",
+            "locator": "table[0].tbody.tr[64].cell[1]",
+            "source_row": 64,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "용어 간 관계",
+          "법령용어-일상용어 연계 조회",
+          "법령용어-일상용어 연계 조회",
+          "법령용어-일상용어 연계 조회",
+          "법령용어-일상용어 연계 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "용어 간 관계",
+            "locator": "table[0].tbody.tr[64].cell[0]",
+            "source_row": 64,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어-일상용어 연계 조회",
+            "locator": "table[0].tbody.tr[64].cell[1]",
+            "source_row": 64,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-일상용어 연계 조회",
+            "locator": "table[0].tbody.tr[64].cell[1]",
+            "source_row": 64,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-일상용어 연계 조회",
+            "locator": "table[0].tbody.tr[64].cell[1]",
+            "source_row": 64,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-일상용어 연계 조회",
+            "locator": "table[0].tbody.tr[64].cell[1]",
+            "source_row": 64,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[65]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[65]",
+        "source_cells": [
+          {
+            "text": "일상용어-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[65].cell[0]",
+            "source_row": 65,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "용어 간 관계",
+          "일상용어-법령용어 연계 조회",
+          "일상용어-법령용어 연계 조회",
+          "일상용어-법령용어 연계 조회",
+          "일상용어-법령용어 연계 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "용어 간 관계",
+            "locator": "table[0].tbody.tr[64].cell[0]",
+            "source_row": 64,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "일상용어-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[65].cell[0]",
+            "source_row": 65,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[65].cell[0]",
+            "source_row": 65,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[65].cell[0]",
+            "source_row": 65,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "일상용어-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[65].cell[0]",
+            "source_row": 65,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[66]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[66]",
+        "source_cells": [
+          {
+            "text": "조문 간 관계",
+            "locator": "table[0].tbody.tr[66].cell[0]",
+            "source_row": 66,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어-조문 연계 조회",
+            "locator": "table[0].tbody.tr[66].cell[1]",
+            "source_row": 66,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "조문 간 관계",
+          "법령용어-조문 연계 조회",
+          "법령용어-조문 연계 조회",
+          "법령용어-조문 연계 조회",
+          "법령용어-조문 연계 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "조문 간 관계",
+            "locator": "table[0].tbody.tr[66].cell[0]",
+            "source_row": 66,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "법령용어-조문 연계 조회",
+            "locator": "table[0].tbody.tr[66].cell[1]",
+            "source_row": 66,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-조문 연계 조회",
+            "locator": "table[0].tbody.tr[66].cell[1]",
+            "source_row": 66,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-조문 연계 조회",
+            "locator": "table[0].tbody.tr[66].cell[1]",
+            "source_row": 66,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "법령용어-조문 연계 조회",
+            "locator": "table[0].tbody.tr[66].cell[1]",
+            "source_row": 66,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[67]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[67]",
+        "source_cells": [
+          {
+            "text": "조문-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[67].cell[0]",
+            "source_row": 67,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "조문 간 관계",
+          "조문-법령용어 연계 조회",
+          "조문-법령용어 연계 조회",
+          "조문-법령용어 연계 조회",
+          "조문-법령용어 연계 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "조문 간 관계",
+            "locator": "table[0].tbody.tr[66].cell[0]",
+            "source_row": 66,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "조문-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[67].cell[0]",
+            "source_row": 67,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "조문-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[67].cell[0]",
+            "source_row": 67,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "조문-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[67].cell[0]",
+            "source_row": 67,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "조문-법령용어 연계 조회",
+            "locator": "table[0].tbody.tr[67].cell[0]",
+            "source_row": 67,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[68]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[68]",
+        "source_cells": [
+          {
+            "text": "법령 간 관계",
+            "locator": "table[0].tbody.tr[68].cell[0]",
+            "source_row": 68,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "text": "관련법령 조회",
+            "locator": "table[0].tbody.tr[68].cell[1]",
+            "source_row": 68,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "법령 간 관계",
+          "관련법령 조회",
+          "관련법령 조회",
+          "관련법령 조회",
+          "관련법령 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "법령 간 관계",
+            "locator": "table[0].tbody.tr[68].cell[0]",
+            "source_row": 68,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "text": "관련법령 조회",
+            "locator": "table[0].tbody.tr[68].cell[1]",
+            "source_row": 68,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "관련법령 조회",
+            "locator": "table[0].tbody.tr[68].cell[1]",
+            "source_row": 68,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "관련법령 조회",
+            "locator": "table[0].tbody.tr[68].cell[1]",
+            "source_row": 68,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "관련법령 조회",
+            "locator": "table[0].tbody.tr[68].cell[1]",
+            "source_row": 68,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[69]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[69]",
+        "source_cells": [
+          {
+            "text": "지능형 법령검색 시스템",
+            "locator": "table[0].tbody.tr[69].cell[0]",
+            "source_row": 69,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "지능형 법령검색 시스템 검색 API 조회",
+            "locator": "table[0].tbody.tr[69].cell[1]",
+            "source_row": 69,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "지능형 법령검색 시스템",
+          "지능형 법령검색 시스템 검색 API 조회",
+          "지능형 법령검색 시스템 검색 API 조회",
+          "지능형 법령검색 시스템 검색 API 조회",
+          "지능형 법령검색 시스템 검색 API 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "지능형 법령검색 시스템",
+            "locator": "table[0].tbody.tr[69].cell[0]",
+            "source_row": 69,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "지능형 법령검색 시스템 검색 API 조회",
+            "locator": "table[0].tbody.tr[69].cell[1]",
+            "source_row": 69,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 검색 API 조회",
+            "locator": "table[0].tbody.tr[69].cell[1]",
+            "source_row": 69,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 검색 API 조회",
+            "locator": "table[0].tbody.tr[69].cell[1]",
+            "source_row": 69,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 검색 API 조회",
+            "locator": "table[0].tbody.tr[69].cell[1]",
+            "source_row": 69,
+            "source_cell": 1,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "catalog_source_span_width_differs_from_four_column_header",
+      "locator": "table[0].tbody.tr[70]",
+      "expanded_width": 6,
+      "raw_source_row": {
+        "locator": "table[0].tbody.tr[70]",
+        "source_cells": [
+          {
+            "text": "지능형 법령검색 시스템 연관법령 API 조회",
+            "locator": "table[0].tbody.tr[70].cell[0]",
+            "source_row": 70,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ],
+        "expanded_cells": [
+          "법령정보 지식베이스",
+          "지능형 법령검색 시스템",
+          "지능형 법령검색 시스템 연관법령 API 조회",
+          "지능형 법령검색 시스템 연관법령 API 조회",
+          "지능형 법령검색 시스템 연관법령 API 조회",
+          "지능형 법령검색 시스템 연관법령 API 조회"
+        ],
+        "expanded_cell_sources": [
+          {
+            "text": "법령정보 지식베이스",
+            "locator": "table[0].tbody.tr[62].cell[0]",
+            "source_row": 62,
+            "source_cell": 0,
+            "rowspan": 9,
+            "colspan": 1
+          },
+          {
+            "text": "지능형 법령검색 시스템",
+            "locator": "table[0].tbody.tr[69].cell[0]",
+            "source_row": 69,
+            "source_cell": 0,
+            "rowspan": 2,
+            "colspan": 1
+          },
+          {
+            "text": "지능형 법령검색 시스템 연관법령 API 조회",
+            "locator": "table[0].tbody.tr[70].cell[0]",
+            "source_row": 70,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 연관법령 API 조회",
+            "locator": "table[0].tbody.tr[70].cell[0]",
+            "source_row": 70,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 연관법령 API 조회",
+            "locator": "table[0].tbody.tr[70].cell[0]",
+            "source_row": 70,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "text": "지능형 법령검색 시스템 연관법령 API 조회",
+            "locator": "table[0].tbody.tr[70].cell[0]",
+            "source_row": 70,
+            "source_cell": 0,
+            "rowspan": 1,
+            "colspan": 4
+          }
+        ]
+      },
+      "automatic_category_correction": false
+    },
+    {
+      "issue": "displayed_total_differs_from_explicit_guide_links",
+      "reported_total": 191,
+      "observed_unique_guide_links": 195,
+      "missing_or_extra_rows_invented": false
+    }
+  ],
+  "all_portal_catalogs_complete": false,
+  "scope": "All explicit API guide links in the captured public guide table, not all legal-content records"
+}

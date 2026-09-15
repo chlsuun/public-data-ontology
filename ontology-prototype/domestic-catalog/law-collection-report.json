@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-14T13:18:05.608521+00:00",
+  "started_at": "2026-09-14T13:18:05.253420+00:00",
+  "scope": "law-public-api-documentation-guides",
+  "target_count": 195,
+  "processed": 195,
+  "remaining": 0,
+  "status_counts": {
+    "response_definition_observed": 180,
+    "response_definition_not_observed": 15
+  },
+  "documented_field_occurrences": 3210,
+  "request_parameter_occurrences": 1968,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "pid": 30432
+}

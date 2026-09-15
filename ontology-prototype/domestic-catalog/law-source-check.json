@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-09-15T10:43:28.694124+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every advertised guide identifier, label and locator retained",
+      "passed": true,
+      "count": 195
+    },
+    {
+      "name": "Physical catalog cells and anomalous spans preserved without guessed categories",
+      "passed": true
+    },
+    {
+      "name": "Provider label is guide publisher rather than inferred source agency",
+      "passed": true
+    },
+    {
+      "name": "Displayed total mismatch remains unresolved",
+      "passed": true
+    },
+    {
+      "name": "196 source receipts match exact byte counts and SHA256",
+      "passed": true
+    },
+    {
+      "name": "Every response field and request row matches physical source cells",
+      "passed": true,
+      "response_fields": 3210,
+      "request_parameters": 1968
+    },
+    {
+      "name": "No-schema guides remain unresolved and blank structural rows are preserved",
+      "passed": true,
+      "status_counts": {
+        "response_definition_observed": 180,
+        "response_definition_not_observed": 15
+      }
+    },
+    {
+      "name": "All repeated response labels remain separate source rows",
+      "passed": true
+    },
+    {
+      "name": "Collection report reconciles with all captured guide documents",
+      "passed": true
+    }
+  ],
+  "scope": "195 explicit operation guide links in one captured public listing",
+  "source_receipts_verified": 196,
+  "observation_api_called": false
+}

@@ -1,0 +1,656 @@
+{
+  "generated_at": "2026-09-15T10:43:28.691337+00:00",
+  "portal_id": "law",
+  "scope": "195 explicit operation guide links in one captured public listing",
+  "source_url": "https://open.law.go.kr/LSO/openApi/guideList.do",
+  "listing_evidence_id": "law-guide-list-20260914",
+  "collection_report": "law-collection-report.json",
+  "catalog_report": "law-catalog-report.json",
+  "reported_total": 191,
+  "observed_guide_links": 195,
+  "official_total_reconciled": false,
+  "status_counts": {
+    "response_definition_observed": 180,
+    "response_definition_not_observed": 15
+  },
+  "response_field_occurrences": 3210,
+  "request_parameter_occurrences": 1968,
+  "measured_metadata_qa": {
+    "guide_fetch_success": {
+      "numerator": 195,
+      "denominator": 195
+    },
+    "response_schema_observed": {
+      "numerator": 180,
+      "denominator": 195
+    },
+    "source_receipt_integrity": {
+      "numerator": 196,
+      "denominator": 196
+    }
+  },
+  "issue_counts": {
+    "repeated_response_labels_preserved_by_source_row": 15,
+    "response_definition_table_not_observed": 15,
+    "empty_source_table_row_preserved": 1,
+    "response_caption_request_header_conflict": 6
+  },
+  "guide_issues": [
+    {
+      "dataset_key": "lsEfYdListGuide",
+      "evidence_id": "law-guide-lsEfYdListGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "공포번호": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsEfYdInfoGuide",
+      "evidence_id": "law-guide-lsEfYdInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "공포번호": 2,
+            "소관부처코드": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsNwListGuide",
+      "evidence_id": "law-guide-lsNwListGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "공포번호": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsNwInfoGuide",
+      "evidence_id": "law-guide-lsNwInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "공포번호": 2,
+            "소관부처코드": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsHstListGuide",
+      "evidence_id": "law-guide-lsHstListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsHstInfoGuide",
+      "evidence_id": "law-guide-lsHstInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsEngInfoGuide",
+      "evidence_id": "law-guide-lsEngInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsOrdinConListGuide",
+      "evidence_id": "law-guide-lsOrdinConListGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "target": 3,
+            "키워드": 2,
+            "section": 3,
+            "totalCnt": 3,
+            "page": 3,
+            "law id": 3,
+            "법령명한글": 3,
+            "법령ID": 3,
+            "공포일자": 3,
+            "공포번호": 3,
+            "제개정구분명": 3,
+            "시행일자": 3,
+            "자치법규 일련번호": 2,
+            "자치법규명": 2,
+            "자치법규ID": 2,
+            "자치법규종류": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsOrdinConGuide",
+      "evidence_id": "law-guide-lsOrdinConGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "oldAndNewInfoGuide",
+      "evidence_id": "law-guide-oldAndNewInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "조문": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "thdCmpInfoGuide",
+      "evidence_id": "law-guide-thdCmpInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "기본정보": 2,
+            "법령ID": 2,
+            "법령명": 2,
+            "삼단비교 존재여부": 2,
+            "시행일자": 2,
+            "법률조문": 2,
+            "조번호": 2,
+            "조가지번호": 2,
+            "조제목": 2,
+            "조내용": 2,
+            "시행령조문": 2,
+            "시행규칙 조문목록": 2,
+            "시행규칙조문": 2,
+            "공포일자": 2,
+            "공포번호": 2,
+            "법종구분": 2,
+            "제개정구분": 2,
+            "기준법 법령명": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "lsAbrvListGuide",
+      "evidence_id": "law-guide-lsAbrvListGuide-20260914",
+      "issues": [
+        {
+          "issue": "empty_source_table_row_preserved",
+          "role": "response",
+          "source_row": {
+            "locator": "table[2].tbody.tr[6]",
+            "source_cells": [],
+            "expanded_cells": [],
+            "expanded_cell_sources": []
+          }
+        }
+      ]
+    },
+    {
+      "dataset_key": "admrulOldAndNewInfoGuide",
+      "evidence_id": "law-guide-admrulOldAndNewInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "조문": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "ordinInfoGuide",
+      "evidence_id": "law-guide-ordinInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "부칙내용": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "ordinLsConListGuide",
+      "evidence_id": "law-guide-ordinLsConListGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "target": 3,
+            "section": 3,
+            "totalCnt": 3,
+            "page": 3,
+            "law id": 3,
+            "자치법규 일련번호": 3,
+            "자치법규명": 3,
+            "자치법규ID": 3,
+            "공포일자": 3,
+            "공포번호": 3,
+            "제개정구분명": 3,
+            "자치법규종류": 3,
+            "시행일자": 3
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "ftcInfoGuide",
+      "evidence_id": "law-guide-ftcInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "결정문 일련번호": 2,
+            "문서유형": 2,
+            "사건번호": 2,
+            "사건명": 2,
+            "피심정보명": 2,
+            "피심정보내용": 2,
+            "별지": 2,
+            "결정요지": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobLsListGuide",
+      "evidence_id": "law-guide-mobLsListGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "공포번호": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobLsInfoGuide",
+      "evidence_id": "law-guide-mobLsInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobAdmrulInfoGuide",
+      "evidence_id": "law-guide-mobAdmrulInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobOrdinInfoGuide",
+      "evidence_id": "law-guide-mobOrdinInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobPrecInfoGuide",
+      "evidence_id": "law-guide-mobPrecInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobDetcInfoGuide",
+      "evidence_id": "law-guide-mobDetcInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobExpcInfoGuide",
+      "evidence_id": "law-guide-mobExpcInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobDeccInfoGuide",
+      "evidence_id": "law-guide-mobDeccInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobTrtyInfoGuide",
+      "evidence_id": "law-guide-mobTrtyInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobLsBylListGuide",
+      "evidence_id": "law-guide-mobLsBylListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobAdmrulBylListGuide",
+      "evidence_id": "law-guide-mobAdmrulBylListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "mobOrdinBylListGuide",
+      "evidence_id": "law-guide-mobOrdinBylListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_definition_table_not_observed"
+        }
+      ]
+    },
+    {
+      "dataset_key": "aiSearchGuide",
+      "evidence_id": "law-guide-aiSearchGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "시행일자": 2,
+            "제개정구분명": 2,
+            "조문일련번호": 2,
+            "조문번호": 2,
+            "조문가지번호": 2,
+            "조문제목": 2,
+            "조문내용": 2,
+            "별표서식 일련번호": 2,
+            "별표서식번호": 2,
+            "별표서식 가지번호": 2,
+            "별표서식제목": 2,
+            "별표서식 구분코드": 2,
+            "별표서식 구분명": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "aiRltLsGuide",
+      "evidence_id": "law-guide-aiRltLsGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "조문번호": 2,
+            "조문가지번호": 2,
+            "조문제목": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcMoelListGuide",
+      "evidence_id": "law-guide-cgmExpcMoelListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcMolitListGuide",
+      "evidence_id": "law-guide-cgmExpcMolitListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcMoefListGuide",
+      "evidence_id": "law-guide-cgmExpcMoefListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcMoisListGuide",
+      "evidence_id": "law-guide-cgmExpcMoisListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcKcsListGuide",
+      "evidence_id": "law-guide-cgmExpcKcsListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "cgmExpcNtsListGuide",
+      "evidence_id": "law-guide-cgmExpcNtsListGuide-20260914",
+      "issues": [
+        {
+          "issue": "response_caption_request_header_conflict",
+          "table_index": 2,
+          "caption": "출력 결과 필드 안내",
+          "headers": [
+            "요청변수",
+            "값",
+            "설명"
+          ],
+          "classification_basis": "explicit output caption; source header preserved"
+        }
+      ]
+    },
+    {
+      "dataset_key": "specialDeccAdapInfoGuide",
+      "evidence_id": "law-guide-specialDeccAdapInfoGuide-20260914",
+      "issues": [
+        {
+          "issue": "repeated_response_labels_preserved_by_source_row",
+          "labels": {
+            "주문": 2,
+            "이유": 2
+          },
+          "nested_paths_invented": false
+        }
+      ]
+    }
+  ],
+  "unresolved_response_guides": [
+    {
+      "dataset_key": "lsHstListGuide",
+      "title": "법령 연혁 목록 조회",
+      "evidence_id": "law-guide-lsHstListGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "lsHstInfoGuide",
+      "title": "법령 연혁 본문 조회",
+      "evidence_id": "law-guide-lsHstInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "lsEngInfoGuide",
+      "title": "영문 법령 본문 조회",
+      "evidence_id": "law-guide-lsEngInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "lsOrdinConGuide",
+      "title": "법령-자치법규 연계현황 조회",
+      "evidence_id": "law-guide-lsOrdinConGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobLsInfoGuide",
+      "title": "법령 본문 조회",
+      "evidence_id": "law-guide-mobLsInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobAdmrulInfoGuide",
+      "title": "행정규칙 본문 조회",
+      "evidence_id": "law-guide-mobAdmrulInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobOrdinInfoGuide",
+      "title": "자치법규 본문 조회",
+      "evidence_id": "law-guide-mobOrdinInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobPrecInfoGuide",
+      "title": "판례 본문 조회",
+      "evidence_id": "law-guide-mobPrecInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobDetcInfoGuide",
+      "title": "헌재결정례 본문 조회",
+      "evidence_id": "law-guide-mobDetcInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobExpcInfoGuide",
+      "title": "법령해석례 본문 조회",
+      "evidence_id": "law-guide-mobExpcInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobDeccInfoGuide",
+      "title": "행정심판례 본문 조회",
+      "evidence_id": "law-guide-mobDeccInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobTrtyInfoGuide",
+      "title": "조약 본문 조회",
+      "evidence_id": "law-guide-mobTrtyInfoGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobLsBylListGuide",
+      "title": "법령 별표ㆍ서식 목록 조회",
+      "evidence_id": "law-guide-mobLsBylListGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobAdmrulBylListGuide",
+      "title": "행정규칙 별표ㆍ서식 목록 조회",
+      "evidence_id": "law-guide-mobAdmrulBylListGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    },
+    {
+      "dataset_key": "mobOrdinBylListGuide",
+      "title": "자치법규 별표ㆍ서식 목록 조회",
+      "evidence_id": "law-guide-mobOrdinBylListGuide-20260914",
+      "next_action": "Investigate other official documentation or linked formal schemas; do not infer fields from examples."
+    }
+  ],
+  "registration_identity_note": "Guide IDs identify documentation operations, not individual legal-content records.",
+  "field_count_note": "Response-row occurrences include repeated names and API control fields, not unique analytical variables.",
+  "raw_data_quality_scores": null,
+  "license_reuse_review": "not_reviewed",
+  "semantic_approvals": 0,
+  "statistical_analyses": 0,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

@@ -1,0 +1,223 @@
+{
+  "checked_at": "2026-09-13T17:30:21.5556594+00:00",
+  "workers": [
+    {
+      "name": "data-go-file",
+      "actual_pids": [
+        26304
+      ],
+      "expected_running": true,
+      "running_count": 1,
+      "passed": true,
+      "queue_exhausted": false,
+      "stderr_bytes": 0,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_definitions.py --all --workers 3"
+      ]
+    },
+    {
+      "name": "kosis",
+      "actual_pids": [
+        25268
+      ],
+      "expected_running": true,
+      "running_count": 1,
+      "passed": true,
+      "queue_exhausted": false,
+      "stderr_bytes": 0,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_kosis.py --workers 2"
+      ]
+    },
+    {
+      "name": "seoul",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "data-go-api",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "data-go-std",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "assembly",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "culture",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "indexer",
+      "actual_pids": [
+        15780
+      ],
+      "expected_running": true,
+      "running_count": 1,
+      "passed": true,
+      "queue_exhausted": false,
+      "stderr_bytes": 0,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py\" --watch --interval 300"
+      ]
+    },
+    {
+      "name": "culture-files",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "ecos",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "yeongdeungpo",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "incheon",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "daegu",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "seoul-statistics",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "mafra",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "busan",
+      "actual_pids": [
+        16492
+      ],
+      "expected_running": true,
+      "running_count": 1,
+      "passed": true,
+      "queue_exhausted": false,
+      "stderr_bytes": 0,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 -u \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_busan.py\""
+      ]
+    },
+    {
+      "name": "chungnam",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "jeonbuk",
+      "actual_pids": [],
+      "expected_running": false,
+      "running_count": 0,
+      "passed": true,
+      "queue_exhausted": true,
+      "stderr_bytes": 0,
+      "command_lines": []
+    },
+    {
+      "name": "mafra-previews",
+      "actual_pids": [
+        22548
+      ],
+      "expected_running": true,
+      "running_count": 1,
+      "passed": true,
+      "queue_exhausted": false,
+      "stderr_bytes": 0,
+      "command_lines": [
+        "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_mafra_previews.py\""
+      ]
+    }
+  ],
+  "supervisor_pids": [
+    7296
+  ],
+  "browser_pids": [
+    24556
+  ],
+  "stop_flags": [],
+  "passed": true
+}

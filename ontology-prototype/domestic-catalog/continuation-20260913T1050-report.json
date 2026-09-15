@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-09-13T10:58:54.354004+00:00",
+  "indexed_snapshot": {
+    "generated_at": "2026-09-13T10:50:44.983222+00:00",
+    "portals_with_catalog_acquisition": 14,
+    "total_catalog_records": 413612,
+    "fields_in_source_definition_documents": 491326,
+    "documented_column_occurrences": 740158
+  },
+  "new_scopes": [
+    {
+      "portal_id": "opendart",
+      "api_guides": 85,
+      "introduction_posts": 83,
+      "documented_response_field_occurrences": 2175,
+      "scope_reconciliation": "discrepancy_retained"
+    },
+    {
+      "portal_id": "address",
+      "api_service_variants": 11,
+      "services_with_response_schema": 9,
+      "documented_response_field_occurrences": 199,
+      "map_manual_request_parameters": 14,
+      "database_categories_observed_not_yet_indexed": 31
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "checks": 48,
+    "source_hashes_checked": 45183,
+    "adapter_checks": 11,
+    "http_search_checks": 6
+  },
+  "remaining": "주소 DB 분류의 공개 명세, OpenDART 별도 파일 명세와 목록 간 차이, 기존 대규모 큐와 나머지 국내 제공처",
+  "all_domestic_portals_complete": false,
+  "all_columns_complete": false,
+  "git_published": false,
+  "other_projects_modified": false,
+  "indexer_resume": {
+    "pid": 31152,
+    "observed_at": "2026-09-13T11:00:07.372161+00:00",
+    "commandline_verified": true,
+    "stderr": ""
+  },
+  "active_collectors_verified_without_duplicates": [
+    "data-go-file",
+    "kosis",
+    "seoul",
+    "data-go-api",
+    "incheon"
+  ]
+}

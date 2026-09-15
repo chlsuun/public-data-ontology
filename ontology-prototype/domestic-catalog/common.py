@@ -18,7 +18,15 @@ def dump(path,value):
     path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
     temp=path.with_name(path.name+f'.{os.getpid()}.{threading.get_ident()}.tmp')
     temp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    temp.replace(path)
+    # Windows readers/scanners may briefly deny replacement of an open target.
+    # Preserve atomic replacement; never truncate the prior valid JSON in place.
+    for attempt in range(6):
+        try:
+            temp.replace(path)
+            break
+        except PermissionError as exc:
+            if getattr(exc,'winerror',None) not in (5,32,33) or attempt==5:raise
+            time.sleep(.05*(2**attempt))
 def read(path): return json.loads(Path(path).read_text(encoding='utf-8'))
 
 def host_turn(host, cooldown=0):

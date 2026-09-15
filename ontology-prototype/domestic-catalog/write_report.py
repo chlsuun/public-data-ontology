@@ -10,9 +10,11 @@ NAMES.update(foodsafety='식품안전나라 데이터활용서비스')
 NAMES.update(grac='게임물관리위원회 Open API',forest='산림청 공공데이터 개방목록')
 NAMES.update(expressway='고속도로 공공데이터 포털',hrfco='한강홍수통제소 Open API')
 NAMES.update({'kdi-api':'KDI Open API','kocca-api':'한국콘텐츠진흥원 Open API','kspo':'국민체육진흥공단 공개 데이터 안내','bigdata-culture':'문화 빅데이터 플랫폼'})
+NAMES.update(law='국가법령정보센터 LAW OPEN DATA',fisis='금융통계정보시스템 FISIS')
 def esc(v):return str(v or '미확인').replace('|',' / ').replace('\n',' ')
 def main():
     c=read(HERE/'coverage-report.json');ps=read(HERE/'inventory/domestic-portals.json')['portals']
+    stopped=read(HERE/'completion-policy.json').get('bulk_collection_enabled') is False
     rows=['# 국내 공공데이터 포털·기관·칼럼 수집 결과','',
         '현재 수집 범위는 **국내 포털 전 분야**다. OECD와 World Bank는 이번 수집 대상에서 제외했다.',
         '국내는 포털 제공처의 범위다. 국내 포털이 제공하는 국제 통계를 주제만으로 제외하지 않는다. KOSIS의 다른 목록 뷰는 추가 조사 대상이다.',
@@ -27,10 +29,10 @@ def main():
         f"총 등록정보 **{c['total_catalog_records']:,}행**, 선언된 출력항목명 후보 **{c['declared_output_tokens']:,}개**를 저장했다. 명세 문서별 항목 합계는 **{c.get('fields_in_source_definition_documents',c['documented_column_occurrences']):,}개**, 기관별 등록정보에 연결한 반복까지 포함한 항목 수는 **{c['documented_column_occurrences']:,}개**다.",
         '등록정보 행에는 동일 자료의 분류 경로·제공기관별 반복이 포함된다. 고유 목록 키도 포털 사이의 중복을 제거한 실제 데이터셋 수는 아니다. 두 칼럼 수는 서로 겹치므로 합산하지 않는다.',
         '명세 수에는 통계 분류·측정 항목·기간과 API 응답 코드·메시지도 포함된다. 모두 물리적 CSV 칼럼이나 통계분석 변수인 것은 아니다.','',
-        '## 계속 수집하는 방식','',
-        '공식 목록의 모든 식별자를 큐에 넣어 재개 가능한 워커로 조회한다. 수집기는 원문을 재사용하고 호스트별 요청 간격 및 요청 제한 시 대기를 적용한다. 검색 DB는 5분마다 증분 반영하고 휴대용 칼럼 파일은 약 1시간마다 갱신한다.',
+        '## 수집 운영 상태','',
+        ('**프로토타입 개념·관계 설계를 위한 자료가 충분하다고 판단해 대량 자동 수집을 종료했다.** [판정 근거](COLLECTION-SUFFICIENCY.md)와 [운영 기록](collection-stop-report.json)을 확인한다. 검색 DB와 파일을 보존하며, 구체적인 관계 검토에 필요한 출처만 추가로 조사한다.' if stopped else '공식 목록의 식별자를 재개 가능한 워커로 조회하고 검색 DB는 5분마다 증분 반영한다. 휴대용 칼럼 파일은 약 1시간마다 갱신한다.'),
         '수집 큐가 끝나도 미공개·접근 제한·파싱 실패·미확인 코드 목록은 미해결로 남긴다. [완료 판정 조건](completion-policy.json)과 [이어가기 문서](CONTINUATION.md)를 따른다. 로컬 컴퓨터가 켜져 있고 네트워크가 연결되어 있어야 워커가 진행된다.',
-        '현재 작업에는 30분 간격 후속 실행도 설정되어 있어 워커 상태를 확인하고 미수집 제공처의 경로 조사를 이어간다. 예약 설정 자체는 수집 완료 근거가 아니다.','',
+        ('30분 간격 후속 수집 예약은 해제했다. 미처리 큐·명세 미확보·오류를 완료로 바꾸지 않는다. 전국 전수 수집 완료와 온톨로지 검증 완료는 아직 아니다.' if stopped else '예약 실행 자체는 수집 완료 근거가 아니다.'),'',
         '## 먼저 보는 방법','',
         '- 검색 화면: `python ontology-prototype/domestic-catalog/browse.py` 실행 후 http://127.0.0.1:8766 에서 기관명·자료명·칼럼명으로 검색한다.',
         '- 현재 국내 온톨로지 구조: [model.json](model.json). 대규모 실제 목록은 연결된 파일과 검색 DB에 분리되어 있다.',
@@ -81,7 +83,9 @@ def main():
         '30. **국민체육진흥공단:** 공식 안내가 연결한 외부 공개 데이터 지도의 활성 등록 183개를 수집했다. 외부 호스트 소유권은 확인되지 않았고 복사된 명세·공개 미리보기 머리글 3,035셀은 후보로 구분한다. 지도에 선언된 관계 시나리오·품질 등급을 승인된 관계나 점수로 가져오지 않는다. 공식 개방 안내의 표 20행·6행은 자료 묶음이며 개별 등록과 합산하지 않는다. data.go.kr 참조 86개는 기존 목록 키와 모두 일치하지만 원본 칼럼을 복제하지 않는다. [사이트별 QA](kspo-source-qa.json), [원기관 참조 대조](inventory/kspo-data-go-reference-resolution.json).',
         '31. **문화 빅데이터 플랫폼:** 위 지도에서 실제로 연결된 원본 자료 92개의 공개 상세 화면과 컬럼정의서 시트를 대조해 정식 칼럼 1,577항목을 확보했다. 컬럼명·한글명·자료형·길이·PK·NOT NULL·상품명과 비연속 순번을 그대로 보존한다. 지도에 복사된 명세와 원문 셀이 정확히 일치한 자료는 87개, 자료형 등 정보 생략이나 설명 차이가 있는 자료는 5개다. 비교는 문서 내용 대조이며 사람이 승인한 의미 동일성·통계 관계 검증이 아니다. 관측값 다운로드·구매·API 호출은 하지 않았다. 플랫폼 전체 목록은 아직 남아 있다. [진행](culture-market-references-collection-report.json), [사이트별 QA](culture-market-reference-source-qa.json), [출처 간 셀 비교](inventory/kspo-culture-primary-definition-comparison.json).',
         '   별도로 미리보기 머리글과 원본 정의서의 칼럼명·순서를 비교하면 92쌍 중 90쌍 일치, 2쌍 차이다. 경륜 등록 선수 자료는 미리보기 31개에 비해 원본 정의서는 28개이며, 차이만으로 칼럼을 추가하거나 파일 누락으로 단정하지 않는다. [미리보기와 정의서 비교](inventory/kspo-culture-preview-dictionary-comparison.json). 위의 87/5는 복사된 정의서의 전체 셀 비교이고 이 90/2는 미리보기와 정의서의 이름·순서 비교로 검사 대상이 다르다.',
-        f"32. **나머지 제공처:** 국내 조사 등록부 {c['registered_portal_candidates']}개 중 목록을 일부라도 확보한 {c['portals_with_catalog_acquisition']}곳 외의 제공처는 수집 경로·명세 형식을 계속 조사한다. 원문 외부 참조에서 발견한 신규 제공처도 검토한다. 전국 제공처 자체의 완전한 명부도 아직 없다.",
+        '32. **국가법령정보센터:** 공개 API 안내 목록의 실제 링크 195개를 모두 조회해 180개 안내에서 응답 명세 3,210항목, 전체 안내에서 요청 인자 1,968항목을 확보했다. 안내 ID는 API 기능별 문서 식별자이며 개별 법령·판례 건수가 아니다. 응답 명세를 관측하지 못한 15개 안내는 미해결이다. 사이트 표시 총계 191개와 링크 195개의 불일치, 잘못된 표 머리글·빈 행·반복 항목명은 원문대로 보존했다. 응답 항목과 요청 인자는 합산하지 않으며 법령 본문 API는 호출하지 않았다. [목록 QA](law-catalog-report.json), [사이트별 QA](law-source-qa.json), [원문 대조](law-source-check.json), [DB·HTTP·내보내기 확인](law-import-check.json).',
+        '33. **금융통계정보시스템(FISIS):** 2026.09.14 공개 화면의 22권역·241분류 경로를 모두 순회해 경로별 출현 1,205건·통계표 736개를 확보했다. 각 통계표의 공개 항목 선택 및 메타데이터를 조회해 행/열 항목 19,562개와 공식 용어 해설 2,707개를 분리 저장했다. 열 정의가 부족한 734개와 메타데이터 HTTP 500인 38개는 미해결이다. API 설명서 4종의 응답 41행·요청 19행은 별도이며 통계표와 합쳐 등록은 740개다. DATA_TYPE/CAL_UNIT은 해석 전 원문 코드로 보존하고 통계 단위·물리 자료형을 추정하지 않는다. 금융회사 선택 목록은 202603 기준 16권역·1,468노드·1,466코드로 분류/집계 노드를 포함하므로 개별 회사·공공 제공기관 수에 합산하지 않는다. [설명](FISIS-README.md), [목록](fisis-catalog-report.json), [수집](fisis-collection-report.json), [원문 QA](fisis-source-qa.json), [DB·HTTP](fisis-import-check.json), [회사 선택 목록 대조](fisis-companies-source-check.json).',
+        f"34. **나머지 제공처:** 국내 조사 등록부 {c['registered_portal_candidates']}개 중 목록을 일부라도 확보한 {c['portals_with_catalog_acquisition']}곳 외의 제공처는 미수집으로 남아 있다. 관계 검토에 필요한 출처를 식별하면 해당 목록·명세를 보충한다. 전국 제공처 자체의 완전한 명부도 아직 없다.",
         '', '## 관계 정의에 사용하는 방법','',
         '관계의 출발점은 `포털 → 등록정보 → 보고된 제공기관`, `등록정보 → 공식 명세 칼럼`, `칼럼 → 원문 근거`다. 이 연결은 수집 근거이며 사람이 승인한 의미 관계 DB와 구분된다.',
         '예를 들어 나이스의 학교기본정보에 있는 `SD_SCHUL_CODE`는 원문에서 “행정표준코드”라고 설명된다. 다른 자료에 같은 코드가 있으면 코드 체계·대상·기준일을 대조해 결합 후보를 만들 수 있다. 이름 일치만으로 `sameAs`나 `joinableWith`를 확정하지 않는다.',

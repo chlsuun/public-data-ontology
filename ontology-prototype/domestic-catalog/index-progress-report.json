@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T12:16:01.643034+00:00",
-  "changed_documents": 756,
+  "generated_at": "2026-09-14T15:12:07.404491+00:00",
+  "changed_documents": 0,
   "unmatched_definition_documents": [],
   "parse_errors": [],
-  "documented_field_occurrences": 1524621,
-  "portable_columns_exported": false,
+  "documented_field_occurrences": 1676722,
+  "portable_columns_exported": true,
   "all_columns_complete": false
 }

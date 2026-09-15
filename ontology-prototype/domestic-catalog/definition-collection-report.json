@@ -1,16 +1,16 @@
 {
   "scope": "all_acquired_data_go_file_catalog_keys",
   "target_count": 83691,
-  "processed": 64875,
-  "remaining": 18816,
+  "processed": 77604,
+  "remaining": 6087,
   "status_counts": {
-    "column_definition_observed": 39088,
-    "no_definition_table_observed": 25385,
-    "fetch_unresolved": 402
+    "column_definition_observed": 47725,
+    "no_definition_table_observed": 29446,
+    "fetch_unresolved": 433
   },
   "queue_exhausted": false,
   "all_columns_complete": false,
   "started_at": "2026-09-14T11:03:05.023380+00:00",
-  "generated_at": "2026-09-14T12:17:37.975694+00:00",
+  "generated_at": "2026-09-14T15:06:47.527343+00:00",
   "pid": 22380
 }

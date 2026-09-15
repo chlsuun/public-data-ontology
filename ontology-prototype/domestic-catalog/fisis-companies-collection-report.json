@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-14T14:12:25.687304+00:00",
+  "scope": "Latest stated month per sector in the public company selector; not all historical periods",
+  "target_count": 16,
+  "processed": 16,
+  "remaining": 0,
+  "status_counts": {
+    "sector_lists_observed": 16,
+    "unresolved": 0
+  },
+  "selector_row_occurrences": 1468,
+  "distinct_selector_codes": 1466,
+  "finance_div_counts_as_reported": {
+    "2": 29,
+    "1": 1439
+  },
+  "observed_base_months": [
+    "202603"
+  ],
+  "failures": [],
+  "queue_exhausted": true,
+  "all_historical_company_lists_complete": false,
+  "all_columns_complete": false,
+  "company_values_requested": false,
+  "count_note": "Company selection contains grouping/aggregate nodes; row count is not an independently verified company count.",
+  "script_evidence_id": "fisis-fsv302-20260914",
+  "inventory": "inventory/fisis-company-selector-records.jsonl.gz"
+}

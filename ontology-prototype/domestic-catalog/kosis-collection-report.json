@@ -1,17 +1,17 @@
 {
   "scope": "all_acquired_identified_kosis_domestic_tables",
   "target_count": 266688,
-  "processed": 60450,
-  "remaining": 206238,
+  "processed": 70590,
+  "remaining": 196098,
   "status_counts": {
-    "statistical_definition_observed": 60443,
+    "statistical_definition_observed": 70583,
     "fetch_unresolved": 6,
     "parse_unresolved": 1
   },
-  "documented_field_occurrences": 426754,
+  "documented_field_occurrences": 483411,
   "queue_exhausted": false,
   "all_columns_complete": false,
   "started_at": "2026-09-14T11:03:05.671653+00:00",
-  "generated_at": "2026-09-14T12:17:24.068370+00:00",
+  "generated_at": "2026-09-14T15:06:46.558827+00:00",
   "pid": 8548
 }

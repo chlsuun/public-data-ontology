@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-15T10:43:23.335970+00:00",
+  "passed": true,
+  "checks": [
+    "All 16 public selector sector/month pairs match observed source data and JavaScript request construction",
+    "All 1468 selector occurrences equal raw JSON rows and exact source positions",
+    "All 18 source receipts match SHA256 and byte counts",
+    "1466 distinct source codes and source FINANCE_DIV counts reconcile; group rows preserved",
+    "No individual-company classification, publishing-provider identity or cross-portal identity was asserted"
+  ],
+  "source_receipts": [
+    "fisis-fsv302-20260914",
+    "fisis-company-sectors-20260914",
+    "fisis-companies-SA-202603-20260914",
+    "fisis-companies-SJ-202603-20260914",
+    "fisis-companies-SH-202603-20260914",
+    "fisis-companies-SI-202603-20260914",
+    "fisis-companies-SF-202603-20260914",
+    "fisis-companies-SW-202603-20260914",
+    "fisis-companies-SG-202603-20260914",
+    "fisis-companies-SX-202603-20260914",
+    "fisis-companies-SM-202603-20260914",
+    "fisis-companies-SD-202603-20260914",
+    "fisis-companies-SC-202603-20260914",
+    "fisis-companies-SK-202603-20260914",
+    "fisis-companies-ST-202603-20260914",
+    "fisis-companies-SN-202603-20260914",
+    "fisis-companies-SE-202603-20260914",
+    "fisis-companies-SL-202603-20260914"
+  ],
+  "row_occurrences": 1468,
+  "distinct_source_codes": 1466,
+  "codes_in_multiple_sector_positions": {
+    "0018068": [
+      {
+        "sector_code": "SG",
+        "name": "유니크자산운용 주식회사",
+        "locator": "/dataset/0/rows/280",
+        "evidence_id": "fisis-companies-SG-202603-20260914"
+      },
+      {
+        "sector_code": "SX",
+        "name": "유니크투자자문 주식회사",
+        "locator": "/dataset/0/rows/175",
+        "evidence_id": "fisis-companies-SX-202603-20260914"
+      }
+    ],
+    "0014523": [
+      {
+        "sector_code": "SG",
+        "name": "케이피자산운용 주식회사",
+        "locator": "/dataset/0/rows/409",
+        "evidence_id": "fisis-companies-SG-202603-20260914"
+      },
+      {
+        "sector_code": "SX",
+        "name": "한국연금투자자문(주)",
+        "locator": "/dataset/0/rows/455",
+        "evidence_id": "fisis-companies-SX-202603-20260914"
+      }
+    ]
+  },
+  "base_month": "202603",
+  "historical_coverage_complete": false,
+  "observation_values_requested": false
+}
