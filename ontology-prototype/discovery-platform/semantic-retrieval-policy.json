@@ -1,0 +1,56 @@
+{
+  "version": "0.5.0-draft",
+  "product_role": "metadata_semantic_discovery_and_official_access_routing",
+  "raw_dataset_warehouse": false,
+  "source_fields": {
+    "semantic": ["title_raw", "description_raw", "keywords_raw"],
+    "exact_filters": ["spatial_extent", "temporal_extent", "provider_id", "format", "access_status", "license_status"],
+    "required_provenance": ["service_id", "source_record_id", "source_url", "collected_at", "content_hash"]
+  },
+  "normalization": {
+    "preserve_raw": true,
+    "allowed": ["unicode_normalization", "html_text_extraction", "control_character_cleanup", "whitespace_normalization", "keyword_list_parsing"],
+    "forbidden": ["invent_missing_description", "replace_official_tags_with_generated_tags", "silently_translate_raw_metadata"],
+    "insufficient_metadata_state": "insufficient_metadata"
+  },
+  "embedding": {
+    "language_scope": "multilingual",
+    "field_strategy": "separate_title_description_keywords_vectors",
+    "concept_input": ["preferred_label", "definition", "aliases", "include_examples", "exclude_examples"],
+    "version_fields": ["model_id", "model_revision", "dimensions", "distance_metric", "preprocessing_version", "input_hash", "created_at"],
+    "mixed_model_versions_in_one_index": false,
+    "batch_indexing": true,
+    "reembed_every_search": false
+  },
+  "relation_types": {
+    "semantic_candidate": "Version-bound machine proposal based on metadata similarity",
+    "validated_topic": "Dataset topic confirmed by an evaluation judgment or authorized review",
+    "concept_relation": "Curated broader, narrower or related link between concepts",
+    "statistical_association": "Separate scoped observation-analysis result; never a prerequisite for semantic retrieval"
+  },
+  "retrieval": {
+    "candidate_channels": ["query_to_metadata", "query_to_concept_to_dataset"],
+    "score_components_must_be_logged": true,
+    "weights_and_thresholds": "calibrate_on_development_set_then_verify_on_separate_evaluation_set",
+    "allow_multiple_concepts": true,
+    "allow_abstention": true,
+    "missing_exact_filter": "unknown_not_match",
+    "conflicting_required_filter": "exclude",
+    "semantic_score_may_override_filter_conflict": false,
+    "result_requires": ["official_title", "provider", "metadata_evidence", "concept_link_status", "filter_decisions", "official_page_or_access_url", "retrieval_result_id"]
+  },
+  "evaluation": {
+    "baselines": ["title_lexical", "title_embedding", "title_description_embedding", "title_description_keywords_embedding", "concept_bridge", "semantic_plus_exact_filters"],
+    "retrieval_metrics": ["recall_at_5", "recall_at_10", "precision_at_5", "ndcg_at_10", "mrr", "required_filter_error_rate", "no_answer_abstention_rate"],
+    "classification_metrics": ["micro_f1", "macro_f1"],
+    "slices": ["portal", "topic", "language", "official_tag_presence", "description_completeness"],
+    "prevent_duplicate_dataset_family_leakage": true,
+    "human_judgment_required_for_evaluation_set": true,
+    "correlation_analysis_required": false
+  },
+  "audit": {
+    "persist": ["metadata_version", "concept_version", "embedding_model_version", "index_version", "query_hash", "structured_filters", "candidate_scores", "filter_decisions", "returned_dataset_ids", "latency_ms", "policy_version"],
+    "raw_query_retention": "separate_privacy_policy",
+    "search_result_creates_permanent_ontology_relation": false
+  }
+}

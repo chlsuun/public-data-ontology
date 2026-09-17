@@ -29,7 +29,12 @@
     ["PolicyAssessment","특정 이용행위의 조건 검토",null],
     ["AnalysisResult","범위가 한정된 분석 결과","http://www.w3.org/ns/prov#Entity"],
     ["CollectionRun","수집 실행","http://www.w3.org/ns/prov#Activity"],
-    ["AuditEvent","검토·수정·제공 이력","http://www.w3.org/ns/prov#Activity"]
+    ["AuditEvent","검토·수정·제공 이력","http://www.w3.org/ns/prov#Activity"],
+    ["MetadataRepresentation","제목·설명·공식 태그의 버전 있는 검색 입력",null],
+    ["EmbeddingArtifact","모델·전처리·입력 해시에 묶인 의미 벡터","http://www.w3.org/ns/prov#Entity"],
+    ["SemanticLinkCandidate","데이터셋과 개념의 버전 있는 의미 검색 후보",null],
+    ["RetrievalRun","질문·필터·검색 결과를 기록한 실행","http://www.w3.org/ns/prov#Activity"],
+    ["EvaluationJudgment","질문에 대한 자료 적합성 또는 개념 분류 판정","http://www.w3.org/ns/prov#Entity"]
   ],
   "properties":[
     ["hostsCatalog","서비스에서 목록을 제공","ServiceEntry","Catalog"],
@@ -47,7 +52,13 @@
     ["rightDataset","결합 검토의 자료 B","JoinAssessment","Dataset"],
     ["assessesResource","정책 검토 대상","PolicyAssessment",null],
     ["inputDataset","분석에 사용한 자료","AnalysisResult","Dataset"],
-    ["producedEvidence","수집으로 확보한 근거","CollectionRun","SourceEvidence"]
+    ["producedEvidence","수집으로 확보한 근거","CollectionRun","SourceEvidence"],
+    ["hasMetadataRepresentation","등록정보의 검색 입력 버전","CatalogRecord","MetadataRepresentation"],
+    ["hasEmbedding","검색 입력 또는 개념의 임베딩","MetadataRepresentation","EmbeddingArtifact"],
+    ["candidateDataset","의미 연결 후보의 자료","SemanticLinkCandidate","Dataset"],
+    ["candidateConcept","의미 연결 후보의 개념","SemanticLinkCandidate","Concept"],
+    ["retrievedDataset","검색 실행이 반환한 자료","RetrievalRun","Dataset"],
+    ["evaluatesRetrieval","적합성 판정의 검색 실행","EvaluationJudgment","RetrievalRun"]
   ],
   "claim_statuses":["documented","curated","candidate","rejected","superseded"],
   "observation_statuses":["body_observed","title_only","response_only","fetch_unresolved","interstitial_observed"],
@@ -97,5 +108,21 @@
     "analysis_id","question","input_versions","variable_definitions","population_scope","observation_unit",
     "spatial_scope","temporal_scope","preprocessing","method","sample_size","estimate","uncertainty",
     "dependence_handling","multiple_testing_handling","limitations","code_version","executed_at","evidence_ids"
+  ],
+  "metadata_representation_fields":[
+    "representation_id","record_id","title_raw","description_raw","keywords_raw","title_normalized",
+    "description_normalized","keywords_normalized","language","quality_flags","content_hash","created_at"
+  ],
+  "embedding_fields":[
+    "embedding_id","target_id","target_field","model_id","model_revision","dimensions","distance_metric",
+    "preprocessing_version","input_hash","index_version","created_at"
+  ],
+  "semantic_link_fields":[
+    "candidate_id","dataset_version","concept_version","metadata_representation_id","embedding_model_version",
+    "title_score","description_score","keywords_score","combined_score","threshold_version","status","created_at"
+  ],
+  "retrieval_fields":[
+    "retrieval_run_id","query_hash","query_embedding_version","structured_filters","candidate_channels",
+    "score_policy_version","filter_decisions","returned_dataset_ids","latency_ms","executed_at"
   ]
 }

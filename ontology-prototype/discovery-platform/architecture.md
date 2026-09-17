@@ -1,6 +1,6 @@
 # v0.3 재구성 설계
 
-후속 검토·QA·커뮤니티·대용량 제공 과정은 [v0.4 확충안](../../docs/process-v0.4.md)에 정의했다. 이 문서는 v0.3 구현과 설계를 설명하며, 기존 근거 상태는 새 사람 승인 기록과 구분한다.
+후속 검토·QA·커뮤니티·대용량 제공 과정은 [v0.4 확충안](../../docs/process-v0.4.md)에 정의했다. 2026-09-17에 합의한 운영 검색 구조는 [메타데이터 의미 검색 중심 구조 v0.5](../../docs/metadata-semantic-retrieval-v0.5.md)가 우선한다. 이 문서는 v0.3 구현과 설계를 설명하는 보존 문서이며, 기존 근거 상태는 새 사람 승인 기록과 구분한다.
 
 목표는 국내외 공공데이터의 의미와 관계를 관리하고, 사용자가 어떤 경로로 자료를 찾았는지 설명하는 Discovery Platform이다. 원본 대용량 자료의 상시 보관 없이 메타데이터·관계·원본 URL·자료 API 안내를 관리한다.
 
@@ -55,6 +55,8 @@ flowchart LR
 [OECD NEET 설명](https://www.oecd.org/en/data/indicators/youth-not-in-employment-education-or-training-neet.html)은 확인했으나 안내된 기본 화면과 청년 하위계열의 대응을 확정하지 않았다. NEET는 졸업 후 지역 이동과도 다른 지표이므로 둘을 자동 대체하지 않았다.
 
 ## 4. LLM과 Harness가 실행되는 위치
+
+v0.5에서는 검색의 주 경로가 제목·설명·공식 태그의 사전 임베딩과 정확 필터다. LLM은 모든 요청에 필요한 검색 엔진이 아니라 모호한 질의의 조건 추출과 제한된 설명 보조 역할이다. 데이터셋–개념 임베딩 연결은 `semantic_candidate`, 평가·검토를 통과한 주제 연결은 `validated_topic`, 실제 관측값 분석은 `statistical_association`으로 분리한다.
 
 ```mermaid
 flowchart TD

@@ -1,0 +1,22 @@
+{
+  "policy_version": "0.5.0-draft",
+  "checks": {
+    "metadata_not_raw_warehouse": true,
+    "three_official_semantic_fields": true,
+    "exact_conditions_are_separate": true,
+    "raw_metadata_preserved": true,
+    "missing_text_is_not_invented": true,
+    "field_vectors_are_separate": true,
+    "model_version_is_traceable": true,
+    "multiple_topics_supported": true,
+    "abstention_supported": true,
+    "semantic_score_cannot_override_filter": true,
+    "official_access_is_returned": true,
+    "evaluation_has_lexical_baseline": true,
+    "evaluation_has_rank_metric": true,
+    "statistical_correlation_is_not_gate": true,
+    "retrieval_does_not_create_fact": true
+  },
+  "passed": 15,
+  "failed": []
+}

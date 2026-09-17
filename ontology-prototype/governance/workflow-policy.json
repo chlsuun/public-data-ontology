@@ -3,8 +3,8 @@
   "implementation_status": "workflow_specification_and_review_workspace_only",
   "candidate_store": "All proposals including rejected and superseded revisions",
   "confirmed_store": "Only active approvals bound to proposal content, evidence and applicable source versions",
-  "default_search": "confirmed_only",
-  "candidate_exploration": "Explicitly enabled and labeled as hypotheses; not factual retrieval",
+  "default_search": "Approved factual relations plus versioned semantic retrieval candidates that are explicitly labeled as candidates",
+  "candidate_exploration": "Factual relation proposals require explicit hypothesis mode; semantic retrieval candidates may rank datasets when score provenance and candidate status are shown, but never become factual relations from retrieval alone",
   "states": ["proposed", "under_review", "needs_revision", "approved", "rejected", "stale", "revoked", "superseded"],
   "transitions": {
     "proposed": ["under_review"],
@@ -23,6 +23,7 @@
     "community_votes_may_approve": false,
     "fields": ["reviewer_id", "reviewed_at", "proposal_fingerprint", "evidence_snapshots", "review_method", "applicability_scope", "decision_rationale"],
     "statistical_relation_extra": ["analysis_run_id", "input_versions", "variable_definitions", "sample_size", "preprocessing", "code_hash", "result", "uncertainty", "limitations"],
+    "semantic_topic_extra": ["metadata_version", "concept_version", "embedding_model_version", "field_scores", "evaluation_set_version", "applicability_scope"],
     "automatic_p_value_threshold": null,
     "correlation_implies_causation": false
   },
@@ -31,6 +32,8 @@
     "indicator_definition": "Terminology, units, denominator and age definition review",
     "metadata_mapping": "Actual subseries, schema, codelist and scope review",
     "query_interpretation": "Question scope and ambiguity review; not a scientific claim",
+    "semantic_retrieval_candidate": "Version-bound title, description and official-tag embedding similarity; establishes a ranked search candidate, not factual equivalence or statistical association",
+    "retrieval_evaluation": "Labeled-query evaluation of ranking, multi-label topic assignment, exact-filter errors and abstention, sliced by portal, topic, language and metadata completeness",
     "context_hypothesis": "Domain rationale review; can establish exploration relevance, not statistical association",
     "join_candidate": "Key uniqueness, cardinality, join coverage, units and time/spatial alignment",
     "statistical_association": "Reproducible scoped analysis and human interpretation of uncertainty"
