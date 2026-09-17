@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-09-13T11:52:03.736944+00:00",
+  "scope": "public download-calendar metadata for each known category at one UI request period",
+  "request_period": "202609",
+  "categories_requested": 31,
+  "status_counts": {
+    "calendar_metadata_observed": 31
+  },
+  "existing_named_file_occurrences": 619,
+  "categories_with_source_valid_date_range": 1,
+  "inventory": "inventory/address-db-file-calendar-202609.json",
+  "all_historical_file_lists_complete": false,
+  "catalog_records_imported": false,
+  "data_files_downloaded": false,
+  "notes": [
+    "isExist=N rows are calendar placeholders, not acquired datasets.",
+    "One request can return annual monthly lists and multiple daily months; it does not establish historical exhaustion.",
+    "No download, basket, application or authentication endpoint was called."
+  ],
+  "next_action": "Inspect public UI historical calendar bounds and source IDs, enumerate supported periods, reconcile overlapping calendars before importing dated resource metadata."
+}

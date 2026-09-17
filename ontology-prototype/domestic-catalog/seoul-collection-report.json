@@ -1,0 +1,18 @@
+{
+  "scope": "seoul",
+  "target_count": 8272,
+  "processed": 8272,
+  "remaining": 0,
+  "status_counts": {
+    "public_schema_unresolved": 2067,
+    "column_definition_observed": 5632,
+    "service_declaration_unresolved": 540,
+    "displayed_column_definition_observed": 33
+  },
+  "documented_field_occurrences": 163101,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:21:23.222890+00:00",
+  "generated_at": "2026-09-13T11:14:00.808775+00:00",
+  "pid": 6224
+}

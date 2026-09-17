@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-09-10",
+  "scope": "RDF 구문·참조·대표 질의·검증 상태; 원본 행/라이선스 법률 검토/API/조인 실행 검증 제외",
+  "rdf_triples": 1060,
+  "passed": true,
+  "checks": [
+    {
+      "name": "노드 식별자 중복 없음",
+      "passed": true,
+      "evidence": {
+        "nodes": 58
+      }
+    },
+    {
+      "name": "모든 관계에 유효한 양 끝·상태·근거 존재",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "Q1 상위 교통 개념에서 버스·지하철 자료 탐색",
+      "passed": true,
+      "evidence": [
+        "ds-bus-daily",
+        "ds-bus-hourly",
+        "ds-subway-daily"
+      ]
+    },
+    {
+      "name": "Q2 포털 안내는 사실, 정확한 등록 대응은 후보",
+      "passed": true,
+      "evidence": "15051734의 외부 포털 안내와 OA-12912 대응 수준을 구분"
+    },
+    {
+      "name": "Q3 생산 종료 생활인구를 현재 목록에서 제외",
+      "passed": true,
+      "evidence": [
+        "ds-living-new"
+      ]
+    },
+    {
+      "name": "Q4 생활인구·주민등록인구 사이에 동일성 선언 없음",
+      "passed": true,
+      "evidence": "관련성만 정의; 고유 인구 합산·동일성 추론 없음"
+    },
+    {
+      "name": "Q5 일별 지하철 자료의 출근시간 한계 보존",
+      "passed": true,
+      "evidence": "시간대 자료 추가 필요"
+    },
+    {
+      "name": "Q6 통계 작성기관과 포털 운영기관 구분",
+      "passed": true,
+      "evidence": "행정안전부 작성 / 국가데이터처 운영"
+    },
+    {
+      "name": "후보 관계를 확정 사실로 내보내지 않음",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "미검증 조인을 허용으로 표시하지 않음",
+      "passed": true,
+      "evidence": {
+        "join_assessments": 5,
+        "validated": 0
+      }
+    },
+    {
+      "name": "원본·API 확인 범위를 과장하지 않음",
+      "passed": true,
+      "evidence": "메타데이터 기반의 프로토타입"
+    },
+    {
+      "name": "원본 컬럼 미확정 매핑은 후보로 표시",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "종료일을 실제 마지막 관측일로 오인하지 않음",
+      "passed": true,
+      "evidence": "생산 종료 안내만 저장"
+    }
+  ]
+}

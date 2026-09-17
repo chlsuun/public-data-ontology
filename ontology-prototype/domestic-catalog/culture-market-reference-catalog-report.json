@@ -1,0 +1,2586 @@
+{
+  "generated_at": "2026-09-14T09:03:34.583298+00:00",
+  "discovered_reference_targets": 92,
+  "primary_details_observed": 92,
+  "outcomes": [
+    {
+      "record": {
+        "id": "bigdata-culture-6218cd91-fea5-45e0-81b1-ef7e1a5122ed",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "6218cd91-fea5-45e0-81b1-ef7e1a5122ed",
+        "title": "경륜 이벤트경주 동영상 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=6218cd91-fea5-45e0-81b1-ef7e1a5122ed",
+        "evidence_id": "culture-market-detail-6218cd91-fea5-45e0-81b1-ef7e1a5122ed",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-10",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"10\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-6218cd91-fea5-45e0-81b1-ef7e1a5122ed"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-753cd100-e5ea-11eb-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "753cd100-e5ea-11eb-8e60-2bcdc8456bfb",
+        "title": "스포츠토토 판매점 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=753cd100-e5ea-11eb-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-753cd100-e5ea-11eb-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-100",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"100\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-753cd100-e5ea-11eb-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-99d00990-720e-11ed-b3ef-49efc94461a7",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "99d00990-720e-11ed-b3ef-49efc94461a7",
+        "title": "스피드온(Speed-On) 회원가입 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=99d00990-720e-11ed-b3ef-49efc94461a7",
+        "evidence_id": "culture-market-detail-99d00990-720e-11ed-b3ef-49efc94461a7",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-101",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"101\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-99d00990-720e-11ed-b3ef-49efc94461a7"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-89267160-720e-11ed-b3ef-49efc94461a7",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "89267160-720e-11ed-b3ef-49efc94461a7",
+        "title": "스피드온(Speed-On)을 통한 발매금액 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=89267160-720e-11ed-b3ef-49efc94461a7",
+        "evidence_id": "culture-market-detail-89267160-720e-11ed-b3ef-49efc94461a7",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-102",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"102\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-89267160-720e-11ed-b3ef-49efc94461a7"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-0fbf68d7-6f72-4987-bc53-4b5f9c44c8af",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "0fbf68d7-6f72-4987-bc53-4b5f9c44c8af",
+        "title": "한국스포츠과학원 연구보고서 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=0fbf68d7-6f72-4987-bc53-4b5f9c44c8af",
+        "evidence_id": "culture-market-detail-0fbf68d7-6f72-4987-bc53-4b5f9c44c8af",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-106",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"106\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-0fbf68d7-6f72-4987-bc53-4b5f9c44c8af"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-a229e0e8-8870-4582-8b1a-f26348d906d2",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "a229e0e8-8870-4582-8b1a-f26348d906d2",
+        "title": "한국스포츠과학원 연속간행물 기사 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=a229e0e8-8870-4582-8b1a-f26348d906d2",
+        "evidence_id": "culture-market-detail-a229e0e8-8870-4582-8b1a-f26348d906d2",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-107",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"107\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-a229e0e8-8870-4582-8b1a-f26348d906d2"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-e558a1fd-1fe9-4f40-8f10-4badca253e6d",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "e558a1fd-1fe9-4f40-8f10-4badca253e6d",
+        "title": "경륜 일주일조조연습현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=e558a1fd-1fe9-4f40-8f10-4badca253e6d",
+        "evidence_id": "culture-market-detail-e558a1fd-1fe9-4f40-8f10-4badca253e6d",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-11",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"11\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-e558a1fd-1fe9-4f40-8f10-4badca253e6d"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-06e9c47c-323d-4ab0-8b7d-5c432d83717e",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "06e9c47c-323d-4ab0-8b7d-5c432d83717e",
+        "title": "경륜 자전거 부품 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=06e9c47c-323d-4ab0-8b7d-5c432d83717e",
+        "evidence_id": "culture-market-detail-06e9c47c-323d-4ab0-8b7d-5c432d83717e",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-12",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"12\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-06e9c47c-323d-4ab0-8b7d-5c432d83717e"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-0ee44ee7-04db-48db-8c8d-7d17fa880758",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "0ee44ee7-04db-48db-8c8d-7d17fa880758",
+        "title": "경륜 자전거보관현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=0ee44ee7-04db-48db-8c8d-7d17fa880758",
+        "evidence_id": "culture-market-detail-0ee44ee7-04db-48db-8c8d-7d17fa880758",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-13",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"13\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-0ee44ee7-04db-48db-8c8d-7d17fa880758"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-4e3b405e-b1ae-4a52-8432-83fc0034fc69",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "4e3b405e-b1ae-4a52-8432-83fc0034fc69",
+        "title": "경륜 훈련지별 우승 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=4e3b405e-b1ae-4a52-8432-83fc0034fc69",
+        "evidence_id": "culture-market-detail-4e3b405e-b1ae-4a52-8432-83fc0034fc69",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-14",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"14\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-4e3b405e-b1ae-4a52-8432-83fc0034fc69"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-d0baa1ae-4b01-4d24-8345-0641b728c13c",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "d0baa1ae-4b01-4d24-8345-0641b728c13c",
+        "title": "경륜검차 운영 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=d0baa1ae-4b01-4d24-8345-0641b728c13c",
+        "evidence_id": "culture-market-detail-d0baa1ae-4b01-4d24-8345-0641b728c13c",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-15",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"15\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-d0baa1ae-4b01-4d24-8345-0641b728c13c"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-e04af6a9-5fd3-404b-b96a-ef72fde9eac7",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "e04af6a9-5fd3-404b-b96a-ef72fde9eac7",
+        "title": "경륜경주 동영상 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=e04af6a9-5fd3-404b-b96a-ef72fde9eac7",
+        "evidence_id": "culture-market-detail-e04af6a9-5fd3-404b-b96a-ef72fde9eac7",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-16",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"16\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-e04af6a9-5fd3-404b-b96a-ef72fde9eac7"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3dfe2c8f-e7bc-41ba-aebf-1e9eeb96a6a3",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3dfe2c8f-e7bc-41ba-aebf-1e9eeb96a6a3",
+        "title": "경륜경주 스타트 사진",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3dfe2c8f-e7bc-41ba-aebf-1e9eeb96a6a3",
+        "evidence_id": "culture-market-detail-3dfe2c8f-e7bc-41ba-aebf-1e9eeb96a6a3",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-17",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"17\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3dfe2c8f-e7bc-41ba-aebf-1e9eeb96a6a3"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3eb1222b-6fbf-4274-8267-50f418196d59",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3eb1222b-6fbf-4274-8267-50f418196d59",
+        "title": "경륜방송 자료실 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3eb1222b-6fbf-4274-8267-50f418196d59",
+        "evidence_id": "culture-market-detail-3eb1222b-6fbf-4274-8267-50f418196d59",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-18",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"18\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3eb1222b-6fbf-4274-8267-50f418196d59"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-61501d80-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "61501d80-2594-11eb-af9a-4b03f0a582d6",
+        "title": "경륜선수상대전적분석정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=61501d80-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-61501d80-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-19",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"19\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-61501d80-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-1a42806a-fea2-4d93-b5ab-df48c695b0d9",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "1a42806a-fea2-4d93-b5ab-df48c695b0d9",
+        "title": "경륜홈페이지 자료실 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=1a42806a-fea2-4d93-b5ab-df48c695b0d9",
+        "evidence_id": "culture-market-detail-1a42806a-fea2-4d93-b5ab-df48c695b0d9",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-20",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"20\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-1a42806a-fea2-4d93-b5ab-df48c695b0d9"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-2b27c46c-c6ac-48bf-96e6-14b9f992b23a",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "2b27c46c-c6ac-48bf-96e6-14b9f992b23a",
+        "title": "경정 경주 순위 결과 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=2b27c46c-c6ac-48bf-96e6-14b9f992b23a",
+        "evidence_id": "culture-market-detail-2b27c46c-c6ac-48bf-96e6-14b9f992b23a",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-21",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"21\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-2b27c46c-c6ac-48bf-96e6-14b9f992b23a"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-5b32ef38-fecc-44a3-922f-bc48d3763925",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "5b32ef38-fecc-44a3-922f-bc48d3763925",
+        "title": "경정 모터 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=5b32ef38-fecc-44a3-922f-bc48d3763925",
+        "evidence_id": "culture-market-detail-5b32ef38-fecc-44a3-922f-bc48d3763925",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-22",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"22\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-5b32ef38-fecc-44a3-922f-bc48d3763925"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-28eab39e-dd4a-4077-87b4-3e025e485b94",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "28eab39e-dd4a-4077-87b4-3e025e485b94",
+        "title": "경정 보트 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=28eab39e-dd4a-4077-87b4-3e025e485b94",
+        "evidence_id": "culture-market-detail-28eab39e-dd4a-4077-87b4-3e025e485b94",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-23",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"23\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-28eab39e-dd4a-4077-87b4-3e025e485b94"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-aed695cb-cc43-4ab7-8d4b-127361d68bfe",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "aed695cb-cc43-4ab7-8d4b-127361d68bfe",
+        "title": "경정 부품 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=aed695cb-cc43-4ab7-8d4b-127361d68bfe",
+        "evidence_id": "culture-market-detail-aed695cb-cc43-4ab7-8d4b-127361d68bfe",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-24",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"24\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-aed695cb-cc43-4ab7-8d4b-127361d68bfe"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-d974aaac-7c46-4b46-908c-58b256153681",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "d974aaac-7c46-4b46-908c-58b256153681",
+        "title": "경정 선수 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=d974aaac-7c46-4b46-908c-58b256153681",
+        "evidence_id": "culture-market-detail-d974aaac-7c46-4b46-908c-58b256153681",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-25",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"25\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-d974aaac-7c46-4b46-908c-58b256153681"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-6a144bfc-abff-42ef-906f-40656a9458c3",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "6a144bfc-abff-42ef-906f-40656a9458c3",
+        "title": "경정 선수 출주 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=6a144bfc-abff-42ef-906f-40656a9458c3",
+        "evidence_id": "culture-market-detail-6a144bfc-abff-42ef-906f-40656a9458c3",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-26",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"26\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-6a144bfc-abff-42ef-906f-40656a9458c3"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-e9723224-fd49-4850-bdba-5c4a7cef6a3b",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "e9723224-fd49-4850-bdba-5c4a7cef6a3b",
+        "title": "경정 소모품 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=e9723224-fd49-4850-bdba-5c4a7cef6a3b",
+        "evidence_id": "culture-market-detail-e9723224-fd49-4850-bdba-5c4a7cef6a3b",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-27",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"27\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-e9723224-fd49-4850-bdba-5c4a7cef6a3b"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3f6ccb9b-ea6d-4724-b4e0-569263773c07",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3f6ccb9b-ea6d-4724-b4e0-569263773c07",
+        "title": "경정 장비 정비이력 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3f6ccb9b-ea6d-4724-b4e0-569263773c07",
+        "evidence_id": "culture-market-detail-3f6ccb9b-ea6d-4724-b4e0-569263773c07",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-28",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"28\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3f6ccb9b-ea6d-4724-b4e0-569263773c07"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-25aad8bc-2a21-4955-be79-bafab44b482e",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "25aad8bc-2a21-4955-be79-bafab44b482e",
+        "title": "경정 지정연습 출주표 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=25aad8bc-2a21-4955-be79-bafab44b482e",
+        "evidence_id": "culture-market-detail-25aad8bc-2a21-4955-be79-bafab44b482e",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-29",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"29\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-25aad8bc-2a21-4955-be79-bafab44b482e"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-c5b0273c-6490-42b2-bab7-db27bc97ba4c",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "c5b0273c-6490-42b2-bab7-db27bc97ba4c",
+        "title": "경정 틸트각 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=c5b0273c-6490-42b2-bab7-db27bc97ba4c",
+        "evidence_id": "culture-market-detail-c5b0273c-6490-42b2-bab7-db27bc97ba4c",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-30",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"30\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-c5b0273c-6490-42b2-bab7-db27bc97ba4c"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-c17379be-4738-432a-afbe-c0e3aadd2bc8",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "c17379be-4738-432a-afbe-c0e3aadd2bc8",
+        "title": "경정출주선수 면담 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=c17379be-4738-432a-afbe-c0e3aadd2bc8",
+        "evidence_id": "culture-market-detail-c17379be-4738-432a-afbe-c0e3aadd2bc8",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-31",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"31\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-c17379be-4738-432a-afbe-c0e3aadd2bc8"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-93297f90-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "93297f90-2594-11eb-af9a-4b03f0a582d6",
+        "title": "국민연령별추천운동정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=93297f90-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-93297f90-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-32",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"32\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-93297f90-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-c99df919-f2c9-4ceb-999d-82688c028031",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "c99df919-f2c9-4ceb-999d-82688c028031",
+        "title": "국민체력측정 현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=c99df919-f2c9-4ceb-999d-82688c028031",
+        "evidence_id": "culture-market-detail-c99df919-f2c9-4ceb-999d-82688c028031",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-34",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"34\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-c99df919-f2c9-4ceb-999d-82688c028031"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-32ae9695-a8bb-4041-a2d9-c732d259ea1a",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "32ae9695-a8bb-4041-a2d9-c732d259ea1a",
+        "title": "기간별 체력통계 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=32ae9695-a8bb-4041-a2d9-c732d259ea1a",
+        "evidence_id": "culture-market-detail-32ae9695-a8bb-4041-a2d9-c732d259ea1a",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-35",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"35\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-32ae9695-a8bb-4041-a2d9-c732d259ea1a"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-75ea1e3b-1087-400d-bf24-f45dbe50bd24",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "75ea1e3b-1087-400d-bf24-f45dbe50bd24",
+        "title": "센터별 체력통계 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=75ea1e3b-1087-400d-bf24-f45dbe50bd24",
+        "evidence_id": "culture-market-detail-75ea1e3b-1087-400d-bf24-f45dbe50bd24",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-36",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"36\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-75ea1e3b-1087-400d-bf24-f45dbe50bd24"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-599b29a1-bb8d-41a5-8de5-400d2c8d2ba5",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "599b29a1-bb8d-41a5-8de5-400d2c8d2ba5",
+        "title": "위치기반 체력측정 및 운동처방 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=599b29a1-bb8d-41a5-8de5-400d2c8d2ba5",
+        "evidence_id": "culture-market-detail-599b29a1-bb8d-41a5-8de5-400d2c8d2ba5",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-37",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"37\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-599b29a1-bb8d-41a5-8de5-400d2c8d2ba5"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-2b1c565d-5f37-4152-966d-5f8094f8cf33",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "2b1c565d-5f37-4152-966d-5f8094f8cf33",
+        "title": "체력 측정별 운동처방 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=2b1c565d-5f37-4152-966d-5f8094f8cf33",
+        "evidence_id": "culture-market-detail-2b1c565d-5f37-4152-966d-5f8094f8cf33",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-39",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"39\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-2b1c565d-5f37-4152-966d-5f8094f8cf33"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-b3924850-aa65-11ec-8ee4-95f65f846b27",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "b3924850-aa65-11ec-8ee4-95f65f846b27",
+        "title": "체력측정 및 운동처방 종합 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=b3924850-aa65-11ec-8ee4-95f65f846b27",
+        "evidence_id": "culture-market-detail-b3924850-aa65-11ec-8ee4-95f65f846b27",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-41",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"41\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-b3924850-aa65-11ec-8ee4-95f65f846b27"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-ace0aea7-5eee-48b9-b616-637365d665c1",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "ace0aea7-5eee-48b9-b616-637365d665c1",
+        "title": "체력측정 항목별 측정 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ace0aea7-5eee-48b9-b616-637365d665c1",
+        "evidence_id": "culture-market-detail-ace0aea7-5eee-48b9-b616-637365d665c1",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-42",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"42\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-ace0aea7-5eee-48b9-b616-637365d665c1"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-f9e2d8f0-f977-11eb-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "f9e2d8f0-f977-11eb-8e60-2bcdc8456bfb",
+        "title": "지역별 스포츠 동호회 현황",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=f9e2d8f0-f977-11eb-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-f9e2d8f0-f977-11eb-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-43",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"43\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-f9e2d8f0-f977-11eb-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-b82ae0ae-dff4-441d-ace6-0828753749f5",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "b82ae0ae-dff4-441d-ace6-0828753749f5",
+        "title": "소마미술관 교육프로그램 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=b82ae0ae-dff4-441d-ace6-0828753749f5",
+        "evidence_id": "culture-market-detail-b82ae0ae-dff4-441d-ace6-0828753749f5",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-44",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"44\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-b82ae0ae-dff4-441d-ace6-0828753749f5"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-961f65d7-4010-4f74-9951-9abaa3a590f7",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "961f65d7-4010-4f74-9951-9abaa3a590f7",
+        "title": "소마미술관 소장도서 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=961f65d7-4010-4f74-9951-9abaa3a590f7",
+        "evidence_id": "culture-market-detail-961f65d7-4010-4f74-9951-9abaa3a590f7",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-45",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"45\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-961f65d7-4010-4f74-9951-9abaa3a590f7"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-7339dc24-f6c2-416e-a4a5-70504dbdaf97",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "7339dc24-f6c2-416e-a4a5-70504dbdaf97",
+        "title": "소마미술관 소장품 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=7339dc24-f6c2-416e-a4a5-70504dbdaf97",
+        "evidence_id": "culture-market-detail-7339dc24-f6c2-416e-a4a5-70504dbdaf97",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-46",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"46\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-7339dc24-f6c2-416e-a4a5-70504dbdaf97"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-c9809a84-e7fb-4d8f-a1e2-c1d3bc7291b8",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "c9809a84-e7fb-4d8f-a1e2-c1d3bc7291b8",
+        "title": "소마미술관 전시 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=c9809a84-e7fb-4d8f-a1e2-c1d3bc7291b8",
+        "evidence_id": "culture-market-detail-c9809a84-e7fb-4d8f-a1e2-c1d3bc7291b8",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-47",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"47\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-c9809a84-e7fb-4d8f-a1e2-c1d3bc7291b8"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-ec45aa48-f9da-4f05-9975-22c62d6cbcc9",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "ec45aa48-f9da-4f05-9975-22c62d6cbcc9",
+        "title": "소마미술관 조각작품현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ec45aa48-f9da-4f05-9975-22c62d6cbcc9",
+        "evidence_id": "culture-market-detail-ec45aa48-f9da-4f05-9975-22c62d6cbcc9",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-48",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"48\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-ec45aa48-f9da-4f05-9975-22c62d6cbcc9"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-98eb52c8-da31-462a-9c01-5b9cb2f9d077",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "98eb52c8-da31-462a-9c01-5b9cb2f9d077",
+        "title": "스포츠강좌이용권 시설 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=98eb52c8-da31-462a-9c01-5b9cb2f9d077",
+        "evidence_id": "culture-market-detail-98eb52c8-da31-462a-9c01-5b9cb2f9d077",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-50",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"50\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-98eb52c8-da31-462a-9c01-5b9cb2f9d077"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-4e1a59b2-c54b-42a5-9a75-b86bb33ce279",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "4e1a59b2-c54b-42a5-9a75-b86bb33ce279",
+        "title": "스포츠강좌이용권 이용시설 강좌 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=4e1a59b2-c54b-42a5-9a75-b86bb33ce279",
+        "evidence_id": "culture-market-detail-4e1a59b2-c54b-42a5-9a75-b86bb33ce279",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-51",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"51\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-4e1a59b2-c54b-42a5-9a75-b86bb33ce279"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-04e1e27f-51fc-4ad2-a87b-112ea3b868e5",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "04e1e27f-51fc-4ad2-a87b-112ea3b868e5",
+        "title": "스포츠강좌이용권 이용현황 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=04e1e27f-51fc-4ad2-a87b-112ea3b868e5",
+        "evidence_id": "culture-market-detail-04e1e27f-51fc-4ad2-a87b-112ea3b868e5",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-52",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"52\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-04e1e27f-51fc-4ad2-a87b-112ea3b868e5"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-914ac658-d64b-4fc9-add5-9773393bbe51",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "914ac658-d64b-4fc9-add5-9773393bbe51",
+        "title": "스포츠강좌이용권시설 인접 대중교통 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=914ac658-d64b-4fc9-add5-9773393bbe51",
+        "evidence_id": "culture-market-detail-914ac658-d64b-4fc9-add5-9773393bbe51",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-53",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"53\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-914ac658-d64b-4fc9-add5-9773393bbe51"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-5b30e290-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "5b30e290-2594-11eb-af9a-4b03f0a582d6",
+        "title": "지역별스포츠강좌이용권활용정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=5b30e290-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-5b30e290-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-54",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"54\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-5b30e290-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-482e7b37-f35b-403c-bf03-9174271a7741",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "482e7b37-f35b-403c-bf03-9174271a7741",
+        "title": "스포츠산업지원사업 지원기업 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=482e7b37-f35b-403c-bf03-9174271a7741",
+        "evidence_id": "culture-market-detail-482e7b37-f35b-403c-bf03-9174271a7741",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-55",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"55\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-482e7b37-f35b-403c-bf03-9174271a7741"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-9db6cc66-e60b-4e9d-b8ed-19e0c667975a",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "9db6cc66-e60b-4e9d-b8ed-19e0c667975a",
+        "title": "스포츠산업지원사업 지원자격 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=9db6cc66-e60b-4e9d-b8ed-19e0c667975a",
+        "evidence_id": "culture-market-detail-9db6cc66-e60b-4e9d-b8ed-19e0c667975a",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-56",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"56\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-9db6cc66-e60b-4e9d-b8ed-19e0c667975a"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-493f6d8a-cf13-4de4-880d-8395071dfc15",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "493f6d8a-cf13-4de4-880d-8395071dfc15",
+        "title": "스포츠센터 수강신청 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=493f6d8a-cf13-4de4-880d-8395071dfc15",
+        "evidence_id": "culture-market-detail-493f6d8a-cf13-4de4-880d-8395071dfc15",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-57",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"57\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-493f6d8a-cf13-4de4-880d-8395071dfc15"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-6de34310-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "6de34310-2594-11eb-af9a-4b03f0a582d6",
+        "title": "기상정보활용올림픽공원이용분석정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=6de34310-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-6de34310-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-58",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"58\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-6de34310-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3c58baa2-5822-47b5-8892-89c58f29c38e",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3c58baa2-5822-47b5-8892-89c58f29c38e",
+        "title": "스포츠센터(올림픽공원, 일산 등) 공지사항 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3c58baa2-5822-47b5-8892-89c58f29c38e",
+        "evidence_id": "culture-market-detail-3c58baa2-5822-47b5-8892-89c58f29c38e",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-59",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"59\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3c58baa2-5822-47b5-8892-89c58f29c38e"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-42fa1e06-1767-4a96-84d3-dc1dd591bb41",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "42fa1e06-1767-4a96-84d3-dc1dd591bb41",
+        "title": "올림픽공원 대관 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=42fa1e06-1767-4a96-84d3-dc1dd591bb41",
+        "evidence_id": "culture-market-detail-42fa1e06-1767-4a96-84d3-dc1dd591bb41",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-60",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"60\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-42fa1e06-1767-4a96-84d3-dc1dd591bb41"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-a2d6393d-246e-439b-8bfb-c25204e808fb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "a2d6393d-246e-439b-8bfb-c25204e808fb",
+        "title": "올림픽공원 차량 이용현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=a2d6393d-246e-439b-8bfb-c25204e808fb",
+        "evidence_id": "culture-market-detail-a2d6393d-246e-439b-8bfb-c25204e808fb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-61",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"61\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-a2d6393d-246e-439b-8bfb-c25204e808fb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-4cf982e0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "4cf982e0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "내주변문화지도연계장애인스포츠강좌이용권시설정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=4cf982e0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-4cf982e0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-63",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"63\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-4cf982e0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-82d35d50-06da-11ec-84ba-bdaa376db34c",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "82d35d50-06da-11ec-84ba-bdaa376db34c",
+        "title": "장애인 생활체육 동호인 클럽 조회",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=82d35d50-06da-11ec-84ba-bdaa376db34c",
+        "evidence_id": "culture-market-detail-82d35d50-06da-11ec-84ba-bdaa376db34c",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-64",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"64\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-82d35d50-06da-11ec-84ba-bdaa376db34c"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-becbc1b0-055b-11ec-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "becbc1b0-055b-11ec-8e60-2bcdc8456bfb",
+        "title": "장애인 생활체육교실 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=becbc1b0-055b-11ec-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-becbc1b0-055b-11ec-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-65",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"65\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-becbc1b0-055b-11ec-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-1fdc3f20-151f-11ec-bbc0-d7035fffebeb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "1fdc3f20-151f-11ec-bbc0-d7035fffebeb",
+        "title": "장애인 체력 측정 항목별 측정 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=1fdc3f20-151f-11ec-bbc0-d7035fffebeb",
+        "evidence_id": "culture-market-detail-1fdc3f20-151f-11ec-bbc0-d7035fffebeb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-66",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"66\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-1fdc3f20-151f-11ec-bbc0-d7035fffebeb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-2bb98230-151f-11ec-bbc0-d7035fffebeb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "2bb98230-151f-11ec-bbc0-d7035fffebeb",
+        "title": "장애인 체력 측정별 운동처방 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=2bb98230-151f-11ec-bbc0-d7035fffebeb",
+        "evidence_id": "culture-market-detail-2bb98230-151f-11ec-bbc0-d7035fffebeb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-67",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"67\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-2bb98230-151f-11ec-bbc0-d7035fffebeb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-37c48c00-151f-11ec-bbc0-d7035fffebeb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "37c48c00-151f-11ec-bbc0-d7035fffebeb",
+        "title": "장애인 체력측정별 추천 운동 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=37c48c00-151f-11ec-bbc0-d7035fffebeb",
+        "evidence_id": "culture-market-detail-37c48c00-151f-11ec-bbc0-d7035fffebeb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-68",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"68\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-37c48c00-151f-11ec-bbc0-d7035fffebeb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-a70e157b-0bef-4832-bf31-857f13420464",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "a70e157b-0bef-4832-bf31-857f13420464",
+        "title": "장애인스포츠강좌이용권 이용현황 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=a70e157b-0bef-4832-bf31-857f13420464",
+        "evidence_id": "culture-market-detail-a70e157b-0bef-4832-bf31-857f13420464",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-69",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"69\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-a70e157b-0bef-4832-bf31-857f13420464"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-2fc01bbd-f19a-44c7-a8bd-fe131fcd5330",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "2fc01bbd-f19a-44c7-a8bd-fe131fcd5330",
+        "title": "경륜 등록 선수 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=2fc01bbd-f19a-44c7-a8bd-fe131fcd5330",
+        "evidence_id": "kspo-primary-culture-7",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-7",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"7\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "kspo-primary-culture-7"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3c0dffb0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3c0dffb0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "장애인스포츠강좌이용권 강좌 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3c0dffb0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-3c0dffb0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-70",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"70\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3c0dffb0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-538fc290-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "538fc290-2594-11eb-af9a-4b03f0a582d6",
+        "title": "장애인스포츠강좌이용권시설인근편의시설정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=538fc290-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-538fc290-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-71",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"71\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-538fc290-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-35f861b0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "35f861b0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "장애인스포츠강좌이용권시설정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=35f861b0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-35f861b0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-72",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"72\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-35f861b0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-44bc49f0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "44bc49f0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "종목별장애인스포츠활성정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=44bc49f0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-44bc49f0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-73",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"73\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-44bc49f0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-87024480-6e17-11ee-88b4-1384e6e2c3c9",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "87024480-6e17-11ee-88b4-1384e6e2c3c9",
+        "title": "지역별 장애인 생활체육 활성 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=87024480-6e17-11ee-88b4-1384e6e2c3c9",
+        "evidence_id": "culture-market-detail-87024480-6e17-11ee-88b4-1384e6e2c3c9",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-74",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"74\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-87024480-6e17-11ee-88b4-1384e6e2c3c9"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-d27e0230-f977-11eb-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "d27e0230-f977-11eb-8e60-2bcdc8456bfb",
+        "title": "전문체육 종목별 대회 경기영상 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=d27e0230-f977-11eb-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-d27e0230-f977-11eb-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-75",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"75\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-d27e0230-f977-11eb-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-ee36df10-f977-11eb-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "ee36df10-f977-11eb-8e60-2bcdc8456bfb",
+        "title": "전문체육 종목별 대회정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ee36df10-f977-11eb-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-ee36df10-f977-11eb-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-76",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"76\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-ee36df10-f977-11eb-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-ddd74830-f977-11eb-8e60-2bcdc8456bfb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "ddd74830-f977-11eb-8e60-2bcdc8456bfb",
+        "title": "개방학교 체육시설",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ddd74830-f977-11eb-8e60-2bcdc8456bfb",
+        "evidence_id": "culture-market-detail-ddd74830-f977-11eb-8e60-2bcdc8456bfb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-77",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"77\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-ddd74830-f977-11eb-8e60-2bcdc8456bfb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-c3b8fb69-307d-4ae7-ab42-d0314c89ef47",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "c3b8fb69-307d-4ae7-ab42-d0314c89ef47",
+        "title": "공공체육시설 프로그램 정보",
+        "provider_id": "bigdata-culture:org:kspo_center_org",
+        "provider_name": "체육종합빅데이터센터",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=c3b8fb69-307d-4ae7-ab42-d0314c89ef47",
+        "evidence_id": "culture-market-detail-c3b8fb69-307d-4ae7-ab42-d0314c89ef47",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-78",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"78\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-c3b8fb69-307d-4ae7-ab42-d0314c89ef47"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-b5880ea0-247a-4258-9f7b-79eab6751591",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "b5880ea0-247a-4258-9f7b-79eab6751591",
+        "title": "전국공공체육시설 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=b5880ea0-247a-4258-9f7b-79eab6751591",
+        "evidence_id": "culture-market-detail-b5880ea0-247a-4258-9f7b-79eab6751591",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-79",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"79\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-b5880ea0-247a-4258-9f7b-79eab6751591"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-753675f3-fb73-4d76-be7d-18198a460d6a",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "753675f3-fb73-4d76-be7d-18198a460d6a",
+        "title": "경륜 명예심판 후기 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=753675f3-fb73-4d76-be7d-18198a460d6a",
+        "evidence_id": "culture-market-detail-753675f3-fb73-4d76-be7d-18198a460d6a",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-8",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"8\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-753675f3-fb73-4d76-be7d-18198a460d6a"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-3b5399ad-88c4-43aa-a1d7-7ef6a630370b",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "3b5399ad-88c4-43aa-a1d7-7ef6a630370b",
+        "title": "전국체육시설현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3b5399ad-88c4-43aa-a1d7-7ef6a630370b",
+        "evidence_id": "culture-market-detail-3b5399ad-88c4-43aa-a1d7-7ef6a630370b",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-80",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"80\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-3b5399ad-88c4-43aa-a1d7-7ef6a630370b"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-67f6b0e0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "67f6b0e0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "지역별공공체육시설보급현황정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=67f6b0e0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-67f6b0e0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-81",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"81\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-67f6b0e0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-201de630-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "201de630-2594-11eb-af9a-4b03f0a582d6",
+        "title": "지역별유형별체육시설안전정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=201de630-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-201de630-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-82",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"82\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-201de630-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-cae91264-6bc2-49fc-b38f-7df7d00c1e89",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "cae91264-6bc2-49fc-b38f-7df7d00c1e89",
+        "title": "청소년 유아동 이용가능 체육시설 프로그램 정보",
+        "provider_id": "bigdata-culture:org:kspo_center_org",
+        "provider_name": "체육종합빅데이터센터",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=cae91264-6bc2-49fc-b38f-7df7d00c1e89",
+        "evidence_id": "culture-market-detail-cae91264-6bc2-49fc-b38f-7df7d00c1e89",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-83",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"83\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-cae91264-6bc2-49fc-b38f-7df7d00c1e89"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-25c4e3e0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "25c4e3e0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "체육생활이용정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=25c4e3e0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-25c4e3e0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-84",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"84\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-25c4e3e0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-615e7eb0-6e17-11ee-88b4-1384e6e2c3c9",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "615e7eb0-6e17-11ee-88b4-1384e6e2c3c9",
+        "title": "체육시설 인접 대중교통 정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=615e7eb0-6e17-11ee-88b4-1384e6e2c3c9",
+        "evidence_id": "culture-market-detail-615e7eb0-6e17-11ee-88b4-1384e6e2c3c9",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-85",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"85\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-615e7eb0-6e17-11ee-88b4-1384e6e2c3c9"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-1762f1c0-2594-11eb-af9a-4b03f0a582d6",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "1762f1c0-2594-11eb-af9a-4b03f0a582d6",
+        "title": "체육시설안전점검정보",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=1762f1c0-2594-11eb-af9a-4b03f0a582d6",
+        "evidence_id": "culture-market-detail-1762f1c0-2594-11eb-af9a-4b03f0a582d6",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-86",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"86\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-1762f1c0-2594-11eb-af9a-4b03f0a582d6"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-b05c6e3f-a67e-4aaa-b057-68781475be2d",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "b05c6e3f-a67e-4aaa-b057-68781475be2d",
+        "title": "체육지도자 실기 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=b05c6e3f-a67e-4aaa-b057-68781475be2d",
+        "evidence_id": "culture-market-detail-b05c6e3f-a67e-4aaa-b057-68781475be2d",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-88",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"88\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-b05c6e3f-a67e-4aaa-b057-68781475be2d"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-7f7c9c88-bea9-410f-b468-641e5b9276ca",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "7f7c9c88-bea9-410f-b468-641e5b9276ca",
+        "title": "체육지도자 연도별 자격취득현황 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=7f7c9c88-bea9-410f-b468-641e5b9276ca",
+        "evidence_id": "culture-market-detail-7f7c9c88-bea9-410f-b468-641e5b9276ca",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-89",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"89\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-7f7c9c88-bea9-410f-b468-641e5b9276ca"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-962c9cbc-ea25-4bcb-a70e-b86346717edb",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "962c9cbc-ea25-4bcb-a70e-b86346717edb",
+        "title": "경륜 선수 출주표 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=962c9cbc-ea25-4bcb-a70e-b86346717edb",
+        "evidence_id": "culture-market-detail-962c9cbc-ea25-4bcb-a70e-b86346717edb",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-9",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"9\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-962c9cbc-ea25-4bcb-a70e-b86346717edb"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-fc5062ef-bdf3-41ba-abf7-013c86959041",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "fc5062ef-bdf3-41ba-abf7-013c86959041",
+        "title": "체육지도자 연수 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=fc5062ef-bdf3-41ba-abf7-013c86959041",
+        "evidence_id": "culture-market-detail-fc5062ef-bdf3-41ba-abf7-013c86959041",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-90",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"90\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-fc5062ef-bdf3-41ba-abf7-013c86959041"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-ec495dd9-4112-4457-946a-4b93d5553fb3",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "ec495dd9-4112-4457-946a-4b93d5553fb3",
+        "title": "체육지도자 필기 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ec495dd9-4112-4457-946a-4b93d5553fb3",
+        "evidence_id": "culture-market-detail-ec495dd9-4112-4457-946a-4b93d5553fb3",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-91",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"91\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-ec495dd9-4112-4457-946a-4b93d5553fb3"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-243e1fd9-2fa5-415b-8c08-3f2631b49f0d",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "243e1fd9-2fa5-415b-8c08-3f2631b49f0d",
+        "title": "체육지도자 합격 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=243e1fd9-2fa5-415b-8c08-3f2631b49f0d",
+        "evidence_id": "culture-market-detail-243e1fd9-2fa5-415b-8c08-3f2631b49f0d",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-92",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"92\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-243e1fd9-2fa5-415b-8c08-3f2631b49f0d"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-2bf93890-b4cf-4c64-b078-048082a62c17",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "2bf93890-b4cf-4c64-b078-048082a62c17",
+        "title": "체육진흥기금 단체별연간지원실적 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=2bf93890-b4cf-4c64-b078-048082a62c17",
+        "evidence_id": "culture-market-detail-2bf93890-b4cf-4c64-b078-048082a62c17",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-93",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"93\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-2bf93890-b4cf-4c64-b078-048082a62c17"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-4f7fb945-0f61-468c-b199-08126357bdbd",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "4f7fb945-0f61-468c-b199-08126357bdbd",
+        "title": "체육진흥기금 사업수행기관 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=4f7fb945-0f61-468c-b199-08126357bdbd",
+        "evidence_id": "culture-market-detail-4f7fb945-0f61-468c-b199-08126357bdbd",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-94",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"94\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-4f7fb945-0f61-468c-b199-08126357bdbd"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-b472f89f-5495-4705-8cd9-ad19d9ab0422",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "b472f89f-5495-4705-8cd9-ad19d9ab0422",
+        "title": "체육진흥기금 일일교부계획 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=b472f89f-5495-4705-8cd9-ad19d9ab0422",
+        "evidence_id": "culture-market-detail-b472f89f-5495-4705-8cd9-ad19d9ab0422",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-95",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"95\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-b472f89f-5495-4705-8cd9-ad19d9ab0422"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-a227f213-1c27-4d4e-8518-5e491e3c3b53",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "a227f213-1c27-4d4e-8518-5e491e3c3b53",
+        "title": "체육진흥기금 종합 지원실적지표 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=a227f213-1c27-4d4e-8518-5e491e3c3b53",
+        "evidence_id": "culture-market-detail-a227f213-1c27-4d4e-8518-5e491e3c3b53",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-96",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"96\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-a227f213-1c27-4d4e-8518-5e491e3c3b53"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-27080af8-e031-4af4-86f3-2116825d2461",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "27080af8-e031-4af4-86f3-2116825d2461",
+        "title": "체육진흥기금 지원 사업 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=27080af8-e031-4af4-86f3-2116825d2461",
+        "evidence_id": "culture-market-detail-27080af8-e031-4af4-86f3-2116825d2461",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-97",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"97\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-27080af8-e031-4af4-86f3-2116825d2461"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-961a01b6-0969-44bf-a1b0-21968f7e7749",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "961a01b6-0969-44bf-a1b0-21968f7e7749",
+        "title": "체육진흥기금 지원 실적 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=961a01b6-0969-44bf-a1b0-21968f7e7749",
+        "evidence_id": "culture-market-detail-961a01b6-0969-44bf-a1b0-21968f7e7749",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-98",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"98\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-961a01b6-0969-44bf-a1b0-21968f7e7749"
+    },
+    {
+      "record": {
+        "id": "bigdata-culture-f2d49808-364a-472d-ae3a-b6f4f4ee0c32",
+        "portal_id": "bigdata-culture",
+        "dataset_key": "f2d49808-364a-472d-ae3a-b6f4f4ee0c32",
+        "title": "체육진흥기금 지원예산 데이터",
+        "provider_id": "bigdata-culture:org:kspo_org",
+        "provider_name": "국민체육진흥공단",
+        "kind": "public_dataset_detail_from_referred_subset",
+        "url": "https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=f2d49808-364a-472d-ae3a-b6f4f4ee0c32",
+        "evidence_id": "culture-market-detail-f2d49808-364a-472d-ae3a-b6f4f4ee0c32",
+        "locator": ".tit_w p.tit span",
+        "output_raw": null,
+        "request_raw": null,
+        "schema_status": "separate_definition_check",
+        "source_referrals": [
+          {
+            "portal_id": "kspo",
+            "dataset_key": "explorer-99",
+            "evidence_id": "kspo-referred-explorer-data",
+            "locator": "payloads[1][\"99\"].sourceUrl"
+          }
+        ],
+        "public_catalog_scope": "Only primary pages linked by the KSPO referred map; not the complete market catalog"
+      },
+      "status": "primary_detail_observed",
+      "evidence_id": "culture-market-detail-f2d49808-364a-472d-ae3a-b6f4f4ee0c32"
+    }
+  ],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "scope": "Public primary pages linked from active KSPO map registrations only"
+}

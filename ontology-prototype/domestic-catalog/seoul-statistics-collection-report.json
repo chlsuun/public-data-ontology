@@ -1,0 +1,16 @@
+{
+  "scope": "seoul-statistics",
+  "target_count": 1777,
+  "processed": 1777,
+  "remaining": 0,
+  "status_counts": {
+    "statistical_definition_observed": 1776,
+    "statistical_route_unresolved": 1
+  },
+  "documented_field_occurrences": 8736,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T11:48:19.213068+00:00",
+  "generated_at": "2026-09-13T12:17:59.480591+00:00",
+  "pid": 11524
+}

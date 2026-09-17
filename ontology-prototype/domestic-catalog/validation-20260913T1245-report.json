@@ -1,0 +1,300 @@
+{
+  "checked_at": "2026-09-13T13:00:32.468452+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "foreign_key_integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "domestic_portals_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_false_full_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "catalog_count_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "quarantine_not_silently_dropped",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_count_discrepancy_exposed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "standard_provider_occurrences_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seoul_department_not_guessed_as_agency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kosis_links_missing_identity_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "neis_pagination_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "gyeonggi_pagination_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ecos_catalog_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "yeongdeungpo_catalog_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ecos_classification_and_unit_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_pagination_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_partial_catalog_not_marked_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "daegu_pagination_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "daegu_partial_catalog_not_marked_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_source_namespace_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "daegu_monthly_resources_not_collapsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_flattened_headers_remain_candidates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "quoted_parameter_commas_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "incheon_candidate_search_works",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate_only_records_excluded_from_documented_filter",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "declared_fields_remain_unverified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "request_and_output_separated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_neis_school_definition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_seoul_district_definition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kosis_structured_dimensions_acquired",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_manual_catalog_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_manual_response_fields_indexed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_operator_not_guessed_as_data_provider",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "library_response_field_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "embedded_openapi_source_field_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "opendart_api_catalog_ids_indexed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_api_catalog_ids_indexed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_db_category_namespace_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_db_fields_indexed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seoul_statistics_reference_identity_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_guide_navigation_and_catalog_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_output_table_fields_indexed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kma_auth_input_not_promoted_to_output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_catalog_source_totals_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_native_institution_code_namespace",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_marketplace_listing_routes_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mafra_first_api_real_output_definition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "opendart_catalog_mismatch_remains_visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "opendart_output_field_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_output_field_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "address_input_key_excluded_from_output_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "keyword_lookup_finds_real_definition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sql_metacharacters_are_literal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unknown_record_handled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "documented_count_reconciles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "external_references_namespaced_and_not_identity_claims",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_imported_sources_have_matching_sha256",
+      "passed": true,
+      "details": {
+        "sources_checked": 68244,
+        "failures": []
+      }
+    },
+    {
+      "name": "no_semantic_or_statistical_approval_fabricated",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "수집·참조·페이지 처리·원문 해시·검색 검증; 데이터 품질 점수나 상관관계 검증 아님"
+}

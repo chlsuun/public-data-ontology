@@ -1,0 +1,1317 @@
+{
+  "generated_at": "2026-09-13T13:08:48.112863+00:00",
+  "scope": "기상청 API허브·농식품 공개 카탈로그와 기능별 명세 확장",
+  "full_validation_snapshot": {
+    "generated_at": "2026-09-13T12:44:56.844569+00:00",
+    "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
+    "registered_portal_candidates": 124,
+    "portals_with_catalog_acquisition": 16,
+    "portal_counts": [
+      {
+        "portal_id": "address",
+        "catalog_records": 42,
+        "distinct_catalog_keys": 42,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1316,
+        "records_with_documented_columns": 40,
+        "records_without_documented_columns": 2,
+        "fields_in_source_definition_documents": 1316
+      },
+      {
+        "portal_id": "assembly",
+        "catalog_records": 278,
+        "distinct_catalog_keys": 278,
+        "provider_codes_in_source_namespace": 8,
+        "declared_output_tokens": 0,
+        "documented_columns": 2188,
+        "records_with_documented_columns": 278,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2188
+      },
+      {
+        "portal_id": "culture",
+        "catalog_records": 938,
+        "distinct_catalog_keys": 938,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 7927,
+        "records_with_documented_columns": 468,
+        "records_without_documented_columns": 470,
+        "fields_in_source_definition_documents": 7927
+      },
+      {
+        "portal_id": "daegu",
+        "catalog_records": 19954,
+        "distinct_catalog_keys": 19954,
+        "provider_codes_in_source_namespace": 9,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 19954,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "data-go",
+        "catalog_records": 108172,
+        "distinct_catalog_keys": 95923,
+        "provider_codes_in_source_namespace": 1231,
+        "declared_output_tokens": 640859,
+        "documented_columns": 494266,
+        "records_with_documented_columns": 28140,
+        "records_without_documented_columns": 80032,
+        "fields_in_source_definition_documents": 246078
+      },
+      {
+        "portal_id": "ecos",
+        "catalog_records": 681,
+        "distinct_catalog_keys": 681,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1182,
+        "records_with_documented_columns": 681,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 1182
+      },
+      {
+        "portal_id": "gyeonggi",
+        "catalog_records": 2267,
+        "distinct_catalog_keys": 2267,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 42550,
+        "records_with_documented_columns": 2125,
+        "records_without_documented_columns": 142,
+        "fields_in_source_definition_documents": 42550
+      },
+      {
+        "portal_id": "incheon",
+        "catalog_records": 4382,
+        "distinct_catalog_keys": 4382,
+        "provider_codes_in_source_namespace": 72,
+        "declared_output_tokens": 0,
+        "documented_columns": 170,
+        "records_with_documented_columns": 7,
+        "records_without_documented_columns": 4375,
+        "fields_in_source_definition_documents": 170
+      },
+      {
+        "portal_id": "kma-api",
+        "catalog_records": 626,
+        "distinct_catalog_keys": 626,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4709,
+        "records_with_documented_columns": 304,
+        "records_without_documented_columns": 322,
+        "fields_in_source_definition_documents": 4709
+      },
+      {
+        "portal_id": "kosis",
+        "catalog_records": 268388,
+        "distinct_catalog_keys": 268269,
+        "provider_codes_in_source_namespace": 383,
+        "declared_output_tokens": 0,
+        "documented_columns": 168637,
+        "records_with_documented_columns": 19624,
+        "records_without_documented_columns": 248764,
+        "fields_in_source_definition_documents": 167963
+      },
+      {
+        "portal_id": "library",
+        "catalog_records": 19,
+        "distinct_catalog_keys": 19,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 436,
+        "records_with_documented_columns": 19,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 436
+      },
+      {
+        "portal_id": "mafra",
+        "catalog_records": 2142,
+        "distinct_catalog_keys": 2142,
+        "provider_codes_in_source_namespace": 17,
+        "declared_output_tokens": 0,
+        "documented_columns": 1303,
+        "records_with_documented_columns": 103,
+        "records_without_documented_columns": 2039,
+        "fields_in_source_definition_documents": 1303
+      },
+      {
+        "portal_id": "neis",
+        "catalog_records": 12,
+        "distinct_catalog_keys": 12,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 178,
+        "records_with_documented_columns": 12,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 178
+      },
+      {
+        "portal_id": "opendart",
+        "catalog_records": 85,
+        "distinct_catalog_keys": 85,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 2175,
+        "records_with_documented_columns": 85,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2175
+      },
+      {
+        "portal_id": "seoul",
+        "catalog_records": 8272,
+        "distinct_catalog_keys": 8272,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 171837,
+        "records_with_documented_columns": 7441,
+        "records_without_documented_columns": 831,
+        "fields_in_source_definition_documents": 171837
+      },
+      {
+        "portal_id": "yeongdeungpo",
+        "catalog_records": 153,
+        "distinct_catalog_keys": 153,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4523,
+        "records_with_documented_columns": 150,
+        "records_without_documented_columns": 3,
+        "fields_in_source_definition_documents": 4523
+      }
+    ],
+    "total_catalog_records": 416411,
+    "distinct_catalog_keys_across_portal_namespaces": 404043,
+    "declared_output_tokens": 640859,
+    "documented_column_occurrences": 903397,
+    "quarantined_source_records": 62,
+    "all_domestic_portals_complete": false,
+    "all_columns_complete": false,
+    "cross_portal_deduplication_complete": false,
+    "raw_observation_values_collected": null,
+    "statistical_associations_verified": 0,
+    "semantic_relationships_approved": 0,
+    "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
+    "fields_in_source_definition_documents": 654535,
+    "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
+    "csv_first_record_header_candidates": 16385,
+    "bulk_observation_files_downloaded": 0,
+    "raw_values_analysis_performed": false,
+    "raw_observation_note": "통계 관측값 본문은 수집 대상으로 삼지 않았다. CSV 첫 레코드는 헤더 여부 검증 전이므로 포함된 관측값 개수를 0으로 단정하지 않는다."
+  },
+  "full_validation": {
+    "checked_at": "2026-09-13T13:00:32.468452+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "name": "sqlite_integrity",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "foreign_key_integrity",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "domestic_portals_only",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "no_false_full_coverage",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "catalog_count_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "quarantine_not_silently_dropped",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "source_count_discrepancy_exposed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "standard_provider_occurrences_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "seoul_department_not_guessed_as_agency",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kosis_links_missing_identity_retained",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "neis_pagination_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "gyeonggi_pagination_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "ecos_catalog_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "yeongdeungpo_catalog_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "ecos_classification_and_unit_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "incheon_pagination_accounting",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "incheon_partial_catalog_not_marked_complete",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "daegu_pagination_accounting",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "daegu_partial_catalog_not_marked_complete",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "incheon_source_namespace_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "daegu_monthly_resources_not_collapsed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "incheon_flattened_headers_remain_candidates",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "quoted_parameter_commas_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "incheon_candidate_search_works",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "candidate_only_records_excluded_from_documented_filter",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "declared_fields_remain_unverified",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "request_and_output_separated",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "actual_neis_school_definition",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "actual_seoul_district_definition",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kosis_structured_dimensions_acquired",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "library_manual_catalog_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "library_manual_response_fields_indexed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "library_operator_not_guessed_as_data_provider",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "library_response_field_search",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "embedded_openapi_source_field_search",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "opendart_api_catalog_ids_indexed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "address_api_catalog_ids_indexed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "address_db_category_namespace_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "address_db_fields_indexed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "seoul_statistics_reference_identity_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_guide_navigation_and_catalog_reconcile",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_output_table_fields_indexed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_auth_input_not_promoted_to_output",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_catalog_source_totals_reconcile",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_native_institution_code_namespace",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_marketplace_listing_routes_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_first_api_real_output_definition",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "opendart_catalog_mismatch_remains_visible",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "opendart_output_field_search",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "address_output_field_search",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "address_input_key_excluded_from_output_search",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "keyword_lookup_finds_real_definition",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "sql_metacharacters_are_literal",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "unknown_record_handled",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "documented_count_reconciles",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "external_references_namespaced_and_not_identity_claims",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "all_imported_sources_have_matching_sha256",
+        "passed": true,
+        "details": {
+          "sources_checked": 68244,
+          "failures": []
+        }
+      },
+      {
+        "name": "no_semantic_or_statistical_approval_fabricated",
+        "passed": true,
+        "details": null
+      }
+    ],
+    "scope": "수집·참조·페이지 처리·원문 해시·검색 검증; 데이터 품질 점수나 상관관계 검증 아님"
+  },
+  "validation_scope_note": "58 full checks apply to the frozen 12:44 UTC index snapshot. MAFRA operation expansion occurred later and has separate adapter and import checks.",
+  "new_catalogs": [
+    "kma-api",
+    "mafra"
+  ],
+  "national_complete": false,
+  "all_columns_complete": false,
+  "raw_values_analysis_performed": false,
+  "post_expansion_index_snapshot": {
+    "generated_at": "2026-09-13T13:05:04.061950+00:00",
+    "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
+    "registered_portal_candidates": 124,
+    "portals_with_catalog_acquisition": 16,
+    "portal_counts": [
+      {
+        "portal_id": "address",
+        "catalog_records": 42,
+        "distinct_catalog_keys": 42,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1316,
+        "records_with_documented_columns": 40,
+        "records_without_documented_columns": 2,
+        "fields_in_source_definition_documents": 1316
+      },
+      {
+        "portal_id": "assembly",
+        "catalog_records": 278,
+        "distinct_catalog_keys": 278,
+        "provider_codes_in_source_namespace": 8,
+        "declared_output_tokens": 0,
+        "documented_columns": 2188,
+        "records_with_documented_columns": 278,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2188
+      },
+      {
+        "portal_id": "culture",
+        "catalog_records": 938,
+        "distinct_catalog_keys": 938,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 7927,
+        "records_with_documented_columns": 468,
+        "records_without_documented_columns": 470,
+        "fields_in_source_definition_documents": 7927
+      },
+      {
+        "portal_id": "daegu",
+        "catalog_records": 19954,
+        "distinct_catalog_keys": 19954,
+        "provider_codes_in_source_namespace": 9,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 19954,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "data-go",
+        "catalog_records": 108172,
+        "distinct_catalog_keys": 95923,
+        "provider_codes_in_source_namespace": 1231,
+        "declared_output_tokens": 640859,
+        "documented_columns": 506504,
+        "records_with_documented_columns": 28887,
+        "records_without_documented_columns": 79285,
+        "fields_in_source_definition_documents": 258316
+      },
+      {
+        "portal_id": "ecos",
+        "catalog_records": 681,
+        "distinct_catalog_keys": 681,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1182,
+        "records_with_documented_columns": 681,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 1182
+      },
+      {
+        "portal_id": "gyeonggi",
+        "catalog_records": 2267,
+        "distinct_catalog_keys": 2267,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 42550,
+        "records_with_documented_columns": 2125,
+        "records_without_documented_columns": 142,
+        "fields_in_source_definition_documents": 42550
+      },
+      {
+        "portal_id": "incheon",
+        "catalog_records": 4382,
+        "distinct_catalog_keys": 4382,
+        "provider_codes_in_source_namespace": 72,
+        "declared_output_tokens": 0,
+        "documented_columns": 170,
+        "records_with_documented_columns": 7,
+        "records_without_documented_columns": 4375,
+        "fields_in_source_definition_documents": 170
+      },
+      {
+        "portal_id": "kma-api",
+        "catalog_records": 626,
+        "distinct_catalog_keys": 626,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4709,
+        "records_with_documented_columns": 304,
+        "records_without_documented_columns": 322,
+        "fields_in_source_definition_documents": 4709
+      },
+      {
+        "portal_id": "kosis",
+        "catalog_records": 268388,
+        "distinct_catalog_keys": 268269,
+        "provider_codes_in_source_namespace": 383,
+        "declared_output_tokens": 0,
+        "documented_columns": 175532,
+        "records_with_documented_columns": 20802,
+        "records_without_documented_columns": 247586,
+        "fields_in_source_definition_documents": 174858
+      },
+      {
+        "portal_id": "library",
+        "catalog_records": 19,
+        "distinct_catalog_keys": 19,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 436,
+        "records_with_documented_columns": 19,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 436
+      },
+      {
+        "portal_id": "mafra",
+        "catalog_records": 2142,
+        "distinct_catalog_keys": 2142,
+        "provider_codes_in_source_namespace": 17,
+        "declared_output_tokens": 0,
+        "documented_columns": 2725,
+        "records_with_documented_columns": 183,
+        "records_without_documented_columns": 1959,
+        "fields_in_source_definition_documents": 2725
+      },
+      {
+        "portal_id": "neis",
+        "catalog_records": 12,
+        "distinct_catalog_keys": 12,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 178,
+        "records_with_documented_columns": 12,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 178
+      },
+      {
+        "portal_id": "opendart",
+        "catalog_records": 85,
+        "distinct_catalog_keys": 85,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 2175,
+        "records_with_documented_columns": 85,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2175
+      },
+      {
+        "portal_id": "seoul",
+        "catalog_records": 8272,
+        "distinct_catalog_keys": 8272,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 171837,
+        "records_with_documented_columns": 7441,
+        "records_without_documented_columns": 831,
+        "fields_in_source_definition_documents": 171837
+      },
+      {
+        "portal_id": "yeongdeungpo",
+        "catalog_records": 153,
+        "distinct_catalog_keys": 153,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4523,
+        "records_with_documented_columns": 150,
+        "records_without_documented_columns": 3,
+        "fields_in_source_definition_documents": 4523
+      }
+    ],
+    "total_catalog_records": 416411,
+    "distinct_catalog_keys_across_portal_namespaces": 404043,
+    "declared_output_tokens": 640859,
+    "documented_column_occurrences": 923952,
+    "quarantined_source_records": 62,
+    "all_domestic_portals_complete": false,
+    "all_columns_complete": false,
+    "cross_portal_deduplication_complete": false,
+    "raw_observation_values_collected": null,
+    "statistical_associations_verified": 0,
+    "semantic_relationships_approved": 0,
+    "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
+    "fields_in_source_definition_documents": 675090,
+    "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
+    "csv_first_record_header_candidates": 16385,
+    "bulk_observation_files_downloaded": 0,
+    "raw_values_analysis_performed": false,
+    "raw_observation_note": "통계 관측값 본문은 수집 대상으로 삼지 않았다. CSV 첫 레코드는 헤더 여부 검증 전이므로 포함된 관측값 개수를 0으로 단정하지 않는다."
+  },
+  "operation_collection": {
+    "generated_at": "2026-09-13T13:02:30.601350+00:00",
+    "scope": "Public function selector variants in all 183 acquired MAFRA API listings",
+    "api_selector_option_counts": {
+      "1": 177,
+      "2": 3,
+      "4": 2,
+      "6": 1
+    },
+    "total_declared_functions": 197,
+    "multifunction_api_count": 6,
+    "expanded_api_ids": [
+      "OPENAPI-20161121000000000611",
+      "OPENAPI-20221205000000002352",
+      "OPENAPI-20161208000000000644",
+      "OPENAPI-20221205000000002360",
+      "OPENAPI-20171023000000000894",
+      "OPENAPI-20190710000000001094"
+    ],
+    "function_results": [
+      {
+        "dataset_key": "OPENAPI-20161121000000000611",
+        "source_api_id": "20161121000000000372",
+        "function_id": "1",
+        "function_name": "농업용저수지 코드조회",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20161121000000000611",
+        "evidence_id": "mafra-operation-20161121000000000611-1",
+        "first_attempt_evidence_id": "mafra-operation-20161121000000000611-1",
+        "status": "column_definition_observed",
+        "fields": 9
+      },
+      {
+        "dataset_key": "OPENAPI-20161121000000000611",
+        "source_api_id": "20161121000000000372",
+        "function_id": "2",
+        "function_name": "농업용저수지 수위조회",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20161121000000000611",
+        "evidence_id": "mafra-operation-20161121000000000611-2",
+        "first_attempt_evidence_id": "mafra-operation-20161121000000000611-2",
+        "status": "column_definition_observed",
+        "fields": 12
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002352",
+        "source_api_id": "20220824000000000643",
+        "function_id": "2",
+        "function_name": "농수축산물 품목별 유통단계별 가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002352",
+        "evidence_id": "mafra-operation-20221205000000002352-2",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002352-2",
+        "status": "column_definition_observed",
+        "fields": 34
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002352",
+        "source_api_id": "20220824000000000643",
+        "function_id": "3",
+        "function_name": "농수축산물 지역별 유통단계별 가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002352",
+        "evidence_id": "mafra-operation-20221205000000002352-3",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002352-3",
+        "status": "column_definition_observed",
+        "fields": 34
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002352",
+        "source_api_id": "20220824000000000643",
+        "function_id": "4",
+        "function_name": "농수축산물 시장별 유통단계별 가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[2]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002352",
+        "evidence_id": "mafra-operation-20221205000000002352-4",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002352-4",
+        "status": "column_definition_observed",
+        "fields": 34
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002352",
+        "source_api_id": "20220824000000000643",
+        "function_id": "5",
+        "function_name": "농수축산물 일별 유통단계별 가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[3]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002352",
+        "evidence_id": "mafra-operation-20221205000000002352-5",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002352-5",
+        "status": "column_definition_observed",
+        "fields": 34
+      },
+      {
+        "dataset_key": "OPENAPI-20161208000000000644",
+        "source_api_id": "20161208000000000395",
+        "function_id": "1",
+        "function_name": "품목별실시간경매속보조회",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20161208000000000644",
+        "evidence_id": "mafra-operation-20161208000000000644-1",
+        "first_attempt_evidence_id": "mafra-operation-20161208000000000644-1",
+        "status": "column_definition_observed",
+        "fields": 9
+      },
+      {
+        "dataset_key": "OPENAPI-20161208000000000644",
+        "source_api_id": "20161208000000000395",
+        "function_id": "2",
+        "function_name": "도매시장별실시간경매속보조회",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20161208000000000644",
+        "evidence_id": "mafra-operation-20161208000000000644-2",
+        "first_attempt_evidence_id": "mafra-operation-20161208000000000644-2",
+        "status": "column_definition_observed",
+        "fields": 9
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002360",
+        "source_api_id": "20221205000000000651",
+        "function_id": "1",
+        "function_name": "지자체 농수축산물 원천 조사가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002360",
+        "evidence_id": "mafra-operation-20221205000000002360-1",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002360-1",
+        "status": "column_definition_observed",
+        "fields": 26
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002360",
+        "source_api_id": "20221205000000000651",
+        "function_id": "2",
+        "function_name": "지자체 농수축산물 지자체별 물가조사가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002360",
+        "evidence_id": "mafra-operation-20221205000000002360-2",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002360-2",
+        "status": "column_definition_observed",
+        "fields": 26
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002360",
+        "source_api_id": "20221205000000000651",
+        "function_id": "3",
+        "function_name": "지자체 농수축산물 시장별 물가조사가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[2]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002360",
+        "evidence_id": "mafra-operation-20221205000000002360-3-retry1",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002360-3",
+        "status": "function_definition_unresolved",
+        "fields": 0,
+        "error": "The read operation timed out",
+        "http_status": null
+      },
+      {
+        "dataset_key": "OPENAPI-20221205000000002360",
+        "source_api_id": "20221205000000000651",
+        "function_id": "4",
+        "function_name": "지자체 농수축산물 품목별 물가조사가격 정보조회",
+        "source_option_locator": "select#s_skll_sn option[3]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20221205000000002360",
+        "evidence_id": "mafra-operation-20221205000000002360-4",
+        "first_attempt_evidence_id": "mafra-operation-20221205000000002360-4",
+        "status": "column_definition_observed",
+        "fields": 26
+      },
+      {
+        "dataset_key": "OPENAPI-20171023000000000894",
+        "source_api_id": "20171024000000000545",
+        "function_id": "1",
+        "function_name": "소 및 쇠고기 개체정보",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20171023000000000894",
+        "evidence_id": "mafra-operation-20171023000000000894-1",
+        "first_attempt_evidence_id": "mafra-operation-20171023000000000894-1",
+        "status": "column_definition_observed",
+        "fields": 23
+      },
+      {
+        "dataset_key": "OPENAPI-20171023000000000894",
+        "source_api_id": "20171024000000000545",
+        "function_id": "2",
+        "function_name": "소 이동정보",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20171023000000000894",
+        "evidence_id": "mafra-operation-20171023000000000894-2",
+        "first_attempt_evidence_id": "mafra-operation-20171023000000000894-2",
+        "status": "column_definition_observed",
+        "fields": 8
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "1",
+        "function_name": "팜맵ID 기반 월단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[0]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-1",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-1",
+        "status": "column_definition_observed",
+        "fields": 31
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "2",
+        "function_name": "팜맵ID 기반 년단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[1]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-2",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-2",
+        "status": "column_definition_observed",
+        "fields": 31
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "3",
+        "function_name": "PNU기반 월단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[2]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-3",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-3",
+        "status": "column_definition_observed",
+        "fields": 31
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "4",
+        "function_name": "PNU기반 년단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[3]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-4",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-4",
+        "status": "column_definition_observed",
+        "fields": 31
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "5",
+        "function_name": "좌표기반 월단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[4]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-5",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-5",
+        "status": "column_definition_observed",
+        "fields": 31
+      },
+      {
+        "dataset_key": "OPENAPI-20190710000000001094",
+        "source_api_id": "20190710000000000598",
+        "function_id": "6",
+        "function_name": "좌표기반 년단위 병해충발생 상세조회",
+        "source_option_locator": "select#s_skll_sn option[5]",
+        "source_selector_evidence_id": "mafra-schema-OPENAPI-20190710000000001094",
+        "evidence_id": "mafra-operation-20190710000000001094-6",
+        "first_attempt_evidence_id": "mafra-operation-20190710000000001094-6",
+        "status": "column_definition_observed",
+        "fields": 31
+      }
+    ],
+    "target_count": 20,
+    "processed": 20,
+    "status_counts": {
+      "column_definition_observed": 19,
+      "function_definition_unresolved": 1
+    },
+    "queue_exhausted": true,
+    "all_columns_complete": false,
+    "api_fields_before_expansion": 2387,
+    "api_definition_total_fields_after_expansion": 2725,
+    "documented_field_occurrences": 470,
+    "count_note": "This function queue overlaps the base API queue; do not add its field count to the base queue. When the first/default function is observed, replace its initial schema with all successfully observed function schemas. Failed sibling functions remain explicitly unresolved; the original default schema is retained separately for audit.",
+    "api_observation_requests_executed": false,
+    "pid": 33648
+  },
+  "new_adapter_check": {
+    "checked_at": "2026-09-13T13:04:07.672245+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "name": "kma_public_navigation_traversed",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_all_output_fields_match_original_table_cells",
+        "passed": true,
+        "details": {
+          "fields_checked": 4709,
+          "failures": []
+        }
+      },
+      {
+        "name": "kma_input_keys_and_combined_units_not_misclassified",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_shared_request_table_scope_retained",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "kma_missing_payload_schemas_remain_pending",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_three_catalog_totals_reconcile",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_sort_boundary_duplicate_and_recovery_preserved",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_all_catalog_ids_resolve_to_source_hits",
+        "passed": true,
+        "details": {
+          "records_checked": 2142,
+          "source_pages_checked": 152,
+          "failures": []
+        }
+      },
+      {
+        "name": "mafra_marketplace_links_not_declared_government_owned",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_api_response_vs_example_and_request_distinction",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_all_183_api_schemas_match_source_output_rows",
+        "passed": true,
+        "details": {
+          "documents_checked": 183,
+          "fields_checked": 2725,
+          "failures": []
+        }
+      },
+      {
+        "name": "mafra_function_names_and_ids_trace_to_public_selector",
+        "passed": true,
+        "details": {
+          "function_documents_checked": 20,
+          "failures": []
+        }
+      },
+      {
+        "name": "mafra_failed_sibling_not_hidden_or_invented",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_placeholder_output_rows_not_fields",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_public_marketplace_wrapper_preserves_reference",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "mafra_wrong_detail_identity_rejected",
+        "passed": true,
+        "details": null
+      }
+    ],
+    "scope": "Public catalog counts, identifiers, navigation and schema cell provenance; no statistical or data quality score validation."
+  },
+  "new_operation_import_check": {
+    "checked_at": "2026-09-13T13:05:55.602738+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "name": "all_mafra_api_fields_match_saved_source_definitions",
+        "passed": true,
+        "details": {
+          "fields_checked": 2725,
+          "failures": []
+        }
+      },
+      {
+        "name": "initial_default_fields_not_counted_twice",
+        "passed": true,
+        "details": {
+          "expanded_apis": 6,
+          "stale": []
+        }
+      },
+      {
+        "name": "mafra_index_count_matches_coverage",
+        "passed": true,
+        "details": null
+      },
+      {
+        "name": "http_function_provenance_OPENAPI-20161121000000000611",
+        "passed": true,
+        "details": {
+          "fields_returned": 21
+        }
+      },
+      {
+        "name": "http_function_provenance_OPENAPI-20221205000000002360",
+        "passed": true,
+        "details": {
+          "fields_returned": 78
+        }
+      }
+    ],
+    "scope": "Post-expansion MAFRA function import and local HTTP detail results; general 58-check validation is a separate earlier snapshot."
+  },
+  "new_portal_http_check": {
+    "checked_at": "2026-09-13T12:46:53.641440+00:00",
+    "passed": true,
+    "checks": [
+      {
+        "params": {
+          "portal": "kma-api",
+          "field": "GST_WS",
+          "documented": "yes"
+        },
+        "total": 2,
+        "passed": true
+      },
+      {
+        "params": {
+          "portal": "kma-api",
+          "field": "authKey",
+          "documented": "yes"
+        },
+        "total": 0,
+        "passed": true
+      },
+      {
+        "params": {
+          "portal": "mafra",
+          "field": "PRMISN_NO",
+          "documented": "yes"
+        },
+        "total": 1,
+        "passed": true
+      },
+      {
+        "params": {
+          "portal": "mafra",
+          "field": "API_KEY",
+          "documented": "yes"
+        },
+        "total": 0,
+        "passed": true
+      },
+      {
+        "name": "marketplace_metadata_ownership_not_inferred",
+        "passed": true
+      },
+      {
+        "name": "new_portal_queues_visible",
+        "passed": true
+      }
+    ]
+  },
+  "index_report": {
+    "generated_at": "2026-09-13T13:05:18.363106+00:00",
+    "changed_documents": 3809,
+    "unmatched_definition_documents": [],
+    "parse_errors": [],
+    "documented_field_occurrences": 923952,
+    "portable_columns_exported": true,
+    "all_columns_complete": false
+  },
+  "remaining": [
+    "KMA 322 call variants with pending payload definitions and 111 discovered reference-document URLs",
+    "MAFRA function 20221205000000002360/3 timed out twice; FILE headers and linked-origin schemas remain pending",
+    "Source dictionary and additional catalog scopes, further domestic portals and provider discovery",
+    "Existing data-go and KOSIS queues continue; national/all-column completion remains false"
+  ],
+  "provider_frontier": {
+    "generated_at": "2026-09-13T13:07:28.192551+00:00",
+    "national_census_complete": false,
+    "external_page_references": 17933,
+    "non_license_hosts": 471
+  },
+  "validation_pause_released_at": "2026-09-13T13:07:55.989842+00:00",
+  "active_queue_snapshots": {
+    "definition": {
+      "scope": "all_acquired_data_go_file_catalog_keys",
+      "target_count": 83691,
+      "processed": 18000,
+      "remaining": 65691,
+      "status_counts": {
+        "column_definition_observed": 11219,
+        "no_definition_table_observed": 6706,
+        "fetch_unresolved": 75
+      },
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-13T07:16:53.743842+00:00",
+      "generated_at": "2026-09-13T13:07:35.349242+00:00",
+      "pid": 26304
+    },
+    "kosis": {
+      "scope": "all_acquired_identified_kosis_domestic_tables",
+      "target_count": 266688,
+      "processed": 20925,
+      "remaining": 245763,
+      "status_counts": {
+        "statistical_definition_observed": 20925
+      },
+      "documented_field_occurrences": 176340,
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-13T07:37:19.869131+00:00",
+      "generated_at": "2026-09-13T13:07:33.660320+00:00",
+      "pid": 25268
+    },
+    "data-go-api": {
+      "scope": "data-go-api",
+      "target_count": 12053,
+      "processed": 9212,
+      "remaining": 2841,
+      "status_counts": {
+        "column_definition_observed": 5119,
+        "api_definition_route_unresolved": 3907,
+        "fetch_unresolved": 186
+      },
+      "documented_field_occurrences": 153939,
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-13T09:59:53.393350+00:00",
+      "generated_at": "2026-09-13T13:07:39.125791+00:00",
+      "pid": 1748
+    },
+    "mafra": {
+      "scope": "mafra",
+      "target_count": 2142,
+      "processed": 1469,
+      "remaining": 673,
+      "status_counts": {
+        "column_definition_observed": 183,
+        "public_metadata_observed_schema_pending": 1286
+      },
+      "documented_field_occurrences": 2387,
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-13T12:42:57.163396+00:00",
+      "generated_at": "2026-09-13T13:07:49.793859+00:00",
+      "pid": 16448
+    }
+  },
+  "worker_health": {
+    "checked_at": "2026-09-13T13:08:47.7872431+00:00",
+    "workers": [
+      {
+        "name": "data-go-file",
+        "pid": 26304,
+        "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_definitions.py",
+        "matching_process_count": 1,
+        "error_log_bytes": 0
+      },
+      {
+        "name": "kosis",
+        "pid": 25268,
+        "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_kosis.py",
+        "matching_process_count": 1,
+        "error_log_bytes": 0
+      },
+      {
+        "name": "data-go-api",
+        "pid": 1748,
+        "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_data_go_api.py",
+        "matching_process_count": 1,
+        "error_log_bytes": 0
+      },
+      {
+        "name": "mafra",
+        "pid": 16448,
+        "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_mafra.py",
+        "matching_process_count": 1,
+        "error_log_bytes": 0
+      },
+      {
+        "name": "indexer",
+        "pid": 32956,
+        "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py",
+        "matching_process_count": 1,
+        "error_log_bytes": 0
+      }
+    ],
+    "supervisor_pid": 31336,
+    "stop_markers": []
+  }
+}

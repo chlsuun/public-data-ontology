@@ -1,0 +1,21 @@
+{
+  "portal_id": "gyeonggi",
+  "reported_total": 2267,
+  "reported_totals_seen": [
+    2267
+  ],
+  "pages_requested": 114,
+  "received_rows": 2267,
+  "unique_dataset_ids": 2267,
+  "unique_ids_in_sorted_pass": 2267,
+  "prior_observed_ids": 2112,
+  "sort": "name",
+  "snapshot_pagination_complete": true,
+  "all_columns_complete": false,
+  "generated_at": "2026-09-13T06:56:29.327497+00:00",
+  "api_definition_targets": 2125,
+  "api_definition_status_counts": {
+    "column_definition_observed": 2125
+  },
+  "datasets_without_api_definition_route": 142
+}

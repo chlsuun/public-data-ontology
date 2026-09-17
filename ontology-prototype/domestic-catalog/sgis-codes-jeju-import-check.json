@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-13T16:31:44.394945+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "jeju_all_1259_registrations_searchable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_only_93_registrations_have_documented_response_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_686_response_fields_in_db",
+      "passed": true,
+      "details": 686
+    },
+    {
+      "name": "jeju_input_parameters_not_in_response_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_each_output_has_catalog_array_provenance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_file_versions_not_misrepresented_as_column_definitions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_source_owner_not_inferred_as_producing_agency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_35_code_edges_resolve_to_real_catalog_records_and_code_lists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sgis_code_rows_do_not_inflate_column_counts",
+      "passed": true,
+      "details": 618
+    },
+    {
+      "name": "actual_http_detail_exposes_age_code_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ontology_model_declares_code_list_relation_and_instance_files",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_orphan_documents_or_false_completion_flags",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "index_generated_at": "2026-09-13T16:27:57.684585+00:00",
+  "scope": "Jeju metadata and SGIS code-reference imports only; not full historical or observation-data validation."
+}

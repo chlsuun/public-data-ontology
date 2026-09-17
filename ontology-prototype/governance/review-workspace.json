@@ -1,0 +1,999 @@
+{
+  "version": "0.4.0-draft",
+  "source_model_version": "0.3.0",
+  "generated_file": true,
+  "note": "Preparation only. Do not edit this generated queue as a review ledger; use separate versioned review records.",
+  "legacy_relation_status_counts": {
+    "curated": 12,
+    "candidate": 9,
+    "documented": 10
+  },
+  "relation_review_tasks": [
+    {
+      "relation_id": "r-7c054165458d",
+      "source": "q-migration",
+      "target": "c-migration",
+      "predicate": "interpretedAs",
+      "role": "query_interpretation",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "1def721e9e40d162d8e2da639d1435baa654433cb0d5a262965c3f7afb6650f0",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Question scope and ambiguity review; not a scientific claim",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-6e18da008003",
+      "source": "q-employment",
+      "target": "c-employment",
+      "predicate": "interpretedAs",
+      "role": "query_interpretation",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "068ca4f75f4c7b8281771744b3c76f174bea951dfde8d48e51e20b8371a45ee0",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Question scope and ambiguity review; not a scientific claim",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-14f0a12d1fd3",
+      "source": "q-housing",
+      "target": "c-housing",
+      "predicate": "interpretedAs",
+      "role": "query_interpretation",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "811456f27a93a7a7d7a539706254a447be15df0cf9427a630a8be7636b75ab44",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Question scope and ambiguity review; not a scientific claim",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-ec83f4db154f",
+      "source": "c-migration",
+      "target": "c-employment",
+      "predicate": "explorationHypothesis",
+      "role": "context_hypothesis",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "993c30fa4d4d40f9d6bbfda5e21baec7ef8e3033311636b5d17fa61251237fe6",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Domain rationale review; can establish exploration relevance, not statistical association",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-7d5a01a773ed",
+      "source": "c-migration",
+      "target": "c-housing",
+      "predicate": "explorationHypothesis",
+      "role": "context_hypothesis",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "9234ebb2e8d0e8a83e8d28205d36b8ecb9c3041623b7396a571ec1f3e09a708e",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Domain rationale review; can establish exploration relevance, not statistical association",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-f6292fc89b0e",
+      "source": "c-migration",
+      "target": "c-education",
+      "predicate": "explorationHypothesis",
+      "role": "context_hypothesis",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "11407202da1de86709abcc1a7917fbe47ea0f3ff39bf9754f4e0f6c20cb38f45",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Domain rationale review; can establish exploration relevance, not statistical association",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-01721876a9a8",
+      "source": "c-employment",
+      "target": "c-education",
+      "predicate": "explorationHypothesis",
+      "role": "context_hypothesis",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "86b7ac7bc4505f932e1915fdcfc3410c61bb2246768061a4db5805ce22eed2b7",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Domain rationale review; can establish exploration relevance, not statistical association",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-7d4da1c5592e",
+      "source": "c-education",
+      "target": "c-employment",
+      "predicate": "explorationHypothesis",
+      "role": "context_hypothesis",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "ac6468bebc7c16b0d7808667fd16a3acc724af103319bf83cce72ee4e4debab8",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Domain rationale review; can establish exploration relevance, not statistical association",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-fdc5c86c04c3",
+      "source": "c-migration",
+      "target": "i-in",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "d1aeb714a0a77b85a3ffc6caeb66d4a1ee1e307a26046b0487b1f6cb35a0de91",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-2a6e492fd0b4",
+      "source": "c-migration",
+      "target": "i-out",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "6da3b8123428e8610d8cc3a99d9f1e70e8c4faa27b6fb3226ce4103066bdcd53",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-7410a73ab7c8",
+      "source": "c-migration",
+      "target": "i-net",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "6946e64eb5ba68395652e9704b716ea55772e13be300546164a561b407964acb",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-6b09a8a44367",
+      "source": "c-employment",
+      "target": "i-unemployment",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "65dc28a782ace4682d1f9711603be94047f4ca8d84e13ce6594c5d5e181b585b",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-8ee0a49ed72c",
+      "source": "c-employment",
+      "target": "i-employment",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "c64e7a9814c55d4e1795d61f89cc82076ca36de47f45fad66722b0983a79bc66",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-3cbbc988fa60",
+      "source": "c-housing",
+      "target": "i-house",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "9093292e43d56316929e220c91ad46ef4dccc5a9e9adf4f15b882c7dce1734a1",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-98bd39dcd151",
+      "source": "c-housing",
+      "target": "i-rent",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "43ea1cfc3815b93973f9b6d816abc98fe8c222084c147732d016ddc9844218f0",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-ad4c905f9efe",
+      "source": "c-education",
+      "target": "i-graduate",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "cf866df63548a09f430e9069f6d69c9f8e6ea7a266a83b2f436bc9834b6e5837",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-62a2741c3e3b",
+      "source": "c-education",
+      "target": "i-neet",
+      "predicate": "hasIndicator",
+      "role": "indicator_definition",
+      "legacy_evidence_status": "curated",
+      "evidence_ids": [
+        "user-requirements"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "4fd3c079640e99d335ec9f9196df9b42542def33ea9bc145a8ff9c843f6d4ccc",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Terminology, units, denominator and age definition review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-442b5ce5e8f0",
+      "source": "i-in",
+      "target": "d-kosis-flows",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "kosis-migration",
+        "kosis-table-access"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "484c7de0f168efa30dbedfc9fb4465a5251398dcd654fcdb19d2af0c33d1e236",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-d4546e8dce56",
+      "source": "i-out",
+      "target": "d-kosis-flows",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "kosis-migration",
+        "kosis-table-access"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "2a606b710bdcdf53782eb865f11c124d592c13020eafed396f96d41bcc0cb1bb",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-393db8c3cac1",
+      "source": "i-net",
+      "target": "d-kosis-net",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "kosis-migration",
+        "kosis-table-access"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "c286d4bd43819323ebbacde3f84ae50fd13eb76a3100fafa5a215aeabf258d0f",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-bff6a37d9e3b",
+      "source": "i-unemployment",
+      "target": "d-wb-unemployment",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "wb-unemployment"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "7b635ead66800b1b1c84268f1b576f204cd5dc5788199bab7c3d453150fe2e26",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-c6da93d847f8",
+      "source": "i-unemployment",
+      "target": "d-oecd-unemployment",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "oecd-unemployment-web"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "ddcf6cc607b96e94688a87a0463ee418dd633118f0ea66e9a63fd3b380643e0c",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-f6448e7d3459",
+      "source": "i-employment",
+      "target": "d-wb-employment",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "wb-employment"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "f3b14f32a5459e318854b90a97b47df3097253a1f35a8e8b3da22c3c0b80dbef",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-8ccbfb4143bc",
+      "source": "i-house",
+      "target": "d-oecd-housing",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "oecd-housing-web"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "3184bb480f5b39b860e37ea082ad4c12c9dd520d47fe3a0d3ac0f42a28c65904",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-77d3d2b11c2c",
+      "source": "i-rent",
+      "target": "d-oecd-housing",
+      "predicate": "availableFrom",
+      "role": "metadata_mapping",
+      "legacy_evidence_status": "candidate",
+      "evidence_ids": [
+        "oecd-housing-web"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "6358ee99485cc86b5e4034896a3e12de44fb2d6f84b5555a7e2d9d02df4993ea",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Actual subseries, schema, codelist and scope review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-3ebfaa92f163",
+      "source": "d-kosis-flows",
+      "target": "provider-mods",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "kosis-migration",
+        "kosis-table-access"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "e3f717954f02e1053f36f51c3d90bf433fcd3d3ba89c94eb6b77c9e42d108a48",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-d23d04edcb72",
+      "source": "d-kosis-net",
+      "target": "provider-mods",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "kosis-migration",
+        "kosis-table-access"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "c09a57176709841b38dcbe8201f66c4f6b21be04b0a79a3eea79ba3b7f0851ff",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-469a8194a2f2",
+      "source": "d-wb-unemployment",
+      "target": "provider-wb",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "wb-unemployment"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "09daebfdcf93beb0337d1cc71de40ac91459b09c70e9bc7b3dd89ac75833b303",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-214581da5a9e",
+      "source": "d-wb-employment",
+      "target": "provider-wb",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "wb-employment"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "861f4a944b44b69fe8c8cf247ccaac75393ba0915d402793c3c1e59f38b8ca7f",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-eb66a6bad6a2",
+      "source": "d-oecd-unemployment",
+      "target": "provider-oecd",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "oecd-unemployment-web"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "58f92bfde5e1fe88069a9c6ca7d981c7a1b90bedd86a2c16d90698d779d3105d",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    },
+    {
+      "relation_id": "r-d531e88be642",
+      "source": "d-oecd-housing",
+      "target": "provider-oecd",
+      "predicate": "providedBy",
+      "role": "source_provenance",
+      "legacy_evidence_status": "documented",
+      "evidence_ids": [
+        "oecd-housing-web"
+      ],
+      "import_origin": "legacy_editorial_model_not_live_llm",
+      "workflow_state": "proposed",
+      "proposal_fingerprint": "a9aeb3d3105f5c32c4bf77f8ea98332fb2a45a6baa6c62169957179a075905d6",
+      "fingerprint_scope": "Legacy relation, endpoint metadata and evidence records; not an original dataset checksum",
+      "review_method": "Official producer, source identity and dataset ID review",
+      "reviewer_id": null,
+      "reviewed_at": null,
+      "decision": null,
+      "original_dataset_versions_verified": false
+    }
+  ],
+  "qa_assessments": [
+    {
+      "assessment_id": "qa-pending-d-kosis-flows",
+      "dataset_id": "d-kosis-flows",
+      "dataset_version": null,
+      "site_profile": "kosis",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "cb9aa9f8e713ca220ff6859cf60b4777792b4b41216af1ebd9e92ee385cd0aaa",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    },
+    {
+      "assessment_id": "qa-pending-d-kosis-net",
+      "dataset_id": "d-kosis-net",
+      "dataset_version": null,
+      "site_profile": "kosis",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "a03218f6fa3a747863c61588448a00c46f663ff9ac01102b0fb85997e014f1a8",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    },
+    {
+      "assessment_id": "qa-pending-d-wb-unemployment",
+      "dataset_id": "d-wb-unemployment",
+      "dataset_version": null,
+      "site_profile": "world_bank",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "86cec2ac41b7c463bb5cea8d50dd11db80b7d182a4132f5daaa97b63fa9dcc99",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    },
+    {
+      "assessment_id": "qa-pending-d-wb-employment",
+      "dataset_id": "d-wb-employment",
+      "dataset_version": null,
+      "site_profile": "world_bank",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "fc3b89231db7ed9948fd60bd1e3c0aef4e0d7c1e6e41ea9183cca9140522e834",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    },
+    {
+      "assessment_id": "qa-pending-d-oecd-unemployment",
+      "dataset_id": "d-oecd-unemployment",
+      "dataset_version": null,
+      "site_profile": "oecd",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "6ad8232ca8432af22c1eb7434a7829baaa2d76849cb901e65883adb2f12e714a",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    },
+    {
+      "assessment_id": "qa-pending-d-oecd-housing",
+      "dataset_id": "d-oecd-housing",
+      "dataset_version": null,
+      "site_profile": "oecd",
+      "policy_version": "0.4.0-draft",
+      "data_type": "tabular_observations",
+      "inspection_level": "not_inspected",
+      "inspection_scope": null,
+      "assessed_at": null,
+      "assessor_id": null,
+      "sampling_method": null,
+      "sample_size": null,
+      "population_size": null,
+      "source_sha256": null,
+      "evidence_refs": [],
+      "metrics": {
+        "reliability_checks": {
+          "source_identity": null,
+          "methodology": null,
+          "definitions_and_units": null,
+          "revision_policy": null
+        },
+        "coverage": {
+          "covered_unique_units": null,
+          "expected_unique_units": null
+        },
+        "freshness": {
+          "applicability": "unknown",
+          "overdue_release_cycles": null,
+          "reason": "Publication calendar and latest observation not inspected"
+        },
+        "completeness": {
+          "valid_required_values": null,
+          "expected_required_values_in_observed_units": null
+        }
+      },
+      "gates": {
+        "reuse_and_redistribution_permission": "unknown",
+        "privacy_and_confidentiality": "unknown",
+        "integrity": "unknown",
+        "critical_schema_and_join_key_errors": "unknown"
+      },
+      "metadata_snapshot_sha256": "47d3383197f007cbff9a187a703073a114181d974b6547a0daeea4a0fc975a1a",
+      "assessment_reason": "Metadata observations exist; original observation values have not been inspected",
+      "calculated": {
+        "policy_version": "0.4.0-draft",
+        "scores": {
+          "reliability": null,
+          "coverage": null,
+          "freshness": null,
+          "completeness": null
+        },
+        "overall_score": null,
+        "assessment_completion_ratio": 0.0,
+        "status": "not_assessed",
+        "note": "Arithmetic only; evidence, dataset scope and sampling validity need separate review. This score never authorizes data delivery."
+      }
+    }
+  ],
+  "confirmed_relation_ids": [],
+  "human_reviews_recorded": 0,
+  "data_rows_inspected": 0,
+  "live_llm_calls": 0,
+  "community_and_delivery_services_running": false
+}

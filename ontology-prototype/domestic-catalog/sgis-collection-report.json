@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-13T15:39:48.943428+00:00",
+  "scope": "SGIS public data API guide body only; map API/SDK, file dictionaries, code tables and unmatched menu targets remain pending",
+  "target_count": 68,
+  "processed": 68,
+  "status_counts": {
+    "response_definition_observed": 66,
+    "response_artifact_descriptor_observed": 1,
+    "response_definition_observed_partial": 1
+  },
+  "documented_field_occurrences": 618,
+  "request_rows": 244,
+  "response_artifact_rows": 1,
+  "unresolved_response_rows": 1,
+  "queue_exhausted": true,
+  "all_columns_complete": false
+}

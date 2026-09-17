@@ -1,0 +1,70 @@
+{
+  "version": "0.4.0-draft",
+  "status": "team_proposal_not_official_certification",
+  "assessment_key": ["dataset_id", "dataset_version", "inspection_scope", "policy_version"],
+  "scale": [0, 10],
+  "supported_data_type": "tabular_observations",
+  "unsupported_types": "Use a separate profile for documents, images, spatial rasters or text corpora; do not silently apply tabular denominators.",
+  "weights": {"reliability": 0.30, "coverage": 0.25, "freshness": 0.20, "completeness": 0.25},
+  "rules": {
+    "reliability": {
+      "checks": ["source_identity", "methodology", "definitions_and_units", "revision_policy"],
+      "formula": "10 * passed_checks / 4, only if all four checks have been assessed",
+      "meaning": "Evidence transparency; not a guarantee of factual accuracy"
+    },
+    "coverage": {
+      "formula": "10 * covered_unique_units / expected_unique_units",
+      "denominator": "Explicit target geography x period x population/indicator units, with inapplicable combinations documented",
+      "note": "An included row with missing values counts as present here; value validity is measured by completeness"
+    },
+    "freshness": {
+      "formula": "10 * max(0, 1 - overdue_release_cycles / 3)",
+      "maximum_delay_cycles": 3,
+      "basis": "Observation period and source publication calendar, including normal publication lag",
+      "not_applicable": "Historical/final one-off data: record a reason and keep the overall score null in this policy"
+    },
+    "completeness": {
+      "formula": "10 * valid_required_values / expected_required_values_in_observed_units",
+      "note": "Required fields and null tokens must be declared; 0 is not a missing value"
+    }
+  },
+  "missing_policy": {
+    "unmeasured": null,
+    "zero_denominator": null,
+    "overall_requires_all_four_dimensions": true,
+    "statuses": ["not_assessed", "partial", "assessed"],
+    "never_impute_unknown_scores": true,
+    "show": ["per_dimension_scores", "assessment_completion_ratio", "inspection_level", "inspection_scope", "assessed_at", "dataset_version", "policy_version"]
+  },
+  "non_score_gates": ["reuse_and_redistribution_permission", "privacy_and_confidentiality", "integrity", "critical_schema_and_join_key_errors"],
+  "gate_values": ["pass", "fail", "unknown"],
+  "unknown_permission": "Discovery metadata only; no automatic mirroring, file delivery or join approval",
+  "site_profiles": {
+    "kosis": {
+      "source_url": "https://kosis.kr/openapi/devGuide/devGuide_0401List.do",
+      "checks": ["ORG_ID and TBL_ID", "item and classification codes", "age and administrative boundary definitions", "observation period vs release date", "units and footnotes", "source-defined null/status tokens and revisions"],
+      "never_assume": ["All youth age definitions match", "A table title identifies the required subseries"]
+    },
+    "data_go_kr": {
+      "source_url": "https://www.data.go.kr/data/15159384/fileData.do",
+      "checks": ["Original producer vs catalog operator", "FILE vs API vs LINK distribution", "file version, encoding and schema", "pagination and reported vs observed row counts", "duplicates and key validity", "update promise vs observation period", "distribution-specific use conditions"],
+      "never_assume": ["All portal datasets have the same quality", "A recent catalog modification means recent observations", "All data are tabular"]
+    },
+    "oecd": {
+      "source_url": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
+      "checks": ["Agency, dataflow and structural version", "dimension order and codelists", "country, age, unit and frequency", "seasonal adjustment and base year", "observation flags and breaks", "revisions and structure changes"],
+      "never_assume": ["The default query uses the requested age group", "Different structural versions are backwards compatible"]
+    },
+    "world_bank": {
+      "source_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/898581",
+      "checks": ["Indicator, source ID and original producer", "countries vs aggregate regions", "latest actual year per country", "null observations, footnotes and modeled estimates", "complete pagination", "MRNEV and gapfill transformation provenance"],
+      "never_assume": ["A nonempty latest-value response proves complete time coverage", "All countries have the same latest observation year"]
+    }
+  },
+  "site_summary": {
+    "fixed_site_score": false,
+    "group_by": ["site", "topic", "data_type", "policy_version", "inspection_level"],
+    "show": ["assessed_dataset_count", "registered_dataset_count", "unassessed_ratio", "median_and_distribution", "assessment_date_range"],
+    "community_likes_change_qa_score": false
+  }
+}

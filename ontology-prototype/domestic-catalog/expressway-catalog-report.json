@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-14T08:07:15.107210+00:00",
+  "catalog_records": 527,
+  "distinct_service_ids": 527,
+  "source_reported_type_counts": {
+    "FILE": 238,
+    "OPENAPI": 93,
+    "ORG": 194,
+    "LOD": 2
+  },
+  "source_reported_category_counts": {
+    "TR": 260,
+    "CO": 8,
+    "RO": 146,
+    "MA": 29,
+    "TO": 17,
+    "BU": 35,
+    "FU": 13,
+    "AI": 19
+  },
+  "actual_type_counts": {
+    "FILE": 238,
+    "OPENAPI": 93,
+    "ORG": 194,
+    "LOD": 2
+  },
+  "separate_api_catalog_rows": 93,
+  "api_identifier_sets_match": true,
+  "public_filters": {
+    "CATEGORY": "",
+    "GROUP_TR": "",
+    "serviceType": "",
+    "keyWord": "",
+    "searchDayFrom": "",
+    "searchDayTo": "",
+    "orderType": "",
+    "pn": "1"
+  },
+  "client_pagination_entire_array_observed": true,
+  "snapshot_catalog_counts_reconciled": true,
+  "source_count_evidence_id": "expressway-unfiltered-counts",
+  "api_list_evidence_id": "expressway-open-api-intro-json-default0",
+  "scope": "Unfiltered data-search catalog and separate API list; original observation files and all file versions are not included",
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

@@ -1,0 +1,436 @@
+{
+  "q-migration": {
+    "query_id": "q-migration",
+    "node_ids": [
+      "c-education",
+      "c-employment",
+      "c-housing",
+      "c-migration",
+      "d-kosis-flows",
+      "d-kosis-net",
+      "d-oecd-housing",
+      "d-oecd-unemployment",
+      "d-wb-employment",
+      "d-wb-unemployment",
+      "i-employment",
+      "i-graduate",
+      "i-house",
+      "i-in",
+      "i-neet",
+      "i-net",
+      "i-out",
+      "i-rent",
+      "i-unemployment",
+      "provider-mods",
+      "provider-oecd",
+      "provider-wb",
+      "q-migration"
+    ],
+    "relation_ids": [
+      "r-7c054165458d",
+      "r-2a6e492fd0b4",
+      "r-7410a73ab7c8",
+      "r-fdc5c86c04c3",
+      "r-7d5a01a773ed",
+      "r-ec83f4db154f",
+      "r-f6292fc89b0e",
+      "r-d4546e8dce56",
+      "r-393db8c3cac1",
+      "r-442b5ce5e8f0",
+      "r-3cbbc988fa60",
+      "r-98bd39dcd151",
+      "r-6b09a8a44367",
+      "r-8ee0a49ed72c",
+      "r-62a2741c3e3b",
+      "r-ad4c905f9efe",
+      "r-3ebfaa92f163",
+      "r-d23d04edcb72",
+      "r-8ccbfb4143bc",
+      "r-77d3d2b11c2c",
+      "r-bff6a37d9e3b",
+      "r-c6da93d847f8",
+      "r-f6448e7d3459",
+      "r-d531e88be642",
+      "r-469a8194a2f2",
+      "r-eb66a6bad6a2",
+      "r-214581da5a9e"
+    ],
+    "recommendations": [
+      {
+        "dataset_id": "d-kosis-flows",
+        "path": [
+          "r-7c054165458d",
+          "r-2a6e492fd0b4",
+          "r-d4546e8dce56"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26001",
+        "evidence_ids": [
+          "kosis-migration",
+          "kosis-table-access",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "원본 통계표 직접 조회·전체 기간·코드·단위 미검증",
+          "연령구간과 행정구역 버전을 확인해야 결합 가능"
+        ]
+      },
+      {
+        "dataset_id": "d-kosis-net",
+        "path": [
+          "r-7c054165458d",
+          "r-7410a73ab7c8",
+          "r-393db8c3cac1"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": false,
+        "source_url": "https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26002",
+        "evidence_ids": [
+          "kosis-migration",
+          "kosis-table-access",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "원본 통계표 직접 조회·전체 기간·코드·단위 미검증",
+          "연령구간과 행정구역 버전을 확인해야 결합 가능"
+        ]
+      },
+      {
+        "dataset_id": "d-oecd-housing",
+        "path": [
+          "r-7c054165458d",
+          "r-7d5a01a773ed",
+          "r-3cbbc988fa60",
+          "r-8ccbfb4143bc"
+        ],
+        "reason_kind": "hypothesis_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES&df%5Bvs%5D=1.0&dq=.Q.RHP.&lc=en&pd=%2C&pg=0&snb=1&tm=DF_HOUSE_PRICES&to%5BTIME_PERIOD%5D=false&vw=tb",
+        "evidence_ids": [
+          "oecd-housing-web",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.",
+          "원본 관측값·국가별 범위·결합 조건 미검증"
+        ]
+      },
+      {
+        "dataset_id": "d-oecd-unemployment",
+        "path": [
+          "r-7c054165458d",
+          "r-ec83f4db154f",
+          "r-6b09a8a44367",
+          "r-c6da93d847f8"
+        ],
+        "reason_kind": "hypothesis_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M&df%5Bvs%5D=1.0&dq=..._Z.Y._T.Y_GE15..M&lo=13&lom=LASTNPERIODS&ly%5Bcl%5D=TIME_PERIOD&ly%5Brw%5D=REF_AREA&pd=%2C&to%5BTIME_PERIOD%5D=false&vw=ov",
+        "evidence_ids": [
+          "oecd-unemployment-web",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.",
+          "원본 관측값·국가별 범위·결합 조건 미검증"
+        ]
+      },
+      {
+        "dataset_id": "d-wb-employment",
+        "path": [
+          "r-7c054165458d",
+          "r-ec83f4db154f",
+          "r-8ee0a49ed72c",
+          "r-f6448e7d3459"
+        ],
+        "reason_kind": "hypothesis_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS",
+        "evidence_ids": [
+          "user-requirements",
+          "wb-employment"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "국가별 제공 기간·빈도·관측값 응답 구조 미검증",
+          "국내 시군구 이동 통계와 직접 결합할 수 없음",
+          "국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함"
+        ]
+      },
+      {
+        "dataset_id": "d-wb-unemployment",
+        "path": [
+          "r-7c054165458d",
+          "r-ec83f4db154f",
+          "r-6b09a8a44367",
+          "r-bff6a37d9e3b"
+        ],
+        "reason_kind": "hypothesis_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS",
+        "evidence_ids": [
+          "user-requirements",
+          "wb-unemployment"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "국가별 제공 기간·빈도·관측값 응답 구조 미검증",
+          "국내 시군구 이동 통계와 직접 결합할 수 없음",
+          "국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함"
+        ]
+      }
+    ],
+    "counts": {
+      "nodes": 23,
+      "edges": 27,
+      "datasets": 6,
+      "scanned_edges": 29
+    },
+    "limits": {
+      "max_depth": 2,
+      "depth_unit": "query_to_concept_and_concept_to_concept_hops",
+      "max_nodes": 30,
+      "max_edges": 40,
+      "max_datasets": 10,
+      "max_scanned_edges": 200,
+      "query_timeout_ms": 1000,
+      "structural_depth_cost": 0,
+      "max_structural_hops": 3
+    },
+    "budget_stop_reasons": [
+      "max_depth"
+    ],
+    "truncated": true,
+    "unresolved_indicators": [
+      "i-graduate",
+      "i-neet"
+    ],
+    "query_ambiguities": [
+      "청년 연령",
+      "대상 지역",
+      "관측 기간",
+      "전출과 순유출의 구별"
+    ],
+    "elapsed_ms": 0.084,
+    "llm_calls": 0,
+    "raw_rows_fetched": 0,
+    "runtime": "offline_demo",
+    "policy_version": "0.3.0"
+  },
+  "q-employment": {
+    "query_id": "q-employment",
+    "node_ids": [
+      "c-education",
+      "c-employment",
+      "d-oecd-unemployment",
+      "d-wb-employment",
+      "d-wb-unemployment",
+      "i-employment",
+      "i-graduate",
+      "i-neet",
+      "i-unemployment",
+      "provider-oecd",
+      "provider-wb",
+      "q-employment"
+    ],
+    "relation_ids": [
+      "r-6e18da008003",
+      "r-6b09a8a44367",
+      "r-8ee0a49ed72c",
+      "r-01721876a9a8",
+      "r-bff6a37d9e3b",
+      "r-c6da93d847f8",
+      "r-f6448e7d3459",
+      "r-62a2741c3e3b",
+      "r-ad4c905f9efe",
+      "r-469a8194a2f2",
+      "r-eb66a6bad6a2",
+      "r-214581da5a9e"
+    ],
+    "recommendations": [
+      {
+        "dataset_id": "d-oecd-unemployment",
+        "path": [
+          "r-6e18da008003",
+          "r-6b09a8a44367",
+          "r-c6da93d847f8"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": true,
+        "source_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M&df%5Bvs%5D=1.0&dq=..._Z.Y._T.Y_GE15..M&lo=13&lom=LASTNPERIODS&ly%5Bcl%5D=TIME_PERIOD&ly%5Brw%5D=REF_AREA&pd=%2C&to%5BTIME_PERIOD%5D=false&vw=ov",
+        "evidence_ids": [
+          "oecd-unemployment-web",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.",
+          "원본 관측값·국가별 범위·결합 조건 미검증"
+        ]
+      },
+      {
+        "dataset_id": "d-wb-employment",
+        "path": [
+          "r-6e18da008003",
+          "r-8ee0a49ed72c",
+          "r-f6448e7d3459"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": false,
+        "source_url": "https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS",
+        "evidence_ids": [
+          "user-requirements",
+          "wb-employment"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "국가별 제공 기간·빈도·관측값 응답 구조 미검증",
+          "국내 시군구 이동 통계와 직접 결합할 수 없음",
+          "국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함"
+        ]
+      },
+      {
+        "dataset_id": "d-wb-unemployment",
+        "path": [
+          "r-6e18da008003",
+          "r-6b09a8a44367",
+          "r-bff6a37d9e3b"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": false,
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS",
+        "evidence_ids": [
+          "user-requirements",
+          "wb-unemployment"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "국가별 제공 기간·빈도·관측값 응답 구조 미검증",
+          "국내 시군구 이동 통계와 직접 결합할 수 없음",
+          "국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함"
+        ]
+      }
+    ],
+    "counts": {
+      "nodes": 12,
+      "edges": 12,
+      "datasets": 3,
+      "scanned_edges": 13
+    },
+    "limits": {
+      "max_depth": 2,
+      "depth_unit": "query_to_concept_and_concept_to_concept_hops",
+      "max_nodes": 30,
+      "max_edges": 40,
+      "max_datasets": 10,
+      "max_scanned_edges": 200,
+      "query_timeout_ms": 1000,
+      "structural_depth_cost": 0,
+      "max_structural_hops": 3
+    },
+    "budget_stop_reasons": [
+      "max_depth"
+    ],
+    "truncated": true,
+    "unresolved_indicators": [
+      "i-graduate",
+      "i-neet"
+    ],
+    "query_ambiguities": [
+      "청년 연령",
+      "비교 국가·지역",
+      "관측 기간"
+    ],
+    "elapsed_ms": 0.031,
+    "llm_calls": 0,
+    "raw_rows_fetched": 0,
+    "runtime": "offline_demo",
+    "policy_version": "0.3.0"
+  },
+  "q-housing": {
+    "query_id": "q-housing",
+    "node_ids": [
+      "c-housing",
+      "d-oecd-housing",
+      "i-house",
+      "i-rent",
+      "provider-oecd",
+      "q-housing"
+    ],
+    "relation_ids": [
+      "r-14f0a12d1fd3",
+      "r-3cbbc988fa60",
+      "r-98bd39dcd151",
+      "r-8ccbfb4143bc",
+      "r-77d3d2b11c2c",
+      "r-d531e88be642"
+    ],
+    "recommendations": [
+      {
+        "dataset_id": "d-oecd-housing",
+        "path": [
+          "r-14f0a12d1fd3",
+          "r-3cbbc988fa60",
+          "r-8ccbfb4143bc"
+        ],
+        "reason_kind": "direct_measure_path",
+        "mapping_has_candidate": false,
+        "source_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES&df%5Bvs%5D=1.0&dq=.Q.RHP.&lc=en&pd=%2C&pg=0&snb=1&tm=DF_HOUSE_PRICES&to%5BTIME_PERIOD%5D=false&vw=tb",
+        "evidence_ids": [
+          "oecd-housing-web",
+          "user-requirements"
+        ],
+        "join_allowed": false,
+        "policy_decision": "discovery_only",
+        "unresolved_conditions": [
+          "기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.",
+          "원본 관측값·국가별 범위·결합 조건 미검증"
+        ]
+      }
+    ],
+    "counts": {
+      "nodes": 6,
+      "edges": 6,
+      "datasets": 1,
+      "scanned_edges": 6
+    },
+    "limits": {
+      "max_depth": 2,
+      "depth_unit": "query_to_concept_and_concept_to_concept_hops",
+      "max_nodes": 30,
+      "max_edges": 40,
+      "max_datasets": 10,
+      "max_scanned_edges": 200,
+      "query_timeout_ms": 1000,
+      "structural_depth_cost": 0,
+      "max_structural_hops": 3
+    },
+    "budget_stop_reasons": [],
+    "truncated": false,
+    "unresolved_indicators": [],
+    "query_ambiguities": [
+      "가격 수준과 지수",
+      "매매와 임대",
+      "지역·기간"
+    ],
+    "elapsed_ms": 0.013,
+    "llm_calls": 0,
+    "raw_rows_fetched": 0,
+    "runtime": "offline_demo",
+    "policy_version": "0.3.0"
+  }
+}

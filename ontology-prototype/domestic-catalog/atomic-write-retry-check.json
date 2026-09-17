@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-14T14:12:53.684221+00:00",
+  "passed": true,
+  "checks": [
+    "Transient Windows sharing denial retries and atomically replaces after readers release",
+    "Permanent sharing denial raises after six attempts; original JSON survives",
+    "Other PermissionError raises immediately; original JSON survives",
+    "Actual Windows file opened without delete-sharing temporarily blocks replace; write succeeds after the handle is released"
+  ],
+  "retry_delays_seconds": [
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "maximum_wait_seconds": 1.55,
+  "source_incident": "indexer-supervised-20260914T110304.stderr.log WinError 5 on domestic-portals.json; supervisor resumed automatically at 13:47:26 UTC",
+  "real_windows_lock_test": {
+    "observed_winerrors": [
+      5,
+      5,
+      5
+    ],
+    "elapsed_seconds": 0.355,
+    "result": "atomic replacement succeeded with intact JSON"
+  }
+}

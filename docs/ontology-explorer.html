@@ -1,0 +1,1574 @@
+<!doctype html>
+<html lang="ko" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>공공데이터 온톨로지 탐색 v0.3</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer" title="공공데이터 온톨로지 탐색 v0.3" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;ko&quot; data-visualize-standalone&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;공공데이터 온톨로지 탐색 v0.3&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --icon-size: 16px;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --corner-shape: round;
+  --radius: var(--border-radius-lg, 10px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: var(--visualize-paint-gutter, 0px);
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: var(--corner-shape);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget &gt; :not(.card, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin-block: 6px;
+  border: 0;
+  background: var(--border);
+}
+
+.nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress {
+  display: flex;
+  height: 8px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 8px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar:only-child {
+  border-radius: var(--radius-full);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.nav-link,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn,
+.nav-link {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover,
+.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.nav-pills .nav-link {
+  min-width: 0;
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.nav-justified .nav-link {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--foreground);
+  background: var(--muted);
+}
+
+.btn:disabled,
+.nav-link:disabled,
+.nav-link[aria-disabled=&quot;true&quot;] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: var(--corner-shape);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (pointer: coarse) {
+  .btn,
+  .nav-link,
+  .form-control,
+  .form-select {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Keep small-screen WebKit from zooming when a text field receives focus. */
+  .form-control,
+  .form-select {
+    font-size: max(16px, var(--font-size-normal));
+  }
+
+  .form-control[type=&quot;file&quot;]::file-selector-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .form-control-color[type=&quot;color&quot;] {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-control:is(
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;week&quot;]
+  ) {
+    min-width: 0;
+    max-width: 100%;
+    padding-block: 8px;
+  }
+
+  .form-check {
+    min-height: 44px;
+    padding-inline: 15px;
+  }
+
+  .form-check-input {
+    position: relative;
+  }
+
+  .form-check-input::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    content: &quot;&quot;;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-check-label {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .form-range {
+    height: 44px;
+    touch-action: pan-y;
+  }
+
+  .form-range::-webkit-slider-runnable-track {
+    height: 44px;
+  }
+
+  .form-range::-moz-range-track {
+    height: 44px;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    margin-top: 12px;
+  }
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;discovery-kg-v3&quot;&gt;
+  &lt;style&gt;
+    #discovery-kg-v3 { color: var(--foreground); }
+    #discovery-kg-v3 .dg-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    #discovery-kg-v3 .dg-meta { margin: 8px 0 12px; }
+    #discovery-kg-v3 .dg-figure { width: 100%; position: relative; margin: 12px 0 8px; }
+    #discovery-kg-v3 .dg-svg { display: block; width: 100%; touch-action: pan-y; overflow: hidden; }
+    #discovery-kg-v3 .dg-svg text { fill: var(--foreground); }
+    #discovery-kg-v3 .dg-label { paint-order: stroke; stroke: var(--background); stroke-width: 4px; stroke-linejoin: round; }
+    #discovery-kg-v3 .dg-legend { display: flex; align-items: center; gap: 8px 16px; flex-wrap: wrap; margin: 8px 0; }
+    #discovery-kg-v3 .dg-key { display: inline-flex; align-items: center; gap: 6px; }
+    #discovery-kg-v3 .dg-swatch { width: 9px; height: 9px; display: inline-block; border-radius: 50%; background: var(--viz-series-1); }
+    #discovery-kg-v3 .dg-line { display: inline-block; width: 23px; border-top: 1px solid var(--foreground); }
+    #discovery-kg-v3 .dg-dashed { border-top-style: dashed; }
+    #discovery-kg-v3 .dg-detail { margin: 12px 0; overflow-wrap: anywhere; }
+    #discovery-kg-v3 .dg-details { margin: 12px 0; }
+    #discovery-kg-v3 summary { cursor: pointer; }
+    #discovery-kg-v3 td { overflow-wrap: anywhere; }
+    #discovery-kg-v3 .dg-tooltip { position: absolute; pointer-events: none; z-index: 3; padding: 6px 9px; background: var(--popover); color: var(--popover-foreground); max-width: 240px; border-radius: 4px; }
+    #discovery-kg-v3 [hidden] { display: none !important; }
+  &lt;/style&gt;
+  &lt;div class=&quot;dg-heading&quot;&gt;&lt;h3&gt;질문에서 자료로 이어지는 지식그래프&lt;/h3&gt;&lt;span class=&quot;text-small text-muted&quot;&gt;v0.3 · 국내외 전 분야를 수용하는 구조&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;nav nav-pills&quot; role=&quot;tablist&quot; aria-label=&quot;Discovery Platform 보기&quot;&gt;
+    &lt;button id=&quot;dg-question-tab&quot; class=&quot;nav-link active&quot; type=&quot;button&quot; role=&quot;tab&quot; aria-controls=&quot;dg-question-panel&quot; aria-selected=&quot;true&quot;&gt;질문 중심 탐색&lt;/button&gt;
+    &lt;button id=&quot;dg-system-tab&quot; class=&quot;nav-link&quot; type=&quot;button&quot; role=&quot;tab&quot; aria-controls=&quot;dg-system-panel&quot; aria-selected=&quot;false&quot;&gt;서비스·Harness 구조&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;dg-question-panel&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;dg-question-tab&quot;&gt;
+    &lt;div class=&quot;dg-meta text-small text-muted&quot;&gt;기존 국내 조사 122개 + 국제 제공처 2개 · 아래는 자료 6개로 구성한 탐색 예시 · LLM 호출 없음&lt;/div&gt;
+    &lt;div class=&quot;viz-controls&quot;&gt;
+      &lt;label class=&quot;form-label&quot; for=&quot;dg-query&quot;&gt;예시 질문&lt;select class=&quot;form-select&quot; id=&quot;dg-query&quot;&gt;&lt;/select&gt;&lt;/label&gt;
+      &lt;label class=&quot;form-label&quot; for=&quot;dg-node&quot;&gt;선택한 노드&lt;select class=&quot;form-select&quot; id=&quot;dg-node&quot;&gt;&lt;/select&gt;&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;viz-controls&quot;&gt;
+      &lt;label class=&quot;form-label&quot; for=&quot;dg-depth&quot;&gt;개념 탐색 깊이 &lt;span id=&quot;dg-depth-value&quot; class=&quot;tabular-nums&quot;&gt;2&lt;/span&gt;&lt;input class=&quot;form-range&quot; id=&quot;dg-depth&quot; type=&quot;range&quot; min=&quot;1&quot; max=&quot;2&quot; step=&quot;1&quot; value=&quot;2&quot;&gt;&lt;/label&gt;
+      &lt;label class=&quot;form-label&quot; for=&quot;dg-nodes&quot;&gt;노드 상한 &lt;span id=&quot;dg-nodes-value&quot; class=&quot;tabular-nums&quot;&gt;30&lt;/span&gt;&lt;input class=&quot;form-range&quot; id=&quot;dg-nodes&quot; type=&quot;range&quot; min=&quot;5&quot; max=&quot;30&quot; step=&quot;5&quot; value=&quot;30&quot;&gt;&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;dg-usage&quot; class=&quot;dg-meta text-small tabular-nums&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;dg-plot&quot; class=&quot;dg-figure&quot;&gt;&lt;svg id=&quot;dg-svg&quot; class=&quot;dg-svg&quot; role=&quot;img&quot; aria-label=&quot;질문, 개념, 측정 지표, 실제 자료 안내, 제공기관의 관계 그래프&quot;&gt;&lt;/svg&gt;&lt;div class=&quot;dg-tooltip text-small&quot; role=&quot;tooltip&quot; hidden&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;dg-legend text-small&quot;&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-swatch&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;질문&lt;/span&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-swatch&quot; style=&quot;background:var(--viz-series-2)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;개념&lt;/span&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-swatch&quot; style=&quot;background:var(--viz-series-3)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;지표&lt;/span&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-swatch&quot; style=&quot;background:var(--viz-series-4)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;자료&lt;/span&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-swatch&quot; style=&quot;background:var(--viz-series-5)&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;제공기관&lt;/span&gt;
+      &lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-line dg-dashed&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;탐색 가설·대응 후보&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;dg-detail&quot; class=&quot;dg-detail text-small&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+    &lt;details id=&quot;dg-details&quot; class=&quot;dg-details&quot;&gt;&lt;summary class=&quot;text-small&quot;&gt;추천 경로·메타데이터·관계 근거&lt;/summary&gt;&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-sm&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;항목&lt;/th&gt;&lt;th&gt;내용·출처&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody id=&quot;dg-detail-body&quot;&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/details&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;dg-system-panel&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;dg-system-tab&quot; hidden&gt;
+    &lt;div class=&quot;dg-meta text-small text-muted&quot;&gt;운영 서비스 설계 · 현재 구현: 관계 모델과 로컬 탐색 상한&lt;/div&gt;
+    &lt;div id=&quot;dg-system-plot&quot; class=&quot;dg-figure&quot;&gt;&lt;svg id=&quot;dg-system-svg&quot; class=&quot;dg-svg&quot; role=&quot;img&quot; aria-label=&quot;FastAPI와 Harness 안에서 질의 해석, 관계 DB 탐색, 정책 확인, 외부 LLM, 감사와 정리가 연결되는 시스템 설계&quot;&gt;&lt;/svg&gt;&lt;/div&gt;
+    &lt;div class=&quot;dg-legend text-small&quot;&gt;&lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-line&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;처리 흐름&lt;/span&gt;&lt;span class=&quot;dg-key&quot;&gt;&lt;i class=&quot;dg-line dg-dashed&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;선택 호출·자원 제어&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-sm&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;제어 대상&lt;/th&gt;&lt;th&gt;초기 정책&lt;/th&gt;&lt;th&gt;현재 상태&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+      &lt;tr&gt;&lt;td&gt;개념·자료 탐색&lt;/td&gt;&lt;td&gt;깊이 2 · 노드 30 · 관계 40 · 자료 10&lt;/td&gt;&lt;td&gt;로컬 탐색기에 적용&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;탐색 작업량&lt;/td&gt;&lt;td&gt;관계 검사 200 · 1초&lt;/td&gt;&lt;td&gt;로컬 탐색기에 적용&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Agent·LLM&lt;/td&gt;&lt;td&gt;4턴 · LLM 2회 · 도구 8회 · 재시도 1회&lt;/td&gt;&lt;td&gt;정책 정의 · API 미연결&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Context·세션&lt;/td&gt;&lt;td&gt;최근 3턴 · 6,000토큰 · 요청 후 정리&lt;/td&gt;&lt;td&gt;운영 구현 대상&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;임시 디스크&lt;/td&gt;&lt;td&gt;요청 200MB · 전체 400MB · TTL 300초&lt;/td&gt;&lt;td&gt;운영 구현 대상&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;캐시·동시성&lt;/td&gt;&lt;td&gt;선별 캐시 100MB · 동시 실행 2개&lt;/td&gt;&lt;td&gt;운영 구현 대상&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;감사 기록&lt;/td&gt;&lt;td&gt;근거 ID·예산·중단 사유 · 원대화 제외&lt;/td&gt;&lt;td&gt;운영 구현 대상&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script id=&quot;dg-data&quot; type=&quot;application/json&quot;&gt;{&quot;model&quot;:{&quot;version&quot;:&quot;0.3.0&quot;,&quot;nodes&quot;:[{&quot;id&quot;:&quot;q-migration&quot;,&quot;label&quot;:&quot;청년 인구 유출과 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;청년 인구 유출&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-migration&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;]},{&quot;id&quot;:&quot;q-employment&quot;,&quot;label&quot;:&quot;청년 고용과 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;청년 고용&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-employment&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;]},{&quot;id&quot;:&quot;q-housing&quot;,&quot;label&quot;:&quot;주거비와 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;주거비&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-housing&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;]},{&quot;id&quot;:&quot;c-migration&quot;,&quot;label&quot;:&quot;인구이동&quot;,&quot;short&quot;:&quot;인구이동&quot;,&quot;definition&quot;:&quot;지역 간 전입·전출·순이동을 구분한다. 청년 집단의 연령은 질문과 자료 정의를 맞춘다.&quot;,&quot;type&quot;:&quot;concept&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;status&quot;:&quot;curated&quot;},{&quot;id&quot;:&quot;c-employment&quot;,&quot;label&quot;:&quot;고용&quot;,&quot;short&quot;:&quot;고용&quot;,&quot;definition&quot;:&quot;취업과 실업을 구분한다. 실업률의 분모는 노동력, 고용률의 분모는 해당 인구다.&quot;,&quot;type&quot;:&quot;concept&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;status&quot;:&quot;curated&quot;},{&quot;id&quot;:&quot;c-housing&quot;,&quot;label&quot;:&quot;주거&quot;,&quot;short&quot;:&quot;주거&quot;,&quot;definition&quot;:&quot;주택가격·임대료 지수와 실제 계약 금액을 구분한다.&quot;,&quot;type&quot;:&quot;concept&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;status&quot;:&quot;curated&quot;},{&quot;id&quot;:&quot;c-education&quot;,&quot;label&quot;:&quot;교육·노동시장 이행&quot;,&quot;short&quot;:&quot;교육·진로&quot;,&quot;definition&quot;:&quot;졸업 후 이동과 교육·취업 참여 상태는 서로 다른 지표다.&quot;,&quot;type&quot;:&quot;concept&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;status&quot;:&quot;curated&quot;},{&quot;id&quot;:&quot;i-in&quot;,&quot;label&quot;:&quot;전입자수&quot;,&quot;short&quot;:&quot;전입자수&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-migration&quot;,&quot;unit&quot;:&quot;명&quot;,&quot;definition&quot;:&quot;지역·연령·집계 기간의 경계 정의 필요&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-out&quot;,&quot;label&quot;:&quot;전출자수&quot;,&quot;short&quot;:&quot;전출자수&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-migration&quot;,&quot;unit&quot;:&quot;명&quot;,&quot;definition&quot;:&quot;청년 정의와 이동의 범위·중복 산정 기준 확인 필요&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-net&quot;,&quot;label&quot;:&quot;순이동자수&quot;,&quot;short&quot;:&quot;순이동자수&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-migration&quot;,&quot;unit&quot;:&quot;명&quot;,&quot;definition&quot;:&quot;순이동은 전입에서 전출을 뺀 방향을 사용; 순유출과 부호 구분&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-unemployment&quot;,&quot;label&quot;:&quot;청년 실업률&quot;,&quot;short&quot;:&quot;청년 실업률&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-employment&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;definition&quot;:&quot;15~24세 계열과 국내 청년 정의를 자동 일치시키지 않음&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-employment&quot;,&quot;label&quot;:&quot;청년 고용률&quot;,&quot;short&quot;:&quot;청년 고용률&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-employment&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;definition&quot;:&quot;15~24세 인구 대비 취업자 비중; 실업률과 분모가 다름&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-house&quot;,&quot;label&quot;:&quot;주택가격지수&quot;,&quot;short&quot;:&quot;주택가격지수&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-housing&quot;,&quot;unit&quot;:&quot;index&quot;,&quot;definition&quot;:&quot;실질·명목·기준연도·국가별 집계 방법 구분&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-rent&quot;,&quot;label&quot;:&quot;주택 임대료 지수&quot;,&quot;short&quot;:&quot;임대료 지수&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-housing&quot;,&quot;unit&quot;:&quot;index&quot;,&quot;definition&quot;:&quot;원화 월세 금액과 다름; 제공 계열의 실제 코드 확인 필요&quot;,&quot;data_gap&quot;:false,&quot;evidence_ids&quot;:[],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-graduate&quot;,&quot;label&quot;:&quot;대학 졸업 후 지역 이동&quot;,&quot;short&quot;:&quot;졸업 후 이동&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-education&quot;,&quot;unit&quot;:null,&quot;definition&quot;:&quot;출신·졸업·취업 지역과 추적 기간을 포함한 자료가 필요&quot;,&quot;data_gap&quot;:true,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;i-neet&quot;,&quot;label&quot;:&quot;청년 NEET 비율&quot;,&quot;short&quot;:&quot;NEET 비율&quot;,&quot;type&quot;:&quot;indicator&quot;,&quot;concept_id&quot;:&quot;c-education&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;definition&quot;:&quot;교육·취업·훈련 미참여 비율; 졸업 후 지역 이동의 대리변수로 확정하지 않음&quot;,&quot;data_gap&quot;:true,&quot;evidence_ids&quot;:[&quot;oecd-neet-web&quot;],&quot;status&quot;:&quot;curated_definition&quot;},{&quot;id&quot;:&quot;d-kosis-flows&quot;,&quot;label&quot;:&quot;시군구/성/연령(5세)별 이동자수&quot;,&quot;short&quot;:&quot;KOSIS 이동자수&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-mods&quot;,&quot;portal_id&quot;:&quot;kosis&quot;,&quot;source_identifier&quot;:&quot;DT_1B26001&quot;,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;metadata_api_url&quot;:null,&quot;data_api_url&quot;:null,&quot;countries&quot;:[&quot;KR&quot;],&quot;country_scope_status&quot;:&quot;source_scope_observed&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:&quot;monthly&quot;,&quot;spatial_resolution&quot;:&quot;시군구&quot;,&quot;population_definition&quot;:&quot;성·5세 연령구간별; 구간 코드와 청년 선택 범위 미검증&quot;,&quot;unit&quot;:&quot;명 (지표명에 따른 해석; 원본 단위 코드 미검증)&quot;,&quot;schema_summary&quot;:[&quot;시군구&quot;,&quot;성&quot;,&quot;5세 연령구간&quot;,&quot;월&quot;,&quot;이동 관련 측정값&quot;],&quot;schema_status&quot;:&quot;dimensions_from_table_title_not_column_introspection&quot;,&quot;concept_ids&quot;:[&quot;c-migration&quot;],&quot;version&quot;:null,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;metadata_status&quot;:&quot;official_listing_and_id_observed&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;direct_measure_candidate&quot;,&quot;limitations&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;],&quot;catalog_latest_period&quot;:&quot;2026-07&quot;},{&quot;id&quot;:&quot;d-kosis-net&quot;,&quot;label&quot;:&quot;시군구/성/연령(5세)별 순이동자수&quot;,&quot;short&quot;:&quot;KOSIS 순이동&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-mods&quot;,&quot;portal_id&quot;:&quot;kosis&quot;,&quot;source_identifier&quot;:&quot;DT_1B26002&quot;,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;metadata_api_url&quot;:null,&quot;data_api_url&quot;:null,&quot;countries&quot;:[&quot;KR&quot;],&quot;country_scope_status&quot;:&quot;source_scope_observed&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:&quot;monthly&quot;,&quot;spatial_resolution&quot;:&quot;시군구&quot;,&quot;population_definition&quot;:&quot;성·5세 연령구간별; 구간 코드와 청년 선택 범위 미검증&quot;,&quot;unit&quot;:&quot;명 (지표명에 따른 해석; 원본 단위 코드 미검증)&quot;,&quot;schema_summary&quot;:[&quot;시군구&quot;,&quot;성&quot;,&quot;5세 연령구간&quot;,&quot;월&quot;,&quot;이동 관련 측정값&quot;],&quot;schema_status&quot;:&quot;dimensions_from_table_title_not_column_introspection&quot;,&quot;concept_ids&quot;:[&quot;c-migration&quot;],&quot;version&quot;:null,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;metadata_status&quot;:&quot;official_listing_and_id_observed&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;direct_measure_candidate&quot;,&quot;limitations&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;],&quot;catalog_latest_period&quot;:&quot;2026-07&quot;},{&quot;id&quot;:&quot;d-wb-unemployment&quot;,&quot;label&quot;:&quot;Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)&quot;,&quot;short&quot;:&quot;WB 청년 실업률&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-wb&quot;,&quot;portal_id&quot;:&quot;worldbank&quot;,&quot;source_identifier&quot;:&quot;SL.UEM.1524.ZS&quot;,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;metadata_api_url&quot;:&quot;https://api.worldbank.org/v2/indicator/SL.UEM.1524.ZS?format=json&quot;,&quot;data_api_url&quot;:null,&quot;countries&quot;:null,&quot;country_scope_status&quot;:&quot;not_enumerated&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:null,&quot;spatial_resolution&quot;:&quot;국가·경제권&quot;,&quot;population_definition&quot;:&quot;15~24세; ILO 모형 추정 계열&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;schema_summary&quot;:[&quot;지표 ID&quot;,&quot;정의&quot;,&quot;원출처&quot;,&quot;주제&quot;],&quot;schema_status&quot;:&quot;indicator_metadata_response_verified_not_observation_schema&quot;,&quot;concept_ids&quot;:[&quot;c-employment&quot;],&quot;version&quot;:null,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;wb-unemployment&quot;],&quot;metadata_status&quot;:&quot;metadata_api_verified&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;context_candidate&quot;,&quot;limitations&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;],&quot;source_organization_raw&quot;:&quot;ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026&quot;,&quot;unit_raw&quot;:&quot;&quot;},{&quot;id&quot;:&quot;d-wb-employment&quot;,&quot;label&quot;:&quot;Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)&quot;,&quot;short&quot;:&quot;WB 청년 고용률&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-wb&quot;,&quot;portal_id&quot;:&quot;worldbank&quot;,&quot;source_identifier&quot;:&quot;SL.EMP.1524.SP.ZS&quot;,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;metadata_api_url&quot;:&quot;https://api.worldbank.org/v2/indicator/SL.EMP.1524.SP.ZS?format=json&quot;,&quot;data_api_url&quot;:null,&quot;countries&quot;:null,&quot;country_scope_status&quot;:&quot;not_enumerated&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:null,&quot;spatial_resolution&quot;:&quot;국가·경제권&quot;,&quot;population_definition&quot;:&quot;15~24세; ILO 모형 추정 계열&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;schema_summary&quot;:[&quot;지표 ID&quot;,&quot;정의&quot;,&quot;원출처&quot;,&quot;주제&quot;],&quot;schema_status&quot;:&quot;indicator_metadata_response_verified_not_observation_schema&quot;,&quot;concept_ids&quot;:[&quot;c-employment&quot;],&quot;version&quot;:null,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;wb-employment&quot;],&quot;metadata_status&quot;:&quot;metadata_api_verified&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;context_candidate&quot;,&quot;limitations&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;],&quot;source_organization_raw&quot;:&quot;ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026&quot;,&quot;unit_raw&quot;:&quot;&quot;},{&quot;id&quot;:&quot;d-oecd-unemployment&quot;,&quot;label&quot;:&quot;Monthly unemployment rates&quot;,&quot;short&quot;:&quot;OECD 실업 통계&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-oecd&quot;,&quot;portal_id&quot;:&quot;oecd&quot;,&quot;source_identifier&quot;:&quot;DSD_LFS@DF_IALFS_UNE_M&quot;,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;metadata_api_url&quot;:null,&quot;data_api_url&quot;:null,&quot;countries&quot;:null,&quot;country_scope_status&quot;:&quot;not_enumerated&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:&quot;monthly&quot;,&quot;spatial_resolution&quot;:&quot;국가·지역 계열별 확인 필요&quot;,&quot;population_definition&quot;:&quot;청년 계열 선택 필요; 기본 링크는 15세 이상&quot;,&quot;unit&quot;:&quot;%&quot;,&quot;schema_summary&quot;:[&quot;국가·지역&quot;,&quot;시점&quot;,&quot;선택 지표&quot;,&quot;연령·성 또는 가격 계열; 코드 미검증&quot;],&quot;schema_status&quot;:&quot;definition_and_link_summary_only&quot;,&quot;concept_ids&quot;:[&quot;c-employment&quot;],&quot;version&quot;:&quot;1.0&quot;,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;],&quot;metadata_status&quot;:&quot;source_dataset_referral_observed&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;context_candidate&quot;,&quot;limitations&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;id&quot;:&quot;d-oecd-housing&quot;,&quot;label&quot;:&quot;Analytical house price indicators&quot;,&quot;short&quot;:&quot;OECD 주택가격&quot;,&quot;type&quot;:&quot;dataset&quot;,&quot;provider_id&quot;:&quot;provider-oecd&quot;,&quot;portal_id&quot;:&quot;oecd&quot;,&quot;source_identifier&quot;:&quot;DSD_AN_HOUSE_PRICES@DF_HOUSE_PRICES&quot;,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;metadata_api_url&quot;:null,&quot;data_api_url&quot;:null,&quot;countries&quot;:null,&quot;country_scope_status&quot;:&quot;not_enumerated&quot;,&quot;temporal_coverage&quot;:{&quot;start&quot;:null,&quot;end&quot;:null},&quot;temporal_resolution&quot;:null,&quot;spatial_resolution&quot;:&quot;국가·지역 계열별 확인 필요&quot;,&quot;population_definition&quot;:&quot;주택 가격 집계; 청년 전용 자료 아님&quot;,&quot;unit&quot;:&quot;index; 계열별 기준연도 확인 필요&quot;,&quot;schema_summary&quot;:[&quot;국가·지역&quot;,&quot;시점&quot;,&quot;선택 지표&quot;,&quot;연령·성 또는 가격 계열; 코드 미검증&quot;],&quot;schema_status&quot;:&quot;definition_and_link_summary_only&quot;,&quot;concept_ids&quot;:[&quot;c-housing&quot;],&quot;version&quot;:&quot;1.0&quot;,&quot;license_raw&quot;:null,&quot;license_decision&quot;:&quot;not_reviewed&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;],&quot;metadata_status&quot;:&quot;source_dataset_referral_observed&quot;,&quot;data_api_tested&quot;:false,&quot;raw_rows_stored&quot;:0,&quot;join_status&quot;:&quot;not_verified&quot;,&quot;discovery_use&quot;:&quot;context_candidate&quot;,&quot;limitations&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;id&quot;:&quot;provider-mods&quot;,&quot;label&quot;:&quot;국가데이터처&quot;,&quot;short&quot;:&quot;국가데이터처&quot;,&quot;type&quot;:&quot;provider&quot;,&quot;url&quot;:&quot;https://kosis.kr/&quot;,&quot;country_of_data&quot;:[&quot;KR&quot;],&quot;role&quot;:&quot;KOSIS 목록에 명시된 자료 제공기관&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;]},{&quot;id&quot;:&quot;provider-oecd&quot;,&quot;label&quot;:&quot;OECD&quot;,&quot;short&quot;:&quot;OECD&quot;,&quot;type&quot;:&quot;provider&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data.html&quot;,&quot;country_of_data&quot;:null,&quot;role&quot;:&quot;국제 비교 데이터 제공기관; 국가별 계열 범위 추가 확인&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;oecd-housing-web&quot;]},{&quot;id&quot;:&quot;provider-wb&quot;,&quot;label&quot;:&quot;World Bank&quot;,&quot;short&quot;:&quot;World Bank&quot;,&quot;type&quot;:&quot;provider&quot;,&quot;url&quot;:&quot;https://data.worldbank.org/&quot;,&quot;country_of_data&quot;:null,&quot;role&quot;:&quot;WDI 제공기관; 해당 노동지표의 원출처는 ILO&quot;,&quot;evidence_ids&quot;:[&quot;wb-unemployment&quot;,&quot;wb-employment&quot;]}],&quot;relations&quot;:[{&quot;id&quot;:&quot;r-7c054165458d&quot;,&quot;source&quot;:&quot;q-migration&quot;,&quot;predicate&quot;:&quot;interpretedAs&quot;,&quot;target&quot;:&quot;c-migration&quot;,&quot;label&quot;:&quot;질문에서 해석&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:0,&quot;role&quot;:&quot;query_interpretation&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-6e18da008003&quot;,&quot;source&quot;:&quot;q-employment&quot;,&quot;predicate&quot;:&quot;interpretedAs&quot;,&quot;target&quot;:&quot;c-employment&quot;,&quot;label&quot;:&quot;질문에서 해석&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:0,&quot;role&quot;:&quot;query_interpretation&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-14f0a12d1fd3&quot;,&quot;source&quot;:&quot;q-housing&quot;,&quot;predicate&quot;:&quot;interpretedAs&quot;,&quot;target&quot;:&quot;c-housing&quot;,&quot;label&quot;:&quot;질문에서 해석&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:0,&quot;role&quot;:&quot;query_interpretation&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-ec83f4db154f&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;explorationHypothesis&quot;,&quot;target&quot;:&quot;c-employment&quot;,&quot;label&quot;:&quot;함께 탐색할 가설&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:20,&quot;role&quot;:&quot;context_hypothesis&quot;,&quot;note&quot;:&quot;통계적 상관·인과관계를 검증한 연결이 아님&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-7d5a01a773ed&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;explorationHypothesis&quot;,&quot;target&quot;:&quot;c-housing&quot;,&quot;label&quot;:&quot;함께 탐색할 가설&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:20,&quot;role&quot;:&quot;context_hypothesis&quot;,&quot;note&quot;:&quot;통계적 상관·인과관계를 검증한 연결이 아님&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-f6292fc89b0e&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;explorationHypothesis&quot;,&quot;target&quot;:&quot;c-education&quot;,&quot;label&quot;:&quot;함께 탐색할 가설&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:20,&quot;role&quot;:&quot;context_hypothesis&quot;,&quot;note&quot;:&quot;통계적 상관·인과관계를 검증한 연결이 아님&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-01721876a9a8&quot;,&quot;source&quot;:&quot;c-employment&quot;,&quot;predicate&quot;:&quot;explorationHypothesis&quot;,&quot;target&quot;:&quot;c-education&quot;,&quot;label&quot;:&quot;교육·취업 이행 탐색&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:25,&quot;role&quot;:&quot;context_hypothesis&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-7d4da1c5592e&quot;,&quot;source&quot;:&quot;c-education&quot;,&quot;predicate&quot;:&quot;explorationHypothesis&quot;,&quot;target&quot;:&quot;c-employment&quot;,&quot;label&quot;:&quot;고용 지표 함께 탐색&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:1,&quot;priority&quot;:25,&quot;role&quot;:&quot;context_hypothesis&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-fdc5c86c04c3&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-in&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;지역·연령·집계 기간의 경계 정의 필요&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-2a6e492fd0b4&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-out&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;청년 정의와 이동의 범위·중복 산정 기준 확인 필요&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-7410a73ab7c8&quot;,&quot;source&quot;:&quot;c-migration&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-net&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;순이동은 전입에서 전출을 뺀 방향을 사용; 순유출과 부호 구분&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-6b09a8a44367&quot;,&quot;source&quot;:&quot;c-employment&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-unemployment&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;15~24세 계열과 국내 청년 정의를 자동 일치시키지 않음&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-8ee0a49ed72c&quot;,&quot;source&quot;:&quot;c-employment&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-employment&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;15~24세 인구 대비 취업자 비중; 실업률과 분모가 다름&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-3cbbc988fa60&quot;,&quot;source&quot;:&quot;c-housing&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-house&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;실질·명목·기준연도·국가별 집계 방법 구분&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-98bd39dcd151&quot;,&quot;source&quot;:&quot;c-housing&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-rent&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;원화 월세 금액과 다름; 제공 계열의 실제 코드 확인 필요&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-ad4c905f9efe&quot;,&quot;source&quot;:&quot;c-education&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-graduate&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;출신·졸업·취업 지역과 추적 기간을 포함한 자료가 필요&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-62a2741c3e3b&quot;,&quot;source&quot;:&quot;c-education&quot;,&quot;predicate&quot;:&quot;hasIndicator&quot;,&quot;target&quot;:&quot;i-neet&quot;,&quot;label&quot;:&quot;측정할 지표&quot;,&quot;status&quot;:&quot;curated&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;indicator_definition&quot;,&quot;note&quot;:&quot;교육·취업·훈련 미참여 비율; 졸업 후 지역 이동의 대리변수로 확정하지 않음&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-442b5ce5e8f0&quot;,&quot;source&quot;:&quot;i-in&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-kosis-flows&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-d4546e8dce56&quot;,&quot;source&quot;:&quot;i-out&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-kosis-flows&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-393db8c3cac1&quot;,&quot;source&quot;:&quot;i-net&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-kosis-net&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-bff6a37d9e3b&quot;,&quot;source&quot;:&quot;i-unemployment&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-wb-unemployment&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;wb-unemployment&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-c6da93d847f8&quot;,&quot;source&quot;:&quot;i-unemployment&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-oecd-unemployment&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-f6448e7d3459&quot;,&quot;source&quot;:&quot;i-employment&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-wb-employment&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;wb-employment&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-8ccbfb4143bc&quot;,&quot;source&quot;:&quot;i-house&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-oecd-housing&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-77d3d2b11c2c&quot;,&quot;source&quot;:&quot;i-rent&quot;,&quot;predicate&quot;:&quot;availableFrom&quot;,&quot;target&quot;:&quot;d-oecd-housing&quot;,&quot;label&quot;:&quot;관련 자료 안내&quot;,&quot;status&quot;:&quot;candidate&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:8,&quot;role&quot;:&quot;metadata_mapping&quot;,&quot;note&quot;:&quot;자료 설명·목록 수준의 대응. 필요한 하위계열 선택과 결합은 별도 검증.&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-3ebfaa92f163&quot;,&quot;source&quot;:&quot;d-kosis-flows&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-mods&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-d23d04edcb72&quot;,&quot;source&quot;:&quot;d-kosis-net&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-mods&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-469a8194a2f2&quot;,&quot;source&quot;:&quot;d-wb-unemployment&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-wb&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;wb-unemployment&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-214581da5a9e&quot;,&quot;source&quot;:&quot;d-wb-employment&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-wb&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;wb-employment&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-eb66a6bad6a2&quot;,&quot;source&quot;:&quot;d-oecd-unemployment&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-oecd&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false},{&quot;id&quot;:&quot;r-d531e88be642&quot;,&quot;source&quot;:&quot;d-oecd-housing&quot;,&quot;predicate&quot;:&quot;providedBy&quot;,&quot;target&quot;:&quot;provider-oecd&quot;,&quot;label&quot;:&quot;제공기관&quot;,&quot;status&quot;:&quot;documented&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;],&quot;semantic_cost&quot;:0,&quot;priority&quot;:5,&quot;role&quot;:&quot;source_provenance&quot;,&quot;note&quot;:&quot;&quot;,&quot;correlation_coefficient&quot;:null,&quot;causal_claim&quot;:false}],&quot;queries&quot;:[{&quot;id&quot;:&quot;q-migration&quot;,&quot;label&quot;:&quot;청년 인구 유출과 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;청년 인구 유출&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-migration&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;]},{&quot;id&quot;:&quot;q-employment&quot;,&quot;label&quot;:&quot;청년 고용과 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;청년 고용&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-employment&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;]},{&quot;id&quot;:&quot;q-housing&quot;,&quot;label&quot;:&quot;주거비와 관련된 데이터를 찾아줘&quot;,&quot;short&quot;:&quot;주거비&quot;,&quot;type&quot;:&quot;query&quot;,&quot;seed_concept&quot;:&quot;c-housing&quot;,&quot;country&quot;:null,&quot;age_range&quot;:null,&quot;period&quot;:null,&quot;interpretation_status&quot;:&quot;curated_demo_not_live_llm&quot;,&quot;ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;]}],&quot;source_evidence&quot;:[{&quot;id&quot;:&quot;kosis-migration&quot;,&quot;url&quot;:&quot;https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=1976003\u0026boardOrgId=101&quot;,&quot;status&quot;:&quot;page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.177153+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;10b79622cb3f16565834eacb2cb3dc12a1797aedefbf3df9cfc0501c2d8fb614&quot;},{&quot;id&quot;:&quot;oecd-unemployment&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html&quot;,&quot;status&quot;:&quot;unresolved&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.177797+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:null},{&quot;id&quot;:&quot;oecd-housing&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/housing-prices.html&quot;,&quot;status&quot;:&quot;unresolved&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.179666+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:null},{&quot;id&quot;:&quot;oecd-neet&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/youth-not-in-employment-education-or-training-neet.html&quot;,&quot;status&quot;:&quot;unresolved&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.326477+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:null},{&quot;id&quot;:&quot;wb-unemployment&quot;,&quot;url&quot;:&quot;https://api.worldbank.org/v2/indicator/SL.UEM.1524.ZS?format=json&quot;,&quot;status&quot;:&quot;metadata_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.327448+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;591afae475788a26e1c53db79754212fcdea0489065f49cb963ad23478ac5804&quot;},{&quot;id&quot;:&quot;wb-employment&quot;,&quot;url&quot;:&quot;https://api.worldbank.org/v2/indicator/SL.EMP.1524.SP.ZS?format=json&quot;,&quot;status&quot;:&quot;metadata_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.360225+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;d757dab125d32aeecbf827eb1315abd145e3326324f21eec3de2f71f0965f828&quot;},{&quot;id&quot;:&quot;openai-models&quot;,&quot;url&quot;:&quot;https://developers.openai.com/api/docs/models&quot;,&quot;status&quot;:&quot;page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.412800+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;d38712419748f36e52fedaca6729c8d7c360e26d3370d9e614412caa071e312a&quot;},{&quot;id&quot;:&quot;openai-retention&quot;,&quot;url&quot;:&quot;https://developers.openai.com/api/docs/guides/your-data&quot;,&quot;status&quot;:&quot;page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.669396+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;c1e2e904b9364dceea604d4de476fc878d17ba0aceb221a4f8c21266de61f52e&quot;},{&quot;id&quot;:&quot;aws-fargate&quot;,&quot;url&quot;:&quot;https://aws.amazon.com/fargate/pricing/&quot;,&quot;status&quot;:&quot;page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.797468+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;2a5218aa2483474b3d56b90d9507445959087ceb3800fba2aa255d624ad07c27&quot;},{&quot;id&quot;:&quot;aws-rds&quot;,&quot;url&quot;:&quot;https://aws.amazon.com/rds/pricing/&quot;,&quot;status&quot;:&quot;page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12T10:27:42.798138+00:00&quot;,&quot;snapshot&quot;:&quot;source-observations.json&quot;,&quot;sha256&quot;:&quot;0615d9d6c6d14dba702013f070629fe6505633100b95da37474b4c51dbbb33e8&quot;},{&quot;id&quot;:&quot;user-requirements&quot;,&quot;url&quot;:null,&quot;status&quot;:&quot;user_supplied_design&quot;,&quot;checked_at&quot;:null,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;요청 반영을 위한 프로젝트 명세. 외부 자료의 존재·통계적 상관·운영 환경 설정의 증거로 사용하지 않음.&quot;,&quot;sha256&quot;:&quot;4958e112fa4cc07862f412848c64bde51cd169ac1aef5e51d8a7e9095e95eb50&quot;},{&quot;id&quot;:&quot;oecd-unemployment-web&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/youth-unemployment-rate.html&quot;,&quot;status&quot;:&quot;indicator_definition_and_dataset_referral_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12&quot;,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;15~24세 실업 인구를 같은 연령 노동력 대비 비율로 표현. 원본으로 Monthly unemployment rates를 안내.&quot;},{&quot;id&quot;:&quot;oecd-housing-web&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/housing-prices.html&quot;,&quot;status&quot;:&quot;indicator_definition_and_dataset_referral_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12&quot;,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;주택가격·주택 임대료의 지수와 가격 대비 소득·임대료 비율을 설명하고 Analytical house price indicators를 안내.&quot;},{&quot;id&quot;:&quot;oecd-neet-web&quot;,&quot;url&quot;:&quot;https://www.oecd.org/en/data/indicators/youth-not-in-employment-education-or-training-neet.html&quot;,&quot;status&quot;:&quot;definition_observed_dataset_mapping_unresolved&quot;,&quot;checked_at&quot;:&quot;2026-09-12&quot;,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;선택한 연령집단 중 취업·정규교육·훈련에 참여하지 않는 비중. 대학 졸업 후 지역 이동을 직접 측정하지 않음.&quot;},{&quot;id&quot;:&quot;wb-unemployment-page&quot;,&quot;url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;status&quot;:&quot;indicator_page_observed&quot;,&quot;checked_at&quot;:&quot;2026-09-12&quot;,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;청년 실업률의 ILO 모형 추정 계열. 페이지 표시 기간 1991~2025, 출처 ILO, CC BY-4.0 표기. 국가별 관측 범위는 미검증.&quot;},{&quot;id&quot;:&quot;kosis-table-access&quot;,&quot;url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;status&quot;:&quot;detail_access_unresolved&quot;,&quot;checked_at&quot;:&quot;2026-09-12&quot;,&quot;snapshot&quot;:&quot;source-reviews.json&quot;,&quot;summary&quot;:&quot;통계표 직접 조회의 SSO 이동을 완료하지 못함. 자료의 제목·ID는 공식 최근수록자료 페이지에서 확인했으며 전체 표·단위·코드·기간·API는 미검증.&quot;}]},&quot;previews&quot;:{&quot;q-migration|1|5&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:4,&quot;datasets&quot;:0,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-migration|1|10&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;],&quot;counts&quot;:{&quot;nodes&quot;:8,&quot;edges&quot;:9,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:12},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|1|15&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;],&quot;counts&quot;:{&quot;nodes&quot;:8,&quot;edges&quot;:9,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:12},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|1|20&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;],&quot;counts&quot;:{&quot;nodes&quot;:8,&quot;edges&quot;:9,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:12},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|1|25&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;],&quot;counts&quot;:{&quot;nodes&quot;:8,&quot;edges&quot;:9,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:12},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|1|30&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;],&quot;counts&quot;:{&quot;nodes&quot;:8,&quot;edges&quot;:9,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:12},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|2|5&quot;:{&quot;node_ids&quot;:[&quot;c-migration&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:4,&quot;datasets&quot;:0,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_nodes&quot;]},&quot;q-migration|2|10&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;c-housing&quot;,&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-in&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-f6292fc89b0e&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;],&quot;counts&quot;:{&quot;nodes&quot;:10,&quot;edges&quot;:10,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:20},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-migration|2|15&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;c-housing&quot;,&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;i-employment&quot;,&quot;i-house&quot;,&quot;i-in&quot;,&quot;i-neet&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;i-rent&quot;,&quot;i-unemployment&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-f6292fc89b0e&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-62a2741c3e3b&quot;],&quot;counts&quot;:{&quot;nodes&quot;:15,&quot;edges&quot;:15,&quot;datasets&quot;:2,&quot;scanned_edges&quot;:25},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-migration|2|20&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;c-housing&quot;,&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;d-oecd-housing&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-house&quot;,&quot;i-in&quot;,&quot;i-neet&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;i-rent&quot;,&quot;i-unemployment&quot;,&quot;provider-mods&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-f6292fc89b0e&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;],&quot;counts&quot;:{&quot;nodes&quot;:20,&quot;edges&quot;:22,&quot;datasets&quot;:5,&quot;scanned_edges&quot;:28},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-migration|2|25&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;c-housing&quot;,&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;d-oecd-housing&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-house&quot;,&quot;i-in&quot;,&quot;i-neet&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;i-rent&quot;,&quot;i-unemployment&quot;,&quot;provider-mods&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-f6292fc89b0e&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-d531e88be642&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:23,&quot;edges&quot;:27,&quot;datasets&quot;:6,&quot;scanned_edges&quot;:29},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-migration|2|30&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;c-housing&quot;,&quot;c-migration&quot;,&quot;d-kosis-flows&quot;,&quot;d-kosis-net&quot;,&quot;d-oecd-housing&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-house&quot;,&quot;i-in&quot;,&quot;i-neet&quot;,&quot;i-net&quot;,&quot;i-out&quot;,&quot;i-rent&quot;,&quot;i-unemployment&quot;,&quot;provider-mods&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-migration&quot;],&quot;relation_ids&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-fdc5c86c04c3&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-f6292fc89b0e&quot;,&quot;r-d4546e8dce56&quot;,&quot;r-393db8c3cac1&quot;,&quot;r-442b5ce5e8f0&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-3ebfaa92f163&quot;,&quot;r-d23d04edcb72&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-d531e88be642&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:23,&quot;edges&quot;:27,&quot;datasets&quot;:6,&quot;scanned_edges&quot;:29},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-kosis-flows&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-2a6e492fd0b4&quot;,&quot;r-d4546e8dce56&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26001&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-kosis-net&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7410a73ab7c8&quot;,&quot;r-393db8c3cac1&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://kosis.kr/statHtml/statHtml.do?orgId=101\u0026tblId=DT_1B26002&quot;,&quot;evidence_ids&quot;:[&quot;kosis-migration&quot;,&quot;kosis-table-access&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;원본 통계표 직접 조회·전체 기간·코드·단위 미검증&quot;,&quot;연령구간과 행정구역 버전을 확인해야 결합 가능&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-7d5a01a773ed&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-7c054165458d&quot;,&quot;r-ec83f4db154f&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;hypothesis_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;대상 지역&quot;,&quot;관측 기간&quot;,&quot;전출과 순유출의 구별&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|1|5&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:4,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:8},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-employment|1|10&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:9,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|1|15&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:9,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|1|20&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:9,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|1|25&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:9,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|1|30&quot;:{&quot;node_ids&quot;:[&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:9,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|2|5&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;i-employment&quot;,&quot;i-unemployment&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:4,&quot;datasets&quot;:0,&quot;scanned_edges&quot;:10},&quot;recommendations&quot;:[],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-employment|2|10&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-neet&quot;,&quot;i-unemployment&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;],&quot;counts&quot;:{&quot;nodes&quot;:10,&quot;edges&quot;:9,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:13},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;,&quot;max_nodes&quot;]},&quot;q-employment|2|15&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-neet&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:12,&quot;edges&quot;:12,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:13},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|2|20&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-neet&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:12,&quot;edges&quot;:12,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:13},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|2|25&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-neet&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:12,&quot;edges&quot;:12,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:13},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-employment|2|30&quot;:{&quot;node_ids&quot;:[&quot;c-education&quot;,&quot;c-employment&quot;,&quot;d-oecd-unemployment&quot;,&quot;d-wb-employment&quot;,&quot;d-wb-unemployment&quot;,&quot;i-employment&quot;,&quot;i-graduate&quot;,&quot;i-neet&quot;,&quot;i-unemployment&quot;,&quot;provider-oecd&quot;,&quot;provider-wb&quot;,&quot;q-employment&quot;],&quot;relation_ids&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-01721876a9a8&quot;,&quot;r-bff6a37d9e3b&quot;,&quot;r-c6da93d847f8&quot;,&quot;r-f6448e7d3459&quot;,&quot;r-62a2741c3e3b&quot;,&quot;r-ad4c905f9efe&quot;,&quot;r-469a8194a2f2&quot;,&quot;r-eb66a6bad6a2&quot;,&quot;r-214581da5a9e&quot;],&quot;counts&quot;:{&quot;nodes&quot;:12,&quot;edges&quot;:12,&quot;datasets&quot;:3,&quot;scanned_edges&quot;:13},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-c6da93d847f8&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:true,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.SDD.TPS\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_LFS%40DF_IALFS_UNE_M\u0026df%5Bvs%5D=1.0\u0026dq=..._Z.Y._T.Y_GE15..M\u0026lo=13\u0026lom=LASTNPERIODS\u0026ly%5Bcl%5D=TIME_PERIOD\u0026ly%5Brw%5D=REF_AREA\u0026pd=%2C\u0026to%5BTIME_PERIOD%5D=false\u0026vw=ov&quot;,&quot;evidence_ids&quot;:[&quot;oecd-unemployment-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;대상은 JavaScript 화면만 확인. 링크의 기본 연령 필터 Y_GE15는 청년 15~24세 조건과 같지 않으므로 청년 하위계열 선택을 별도 검증해야 함.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-employment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-8ee0a49ed72c&quot;,&quot;r-f6448e7d3459&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.EMP.1524.SP.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-employment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]},{&quot;dataset_id&quot;:&quot;d-wb-unemployment&quot;,&quot;path&quot;:[&quot;r-6e18da008003&quot;,&quot;r-6b09a8a44367&quot;,&quot;r-bff6a37d9e3b&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data.worldbank.org/indicator/SL.UEM.1524.ZS&quot;,&quot;evidence_ids&quot;:[&quot;user-requirements&quot;,&quot;wb-unemployment&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;국가별 제공 기간·빈도·관측값 응답 구조 미검증&quot;,&quot;국내 시군구 이동 통계와 직접 결합할 수 없음&quot;,&quot;국가 추정치·연령 정의·집계 방법의 차이를 확인해야 함&quot;]}],&quot;query_ambiguities&quot;:[&quot;청년 연령&quot;,&quot;비교 국가·지역&quot;,&quot;관측 기간&quot;],&quot;unresolved_indicators&quot;:[&quot;i-graduate&quot;,&quot;i-neet&quot;],&quot;budget_stop_reasons&quot;:[&quot;max_depth&quot;]},&quot;q-housing|1|5&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:5,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_nodes&quot;]},&quot;q-housing|1|10&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|1|15&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|1|20&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|1|25&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|1|30&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|2|5&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;],&quot;counts&quot;:{&quot;nodes&quot;:5,&quot;edges&quot;:5,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[&quot;max_nodes&quot;]},&quot;q-housing|2|10&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|2|15&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|2|20&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|2|25&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]},&quot;q-housing|2|30&quot;:{&quot;node_ids&quot;:[&quot;c-housing&quot;,&quot;d-oecd-housing&quot;,&quot;i-house&quot;,&quot;i-rent&quot;,&quot;provider-oecd&quot;,&quot;q-housing&quot;],&quot;relation_ids&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-98bd39dcd151&quot;,&quot;r-8ccbfb4143bc&quot;,&quot;r-77d3d2b11c2c&quot;,&quot;r-d531e88be642&quot;],&quot;counts&quot;:{&quot;nodes&quot;:6,&quot;edges&quot;:6,&quot;datasets&quot;:1,&quot;scanned_edges&quot;:6},&quot;recommendations&quot;:[{&quot;dataset_id&quot;:&quot;d-oecd-housing&quot;,&quot;path&quot;:[&quot;r-14f0a12d1fd3&quot;,&quot;r-3cbbc988fa60&quot;,&quot;r-8ccbfb4143bc&quot;],&quot;reason_kind&quot;:&quot;direct_measure_path&quot;,&quot;mapping_has_candidate&quot;:false,&quot;source_url&quot;:&quot;https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ECO.MPD\u0026df%5Bds%5D=dsDisseminateFinalDMZ\u0026df%5Bid%5D=DSD_AN_HOUSE_PRICES%40DF_HOUSE_PRICES\u0026df%5Bvs%5D=1.0\u0026dq=.Q.RHP.\u0026lc=en\u0026pd=%2C\u0026pg=0\u0026snb=1\u0026tm=DF_HOUSE_PRICES\u0026to%5BTIME_PERIOD%5D=false\u0026vw=tb&quot;,&quot;evidence_ids&quot;:[&quot;oecd-housing-web&quot;,&quot;user-requirements&quot;],&quot;join_allowed&quot;:false,&quot;policy_decision&quot;:&quot;discovery_only&quot;,&quot;unresolved_conditions&quot;:[&quot;기본 링크는 실질 주택가격 RHP 선택. 임대료 지수 계열의 제공 위치·코드·기간은 추가 검증. 특정 도시의 원화 월세 금액 자료가 아님.&quot;,&quot;원본 관측값·국가별 범위·결합 조건 미검증&quot;]}],&quot;query_ambiguities&quot;:[&quot;가격 수준과 지수&quot;,&quot;매매와 임대&quot;,&quot;지역·기간&quot;],&quot;unresolved_indicators&quot;:[],&quot;budget_stop_reasons&quot;:[]}},&quot;system&quot;:{&quot;nodes&quot;:[{&quot;id&quot;:&quot;user&quot;,&quot;label&quot;:&quot;사용자 질문&quot;,&quot;x&quot;:0.5,&quot;y&quot;:0,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;api&quot;,&quot;label&quot;:&quot;FastAPI&quot;,&quot;x&quot;:0.5,&quot;y&quot;:0.13,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;harness&quot;,&quot;label&quot;:&quot;Harness · 예산 예약&quot;,&quot;x&quot;:0.5,&quot;y&quot;:0.27,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;interpret&quot;,&quot;label&quot;:&quot;질의 해석&quot;,&quot;x&quot;:0.22,&quot;y&quot;:0.43,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;llm&quot;,&quot;label&quot;:&quot;외부 Luna / Sol&quot;,&quot;x&quot;:0.82,&quot;y&quot;:0.43,&quot;kind&quot;:&quot;external&quot;},{&quot;id&quot;:&quot;graph&quot;,&quot;label&quot;:&quot;개념·관계 DB&quot;,&quot;x&quot;:0.22,&quot;y&quot;:0.61,&quot;kind&quot;:&quot;storage&quot;},{&quot;id&quot;:&quot;metadata&quot;,&quot;label&quot;:&quot;메타데이터 DB&quot;,&quot;x&quot;:0.78,&quot;y&quot;:0.61,&quot;kind&quot;:&quot;storage&quot;},{&quot;id&quot;:&quot;check&quot;,&quot;label&quot;:&quot;출처·조건·예산 검사&quot;,&quot;x&quot;:0.5,&quot;y&quot;:0.78,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;result&quot;,&quot;label&quot;:&quot;자료·이유·URL&quot;,&quot;x&quot;:0.18,&quot;y&quot;:0.97,&quot;kind&quot;:&quot;component&quot;},{&quot;id&quot;:&quot;audit&quot;,&quot;label&quot;:&quot;감사·요청 상태 정리&quot;,&quot;x&quot;:0.82,&quot;y&quot;:0.97,&quot;kind&quot;:&quot;storage&quot;}],&quot;edges&quot;:[{&quot;source&quot;:&quot;user&quot;,&quot;target&quot;:&quot;api&quot;},{&quot;source&quot;:&quot;api&quot;,&quot;target&quot;:&quot;harness&quot;},{&quot;source&quot;:&quot;harness&quot;,&quot;target&quot;:&quot;interpret&quot;},{&quot;source&quot;:&quot;interpret&quot;,&quot;target&quot;:&quot;llm&quot;,&quot;optional&quot;:true},{&quot;source&quot;:&quot;harness&quot;,&quot;target&quot;:&quot;llm&quot;,&quot;optional&quot;:true},{&quot;source&quot;:&quot;harness&quot;,&quot;target&quot;:&quot;metadata&quot;,&quot;optional&quot;:true},{&quot;source&quot;:&quot;interpret&quot;,&quot;target&quot;:&quot;graph&quot;},{&quot;source&quot;:&quot;graph&quot;,&quot;target&quot;:&quot;metadata&quot;},{&quot;source&quot;:&quot;metadata&quot;,&quot;target&quot;:&quot;check&quot;},{&quot;source&quot;:&quot;check&quot;,&quot;target&quot;:&quot;llm&quot;,&quot;optional&quot;:true},{&quot;source&quot;:&quot;check&quot;,&quot;target&quot;:&quot;result&quot;},{&quot;source&quot;:&quot;result&quot;,&quot;target&quot;:&quot;audit&quot;}]}}&lt;/script&gt;
+  &lt;script&gt;
+  (()=&gt;{
+    const root=document.getElementById(&#x27;discovery-kg-v3&#x27;);
+    const data=JSON.parse(root.querySelector(&#x27;#dg-data&#x27;).textContent);
+    const nodeMap=new Map(data.model.nodes.map(n=&gt;[n.id,n]));
+    const edgeMap=new Map(data.model.relations.map(e=&gt;[e.id,e]));
+    const sourceMap=new Map(data.model.source_evidence.map(s=&gt;[s.id,s]));
+    const query=root.querySelector(&#x27;#dg-query&#x27;),nodeSelect=root.querySelector(&#x27;#dg-node&#x27;),depth=root.querySelector(&#x27;#dg-depth&#x27;),cap=root.querySelector(&#x27;#dg-nodes&#x27;);
+    const detail=root.querySelector(&#x27;#dg-detail&#x27;),tbody=root.querySelector(&#x27;#dg-detail-body&#x27;);
+    const svg=root.querySelector(&#x27;#dg-svg&#x27;),plot=root.querySelector(&#x27;#dg-plot&#x27;),tip=plot.querySelector(&#x27;.dg-tooltip&#x27;);
+    const NS=&#x27;http://www.w3.org/2000/svg&#x27;;
+    const typeOrder=[&#x27;query&#x27;,&#x27;concept&#x27;,&#x27;indicator&#x27;,&#x27;dataset&#x27;,&#x27;provider&#x27;];
+    const typeNames={query:&#x27;질문&#x27;,concept:&#x27;개념&#x27;,indicator:&#x27;지표&#x27;,dataset:&#x27;자료&#x27;,provider:&#x27;제공기관&#x27;};
+    const colors={query:&#x27;var(--viz-series-1)&#x27;,concept:&#x27;var(--viz-series-2)&#x27;,indicator:&#x27;var(--viz-series-3)&#x27;,dataset:&#x27;var(--viz-series-4)&#x27;,provider:&#x27;var(--viz-series-5)&#x27;};
+    const statusNames={candidate:&#x27;후보&#x27;,curated:&#x27;편집 정의&#x27;,documented:&#x27;출처에서 확인&#x27;};
+    let result,shown=[],shownEdges=[],positions=new Map(),selected=&#x27;&#x27;,hover=&#x27;&#x27;,width=0,height=0,anim=0;
+    function el(tag,attrs={},text){const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=&gt;e.setAttribute(k,v));if(text!==undefined)e.textContent=text;return e;}
+    function link(url,label){const a=document.createElement(&#x27;a&#x27;);a.textContent=label;if(/^https?:\/\//i.test(url||&#x27;&#x27;)){a.href=url;a.target=&#x27;_blank&#x27;;a.rel=&#x27;noopener noreferrer&#x27;;}return a;}
+    function row(name,value,links=[]){const tr=document.createElement(&#x27;tr&#x27;),a=document.createElement(&#x27;td&#x27;),b=document.createElement(&#x27;td&#x27;);a.textContent=name;b.textContent=value;links.forEach(l=&gt;b.append(document.createTextNode(&#x27; · &#x27;),link(l.url,l.label)));tr.append(a,b);tbody.append(tr);}
+    function wrap(label,maxWidth){const lines=[];let line=&#x27;&#x27;,units=0;for(const ch of label){const amount=/[\x00-\x7f]/.test(ch)?6:12;if(units+amount&gt;maxWidth&amp;&amp;line){lines.push(line);line=&#x27;&#x27;;units=0;}line+=ch;units+=amount;}if(line)lines.push(line);return lines;}
+    function labelAt(parent,text,x,y,maxWidth=96){const label=el(&#x27;text&#x27;,{x,y,&#x27;text-anchor&#x27;:&#x27;middle&#x27;,&#x27;class&#x27;:&#x27;text-small dg-label&#x27;});wrap(text,maxWidth).forEach((line,i)=&gt;label.append(el(&#x27;tspan&#x27;,{x,dy:i?15:0},line)));parent.append(label);return label;}
+    function calculateLayout(){
+      const w=Math.max(280,Math.round(plot.getBoundingClientRect().width)),narrow=w&lt;620;
+      const groups=typeOrder.map(type=&gt;shown.filter(n=&gt;n.type===type));
+      const next=new Map();let h;
+      if(!narrow){h=Math.max(330,Math.max(...groups.map(g=&gt;g.length))*64+52);groups.forEach((group,i)=&gt;group.forEach((n,j)=&gt;next.set(n.id,{x:58+i*(w-116)/4,y:42+(j+.5)*(h-92)/Math.max(1,group.length)})));}
+      else{let y=35;groups.forEach(group=&gt;{const cols=Math.min(2,group.length),rows=Math.ceil(group.length/Math.max(1,cols));group.forEach((n,j)=&gt;next.set(n.id,{x:cols===1?w/2:65+(j%cols)*(w-130),y:y+Math.floor(j/cols)*73}));y+=rows*73+(rows?27:0);});h=Math.max(260,y-10);}
+      return {w,h,next};
+    }
+    function neighbours(id){const found=new Set(id?[id]:shown.map(n=&gt;n.id));if(id)shownEdges.forEach(e=&gt;{if(e.source===id)found.add(e.target);if(e.target===id)found.add(e.source);});return found;}
+    function draw(){
+      if(!result)return;
+      const focus=hover||selected,near=neighbours(focus);
+      svg.replaceChildren();svg.setAttribute(&#x27;viewBox&#x27;,`0 0 ${width} ${height}`);svg.style.height=height+&#x27;px&#x27;;
+      svg.append(el(&#x27;desc&#x27;,{},`예시 질문의 ${shown.length}개 노드와 ${shownEdges.length}개 관계. 점선은 탐색 가설 또는 자료 대응 후보이며 인과관계가 아닙니다.`));
+      const defs=el(&#x27;defs&#x27;),marker=el(&#x27;marker&#x27;,{id:&#x27;dg-arrow&#x27;,viewBox:&#x27;0 0 8 8&#x27;,refX:7,refY:4,markerWidth:5,markerHeight:5,orient:&#x27;auto&#x27;});marker.append(el(&#x27;path&#x27;,{d:&#x27;M0,1 L7,4 L0,7&#x27;,fill:&#x27;none&#x27;,stroke:&#x27;var(--foreground)&#x27;,&#x27;stroke-width&#x27;:1}));defs.append(marker);svg.append(defs);
+      shownEdges.forEach(e=&gt;{
+        const a=positions.get(e.source),b=positions.get(e.target);if(!a||!b)return;
+        const active=focus&amp;&amp;(e.source===focus||e.target===focus),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));
+        const x1=a.x+dx/d*16,y1=a.y+dy/d*16,x2=b.x-dx/d*21,y2=b.y-dy/d*21;
+        const curved=Math.abs(dx)&lt;45;const path=curved?`M${x1},${y1} Q${Math.min(width-8,a.x+38)},${(a.y+b.y)/2} ${x2},${y2}`:`M${x1},${y1} L${x2},${y2}`;
+        const edge=el(&#x27;path&#x27;,{d:path,fill:&#x27;none&#x27;,stroke:active?&#x27;var(--foreground)&#x27;:&#x27;var(--border)&#x27;,&#x27;stroke-width&#x27;:active?1.5:1.2,opacity:focus?(active?1:.2):1,&#x27;marker-end&#x27;:&#x27;url(#dg-arrow)&#x27;});
+        if(e.status===&#x27;candidate&#x27;)edge.setAttribute(&#x27;stroke-dasharray&#x27;,&#x27;5 4&#x27;);svg.append(edge);
+      });
+      shown.forEach(n=&gt;{
+        const p=positions.get(n.id);if(!p)return;const g=el(&#x27;g&#x27;,{opacity:!focus||near.has(n.id)?1:.25});
+        if(n.id===focus)g.append(el(&#x27;circle&#x27;,{cx:p.x,cy:p.y,r:21,fill:&#x27;none&#x27;,stroke:&#x27;var(--ring)&#x27;,&#x27;stroke-width&#x27;:1.5}));
+        const circle=el(&#x27;circle&#x27;,{cx:p.x,cy:p.y,r:n.type===&#x27;query&#x27;?17:14,fill:n.data_gap?&#x27;var(--background)&#x27;:colors[n.type],&#x27;fill-opacity&#x27;:n.data_gap?1:.3,stroke:&#x27;var(--border)&#x27;,&#x27;stroke-width&#x27;:1});
+        if(n.data_gap)circle.setAttribute(&#x27;stroke-dasharray&#x27;,&#x27;3 3&#x27;);g.append(circle);
+        labelAt(g,n.short,p.x,p.y+32,Math.min(112,width&lt;620?120:(width-100)/5));svg.append(g);
+      });
+      if(focus){const adjacent=shownEdges.filter(e=&gt;e.source===focus||e.target===focus).slice(0,3);adjacent.forEach(e=&gt;{const a=positions.get(e.source),b=positions.get(e.target);if(Math.abs(a.x-b.x)&gt;65)labelAt(svg,e.status===&#x27;candidate&#x27;?&#x27;관계 후보&#x27;:e.label,(a.x+b.x)/2,(a.y+b.y)/2-8,84);});}
+    }
+    function setLayout(animate){
+      const layout=calculateLayout(),old=positions;cancelAnimationFrame(anim);width=layout.w;height=layout.h;
+      if(!animate||old.size===0||window.matchMedia(&#x27;(prefers-reduced-motion: reduce)&#x27;).matches){positions=layout.next;draw();return;}
+      const started=performance.now();function frame(now){const t=Math.min(1,(now-started)/190),ease=1-Math.pow(1-t,3);positions=new Map([...layout.next].map(([id,to])=&gt;{const from=old.get(id)||to;return[id,{x:from.x+(to.x-from.x)*ease,y:from.y+(to.y-from.y)*ease}];}));draw();if(t&lt;1)anim=requestAnimationFrame(frame);}anim=requestAnimationFrame(frame);
+    }
+    function showDetails(){
+      tbody.replaceChildren();detail.replaceChildren();
+      const n=nodeMap.get(selected||query.value);
+      const strong=document.createElement(&#x27;strong&#x27;);strong.textContent=n.label;detail.append(strong,document.createTextNode(&#x27; · &#x27;+typeNames[n.type]));
+      if(n.type===&#x27;query&#x27;){
+        detail.append(document.createTextNode(&#x27; · 해석이 필요한 조건: &#x27;+result.query_ambiguities.join(&#x27;, &#x27;)));
+        result.recommendations.forEach(rec=&gt;{const d=nodeMap.get(rec.dataset_id);const path=[nodeMap.get(query.value).short,...rec.path.map(id=&gt;nodeMap.get(edgeMap.get(id).target).short)].join(&#x27; → &#x27;);row(d.short,path+&#x27; · &#x27;+(rec.reason_kind===&#x27;hypothesis_path&#x27;?&#x27;함께 탐색할 가설&#x27;:&#x27;직접 측정 자료 후보&#x27;),[{url:d.source_url,label:&#x27;원문&#x27;}]);});
+        if(!result.recommendations.length)row(&#x27;자료 후보&#x27;,&#x27;현재 탐색 상한 안에서 자료까지 도달하지 못함&#x27;);
+        if(result.unresolved_indicators.length)row(&#x27;자료 대응 미해결&#x27;,result.unresolved_indicators.map(id=&gt;nodeMap.get(id).short).join(&#x27;, &#x27;));
+      } else if(n.type===&#x27;dataset&#x27;){
+        detail.append(document.createTextNode(&#x27; · &#x27;+(n.metadata_status===&#x27;metadata_api_verified&#x27;?&#x27;메타데이터 API 확인&#x27;:&#x27;공식 설명·목록 확인&#x27;)+&#x27; · &#x27;),link(n.source_url,&#x27;자료 원문&#x27;));
+        const rec=result.recommendations.find(r=&gt;r.dataset_id===n.id);
+        if(rec)row(&#x27;추천 경로&#x27;,[nodeMap.get(query.value).short,...rec.path.map(id=&gt;nodeMap.get(edgeMap.get(id).target).short)].join(&#x27; → &#x27;));
+        row(&#x27;제공기관 / 포털&#x27;,nodeMap.get(n.provider_id).label+&#x27; / &#x27;+n.portal_id);
+        row(&#x27;국가·공간&#x27;,n.countries?n.countries.join(&#x27;, &#x27;)+&#x27; · &#x27;+n.spatial_resolution:&#x27;국가별 제공 범위 미확인 · &#x27;+n.spatial_resolution);
+        row(&#x27;관측 기간·주기&#x27;,&#x27;전체 기간 미확인 · &#x27;+(n.temporal_resolution||&#x27;주기 추가 확인&#x27;));
+        row(&#x27;측정 대상·단위&#x27;,(n.population_definition||&#x27;추가 확인&#x27;)+&#x27; · &#x27;+(n.unit||&#x27;미확인&#x27;));
+        row(&#x27;구조 요약&#x27;,n.schema_summary.join(&#x27; / &#x27;));
+        row(&#x27;연결 전 확인&#x27;,n.limitations.join(&#x27; · &#x27;));
+        row(&#x27;자료 API·이용 조건&#x27;,&#x27;관측값 API 미검증 · 결합 미검증 · 이용 조건 검토 전&#x27;,n.metadata_api_url?[{url:n.metadata_api_url,label:&#x27;확인한 메타데이터 API&#x27;}]:[]);
+      } else {
+        detail.append(document.createTextNode(&#x27; · &#x27;+(n.definition||n.role||&#x27;&#x27;)));
+        shownEdges.filter(e=&gt;e.source===n.id||e.target===n.id).forEach(e=&gt;{
+          const sources=e.evidence_ids.map(id=&gt;sourceMap.get(id)).filter(s=&gt;s&amp;&amp;s.url).map(s=&gt;({url:s.url,label:&#x27;근거&#x27;}));
+          row(nodeMap.get(e.source).short+&#x27; → &#x27;+e.label+&#x27; → &#x27;+nodeMap.get(e.target).short,statusNames[e.status]+(e.note?&#x27; · &#x27;+e.note:&#x27;&#x27;),sources);
+        });
+        if(n.data_gap)row(&#x27;자료 연결 상태&#x27;,&#x27;적합한 자료 대응 미해결 · 다른 지표로 자동 대체하지 않음&#x27;,(n.evidence_ids||[]).map(id=&gt;sourceMap.get(id)).filter(s=&gt;s&amp;&amp;s.url).map(s=&gt;({url:s.url,label:&#x27;정의·검토 근거&#x27;})));
+      }
+    }
+    function choose(id){selected=id===query.value?&#x27;&#x27;:id;nodeSelect.value=id;hover=&#x27;&#x27;;tip.hidden=true;draw();showDetails();}
+    function update(animate=true){
+      result=data.previews[query.value+&#x27;|&#x27;+depth.value+&#x27;|&#x27;+cap.value];
+      shown=data.model.nodes.filter(n=&gt;result.node_ids.includes(n.id));shownEdges=data.model.relations.filter(e=&gt;result.relation_ids.includes(e.id));
+      if(!result.node_ids.includes(selected))selected=&#x27;&#x27;;
+      root.querySelector(&#x27;#dg-depth-value&#x27;).textContent=depth.value;root.querySelector(&#x27;#dg-nodes-value&#x27;).textContent=cap.value;
+      const stops=result.budget_stop_reasons.filter(s=&gt;s!==&#x27;max_depth&#x27;);
+      root.querySelector(&#x27;#dg-usage&#x27;).textContent=`노드 ${result.counts.nodes}/${cap.value} · 관계 ${result.counts.edges}/40 · 자료 ${result.counts.datasets}/10`+(stops.length?&#x27; · 상한에 따라 일부 경로 제한&#x27;:&#x27; · 설정한 개념 범위 내 탐색&#x27;);
+      nodeSelect.replaceChildren();typeOrder.forEach(type=&gt;{const list=shown.filter(n=&gt;n.type===type);if(!list.length)return;const group=document.createElement(&#x27;optgroup&#x27;);group.label=typeNames[type];list.forEach(n=&gt;{const opt=document.createElement(&#x27;option&#x27;);opt.value=n.id;opt.textContent=n.label;group.append(opt);});nodeSelect.append(group);});nodeSelect.value=selected||query.value;
+      setLayout(animate);showDetails();
+    }
+    data.model.queries.forEach(q=&gt;{const opt=document.createElement(&#x27;option&#x27;);opt.value=q.id;opt.textContent=q.label;query.append(opt);});
+    query.addEventListener(&#x27;change&#x27;,()=&gt;{selected=&#x27;&#x27;;update();});depth.addEventListener(&#x27;input&#x27;,()=&gt;update());cap.addEventListener(&#x27;input&#x27;,()=&gt;update());nodeSelect.addEventListener(&#x27;change&#x27;,()=&gt;choose(nodeSelect.value));
+    function nearest(event){const rect=svg.getBoundingClientRect(),x=(event.clientX-rect.left)*width/rect.width,y=(event.clientY-rect.top)*height/rect.height;let best=null,distance=event.pointerType===&#x27;touch&#x27;?28:23;shown.forEach(n=&gt;{const p=positions.get(n.id),d=Math.hypot(p.x-x,p.y-y);if(d&lt;distance){best=n;distance=d;}});return {n:best,x,y};}
+    svg.addEventListener(&#x27;pointermove&#x27;,event=&gt;{if(event.pointerType===&#x27;touch&#x27;)return;const {n,x,y}=nearest(event);const id=n?n.id:&#x27;&#x27;;if(hover!==id){hover=id;draw();}svg.style.cursor=n?&#x27;pointer&#x27;:&#x27;default&#x27;;tip.hidden=!n;if(n){tip.textContent=n.label;tip.style.left=Math.max(4,Math.min(width-248,x+12))+&#x27;px&#x27;;tip.style.top=Math.min(height-40,y+16)+&#x27;px&#x27;;}});
+    svg.addEventListener(&#x27;pointerleave&#x27;,()=&gt;{hover=&#x27;&#x27;;tip.hidden=true;draw();});svg.addEventListener(&#x27;click&#x27;,event=&gt;{const {n}=nearest(event);if(n)choose(n.id);});
+    new ResizeObserver(()=&gt;{if(plot.getBoundingClientRect().width&gt;0&amp;&amp;Math.abs(plot.getBoundingClientRect().width-width)&gt;1)setLayout(false);}).observe(plot);
+    function systemGraph(){
+      const container=root.querySelector(&#x27;#dg-system-plot&#x27;),canvas=root.querySelector(&#x27;#dg-system-svg&#x27;),w=container.getBoundingClientRect().width;if(!w)return;
+      const h=w&lt;500?780:650;canvas.setAttribute(&#x27;viewBox&#x27;,`0 0 ${w} ${h}`);canvas.style.height=h+&#x27;px&#x27;;canvas.replaceChildren();
+      const defs=el(&#x27;defs&#x27;),marker=el(&#x27;marker&#x27;,{id:&#x27;dg-system-arrow&#x27;,viewBox:&#x27;0 0 8 8&#x27;,refX:7,refY:4,markerWidth:5,markerHeight:5,orient:&#x27;auto&#x27;});marker.append(el(&#x27;path&#x27;,{d:&#x27;M0,1 L7,4 L0,7&#x27;,fill:&#x27;none&#x27;,stroke:&#x27;var(--foreground)&#x27;,&#x27;stroke-width&#x27;:1}));defs.append(marker);canvas.append(defs);
+      const point=n=&gt;({x:46+n.x*(w-92),y:30+n.y*(h-90)});const ns=new Map(data.system.nodes.map(n=&gt;[n.id,n]));
+      data.system.edges.forEach(e=&gt;{const a=point(ns.get(e.source)),b=point(ns.get(e.target)),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));const line=el(&#x27;path&#x27;,{d:`M${a.x+dx/d*18},${a.y+dy/d*18} L${b.x-dx/d*21},${b.y-dy/d*21}`,fill:&#x27;none&#x27;,stroke:&#x27;var(--border)&#x27;,&#x27;stroke-width&#x27;:1.3,&#x27;marker-end&#x27;:&#x27;url(#dg-system-arrow)&#x27;});if(e.optional)line.setAttribute(&#x27;stroke-dasharray&#x27;,&#x27;5 4&#x27;);canvas.append(line);});
+      data.system.nodes.forEach(n=&gt;{const p=point(n);canvas.append(el(&#x27;circle&#x27;,{cx:p.x,cy:p.y,r:17,fill:n.kind===&#x27;external&#x27;?&#x27;var(--viz-series-3)&#x27;:n.kind===&#x27;storage&#x27;?&#x27;var(--viz-series-2)&#x27;:&#x27;var(--viz-series-1)&#x27;,&#x27;fill-opacity&#x27;:.25,stroke:&#x27;var(--border)&#x27;,&#x27;stroke-width&#x27;:1}));labelAt(canvas,n.label,p.x,p.y+33,w&lt;500?86:126);});
+    }
+    new ResizeObserver(systemGraph).observe(root.querySelector(&#x27;#dg-system-plot&#x27;));
+    update(false);
+  })();
+  &lt;/script&gt;
+&lt;/div&gt;
+
+
+
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+  let lastPointerWasTouch = false;
+  let pinnedByTouch = false;
+
+  const getTrigger = (target) =&gt;
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest(&quot;[data-tooltip]&quot;)
+      : null;
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    pinnedByTouch = false;
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handlePointer = (event) =&gt; {
+    lastPointerWasTouch =
+      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+  };
+  const handleTouchClick = (event) =&gt; {
+    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    lastPointerWasTouch = false;
+    if (!isTouch || event.detail === 0) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (
+      trigger == null ||
+      !trigger.isConnected ||
+      getContent(trigger).length === 0 ||
+      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+    ) {
+      if (pinnedByTouch) {
+        closeTooltip();
+      }
+      return;
+    }
+    openTooltip(trigger);
+    pinnedByTouch = activeTrigger === trigger;
+    window.setTimeout(() =&gt; {
+      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+        closeTooltip(false);
+      }
+    }, 0);
+  };
+  const handleLeave = (event) =&gt; {
+    if (pinnedByTouch) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    lastPointerWasTouch = false;
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    lastPointerWasTouch = false;
+    document.removeEventListener(&quot;pointerover&quot;, handlePointerOpen);
+    document.removeEventListener(&quot;pointerdown&quot;, handlePointer);
+    document.removeEventListener(&quot;pointercancel&quot;, handlePointer);
+    document.removeEventListener(&quot;click&quot;, handleTouchClick);
+    document.removeEventListener(&quot;pointerout&quot;, handleLeave);
+    document.removeEventListener(&quot;focusin&quot;, handleFocusIn);
+    document.removeEventListener(&quot;focusout&quot;, handleLeave);
+    document.removeEventListener(&quot;keydown&quot;, handleKeyDown);
+    document.removeEventListener(&quot;contextmenu&quot;, handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener(&quot;pointerover&quot;, handlePointerOpen);
+  document.addEventListener(&quot;pointerdown&quot;, handlePointer);
+  document.addEventListener(&quot;pointercancel&quot;, handlePointer);
+  document.addEventListener(&quot;click&quot;, handleTouchClick);
+  document.addEventListener(&quot;pointerout&quot;, handleLeave);
+  document.addEventListener(&quot;focusin&quot;, handleFocusIn);
+  document.addEventListener(&quot;focusout&quot;, handleLeave);
+  document.addEventListener(&quot;keydown&quot;, handleKeyDown);
+  document.addEventListener(&quot;contextmenu&quot;, handleContextMenu);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+(() =&gt; {
+  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selectTab = (selected) =&gt; {
+    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
+    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+      const active = tab === selected;
+      tab.classList.toggle(&quot;active&quot;, active);
+      tab.setAttribute(&quot;aria-selected&quot;, String(active));
+      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      const panel = id &amp;&amp; document.getElementById(id);
+      if (panel != null) {
+        panel.hidden = id !== panelId;
+        if (!panel.hidden &amp;&amp; selected.id) {
+          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        }
+      }
+    }
+  };
+  const interact = (event) =&gt; {
+    const tab = event.target?.closest?.(selector);
+    if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
+      return;
+    }
+    if (event.type === &quot;click&quot;) {
+      selectTab(tab);
+      return;
+    }
+    const tabs = Array.from(
+      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+    ).filter((candidate) =&gt; !candidate.matches(disabled));
+    const current = tabs.indexOf(tab);
+    let next;
+    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+      next = (current + 1) % tabs.length;
+    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+      next = (current + tabs.length - 1) % tabs.length;
+    } else if (event.key === &quot;Home&quot;) {
+      next = 0;
+    } else if (event.key === &quot;End&quot;) {
+      next = tabs.length - 1;
+    } else {
+      return;
+    }
+    event.preventDefault();
+    tabs[next].focus();
+    selectTab(tabs[next]);
+  };
+
+  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+    const selected =
+      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if (selected != null) {
+      selectTab(selected);
+    }
+  }
+  document.addEventListener(&quot;click&quot;, interact);
+  document.addEventListener(&quot;keydown&quot;, interact);
+  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
+    document.removeEventListener(&quot;click&quot;, interact);
+    document.removeEventListener(&quot;keydown&quot;, interact);
+  }, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+</body>
+</html>

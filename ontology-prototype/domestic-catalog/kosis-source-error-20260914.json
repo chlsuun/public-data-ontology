@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-14T09:19:52.151135+00:00",
+  "portal_id": "kosis",
+  "dataset_key": "134/DT_13403",
+  "evidence_id": "kosis-schema-a338e7bb568ef8fd9507",
+  "source_url": "https://kosis.kr/statHtml/statHtmlContent.do?orgId=134&tblId=DT_13403&vwCd=MT_ZTITLE&dbUser=NSI.&language=ko",
+  "retrieved_at": "2026-09-14T08:55:38.415141+00:00",
+  "http_status": 200,
+  "source_message": "통계표 정보가 없습니다.",
+  "locator": {
+    "decoded_character_start": 407,
+    "decoded_character_end": 420
+  },
+  "source_sha256_verified": "87b0352f9a992861ec282f0e7d4028d02d1bb788e567eb2bbc1a7de89da153a3",
+  "interpretation": "The observed page lacks the statistical table metadata and reports no table information. This does not prove permanent deletion or a parser defect.",
+  "original_parse_unresolved_document_preserved": true,
+  "automatic_retry_performed": false,
+  "all_columns_complete": false
+}

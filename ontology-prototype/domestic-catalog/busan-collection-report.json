@@ -1,0 +1,16 @@
+{
+  "scope": "busan",
+  "target_count": 12551,
+  "processed": 12551,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 12547,
+    "metadata_unresolved": 4
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-14T07:45:01.702981+00:00",
+  "generated_at": "2026-09-14T08:40:23.872202+00:00",
+  "pid": 23008
+}

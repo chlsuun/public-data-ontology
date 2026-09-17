@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-09-13T18:20:28.562321+00:00",
+  "passed": true,
+  "checks_passed": 11,
+  "checks": [
+    {
+      "name": "all_foodsafety_source_documents_indexed",
+      "passed": true,
+      "detail": [
+        178,
+        1861
+      ]
+    },
+    {
+      "name": "physical_index_matches_source_field_count_without_duplicates",
+      "passed": true,
+      "detail": 1861
+    },
+    {
+      "name": "http_catalog_has_178_registrations",
+      "passed": true,
+      "detail": 178
+    },
+    {
+      "name": "http_documented_filter_excludes_files_and_link",
+      "passed": true,
+      "detail": 169
+    },
+    {
+      "name": "detail_keeps_duplicate_table_and_policy_evidence_without_double_counting",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "file_page_has_version_metadata_but_no_fabricated_columns",
+      "passed": true,
+      "detail": "foodsafety-I1140"
+    },
+    {
+      "name": "official_response_column_is_searchable",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "authentication_input_not_mixed_into_output_columns",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "link_only_registration_preserves_actual_external_destination",
+      "passed": true,
+      "detail": "foodsafety-I2791"
+    },
+    {
+      "name": "all_finished_mafra_preview_candidates_indexed",
+      "passed": true,
+      "detail": [
+        459,
+        16990
+      ]
+    },
+    {
+      "name": "mafra_candidates_did_not_inflate_documented_field_count",
+      "passed": true,
+      "detail": 0
+    }
+  ],
+  "coverage_snapshot": "2026-09-13T18:19:08.059960+00:00",
+  "all_columns_complete": false,
+  "portable_export_scope_note": "These tests validate SQLite and live HTTP. They do not certify a later hourly portable export."
+}

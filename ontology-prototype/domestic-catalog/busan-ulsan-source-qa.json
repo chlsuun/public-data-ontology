@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-13T13:53:55.777835+00:00",
+  "scope": "공개 목록·문서 수집 QA; 관측값 정확도/결측률 또는 품질 점수 아님",
+  "observations": [
+    {
+      "id": "busan_export_count",
+      "evidence_ids": [
+        "busan-public-catalog-export",
+        "busan-catalog-first"
+      ],
+      "finding": "공식 전체 목록 내보내기 12,551행의 PUBLICDATAPK 고유 ID 12,551개와 검색 총계가 일치한다.",
+      "resolution": "등록 키는 부산 이름공간에 보존한다. 숫자가 같다는 이유로 공공데이터포털 ID와 동일성을 확정하지 않는다."
+    },
+    {
+      "id": "busan_html_detail_errors",
+      "evidence_ids": [
+        "busan-detail-3076513",
+        "busan-detail-15100392",
+        "busan-detail-FD_41",
+        "busan-detail-BT_14415",
+        "busan-detail-with-uuid-3076513"
+      ],
+      "finding": "공식 publicdatapk 인자를 사용한 4개 표본의 상세 HTML은 HTTP 200 오류 화면이다. uuid 빈 값 추가도 오류였고 원문 공개 미리보기 JSON은 정상 반환했다.",
+      "resolution": "오류 HTML을 성공 명세로 세지 않는다. 전체 목록 화면이 공개적으로 사용하는 미리보기 메타데이터 경로를 수집하며 상세 HTML 오류를 모든 등록으로 확대 단정하지 않는다."
+    },
+    {
+      "id": "busan_initial_probe_parameter_error",
+      "evidence_ids": [
+        "busan-detail-probe-A",
+        "busan-detail-probe-S",
+        "busan-detail-probe-F",
+        "busan-detail-probe-L"
+      ],
+      "finding": "최초 탐색에서 데이터 ID를 uuid에 넣어 오류를 받았다. 원문 doDetail 함수는 publicdatapk를 등록 키로 사용한다.",
+      "resolution": "최초 잘못된 요청을 보존하고 원문 인자로 바로잡았다. 이 최초 응답을 인증 차단이나 사이트 전체 장애의 근거로 쓰지 않는다."
+    },
+    {
+      "id": "busan_flattened_parameters",
+      "evidence_ids": [
+        "busan-selectOpenData-3076513",
+        "busan-selectOpenData-OA_TT00022"
+      ],
+      "finding": "request/response 이름 및 설명이 쉼표 문자열로 제공되며 인용된 설명 내부에도 쉼표가 있다.",
+      "resolution": "인용부호를 처리해 후보 목록과 원문 문자열을 함께 보존한다. 길이 일치만으로 명세 항목 대응이나 분석 변수를 확정하지 않는다."
+    },
+    {
+      "id": "busan_file_count_zero_with_versions",
+      "evidence_ids": [
+        "busan-selectFileData-15100392"
+      ],
+      "finding": "fileCnt는 0이지만 fileList에는 서로 다른 uddi ID 3개가 있다.",
+      "resolution": "fileCnt를 파일 버전 개수로 해석하지 않고 배열과 보고값을 별도 보존한다. 원본 CSV를 내려받지 않았다."
+    },
+    {
+      "id": "ulsan_truncated_aggregate_page",
+      "evidence_ids": [
+        "ulsan-catalog-page",
+        "ulsan-fileList-size15-page1",
+        "ulsan-openList-size15-page1",
+        "ulsan-standardList-size15-page1"
+      ],
+      "finding": "통합 페이지는 오픈데이터 부분에서 HTML이 중단되고 닫는 태그가 없다. 개별 탭은 끝 페이지까지 정상 공개된다.",
+      "resolution": "개별 탭의 화면 제공 페이지 크기 15와 마지막 페이지(153/8/13)를 대조한다. 174페이지·2582행은 등록 출현 수다."
+    },
+    {
+      "id": "ulsan_no_independent_registration_ids",
+      "report": "ulsan-catalog-report.json",
+      "finding": "목록 행에는 제목·제공기관·수정일·원문 링크가 있지만 독립적인 울산 등록 ID가 없다. API 기능과 표준 제공기관별 여러 행이 같은 원문 링크를 공유한다.",
+      "resolution": "20260913-size15/유형/페이지/행으로 스냅샷 ID를 만들고 반복 행을 그대로 보존한다. 링크만으로 같은 데이터나 같은 칼럼을 승인하지 않는다."
+    }
+  ]
+}

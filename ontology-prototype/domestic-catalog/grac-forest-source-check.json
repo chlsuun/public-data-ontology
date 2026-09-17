@@ -1,0 +1,337 @@
+{
+  "generated_at": "2026-09-13T19:11:03.035242+00:00",
+  "passed": true,
+  "checks_passed": 14,
+  "checks": [
+    {
+      "name": "grac_two_guide_registrations_are_explicit_source_links",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "grac_output_input_and_structure_rows_reconcile_to_physical_cells",
+      "passed": true,
+      "detail": {
+        "output": 24,
+        "input": 10,
+        "structure": 4,
+        "expanded_cells": 152
+      }
+    },
+    {
+      "name": "rowspan_optional_requirement_uses_explicit_source_span",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "game_xml_errors_and_different_column_names_preserved_without_repair",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "recruit_conflicting_header_and_distinct_repeated_root_rows_not_merged",
+      "passed": true,
+      "detail": {
+        "output": 9,
+        "structure": 2
+      }
+    },
+    {
+      "name": "error_codes_retain_leading_zeros_and_are_not_output_fields",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "forest_all_explicit_category_documents_and_56_source_cards",
+      "passed": true,
+      "detail": {
+        "categories": 5,
+        "cards": 56,
+        "global_total_not_claimed": true
+      }
+    },
+    {
+      "name": "forest_local_response_tables_and_inputs_reconcile_to_all_source_rows",
+      "passed": true,
+      "detail": {
+        "local_guides": 21,
+        "response_guides": 10,
+        "output_fields": 156,
+        "input_rows": 50
+      }
+    },
+    {
+      "name": "forest_other_guides_and_external_references_do_not_invent_schema",
+      "passed": true,
+      "detail": {
+        "local_without_fields": 11,
+        "external_references": 35
+      }
+    },
+    {
+      "name": "forest_source_usage_notes_are_preserved_for_review_without_reuse_approval",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "forest_explicit_data_go_links_matched_to_existing_namespace_without_field_copy",
+      "passed": true,
+      "detail": {
+        "references": 9,
+        "matched": 9
+      }
+    },
+    {
+      "name": "forest_landing_javascript_route_to_official_catalog_is_source_backed",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "grac_disclosure_navigation_does_not_turn_staff_table_into_dataset_fields",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "all_new_snapshot_receipt_hashes_and_no_data_api_requests",
+      "passed": true,
+      "detail": 33
+    }
+  ],
+  "originals_hashed": 33,
+  "definition_snapshot": [
+    {
+      "path": "grac-schema-game.json",
+      "sha256": "66a5c7a16e6b108125372cb63d4ab3181f221736302fb7a032fc2e9724005dc9"
+    },
+    {
+      "path": "grac-schema-recruit.json",
+      "sha256": "804d00f3e7047c29cb10c7fd1faa9d5bf6f9a7d136dca4a90f245c1a6a7efa12"
+    },
+    {
+      "path": "forest-schema-PBD0000079.json",
+      "sha256": "ac5990c04847d08f3251e9fcba2f8e670c225d34d4196251f9d3fe40921c6dc4"
+    },
+    {
+      "path": "forest-schema-PBD0000061.json",
+      "sha256": "213a1a37b6abd92a9261fcb690b915d924c8cd947e0d8820bf807d165b706e34"
+    },
+    {
+      "path": "forest-schema-PBD0000078.json",
+      "sha256": "f79059ce2ec5fabeffdaf1773958da32bf040b28b17ccfaeb2b8249344c3bb90"
+    },
+    {
+      "path": "forest-schema-PBD0000022.json",
+      "sha256": "346136eeac09ccb526aac95677f39b94d058c85f9b41965ed1f5fb4445dce109"
+    },
+    {
+      "path": "forest-schema-PBD0000181.json",
+      "sha256": "fdfda6cae4d1bf62dfe8166251475681fea541de8a80c2b4ecf28303e180ba3d"
+    },
+    {
+      "path": "forest-schema-PBD0000062.json",
+      "sha256": "ef1e1b3a726769ba62b7eefd4214ff93046a367742b09c1e889573bd0b53c92d"
+    },
+    {
+      "path": "forest-schema-PBD0000059.json",
+      "sha256": "c1d464e6d115ac4e4e6109d8c35494d0dbd5ceb7e391515fd6b7abca619b17c4"
+    },
+    {
+      "path": "forest-schema-PBD0000080.json",
+      "sha256": "4d1339c2b0fb1ced607992ce4ee314ad40075206e472466040952421a772422a"
+    },
+    {
+      "path": "forest-schema-PBD0000041.json",
+      "sha256": "993b0f7d4ca36c989d416e1cafc06d14ebea90fb598eaf7a2a61fe6ae3c4195c"
+    },
+    {
+      "path": "forest-schema-PBD0000021.json",
+      "sha256": "6afd9919d9eaa9aa619b1b5d3687a603884ab1e2bf5f7fb4de28b78bd889ed6b"
+    },
+    {
+      "path": "forest-schema-PBD0000073.json",
+      "sha256": "124d4232e161c030ff3ca66d4b595e982bc605282acde8a3fb9b5488c79df69f"
+    },
+    {
+      "path": "forest-schema-PBD0000221.json",
+      "sha256": "7d10fb3bcbac60b745d09ba906944f088b49719f5836e2fc2645450ec7da8596"
+    },
+    {
+      "path": "forest-schema-PBD0000081.json",
+      "sha256": "5522335b02975995cd8830c53548498677876c778dd9d8bdea3fe35a4aca4ef1"
+    },
+    {
+      "path": "forest-schema-linked-page-87d0c7e6ec18e3b3ce8d.json",
+      "sha256": "7a4d3a2ace382870a8e2d1277973ae7eff49b0629e1ec60289e0d5304713e91d"
+    },
+    {
+      "path": "forest-schema-PBD0000055.json",
+      "sha256": "dd42e67d2a67a0715ac784c1e1f40f861fd9e0a142656d6ce98ebcc8933c667d"
+    },
+    {
+      "path": "forest-schema-PBD0000031.json",
+      "sha256": "d748eaa69a1a416d1b04139229e7d8bb059d98961f96fc23e4c4637f8b7baa62"
+    },
+    {
+      "path": "forest-schema-PBD0000057.json",
+      "sha256": "b7ad3455e7fb2b2291f6d2f1b8076b53fd3e0b3543dec4bef49968e115dfb2db"
+    },
+    {
+      "path": "forest-schema-PBD0000056.json",
+      "sha256": "a91f23525295807bb115c172d02ffbbf2ea243d9a9e8a902d95bb69901e97d17"
+    },
+    {
+      "path": "forest-schema-PBD0000220.json",
+      "sha256": "04360f7ae90dc0696b0af0da3c6232bd9514d95be655ccd6dd9fd243be7a6662"
+    },
+    {
+      "path": "forest-schema-PBD0000077.json",
+      "sha256": "b4f46fe1b61b46dd7c0c04ef112177ae8f6d3a6327030df1eca7ea27a59bffd1"
+    },
+    {
+      "path": "forest-schema-PBD0000180.json",
+      "sha256": "e21bf00438b2648b7deb59d0317b029f9754a746ab0cc152ef12618f062fa11d"
+    },
+    {
+      "path": "forest-schema-linked-page-0308362532a527652035.json",
+      "sha256": "283b13883774f5dafca231a1b3863ea6cd098409fe94bb45cd1aafa8ce73af79"
+    },
+    {
+      "path": "forest-schema-PBD0000210.json",
+      "sha256": "0c8dcc9820367942d40674ac872548c3f6cd21ea5e4345557f947d279f5da8bc"
+    },
+    {
+      "path": "forest-schema-linked-page-c3e86943e158bb05c5de.json",
+      "sha256": "2b233eec2ea34f34035cca96d3394e0538a6f909099dcfb8ff160988b8ab028a"
+    },
+    {
+      "path": "forest-schema-linked-page-2d012112ba9c30d9597c.json",
+      "sha256": "f0842f22892b7b246543553c97623593b5449e901968ad033096d614758dd090"
+    },
+    {
+      "path": "forest-schema-PBD0000053.json",
+      "sha256": "f020e0ed0920f8df8e51824dfdcc157b18242b088ab10bf4e172aae220b28b93"
+    },
+    {
+      "path": "forest-schema-linked-page-05296b5985761ba23729.json",
+      "sha256": "352dc63602b229bad16304dcb824eb9f3484aceab09a8f6d7621da86ce47fd27"
+    },
+    {
+      "path": "forest-schema-linked-page-53a176064f1a4c927a98.json",
+      "sha256": "1a692b2929a3cdccd066544f08b1f3a3a0715331e02fe7b47d2e17842aa18f65"
+    },
+    {
+      "path": "forest-schema-linked-page-0e56031af98f6cadeff8.json",
+      "sha256": "5ca1d9f99d583be658152dccf230898dfc49f9cd8f41924a330df063dc28f4f1"
+    },
+    {
+      "path": "forest-schema-linked-page-eb55dd0817160048e490.json",
+      "sha256": "ae7486283bc0dc73d7f5dc41d4b3a12049c078237898ceb8270a6e56c271cb2e"
+    },
+    {
+      "path": "forest-schema-linked-page-9a1eff7e32d652b06ba2.json",
+      "sha256": "a91eaece1683acc1ee8e025c2935fa104a3f489d7a0d7bff946054c8a1b35d4b"
+    },
+    {
+      "path": "forest-schema-linked-page-cce7cb842cb5a5810081.json",
+      "sha256": "3a8bc04e94d83bce5cb7695d3db5e05e63bd5e4ec5b177777677f451220fd384"
+    },
+    {
+      "path": "forest-schema-linked-page-24f25e4fc9ef1d754ea4.json",
+      "sha256": "1f21009197773c7671583725f88762b43d2027e8b2d84dced5ad265371a9fb04"
+    },
+    {
+      "path": "forest-schema-linked-page-7253948955d1e74334e6.json",
+      "sha256": "d07ec19b6b27a9381ef2c0558a5f9af5d2145e5a6ab84fe68e181a80acab88e8"
+    },
+    {
+      "path": "forest-schema-linked-page-7144f6670635406306ba.json",
+      "sha256": "b2671a9955a8c262a374d26d72d998e073d1f5bdfb2fbd9018a057f0e5bbb39b"
+    },
+    {
+      "path": "forest-schema-linked-page-c6dc31141ea72afc472b.json",
+      "sha256": "8c6a63c8fcb5e14a6a02df33d530b64785014a8eef4d8cad0d480ea1ce12179d"
+    },
+    {
+      "path": "forest-schema-linked-page-af4149540218b6a38172.json",
+      "sha256": "d2464603188a7fed74c52e09490e6f68f8499d53343100b07658a98bccc980cd"
+    },
+    {
+      "path": "forest-schema-linked-page-c2ec660f9b7c39c3a7d3.json",
+      "sha256": "4faeb7becc2fedaef082eb5f81c6dc86e8681321055a3e98216f14ca6ddfed07"
+    },
+    {
+      "path": "forest-schema-linked-page-97f9e2fde02a76253dec.json",
+      "sha256": "d69b1c7252bd2f7b63f692dc62f705c22c1ca42da08818ba73bf2f97aeb779c6"
+    },
+    {
+      "path": "forest-schema-linked-page-60e52c9b1e895c8dabcf.json",
+      "sha256": "ece16572e4a6b1e3f546a858417b881ec1da137cca499dee4105388a6051762f"
+    },
+    {
+      "path": "forest-schema-linked-page-a40cb85d2255440a9d99.json",
+      "sha256": "6b07bcddcaff8b14b7c76d7b09e082bb6bc8787288687de2c93bfcf3166ea7ad"
+    },
+    {
+      "path": "forest-schema-linked-page-cc7e370c987d0ff80049.json",
+      "sha256": "7da7467972a536899d0673fc6094218eebaf85761d49e3a4b73760765571a4ab"
+    },
+    {
+      "path": "forest-schema-linked-page-819f3dbece9170adc8a8.json",
+      "sha256": "7938ab0892cd12fcab1dd16a988e3e963ad42cc39da614184c66de4c8c71422d"
+    },
+    {
+      "path": "forest-schema-linked-page-89dbc7f234d7aeffdb2c.json",
+      "sha256": "66c7112d0d6d533391edba035cd804c696376e87b575c8ee90a7037cf3a74372"
+    },
+    {
+      "path": "forest-schema-linked-page-ab8c02a356c7cc854c71.json",
+      "sha256": "9de09ef9e2a15ebf23319965feb884566382ed098c74ef348a00956ad5bb6995"
+    },
+    {
+      "path": "forest-schema-linked-page-10354fc11b87da0058af.json",
+      "sha256": "d06cdbb059dd2a41dcabfcc7b951c07ceadd1cd9854215509ed32456f834e9fe"
+    },
+    {
+      "path": "forest-schema-linked-page-33e78d4db6bb46095869.json",
+      "sha256": "4df25328b7b5f8f7551d4b88577aa2a6ad5ea5cfceba58b63bc0f32c4036bc57"
+    },
+    {
+      "path": "forest-schema-linked-page-50146c68a9503574c499.json",
+      "sha256": "f3972649d76032d09ce93bba5e257f24c97a2b32358b74b5641c5db3872fec13"
+    },
+    {
+      "path": "forest-schema-linked-page-5004e9c6eba2a2c61a94.json",
+      "sha256": "031b37a11dcf1c9f39ba790a4a6af05ac270016d2243a3f3d99f82baaa6f62fc"
+    },
+    {
+      "path": "forest-schema-linked-page-a58211a7dc3ba22b4aa9.json",
+      "sha256": "0ce17eacc3bf024008b898486ca6d610a05f4e0c842d0313fefb8ed85748a67e"
+    },
+    {
+      "path": "forest-schema-linked-page-b5b779e781360d886d67.json",
+      "sha256": "4434a98dcec2c4a79e0d85f67e9f166459c27ca61c38a92036057a62d2ec6984"
+    },
+    {
+      "path": "forest-schema-linked-page-2419f1bc944c98b8b694.json",
+      "sha256": "934d376aa0258a5f385c8ae82cb2f8d9b50a007c9c159d146108b15855abeef0"
+    },
+    {
+      "path": "forest-schema-linked-page-908a693962143b780ceb.json",
+      "sha256": "6ce1cb878a20872008a8bd0b5361996add485c70d3cb94a2bb97639f0204346e"
+    },
+    {
+      "path": "forest-schema-linked-page-d83a83f43934439e316f.json",
+      "sha256": "87cd40f8fc7d1b07cb0ee6f2d877557c93673a764abe73806c1e753c0380126c"
+    },
+    {
+      "path": "forest-schema-linked-page-56da033e00107c36a8b8.json",
+      "sha256": "67eb8c6b27406a8d74b600b7eea4d0c8a01992c9eed12bcc18aa493c9ab4368f"
+    },
+    {
+      "path": "forest-schema-linked-page-1e694a16dfe8988986e9.json",
+      "sha256": "54229668e05bb77a3e21a11de426e3b0797c51dbe6a5c48e679dcff6da0dc2a5"
+    }
+  ],
+  "all_columns_complete": false,
+  "scope": "Only these 58 registration documents and their named sources"
+}

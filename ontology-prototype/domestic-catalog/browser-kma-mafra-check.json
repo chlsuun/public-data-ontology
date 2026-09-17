@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-09-13T12:46:53.641440+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "params": {
+        "portal": "kma-api",
+        "field": "GST_WS",
+        "documented": "yes"
+      },
+      "total": 2,
+      "passed": true
+    },
+    {
+      "params": {
+        "portal": "kma-api",
+        "field": "authKey",
+        "documented": "yes"
+      },
+      "total": 0,
+      "passed": true
+    },
+    {
+      "params": {
+        "portal": "mafra",
+        "field": "PRMISN_NO",
+        "documented": "yes"
+      },
+      "total": 1,
+      "passed": true
+    },
+    {
+      "params": {
+        "portal": "mafra",
+        "field": "API_KEY",
+        "documented": "yes"
+      },
+      "total": 0,
+      "passed": true
+    },
+    {
+      "name": "marketplace_metadata_ownership_not_inferred",
+      "passed": true
+    },
+    {
+      "name": "new_portal_queues_visible",
+      "passed": true
+    }
+  ]
+}

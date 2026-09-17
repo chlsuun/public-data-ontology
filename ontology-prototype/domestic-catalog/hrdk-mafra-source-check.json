@@ -1,0 +1,2389 @@
+{
+  "started_at": "2026-09-13T18:03:36.605930+00:00",
+  "finished_at": "2026-09-13T18:04:38.983946+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "hrdk_entire_visible_catalog_and_source_positions",
+      "passed": true,
+      "detail": 69
+    },
+    {
+      "name": "external_referrals_do_not_duplicate_target_columns",
+      "passed": true,
+      "detail": 69
+    },
+    {
+      "name": "explicit_url_identifier_resolution_retains_unmatched_links",
+      "passed": true,
+      "detail": {
+        "resolved": 59,
+        "unresolved": 10
+      }
+    },
+    {
+      "name": "all_tool_contracts_reconcile_to_raw_sse_response",
+      "passed": true,
+      "detail": 87
+    },
+    {
+      "name": "mcp_input_properties_kept_separate_from_dataset_output_columns",
+      "passed": true,
+      "detail": 223
+    },
+    {
+      "name": "guide_and_live_list_count_disagreements_preserved",
+      "passed": true,
+      "detail": {
+        "root": "41 vs 45",
+        "ncs": "5 vs 6"
+      }
+    },
+    {
+      "name": "tool_ontology_references_resolve_without_dataset_equivalence",
+      "passed": true,
+      "detail": 87
+    },
+    {
+      "name": "all_619_file_detail_pages_reconcile_preview_button_occurrences",
+      "passed": true,
+      "detail": {
+        "buttons": 1516,
+        "unique_requests": 1510,
+        "repeated_buttons": 6
+      }
+    },
+    {
+      "name": "snapshot_preview_headers_match_source_cells_and_file_versions",
+      "passed": true,
+      "detail": {
+        "documents": 459,
+        "preview_versions": 1510,
+        "candidate_cells": 16990
+      }
+    },
+    {
+      "name": "preview_error_empty_and_success_outcomes_remain_distinct",
+      "passed": true,
+      "detail": {
+        "preview_header_candidates_observed": 1471,
+        "preview_header_empty": 30,
+        "preview_fetch_unresolved": 3,
+        "preview_parse_unresolved": 6
+      }
+    },
+    {
+      "name": "preview_candidates_never_promoted_to_documented_columns",
+      "passed": true,
+      "detail": 459
+    },
+    {
+      "name": "all_fetched_originals_match_receipt_bytes_and_sha256",
+      "passed": true,
+      "detail": 2135
+    }
+  ],
+  "checks_passed": 12,
+  "source_receipts_checked": 2138,
+  "fetched_originals_hashed": 2135,
+  "preview_snapshot": [
+    {
+      "path": "mafra-file-previews-FILE-20141016000000000245.json",
+      "sha256": "58d4e396431a77c07ac6dffcba608e97cd5aac23cceb52d42504420ea67e3d17",
+      "collected_at": "2026-09-13T17:36:41.218815+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20141016000000000248.json",
+      "sha256": "4f32e8b74e1fec45e3a0bead64d899a6ced0908f107f9dddafef9d4d2dbcb8b5",
+      "collected_at": "2026-09-13T17:14:58.907541+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20141031000000000350.json",
+      "sha256": "5b5dbdac9cb7e6c8f6409c23b742857a9202adc70ab86e5a66a0db8ee2ebb6fe",
+      "collected_at": "2026-09-13T17:16:41.845652+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20141125000000000360.json",
+      "sha256": "d2f6e7049759edcbff37c567a00b267fc30ddd16f113e95cad895441f18b48c0",
+      "collected_at": "2026-09-13T17:39:54.985059+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20141229000000000408.json",
+      "sha256": "aa86726621834f1a8394bc620c75ba7bf860c827b043748e95a5879358a3c16a",
+      "collected_at": "2026-09-13T17:43:47.591729+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20150108000000000413.json",
+      "sha256": "4e1ba62326851aee815b01883d0f758423467cbd938593df8b459cb1f68ecce0",
+      "collected_at": "2026-09-13T17:40:33.145369+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20150108000000000415.json",
+      "sha256": "035f58262d115a5a449db2afe0babd066be417b93a3f868809100ed50f03189b",
+      "collected_at": "2026-09-13T17:37:46.620162+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20150108000000000416.json",
+      "sha256": "96dd04c22e7f7611a748f3d033cd5efea6c14304efec000c1f23b3766a012f25",
+      "collected_at": "2026-09-13T17:40:43.097542+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20160609000000000583.json",
+      "sha256": "41f96b3457bf8eadb2e4e5943224c557233f2e88dd3dc9b1612bbadd2eb90b54",
+      "collected_at": "2026-09-13T17:43:46.591418+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170912000000000790.json",
+      "sha256": "fc1e9c6c0723138332533beae04d20e761cd4e1ce73e397fa396e8ee1722abaa",
+      "collected_at": "2026-09-13T17:32:00.341035+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170912000000000791.json",
+      "sha256": "cbf60b1b3de9ef2caba6c15dd15286c2ea6de0e98495e0b19b17aebb99ad7100",
+      "collected_at": "2026-09-13T17:25:32.071903+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170912000000000793.json",
+      "sha256": "e5c484439850910ac3b7ae944ba7e135cd60c0fc3e83a6ae3771990112af3d96",
+      "collected_at": "2026-09-13T17:30:55.279123+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170913000000000806.json",
+      "sha256": "633c994e04635f5d6797226b9c12472c17467f4bb80d2905a63b96a2ece023ca",
+      "collected_at": "2026-09-13T17:43:49.595815+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000822.json",
+      "sha256": "45895c82bf65de689decc13433184768db0d56bffb33c8087b338a9b356cdb4e",
+      "collected_at": "2026-09-13T17:43:48.605359+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000824.json",
+      "sha256": "c927fe357a87fd083a365cd400a75472f1704d32ed44ee3a7a38a94cb4bfc2b9",
+      "collected_at": "2026-09-13T17:26:02.196794+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000825.json",
+      "sha256": "397d798a864c24ad5248273d1015f419959dcd179d63656b7a2a34b96c25a7b0",
+      "collected_at": "2026-09-13T17:26:14.204794+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000826.json",
+      "sha256": "abd9a6bba5b156d04a4afa6bbb525f907676f5e3229ead868a9d623ec977a19d",
+      "collected_at": "2026-09-13T17:26:19.227368+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000827.json",
+      "sha256": "ec6212b736e64aa70c1539cc7c2f3af9c775943ecae201c88175f558e895ee0b",
+      "collected_at": "2026-09-13T17:25:48.136591+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000828.json",
+      "sha256": "19eec6fd26bfc9e8ca055d941732d9f63787bb708e91134cd8a188815da7f56f",
+      "collected_at": "2026-09-13T17:26:43.295131+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000829.json",
+      "sha256": "d8ae9761e70422e5ffaef2c3dde649a657268c4ed24a3d479c1ac1ef1cab48cb",
+      "collected_at": "2026-09-13T17:26:30.244727+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000830.json",
+      "sha256": "c7185ad94ee81272323a054a7442c6fe0b456c24e5caac28815d30e1906f1f4c",
+      "collected_at": "2026-09-13T17:26:53.317898+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170915000000000843.json",
+      "sha256": "11de18adf0a5476364a2a365c473efa2c2041067d0dfd439c518486ab3f7463f",
+      "collected_at": "2026-09-13T17:29:12.841112+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20170918000000000846.json",
+      "sha256": "d60ac791ab43d8c2c9eca2f97d0037cb4b0efcdaf215ed5cfdee21033facc715",
+      "collected_at": "2026-09-13T17:43:36.574542+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20171020000000000891.json",
+      "sha256": "5be7fc0c1deca976f9630c20dd70d96f46379ba98b5eabbccf24ddf8ee53b4be",
+      "collected_at": "2026-09-13T17:29:41.985326+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181016000000000939.json",
+      "sha256": "a1729470cdd39c7c54eb59fab05dcc774e06492ab03dcf811daf56c64c21a1c0",
+      "collected_at": "2026-09-13T17:18:14.093793+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181018000000000966.json",
+      "sha256": "7e75cc2267767013288f07ecec50df66c5b07ed2c679521e85a8fb15a92f1dcb",
+      "collected_at": "2026-09-13T17:23:27.785610+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000967.json",
+      "sha256": "f2a7e946722813064e3d9fb5791c926bad1d87e6d74e8937f78b37dcc5c697bd",
+      "collected_at": "2026-09-13T17:20:56.292315+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000968.json",
+      "sha256": "6d5ce79078dc7d41435f86370a10111a42e4718a727003c19394b7d9f4ecca5e",
+      "collected_at": "2026-09-13T17:32:08.354314+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000971.json",
+      "sha256": "cb8ddbd581ae986579c7c91e7b5830c5fb2730cd26ed4ad0c35545f57d5ae369",
+      "collected_at": "2026-09-13T17:24:14.845437+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000972.json",
+      "sha256": "ac97db15ac166ffd3ab3535b9c18b1b0add2bdb3c358ac8f203f00c67f7d2849",
+      "collected_at": "2026-09-13T17:24:25.921359+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000973.json",
+      "sha256": "ac7de23077a6ad54d2e20bc51a240d716e77a6aaf5dfa2729ae0b6ad6266023e",
+      "collected_at": "2026-09-13T17:27:35.446897+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000974.json",
+      "sha256": "cd673377e757320ac4d716ba74ef0b02130177bba5c05dcfd3ee91d0204744d2",
+      "collected_at": "2026-09-13T17:30:42.112352+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000977.json",
+      "sha256": "325ba813100bdfe9428a6a01ee570e3d845476dbfb226dd7b15312bb917e5603",
+      "collected_at": "2026-09-13T17:31:40.275800+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20181019000000000980.json",
+      "sha256": "21df8aad3341bc285133919c109c389a35f3ca1dc5bb4eddec0276632ba33972",
+      "collected_at": "2026-09-13T17:31:25.261858+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20190212000000001038.json",
+      "sha256": "e50daf8ffccef4bac8669539761bf4e54b320bea6501dabbc4690d86b6a7cc47",
+      "collected_at": "2026-09-13T17:38:26.684460+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20190212000000001047.json",
+      "sha256": "b1b881b7a510a26bb0651a7515c9bfe8ecdbf2f116321dff2efaa96c4807dbce",
+      "collected_at": "2026-09-13T17:36:52.367130+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20190710000000001095.json",
+      "sha256": "0922a20c7af075ac5bca824e99666f943524209d7438ed1102ca0c691aa4dca5",
+      "collected_at": "2026-09-13T17:20:22.197502+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001206.json",
+      "sha256": "2ef859301eca0362e888c0ff61157878995dc157d53f1eb04a0507d114b0dbeb",
+      "collected_at": "2026-09-13T17:38:37.734969+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001207.json",
+      "sha256": "c3856ff86086c5d702ea104240223d0a76ed6f62d501de8e84084e930ee61af6",
+      "collected_at": "2026-09-13T17:24:13.865518+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001208.json",
+      "sha256": "1ea5f298832cfacc5bfa3f807d90afcf5c9ad2a54b06f40bdac5ec76bf961884",
+      "collected_at": "2026-09-13T17:24:05.844095+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001209.json",
+      "sha256": "1fcd2de54f74fa2655f1ba5545d92d5237cff03e08abba83d4ad0afd40d27348",
+      "collected_at": "2026-09-13T17:24:38.929974+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001210.json",
+      "sha256": "1fbee3c854c09bdea7ac988cd30b943cc8b32a29b78ab3dc953f668342156904",
+      "collected_at": "2026-09-13T17:27:21.396234+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001212.json",
+      "sha256": "ae6afc20172f18e9348b203b0b5a11962a515a31d32b155fefdaf127f6737139",
+      "collected_at": "2026-09-13T17:25:24.052796+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001215.json",
+      "sha256": "1e9dc0da65c5fe3238679ee4d2f7fe44257f9f69befbc6d5f9b210cca837c251",
+      "collected_at": "2026-09-13T17:31:04.194852+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001223.json",
+      "sha256": "1a9e272e522f507e87fe6d13e31a57ba5ae560f4adede48c0656eaed279bb0da",
+      "collected_at": "2026-09-13T17:43:44.600228+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001224.json",
+      "sha256": "dd6211d51c24e023c99b60c8cd86ec9fe68a1787fdd925d511b23c073a3d80c6",
+      "collected_at": "2026-09-13T17:42:33.371189+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001244.json",
+      "sha256": "1fba668feb2963f0e690dc0231cd5d630cd162f0f0b8d983187eb7ae97e08054",
+      "collected_at": "2026-09-13T17:43:45.565581+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001254.json",
+      "sha256": "1a584a7e4be22d78f88dc425b58649a636e3b52861e32804d7ad85c8b242edc8",
+      "collected_at": "2026-09-13T17:43:43.775790+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001255.json",
+      "sha256": "87dea7b2264f8ec48f85c7b8f0d741bbc143d5b3730ae1f00a50a6a3d2ae40d3",
+      "collected_at": "2026-09-13T17:43:43.006636+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001260.json",
+      "sha256": "66dcce9d3e25dec39091e0126eab825f7bfc91a17c005b3d6201be30c2d96edd",
+      "collected_at": "2026-09-13T17:43:41.594871+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191011000000001263.json",
+      "sha256": "356eb8698612e7484cde65546b2fcb9ab703d5501d2ee649865f7fa4d40aea03",
+      "collected_at": "2026-09-13T17:43:39.566841+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001270.json",
+      "sha256": "8c6fc1c52e26db311c02053e700653f550f5eb8ddd9bbb889eb30109e235bcc1",
+      "collected_at": "2026-09-13T17:22:18.527894+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001272.json",
+      "sha256": "fd325a90e5506e38792602232cde2e92bfbce5816bb3abf33e8d581b809517bd",
+      "collected_at": "2026-09-13T17:38:22.666778+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001273.json",
+      "sha256": "ae880dba7e1f993d687044bfaec547d39d236fd98542b8b7c8b244ab5a7c3ce4",
+      "collected_at": "2026-09-13T17:43:37.555661+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001274.json",
+      "sha256": "86f89d0dc41ce097d01608926cdb6ae331e1e78ef41cc86009555be6477dc4b5",
+      "collected_at": "2026-09-13T17:42:40.410891+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001275.json",
+      "sha256": "bd71e1d7f8c107bd79220aa27a9902ea96fcc4e8663c0d86f1e113a9a47ab791",
+      "collected_at": "2026-09-13T17:42:36.374816+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001276.json",
+      "sha256": "63147e28df2fb02879bd070b9dc353224aa3f60e3ca7167e91a52a9c0e63fe97",
+      "collected_at": "2026-09-13T17:42:39.385103+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001277.json",
+      "sha256": "53489f8c5b9afa2ad4db6f4ba071dfaa23e7098c35706d36915dc36bca9afc45",
+      "collected_at": "2026-09-13T17:42:38.458397+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001278.json",
+      "sha256": "82fee53cd73a58d106251f837a61a577fedfa78d01de6c56feb38977dd4adc39",
+      "collected_at": "2026-09-13T17:42:37.387388+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001279.json",
+      "sha256": "c2a21848722ad87a18b9874c7ec1f535dba723d20120d0afe48d0deb69dc583d",
+      "collected_at": "2026-09-13T17:39:49.970259+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001280.json",
+      "sha256": "7a8eac55ca2ace411da35a9d97d0b2095b4bf6d22285070220281b05479a3da3",
+      "collected_at": "2026-09-13T17:42:35.368942+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191014000000001282.json",
+      "sha256": "2e0e44c13b7ebe6a79db832cd1efe22fb01ee0e675b65d19b10c89688b23bf8d",
+      "collected_at": "2026-09-13T17:18:25.105187+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191017000000001371.json",
+      "sha256": "27a858798fdc35cad2228c0bdba180f8937f77d65bc16c348b04ec01f7a7bd16",
+      "collected_at": "2026-09-13T17:22:42.618143+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191017000000001372.json",
+      "sha256": "623b3ea7c4a19caebf0921421137d76f8ae4fbabbfae4e92640929e5cb8aad7f",
+      "collected_at": "2026-09-13T17:22:35.639621+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20191017000000001373.json",
+      "sha256": "7e9bd7ccde15472d0f3adeb277559ddac21237e376bf576136c2b4b059bfb49d",
+      "collected_at": "2026-09-13T17:22:46.629729+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210603000000001433.json",
+      "sha256": "f4f0bf8343d0fe412349345a42a7a8d0e6e6630f95dfccb4295f284ac5fc7820",
+      "collected_at": "2026-09-13T17:40:55.101088+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210603000000001434.json",
+      "sha256": "76608aebd92862c9cdbff8ce75fe063c0474f3f63da06025861dcb5ad55c72db",
+      "collected_at": "2026-09-13T17:40:56.106698+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210727000000001441.json",
+      "sha256": "ff181846ee00a1cd535b66506325c14ab0944150651e035d19d4781066d9e0db",
+      "collected_at": "2026-09-13T17:34:42.862684+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210819000000001556.json",
+      "sha256": "6329a0da80e42c36a897ebf9569c8350a9818adb164a45a43b8b333f284148dd",
+      "collected_at": "2026-09-13T17:37:57.612044+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210927000000001571.json",
+      "sha256": "cbf739ceb04ff833a48f3fdecfd6085c8f499aa36740b4688aed4f2b908a1226",
+      "collected_at": "2026-09-13T17:17:17.918681+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001578.json",
+      "sha256": "9fd525508f7678a4f08397371f3b51d1ea3d9bf33c8113f2d56f5fc06af95ad7",
+      "collected_at": "2026-09-13T17:43:29.553716+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001579.json",
+      "sha256": "4759d5ed3d210471a0a952428b2316dc3d85748a9bc2fea3fd43081c66635541",
+      "collected_at": "2026-09-13T17:43:32.549591+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001580.json",
+      "sha256": "d6f9567ca21b321b51dcc9af480f0c1ca919ccd276d9c1b91b477bacbc719963",
+      "collected_at": "2026-09-13T17:43:33.567118+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001581.json",
+      "sha256": "04e6efd22e4fb01a0668a91df01dad98bdf77165fab7c75e56e5461e72fe0808",
+      "collected_at": "2026-09-13T17:43:28.551121+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001583.json",
+      "sha256": "b1e31f55873982264f410109cba7191d8db8fbd556a64025f0e2d311cc52ad34",
+      "collected_at": "2026-09-13T17:43:34.562496+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210929000000001584.json",
+      "sha256": "23d8dfa1dca9cfe07701d5f1bd853aeadd217d5d06101113c34e570531f16be0",
+      "collected_at": "2026-09-13T17:43:35.561036+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001603.json",
+      "sha256": "62160baa5e21a88d2c6fae4e2d112ce98813afab99806215726b870ec4052019",
+      "collected_at": "2026-09-13T17:40:41.086142+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001604.json",
+      "sha256": "6c06bcd1a52444650e24d7f0b5fee799bd3f978192d193d1e89b39715a63bc95",
+      "collected_at": "2026-09-13T17:40:39.070793+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001605.json",
+      "sha256": "f1826065a4dd5490e868aa0ea29840e2e36c7c900cf09e6ce3a78c3815a00f43",
+      "collected_at": "2026-09-13T17:40:35.066162+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001606.json",
+      "sha256": "f5e4883cc88466540f6ef858e705330914173a0447b43f6d085c9634101e0f45",
+      "collected_at": "2026-09-13T17:41:11.160291+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001607.json",
+      "sha256": "ed383064a46e79b193f0bda83d7349431466768e47824e8a68d74c49971882c2",
+      "collected_at": "2026-09-13T17:41:08.144401+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001609.json",
+      "sha256": "a403d0799c964f97be7cfbf1845668965803ad36cea10c311df56fbd3864387c",
+      "collected_at": "2026-09-13T17:37:51.630928+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001610.json",
+      "sha256": "71bd2a58ea98bb7a29b21b699cc9a21b81056c589eb627548d947d027ccabbfe",
+      "collected_at": "2026-09-13T17:40:38.085167+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001618.json",
+      "sha256": "904aeadd3c124104426e19cfc3433fe201d953d545a19b536dac9e613094f608",
+      "collected_at": "2026-09-13T17:34:39.557844+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001620.json",
+      "sha256": "ca4a9576b829d47ae6d148555bc69f30f8c7fd8dae1a2946954aa742b75c5d63",
+      "collected_at": "2026-09-13T17:39:35.926499+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001623.json",
+      "sha256": "58a84e4cd50a1dd446bf3b3ec4be8e4874b4ee74a6870494be55405a48f81d67",
+      "collected_at": "2026-09-13T17:34:16.695942+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20210930000000001625.json",
+      "sha256": "4cd2b140bdbd221b21d0adcb751b3f5164a573420ff89e5193bfade3e73d9bcc",
+      "collected_at": "2026-09-13T17:38:54.832951+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211006000000001628.json",
+      "sha256": "a3130eaa15e933cad783e974efbfe7ecc0874018acd2e46f93131d74901c358d",
+      "collected_at": "2026-09-13T17:43:27.562569+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001629.json",
+      "sha256": "d5dfe533dba59460e2f182c830fae23d1f567584ce4ac96d26a297344661f30a",
+      "collected_at": "2026-09-13T17:43:14.498354+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001630.json",
+      "sha256": "d7e04d80774c417f5f079959eee19e0e612c62be1c73b565cb22653a588e27b5",
+      "collected_at": "2026-09-13T17:39:50.965532+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001631.json",
+      "sha256": "2bebb34d4dc1686e494e0e395886f2ff7acdf661368444270075feb38b8d695d",
+      "collected_at": "2026-09-13T17:43:15.530108+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001632.json",
+      "sha256": "54c03be12d859247ca33de2444c9ebf2a85f236fbb48b2ed5a637606e2b1231f",
+      "collected_at": "2026-09-13T17:43:26.540246+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001633.json",
+      "sha256": "0330ca87546c1de8b00454f530b8f4b33748de1d4073eadc0c52433db6524e48",
+      "collected_at": "2026-09-13T17:43:25.531423+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001634.json",
+      "sha256": "a1981663691d1604fec436bcae6537c481044bcbc50ba410e61f90c5d9b8c514",
+      "collected_at": "2026-09-13T17:43:13.979861+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001635.json",
+      "sha256": "1c39fb766e13f14651d37a05c33bd5bba18d917c64bf9d3222a42a47ada7387d",
+      "collected_at": "2026-09-13T17:43:13.504795+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001636.json",
+      "sha256": "060647d425a742b26a61e11f0585f81f889a75152679514573276f49f8aea861",
+      "collected_at": "2026-09-13T17:43:24.536155+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001637.json",
+      "sha256": "76ebfb29cdd2818eae6827031ce29a68adda7c29a4b2f64413d1b560a2b9b146",
+      "collected_at": "2026-09-13T17:43:12.504875+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001638.json",
+      "sha256": "007f60839d6231d52113b4579d08befb87a302a2ae6e15833eacb743626510bf",
+      "collected_at": "2026-09-13T17:43:23.547264+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001639.json",
+      "sha256": "adcdbb349eb2300ff27d64fa72ecd5a97e207f52c534f82f288be476c9c21cba",
+      "collected_at": "2026-09-13T17:43:22.549187+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001640.json",
+      "sha256": "bb7acd167c0d35c16958afe16e8a5be0ce217c6d213e30c4746ae23e26517a56",
+      "collected_at": "2026-09-13T17:43:21.531274+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001641.json",
+      "sha256": "52ffc88bed8242eaebc637acc5601dc47357541d24c8c81b05c1f5563ea1b2f5",
+      "collected_at": "2026-09-13T17:43:20.526201+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001642.json",
+      "sha256": "7a1b1e303e4bc2dcabd115793345f084e361da1bb424acb20eb7943688b95b3a",
+      "collected_at": "2026-09-13T17:43:19.528517+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001643.json",
+      "sha256": "beb32b151d363c82260d631b25b90cd94af27703547b8417d6636a96b01fd7d6",
+      "collected_at": "2026-09-13T17:43:11.484761+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001644.json",
+      "sha256": "231565a0861244208162f2ddfb7b84fb973563fb987e6f79281bcdda9f3cadee",
+      "collected_at": "2026-09-13T17:43:18.520405+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001645.json",
+      "sha256": "52030e2ef70ca434b8f70a782fed05f4f18f3602cdd77c558e9bdcd2a31f3ec9",
+      "collected_at": "2026-09-13T17:43:17.530431+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211008000000001646.json",
+      "sha256": "7522a82d5469125417ddefc1c133824b80bf23b282bee89477c28e1ff2124bc5",
+      "collected_at": "2026-09-13T17:43:16.510468+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211015000000001647.json",
+      "sha256": "b567c105d3deb37c0775ceb7201a833ae2748c7b79b66e277ed3b13b1b447260",
+      "collected_at": "2026-09-13T17:33:52.665044+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211213000000001651.json",
+      "sha256": "2729ceaf5aab4b49a99688cc56d07909becf5ce25f13770688403c2b8b4a187b",
+      "collected_at": "2026-09-13T17:42:44.400528+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211220000000001652.json",
+      "sha256": "b97c28ffe312e785be350cb8f8a2e92af79f3e513340247cd3bc6fb1ecf0c657",
+      "collected_at": "2026-09-13T17:23:03.669364+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20211230000000001657.json",
+      "sha256": "6b2b7a753ccbdd1f93be3855f53b5b1abbd790d4b755dfe714e93f42438872be",
+      "collected_at": "2026-09-13T17:43:10.484566+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001677.json",
+      "sha256": "4f41ec3c0d973fb7c44e6da7382330952c8e35fdeb8a9d87bea4bca7c3552311",
+      "collected_at": "2026-09-13T17:25:41.120891+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001679.json",
+      "sha256": "97e57d3f59adc380ff53aeb2ef2445eb05d9877c5a77ec5f28680482163bd6b1",
+      "collected_at": "2026-09-13T17:24:54.970547+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001680.json",
+      "sha256": "239c696c283fb149d68ac70b78f796b49c2ba541c0183ce3ba78861f1d7c94af",
+      "collected_at": "2026-09-13T17:31:45.286198+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001681.json",
+      "sha256": "109499d8a0f736faa3bbd56b8c302c272d3b030a35a0f862dc00fd928a0663d7",
+      "collected_at": "2026-09-13T17:30:26.104662+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001682.json",
+      "sha256": "80b48f7c5a0e811c397adb6a7fee81ec72f9f53c61c7fd2f1999f577fb864b03",
+      "collected_at": "2026-09-13T17:30:54.186068+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001683.json",
+      "sha256": "2af6ba11ea4584b80779f3c4e2a49668e1656116ac8820f554c6146aa930133b",
+      "collected_at": "2026-09-13T17:27:12.374658+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001684.json",
+      "sha256": "82fa898f1a6c0a850f2cd31f686b119f48f974a23f914f251e0957c8f80d9b8e",
+      "collected_at": "2026-09-13T17:30:19.082727+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001685.json",
+      "sha256": "8242755884e8e8c4266e860030158aee552b0d24b352baddc340490614cf5c7b",
+      "collected_at": "2026-09-13T17:30:01.015083+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001687.json",
+      "sha256": "3255efbbc4585c19668c732716361dbb22427dda6495feab3da4154caa4d95ce",
+      "collected_at": "2026-09-13T17:29:56.027483+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001688.json",
+      "sha256": "1b8eaee34b28a1b4aafb7882e066941558d320a2480047d41f873fd2851e255f",
+      "collected_at": "2026-09-13T17:27:49.512374+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001690.json",
+      "sha256": "f959f7a9366b38a75b2c76b50754b11776a0c730731f16ed9b953cd071f9b478",
+      "collected_at": "2026-09-13T17:29:31.981982+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001691.json",
+      "sha256": "26dd2780c908b1f86ca93031be224c38a9812b389c82d51bc5e9f4f2d389bf82",
+      "collected_at": "2026-09-13T17:29:20.957858+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001692.json",
+      "sha256": "1ae4c40d2f8bad459d5af49c23b09ef00f690604c1a43d2acccdae4a319e3e97",
+      "collected_at": "2026-09-13T17:27:32.459038+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220204000000001693.json",
+      "sha256": "06c6cb07c6e17735781503cffb8c05b5107dfb363fb44196b4266454ff119797",
+      "collected_at": "2026-09-13T17:25:09.005940+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220208000000001720.json",
+      "sha256": "bdcce2c70f1f79d8f8ce4991bfc60c62f31943ac914c376cfae7f6631f75e25a",
+      "collected_at": "2026-09-13T17:43:08.611019+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220209000000001764.json",
+      "sha256": "f459371598b5b043ef8100a1ea76dc647f3c7a10f76384e8740abdede1ec4410",
+      "collected_at": "2026-09-13T17:43:06.480439+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001765.json",
+      "sha256": "5eac169c17af4337714d46567d7d59c6d470a59d7dbde6baa1ebd14be193ed99",
+      "collected_at": "2026-09-13T17:43:04.472827+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001766.json",
+      "sha256": "2a047dcd2282f13b9e3646e64f3da3c2983c7586c7330c76d4597b8d002ccb98",
+      "collected_at": "2026-09-13T17:43:01.459824+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001767.json",
+      "sha256": "f4ae2fd041f2d8fcc783045768ee6215689c50b476c992a787a7d34881fe9696",
+      "collected_at": "2026-09-13T17:42:57.439001+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001768.json",
+      "sha256": "3339e7dcbd14a2cec1753dfa859c8b2116b58c59d0999af911fb62a1b4ab1cce",
+      "collected_at": "2026-09-13T17:42:56.441035+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001769.json",
+      "sha256": "0f71fac14e6a09b6b7dfd8da5ea3e05cd4c495781d955abb9da2bb24a427220a",
+      "collected_at": "2026-09-13T17:42:55.446743+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001770.json",
+      "sha256": "11f0ab2d0c5ad3801d5c7d329813011f7fd0ca279257676fc2cd14c7ad9209a8",
+      "collected_at": "2026-09-13T17:42:54.444073+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001772.json",
+      "sha256": "ad07c91886302df95a10fabce5e72f2b282c9fdedadcbb02515aa954e2b3c206",
+      "collected_at": "2026-09-13T17:42:52.419470+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001773.json",
+      "sha256": "13aa0fb15836429c26dc85a8143877950d0227d828167e5f7d294cfc7dff9287",
+      "collected_at": "2026-09-13T17:42:48.412622+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001774.json",
+      "sha256": "57832f80445c78535eda55d08a1441ee49467fc0ce7b65d2d2f77bbca1e5ac29",
+      "collected_at": "2026-09-13T17:42:47.409147+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001775.json",
+      "sha256": "b21a4de0a7a11ce3f148739adb402e9517af70b0d4b022ccd0f7c1e3fb37533b",
+      "collected_at": "2026-09-13T17:42:45.402438+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001795.json",
+      "sha256": "d2e5bd50ffc86c211727fed90cbb12a7ef1877dd737c418ce899bc08b43489e0",
+      "collected_at": "2026-09-13T17:38:42.792299+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220210000000001799.json",
+      "sha256": "1177e58f5954a735c79ac3f48449fe44e9f4aeddefcb3166d93c5382edd00d1a",
+      "collected_at": "2026-09-13T17:35:54.056286+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001823.json",
+      "sha256": "c83994afe8bed83c94f80b8f54d15289f943f6f7b14035b17a2d85f047be5953",
+      "collected_at": "2026-09-13T17:42:43.403231+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001824.json",
+      "sha256": "8756fb30278b87ff327cffc44f0fc1dba304c340137329bad5b67effbba72ab4",
+      "collected_at": "2026-09-13T17:42:42.399732+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001825.json",
+      "sha256": "dcaa5e0164d2063c3f74a9e77e2abfb12a6090bd90e9ad9a7ef13fd97187dd07",
+      "collected_at": "2026-09-13T17:42:41.389119+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001833.json",
+      "sha256": "0039792d0d43adbabb55597523fe3aa58afed3e39f21c97e41d9aada6916ccd6",
+      "collected_at": "2026-09-13T17:17:47.011807+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001838.json",
+      "sha256": "666fbbfe262dd0ae85504ff551d52e1befc0c30a82c0caa580eb996c3e8885b9",
+      "collected_at": "2026-09-13T17:21:25.391903+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001839.json",
+      "sha256": "11dde04e043e119adc7e8bab3f5a886aad7c784c08a398d03c765f22f846a6fc",
+      "collected_at": "2026-09-13T17:33:48.657811+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220211000000001854.json",
+      "sha256": "9a6a16d704b6af23cdcaca847e5e83a193d7528da29ce911e718fbc0611cf22f",
+      "collected_at": "2026-09-13T17:18:12.078602+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001857.json",
+      "sha256": "2a2fad5327c0084a4d714a304acf265edfc8d07d245d735cfc4449cea1970353",
+      "collected_at": "2026-09-13T17:18:49.179365+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001858.json",
+      "sha256": "933e84317c10046b6433f58ea8e5cf2868d10b674ea4c6ec89939225fbda9a68",
+      "collected_at": "2026-09-13T17:20:11.055425+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001859.json",
+      "sha256": "3c3e2f9ef8715fc7615d5ddd8a04a95ae1f7d782bbafcf78e7050256a9f0d6d0",
+      "collected_at": "2026-09-13T17:18:42.168129+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001863.json",
+      "sha256": "54f9371f81af7d1516cb6b0b84448fd351502b07fde0df13634fb7ba701cab27",
+      "collected_at": "2026-09-13T17:40:24.038272+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001864.json",
+      "sha256": "1ba6d29fcb7315431c48d1dc9dde11648297db77aa891b631090d0313a06bde0",
+      "collected_at": "2026-09-13T17:23:49.791262+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001865.json",
+      "sha256": "31c8dfc9be36410be2fed4357ab99037e5ef099f5dacb5e9be2a282c67998965",
+      "collected_at": "2026-09-13T17:42:34.364356+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001866.json",
+      "sha256": "5a7a3a3ef72f9aad261003c943caf8e4c22b47a9a2f43268ac05ec45f44d8fa7",
+      "collected_at": "2026-09-13T17:21:01.317243+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001868.json",
+      "sha256": "219bf07db2fec491385b79cf1551daa6570df6cece04258f166bc9c686e2de21",
+      "collected_at": "2026-09-13T17:38:28.702158+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001879.json",
+      "sha256": "e46e233dc1f98e3e38b84c58ea7a47e0b52d9eee5526ed2bbd48c418f672a6bc",
+      "collected_at": "2026-09-13T17:41:17.182759+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001880.json",
+      "sha256": "bce89004df463708cc5f66fce06583abb8d1a1ccfbf37705b5a81a292270b292",
+      "collected_at": "2026-09-13T17:41:13.140714+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001881.json",
+      "sha256": "fa605bb5a4cdd8a639f15474677c0048d813623ae2dbfd03bfbd5de36bc46c93",
+      "collected_at": "2026-09-13T17:41:18.144387+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001883.json",
+      "sha256": "26b3ce24d6031b1e605dc3299f5bb9354cc7e2d162337563dbe6a56af6a17d1b",
+      "collected_at": "2026-09-13T17:40:23.076498+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001884.json",
+      "sha256": "b7bf6d94daeb2071a0e5335fd455235e48a0a1451988c04795e4e7754672154c",
+      "collected_at": "2026-09-13T17:42:31.384035+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001886.json",
+      "sha256": "976f9b578a29c76e54890c0fb256a86d1788790999ea8910439e8a8cde4b5e61",
+      "collected_at": "2026-09-13T17:23:01.661864+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001887.json",
+      "sha256": "53b0d31edcc7244906d1fa2a6d375f2e8a5864797b421a21d910fe8723d5b010",
+      "collected_at": "2026-09-13T17:21:12.350535+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001888.json",
+      "sha256": "cd2ddb1e919c32fc501ce609ecfaf01e66dfaef4a797597e9742e18e3becf7e8",
+      "collected_at": "2026-09-13T17:22:59.770099+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220214000000001889.json",
+      "sha256": "fba1efe919eef29e79125fde3b797e2d17e79360c2384a8838b0491f98ab28cb",
+      "collected_at": "2026-09-13T17:22:48.632456+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001895.json",
+      "sha256": "2c84cd46dc1d2dc1b6826e389909ff303178cd505fbbbbb0356f1ab3299d578e",
+      "collected_at": "2026-09-13T17:21:00.306553+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001897.json",
+      "sha256": "4384d9ad216b05750aa575f2dfe839388afeec19f3b498e881afcaf93eceb8cc",
+      "collected_at": "2026-09-13T17:41:06.090856+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001898.json",
+      "sha256": "9d906c19d3f909039b1f8c3a32789364a45252ce8cb0eafee6abedd99270c294",
+      "collected_at": "2026-09-13T17:42:27.351946+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001902.json",
+      "sha256": "405003fdad4d87bcde0ddf096b8dce756c899e3b42a92520f09811fcbcfb804d",
+      "collected_at": "2026-09-13T17:34:13.682434+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001905.json",
+      "sha256": "d90efb6d2e0a9caf94cdafd1e59ccbb7fe71408141dee1ece0b393ec260c5f15",
+      "collected_at": "2026-09-13T17:42:17.327913+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001908.json",
+      "sha256": "51f2b1f14d60542546caf3b5f0ac6c242f09fc6e3f1a2f4d10dc4c435c517093",
+      "collected_at": "2026-09-13T17:41:33.201042+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001910.json",
+      "sha256": "8e5f6175f9a20d7b104aa391942296a4d3af6ce132d9af484b936ab8dfc3216f",
+      "collected_at": "2026-09-13T17:40:07.018041+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001912.json",
+      "sha256": "29c824e555cc3d8df07ae1020888f25207d60ab8ef91b7a229eac39e8bbdd9de",
+      "collected_at": "2026-09-13T17:41:59.261932+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001918.json",
+      "sha256": "26e878e3ef272f7aff43660397f2ecff9dfbf49b73c2f082bd11f27a2f2386af",
+      "collected_at": "2026-09-13T17:41:30.186553+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001920.json",
+      "sha256": "19eca7a2e7deaa7960295f34a50ac525640c546010b7a1442e2650cbebac4a0b",
+      "collected_at": "2026-09-13T17:41:27.193017+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001921.json",
+      "sha256": "792b1b6116d1fbd9cb38aee51352c272cbc4fb4f07ff1bb1afcf09a62c1bb90c",
+      "collected_at": "2026-09-13T17:41:31.178791+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001927.json",
+      "sha256": "5183a8db63689d2c6fe0658d7a2d8b54b024c25943ceda0bfe15d97bfe0975d1",
+      "collected_at": "2026-09-13T17:36:32.204031+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001930.json",
+      "sha256": "530049b1648eed9ea8bbff0b94775d80ba090fc625870f3f87c4a55bf3d922ef",
+      "collected_at": "2026-09-13T17:35:06.860295+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001935.json",
+      "sha256": "3058a9cd63ab31d887c30d364fe70808f4b336a17f9a2aff402268b4ecfb0982",
+      "collected_at": "2026-09-13T17:23:25.788546+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001936.json",
+      "sha256": "1cb8841260a729e601eb338963d7d3ccdc28a63dbd320684572c34035c1a4fe4",
+      "collected_at": "2026-09-13T17:35:55.101839+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001937.json",
+      "sha256": "7f1ff44fd1d4bfa1fbc2e67c5f26aff862cad952dbb1555ec2984b1df9f8245c",
+      "collected_at": "2026-09-13T17:35:57.099944+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001939.json",
+      "sha256": "3f107922510e86ad5001807bfbfb43b01860c1e7cb1277ea1cd7f678ffc8cb3b",
+      "collected_at": "2026-09-13T17:35:39.075263+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001940.json",
+      "sha256": "fb99363b262707cba7eb8bedba4dc181a97a545917267caa2226f6f31441b087",
+      "collected_at": "2026-09-13T17:23:26.751027+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001941.json",
+      "sha256": "5f600d32d92d1eb59c9ae7dbc6ef75249e4ea5bd9f0e5dd6de8b35a442e6f942",
+      "collected_at": "2026-09-13T17:35:23.912625+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001942.json",
+      "sha256": "4550a5125cb2b4d63f5201bb55a868eb24f1355d99e4d6423ce9ccaf8daa90db",
+      "collected_at": "2026-09-13T17:23:24.722324+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001943.json",
+      "sha256": "67ebec0a0dec212c5fee4a55605ba8d7fd58956b20a1bd379863adadd7b8c216",
+      "collected_at": "2026-09-13T17:34:48.827789+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001944.json",
+      "sha256": "5c730b98582151b6a4fd799d2e5934fdf4cd867b1e9d4110a17dfa5eeae7da9a",
+      "collected_at": "2026-09-13T17:36:21.138026+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220215000000001945.json",
+      "sha256": "04cab685c0ec0cd8e91e38c0113c4e7afaa2009af5209e2e07f93d6529f544a4",
+      "collected_at": "2026-09-13T17:36:09.123028+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001946.json",
+      "sha256": "fb8276999011c8c98aff85f5ecd68bfcb10c368abb0c640171d75cf1d2b32cf6",
+      "collected_at": "2026-09-13T17:40:51.091921+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001947.json",
+      "sha256": "f4506ed02b48b87fd54f6cbd1907890491c42f16b91fb737426187760c67522f",
+      "collected_at": "2026-09-13T17:40:47.083593+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001948.json",
+      "sha256": "6850b816f521cfbd40a4a4505ecc1a703d6bedfbc35eb112d8ee5533c5351b78",
+      "collected_at": "2026-09-13T17:41:40.215609+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001949.json",
+      "sha256": "236e285ae09508ffeafc30293f1944c4868f2ed30fd9dac112214457f5d8b16d",
+      "collected_at": "2026-09-13T17:40:45.086993+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001950.json",
+      "sha256": "3c87c0d05484b6403f6c66fb634f3bab8bdda0c86f327a1660ec61bbde46489c",
+      "collected_at": "2026-09-13T17:40:49.088957+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001951.json",
+      "sha256": "1fd45e6b88aecec0378343a2d5af7f1dfa01495f2f1339c1b6948f6bca809a91",
+      "collected_at": "2026-09-13T17:39:58.986023+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001952.json",
+      "sha256": "bdeb96df179f58415fe1cc7ee931e15ecf18036dae60fb7125e42e283353c73f",
+      "collected_at": "2026-09-13T17:41:07.165818+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001953.json",
+      "sha256": "13b245897fcd12b3974a9e5104294c02c85d1d01419563258c69b1c1408dc715",
+      "collected_at": "2026-09-13T17:40:53.092737+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001955.json",
+      "sha256": "2b855b3526b2eb80c9e836acd5eade703f0f896279ae6c4fe6cc6b65847914c2",
+      "collected_at": "2026-09-13T17:38:20.746693+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001958.json",
+      "sha256": "0582f691eb6025876a6cf131f9911937d736e42d1c1a77445a280e262a36ad6e",
+      "collected_at": "2026-09-13T17:41:53.255684+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001960.json",
+      "sha256": "4fba9367cca384145f588f0c4aba9ae94e0a0d313cf9a0c9386f89b7055aa150",
+      "collected_at": "2026-09-13T17:23:10.688611+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001961.json",
+      "sha256": "e599476828e4d8c63b3343c07d4ce2f9aaf72e842f28b7dc16dea0b2fce6d06a",
+      "collected_at": "2026-09-13T17:41:49.242988+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001966.json",
+      "sha256": "f83f131bb0441c7813481ec347c52a9e3027b94cd1fbf8f80049362018357054",
+      "collected_at": "2026-09-13T17:38:25.767311+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001969.json",
+      "sha256": "7ce3b5711a1e64c7729b1dc05b6f96ad6915ca3df3295188963d453a42abf07c",
+      "collected_at": "2026-09-13T17:34:20.710234+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001971.json",
+      "sha256": "c9e18805f886f36fcc87d155c614e8f34049a5b54ec48593b57773005e022a50",
+      "collected_at": "2026-09-13T17:34:25.792387+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001975.json",
+      "sha256": "6ac64e87e7c3198cf84de346a4c7469a5f30dfd3fee52116e99ff4963cbc58f7",
+      "collected_at": "2026-09-13T17:16:49.854124+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001988.json",
+      "sha256": "d120c1a13cacff5d7199a8ab9f3c4a9de85abe1d6021b2d501801b1ba2b2889b",
+      "collected_at": "2026-09-13T17:37:33.567111+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001992.json",
+      "sha256": "b370405f6d5e0692f953ac942f3eb68de92aa5350b5f9b2c8dbabd9d120a4f1b",
+      "collected_at": "2026-09-13T17:40:30.068630+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001997.json",
+      "sha256": "c6c1f1f768ac2732c811fc3ba8ae4e168651578f6b1f4f74d09cd1a0abd3cda0",
+      "collected_at": "2026-09-13T17:41:36.203525+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000001998.json",
+      "sha256": "49a75876515fea9fa51685a4de645a1b50ee0ddc4a27d8fc88529a84735a643b",
+      "collected_at": "2026-09-13T17:41:46.223603+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220216000000002023.json",
+      "sha256": "03c7f2409494509560fba1e63f9165fa531c19254be50322a379ede73b7ac31a",
+      "collected_at": "2026-09-13T17:40:37.067523+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002032.json",
+      "sha256": "b7f715abccb536b951ae43798b4f233b4e718b4d4f2c5918c80a347aafd8669a",
+      "collected_at": "2026-09-13T17:39:33.939869+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002033.json",
+      "sha256": "d87b927d101f24d8053935e9078b819f3eae6b336eb1dda7ff638a2330fb4efb",
+      "collected_at": "2026-09-13T17:40:08.005443+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002037.json",
+      "sha256": "cb0f4b5900b78bbcf853692f032d66466a41c9bd22caf7f3e839ba06d4990fda",
+      "collected_at": "2026-09-13T17:17:15.971457+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002038.json",
+      "sha256": "527eae3964e2dc6c5da48c395c19837baa2370184ba940a78a5171299b31b805",
+      "collected_at": "2026-09-13T17:41:45.228618+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002039.json",
+      "sha256": "c4473afbe0e4e2e4ed2f0b71e8f4dff02d65831d9972e7793d0234ce66e1d864",
+      "collected_at": "2026-09-13T17:37:47.593362+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002040.json",
+      "sha256": "f174586ac669bec4088219901159f58eac33026b03df78edcff5c6d97662b6a9",
+      "collected_at": "2026-09-13T17:37:04.465205+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002049.json",
+      "sha256": "b5e636700cf0b369d097eaed958e46ae9f5bb9352d1ddb12022abc88626bf4b8",
+      "collected_at": "2026-09-13T17:41:42.232743+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002051.json",
+      "sha256": "45cba2321a784d715e2860da4bfa50c5c4368dbf0adf1d706e301ec6be065471",
+      "collected_at": "2026-09-13T17:40:18.061057+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002052.json",
+      "sha256": "b5c5134a9aa06c134a044fe9e3a853db129b1eb641b4cc02e2e8b99f75b1f9c4",
+      "collected_at": "2026-09-13T17:40:15.021628+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002053.json",
+      "sha256": "f495bfc5446fa8eae4051f9f9b139a915eeda119dfd2e1ea5139a7614f772bf3",
+      "collected_at": "2026-09-13T17:40:11.029408+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002055.json",
+      "sha256": "e72f3ab4e9aa4948badbc8f612fc469b07f3acc39c90c04e7375e787c4ab410f",
+      "collected_at": "2026-09-13T17:38:55.846136+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002058.json",
+      "sha256": "16ce760dcf8c38c1c813529e7d7a482f412a87015e650e07fa425f0aa5ef8ed1",
+      "collected_at": "2026-09-13T17:16:47.847815+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002062.json",
+      "sha256": "fd6ccbe5f80c5f1754867777fa2cbf48f74d7c1c3d12e4854e362d501fa64106",
+      "collected_at": "2026-09-13T17:41:38.209334+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002063.json",
+      "sha256": "e568123b5c3fc03a4a89e34fd34fd5c07190a9676447c7ddf01984eb90011aea",
+      "collected_at": "2026-09-13T17:39:25.940300+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002064.json",
+      "sha256": "bac8445e669bd923e9d10e492ea17d44b18aace4cb83a5d27293322032714972",
+      "collected_at": "2026-09-13T17:39:15.857590+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002066.json",
+      "sha256": "ee14715c2113768167cebe4fe972a3d3a60dfd48db75dbd3ff2e2232d886a460",
+      "collected_at": "2026-09-13T17:39:19.100438+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002067.json",
+      "sha256": "6f6b3951db27b0a7db5d4047bd0b3fdd41d3bcf74c93c886a51ce1cc38d87801",
+      "collected_at": "2026-09-13T17:16:43.843819+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002068.json",
+      "sha256": "781a7245a59dad31e1c75e993b26a6c97f7003c687214ef6b0ce0b1b256312d7",
+      "collected_at": "2026-09-13T17:39:13.863309+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002070.json",
+      "sha256": "d799ae57c698a1afd482072b62e5a08d93116d1e2bcca4fb856a9dd163b98172",
+      "collected_at": "2026-09-13T17:39:14.853151+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002071.json",
+      "sha256": "10f1201e364fc93d241a5f8bf0bc5c719c0ffa03c4dcb308b2e94eaa86998f88",
+      "collected_at": "2026-09-13T17:39:18.840768+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002073.json",
+      "sha256": "427813bc1c68208c09affbca439831fe240817cbb74b690eeff592d3a51b2de0",
+      "collected_at": "2026-09-13T17:39:17.858867+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002074.json",
+      "sha256": "ac16fb1c2c58e9de119bf122f1cb5d9572e7db88409f9c7d30934fdd1145dab1",
+      "collected_at": "2026-09-13T17:39:11.852113+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002075.json",
+      "sha256": "e3bc1c128eddd9889a9ceacfaedf1baed8f6de5c4f10287e937e023253fcf72d",
+      "collected_at": "2026-09-13T17:34:03.658253+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002076.json",
+      "sha256": "7b61b79b35e41a50cb4533f9ca1d56cd12ed9051bbc963b9f043f7a8c3c7c571",
+      "collected_at": "2026-09-13T17:39:08.842250+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002077.json",
+      "sha256": "1ee40aee4ec5be2de828499c7c95fa6481855d1c743d4bfa78f00cc8a34552cb",
+      "collected_at": "2026-09-13T17:39:19.865942+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002078.json",
+      "sha256": "77e52483213bc2909c45575cb1934bb3e01982df628beada16a5bdd200b85462",
+      "collected_at": "2026-09-13T17:39:10.843019+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002079.json",
+      "sha256": "32a44e132bae9abce2655d375a69e62ff0981bb3302863174364bddc9e6f6230",
+      "collected_at": "2026-09-13T17:39:21.870065+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220217000000002080.json",
+      "sha256": "9ec6bc47578af6b012417e1a21cc73d595ccd08e4a05cd935b99a4df3555bded",
+      "collected_at": "2026-09-13T17:34:17.808304+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220609000000002100.json",
+      "sha256": "91b6be771b2ee8401c52d985e274845053b8ab0ff9c3216cf539942464055923",
+      "collected_at": "2026-09-13T17:31:33.262716+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220609000000002101.json",
+      "sha256": "e97c57b614d646fa5aa115c641ea262b6e66647bdd1311cfeab468867070666d",
+      "collected_at": "2026-09-13T17:29:12.840151+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220613000000002102.json",
+      "sha256": "c6c126eb4b7dd5f9542a97553c37b796bb77aaea2c31acae08051f9413309c9c",
+      "collected_at": "2026-09-13T17:31:15.265496+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220614000000002103.json",
+      "sha256": "0b94e6ab28b2e2176ca2e7dc0759e1b424b8ee541f11731fd5acdb523b8d2c94",
+      "collected_at": "2026-09-13T17:25:18.050412+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220614000000002104.json",
+      "sha256": "74ee98cd54f8a461c5d7ea0d94efb3cb7295c384084d9bca311665114a067c9e",
+      "collected_at": "2026-09-13T17:27:07.369675+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220628000000002124.json",
+      "sha256": "6c35e09958f7c37a78368b8a1fb196d2c9dcf9133dc645b0cfb3ca6710dd3455",
+      "collected_at": "2026-09-13T17:22:22.556328+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220630000000002130.json",
+      "sha256": "3340528e08898d792dd108b1faa99086cc259717dd65dfa3fe46e21e42154669",
+      "collected_at": "2026-09-13T17:37:37.550537+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220630000000002131.json",
+      "sha256": "4b6a552c18989237d1af9c473d9c40fdc6605a0362313ab4941e3225961253c6",
+      "collected_at": "2026-09-13T17:37:40.589151+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220630000000002132.json",
+      "sha256": "34a925597ede883ad60454865e536a27a997d5f7652b16846ce6f157a88223c7",
+      "collected_at": "2026-09-13T17:37:42.571750+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220630000000002133.json",
+      "sha256": "127e4385cf790f1d45043c2a306f6022d7054a4f303ee64f7533ce72668f568c",
+      "collected_at": "2026-09-13T17:37:39.452724+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220707000000002151.json",
+      "sha256": "861f32fcc2a2e63c61a016d9d04b2d642da538c7ae64020084d1658715f07d28",
+      "collected_at": "2026-09-13T17:36:55.712082+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220711000000002152.json",
+      "sha256": "775baa126c37b88763f653aa47f702dd0d3135be2788869771b079c761b45e5d",
+      "collected_at": "2026-09-13T17:24:48.942183+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220711000000002153.json",
+      "sha256": "65f60e1bc77c22bb968f3831312d9533649f9e7d850b2cf07a2d78bc59180e23",
+      "collected_at": "2026-09-13T17:24:55.962932+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220711000000002154.json",
+      "sha256": "2bf0d2bd0cae4818934bdcceda7217b2e2f2acdc2ce49d0b6262f73cbe97330e",
+      "collected_at": "2026-09-13T17:24:31.910905+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220714000000002159.json",
+      "sha256": "0ff6fff52af0d1bfd8cd0f86ee0ffc10766216083651aef068e7e1ff50eb4b30",
+      "collected_at": "2026-09-13T17:41:03.156199+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220714000000002160.json",
+      "sha256": "577875cb91684121ab2042784b83f4cd58972bb877e58a45781acc9fade38b08",
+      "collected_at": "2026-09-13T17:41:02.090991+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220714000000002161.json",
+      "sha256": "07a4b483b170eda4a512b39136190d9b569dc08338169980537ad5e53613746f",
+      "collected_at": "2026-09-13T17:41:04.100903+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220714000000002162.json",
+      "sha256": "e501cb8ce847f09c7c41ee1dab7fe2f942542299404b2068a98129f07403e128",
+      "collected_at": "2026-09-13T17:41:05.141416+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220719000000002281.json",
+      "sha256": "ccc45d0bef6c8ae46c6b33630bb602402c13be027830f8e9bcd07b7139a42f72",
+      "collected_at": "2026-09-13T17:17:32.991206+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220719000000002282.json",
+      "sha256": "40ddb531e5656006dcd87f41ce4be08a6de26eb8ef53c9244bcc22afde866b38",
+      "collected_at": "2026-09-13T17:16:34.708956+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220722000000002288.json",
+      "sha256": "677ba6fc0f3a2351cf1f8f079b502db461f305e830fcadcaf2e27648f52b420c",
+      "collected_at": "2026-09-13T17:41:01.104581+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220725000000002290.json",
+      "sha256": "bcf861e13bf3dde6820b4be55bbbbd2e790d99acb2769210e3909c6e0d045be6",
+      "collected_at": "2026-09-13T17:23:19.721033+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220728000000002298.json",
+      "sha256": "9a2d224ebcfd32c518225b2fc5a7ec5b701a24de488a2fdb4eae7867918b960f",
+      "collected_at": "2026-09-13T17:40:00.979976+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220728000000002299.json",
+      "sha256": "687985592396f69af0c9000391ad426c6a9505f2ba9c7ac865cf074d0825cb57",
+      "collected_at": "2026-09-13T17:40:29.052823+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220729000000002302.json",
+      "sha256": "d2048b6cb656a7ed018b7b4cfc282e4818a1ed15f41e478a5b9accd4aeb39583",
+      "collected_at": "2026-09-13T17:41:00.103785+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220811000000002306.json",
+      "sha256": "ea68d28650c70e8a66f43b864ff77c51b67d202d4a5e338da704804233772d3b",
+      "collected_at": "2026-09-13T17:22:55.631763+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220811000000002307.json",
+      "sha256": "2c96a3dd362d5789ebe4d3df2faa4669ed404cc99c3cc6453aec435e59f8d81f",
+      "collected_at": "2026-09-13T17:40:58.101875+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220811000000002308.json",
+      "sha256": "737c5165e3613cc22dd966e381c0a9ac8d09013d0a7d81013d9bbb2571245640",
+      "collected_at": "2026-09-13T17:40:57.135676+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220811000000002309.json",
+      "sha256": "7c189a56e4fa19bc783c4200afe12d6c5de49f7dd88c552ce759c3f51dff1bf9",
+      "collected_at": "2026-09-13T17:40:59.121045+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220831000000002344.json",
+      "sha256": "466b5d542ae1565a194beaf74d189ca8e0395537ff6fa216b083c6f505d7a83c",
+      "collected_at": "2026-09-13T17:40:10.009853+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20220831000000002345.json",
+      "sha256": "114d8b41082035793ef3e50aab365d20b51477a4b6f3a692065495e7717ca048",
+      "collected_at": "2026-09-13T17:40:20.169527+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20221212000000002361.json",
+      "sha256": "0b792331980dec8bfa383b118236099d5cb1429754e03f8a50ff83597d8e7b64",
+      "collected_at": "2026-09-13T17:17:14.925093+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230103000000002364.json",
+      "sha256": "913c5303823af8755012114abcadfcdb5548cb13bde5dfab0bbedd70531cc294",
+      "collected_at": "2026-09-13T17:40:31.076071+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230615000000002366.json",
+      "sha256": "5abac6208ed43983bb4520b940ab1bf359a97c07c353045af4fbd1275a3010ac",
+      "collected_at": "2026-09-13T17:40:28.064746+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230720000000002372.json",
+      "sha256": "b1eff551ae04da567c1eae98a29288fc87f68ebc6700d91f391f554d852a0ef3",
+      "collected_at": "2026-09-13T17:23:12.722884+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230724000000002373.json",
+      "sha256": "2253715f3eb002cc67e64a0372067610ba3fbfbf3080f214facc7d7c389758c0",
+      "collected_at": "2026-09-13T17:40:27.083652+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230731000000002376.json",
+      "sha256": "ae52e76fd1b2d03c0290358504b20c74e0e83768cae9132d2780fcf253cf018e",
+      "collected_at": "2026-09-13T17:39:53.964945+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230802000000002380.json",
+      "sha256": "dfe598cc23af0ca1fbdf4f10e2504be786dff99c1b32009dafa0c13b030400fc",
+      "collected_at": "2026-09-13T17:17:29.954025+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230808000000002384.json",
+      "sha256": "ad1f22d7a5f5040fee6fc56307f4a91b9e26523fd5e4a90fa2a2fa06e1446c1f",
+      "collected_at": "2026-09-13T17:22:25.601673+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230808000000002385.json",
+      "sha256": "21fe05b68fa28662de6650dce389b9e52a1fa3f5aac14db2b1b29fa2b351ef6d",
+      "collected_at": "2026-09-13T17:23:06.742977+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230814000000002388.json",
+      "sha256": "9bf0e766494c4f31bfaf769661c946224f8ee9b83aed28f40c4a385644567605",
+      "collected_at": "2026-09-13T17:22:34.588058+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230821000000002390.json",
+      "sha256": "fd563845a7f7eab55f58fc121583c86b97af33442f411e6ad7ccb3c403ff2260",
+      "collected_at": "2026-09-13T17:18:09.108922+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230823000000002397.json",
+      "sha256": "fbe0cc65cac2581f2c44e901daa059b0c5ef1af7e6924f3b07055ab13286011e",
+      "collected_at": "2026-09-13T17:18:26.118349+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230823000000002398.json",
+      "sha256": "e05e9dd846165323e2f4c8fb3daea3a34e133bbdeb50958367e4798cdb12683b",
+      "collected_at": "2026-09-13T17:20:17.175598+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230824000000002401.json",
+      "sha256": "d7818ab28ba2b7cbf464f3ef80bec6705ae11e46ad45c45fad969916efdbde05",
+      "collected_at": "2026-09-13T17:20:21.191715+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230828000000002407.json",
+      "sha256": "c7dfd5abd07ad8a707c955ff822bd21dc2f9cba3fae8bddc3eae139abcc1d675",
+      "collected_at": "2026-09-13T17:38:11.658439+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20230831000000002424.json",
+      "sha256": "a87f8c95b822b70db20db4387201767551905b542ef54ce39f7178238272d77e",
+      "collected_at": "2026-09-13T17:38:56.851903+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240625000000002457.json",
+      "sha256": "8899d15d88a06915320dfa6b868376791f0d6822bd968b1d93fd38fa078adb61",
+      "collected_at": "2026-09-13T17:23:50.792159+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240625000000002458.json",
+      "sha256": "a78c22c4189933c0e0a4d00cce6687f968ce606829e8cf298a5e3e7b045452cd",
+      "collected_at": "2026-09-13T17:17:05.904575+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240627000000002479.json",
+      "sha256": "26b09b2c6b6d9a44b17ccd417c730bd1eecd0ae6f555f8d9d8ac67cc8a56df58",
+      "collected_at": "2026-09-13T17:39:52.956819+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240627000000002480.json",
+      "sha256": "ff493efedf4f9b94a61ff1e0ead5df84600466f2a2780a274e6fd2c234b5b979",
+      "collected_at": "2026-09-13T17:39:52.009383+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002489.json",
+      "sha256": "a143d0b654eda07ad1e2557470f7c8339edabf0c60f359e5640c3ecfa8ce0e8d",
+      "collected_at": "2026-09-13T17:39:46.941870+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002490.json",
+      "sha256": "0c9411596a5885a29bb4a4ca57c255b114945bd59e2508bbe201221b858470b2",
+      "collected_at": "2026-09-13T17:39:45.939442+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002491.json",
+      "sha256": "60008c2e7d4ce5e2e151d9599964fd2ce9362217d65224d88d9c58de1a3ed724",
+      "collected_at": "2026-09-13T17:39:44.990478+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002492.json",
+      "sha256": "166674a7e0ff9c78948c9cedacf9577375cf0b3116cbb3b6ce496d10a04bea75",
+      "collected_at": "2026-09-13T17:39:47.975036+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002493.json",
+      "sha256": "9f6e6bba4c38d056e029a7df8ff3beaff694115b367c52f194791b381947b59e",
+      "collected_at": "2026-09-13T17:39:48.964550+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240701000000002494.json",
+      "sha256": "21e8ef6f8429ce3f62fbdd6c10518ef5e5fc50a792e2055b90072dabd7c39c7f",
+      "collected_at": "2026-09-13T17:39:30.879402+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002508.json",
+      "sha256": "858d36ce1091fa6d36ae25632a9ea2f0c466efe96cdbb270ca41cfa82537ec0a",
+      "collected_at": "2026-09-13T17:24:02.542342+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002509.json",
+      "sha256": "6897c82606607b99b8bbfe58bb7a0e5826c3ca7d128c7c25678eea0a08663c57",
+      "collected_at": "2026-09-13T17:23:57.826779+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002510.json",
+      "sha256": "f8f4436f810dc924f6fbf6ba45eb81b8d097623791ceda960fe96128b9dcb2c7",
+      "collected_at": "2026-09-13T17:24:00.830960+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002511.json",
+      "sha256": "0e931731939c64577edb5fb41c7f4c7d5a00bc5dc9308b8c998ffa34aebf283f",
+      "collected_at": "2026-09-13T17:39:29.903985+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002515.json",
+      "sha256": "e82c9ac8806e54dbbd65c602c4569591b7a8304799affe48e3352ba4203b5e99",
+      "collected_at": "2026-09-13T17:20:52.279436+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002516.json",
+      "sha256": "c0de36911aeaffda9618a09d6173b50d321618428ba8f4b9c01708c58ab3faef",
+      "collected_at": "2026-09-13T17:20:35.229368+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002517.json",
+      "sha256": "3b45256aba7aefd9f672571612d1c54997901d56d247d1f526d5796e8b1d9136",
+      "collected_at": "2026-09-13T17:20:51.283099+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002519.json",
+      "sha256": "c0358a03c986d67bb59f64494c7e34447fa140b04d8dc0d8f2e7fa29aa15aa20",
+      "collected_at": "2026-09-13T17:20:53.291489+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002520.json",
+      "sha256": "6db919d5b4aa113b678628a2490e9df30ac3c8d337397f6d969d21f28d4c1a04",
+      "collected_at": "2026-09-13T17:23:32.761831+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002521.json",
+      "sha256": "dfa4740140267027145b00c19a9d0c84c518fb05bb3bcd256246fd19f1b2d2d7",
+      "collected_at": "2026-09-13T17:33:19.541634+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002522.json",
+      "sha256": "87743b376fc10d295b35ddc3126e87d5170fdad2e11da157460b7e969dc743f2",
+      "collected_at": "2026-09-13T17:33:23.548414+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002523.json",
+      "sha256": "a8b1d078f927179ccee14e99c769d9e0b97a3978e7f818df631145b38af62d8a",
+      "collected_at": "2026-09-13T17:33:37.593592+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002524.json",
+      "sha256": "c287e21da7fee0092267b5d8b553717c96310133c5b3f756ae894a017050d047",
+      "collected_at": "2026-09-13T17:33:21.557840+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002525.json",
+      "sha256": "313e6b193bda07fc09be6d99fb97e301a38cfcaf95659b6f801109cbf93f6b51",
+      "collected_at": "2026-09-13T17:33:26.566603+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002526.json",
+      "sha256": "7a2b0c0b7cb3dd4e77811fc128f22d82e0dd040c426cf0b2e4f9270a756b6371",
+      "collected_at": "2026-09-13T17:33:33.581574+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002527.json",
+      "sha256": "e61efd2098125e99c666c9e9090fa438269537fb8c7f124972d00339ed8597ea",
+      "collected_at": "2026-09-13T17:33:13.540420+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002528.json",
+      "sha256": "9a1b0357861e515e5c0979e8c7d1d008525a95f6f45ce09fa7fed4446c06aae6",
+      "collected_at": "2026-09-13T17:33:36.588613+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002529.json",
+      "sha256": "3f8d088b137952dbfd9dd7e833e535fffed9dfbc4123efa26122400414ee6297",
+      "collected_at": "2026-09-13T17:33:15.531940+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002530.json",
+      "sha256": "e91c1e344fcbe1904be828e89113bab36d0f5f16e60c9e69488361c2213a75e0",
+      "collected_at": "2026-09-13T17:33:38.595234+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002531.json",
+      "sha256": "1d8db57a5a8527e4069bdfd85bfd19a49bbbbfc86235fee15e7fffd6c1ec15c8",
+      "collected_at": "2026-09-13T17:33:39.595887+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002532.json",
+      "sha256": "c0bb2449d9c850574813ce11060f764f7c8ec077cfbff218ffbd7d362c604369",
+      "collected_at": "2026-09-13T17:33:17.563177+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002533.json",
+      "sha256": "447bfb38f5f2938d214cc2b59f6cc6cc7b47e248464e64b60ea830164264a50f",
+      "collected_at": "2026-09-13T17:33:28.578835+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002534.json",
+      "sha256": "cb3d9ffbba3857f7735edbf848bd519a33817ac5857b61c7457a186dda81559c",
+      "collected_at": "2026-09-13T17:33:42.611870+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002535.json",
+      "sha256": "c8e44efd167cd6e90e848bb9e066c80a21a8a9b19d387466b2d41bf7e9302e92",
+      "collected_at": "2026-09-13T17:33:43.612901+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002536.json",
+      "sha256": "26a2326966f18ae1247346c549e58c899400e10521ea8e1035bca0e38c9dd0a8",
+      "collected_at": "2026-09-13T17:33:30.543958+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002537.json",
+      "sha256": "697d2bcc050eb428723968b888e7d8f5747691941864710221f3ce5fff142b6e",
+      "collected_at": "2026-09-13T17:33:44.615082+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002538.json",
+      "sha256": "9614d4458be107ccc8129d4b76042877265f815913dc400620dd891913bfdefc",
+      "collected_at": "2026-09-13T17:33:45.615551+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240702000000002539.json",
+      "sha256": "92888f59d57e608d78d11969541b5445e477cc7df0de6d468a4997ffc75048b5",
+      "collected_at": "2026-09-13T17:33:32.576655+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002541.json",
+      "sha256": "7f47025c03aba263e32b6d11a4e2de67a2e0920f4488c99ff0dd30fddd49f2db",
+      "collected_at": "2026-09-13T17:39:31.915323+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002542.json",
+      "sha256": "e1a68806e32e9a0a8548749ac214afa46d291007fa2a2da0a45631bd911b0fc7",
+      "collected_at": "2026-09-13T17:39:32.933861+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002546.json",
+      "sha256": "a123bdbafc9b335e830ee289f2fc9ffaa2769bbf58c4a9b420fe38993fb29d4b",
+      "collected_at": "2026-09-13T17:18:04.044985+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002547.json",
+      "sha256": "5193178e8032eec4956fee225c047cf23bc4bd0b85e65f59010acb79d6b80c24",
+      "collected_at": "2026-09-13T17:17:58.032254+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002548.json",
+      "sha256": "f376638b291d41f18ab1ae7705982bda6f4c44fd9c3370c2f9335e7149c3702e",
+      "collected_at": "2026-09-13T17:18:10.061644+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002549.json",
+      "sha256": "35a4664246d07a5d02432d5cd2328f8cfd16b08c7fc9d837fbe9334adbaa0423",
+      "collected_at": "2026-09-13T17:17:37.990989+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002550.json",
+      "sha256": "e3d58ec2ca9034c9379c933f77f2e45291a385cc620cfd4156d5b7b1c1c6a0b5",
+      "collected_at": "2026-09-13T17:17:34.996556+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002551.json",
+      "sha256": "550454618b8f9fbd422b712a76ed40e1242cc2550fd4c79021f7958b3a4fe713",
+      "collected_at": "2026-09-13T17:23:41.768528+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002552.json",
+      "sha256": "cb1c0a291138addb2bf5d2a488cc4f50859491ce1724bfb2abdddb21fc3ae4ca",
+      "collected_at": "2026-09-13T17:23:43.782436+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002553.json",
+      "sha256": "ac80c2e9d4a64cb55e8cb2cfd2878faa941d8f2f866312b07b8fd2dea271384c",
+      "collected_at": "2026-09-13T17:23:35.756622+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240703000000002554.json",
+      "sha256": "a0ecf3898536e287009b7bc89cecf3e7e0a5e1c392082a3bd724f23f88394c68",
+      "collected_at": "2026-09-13T17:37:50.609926+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002556.json",
+      "sha256": "02d347b8af6d721f36ecf8bbef3658593a426f64a6d3d01154ee7b1f56759a45",
+      "collected_at": "2026-09-13T17:18:48.190381+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002557.json",
+      "sha256": "c95c996969922eb9653b0b520108285bc9f3f596225449bff7aa52031d13ccb3",
+      "collected_at": "2026-09-13T17:18:57.186758+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002558.json",
+      "sha256": "d5649b417eccb2c9b33a69174aada8a9603f0efa11d88fbccae5e616b56df304",
+      "collected_at": "2026-09-13T17:18:54.194031+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002560.json",
+      "sha256": "0a8e79259db79723043b6bac5480588402a24f6c39498991be8c44dd0df91467",
+      "collected_at": "2026-09-13T17:18:40.161326+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002561.json",
+      "sha256": "3935f628e811bae1472cf9ad497d71ad095f3842c5e2340d760faf2545b7effb",
+      "collected_at": "2026-09-13T17:18:35.132869+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002562.json",
+      "sha256": "5156eed7add4e5793795466f9e938bd7f49dfdd55447b97c2b7a647c751bd97e",
+      "collected_at": "2026-09-13T17:18:32.124213+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240704000000002563.json",
+      "sha256": "d5395969de7c6bf643870773052a3bd9ccf79fad4dcae26037394bd405ffd8f6",
+      "collected_at": "2026-09-13T17:18:31.132060+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240708000000002580.json",
+      "sha256": "c50cd7a87dc4d1ee6946c3189168497da82cbde75c23b5e4ac813f8f7e7d0b35",
+      "collected_at": "2026-09-13T17:16:34.710355+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240715000000002583.json",
+      "sha256": "1686976a71c67cc3e48ec86c47bdcbd4a32a2365a4d55b0d1ccf33f208060ed6",
+      "collected_at": "2026-09-13T17:38:08.633776+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240716000000002585.json",
+      "sha256": "342ff4116c667779655fe5dfcdb43e4b22e92e9a7346ca39d634813f7565c2e4",
+      "collected_at": "2026-09-13T17:20:54.295902+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240717000000002586.json",
+      "sha256": "3288f53df7d27282c2be03d9f9fd026ee68fdfbeb0d320a2cb07fc8bd0d86763",
+      "collected_at": "2026-09-13T17:39:28.905151+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240717000000002587.json",
+      "sha256": "2e0f59fde377b9664fe15ff821e1dffc61a206110a2bfd5c7fad21af0f9c7749",
+      "collected_at": "2026-09-13T17:34:01.652216+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240724000000002592.json",
+      "sha256": "ffe09f0eb41505ade37c7f63ec7b4f6a61b6b6f31253786cb8e21bdfbe5187d4",
+      "collected_at": "2026-09-13T17:37:32.777766+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240724000000002593.json",
+      "sha256": "ae5780bb2b1df709db43ebc93e663a76efae8494f2403be468c6eb89b7f57895",
+      "collected_at": "2026-09-13T17:24:04.831331+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240724000000002594.json",
+      "sha256": "d34b06eea0a7119336213ea5190c317424049890ee5a3333ad58e9c933ddc05e",
+      "collected_at": "2026-09-13T17:34:02.662356+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240724000000002595.json",
+      "sha256": "5592ddba2c7f93ee18e17cfa0ba150f846a1064cc6f398005ea1c335684c58a0",
+      "collected_at": "2026-09-13T17:25:02.977415+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240725000000002598.json",
+      "sha256": "a05bab4641e8699850ed437e7f0059c5df519e76d6149511e541e65de0ccd7ad",
+      "collected_at": "2026-09-13T17:17:09.908135+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240729000000002602.json",
+      "sha256": "d5f6a0d9b5622e7220d781dd1e34c008fc3bc69d67cb0ab0e9dd58e1a123f461",
+      "collected_at": "2026-09-13T17:39:06.871731+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240729000000002604.json",
+      "sha256": "2bf8ae3cbd49566f02b070a8b773a30f4125ec3ba2bf61e1b5df1734f69a761e",
+      "collected_at": "2026-09-13T17:39:07.832981+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240731000000002605.json",
+      "sha256": "15f58a7486bcf7b4c35e752104cf9934a7b929b43eebca340de5cd81a82cbf57",
+      "collected_at": "2026-09-13T17:39:05.853266+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240806000000002606.json",
+      "sha256": "a8c2d4681b7de63813b071c7ffa7ac9b14e4f8e08c59d00e4b1a83ee9e25fd10",
+      "collected_at": "2026-09-13T17:39:04.836162+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240806000000002607.json",
+      "sha256": "f9b31ca5c93ddee1fae5f3d9d565b3aab1251a720ae5a7e918cfb04f5a5981cc",
+      "collected_at": "2026-09-13T17:39:03.833123+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240806000000002608.json",
+      "sha256": "a6d80dcd8fd55c42b7693a8bedbcda1fd54e130efec7452f11736cb4160191d0",
+      "collected_at": "2026-09-13T17:39:02.829100+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240806000000002609.json",
+      "sha256": "59af280d362a3caf5f1c50b1e123a6c410ff4369e8a81253b0d0c942c8830c28",
+      "collected_at": "2026-09-13T17:39:01.821151+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240806000000002610.json",
+      "sha256": "58faca7553e90d0bfedc67395aec455520a4d9683749bc44eaa045a8ca00072e",
+      "collected_at": "2026-09-13T17:38:59.836826+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240818000000002619.json",
+      "sha256": "8426afbe153e1010cf4d0e9b8ea25151d68cdf94c082cc9a55b45b73ed4a3b62",
+      "collected_at": "2026-09-13T17:38:58.804815+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240822000000002621.json",
+      "sha256": "314b78062b716dd4e473b624b33eec994b4a7d124d3db319a11b807be3bba783",
+      "collected_at": "2026-09-13T17:38:44.771842+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240826000000002622.json",
+      "sha256": "e15e7a2860afaf8571793754dd6313f4f748af4c6bf3a664393fa154f2c89dc4",
+      "collected_at": "2026-09-13T17:17:11.235806+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240827000000002623.json",
+      "sha256": "b79d88f79f14157678512595d9d776a65ce4e2eac724e1b53eef8f74634189e2",
+      "collected_at": "2026-09-13T17:36:40.246344+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240830000000002630.json",
+      "sha256": "44f4caef82f0bcf379661ab145331abca95c8785674be0cb16cc86f0c8267a4e",
+      "collected_at": "2026-09-13T17:38:53.802146+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240903000000002631.json",
+      "sha256": "05ecc7b1a505532c13fbcb612d9f9a359b843f22b6a83f35d83c8ecbfcdf1e16",
+      "collected_at": "2026-09-13T17:16:34.868446+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002634.json",
+      "sha256": "3443cf6789e724179d1a4780548b80fd7863d355bb1e0ad7ef6a7c328c427a47",
+      "collected_at": "2026-09-13T17:38:52.827104+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002635.json",
+      "sha256": "7570d77cc4c6599ba2d857fb852d756ff96ac3a9d51850cb1bf9ce0f9a420241",
+      "collected_at": "2026-09-13T17:38:45.828912+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002637.json",
+      "sha256": "956a87a8132b0e67849c01686fd15082f37860c5c9bd0bfd2b0ec87fbf47d42d",
+      "collected_at": "2026-09-13T17:38:51.838647+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002638.json",
+      "sha256": "3938b14bf4d91c1d88002e0a539ae3058a55c5b6a1b9a64041f3936556c14115",
+      "collected_at": "2026-09-13T17:38:50.810286+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002639.json",
+      "sha256": "3c8e40831bb79ceb2e0af94e8e0baf95d79784576a24b8a61fe5b2187f7a987f",
+      "collected_at": "2026-09-13T17:38:47.856194+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20240912000000002640.json",
+      "sha256": "9c601b396fd18708b720936ea433ff7f1146a68becc98f6d26ebc66ae88f8ea1",
+      "collected_at": "2026-09-13T17:38:48.820579+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250117000000002651.json",
+      "sha256": "352f1b367d209c831ff0d65630588a6035f18a9cb2c79673deeee8094806b9ea",
+      "collected_at": "2026-09-13T17:38:10.671468+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250212000000002654.json",
+      "sha256": "28f6e9fa3bbc8c8cfd4f43f82ee26cb62396af091963fa8ad8b2607f70a6261e",
+      "collected_at": "2026-09-13T17:22:58.689988+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002667.json",
+      "sha256": "3dab0855f69215e47ddda92ca743edc308923dbbd24f6ce3e4d0f0a0fcc610b9",
+      "collected_at": "2026-09-13T17:38:19.978249+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002668.json",
+      "sha256": "9ba50c80f3c97137ef25481b95e59a3a0f427fd10ad374771c0762a31910b542",
+      "collected_at": "2026-09-13T17:38:09.651520+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002669.json",
+      "sha256": "db27fccd9cb5a96f7ad30dbb1b188e922b8c2e74169563bdeb59c11886512e89",
+      "collected_at": "2026-09-13T17:38:00.614608+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002670.json",
+      "sha256": "89fb9af823fbfc42b8f84df2cad52de61a1965fd62b5949c257d36b20668447c",
+      "collected_at": "2026-09-13T17:38:18.752050+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002671.json",
+      "sha256": "a6f22d85bdb9c57cade4a7456c2292996c2cd885913e465d4f820c6106234778",
+      "collected_at": "2026-09-13T17:38:17.743353+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002672.json",
+      "sha256": "310de2286cbd2f638277e7bd0a62e0db5bff840452896ab6dfbbceee1fc9454f",
+      "collected_at": "2026-09-13T17:38:16.668958+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002673.json",
+      "sha256": "0b26bf43f2e3f53bc0b92afc14902cdb4b08dcf6d5da792df1f8633bca844f9c",
+      "collected_at": "2026-09-13T17:38:15.730108+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250224000000002674.json",
+      "sha256": "9db569545f08025e161ca7ac2f18c61aca333a1c6088c78a4bd97c34f7a00599",
+      "collected_at": "2026-09-13T17:38:13.655724+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250424000000002676.json",
+      "sha256": "aa327040c932bec1b73a47e0688879eadfe2e74be0e095359092526d54a964a7",
+      "collected_at": "2026-09-13T17:33:47.643337+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002683.json",
+      "sha256": "aaf473b354aa9bf6a0e6371ac4e110d2457ebcc7b4858c314ffeb6f5a0abf8e3",
+      "collected_at": "2026-09-13T17:38:07.763246+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002684.json",
+      "sha256": "4ccba7cdbec491d2fb91e79e55ca7eae58ac60a3e0fff36677e13ad51c355683",
+      "collected_at": "2026-09-13T17:38:06.639730+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002685.json",
+      "sha256": "515579a8f4b2653cfc3bca06f4178199661c303bcf72c12374491cf1b568374e",
+      "collected_at": "2026-09-13T17:38:05.891841+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002686.json",
+      "sha256": "d18b0005029e75b5c7023695e87db05fdff15d626c884960ba17ca6abad03d9b",
+      "collected_at": "2026-09-13T17:38:04.635216+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002687.json",
+      "sha256": "45bd3a215f230522d01f2c528c2c94583dffbcc1aa852f676c47b40495a3de3c",
+      "collected_at": "2026-09-13T17:38:03.608323+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250721000000002688.json",
+      "sha256": "28dfca71534c001b8f759b6e03e190c21692518d6b137b70c5b47d34c61e58aa",
+      "collected_at": "2026-09-13T17:38:02.632435+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250807000000002693.json",
+      "sha256": "899511dc4c5022c953a9c5330e5db88401b5aa14676cd52e153d30fc7963e9d1",
+      "collected_at": "2026-09-13T17:38:02.292269+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250814000000002696.json",
+      "sha256": "02586fd43eb192a16267b430fc53c1a19e08c8151d9929f664d4758a25a80bc1",
+      "collected_at": "2026-09-13T17:37:55.612008+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250822000000002698.json",
+      "sha256": "c80da02e9c9e359348ab36c5de425edad1b708168ffee561458ca60d5ae4f4ec",
+      "collected_at": "2026-09-13T17:20:47.260828+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250822000000002699.json",
+      "sha256": "32fc9d9695faa6a9fafd7bb659d37bdc95e3cd105c20c2514756d9994d49f297",
+      "collected_at": "2026-09-13T17:20:33.224907+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250822000000002700.json",
+      "sha256": "9d7dc708c5d6bffc0e9269c2f3757727a2e9e012bec9c930059bade77a95a33f",
+      "collected_at": "2026-09-13T17:22:32.594581+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250822000000002701.json",
+      "sha256": "ac50a9c1e8c7198864ae901135199c3c567aa8d80ce76a4b6b85403e92f443e4",
+      "collected_at": "2026-09-13T17:22:30.582813+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250822000000002702.json",
+      "sha256": "36bfa44a0a84abd94ebaaa4c5848ef7d02601cd908264bec320f5acdd8088ba2",
+      "collected_at": "2026-09-13T17:37:03.459476+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250825000000002703.json",
+      "sha256": "1a9c68e73e86452230e0139d76c0ba890ac63e51a6f0f8ddff1677ca128adb31",
+      "collected_at": "2026-09-13T17:36:51.374108+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250828000000002705.json",
+      "sha256": "730cbd425a984412ed6262491d8e3cffbc98a817faa017a3f7ec0e386862a246",
+      "collected_at": "2026-09-13T17:21:23.388181+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250828000000002706.json",
+      "sha256": "027f2a72d137702cad22fe6e533381d277ab4b7da2340f36f58b9dc075bcaa1f",
+      "collected_at": "2026-09-13T17:27:04.363157+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002709.json",
+      "sha256": "b366696934fd67d34e6d7b96ec2d701842cf0f1c2c2b991c401bd08a57f85d2e",
+      "collected_at": "2026-09-13T17:32:20.382727+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002710.json",
+      "sha256": "bf34b65d283aa296df82b63bca0547b12603ca31e0ee79e4d42ac0d607fc99f9",
+      "collected_at": "2026-09-13T17:32:24.395980+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002711.json",
+      "sha256": "ca28fac7543c4f08eb50d28e1a238d849475a1d5138c3af36467b2e48975872d",
+      "collected_at": "2026-09-13T17:32:25.386420+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002712.json",
+      "sha256": "867c6df4808904e422533695a61d29b38ccf1605e4bde001d71e95f5526f4780",
+      "collected_at": "2026-09-13T17:32:26.393520+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002713.json",
+      "sha256": "c4279c77c9e8d36170e094f6885c70575521bc7bc0755d1b81c5ed6a59701a86",
+      "collected_at": "2026-09-13T17:32:27.411826+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002714.json",
+      "sha256": "8b8c6a093c6490934988e4997c5530e041b2f952cba67634c78612d0edcc0015",
+      "collected_at": "2026-09-13T17:32:28.421033+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002715.json",
+      "sha256": "8849a94b0afc6e1a41ff2483f96074d5ac7ea966c8fe3e32adf131505ce7965b",
+      "collected_at": "2026-09-13T17:32:29.431342+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002717.json",
+      "sha256": "d40a0b63cec5fb8d5dbf8ad3b01d36e59bbb4115a11dea2088b6b01b66df93c7",
+      "collected_at": "2026-09-13T17:32:30.412120+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002718.json",
+      "sha256": "6cfd9370ffdf788a1d508f1ea63fb9027072bc47c712578396bbc05ab4259ef8",
+      "collected_at": "2026-09-13T17:32:32.412220+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002719.json",
+      "sha256": "336eaba25114e97b438a6f948259bc8bacc621df9a22c1f3a63f1dc2a856d7df",
+      "collected_at": "2026-09-13T17:32:33.417931+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002720.json",
+      "sha256": "a7b97152d3745ea5996d79abfb9a54a4f1680f5d8096f7fab6c068734672537b",
+      "collected_at": "2026-09-13T17:32:34.412860+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002721.json",
+      "sha256": "82e89a0c17a3a82229b57efce8c38519763db444ae708970675c6d3bfe9e5edf",
+      "collected_at": "2026-09-13T17:32:35.428740+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002722.json",
+      "sha256": "c246e7f9f9442aaca7385b7aaa34054a1a8488893bc90de5ca2711143eb22984",
+      "collected_at": "2026-09-13T17:32:37.646520+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002723.json",
+      "sha256": "74c607cb423fe6210215635e011480ca8b3c6634bb0f2bdf9749c0e906dc8e72",
+      "collected_at": "2026-09-13T17:32:38.440655+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002724.json",
+      "sha256": "4266383d36c44c1c0f67edb94db1256c132738dc14b20912f890f3746d66545d",
+      "collected_at": "2026-09-13T17:32:39.437744+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002725.json",
+      "sha256": "a5336efcdfac94ca4976b9cefe22c8430740cfb0480f2f547a88567fb1755541",
+      "collected_at": "2026-09-13T17:32:40.434223+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002726.json",
+      "sha256": "dc32eea5676c7d633c58a0668a66b767ee9c09702768890f004bb60d55eef6d2",
+      "collected_at": "2026-09-13T17:32:41.440579+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002727.json",
+      "sha256": "ba0b59689a93edb40766367d193401b6413b9d571fb3dd60aa0389735ca55832",
+      "collected_at": "2026-09-13T17:32:42.433912+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002728.json",
+      "sha256": "f9a56c1dc834d9d18db6e1528b074ed840794bf2c197a51e3f23ad30ed9a23e8",
+      "collected_at": "2026-09-13T17:32:43.442530+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002729.json",
+      "sha256": "2bedf7de5f8a913c6bedcbff0d5f98305ca6ccc19909a9dfb68c3bb2c32cca4d",
+      "collected_at": "2026-09-13T17:32:44.455325+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002730.json",
+      "sha256": "edfb9fc194fefb3109f95cd635fcb7534801a76ecbdcde8124a05875d498a6cf",
+      "collected_at": "2026-09-13T17:32:45.465288+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002731.json",
+      "sha256": "9eaf1216715a4349f9b30823f25007edec86efce7abef03bf44f08d3fab6ae9e",
+      "collected_at": "2026-09-13T17:32:46.462430+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002732.json",
+      "sha256": "5be4670e612c5fab3f280f0764885c7306b558cfb66ca1cf832d7d58c0a201d1",
+      "collected_at": "2026-09-13T17:32:47.449786+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002733.json",
+      "sha256": "4a3b03203e92f769b3087b7ab65700a53419c16aed3e7b7fc197f9c2d6696e53",
+      "collected_at": "2026-09-13T17:32:48.454524+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002734.json",
+      "sha256": "764765b3b31bf6eaa68671bf6d1ff20952e1dbd7a1caabf2ff5e75a153044f92",
+      "collected_at": "2026-09-13T17:32:49.468750+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002735.json",
+      "sha256": "2c1350cac7785c6460853ba61bc52d9704b8285f17570a466fd25a6745724619",
+      "collected_at": "2026-09-13T17:32:50.460313+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002736.json",
+      "sha256": "54e5b91d64329895fee2976c0916d38e175d3707931cc6110458cdd5d199bec4",
+      "collected_at": "2026-09-13T17:32:52.467122+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002737.json",
+      "sha256": "ee04aed8f9139ff84961089167eedac934c063caab1201b9d7d4244fbfeba10b",
+      "collected_at": "2026-09-13T17:32:54.480799+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002738.json",
+      "sha256": "8f394254d7a0da9e9262db586bcda945d8ca117a1ddf32381282826ca8e801ae",
+      "collected_at": "2026-09-13T17:32:56.481914+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002739.json",
+      "sha256": "6a7498a32ff0623600ff4772b765f1f85d8fdc1bca7ecbe4d8136dabd895fcd6",
+      "collected_at": "2026-09-13T17:32:58.452173+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002740.json",
+      "sha256": "88977a0a06104757e51025b43c8a6f068c4d2e3ae0e7b5f896d16bdced7513c4",
+      "collected_at": "2026-09-13T17:33:00.509579+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002741.json",
+      "sha256": "57caef960c423ba1895ff16838a8d005c8dabeb1606fe8e838c48990f37d1962",
+      "collected_at": "2026-09-13T17:33:02.497840+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002742.json",
+      "sha256": "7630f6e89dcd69dd2cced283497748a47e8d26b902ef7f1bc25e689ffc4eb1d4",
+      "collected_at": "2026-09-13T17:33:04.528191+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002743.json",
+      "sha256": "d27ace8abfd8e42e0ac81bb02d1123ed6db4c3d5af3c22623af0007f83c983b7",
+      "collected_at": "2026-09-13T17:33:05.512052+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002744.json",
+      "sha256": "f258f4322d7076bce13e3eef70686546a6c84380778ca232a356399dc6e4f164",
+      "collected_at": "2026-09-13T17:33:07.528961+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002746.json",
+      "sha256": "1e38a3de17d4e2977dafbcfcaf73ed458132dde3bc7de4f0b88a041eb5687872",
+      "collected_at": "2026-09-13T17:17:02.891632+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002747.json",
+      "sha256": "9af2c682bd78b5c15639aa6d28feaffd6514b7675c27b3eb8157f399ae07384f",
+      "collected_at": "2026-09-13T17:27:05.364535+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002748.json",
+      "sha256": "046cb95979c798207110a6b7a0e7f18dbe25f4919054f661af9fa2b0cf4bc0ca",
+      "collected_at": "2026-09-13T17:16:54.898661+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250904000000002749.json",
+      "sha256": "52223e0777cc99e0527db192f537d765afa4016e7a2fcf099aa605a6b9ae5efe",
+      "collected_at": "2026-09-13T17:17:01.883716+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250918000000002751.json",
+      "sha256": "6131e05db2d59cfb3630b2a648be7cf6c850fb77230786275063b2fde3dcdcfc",
+      "collected_at": "2026-09-13T17:34:14.689576+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20250929000000002759.json",
+      "sha256": "f716ec7ae3d5050f5c7b71a9543f5d62dfe8ea9c911616ef9f368fd996da86b7",
+      "collected_at": "2026-09-13T17:17:11.926192+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260113000000002966.json",
+      "sha256": "c51a1b4a87c03bb970787b289329a9105f50e37742873076f866ef95d1048689",
+      "collected_at": "2026-09-13T17:33:50.633125+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260127000000002968.json",
+      "sha256": "0b53996a052d9a3f4697a3122a1745148073e30aaef348c0a19bf81a91c36dec",
+      "collected_at": "2026-09-13T17:33:11.552799+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260127000000002969.json",
+      "sha256": "ede398d05ed4a02c3fd8067c6b633ea636b59020458f8f77cef24166103a3691",
+      "collected_at": "2026-09-13T17:33:10.515388+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260127000000002970.json",
+      "sha256": "d5a21fa39d9d30e4ffc42b1cb72fda9f12132eb6d4489aef0af5571c963d5acb",
+      "collected_at": "2026-09-13T17:33:09.539213+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260624000000002988.json",
+      "sha256": "f4be11d291883e66269c3c4cd1c0b071e18a4e6b750df9ca2b1ed240296ee229",
+      "collected_at": "2026-09-13T17:23:56.803950+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260810000000002993.json",
+      "sha256": "f0b16395234fcf2077724aae52758b2f161d94e36240f03ce081d927cfed9e2c",
+      "collected_at": "2026-09-13T17:22:57.661542+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260814000000002996.json",
+      "sha256": "478842b96151b8e0d209387402e3b3d21a6db01dc80c69f8e123575905cc1dd1",
+      "collected_at": "2026-09-13T17:22:13.525129+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260814000000002997.json",
+      "sha256": "ebf80388cc7f7fe2f42210ca55ef0f73175153a11286d290df6d8bda0c60c99c",
+      "collected_at": "2026-09-13T17:22:12.515036+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000002998.json",
+      "sha256": "b87be70294e8f529b39434db89e1de2eb8c3850320a38b9512af49c33d818781",
+      "collected_at": "2026-09-13T17:20:46.269525+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000002999.json",
+      "sha256": "7c5ed56dcdee724d8a5ec699264c4b4187957ac534aa91862bba09601345dc95",
+      "collected_at": "2026-09-13T17:20:36.254565+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000003000.json",
+      "sha256": "44260d5ff5c6d54b16a66acbba7c5457dac4aefaae08aba7746c1039bea2a157",
+      "collected_at": "2026-09-13T17:20:37.253996+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000003001.json",
+      "sha256": "feae614a8c1021e788c7369a4112124dc7bb85efa4bf79e97e520901e355d5e1",
+      "collected_at": "2026-09-13T17:20:39.239717+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000003002.json",
+      "sha256": "7476a04e7726d4d7c659a1df4b27f1e7343ffe5e4bf13d3b35ac48862c1e447f",
+      "collected_at": "2026-09-13T17:20:41.243630+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260818000000003003.json",
+      "sha256": "006e68cc3199ddc7cb0df49f977cb61550377b6f1400c98500708eb6e8956b49",
+      "collected_at": "2026-09-13T17:20:43.256940+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260819000000003004.json",
+      "sha256": "3bee877ed87574ea861be353d4491fc426bb773989bfe1c9c735bc9c272120ff",
+      "collected_at": "2026-09-13T17:16:40.138156+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260820000000003006.json",
+      "sha256": "1952764cfba5c51ee97156814212301418734fd54e4db9b1e938b12c6e9d04f9",
+      "collected_at": "2026-09-13T17:20:15.177457+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260820000000003007.json",
+      "sha256": "7809c274fc86f68f974262e6d699e698d4c30a97ba7a10590b8d9dfce8d4705c",
+      "collected_at": "2026-09-13T17:20:12.312620+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260820000000003008.json",
+      "sha256": "5856bc89ae6ce787aaa6fa98726fbf95dd35d06ec93eb5fa33c457c29b0aeac9",
+      "collected_at": "2026-09-13T17:20:11.062804+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260824000000003011.json",
+      "sha256": "efc222569dbbcd3f57bd2c78251c088102f7541d67e334f29506c3d0d08faae4",
+      "collected_at": "2026-09-13T17:17:19.937111+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260825000000003012.json",
+      "sha256": "78e57c19d5e0dd97ce9972d1bcb2ec8271c89dc2ac5097c632ce1e951517fba7",
+      "collected_at": "2026-09-13T17:17:22.942981+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260825000000003013.json",
+      "sha256": "4576402bfd58ad078a5b711c0fc0a9de6332b0188145447486689b8d6b8e30e5",
+      "collected_at": "2026-09-13T17:17:24.081262+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260825000000003016.json",
+      "sha256": "7cbbcca95b1790890215fb2c3e272f4bfd06d26c5376b6d4173e4e4bc50951f7",
+      "collected_at": "2026-09-13T17:16:46.854619+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260827000000003019.json",
+      "sha256": "4e30d0e43bac749f6cc7a974b8564dc06567076773ec67b6e5615c6c851094ea",
+      "collected_at": "2026-09-13T17:16:40.964110+00:00"
+    },
+    {
+      "path": "mafra-file-previews-FILE-20260901000000003021.json",
+      "sha256": "80f5d1432d4b7214fe361b3671a848bb7f2352969ccbdb691f6b73b769b7e305",
+      "collected_at": "2026-09-13T17:16:38.833239+00:00"
+    }
+  ],
+  "snapshot_scope_note": "Only files named here; subsequent worker output is not covered.",
+  "national_complete": false,
+  "all_columns_complete": false
+}

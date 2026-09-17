@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-13T17:21:14.716628+00:00",
+  "targets": [
+    {
+      "target_public_data_pk": "15069613",
+      "url": "https://www.data.go.kr/data/15069613/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069613",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069619",
+      "url": "https://www.data.go.kr/data/15069619/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069619",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "3072161",
+      "url": "https://www.data.go.kr/data/3072161/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-3072161",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069590",
+      "url": "https://www.data.go.kr/data/15069590/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069590",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15018037",
+      "url": "https://www.data.go.kr/data/15018037/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15018037",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069637",
+      "url": "https://www.data.go.kr/data/15069637/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069637",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069582",
+      "url": "https://www.data.go.kr/data/15069582/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069582",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069636",
+      "url": "https://www.data.go.kr/data/15069636/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069636",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069635",
+      "url": "https://www.data.go.kr/data/15069635/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069635",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    },
+    {
+      "target_public_data_pk": "15069598",
+      "url": "https://www.data.go.kr/data/15069598/openapi.do",
+      "evidence_id": "hrdk-unresolved-target-15069598",
+      "fetch_status": "fetch_unresolved",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "observed_title": null,
+      "body_text_excerpt": null,
+      "target_dataset_identity_verified": false
+    }
+  ],
+  "all_links_resolved": false
+}

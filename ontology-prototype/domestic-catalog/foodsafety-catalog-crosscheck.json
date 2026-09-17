@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-13T18:11:00.848580+00:00",
+  "source_filter": "API_TYPE06",
+  "source_reported_total": 169,
+  "unique_ids": 169,
+  "matches_api_ids_in_unfiltered_catalog": true,
+  "missing_from_unfiltered": [],
+  "missing_from_filtered": [],
+  "page_receipts": [
+    {
+      "evidence_id": "foodsafety-api-filter-size50-page1",
+      "page": 1,
+      "total": 169
+    },
+    {
+      "evidence_id": "foodsafety-api-filter-size50-page2",
+      "page": 2,
+      "total": 169
+    },
+    {
+      "evidence_id": "foodsafety-api-filter-size50-page3",
+      "page": 3,
+      "total": 169
+    },
+    {
+      "evidence_id": "foodsafety-api-filter-size50-page4",
+      "page": 4,
+      "total": 169
+    }
+  ],
+  "legacy_home_api_count_as_reported": 172,
+  "september_notice_api_count_as_reported": 171,
+  "scope_or_date_differences_resolved": false,
+  "all_portal_catalogs_complete": false
+}

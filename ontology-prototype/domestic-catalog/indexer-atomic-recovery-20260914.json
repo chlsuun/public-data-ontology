@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-14T14:09:33.155479+00:00",
+  "original_error_log": ".local/domestic-catalog/indexer-supervised-20260914T110304.stderr.log",
+  "observed_error": "Windows PermissionError WinError 5 on atomic replacement of inventory/domestic-portals.json",
+  "root_cause": "not_confirmed; temporary file-sharing interference is a possible cause",
+  "supervisor_first_recovery_at": "2026-09-14T13:47:26Z",
+  "supervisor_first_recovery_pid": 2316,
+  "fix": "Bounded retries for WinError 5/32/33, atomically replacing only after success; permanent failure still raises.",
+  "test_report": "atomic-write-retry-check.json",
+  "old_indexer_gracefully_exited_after_report": "2026-09-14T14:04:59.873307+00:00",
+  "temporary_stop_flag_removed": true,
+  "fresh_indexer": {
+    "name": "indexer",
+    "pid": 28112,
+    "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py",
+    "arguments": [
+      "--watch",
+      "--interval",
+      "300"
+    ],
+    "log_prefix": "indexer-supervised-20260914T140628",
+    "pid_is_only_a_hint_verify_commandline": true,
+    "not_before_utc": "2026-09-14T14:11:28.5184461+00:00"
+  },
+  "current_error_log_bytes": 0,
+  "collection_workers_restarted": false,
+  "source_catalog_rebuilt": false
+}

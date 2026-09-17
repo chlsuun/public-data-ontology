@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-09-13T16:29:11.310359+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "all_14_code_tables_and_461_rows_match_originals",
+      "passed": true,
+      "details": {
+        "inherited_cells_checked": 292,
+        "errors": []
+      }
+    },
+    {
+      "name": "code_leading_zeros_and_overlapping_age_groups_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "year_context_retained_for_reused_codes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "multiple_coordinate_codes_not_silently_split_or_equated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "35_parameter_code_references_grounded_without_cross_portal_equivalence",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "out_of_bounds_merged_cell_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "code_rows_not_added_to_sgis_output_field_count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_126_pages_unique_ids_and_independent_count_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeju_all_catalog_parameter_and_file_metadata_trace_to_source",
+      "passed": true,
+      "details": {
+        "response_fields": 686,
+        "request_parameters": 331,
+        "api_registrations": 93,
+        "file_metadata_occurrences": 2240,
+        "errors": []
+      }
+    },
+    {
+      "name": "jeju_all_api_directions_and_file_roles_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "default_anonymous_catalog_includes_auth_flagged_records",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_full_national_or_column_completion_claim",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "source_receipts_checked": 142,
+  "scope": "SGIS referenced code tables and Jeju anonymous public catalog snapshot. No observation quality, institution identity or statistical relationships validated."
+}

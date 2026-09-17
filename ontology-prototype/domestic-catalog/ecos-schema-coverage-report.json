@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-13T09:08:32.090066+00:00",
+  "scope": "ECOS 공개 통계코드검색 트리의 통계표별 분류와 코드 응답",
+  "expected_tables": 681,
+  "observed_tables": 681,
+  "missing_tables": [],
+  "status_counts": {
+    "statistical_definition_observed": 679,
+    "statistical_definition_observed_codes_unresolved": 2
+  },
+  "classification_fields": 1182,
+  "classification_code_occurrences": 38957,
+  "tables_with_all_response_counts_reconciled": 679,
+  "unreconciled_table_ids": [
+    "903Y003",
+    "903Y203"
+  ],
+  "all_columns_complete": false,
+  "raw_values_analyzed": false,
+  "count_note": "코드 수는 분류별 출현 횟수이며 칼럼 수에 합산하지 않는다. 공개 응답의 개수 대조는 전체 시스템 또는 실제 값 검증이 아니다."
+}

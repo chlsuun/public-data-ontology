@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-13T10:51:24.732354+00:00",
+  "scope": "이번에 관측한 출처 문서 QA; 실제 데이터 값의 품질 점수 아님",
+  "observations": [
+    {
+      "portal_id": "opendart",
+      "category": "catalog_consistency",
+      "guide_api_count": 85,
+      "introduction_post_count": 83,
+      "status": "source_views_disagree",
+      "source_report": "opendart-catalog-report.json"
+    },
+    {
+      "portal_id": "opendart",
+      "category": "definition_consistency_candidate",
+      "dataset_key": "2019001",
+      "field": "total_count",
+      "name_as_reported": "총 건수",
+      "description_as_reported": "총 페이지 수",
+      "status": "requires_source_or_human_review",
+      "evidence_id": "opendart-detail-2019001",
+      "locator": "table[3].tbody.tr[5]"
+    },
+    {
+      "portal_id": "address",
+      "category": "content_type_consistency",
+      "declared_content_type": "application/json",
+      "observed_file_signature": "PK ZIP archive",
+      "status": "declared_mime_differs_from_body",
+      "evidence_id": "address-map-guide-2021"
+    },
+    {
+      "portal_id": "address",
+      "category": "identifier_case_consistency",
+      "parameter_in_table": "Keyword",
+      "parameter_in_example": "keyword",
+      "status": "requires_source_or_human_review",
+      "evidence_id": "address-map-guide-pdf-2021",
+      "locators": [
+        "PDF page 10 parameter table",
+        "PDF page 15 example"
+      ]
+    }
+  ],
+  "data_quality_scores_assigned": false,
+  "source_definitions_silently_corrected": false,
+  "statistical_values_checked": false
+}

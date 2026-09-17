@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-13T09:48:19.617629+00:00",
+  "cached_documents_examined": 2245,
+  "embedded_specs_reparsed": 255,
+  "documented_response_field_occurrences": 13254,
+  "parse_errors": [
+    {
+      "dataset_key": "15005257",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15007009",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15009684",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15015163",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15015164",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15027426",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15033496",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041698",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041699",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041700",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041703",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041766",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041768",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041769",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041772",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041773",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15041881",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15057160",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15057808",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15058298",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15058425",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15059042",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15059270",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "dataset_key": "15059306",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "external_requests": 0,
+  "all_columns_complete": false
+}

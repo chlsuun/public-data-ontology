@@ -1,0 +1,15 @@
+{
+  "scope": "daegu",
+  "target_count": 14,
+  "processed": 14,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 14
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T09:40:17.325714+00:00",
+  "generated_at": "2026-09-13T09:40:17.332146+00:00",
+  "pid": 11964
+}

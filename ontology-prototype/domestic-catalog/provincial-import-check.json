@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-09-13T14:54:40.353106+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "chungnam_all_catalog_ids_in_db",
+      "passed": true,
+      "details": [
+        4124,
+        4124
+      ]
+    },
+    {
+      "name": "chungnam_all_catalog_ids_in_http_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jeonbuk_all_catalog_ids_in_db",
+      "passed": true,
+      "details": [
+        2233,
+        2233
+      ]
+    },
+    {
+      "name": "jeonbuk_all_catalog_ids_in_http_search",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "explicit_displayed_grid_fields_with_provenance_in_detail",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "explicit_displayed_grid_column_searchable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "multiple_file_versions_visible_without_schema_promotion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "metadata_only_jeonbuk_excluded_from_documented_filter",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "new_source_links_in_frontier_without_semantic_identity_claim",
+      "passed": true,
+      "details": {
+        "observed_references": 1059
+      }
+    },
+    {
+      "name": "new_index_has_no_orphan_definitions_or_parse_errors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "national_completion_not_claimed",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "index_generated_at": "2026-09-13T14:51:52.705971+00:00",
+  "scope": "Current catalog SQLite index and actual localhost HTTP responses; not a full revalidation of all historical sources."
+}

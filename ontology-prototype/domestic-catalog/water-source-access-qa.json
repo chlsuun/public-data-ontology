@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-14T08:05:43.851937+00:00",
+  "portal_id": "water",
+  "scope": "Public Open API home and guide; other WAMIS public catalogs remain pending",
+  "source_notices": [
+    {
+      "evidence_id": "water-api-main",
+      "locator": "#notice1",
+      "text_as_reported": "[공지] 강우레이더 서비스 중단 안내 × 강우레이더 서비스 중단 안내 WAMIS OpenAPI를 통해 제공되던 강우레이더 영상 서비스 는 기술적인 문제로 인해 부득이하게 중단되었습니다. 이용에 불편을 드려 죄송합니다. ※ 대체 서비스 안내 해당 서비스는 한강홍수통제소 > 정보공개 > 오픈API 메뉴에서 대체로 이용하실 수 있습니다. 오픈API 바로가기 문의: ☎ 070-5159-3108 닫기",
+      "links": [
+        {
+          "label": "오픈API 바로가기",
+          "url": "https://www.hrfco.go.kr/web/openapiPage/reference.do"
+        }
+      ],
+      "raw_value_missingness_measured": false,
+      "service_outage_independently_tested": false
+    },
+    {
+      "evidence_id": "water-api-main",
+      "locator": "#notice2",
+      "text_as_reported": "[공지] 기상청 자료 표출 안내 × 기상청 자료 표출 안내 ※ 현재 데이터 연계 문제로 기상청 자료가 정상 표출되고 있지 않습니다. 기상청 자료는 기상청 홈페이지 에서 직접 확인하여 주시기 바랍니다. 서비스 이용에 불편을 드려 죄송합니다. 닫기",
+      "links": [],
+      "raw_value_missingness_measured": false,
+      "service_outage_independently_tested": false
+    }
+  ],
+  "catalog_access": {
+    "status": "login_required_by_public_navigation",
+    "evidence_id": "water-api-main",
+    "locator": "inline function ApiService()",
+    "public_guide_evidence_id": "water-public-guide",
+    "login_or_protected_list_requested": false
+  },
+  "official_referral": {
+    "target_portal_id": "hrfco",
+    "reference_url": "https://www.hrfco.go.kr/web/openapiPage/reference.do",
+    "source_locator": "#notice1 a",
+    "referral_scope": "강우레이더 대체 서비스 안내",
+    "observed_target_scope": "수위·강수량·댐·보·홍수예보 공개 레퍼런스 9개 연산",
+    "equivalent_radar_service_verified": false
+  },
+  "quality_scores_assigned": false,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "next_actions": [
+    "Inspect other publicly accessible WAMIS catalogs and column documentation",
+    "Reconcile radar referral scope without API tests or authentication"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-14T11:08:57.027929+00:00",
+  "concept_snapshot_at": "2026-09-14T10:31:40.563999+00:00",
+  "status": "passed",
+  "scope": "Current concept snapshot, selected source evidence and complete term export; no human semantic approval or statistical validation.",
+  "checks": [
+    {
+      "name": "concept_identity_roles_and_proposal_boundaries",
+      "status": "passed",
+      "concepts": 88,
+      "relationships": 79
+    },
+    {
+      "name": "every_mapping_matches_stored_catalog_or_formal_definition",
+      "status": "passed",
+      "catalog_label": 393,
+      "documented_field": 310,
+      "raw_location_not_recorded": 78
+    },
+    {
+      "name": "all_selected_receipts_and_raw_sha256",
+      "status": "passed",
+      "receipts": 294,
+      "uncompressed_bytes": 71799887
+    },
+    {
+      "name": "complete_term_export_roundtrip_and_database_integrity",
+      "status": "passed",
+      "term_buckets": 511089,
+      "roles": {
+        "source_category": 7839,
+        "documented_field_label": 349927,
+        "documented_unit": 653,
+        "keyword_token_candidate": 152670
+      }
+    },
+    {
+      "name": "review_queue_identity_and_manual_decision_boundary",
+      "status": "passed",
+      "review_items": 703
+    },
+    {
+      "name": "review_survives_sampling_removal_and_return_without_auto_approval",
+      "status": "passed"
+    },
+    {
+      "name": "rdf_parse_and_unapproved_equivalence_not_asserted",
+      "status": "passed",
+      "triples": 4575
+    },
+    {
+      "name": "http_search_downloads_literal_queries_and_model_reference",
+      "status": "passed"
+    }
+  ],
+  "elapsed_seconds": 8.18
+}

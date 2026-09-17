@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-09-14T11:12:11.099746+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "default_unemployment_concept_graph",
+      "result": "Working definition, topic, distinguish-from proposal and formal field examples displayed."
+    },
+    {
+      "name": "school_concept_filter_and_identifier_scope",
+      "result": "School and school identifier concepts found; Gyeonggi, MAFRA and NEIS evidence visible."
+    },
+    {
+      "name": "source_term_search",
+      "query": "감염",
+      "term_buckets": 241,
+      "displayed": 80
+    },
+    {
+      "name": "successive_search_latest_request",
+      "query": "실업률",
+      "role": "documented_field_label",
+      "term_buckets": 14,
+      "displayed": 14
+    },
+    {
+      "name": "record_detail_link_and_return",
+      "record_id": "gyeonggi-56BJI52UTMZ2P2L8T0UJ23989197",
+      "formal_fields_displayed": 22
+    },
+    {
+      "name": "console_errors",
+      "count": 0
+    },
+    {
+      "name": "observed_narrow_window",
+      "viewport_width": 304,
+      "page_width": 304,
+      "graph_container_width": 244,
+      "graph_content_width": 650,
+      "result": "Page has no horizontal overflow; graph scroll is contained."
+    }
+  ],
+  "checked_url": "http://127.0.0.1:8766/concepts",
+  "browser": "Codex in-app browser",
+  "semantic_approval_performed": false
+}

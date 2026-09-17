@@ -1,0 +1,15 @@
+{
+  "scope": "adapter_check",
+  "target_count": 12,
+  "processed": 12,
+  "remaining": 0,
+  "status_counts": {
+    "statistical_definition_observed": 12
+  },
+  "documented_field_occurrences": 94,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:16:25.795264+00:00",
+  "generated_at": "2026-09-13T07:16:37.207934+00:00",
+  "pid": 23492
+}

@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-13T13:58:47.5720036+00:00",
+  "workers": [
+    {
+      "name": "data-go-file",
+      "pid": 26304,
+      "matching_process_count": 1,
+      "command_line": "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_definitions.py --all --workers 3",
+      "error_log_bytes": 0
+    },
+    {
+      "name": "kosis",
+      "pid": 25268,
+      "matching_process_count": 1,
+      "command_line": "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_kosis.py --workers 2",
+      "error_log_bytes": 0
+    },
+    {
+      "name": "data-go-api",
+      "pid": 1748,
+      "matching_process_count": 1,
+      "command_line": "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_data_go_api.py\" --workers 1",
+      "error_log_bytes": 0
+    },
+    {
+      "name": "busan",
+      "pid": 16492,
+      "matching_process_count": 1,
+      "command_line": "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 -u \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_busan.py\"",
+      "error_log_bytes": 0
+    },
+    {
+      "name": "indexer",
+      "pid": 32956,
+      "matching_process_count": 1,
+      "command_line": "\"C:\\Users\\alsw0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\" -X utf8 \"C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py\" --watch --interval 300",
+      "error_log_bytes": 0
+    }
+  ],
+  "supervisor_pid": 5872,
+  "stop_markers": []
+}

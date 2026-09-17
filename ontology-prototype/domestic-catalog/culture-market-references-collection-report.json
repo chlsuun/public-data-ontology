@@ -1,0 +1,15 @@
+{
+  "scope": "culture-market-references",
+  "target_count": 92,
+  "processed": 92,
+  "remaining": 0,
+  "status_counts": {
+    "file_column_definition_observed": 92
+  },
+  "documented_field_occurrences": 1577,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-14T09:03:34.585324+00:00",
+  "generated_at": "2026-09-14T09:05:05.480133+00:00",
+  "pid": 14060
+}

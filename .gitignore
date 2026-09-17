@@ -1,0 +1,29 @@
+# Local dependencies and machine-specific working state
+.prototype-tools/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.local/
+tmp/
+temp/
+
+# Large local collection stores. The shared graph uses verified static shards.
+ontology-prototype/domestic-catalog/evidence/
+ontology-prototype/domestic-catalog/catalogs/
+ontology-prototype/domestic-catalog/definitions/
+ontology-prototype/domestic-catalog/concepts/*.sqlite3*
+ontology-prototype/domestic-catalog/concepts/source-terms.jsonl.gz
+ontology-prototype/domestic-catalog/inventory/*
+!ontology-prototype/domestic-catalog/inventory/domestic-portals.json
+!ontology-prototype/domestic-catalog/inventory/providers.json
+!ontology-prototype/domestic-catalog/inventory/provider-discovery-frontier.json

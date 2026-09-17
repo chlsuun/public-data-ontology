@@ -1,0 +1,16 @@
+{
+  "scope": "culture-files",
+  "target_count": 470,
+  "processed": 470,
+  "remaining": 0,
+  "status_counts": {
+    "csv_header_candidates_observed": 468,
+    "file_schema_unresolved": 2
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:45:43.086422+00:00",
+  "generated_at": "2026-09-13T07:53:33.329896+00:00",
+  "pid": 8392
+}

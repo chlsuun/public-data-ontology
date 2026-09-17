@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-14T08:58:53.371795+00:00",
+  "scope": "kspo-officially-referred-external-map",
+  "target_count": 183,
+  "processed": 183,
+  "queue_exhausted": true,
+  "status_counts": {
+    "referred_metadata_observed_primary_schema_pending": 183
+  },
+  "documented_field_occurrences": 0,
+  "header_candidate_occurrences": 3035,
+  "all_columns_complete": false,
+  "external_host_ownership_verified": false,
+  "official_institution_census_complete": false
+}

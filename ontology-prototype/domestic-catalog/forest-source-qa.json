@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-13T19:07:37.667538+00:00",
+  "portal_id": "forest",
+  "qa_scope": "Public catalog and documentation availability, source usage-note candidates; not live values or legal reuse approval",
+  "catalog_records": 56,
+  "local_html_guide_records": 21,
+  "external_reference_records": 35,
+  "with_response_definition": 10,
+  "documented_response_fields": 156,
+  "input_parameter_rows": 50,
+  "field_datatype_present": 156,
+  "unit_explicitly_documented": 0,
+  "usage_note_candidates": [
+    {
+      "dataset_key": "PBD0000059",
+      "evidence_id": "forest-detail-PBD0000059",
+      "notes": [
+        {
+          "text_as_reported": "※ 공공기관(중앙행정기관 및 소속기관, 지방자치단체, 정부투자기관, 학교 및 연구기관)의 비영리공공사업이나 학술·연구목적으로만 제공하고 있음",
+          "locator": "#txt p[0]",
+          "selection_method": "literal_keyword_match_for_human_review",
+          "license_or_reuse_approval_inferred": false
+        }
+      ]
+    }
+  ],
+  "all_columns_complete": false,
+  "quality_scores_assigned": false,
+  "raw_values_checked": false,
+  "source_reported_global_catalog_total": null,
+  "national_census_complete": false,
+  "remaining_scope": [
+    "External linked resources and original schemas",
+    "Map/file attribute dictionaries",
+    "All file versions and code lists",
+    "Other agency catalogs beyond these five category pages"
+  ],
+  "source_field_types_preserved_without_correction": true,
+  "map_listing_rows_not_counted_as_dataset_registrations": true,
+  "additional_file_attribute_summary": {
+    "generated_at": "2026-09-14T06:41:12.748131+00:00",
+    "usage_documents": 19,
+    "with_attribute_definitions": 5,
+    "attribute_fields": 61,
+    "schema_groups": 7,
+    "status_counts": {
+      "public_usage_metadata_observed_schema_pending": 14,
+      "file_attribute_definition_observed_with_source_issues": 2,
+      "file_attribute_definition_observed": 3
+    },
+    "source_issues": [
+      {
+        "dataset_key": "PBD0000061",
+        "evidence_id": "forest-usage-PBD0000061",
+        "issues": [
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "ZONE_AREA",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[7].cell[3]"
+          }
+        ]
+      },
+      {
+        "dataset_key": "PBD0000062",
+        "evidence_id": "forest-usage-PBD0000062",
+        "issues": [
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "HSTR_MNNMB",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[0].cell[3]"
+          },
+          {
+            "issue": "attribute_length_unspecified_in_source",
+            "name": "FRRD_FCLT_DSTNC",
+            "value_as_reported": "?",
+            "locator": "table[0].tbody.tr[4].cell[3]"
+          }
+        ]
+      }
+    ],
+    "scope": "Only the 19 explicitly linked usage documents, not all current map files or layer versions",
+    "all_columns_complete": false,
+    "file_downloads_performed": false,
+    "coordinate_codes_inferred": false
+  },
+  "documented_file_attribute_fields": 61,
+  "file_layer_dictionary_scope_note": "Do not add API output fields and file-layer attributes as if all describe a single table."
+}

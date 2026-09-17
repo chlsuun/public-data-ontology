@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-14T09:07:24.620594+00:00",
+  "scope": "busan-final-public-metadata-after-connection-retry",
+  "target_count": 12551,
+  "processed": 12551,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 12551
+  },
+  "documented_field_occurrences": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "source_check_ref": "busan-final-metadata-source-check.json",
+  "qa_ref": "busan-source-qa.json",
+  "supersedes_current_progress_only": "busan-collection-report.json",
+  "original_report_preserved": true,
+  "no_worker_restart": true
+}

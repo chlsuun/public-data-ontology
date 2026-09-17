@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-14T13:20:45.847531+00:00",
+  "passed": true,
+  "checks": {
+    "html_matches_file": true,
+    "law_name": true,
+    "law_progress_label": true,
+    "law_post_guide_uses_official_listing": true,
+    "raw_row_locator_available": true
+  },
+  "scope": "Served HTML and source-link selection; browser interaction not tested"
+}

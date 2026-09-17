@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-13T13:05:55.602738+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "all_mafra_api_fields_match_saved_source_definitions",
+      "passed": true,
+      "details": {
+        "fields_checked": 2725,
+        "failures": []
+      }
+    },
+    {
+      "name": "initial_default_fields_not_counted_twice",
+      "passed": true,
+      "details": {
+        "expanded_apis": 6,
+        "stale": []
+      }
+    },
+    {
+      "name": "mafra_index_count_matches_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "http_function_provenance_OPENAPI-20161121000000000611",
+      "passed": true,
+      "details": {
+        "fields_returned": 21
+      }
+    },
+    {
+      "name": "http_function_provenance_OPENAPI-20221205000000002360",
+      "passed": true,
+      "details": {
+        "fields_returned": 78
+      }
+    }
+  ],
+  "scope": "Post-expansion MAFRA function import and local HTTP detail results; general 58-check validation is a separate earlier snapshot."
+}

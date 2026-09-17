@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-09-13T13:55:38.026350+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "busan_catalog_import_count",
+      "passed": true,
+      "details": {
+        "records": 12551
+      }
+    },
+    {
+      "name": "busan_unverified_metadata_not_promoted_to_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ulsan_catalog_import_count",
+      "passed": true,
+      "details": {
+        "records": 2582
+      }
+    },
+    {
+      "name": "ulsan_unverified_metadata_not_promoted_to_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_http_detail_keeps_candidates_separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_candidate_field_search_works",
+      "passed": true,
+      "details": {
+        "term": "lng",
+        "total": 21
+      }
+    },
+    {
+      "name": "busan_documented_filter_excludes_candidates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ulsan_http_preserves_reference_and_row_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_reference_locator_uses_actual_preview_receipt",
+      "passed": true,
+      "details": {
+        "references_checked": 79,
+        "failures": []
+      }
+    },
+    {
+      "name": "ulsan_all_catalog_referrals_exported_without_identity_claim",
+      "passed": true,
+      "details": {
+        "references": 2582
+      }
+    },
+    {
+      "name": "http_coverage_includes_both_portals_and_stays_incomplete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "browser_has_new_portal_and_progress_labels",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "New portal import, candidate-only search behavior and observed reference provenance. Last full national import/hash check remains the separately timestamped validation report."
+}

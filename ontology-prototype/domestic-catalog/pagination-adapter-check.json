@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-13T09:06:39.436426+00:00",
+  "passed": true,
+  "max_started_before_stop": 4,
+  "pages_in_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "live_network_requests": 0
+}

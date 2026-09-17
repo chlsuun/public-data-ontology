@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-09-14T08:14:14.844366+00:00",
+  "passed": true,
+  "checks_passed": 13,
+  "checks": [
+    {
+      "name": "all_new_definition_metadata_and_fields_match_source_files",
+      "passed": true,
+      "detail": {
+        "documents": 730,
+        "fields": 1932
+      }
+    },
+    {
+      "name": "new_record_counts_match_live_http",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "documented_filter_excludes_candidates_and_metadata_only_registrations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blank_flag_rows_visible_as_unclassified_without_silent_repair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "file_column_definition_and_version_metadata_coexist_without_deletion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sample_header_candidates_visible_without_becoming_formal_columns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lod_listing_header_role_and_control_warning_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_description_mismatch_and_literal_units_survive_http_import",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hrfco_request_auth_parameter_not_promoted_to_response_search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_external_references_have_valid_source_positions_without_identity_claims",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "name": "browser_serves_new_portal_and_progress_labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model_qa_files_exist_and_national_completion_stays_false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stable_expansion_export_equals_sqlite_without_changing_hourly_aggregate",
+      "passed": true,
+      "detail": 1932
+    }
+  ],
+  "coverage_snapshot": "2026-09-14T08:12:52.880397+00:00",
+  "expansion_export": "inventory\\expressway-hrfco-columns-snapshot.jsonl.gz",
+  "aggregate_portable_export_can_lag_live_sqlite": true,
+  "all_columns_complete": false,
+  "scope": "This new stable source slice in SQLite and live HTTP; no global recertification of concurrently growing sources"
+}

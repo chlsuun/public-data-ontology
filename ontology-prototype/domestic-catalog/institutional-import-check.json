@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-09-14T09:20:01.382305+00:00",
+  "passed": true,
+  "checks_passed": 18,
+  "checks": [
+    {
+      "name": "all_287_new_documents_and_1791_fields_exactly_match_sqlite",
+      "passed": true,
+      "detail": {
+        "definition_documents": 287,
+        "formal_field_occurrences": 1791
+      }
+    },
+    {
+      "name": "3035_secondary_preview_headers_remain_candidates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_four_catalog_counts_match_live_http",
+      "passed": true,
+      "detail": {
+        "kdi-api": 6,
+        "kocca-api": 6,
+        "kspo": 183,
+        "bigdata-culture": 92
+      }
+    },
+    {
+      "name": "documented_filter_excludes_secondary_schema_candidates",
+      "passed": true,
+      "detail": {
+        "kdi-api": 6,
+        "kocca-api": 6,
+        "kspo": 0,
+        "bigdata-culture": 92
+      }
+    },
+    {
+      "name": "kdi_structural_rows_and_request_parameters_not_promoted_to_output",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "kocca_duplicate_names_keep_distinct_source_paths_and_literal_typo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "malformed_source_cells_and_rowspan_audit_survive_http",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "request_authentication_parameter_excluded_from_response_search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "secondary_copy_and_preview_provenance_visible_without_approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "primary_dictionary_28_fields_not_expanded_to_31_secondary_preview_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preview_vs_dictionary_name_comparison_keeps_two_scope_differences",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_nine_busan_retries_preserve_prior_failure_and_new_provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "busan_flattened_metadata_not_promoted_to_formal_columns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_178_primary_reference_links_have_valid_positions_and_no_join_claim",
+      "passed": true,
+      "detail": 178
+    },
+    {
+      "name": "live_progress_exposes_reconciled_busan_queue_and_preserves_historical_report",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "browser_has_source_labels_and_replaces_only_superseded_progress_display",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_new_qa_refs_resolve_and_national_completion_stays_false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stable_columns_and_header_exports_round_trip_without_changing_global_export",
+      "passed": true,
+      "detail": [
+        {
+          "path": "inventory/institutional-columns-snapshot.jsonl.gz",
+          "rows": 1791,
+          "compressed_sha256": "4674e189714eb86983d5db8fca553fd60d2f37a5cf2e85bd16b9475d76a57f0d"
+        },
+        {
+          "path": "inventory/institutional-header-candidates-snapshot.jsonl.gz",
+          "rows": 180,
+          "compressed_sha256": "845b5f71b615ebe0897cc63fdd2163de8c93ecd2a43f21bf1bcaab4f1d8a5c44"
+        }
+      ]
+    }
+  ],
+  "coverage_snapshot": "2026-09-14T09:18:37.864722+00:00",
+  "expansion_exports": [
+    {
+      "path": "inventory/institutional-columns-snapshot.jsonl.gz",
+      "rows": 1791,
+      "compressed_sha256": "4674e189714eb86983d5db8fca553fd60d2f37a5cf2e85bd16b9475d76a57f0d"
+    },
+    {
+      "path": "inventory/institutional-header-candidates-snapshot.jsonl.gz",
+      "rows": 180,
+      "compressed_sha256": "845b5f71b615ebe0897cc63fdd2163de8c93ecd2a43f21bf1bcaab4f1d8a5c44"
+    }
+  ],
+  "aggregate_portable_export_can_lag_live_sqlite": true,
+  "all_columns_complete": false,
+  "scope": "287 institutional records and 9 recovered Busan records; not global recertification"
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "chungnam",
+  "target_count": 4124,
+  "processed": 4124,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 3677,
+    "displayed_column_definition_observed": 447
+  },
+  "documented_field_occurrences": 5848,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T14:48:43.394990+00:00",
+  "generated_at": "2026-09-13T16:10:23.442433+00:00",
+  "pid": 26800
+}

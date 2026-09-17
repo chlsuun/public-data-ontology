@@ -1,0 +1,15 @@
+{
+  "scope": "culture",
+  "target_count": 468,
+  "processed": 468,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 468
+  },
+  "documented_field_occurrences": 7927,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T07:39:05.882893+00:00",
+  "generated_at": "2026-09-13T07:39:06.339277+00:00",
+  "pid": 21352
+}

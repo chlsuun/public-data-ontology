@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-09-13T18:14:41.461870+00:00",
+  "source_scope": "All 1510 preview buttons deduplicated by explicit file identity from 619 collected FILE registrations",
+  "queue_exhausted": true,
+  "preview_versions": 1510,
+  "header_candidate_cells": 16990,
+  "outcomes": {
+    "preview_header_candidates_observed": 1471,
+    "preview_header_empty": 30,
+    "preview_fetch_unresolved": 3,
+    "preview_parse_unresolved": 6
+  },
+  "issues": [
+    {
+      "dataset_key": "FILE-20190710000000001095",
+      "evidence_id": "mafra-preview-20190710000000001095-file-20",
+      "status": "preview_fetch_unresolved",
+      "http_status": 500,
+      "error": "HTTP Error 500: Internal Server Error",
+      "source_error_page_title": null
+    },
+    {
+      "dataset_key": "FILE-20210727000000001441",
+      "evidence_id": "mafra-preview-20210727000000001441-file-2",
+      "status": "preview_fetch_unresolved",
+      "http_status": null,
+      "error": "The read operation timed out",
+      "source_error_page_title": null
+    },
+    {
+      "dataset_key": "FILE-20220214000000001864",
+      "evidence_id": "mafra-preview-20220214000000001864-file-4",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220214000000001866",
+      "evidence_id": "mafra-preview-20220214000000001866-file-1",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220214000000001866",
+      "evidence_id": "mafra-preview-20220214000000001866-file-2",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220214000000001866",
+      "evidence_id": "mafra-preview-20220214000000001866-file-3",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220214000000001866",
+      "evidence_id": "mafra-preview-20220214000000001866-file-4",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220214000000001866",
+      "evidence_id": "mafra-preview-20220214000000001866-file-5",
+      "status": "preview_parse_unresolved",
+      "http_status": 200,
+      "error": "Expecting value: line 7 column 1 (char 7)",
+      "source_error_page_title": "서비스 장애"
+    },
+    {
+      "dataset_key": "FILE-20220217000000002040",
+      "evidence_id": "mafra-preview-20220217000000002040-file-7",
+      "status": "preview_fetch_unresolved",
+      "http_status": null,
+      "error": "The read operation timed out",
+      "source_error_page_title": null
+    }
+  ],
+  "all_columns_complete": false,
+  "source_check": "hrdk-mafra-source-check.json"
+}

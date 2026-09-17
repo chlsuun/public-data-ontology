@@ -1,0 +1,17 @@
+{
+  "template_only":true,
+  "claim_id":null,
+  "subject_id":null,
+  "predicate":null,
+  "object_id":null,
+  "status":"candidate",
+  "evidence_ids":[],
+  "rationale":null,
+  "applies_to_versions":[],
+  "spatial_scope":null,
+  "temporal_scope":null,
+  "reviewed_at":null,
+  "reviewer":null,
+  "supersedes_claim_id":null,
+  "materialize_as_fact":false
+}

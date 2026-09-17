@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-13T14:51:01.743226+00:00",
+  "source_evidence_id": "chungnam-entity-metadata-probe-15157561",
+  "source_parent_evidence_id": "chungnam-schema-publicdatapk-15157561",
+  "rows_received": 23,
+  "status": "public_metadata_probe_only",
+  "all_operations_collected": false,
+  "columns_imported": false,
+  "request_rows": 1,
+  "response_rows": 22,
+  "all_returned_parent_ids_match": true,
+  "all_returned_operation_names_match": true,
+  "next_action": "Enumerate all operations/resources declared by each publicdatapk page, retain control/container rows separately, verify provenance and then import explicit response definitions. Do not call DataList.do observation API or use embedded sample credentials."
+}

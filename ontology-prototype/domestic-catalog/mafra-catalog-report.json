@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-09-13T12:39:36.974318+00:00",
+  "scope": "공개 통합검색 FILE·OPENAPI·LINK 목록; 표준용어·게시물은 별도 범위",
+  "categories": {
+    "OPENAPI": {
+      "reported_total": 183,
+      "reported_totals": [
+        183
+      ],
+      "pages_expected": 13,
+      "pages_received": 13,
+      "received_rows": 183,
+      "unique_ids": 183,
+      "duplicate_observations": [],
+      "complete": true,
+      "other_tab_counts_as_reported": {
+        "file_cnt": "619",
+        "openapi_cnt": "183",
+        "link_cnt": "1340",
+        "stdword_cnt": 10000,
+        "bbs_cnt": 345
+      }
+    },
+    "FILE": {
+      "reported_total": 619,
+      "reported_totals": [
+        619
+      ],
+      "pages_expected": 42,
+      "pages_received": 42,
+      "received_rows": 619,
+      "unique_ids": 619,
+      "duplicate_observations": [],
+      "complete": true,
+      "other_tab_counts_as_reported": {
+        "file_cnt": "619",
+        "openapi_cnt": "183",
+        "link_cnt": "1340",
+        "stdword_cnt": 10000,
+        "bbs_cnt": 345
+      }
+    },
+    "LINK": {
+      "reported_total": 1340,
+      "reported_totals": [
+        1340
+      ],
+      "pages_expected": 90,
+      "pages_received": 90,
+      "received_rows": 1340,
+      "unique_ids": 1340,
+      "duplicate_observations": [
+        {
+          "id": "mafra-LINK-PMU_e6432249-8c57-4df8-867e-7d7fcf9ec60c",
+          "page": 39
+        }
+      ],
+      "complete": true,
+      "other_tab_counts_as_reported": {
+        "file_cnt": "619",
+        "openapi_cnt": "183",
+        "link_cnt": "1340",
+        "stdword_cnt": 10000,
+        "bbs_cnt": 345
+      },
+      "primary_pass_unique_ids": 1339,
+      "alternate_pass": {
+        "sort": "rdcnt",
+        "pages_expected": 90,
+        "pages_received": 90,
+        "received_rows": 1340,
+        "unique_ids": 1332,
+        "reported_totals": [
+          1340
+        ],
+        "duplicate_observations": [
+          {
+            "id": "mafra-LINK-20251113000000002809",
+            "page": 69
+          },
+          {
+            "id": "mafra-LINK-PRD_0000000000767",
+            "page": 69
+          },
+          {
+            "id": "mafra-LINK-PMU_4c8e1cc6-434c-4064-a982-326d53bd5e4d",
+            "page": 78
+          },
+          {
+            "id": "mafra-LINK-PMU_a16cbc24-c3a7-4790-991d-9c1ea6fd2dfc",
+            "page": 78
+          },
+          {
+            "id": "mafra-LINK-20251113000000002856",
+            "page": 78
+          },
+          {
+            "id": "mafra-LINK-20251113000000002860",
+            "page": 79
+          },
+          {
+            "id": "mafra-LINK-PMU_e9b964ad-3b1f-4f8a-b3a4-acf904fa558a",
+            "page": 79
+          },
+          {
+            "id": "mafra-LINK-PMU_3fc8fd24-d3c0-45f3-a171-4acaa96c245a",
+            "page": 80
+          }
+        ]
+      },
+      "reconciliation_method": "Union of two complete public UI sort traversals; source totals must agree, duplicates and original pass counts remain visible."
+    }
+  },
+  "catalog_records": 2142,
+  "snapshot_pagination_complete": true,
+  "issues": [],
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "navigation_evidence_id": "mafra-catalog-page",
+  "unfiltered_checkbox_value": "*",
+  "remaining": "source standard dictionaries, source file headers and linked providers, API operation variants and manuals",
+  "catalog_parser_version": 2,
+  "source_listing_classification_counts": {
+    "PUBLIC": 1359,
+    "PRIVATE": 783
+  }
+}

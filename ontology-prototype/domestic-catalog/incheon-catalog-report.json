@@ -1,0 +1,17 @@
+{
+  "scope": "인천데이터포털 공공데이터 공개 등급 5 목록; 다른 별도 자료실은 추가 조사",
+  "generated_at": "2026-09-13T10:20:38.228228+00:00",
+  "reported_totals": [
+    4382
+  ],
+  "reported_total": 4382,
+  "received_rows": 4382,
+  "unique_dataset_ids": 4382,
+  "pages_received": 439,
+  "pages_expected": 439,
+  "failed_pages": [],
+  "duplicate_observations": [],
+  "snapshot_pagination_complete": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false
+}

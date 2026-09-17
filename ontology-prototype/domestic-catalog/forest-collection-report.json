@@ -1,0 +1,17 @@
+{
+  "scope": "forest",
+  "target_count": 56,
+  "processed": 56,
+  "remaining": 0,
+  "status_counts": {
+    "response_definition_observed": 10,
+    "public_metadata_observed_schema_pending": 11,
+    "external_reference_observed_schema_pending": 35
+  },
+  "documented_field_occurrences": 156,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T19:07:36.366275+00:00",
+  "generated_at": "2026-09-13T19:07:37.315801+00:00",
+  "pid": 30884
+}

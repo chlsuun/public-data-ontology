@@ -1,0 +1,17 @@
+{
+  "scope": "incheon",
+  "target_count": 4382,
+  "processed": 4382,
+  "remaining": 0,
+  "status_counts": {
+    "public_metadata_observed_schema_pending": 4360,
+    "metadata_unresolved": 15,
+    "column_definition_observed": 7
+  },
+  "documented_field_occurrences": 170,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T10:20:38.604297+00:00",
+  "generated_at": "2026-09-13T11:35:24.460810+00:00",
+  "pid": 9492
+}

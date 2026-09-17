@@ -1,0 +1,13 @@
+{
+  "scope": "library public API manual",
+  "generated_at": "2026-09-13T09:57:29.398601+00:00",
+  "target_count": 19,
+  "processed": 19,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "status_counts": {
+    "column_definition_observed": 19
+  },
+  "documented_field_occurrences": 436,
+  "manual_sha256": "c83bf3ea59c6fd1e8b38c3dc2b9ba579059c3e7065afa5d9bce81bec64421dfc"
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-14T14:02:15.372456+00:00",
+  "scope": "All sectors and category selectors returned by the captured public single-table UI",
+  "sectors": 22,
+  "category_paths": 241,
+  "catalog_requests": 241,
+  "catalog_row_occurrences": 1205,
+  "unique_report_ids": 736,
+  "report_period_targets": 736,
+  "failures": [],
+  "selector_traversal_exhausted": true,
+  "official_total_available": false,
+  "all_portal_catalogs_complete": false,
+  "script_evidence_id": "fisis-stats-ui-101-20260914",
+  "request_paths_allowlisted": [
+    "fsv101_getLrgDiv",
+    "fsv101_getReportList",
+    "fsv101_getSmlDiv",
+    "fsv102_getRowList",
+    "fsv102_metadata"
+  ],
+  "identity_note": "FORM_NO and stated periods retained; public UI report IDs are not equated with Open API listNo codes."
+}

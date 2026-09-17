@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-09-13T10:04:25.673548+00:00",
+  "new_portal": "library",
+  "new_source_scope": "public API manual v20260210, 19 services, 436 response elements",
+  "swagger_initial_recovery_report": "data-go-api-swagger-first-recovery-report.json",
+  "adapter_validation": "new-adapter-check.json",
+  "validation_snapshot": {
+    "coverage_generated_at": "2026-09-13T10:00:21.436485+00:00",
+    "catalog_records": 412534,
+    "source_document_fields": 415511,
+    "checks_passed": 42,
+    "source_hashes_checked": 35913
+  },
+  "resumed_workers": {
+    "data-go-api": 1748,
+    "indexer": 16164,
+    "incheon": 9492
+  },
+  "latest_stderr": {},
+  "all_domestic_portals_complete": false,
+  "all_columns_complete": false,
+  "git_published": false,
+  "remaining": "기존 전체 큐, 대구 외부 LINK 및 칼럼, 도서관 다운로드·테마자료, 나머지 국내 제공처; CONTINUATION.md 참조"
+}

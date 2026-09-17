@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-13T19:04:46.541486+00:00",
+  "scope": "grac-public-api-guides",
+  "target_count": 2,
+  "processed": 2,
+  "status_counts": {
+    "response_definition_observed_with_source_issues": 2
+  },
+  "queue_exhausted": true,
+  "catalog_records": 2,
+  "documented_field_occurrences": 24,
+  "request_parameter_occurrences": 10,
+  "structural_element_occurrences": 4,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "observation_api_called": false
+}

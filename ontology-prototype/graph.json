@@ -1,0 +1,1558 @@
+{
+  "version": "0.1.0",
+  "reviewed_at": "2026-09-10",
+  "nodes": [
+    {
+      "id": "S1",
+      "type": "Source",
+      "title": "공공데이터포털 버스 일별 자료 메타데이터",
+      "url": "https://www.data.go.kr/catalog/15051734/fileData.json",
+      "access": "official_metadata",
+      "note": "서울특별시 제공, 일별 집계, 서울 포털로 이동하는 등록정보. 등록정보의 수시 표기와 본문의 일별 갱신 설명을 별도로 보존."
+    },
+    {
+      "id": "S2",
+      "type": "Source",
+      "title": "서울 버스 일별 승하차 자료",
+      "url": "https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do",
+      "access": "official_page",
+      "note": "노선·정류장별 일 단위 이용량. 과거 자료는 월별 파일로 제공. 파일 배포 주기와 관측 단위를 구분."
+    },
+    {
+      "id": "S3",
+      "type": "Source",
+      "title": "서울 버스 시간대별 승하차 자료",
+      "url": "https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do",
+      "access": "official_page",
+      "note": "월 단위의 노선·정류장·시간대별 자료. 현금 이용은 제외된다고 FAQ에 안내. 정확한 컬럼·집계 방식은 원본 확인 필요."
+    },
+    {
+      "id": "S4",
+      "type": "Source",
+      "title": "서울 지하철 일별 승하차 자료",
+      "url": "https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do",
+      "access": "official_page",
+      "note": "호선·역별 일 단위 교통카드 이용량. 신분당선은 제공하지 않는다고 FAQ에 안내."
+    },
+    {
+      "id": "S5",
+      "type": "Source",
+      "title": "기존 행정동 생활인구 종료 안내",
+      "url": "https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S",
+      "access": "official_catalog_record",
+      "note": "250m 격자 방식 전환에 따라 2026년 7월 31일 이후 기존 자료 생산 종료를 명시. 메타데이터에 표시된 종료를 근거로 사용."
+    },
+    {
+      "id": "S6",
+      "type": "Source",
+      "title": "서울 생활인구 정의와 현행 자료 안내",
+      "url": "https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do",
+      "access": "official_guide",
+      "note": "특정 지역·시점의 존재 인구를 추계하는 통계. 현행 행정동 내국인 자료 링크가 OA-23016으로 연결됨. 주민등록인구와 의미가 다름."
+    },
+    {
+      "id": "S7",
+      "type": "Source",
+      "title": "250m 기반 행정동 생활인구 자료",
+      "url": "https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do",
+      "access": "official_page",
+      "note": "250m 격자 자료를 행정동으로 집계한 내국인 생활인구. 출력 공간 단위는 행정동이며 원천 격자와 구분. 페이지 갱신일 2026-09-10."
+    },
+    {
+      "id": "S8",
+      "type": "Source",
+      "title": "KOSIS 주민등록인구 최근수록자료",
+      "url": "https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=2008001&boardOrgId=101",
+      "access": "official_catalog",
+      "note": "행정구역(시군구)별 성별 인구수, 행정안전부, 월 주기 확인. 표시된 최근 수록 시점은 실제 API 최신값 검증으로 취급하지 않음."
+    },
+    {
+      "id": "S9",
+      "type": "Source",
+      "title": "KOSIS 주민등록인구 공개 경로 답변",
+      "url": "https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=24377",
+      "access": "official_answer",
+      "note": "행정안전부 공개 후 가공·점검하여 KOSIS에 반영. DT_1B040A3 통계표 주소 확인. 질문자 정보는 수집하지 않음."
+    },
+    {
+      "id": "S10",
+      "type": "Source",
+      "title": "공공데이터포털 버스 일별 등록 상세",
+      "url": "https://www.data.go.kr/data/15051734/fileData.do",
+      "access": "search_index_only",
+      "note": "검색 색인에서 OA-12912 직접 연결 URL 확인. 상세페이지 직접 열기는 실패. 포털 간 정확한 목적지 연결은 후보 상태로 보존."
+    },
+    {
+      "id": "S11",
+      "type": "Source",
+      "title": "W3C DCAT 3",
+      "url": "https://www.w3.org/TR/vocab-dcat-3/",
+      "access": "official_standard",
+      "note": "Catalog, CatalogRecord, Dataset, Distribution 구분의 근거."
+    },
+    {
+      "id": "S12",
+      "type": "Source",
+      "title": "W3C SKOS Primer",
+      "url": "https://www.w3.org/TR/skos-primer/",
+      "access": "official_standard",
+      "note": "개념, 정의, 상위·관련 관계의 표현을 참고. 관련 관계를 동일성이나 조인 가능성으로 해석하지 않음."
+    },
+    {
+      "id": "org-seoul",
+      "type": "Organization",
+      "label": "서울특별시",
+      "role": "서울 자료 제공기관·서울 포털 운영기관",
+      "source_ids": [
+        "S2",
+        "S4",
+        "S7"
+      ]
+    },
+    {
+      "id": "org-mois",
+      "type": "Organization",
+      "label": "행정안전부",
+      "role": "주민등록인구 통계 작성기관",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "org-mods",
+      "type": "Organization",
+      "label": "국가데이터처",
+      "role": "KOSIS 포털 운영기관; 수록 통계의 작성기관과 구분",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "portal-data-go",
+      "type": "Portal",
+      "label": "공공데이터포털",
+      "url": "https://www.data.go.kr/",
+      "role": "다기관 데이터 등록·발견 경로",
+      "operator": null,
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "portal-seoul",
+      "type": "Portal",
+      "label": "서울 열린데이터광장",
+      "url": "https://data.seoul.go.kr/",
+      "role": "서울 자료 상세·파일·API 안내",
+      "operator": "org-seoul",
+      "source_ids": [
+        "S2",
+        "S7"
+      ]
+    },
+    {
+      "id": "portal-kosis",
+      "type": "Portal",
+      "label": "KOSIS 국가통계포털",
+      "url": "https://kosis.kr/",
+      "role": "통계표 조회·제공 경로",
+      "operator": "org-mods",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "concept-transport",
+      "type": "Concept",
+      "label": "대중교통 이용",
+      "definition": "버스·지하철 등 대중교통의 이용 현상을 탐색하는 주제.",
+      "broader": null,
+      "related": [],
+      "aliases": [
+        "대중교통이용"
+      ],
+      "source_ids": [
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "id": "concept-bus",
+      "type": "Concept",
+      "label": "버스 이용량",
+      "definition": "버스 승차·하차 기록을 기준으로 집계하는 이용량. 서로 다른 승차를 한 사람으로 중복 제거한 인구와 구분.",
+      "broader": "concept-transport",
+      "related": [],
+      "aliases": [
+        "버스 승하차"
+      ],
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "concept-subway",
+      "type": "Concept",
+      "label": "지하철 이용량",
+      "definition": "호선·역별 승차·하차 기록에 기반한 이용량. 노선 포함 범위를 확인해야 함.",
+      "broader": "concept-transport",
+      "related": [],
+      "aliases": [
+        "전철 승하차"
+      ],
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "concept-population",
+      "type": "Concept",
+      "label": "인구 현황",
+      "definition": "기준 장소·시점·대상·측정 방식에 따라 구분하는 인구 지표의 상위 개념.",
+      "broader": null,
+      "related": [],
+      "aliases": [],
+      "source_ids": [
+        "S6",
+        "S8"
+      ]
+    },
+    {
+      "id": "concept-living",
+      "type": "Concept",
+      "label": "생활인구",
+      "definition": "특정 장소·시점에 존재하는 인구의 추계. 이번 자료는 내국인 범위. 여러 시각 값을 더해 순방문자 수로 해석할 수 없음.",
+      "broader": "concept-population",
+      "related": [
+        "concept-resident",
+        "concept-floating"
+      ],
+      "aliases": [
+        "생활 인구"
+      ],
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "id": "concept-resident",
+      "type": "Concept",
+      "label": "주민등록인구",
+      "definition": "주민등록 기준의 인구 지표. 특정 시각에 그 장소에 존재하는 인구와 구분.",
+      "broader": "concept-population",
+      "related": [
+        "concept-living"
+      ],
+      "aliases": [
+        "주민등록 인구"
+      ],
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "concept-floating",
+      "type": "Concept",
+      "label": "유동인구라는 검색 의도",
+      "definition": "이동·방문·체류 인구를 찾는 사용자 표현. 생활인구와 자동 동의어 처리하지 않고 측정 목적을 확인.",
+      "broader": "concept-population",
+      "related": [
+        "concept-living"
+      ],
+      "aliases": [
+        "유동 인구",
+        "사람 많은 곳"
+      ],
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "id": "concept-stop",
+      "type": "Concept",
+      "label": "버스정류장",
+      "definition": "버스가 정차하는 시설. 표준 정류장 ID와 ARS 번호의 코드 체계는 따로 확인.",
+      "broader": null,
+      "related": [],
+      "aliases": [
+        "버스정류소"
+      ],
+      "source_ids": [
+        "S2",
+        "S10"
+      ]
+    },
+    {
+      "id": "concept-station",
+      "type": "Concept",
+      "label": "지하철역",
+      "definition": "지하철 이용량의 공간 기준. 동일 역명·환승역·호선별 행을 구분할 키가 필요.",
+      "broader": null,
+      "related": [],
+      "aliases": [
+        "전철역"
+      ],
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "concept-dong",
+      "type": "Concept",
+      "label": "행정동",
+      "definition": "행정 업무 기준의 공간 구역. 기준일에 따른 코드·경계 버전을 보존하며 법정동과 구분.",
+      "broader": null,
+      "related": [],
+      "aliases": [],
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "id": "concept-district",
+      "type": "Concept",
+      "label": "시군구",
+      "definition": "KOSIS 주민등록인구 표의 지역 분류 수준. 상위 합계와 하위 구역을 중복 합산하지 않음.",
+      "broader": null,
+      "related": [],
+      "aliases": [],
+      "source_ids": [
+        "S8"
+      ]
+    },
+    {
+      "id": "ds-bus-daily",
+      "type": "Dataset",
+      "label": "서울시 버스노선별 정류장별 승하차 인원 정보",
+      "short_label": "버스 · 일별 승하차",
+      "identifier": "OA-12912",
+      "portal_id": "portal-seoul",
+      "publisher_id": "org-seoul",
+      "url": "https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do",
+      "themes": [
+        "concept-bus"
+      ],
+      "spatial_concepts": [
+        "concept-stop"
+      ],
+      "temporal_grain": "일",
+      "spatial_grain": "노선 × 정류장",
+      "measure": "교통카드 승차·하차 집계",
+      "unit": "원본 단위·자료형 미검증",
+      "update_frequency": "일별 갱신 안내; 파일은 월 묶음",
+      "distribution_formats": [
+        "CSV"
+      ],
+      "latest_metadata_date": null,
+      "lifecycle": "catalog_listed",
+      "production_ended_after": null,
+      "license_display": "표시 조건은 원문 재확인",
+      "license_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "caveats": [
+        "공공데이터포털 등록정보의 수시 표기와 실제 데이터 갱신 주기를 구분.",
+        "승차·하차 합계를 고유 이용자 수로 표시하지 않음."
+      ],
+      "missing": [
+        "현재 원본 컬럼·키 검증",
+        "정류장 코드 버전",
+        "정류장→행정동 공간 매핑"
+      ],
+      "row_data_verified": false,
+      "api_verified": false
+    },
+    {
+      "id": "ds-bus-hourly",
+      "type": "Dataset",
+      "label": "서울시 버스노선별 정류장별 시간대별 승하차 인원 정보",
+      "short_label": "버스 · 월별 시간대 집계",
+      "identifier": "OA-12913",
+      "portal_id": "portal-seoul",
+      "publisher_id": "org-seoul",
+      "url": "https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do",
+      "themes": [
+        "concept-bus"
+      ],
+      "spatial_concepts": [
+        "concept-stop"
+      ],
+      "temporal_grain": "월 × 시간대",
+      "spatial_grain": "노선 × 정류장",
+      "measure": "교통카드 승차·하차 집계",
+      "unit": "원본 단위·자료형 미검증",
+      "update_frequency": "매월 5일 전월 자료 갱신 안내",
+      "distribution_formats": [
+        "CSV",
+        "ZIP"
+      ],
+      "latest_metadata_date": "2026-09-06",
+      "lifecycle": "catalog_listed",
+      "production_ended_after": null,
+      "license_display": "공공누리 1유형 표시",
+      "license_source_ids": [
+        "S3"
+      ],
+      "source_ids": [
+        "S3"
+      ],
+      "caveats": [
+        "현금 이용은 집계되지 않는다고 FAQ에 안내.",
+        "월별 시간대 집계를 특정 날짜의 시간별 관측으로 해석하지 않음.",
+        "2022년 7월 전후 교통수단 타입 필드 변경 안내가 있음."
+      ],
+      "missing": [
+        "시간대 컬럼·집계 방식 확인",
+        "정류장 식별자 검증",
+        "노선별 중복 집계 검토"
+      ],
+      "row_data_verified": false,
+      "api_verified": false
+    },
+    {
+      "id": "ds-subway-daily",
+      "type": "Dataset",
+      "label": "서울시 지하철호선별 역별 승하차 인원 정보",
+      "short_label": "지하철 · 일별 승하차",
+      "identifier": "OA-12914",
+      "portal_id": "portal-seoul",
+      "publisher_id": "org-seoul",
+      "url": "https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do",
+      "themes": [
+        "concept-subway"
+      ],
+      "spatial_concepts": [
+        "concept-station"
+      ],
+      "temporal_grain": "일",
+      "spatial_grain": "호선 × 역",
+      "measure": "교통카드 승차·하차 집계",
+      "unit": "원본 단위·자료형 미검증",
+      "update_frequency": "매일; 3일 전 자료 갱신 안내",
+      "distribution_formats": [
+        "CSV"
+      ],
+      "latest_metadata_date": "2026-09-10",
+      "lifecycle": "catalog_listed",
+      "production_ended_after": null,
+      "license_display": "공공누리 1유형 표시",
+      "license_source_ids": [
+        "S4"
+      ],
+      "source_ids": [
+        "S4"
+      ],
+      "caveats": [
+        "FAQ상 신분당선 제외.",
+        "일별 수치로 출근시간만의 이용량을 직접 산출할 수 없음.",
+        "역명만으로 조인하면 환승역·명칭 변경 문제가 생길 수 있음."
+      ],
+      "missing": [
+        "역 식별자·현재 컬럼 확인",
+        "역→행정동 매핑",
+        "출근시간 분석용 시간대별 자료"
+      ],
+      "row_data_verified": false,
+      "api_verified": false
+    },
+    {
+      "id": "ds-living-old",
+      "type": "Dataset",
+      "label": "행정동 단위 서울 생활인구(내국인)",
+      "short_label": "생활인구 · 기존 방식 / 생산 종료",
+      "identifier": "OA-14991",
+      "portal_id": "portal-seoul",
+      "publisher_id": "org-seoul",
+      "url": "https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S",
+      "themes": [
+        "concept-living"
+      ],
+      "spatial_concepts": [
+        "concept-dong"
+      ],
+      "temporal_grain": "시각별 추계 · 원본 재확인 필요",
+      "spatial_grain": "행정동",
+      "measure": "내국인 생활인구 추계",
+      "unit": "명 · 추정값",
+      "update_frequency": "기존 자료 생산 종료",
+      "distribution_formats": [],
+      "latest_metadata_date": null,
+      "lifecycle": "production_ended",
+      "production_ended_after": "2026-07-31",
+      "license_display": "공공누리 1유형 표시",
+      "license_source_ids": [
+        "S5"
+      ],
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "caveats": [
+        "2026년 7월 31일 이후 생산 종료 안내. 실제 마지막 관측일과 과거 파일 접근은 미확인.",
+        "250m 기반 새 자료와 값의 연속성·동일성은 확인되지 않음."
+      ],
+      "missing": [
+        "과거 파일 제공 여부",
+        "새 방식과의 시계열 접속 검증"
+      ],
+      "row_data_verified": false,
+      "api_verified": false
+    },
+    {
+      "id": "ds-living-new",
+      "type": "Dataset",
+      "label": "[내국인] 행정동별 서울 생활인구(250m)",
+      "short_label": "생활인구 · 250m 기반 행정동 집계",
+      "identifier": "OA-23016",
+      "portal_id": "portal-seoul",
+      "publisher_id": "org-seoul",
+      "url": "https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do",
+      "themes": [
+        "concept-living"
+      ],
+      "spatial_concepts": [
+        "concept-dong"
+      ],
+      "temporal_grain": "특정 시점 · 시각 필드는 원본 확인 필요",
+      "spatial_grain": "행정동; 원천은 250m 격자",
+      "measure": "내국인 생활인구 추계",
+      "unit": "명 · 추정값",
+      "update_frequency": "매일 1회",
+      "distribution_formats": [
+        "ZIP"
+      ],
+      "latest_metadata_date": "2026-09-10",
+      "lifecycle": "catalog_listed",
+      "production_ended_after": null,
+      "license_display": "공공누리 1유형 표시",
+      "license_source_ids": [
+        "S7"
+      ],
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "caveats": [
+        "자료명에 250m가 있어도 출력 공간 단위는 행정동.",
+        "내국인 자료 하나를 전체 국적의 생활인구로 표시하지 않음.",
+        "마스킹된 값은 0으로 치환하지 않음. 시각별 인구를 더해 순방문자로 해석하지 않음."
+      ],
+      "missing": [
+        "실제 관측 시각·행정동 컬럼 확인",
+        "행정동 코드·경계 기준일",
+        "품질·마스킹 규칙의 파일별 확인"
+      ],
+      "row_data_verified": false,
+      "api_verified": false
+    },
+    {
+      "id": "ds-resident",
+      "type": "Dataset",
+      "label": "행정구역(시군구)별, 성별 인구수",
+      "short_label": "주민등록인구 · 시군구·성별",
+      "identifier": "DT_1B040A3",
+      "portal_id": "portal-kosis",
+      "url": "https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3",
+      "themes": [
+        "concept-resident"
+      ],
+      "spatial_concepts": [
+        "concept-district"
+      ],
+      "temporal_grain": "월",
+      "spatial_grain": "행정구역(시군구) × 성별",
+      "measure": "주민등록 기준 인구",
+      "unit": "통계표 원본 단위 재확인 필요",
+      "update_frequency": "월; 행정안전부 공개 후 KOSIS 반영",
+      "distribution_formats": [],
+      "latest_metadata_date": null,
+      "lifecycle": "catalog_listed",
+      "production_ended_after": null,
+      "license_display": "이번 검토에서 이용 조건 미확인",
+      "license_source_ids": [],
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "caveats": [
+        "포털 운영기관과 통계 작성기관을 구분.",
+        "통계표 화면 본문은 자동 열람되지 않아 공식 목록·답변으로 확인.",
+        "서울 분석 시 해당 지역을 선택해야 함; 지역 코드 길이만으로 타 자료와 결합하지 않음."
+      ],
+      "missing": [
+        "실제 통계표 값·컬럼·주석",
+        "이용 조건",
+        "지역 코드 대응표",
+        "최신 관측월"
+      ],
+      "row_data_verified": false,
+      "api_verified": false,
+      "creator_id": "org-mois",
+      "publisher_id": null
+    },
+    {
+      "id": "record-go-bus",
+      "type": "CatalogRecord",
+      "portal_id": "portal-data-go",
+      "dataset_id": null,
+      "label": "15051734 · 버스 일별 등록정보",
+      "url": "https://www.data.go.kr/data/15051734/fileData.do",
+      "source_ids": [
+        "S1"
+      ],
+      "reported_frequency": "수시 (1회성 데이터)",
+      "reported_modified": "2025-08-08",
+      "reported_license": "출처표시 및 제3자 권리 포함 표시",
+      "description_frequency": "일별 집계·일별 갱신"
+    },
+    {
+      "id": "record-seoul-bus",
+      "type": "CatalogRecord",
+      "portal_id": "portal-seoul",
+      "dataset_id": "ds-bus-daily",
+      "label": "OA-12912",
+      "url": "https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "record-seoul-bus-hourly",
+      "type": "CatalogRecord",
+      "portal_id": "portal-seoul",
+      "dataset_id": "ds-bus-hourly",
+      "label": "OA-12913",
+      "url": "https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "record-seoul-subway",
+      "type": "CatalogRecord",
+      "portal_id": "portal-seoul",
+      "dataset_id": "ds-subway-daily",
+      "label": "OA-12914",
+      "url": "https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "record-seoul-old",
+      "type": "CatalogRecord",
+      "portal_id": "portal-seoul",
+      "dataset_id": "ds-living-old",
+      "label": "OA-14991",
+      "url": "https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "id": "record-seoul-new",
+      "type": "CatalogRecord",
+      "portal_id": "portal-seoul",
+      "dataset_id": "ds-living-new",
+      "label": "OA-23016",
+      "url": "https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do",
+      "source_ids": [
+        "S7"
+      ]
+    },
+    {
+      "id": "record-kosis-resident",
+      "type": "CatalogRecord",
+      "portal_id": "portal-kosis",
+      "dataset_id": "ds-resident",
+      "label": "DT_1B040A3",
+      "url": "https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3",
+      "source_ids": [
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "join-bus-time",
+      "type": "JoinAssessment",
+      "left": "ds-bus-daily",
+      "right": "ds-bus-hourly",
+      "status": "requires_validation",
+      "purpose": "일별 자료를 월 합계로 집계한 뒤 시간대 자료와 대조",
+      "keys": [
+        "노선 식별자",
+        "정류장 식별자",
+        "기준 월"
+      ],
+      "conditions": [
+        "일별 자료를 월 단위로 먼저 집계",
+        "양쪽 키 체계·기간·포함 범위를 검증",
+        "월별 시간대 자료의 합계 정의를 확인"
+      ],
+      "blockers": [
+        "현재 원본 컬럼 및 중복 키 검증 전"
+      ],
+      "source_ids": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "join-bus-living",
+      "type": "JoinAssessment",
+      "left": "ds-bus-daily",
+      "right": "ds-living-new",
+      "status": "requires_validation",
+      "purpose": "지역별 버스 이용과 생활인구의 관계 탐색",
+      "keys": [
+        "정류장→행정동 대응표",
+        "관측 날짜·집계 기준"
+      ],
+      "conditions": [
+        "버스정류장 좌표와 행정동 경계 자료를 추가 확보",
+        "생활인구의 일 대표값 산출 기준을 정함",
+        "측정 범위·국적 범위 차이를 표시"
+      ],
+      "blockers": [
+        "공간 대응표 없음",
+        "관측 단위 확인 전",
+        "인과관계를 결론 낼 수 없음"
+      ],
+      "source_ids": [
+        "S2",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "id": "join-subway-living",
+      "type": "JoinAssessment",
+      "left": "ds-subway-daily",
+      "right": "ds-living-new",
+      "status": "requires_validation",
+      "purpose": "역 주변 대중교통 이용과 생활인구 비교",
+      "keys": [
+        "역→공간 구역 대응표",
+        "공통 분석 기간"
+      ],
+      "conditions": [
+        "주변 반경 또는 행정동 중 분석 공간을 먼저 정의",
+        "역 위치와 시점별 경계 자료를 추가 확보",
+        "일별 지하철 자료의 시간대 제약을 반영"
+      ],
+      "blockers": [
+        "역 위치·공간 대응표 없음",
+        "일별 자료로 출근시간을 직접 조회할 수 없음"
+      ],
+      "source_ids": [
+        "S4",
+        "S7"
+      ]
+    },
+    {
+      "id": "join-populations",
+      "type": "JoinAssessment",
+      "left": "ds-living-new",
+      "right": "ds-resident",
+      "status": "requires_validation",
+      "purpose": "지역의 존재 인구와 등록 인구를 구별해 비교",
+      "keys": [
+        "행정동→시군구 대응표",
+        "기준 월"
+      ],
+      "conditions": [
+        "같은 기준일의 구역·코드 체계로 정렬",
+        "생활인구 대표 시각 또는 기간 평균을 명시",
+        "국적·대상 범위 확인; 양쪽 값을 합산하지 않음"
+      ],
+      "blockers": [
+        "KOSIS 지역 코드 원본 확인 전",
+        "성별·대상 범위 비교 전",
+        "이용 조건 확인 필요"
+      ],
+      "source_ids": [
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ]
+    },
+    {
+      "id": "join-living-versions",
+      "type": "JoinAssessment",
+      "left": "ds-living-old",
+      "right": "ds-living-new",
+      "status": "blocked_for_blind_append",
+      "purpose": "장기 생활인구 추세 분석",
+      "keys": [
+        "공통 시점",
+        "동일 공간 구역"
+      ],
+      "conditions": [
+        "겹치는 기간의 추계 방법·수치 차이를 검증",
+        "방법 변경 시점을 결과에 표시"
+      ],
+      "blockers": [
+        "동일한 시계열이라는 근거 없음",
+        "같은 컬럼명만으로 이어 붙일 수 없음"
+      ],
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "id": "map-title",
+      "type": "Mapping",
+      "scope": "record-go-bus",
+      "source_path": "name",
+      "target": "dcterms:title",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "transform": "문자열 보존"
+    },
+    {
+      "id": "map-publisher",
+      "type": "Mapping",
+      "scope": "record-go-bus",
+      "source_path": "creator.name",
+      "target": "프로토타입 제공기관 후보",
+      "status": "curated",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "transform": "기관명 정규화; 원본 creator 역할과 제공기관 역할을 별도로 보존"
+    },
+    {
+      "id": "map-modified",
+      "type": "Mapping",
+      "scope": "record-go-bus",
+      "source_path": "dateModified",
+      "target": "등록정보 수정일",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "transform": "실제 데이터의 마지막 관측일로 사용하지 않음"
+    },
+    {
+      "id": "map-license",
+      "type": "Mapping",
+      "scope": "record-go-bus",
+      "source_path": "license",
+      "target": "원문 이용 조건 표시",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "transform": "자동 판매 허가로 변환하지 않음"
+    },
+    {
+      "id": "map-bus-stop",
+      "type": "Mapping",
+      "scope": "ds-bus-daily",
+      "source_path": null,
+      "target": "정규화 필드 stop_identifier",
+      "status": "candidate",
+      "source_ids": [
+        "S2",
+        "S10"
+      ],
+      "transform": "현재 파일에서 표준정류장ID·ARS번호 후보 확인 후 매핑; 현 버전 원본 컬럼 미확정"
+    },
+    {
+      "id": "map-living-dong",
+      "type": "Mapping",
+      "scope": "ds-living-new",
+      "source_path": null,
+      "target": "정규화 필드 administrative_area_code",
+      "status": "candidate",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "transform": "현재 행정동 코드 컬럼·길이·기준일 확인 후 매핑"
+    },
+    {
+      "id": "rule-current",
+      "type": "PolicyRule",
+      "label": "생산 종료 자료를 최신 자료로 추천하지 않음",
+      "condition": "lifecycle = production_ended AND request = latest",
+      "decision": "exclude_from_latest; 후속 자료 후보와 검증 조건 안내"
+    },
+    {
+      "id": "rule-join",
+      "type": "PolicyRule",
+      "label": "주제 관련성과 조인 가능성을 구분",
+      "condition": "join_assessment != validated",
+      "decision": "연결 조건만 안내; 자동 조인 허가하지 않음"
+    },
+    {
+      "id": "rule-population",
+      "type": "PolicyRule",
+      "label": "측정 의미 보존",
+      "condition": "생활인구·주민등록인구·승하차 이용량 혼합",
+      "decision": "서로 다른 지표로 표시; 고유 인구처럼 합산 금지"
+    },
+    {
+      "id": "rule-license",
+      "type": "PolicyRule",
+      "label": "이용 조건 미확인을 허용으로 바꾸지 않음",
+      "condition": "license_display 미확인 또는 거래 범위 미검토",
+      "decision": "review_required; 원문 링크 제공과 데이터 재배포를 구분"
+    },
+    {
+      "id": "rule-evidence",
+      "type": "PolicyRule",
+      "label": "후보 관계의 사실 승격 금지",
+      "condition": "relationship.status = candidate",
+      "decision": "RDF의 사실 트리플로 materialize하지 않음"
+    }
+  ],
+  "edges": [
+    {
+      "id": "claim-001",
+      "subject": "portal-seoul",
+      "predicate": "operatedBy",
+      "label": "운영기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S2",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-002",
+      "subject": "portal-kosis",
+      "predicate": "operatedBy",
+      "label": "운영기관",
+      "object": "org-mods",
+      "status": "documented",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-003",
+      "subject": "concept-bus",
+      "predicate": "broader",
+      "label": "상위 개념",
+      "object": "concept-transport",
+      "status": "curated",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-004",
+      "subject": "concept-subway",
+      "predicate": "broader",
+      "label": "상위 개념",
+      "object": "concept-transport",
+      "status": "curated",
+      "source_ids": [
+        "S4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-005",
+      "subject": "concept-living",
+      "predicate": "broader",
+      "label": "상위 개념",
+      "object": "concept-population",
+      "status": "curated",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-006",
+      "subject": "concept-living",
+      "predicate": "relatedConcept",
+      "label": "관련 개념",
+      "object": "concept-resident",
+      "status": "curated",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-007",
+      "subject": "concept-living",
+      "predicate": "relatedConcept",
+      "label": "관련 개념",
+      "object": "concept-floating",
+      "status": "curated",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-008",
+      "subject": "concept-resident",
+      "predicate": "broader",
+      "label": "상위 개념",
+      "object": "concept-population",
+      "status": "curated",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-009",
+      "subject": "concept-resident",
+      "predicate": "relatedConcept",
+      "label": "관련 개념",
+      "object": "concept-living",
+      "status": "curated",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-010",
+      "subject": "concept-floating",
+      "predicate": "broader",
+      "label": "상위 개념",
+      "object": "concept-population",
+      "status": "curated",
+      "source_ids": [
+        "S6"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-011",
+      "subject": "concept-floating",
+      "predicate": "relatedConcept",
+      "label": "관련 개념",
+      "object": "concept-living",
+      "status": "curated",
+      "source_ids": [
+        "S6"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-012",
+      "subject": "ds-bus-daily",
+      "predicate": "publisher",
+      "label": "제공기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-013",
+      "subject": "ds-bus-daily",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-bus",
+      "status": "curated",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-014",
+      "subject": "ds-bus-daily",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-stop",
+      "status": "curated",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-015",
+      "subject": "ds-bus-hourly",
+      "predicate": "publisher",
+      "label": "제공기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S3"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-016",
+      "subject": "ds-bus-hourly",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-bus",
+      "status": "curated",
+      "source_ids": [
+        "S3"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-017",
+      "subject": "ds-bus-hourly",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-stop",
+      "status": "curated",
+      "source_ids": [
+        "S3"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-018",
+      "subject": "ds-subway-daily",
+      "predicate": "publisher",
+      "label": "제공기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-019",
+      "subject": "ds-subway-daily",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-subway",
+      "status": "curated",
+      "source_ids": [
+        "S4"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-020",
+      "subject": "ds-subway-daily",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-station",
+      "status": "curated",
+      "source_ids": [
+        "S4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-021",
+      "subject": "ds-living-old",
+      "predicate": "publisher",
+      "label": "제공기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-022",
+      "subject": "ds-living-old",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-living",
+      "status": "curated",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-023",
+      "subject": "ds-living-old",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-dong",
+      "status": "curated",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-024",
+      "subject": "ds-living-new",
+      "predicate": "publisher",
+      "label": "제공기관",
+      "object": "org-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-025",
+      "subject": "ds-living-new",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-living",
+      "status": "curated",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-026",
+      "subject": "ds-living-new",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-dong",
+      "status": "curated",
+      "source_ids": [
+        "S6",
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-027",
+      "subject": "ds-resident",
+      "predicate": "creator",
+      "label": "작성기관",
+      "object": "org-mois",
+      "status": "documented",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-028",
+      "subject": "ds-resident",
+      "predicate": "theme",
+      "label": "주제",
+      "object": "concept-resident",
+      "status": "curated",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": "프로토타입에서 정의한 개념 분류"
+    },
+    {
+      "id": "claim-029",
+      "subject": "ds-resident",
+      "predicate": "spatialConcept",
+      "label": "공간 단위 개념",
+      "object": "concept-district",
+      "status": "curated",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-030",
+      "subject": "portal-data-go",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-go-bus",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-031",
+      "subject": "portal-seoul",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-seoul-bus",
+      "status": "documented",
+      "source_ids": [
+        "S2"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-032",
+      "subject": "record-seoul-bus",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-bus-daily",
+      "status": "documented",
+      "source_ids": [
+        "S2"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-033",
+      "subject": "portal-seoul",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-seoul-bus-hourly",
+      "status": "documented",
+      "source_ids": [
+        "S3"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-034",
+      "subject": "record-seoul-bus-hourly",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-bus-hourly",
+      "status": "documented",
+      "source_ids": [
+        "S3"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-035",
+      "subject": "portal-seoul",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-seoul-subway",
+      "status": "documented",
+      "source_ids": [
+        "S4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-036",
+      "subject": "record-seoul-subway",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-subway-daily",
+      "status": "documented",
+      "source_ids": [
+        "S4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-037",
+      "subject": "portal-seoul",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-seoul-old",
+      "status": "documented",
+      "source_ids": [
+        "S5"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-038",
+      "subject": "record-seoul-old",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-living-old",
+      "status": "documented",
+      "source_ids": [
+        "S5"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-039",
+      "subject": "portal-seoul",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-seoul-new",
+      "status": "documented",
+      "source_ids": [
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-040",
+      "subject": "record-seoul-new",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-living-new",
+      "status": "documented",
+      "source_ids": [
+        "S7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-041",
+      "subject": "portal-kosis",
+      "predicate": "catalogRecord",
+      "label": "수록",
+      "object": "record-kosis-resident",
+      "status": "documented",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "claim-042",
+      "subject": "record-kosis-resident",
+      "predicate": "primaryTopic",
+      "label": "설명 대상",
+      "object": "ds-resident",
+      "status": "documented",
+      "source_ids": [
+        "S8",
+        "S9"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rel-portal-referral",
+      "subject": "portal-data-go",
+      "predicate": "refersToPortal",
+      "label": "외부 포털로 안내",
+      "object": "portal-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "note": "15051734 등록 설명에 서울 포털로 이동한다고 명시. 모든 서울 자료가 연계된다는 뜻은 아님."
+    },
+    {
+      "id": "rel-record-referral",
+      "subject": "record-go-bus",
+      "predicate": "refersToPortal",
+      "label": "외부 포털로 안내",
+      "object": "portal-seoul",
+      "status": "documented",
+      "source_ids": [
+        "S1"
+      ],
+      "note": "등록정보가 안내하는 외부 제공처."
+    },
+    {
+      "id": "rel-crosslisting",
+      "subject": "record-go-bus",
+      "predicate": "candidateTopic",
+      "label": "등록정보 대응 후보",
+      "object": "ds-bus-daily",
+      "status": "candidate",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S10"
+      ],
+      "note": "검색 색인에서 OA-12912 목적지 확인. 현재 상세 링크·버전 일치 확인 전이므로 확정 동일성으로 저장하지 않음."
+    },
+    {
+      "id": "rel-version",
+      "subject": "ds-living-old",
+      "predicate": "successorCandidate",
+      "label": "후속 자료 후보",
+      "object": "ds-living-new",
+      "status": "candidate",
+      "source_ids": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "note": "종료 안내의 250m 전환 및 현재 안내 링크를 근거로 한 후속 자료 후보. 공식 동일 시계열·호환성 보증이 아님."
+    },
+    {
+      "id": "rel-transit",
+      "subject": "ds-bus-daily",
+      "predicate": "analyticalComplement",
+      "label": "분석 목적의 보완 자료",
+      "object": "ds-subway-daily",
+      "status": "curated",
+      "source_ids": [
+        "S2",
+        "S4"
+      ],
+      "note": "교통수단별 이용량 비교 목적. 공통 공간 단위로 집계할 때 포함 노선·기간·중복을 검토."
+    },
+    {
+      "id": "rel-resident-living",
+      "subject": "ds-living-new",
+      "predicate": "analyticalComplement",
+      "label": "분석 목적의 보완 자료",
+      "object": "ds-resident",
+      "status": "curated",
+      "source_ids": [
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "note": "존재 인구와 등록 인구의 배경 비교 목적. 두 지표를 같은 인구수로 합산하지 않음."
+    }
+  ],
+  "predicate_labels": {
+    "catalogRecord": "수록",
+    "primaryTopic": "설명 대상",
+    "publisher": "제공기관",
+    "creator": "작성기관",
+    "theme": "주제",
+    "broader": "상위 개념",
+    "relatedConcept": "관련 개념",
+    "operatedBy": "운영기관",
+    "refersToPortal": "외부 포털로 안내",
+    "candidateTopic": "등록정보 대응 후보",
+    "successorCandidate": "후속 자료 후보",
+    "analyticalComplement": "분석 목적의 보완 자료",
+    "spatialConcept": "공간 단위 개념",
+    "leftDataset": "왼쪽 자료",
+    "rightDataset": "오른쪽 자료",
+    "sourceEvidence": "검토 근거",
+    "mappingScope": "매핑 대상"
+  }
+}

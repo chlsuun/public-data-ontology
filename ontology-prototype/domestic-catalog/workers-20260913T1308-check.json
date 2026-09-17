@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-13T13:08:47.7872431+00:00",
+  "workers": [
+    {
+      "name": "data-go-file",
+      "pid": 26304,
+      "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_definitions.py",
+      "matching_process_count": 1,
+      "error_log_bytes": 0
+    },
+    {
+      "name": "kosis",
+      "pid": 25268,
+      "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_kosis.py",
+      "matching_process_count": 1,
+      "error_log_bytes": 0
+    },
+    {
+      "name": "data-go-api",
+      "pid": 1748,
+      "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_data_go_api.py",
+      "matching_process_count": 1,
+      "error_log_bytes": 0
+    },
+    {
+      "name": "mafra",
+      "pid": 16448,
+      "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\collect_mafra.py",
+      "matching_process_count": 1,
+      "error_log_bytes": 0
+    },
+    {
+      "name": "indexer",
+      "pid": 32956,
+      "script": "C:\\Users\\alsw0\\Desktop\\project1\\ontology-prototype\\domestic-catalog\\index_progress.py",
+      "matching_process_count": 1,
+      "error_log_bytes": 0
+    }
+  ],
+  "supervisor_pid": 31336,
+  "stop_markers": []
+}

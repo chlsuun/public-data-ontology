@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-13T18:11:28.694370+00:00",
+  "catalog_registrations": 178,
+  "api_definitions": 169,
+  "response_fields": 1861,
+  "request_parameters": 1315,
+  "exact_duplicate_response_tables": 169,
+  "file_registrations": 8,
+  "file_metadata_rows": 316,
+  "linked_only": 1,
+  "all_columns_complete": false,
+  "request_parameter_occurrences_in_api_registrations": 1275,
+  "generic_request_rows_on_file_pages": 40
+}

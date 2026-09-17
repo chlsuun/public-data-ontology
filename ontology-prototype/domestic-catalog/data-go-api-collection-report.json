@@ -1,0 +1,17 @@
+{
+  "scope": "data-go-api",
+  "target_count": 12053,
+  "processed": 12053,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 7023,
+    "api_definition_route_unresolved": 4814,
+    "fetch_unresolved": 216
+  },
+  "documented_field_occurrences": 226811,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T09:59:53.393350+00:00",
+  "generated_at": "2026-09-13T14:49:24.579117+00:00",
+  "pid": 1748
+}

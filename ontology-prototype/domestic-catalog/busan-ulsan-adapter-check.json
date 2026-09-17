@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-09-13T13:52:59.218573+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "busan_export_search_and_source_ids_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_all_catalog_rows_trace_to_export",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_provider_codes_namespaced_and_types_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_http_200_error_pages_not_treated_as_schemas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_quoted_commas_preserved_without_schema_promotion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_wrong_operation_parent_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_file_count_discrepancy_visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "busan_current_preview_documents_match_originals",
+      "passed": true,
+      "details": {
+        "documents_checked": 106,
+        "operations_checked": 166,
+        "source_receipts_checked": 212,
+        "failures": []
+      }
+    },
+    {
+      "name": "ulsan_three_tab_page_ranges_reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ulsan_all_rows_and_page_identity_match_originals",
+      "passed": true,
+      "details": {
+        "rows_checked": 2582,
+        "pages_checked": 174,
+        "failures": []
+      }
+    },
+    {
+      "name": "ulsan_no_identical_whole_pages_repeated",
+      "passed": true,
+      "details": {
+        "repeated_pages": []
+      }
+    },
+    {
+      "name": "ulsan_shared_target_occurrences_not_collapsed",
+      "passed": true,
+      "details": {
+        "row_occurrences": 2582,
+        "distinct_target_urls": 973,
+        "shared_target_groups": 458
+      }
+    },
+    {
+      "name": "ulsan_truncated_root_html_not_a_complete_catalog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ulsan_wrong_tab_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_national_or_column_completion_claimed",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "Busan export and public preview provenance, Ulsan page/row boundaries and preserved external references; not observation quality or statistical relationship validation."
+}

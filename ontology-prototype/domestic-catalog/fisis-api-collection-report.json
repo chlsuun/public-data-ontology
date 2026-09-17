@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-14T14:00:15.212792+00:00",
+  "scope": "four explicitly documented FISIS API operation specifications",
+  "target_count": 4,
+  "processed": 4,
+  "remaining": 0,
+  "status_counts": {
+    "response_definition_observed": 3,
+    "response_definition_observed_code_table_partial": 1
+  },
+  "operations": [
+    {
+      "service_identifier": "statisticsInfoSearch",
+      "dataset_key": "api-statisticsInfoSearch",
+      "status": "response_definition_observed",
+      "fields": 18,
+      "request_parameters": 8,
+      "configuration_rows": 2,
+      "response_messages": 13,
+      "code_tables": 0
+    },
+    {
+      "service_identifier": "companySearch",
+      "dataset_key": "api-companySearch",
+      "status": "response_definition_observed",
+      "fields": 7,
+      "request_parameters": 4,
+      "configuration_rows": 2,
+      "response_messages": 11,
+      "code_tables": 1
+    },
+    {
+      "service_identifier": "statisticsListSearch",
+      "dataset_key": "api-statisticsListSearch",
+      "status": "response_definition_observed_code_table_partial",
+      "fields": 8,
+      "request_parameters": 4,
+      "configuration_rows": 2,
+      "response_messages": 11,
+      "code_tables": 1
+    },
+    {
+      "service_identifier": "accountListSearch",
+      "dataset_key": "api-accountListSearch",
+      "status": "response_definition_observed",
+      "fields": 8,
+      "request_parameters": 3,
+      "configuration_rows": 2,
+      "response_messages": 11,
+      "code_tables": 0
+    }
+  ],
+  "documented_field_occurrences": 41,
+  "request_parameter_occurrences": 19,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "keyed_api_called": false,
+  "dynamic_columns_note": "a/b/c/d are documented placeholders; actual per-report column meanings require report-specific metadata.",
+  "code_scope_note": "Open API sector codes and public UI sector codes are separate source namespaces; no identity mapping inferred."
+}

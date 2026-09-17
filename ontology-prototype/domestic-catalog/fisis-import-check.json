@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-14T14:30:18.743623+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "DB contains every statistical report and documented API operation",
+      "passed": true
+    },
+    {
+      "name": "Every audited item and metadata document matches the live DB",
+      "passed": true
+    },
+    {
+      "name": "Portable snapshot retains every audited response/statistical item",
+      "passed": true,
+      "rows": 19603
+    },
+    {
+      "name": "Separate glossary export retains source, period and unapproved status",
+      "passed": true,
+      "rows": 2707
+    },
+    {
+      "name": "Live HTTP search includes 740 FISIS registrations",
+      "passed": true
+    },
+    {
+      "name": "Live HTTP item and glossary details retain source text",
+      "passed": true
+    }
+  ],
+  "audited_statistical_documents": 736,
+  "field_occurrences": 19603,
+  "scope": "Exact source-check snapshot; newer worker documents may not yet be indexed",
+  "source_check": "fisis-source-check.json"
+}

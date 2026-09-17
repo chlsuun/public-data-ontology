@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-09-13T17:29:27.451787+00:00",
+  "passed": true,
+  "checks_passed": 12,
+  "checks": [
+    {
+      "name": "http_hrdk_catalog_count",
+      "passed": true,
+      "detail": 69
+    },
+    {
+      "name": "hrdk_metadata_and_tools_do_not_inflate_columns",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "mcp_input_is_not_a_dataset_output",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hrdk_detail_retains_official_referral",
+      "passed": true,
+      "detail": "hrdk-api-data-go-link-15074415"
+    },
+    {
+      "name": "http_detail_shows_file_version_and_cell_provenance",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "name": "exact_title_and_header_search_positive_control",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "same_fixture_excluded_from_documented_filter",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "portable_export_preserves_multiple_preview_sources",
+      "passed": true,
+      "detail": 44
+    },
+    {
+      "name": "csv_and_all_header_candidate_counts_separated",
+      "passed": true,
+      "detail": {
+        "csv": 16385,
+        "all": 17847
+      }
+    },
+    {
+      "name": "frontier_contains_all_hrdk_referrals",
+      "passed": true,
+      "detail": 69
+    },
+    {
+      "name": "broken_links_preserved_as_observed_http_404",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "incremental_index_has_no_unmatched_or_parse_errors",
+      "passed": true,
+      "detail": "2026-09-13T17:21:26.597597+00:00"
+    }
+  ],
+  "coverage_snapshot": "2026-09-13T17:21:01.593267+00:00",
+  "source_scope": "HTTP fixtures, index and latest portable export, not all currently collected source files",
+  "all_columns_complete": false
+}

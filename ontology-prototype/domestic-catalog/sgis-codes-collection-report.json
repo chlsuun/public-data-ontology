@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-13T16:26:17.184729+00:00",
+  "scope": "SGIS public code tables explicitly referenced by DATA API guide",
+  "target_count": 14,
+  "processed": 14,
+  "status_counts": {
+    "code_tables_observed": 14,
+    "unresolved": 0
+  },
+  "code_rows": 461,
+  "parameter_reference_occurrences": 35,
+  "columns_added": 0,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "all_sgis_code_lists_complete": false
+}

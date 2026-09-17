@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-09-13T10:58:10.365679+00:00",
+  "scope": "공개 UI 주소정보 다운로드 전체 목록 조회의 예비 수집",
+  "evidence_id": "address-db-catalog-public",
+  "metadata_rows": 31,
+  "unique_category_ids": 31,
+  "public_flag_counts": {
+    "N": 18,
+    "Y": 13
+  },
+  "metadata_visible_does_not_imply_file_download_authorized": true,
+  "catalog_index_imported": true,
+  "columns_collected": true,
+  "next_action": "개별 날짜별 배포 파일 목록과 해당 스키마 버전·추가 공개 명세 조사. 메타데이터 공개를 보호 파일 접근 허가로 확대하지 않는다.",
+  "updated_at": "2026-09-13T11:48:39.134404+00:00",
+  "schema_categories_observed": 31,
+  "documented_field_occurrences": 1117,
+  "all_columns_complete": false
+}

@@ -1,0 +1,1219 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.org/public-data/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:S11 a ex:Source ;
+    rdfs:label "W3C DCAT 3"@ko ;
+    dcterms:description "Catalog, CatalogRecord, Dataset, Distribution 구분의 근거."@ko ;
+    foaf:page <https://www.w3.org/TR/vocab-dcat-3/> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_standard" .
+
+ex:S12 a ex:Source ;
+    rdfs:label "W3C SKOS Primer"@ko ;
+    dcterms:description "개념, 정의, 상위·관련 관계의 표현을 참고. 관련 관계를 동일성이나 조인 가능성으로 해석하지 않음."@ko ;
+    foaf:page <https://www.w3.org/TR/skos-primer/> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_standard" .
+
+ex:apiVerified a owl:DatatypeProperty .
+
+ex:blocker a owl:DatatypeProperty .
+
+ex:claim-001 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate ex:operatedBy ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S2,
+        ex:S7 ;
+    ex:status "documented" .
+
+ex:claim-002 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-mods ;
+    rdf:predicate ex:operatedBy ;
+    rdf:subject ex:portal-kosis ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "documented" .
+
+ex:claim-003 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-transport ;
+    rdf:predicate skos:broader ;
+    rdf:subject ex:concept-bus ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S2,
+        ex:S3 ;
+    ex:status "curated" .
+
+ex:claim-004 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-transport ;
+    rdf:predicate skos:broader ;
+    rdf:subject ex:concept-subway ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "curated" .
+
+ex:claim-005 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-population ;
+    rdf:predicate skos:broader ;
+    rdf:subject ex:concept-living ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 ;
+    ex:status "curated" .
+
+ex:claim-006 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-resident ;
+    rdf:predicate skos:related ;
+    rdf:subject ex:concept-living ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 ;
+    ex:status "curated" .
+
+ex:claim-007 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-floating ;
+    rdf:predicate skos:related ;
+    rdf:subject ex:concept-living ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 ;
+    ex:status "curated" .
+
+ex:claim-008 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-population ;
+    rdf:predicate skos:broader ;
+    rdf:subject ex:concept-resident ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "curated" .
+
+ex:claim-009 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-living ;
+    rdf:predicate skos:related ;
+    rdf:subject ex:concept-resident ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "curated" .
+
+ex:claim-010 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-population ;
+    rdf:predicate skos:broader ;
+    rdf:subject ex:concept-floating ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6 ;
+    ex:status "curated" .
+
+ex:claim-011 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-living ;
+    rdf:predicate skos:related ;
+    rdf:subject ex:concept-floating ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6 ;
+    ex:status "curated" .
+
+ex:claim-012 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate dcterms:publisher ;
+    rdf:subject ex:ds-bus-daily ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1,
+        ex:S2 ;
+    ex:status "documented" .
+
+ex:claim-013 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-bus ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-bus-daily ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1,
+        ex:S2 ;
+    ex:status "curated" .
+
+ex:claim-014 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-stop ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-bus-daily ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1,
+        ex:S2 ;
+    ex:status "curated" .
+
+ex:claim-015 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate dcterms:publisher ;
+    rdf:subject ex:ds-bus-hourly ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S3 ;
+    ex:status "documented" .
+
+ex:claim-016 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-bus ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-bus-hourly ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S3 ;
+    ex:status "curated" .
+
+ex:claim-017 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-stop ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-bus-hourly ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S3 ;
+    ex:status "curated" .
+
+ex:claim-018 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate dcterms:publisher ;
+    rdf:subject ex:ds-subway-daily ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "documented" .
+
+ex:claim-019 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-subway ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-subway-daily ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "curated" .
+
+ex:claim-020 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-station ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-subway-daily ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "curated" .
+
+ex:claim-021 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate dcterms:publisher ;
+    rdf:subject ex:ds-living-old ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6 ;
+    ex:status "documented" .
+
+ex:claim-022 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-living ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-living-old ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6 ;
+    ex:status "curated" .
+
+ex:claim-023 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-dong ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-living-old ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6 ;
+    ex:status "curated" .
+
+ex:claim-024 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-seoul ;
+    rdf:predicate dcterms:publisher ;
+    rdf:subject ex:ds-living-new ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 ;
+    ex:status "documented" .
+
+ex:claim-025 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-living ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-living-new ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 ;
+    ex:status "curated" .
+
+ex:claim-026 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-dong ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-living-new ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 ;
+    ex:status "curated" .
+
+ex:claim-027 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:org-mois ;
+    rdf:predicate dcterms:creator ;
+    rdf:subject ex:ds-resident ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "documented" .
+
+ex:claim-028 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-resident ;
+    rdf:predicate dcat:theme ;
+    rdf:subject ex:ds-resident ;
+    rdfs:comment "프로토타입에서 정의한 개념 분류"@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "curated" .
+
+ex:claim-029 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:concept-district ;
+    rdf:predicate ex:spatialConcept ;
+    rdf:subject ex:ds-resident ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "curated" .
+
+ex:claim-030 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-go-bus ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-data-go ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1 ;
+    ex:status "documented" .
+
+ex:claim-031 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-seoul-bus ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S2 ;
+    ex:status "documented" .
+
+ex:claim-032 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-bus-daily ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-seoul-bus ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S2 ;
+    ex:status "documented" .
+
+ex:claim-033 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-seoul-bus-hourly ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S3 ;
+    ex:status "documented" .
+
+ex:claim-034 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-bus-hourly ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-seoul-bus-hourly ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S3 ;
+    ex:status "documented" .
+
+ex:claim-035 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-seoul-subway ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "documented" .
+
+ex:claim-036 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-subway-daily ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-seoul-subway ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S4 ;
+    ex:status "documented" .
+
+ex:claim-037 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-seoul-old ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5 ;
+    ex:status "documented" .
+
+ex:claim-038 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-living-old ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-seoul-old ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5 ;
+    ex:status "documented" .
+
+ex:claim-039 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-seoul-new ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-seoul ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S7 ;
+    ex:status "documented" .
+
+ex:claim-040 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-living-new ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-seoul-new ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S7 ;
+    ex:status "documented" .
+
+ex:claim-041 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:record-kosis-resident ;
+    rdf:predicate dcat:record ;
+    rdf:subject ex:portal-kosis ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "documented" .
+
+ex:claim-042 a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-resident ;
+    rdf:predicate foaf:primaryTopic ;
+    rdf:subject ex:record-kosis-resident ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:status "documented" .
+
+ex:condition a owl:DatatypeProperty .
+
+ex:decision a owl:DatatypeProperty .
+
+ex:join-bus-living a ex:JoinAssessment ;
+    rdfs:label "join-bus-living"@ko ;
+    ex:blocker "공간 대응표 없음"@ko,
+        "관측 단위 확인 전"@ko,
+        "인과관계를 결론 낼 수 없음"@ko ;
+    ex:condition "버스정류장 좌표와 행정동 경계 자료를 추가 확보"@ko,
+        "생활인구의 일 대표값 산출 기준을 정함"@ko,
+        "측정 범위·국적 범위 차이를 표시"@ko ;
+    ex:joinKey "관측 날짜·집계 기준"@ko,
+        "정류장→행정동 대응표"@ko ;
+    ex:leftDataset ex:ds-bus-daily ;
+    ex:purpose "지역별 버스 이용과 생활인구의 관계 탐색"@ko ;
+    ex:rightDataset ex:ds-living-new ;
+    ex:sourceEvidence ex:S2,
+        ex:S6,
+        ex:S7 ;
+    ex:status "requires_validation" .
+
+ex:join-bus-time a ex:JoinAssessment ;
+    rdfs:label "join-bus-time"@ko ;
+    ex:blocker "현재 원본 컬럼 및 중복 키 검증 전"@ko ;
+    ex:condition "양쪽 키 체계·기간·포함 범위를 검증"@ko,
+        "월별 시간대 자료의 합계 정의를 확인"@ko,
+        "일별 자료를 월 단위로 먼저 집계"@ko ;
+    ex:joinKey "기준 월"@ko,
+        "노선 식별자"@ko,
+        "정류장 식별자"@ko ;
+    ex:leftDataset ex:ds-bus-daily ;
+    ex:purpose "일별 자료를 월 합계로 집계한 뒤 시간대 자료와 대조"@ko ;
+    ex:rightDataset ex:ds-bus-hourly ;
+    ex:sourceEvidence ex:S2,
+        ex:S3 ;
+    ex:status "requires_validation" .
+
+ex:join-living-versions a ex:JoinAssessment ;
+    rdfs:label "join-living-versions"@ko ;
+    ex:blocker "같은 컬럼명만으로 이어 붙일 수 없음"@ko,
+        "동일한 시계열이라는 근거 없음"@ko ;
+    ex:condition "겹치는 기간의 추계 방법·수치 차이를 검증"@ko,
+        "방법 변경 시점을 결과에 표시"@ko ;
+    ex:joinKey "공통 시점"@ko,
+        "동일 공간 구역"@ko ;
+    ex:leftDataset ex:ds-living-old ;
+    ex:purpose "장기 생활인구 추세 분석"@ko ;
+    ex:rightDataset ex:ds-living-new ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 ;
+    ex:status "blocked_for_blind_append" .
+
+ex:join-populations a ex:JoinAssessment ;
+    rdfs:label "join-populations"@ko ;
+    ex:blocker "KOSIS 지역 코드 원본 확인 전"@ko,
+        "성별·대상 범위 비교 전"@ko,
+        "이용 조건 확인 필요"@ko ;
+    ex:condition "같은 기준일의 구역·코드 체계로 정렬"@ko,
+        "국적·대상 범위 확인; 양쪽 값을 합산하지 않음"@ko,
+        "생활인구 대표 시각 또는 기간 평균을 명시"@ko ;
+    ex:joinKey "기준 월"@ko,
+        "행정동→시군구 대응표"@ko ;
+    ex:leftDataset ex:ds-living-new ;
+    ex:purpose "지역의 존재 인구와 등록 인구를 구별해 비교"@ko ;
+    ex:rightDataset ex:ds-resident ;
+    ex:sourceEvidence ex:S6,
+        ex:S7,
+        ex:S8,
+        ex:S9 ;
+    ex:status "requires_validation" .
+
+ex:join-subway-living a ex:JoinAssessment ;
+    rdfs:label "join-subway-living"@ko ;
+    ex:blocker "역 위치·공간 대응표 없음"@ko,
+        "일별 자료로 출근시간을 직접 조회할 수 없음"@ko ;
+    ex:condition "역 위치와 시점별 경계 자료를 추가 확보"@ko,
+        "일별 지하철 자료의 시간대 제약을 반영"@ko,
+        "주변 반경 또는 행정동 중 분석 공간을 먼저 정의"@ko ;
+    ex:joinKey "공통 분석 기간"@ko,
+        "역→공간 구역 대응표"@ko ;
+    ex:leftDataset ex:ds-subway-daily ;
+    ex:purpose "역 주변 대중교통 이용과 생활인구 비교"@ko ;
+    ex:rightDataset ex:ds-living-new ;
+    ex:sourceEvidence ex:S4,
+        ex:S7 ;
+    ex:status "requires_validation" .
+
+ex:joinKey a owl:DatatypeProperty .
+
+ex:leftDataset a owl:ObjectProperty ;
+    rdfs:label "왼쪽 자료"@ko ;
+    rdfs:domain ex:JoinAssessment ;
+    rdfs:range ex:Dataset .
+
+ex:licenseDisplay a owl:DatatypeProperty .
+
+ex:lifecycle a owl:DatatypeProperty .
+
+ex:map-bus-stop a ex:Mapping ;
+    rdfs:label "map-bus-stop"@ko ;
+    ex:mappingScope ex:ds-bus-daily ;
+    ex:sourceEvidence ex:S10,
+        ex:S2 ;
+    ex:status "candidate" ;
+    ex:targetMeaning "정규화 필드 stop_identifier" ;
+    ex:transform "현재 파일에서 표준정류장ID·ARS번호 후보 확인 후 매핑; 현 버전 원본 컬럼 미확정" .
+
+ex:map-license a ex:Mapping ;
+    rdfs:label "map-license"@ko ;
+    ex:mappingScope ex:record-go-bus ;
+    ex:sourceEvidence ex:S1 ;
+    ex:sourcePath "license" ;
+    ex:status "documented" ;
+    ex:targetMeaning "원문 이용 조건 표시" ;
+    ex:transform "자동 판매 허가로 변환하지 않음" .
+
+ex:map-living-dong a ex:Mapping ;
+    rdfs:label "map-living-dong"@ko ;
+    ex:mappingScope ex:ds-living-new ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 ;
+    ex:status "candidate" ;
+    ex:targetMeaning "정규화 필드 administrative_area_code" ;
+    ex:transform "현재 행정동 코드 컬럼·길이·기준일 확인 후 매핑" .
+
+ex:map-modified a ex:Mapping ;
+    rdfs:label "map-modified"@ko ;
+    ex:mappingScope ex:record-go-bus ;
+    ex:sourceEvidence ex:S1 ;
+    ex:sourcePath "dateModified" ;
+    ex:status "documented" ;
+    ex:targetMeaning "등록정보 수정일" ;
+    ex:transform "실제 데이터의 마지막 관측일로 사용하지 않음" .
+
+ex:map-publisher a ex:Mapping ;
+    rdfs:label "map-publisher"@ko ;
+    ex:mappingScope ex:record-go-bus ;
+    ex:sourceEvidence ex:S1,
+        ex:S2 ;
+    ex:sourcePath "creator.name" ;
+    ex:status "curated" ;
+    ex:targetMeaning "프로토타입 제공기관 후보" ;
+    ex:transform "기관명 정규화; 원본 creator 역할과 제공기관 역할을 별도로 보존" .
+
+ex:map-title a ex:Mapping ;
+    rdfs:label "map-title"@ko ;
+    ex:mappingScope ex:record-go-bus ;
+    ex:sourceEvidence ex:S1 ;
+    ex:sourcePath "name" ;
+    ex:status "documented" ;
+    ex:targetMeaning "dcterms:title" ;
+    ex:transform "문자열 보존" .
+
+ex:mappingScope a owl:ObjectProperty ;
+    rdfs:label "매핑 대상"@ko ;
+    rdfs:domain ex:Mapping .
+
+ex:ontology-v0-1 a owl:Ontology ;
+    dcterms:description "공식 메타데이터와 안내문 검토. 원본 데이터 전체, API 응답, 실제 조인, 개인정보 안전성 및 거래 허가를 검증한 결과가 아님."@ko ;
+    owl:versionInfo "0.1.0" ;
+    ex:reviewedAt "2026-09-10"^^xsd:date .
+
+ex:productionEndedAfter a owl:DatatypeProperty .
+
+ex:purpose a owl:DatatypeProperty .
+
+ex:rawRowsVerified a owl:DatatypeProperty .
+
+ex:rel-crosslisting a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-bus-daily ;
+    rdf:predicate ex:candidateTopic ;
+    rdf:subject ex:record-go-bus ;
+    rdfs:comment "검색 색인에서 OA-12912 목적지 확인. 현재 상세 링크·버전 일치 확인 전이므로 확정 동일성으로 저장하지 않음."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1,
+        ex:S10,
+        ex:S2 ;
+    ex:status "candidate" .
+
+ex:rel-portal-referral a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:portal-seoul ;
+    rdf:predicate ex:refersToPortal ;
+    rdf:subject ex:portal-data-go ;
+    rdfs:comment "15051734 등록 설명에 서울 포털로 이동한다고 명시. 모든 서울 자료가 연계된다는 뜻은 아님."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1 ;
+    ex:status "documented" .
+
+ex:rel-record-referral a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:portal-seoul ;
+    rdf:predicate ex:refersToPortal ;
+    rdf:subject ex:record-go-bus ;
+    rdfs:comment "등록정보가 안내하는 외부 제공처."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S1 ;
+    ex:status "documented" .
+
+ex:rel-resident-living a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-resident ;
+    rdf:predicate ex:analyticalComplement ;
+    rdf:subject ex:ds-living-new ;
+    rdfs:comment "존재 인구와 등록 인구의 배경 비교 목적. 두 지표를 같은 인구수로 합산하지 않음."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S6,
+        ex:S7,
+        ex:S8 ;
+    ex:status "curated" .
+
+ex:rel-transit a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-subway-daily ;
+    rdf:predicate ex:analyticalComplement ;
+    rdf:subject ex:ds-bus-daily ;
+    rdfs:comment "교통수단별 이용량 비교 목적. 공통 공간 단위로 집계할 때 포함 노선·기간·중복을 검토."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S2,
+        ex:S4 ;
+    ex:status "curated" .
+
+ex:rel-version a rdf:Statement,
+        ex:Claim ;
+    rdf:object ex:ds-living-new ;
+    rdf:predicate ex:successorCandidate ;
+    rdf:subject ex:ds-living-old ;
+    rdfs:comment "종료 안내의 250m 전환 및 현재 안내 링크를 근거로 한 후속 자료 후보. 공식 동일 시계열·호환성 보증이 아님."@ko ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 ;
+    ex:status "candidate" .
+
+ex:reviewedAt a owl:DatatypeProperty .
+
+ex:rightDataset a owl:ObjectProperty ;
+    rdfs:label "오른쪽 자료"@ko ;
+    rdfs:domain ex:JoinAssessment ;
+    rdfs:range ex:Dataset .
+
+ex:rule-current a ex:PolicyRule ;
+    rdfs:label "생산 종료 자료를 최신 자료로 추천하지 않음"@ko ;
+    ex:condition "lifecycle = production_ended AND request = latest"@ko ;
+    ex:decision "exclude_from_latest; 후속 자료 후보와 검증 조건 안내"@ko .
+
+ex:rule-evidence a ex:PolicyRule ;
+    rdfs:label "후보 관계의 사실 승격 금지"@ko ;
+    ex:condition "relationship.status = candidate"@ko ;
+    ex:decision "RDF의 사실 트리플로 materialize하지 않음"@ko .
+
+ex:rule-join a ex:PolicyRule ;
+    rdfs:label "주제 관련성과 조인 가능성을 구분"@ko ;
+    ex:condition "join_assessment != validated"@ko ;
+    ex:decision "연결 조건만 안내; 자동 조인 허가하지 않음"@ko .
+
+ex:rule-license a ex:PolicyRule ;
+    rdfs:label "이용 조건 미확인을 허용으로 바꾸지 않음"@ko ;
+    ex:condition "license_display 미확인 또는 거래 범위 미검토"@ko ;
+    ex:decision "review_required; 원문 링크 제공과 데이터 재배포를 구분"@ko .
+
+ex:rule-population a ex:PolicyRule ;
+    rdfs:label "측정 의미 보존"@ko ;
+    ex:condition "생활인구·주민등록인구·승하차 이용량 혼합"@ko ;
+    ex:decision "서로 다른 지표로 표시; 고유 인구처럼 합산 금지"@ko .
+
+ex:sourceEvidence a owl:ObjectProperty ;
+    rdfs:label "검토 근거"@ko ;
+    rdfs:range ex:Source .
+
+ex:sourcePath a owl:DatatypeProperty .
+
+ex:spatialGrain a owl:DatatypeProperty .
+
+ex:status a owl:DatatypeProperty .
+
+ex:targetMeaning a owl:DatatypeProperty .
+
+ex:temporalGrain a owl:DatatypeProperty .
+
+ex:transform a owl:DatatypeProperty .
+
+ex:candidateTopic a owl:ObjectProperty ;
+    rdfs:label "등록정보 대응 후보"@ko ;
+    rdfs:domain ex:CatalogRecord ;
+    rdfs:range ex:Dataset .
+
+ex:ds-bus-daily-csv a dcat:Distribution ;
+    dcterms:format "CSV" ;
+    rdfs:comment "형식별 제공 경로. 특정 파일 버전·다운로드 URL은 미확인."@ko ;
+    dcat:accessURL <https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do> .
+
+ex:ds-bus-hourly-csv a dcat:Distribution ;
+    dcterms:format "CSV" ;
+    rdfs:comment "형식별 제공 경로. 특정 파일 버전·다운로드 URL은 미확인."@ko ;
+    dcat:accessURL <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> .
+
+ex:ds-bus-hourly-zip a dcat:Distribution ;
+    dcterms:format "ZIP" ;
+    rdfs:comment "형식별 제공 경로. 특정 파일 버전·다운로드 URL은 미확인."@ko ;
+    dcat:accessURL <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> .
+
+ex:ds-living-new-zip a dcat:Distribution ;
+    dcterms:format "ZIP" ;
+    rdfs:comment "형식별 제공 경로. 특정 파일 버전·다운로드 URL은 미확인."@ko ;
+    dcat:accessURL <https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do> .
+
+ex:ds-subway-daily-csv a dcat:Distribution ;
+    dcterms:format "CSV" ;
+    rdfs:comment "형식별 제공 경로. 특정 파일 버전·다운로드 URL은 미확인."@ko ;
+    dcat:accessURL <https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do> .
+
+ex:successorCandidate a owl:ObjectProperty ;
+    rdfs:label "후속 자료 후보"@ko ;
+    rdfs:domain ex:Dataset ;
+    rdfs:range ex:Dataset .
+
+ex:analyticalComplement a owl:ObjectProperty ;
+    rdfs:label "분석 목적의 보완 자료"@ko ;
+    rdfs:domain ex:Dataset ;
+    rdfs:range ex:Dataset .
+
+ex:concept-district a skos:Concept,
+        ex:Concept ;
+    rdfs:label "시군구"@ko ;
+    skos:definition "KOSIS 주민등록인구 표의 지역 분류 수준. 상위 합계와 하위 구역을 중복 합산하지 않음."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "시군구"@ko ;
+    ex:sourceEvidence ex:S8 .
+
+ex:concept-station a skos:Concept,
+        ex:Concept ;
+    rdfs:label "지하철역"@ko ;
+    skos:altLabel "전철역"@ko ;
+    skos:definition "지하철 이용량의 공간 기준. 동일 역명·환승역·호선별 행을 구분할 키가 필요."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "지하철역"@ko ;
+    ex:sourceEvidence ex:S4 .
+
+ex:operatedBy a owl:ObjectProperty ;
+    rdfs:label "운영기관"@ko ;
+    rdfs:domain ex:Portal ;
+    rdfs:range ex:Organization .
+
+ex:org-mods a foaf:Organization,
+        ex:Organization ;
+    rdfs:label "국가데이터처"@ko ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 .
+
+ex:org-mois a foaf:Organization,
+        ex:Organization ;
+    rdfs:label "행정안전부"@ko ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 .
+
+ex:portal-data-go a dcat:Catalog,
+        ex:Portal ;
+    rdfs:label "공공데이터포털"@ko ;
+    dcat:record ex:record-go-bus ;
+    foaf:homepage <https://www.data.go.kr/> ;
+    foaf:page <https://www.data.go.kr/> ;
+    ex:refersToPortal ex:portal-seoul ;
+    ex:sourceEvidence ex:S1 .
+
+ex:portal-kosis a dcat:Catalog,
+        ex:Portal ;
+    rdfs:label "KOSIS 국가통계포털"@ko ;
+    dcat:record ex:record-kosis-resident ;
+    foaf:homepage <https://kosis.kr/> ;
+    foaf:page <https://kosis.kr/> ;
+    ex:operatedBy ex:org-mods ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 .
+
+ex:refersToPortal a owl:ObjectProperty ;
+    rdfs:label "외부 포털로 안내"@ko ;
+    rdfs:range ex:Portal .
+
+ex:S10 a ex:Source ;
+    rdfs:label "공공데이터포털 버스 일별 등록 상세"@ko ;
+    dcterms:description "검색 색인에서 OA-12912 직접 연결 URL 확인. 상세페이지 직접 열기는 실패. 포털 간 정확한 목적지 연결은 후보 상태로 보존."@ko ;
+    foaf:page <https://www.data.go.kr/data/15051734/fileData.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "search_index_only" .
+
+ex:concept-subway a skos:Concept,
+        ex:Concept ;
+    rdfs:label "지하철 이용량"@ko ;
+    skos:altLabel "전철 승하차"@ko ;
+    skos:broader ex:concept-transport ;
+    skos:definition "호선·역별 승차·하차 기록에 기반한 이용량. 노선 포함 범위를 확인해야 함."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "지하철 이용량"@ko ;
+    ex:sourceEvidence ex:S4 .
+
+ex:record-kosis-resident a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "DT_1B040A3"@ko ;
+    foaf:page <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3> ;
+    foaf:primaryTopic ex:ds-resident ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 .
+
+ex:record-seoul-bus a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "OA-12912"@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do> ;
+    foaf:primaryTopic ex:ds-bus-daily ;
+    ex:sourceEvidence ex:S2 .
+
+ex:record-seoul-bus-hourly a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "OA-12913"@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> ;
+    foaf:primaryTopic ex:ds-bus-hourly ;
+    ex:sourceEvidence ex:S3 .
+
+ex:record-seoul-new a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "OA-23016"@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do> ;
+    foaf:primaryTopic ex:ds-living-new ;
+    ex:sourceEvidence ex:S7 .
+
+ex:record-seoul-old a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "OA-14991"@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S> ;
+    foaf:primaryTopic ex:ds-living-old ;
+    ex:sourceEvidence ex:S5 .
+
+ex:record-seoul-subway a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "OA-12914"@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do> ;
+    foaf:primaryTopic ex:ds-subway-daily ;
+    ex:sourceEvidence ex:S4 .
+
+ex:Organization a owl:Class ;
+    rdfs:label "운영·제공·작성 기관"@ko ;
+    rdfs:subClassOf foaf:Organization .
+
+ex:concept-dong a skos:Concept,
+        ex:Concept ;
+    rdfs:label "행정동"@ko ;
+    skos:definition "행정 업무 기준의 공간 구역. 기준일에 따른 코드·경계 버전을 보존하며 법정동과 구분."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "행정동"@ko ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 .
+
+ex:concept-floating a skos:Concept,
+        ex:Concept ;
+    rdfs:label "유동인구라는 검색 의도"@ko ;
+    skos:altLabel "사람 많은 곳"@ko,
+        "유동 인구"@ko ;
+    skos:broader ex:concept-population ;
+    skos:definition "이동·방문·체류 인구를 찾는 사용자 표현. 생활인구와 자동 동의어 처리하지 않고 측정 목적을 확인."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "유동인구라는 검색 의도"@ko ;
+    skos:related ex:concept-living ;
+    ex:sourceEvidence ex:S6 .
+
+ex:concept-stop a skos:Concept,
+        ex:Concept ;
+    rdfs:label "버스정류장"@ko ;
+    skos:altLabel "버스정류소"@ko ;
+    skos:definition "버스가 정차하는 시설. 표준 정류장 ID와 ARS 번호의 코드 체계는 따로 확인."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "버스정류장"@ko ;
+    ex:sourceEvidence ex:S10,
+        ex:S2 .
+
+ex:concept-transport a skos:Concept,
+        ex:Concept ;
+    rdfs:label "대중교통 이용"@ko ;
+    skos:altLabel "대중교통이용"@ko ;
+    skos:definition "버스·지하철 등 대중교통의 이용 현상을 탐색하는 주제."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "대중교통 이용"@ko ;
+    ex:sourceEvidence ex:S2,
+        ex:S4 .
+
+ex:PolicyRule a owl:Class ;
+    rdfs:label "프로토타입의 실행·추천 규칙"@ko .
+
+ex:Portal a owl:Class ;
+    rdfs:label "포털의 데이터 목록"@ko ;
+    rdfs:subClassOf dcat:Catalog .
+
+ex:concept-bus a skos:Concept,
+        ex:Concept ;
+    rdfs:label "버스 이용량"@ko ;
+    skos:altLabel "버스 승하차"@ko ;
+    skos:broader ex:concept-transport ;
+    skos:definition "버스 승차·하차 기록을 기준으로 집계하는 이용량. 서로 다른 승차를 한 사람으로 중복 제거한 인구와 구분."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "버스 이용량"@ko ;
+    ex:sourceEvidence ex:S2,
+        ex:S3 .
+
+ex:concept-population a skos:Concept,
+        ex:Concept ;
+    rdfs:label "인구 현황"@ko ;
+    skos:definition "기준 장소·시점·대상·측정 방식에 따라 구분하는 인구 지표의 상위 개념."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "인구 현황"@ko ;
+    ex:sourceEvidence ex:S6,
+        ex:S8 .
+
+ex:concept-resident a skos:Concept,
+        ex:Concept ;
+    rdfs:label "주민등록인구"@ko ;
+    skos:altLabel "주민등록 인구"@ko ;
+    skos:broader ex:concept-population ;
+    skos:definition "주민등록 기준의 인구 지표. 특정 시각에 그 장소에 존재하는 인구와 구분."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "주민등록인구"@ko ;
+    skos:related ex:concept-living ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 .
+
+ex:ds-bus-hourly a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "서울시 버스노선별 정류장별 시간대별 승하차 인원 정보"@ko ;
+    dcterms:identifier "OA-12913" ;
+    dcterms:publisher ex:org-seoul ;
+    dcterms:title "서울시 버스노선별 정류장별 시간대별 승하차 인원 정보" ;
+    dcat:distribution ex:ds-bus-hourly-csv,
+        ex:ds-bus-hourly-zip ;
+    dcat:landingPage <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> ;
+    dcat:theme ex:concept-bus ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "공공누리 1유형 표시" ;
+    ex:lifecycle "catalog_listed" ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S3 ;
+    ex:spatialConcept ex:concept-stop ;
+    ex:spatialGrain "노선 × 정류장" ;
+    ex:temporalGrain "월 × 시간대" .
+
+ex:spatialConcept a owl:ObjectProperty ;
+    rdfs:label "공간 단위 개념"@ko ;
+    rdfs:domain ex:Dataset ;
+    rdfs:range ex:Concept .
+
+ex:JoinAssessment a owl:Class ;
+    rdfs:label "자료 간 결합 검토"@ko .
+
+ex:Mapping a owl:Class ;
+    rdfs:label "원문 필드와 정규화 의미의 대응"@ko .
+
+ex:ds-living-old a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "행정동 단위 서울 생활인구(내국인)"@ko ;
+    dcterms:identifier "OA-14991" ;
+    dcterms:publisher ex:org-seoul ;
+    dcterms:title "행정동 단위 서울 생활인구(내국인)" ;
+    dcat:landingPage <https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S> ;
+    dcat:theme ex:concept-living ;
+    foaf:page <https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S> ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "공공누리 1유형 표시" ;
+    ex:lifecycle "production_ended" ;
+    ex:productionEndedAfter "2026-07-31"^^xsd:date ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S5,
+        ex:S6 ;
+    ex:spatialConcept ex:concept-dong ;
+    ex:spatialGrain "행정동" ;
+    ex:temporalGrain "시각별 추계 · 원본 재확인 필요" .
+
+ex:CatalogRecord a owl:Class ;
+    rdfs:label "사이트에 등록된 자료 설명"@ko ;
+    rdfs:subClassOf dcat:CatalogRecord .
+
+ex:ds-resident a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "행정구역(시군구)별, 성별 인구수"@ko ;
+    dcterms:creator ex:org-mois ;
+    dcterms:identifier "DT_1B040A3" ;
+    dcterms:title "행정구역(시군구)별, 성별 인구수" ;
+    dcat:landingPage <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3> ;
+    dcat:theme ex:concept-resident ;
+    foaf:page <https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B040A3> ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "이번 검토에서 이용 조건 미확인" ;
+    ex:lifecycle "catalog_listed" ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S8,
+        ex:S9 ;
+    ex:spatialConcept ex:concept-district ;
+    ex:spatialGrain "행정구역(시군구) × 성별" ;
+    ex:temporalGrain "월" .
+
+ex:ds-subway-daily a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "서울시 지하철호선별 역별 승하차 인원 정보"@ko ;
+    dcterms:identifier "OA-12914" ;
+    dcterms:publisher ex:org-seoul ;
+    dcterms:title "서울시 지하철호선별 역별 승하차 인원 정보" ;
+    dcat:distribution ex:ds-subway-daily-csv ;
+    dcat:landingPage <https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do> ;
+    dcat:theme ex:concept-subway ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do> ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "공공누리 1유형 표시" ;
+    ex:lifecycle "catalog_listed" ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S4 ;
+    ex:spatialConcept ex:concept-station ;
+    ex:spatialGrain "호선 × 역" ;
+    ex:temporalGrain "일" .
+
+ex:record-go-bus a dcat:CatalogRecord,
+        ex:CatalogRecord ;
+    rdfs:label "15051734 · 버스 일별 등록정보"@ko ;
+    foaf:page <https://www.data.go.kr/data/15051734/fileData.do> ;
+    ex:refersToPortal ex:portal-seoul ;
+    ex:sourceEvidence ex:S1 .
+
+ex:S3 a ex:Source ;
+    rdfs:label "서울 버스 시간대별 승하차 자료"@ko ;
+    dcterms:description "월 단위의 노선·정류장·시간대별 자료. 현금 이용은 제외된다고 FAQ에 안내. 정확한 컬럼·집계 방식은 원본 확인 필요."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12913/F/1/datasetView.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_page" .
+
+ex:ds-bus-daily a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "서울시 버스노선별 정류장별 승하차 인원 정보"@ko ;
+    dcterms:identifier "OA-12912" ;
+    dcterms:publisher ex:org-seoul ;
+    dcterms:title "서울시 버스노선별 정류장별 승하차 인원 정보" ;
+    dcat:distribution ex:ds-bus-daily-csv ;
+    dcat:landingPage <https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do> ;
+    dcat:theme ex:concept-bus ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do> ;
+    ex:analyticalComplement ex:ds-subway-daily ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "표시 조건은 원문 재확인" ;
+    ex:lifecycle "catalog_listed" ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S1,
+        ex:S2 ;
+    ex:spatialConcept ex:concept-stop ;
+    ex:spatialGrain "노선 × 정류장" ;
+    ex:temporalGrain "일" .
+
+ex:portal-seoul a dcat:Catalog,
+        ex:Portal ;
+    rdfs:label "서울 열린데이터광장"@ko ;
+    dcat:record ex:record-seoul-bus,
+        ex:record-seoul-bus-hourly,
+        ex:record-seoul-new,
+        ex:record-seoul-old,
+        ex:record-seoul-subway ;
+    foaf:homepage <https://data.seoul.go.kr/> ;
+    foaf:page <https://data.seoul.go.kr/> ;
+    ex:operatedBy ex:org-seoul ;
+    ex:sourceEvidence ex:S2,
+        ex:S7 .
+
+ex:concept-living a skos:Concept,
+        ex:Concept ;
+    rdfs:label "생활인구"@ko ;
+    skos:altLabel "생활 인구"@ko ;
+    skos:broader ex:concept-population ;
+    skos:definition "특정 장소·시점에 존재하는 인구의 추계. 이번 자료는 내국인 범위. 여러 시각 값을 더해 순방문자 수로 해석할 수 없음."@ko ;
+    skos:inScheme ex:concept-scheme ;
+    skos:prefLabel "생활인구"@ko ;
+    skos:related ex:concept-floating,
+        ex:concept-resident ;
+    ex:sourceEvidence ex:S5,
+        ex:S6,
+        ex:S7 .
+
+ex:concept-scheme a skos:ConceptScheme .
+
+ex:Concept a owl:Class ;
+    rdfs:label "분야·지표·공간의 개념"@ko ;
+    rdfs:subClassOf skos:Concept .
+
+ex:ds-living-new a dcat:Dataset,
+        ex:Dataset ;
+    rdfs:label "[내국인] 행정동별 서울 생활인구(250m)"@ko ;
+    dcterms:identifier "OA-23016" ;
+    dcterms:publisher ex:org-seoul ;
+    dcterms:title "[내국인] 행정동별 서울 생활인구(250m)" ;
+    dcat:distribution ex:ds-living-new-zip ;
+    dcat:landingPage <https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do> ;
+    dcat:theme ex:concept-living ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do> ;
+    ex:analyticalComplement ex:ds-resident ;
+    ex:apiVerified false ;
+    ex:licenseDisplay "공공누리 1유형 표시" ;
+    ex:lifecycle "catalog_listed" ;
+    ex:rawRowsVerified false ;
+    ex:sourceEvidence ex:S6,
+        ex:S7 ;
+    ex:spatialConcept ex:concept-dong ;
+    ex:spatialGrain "행정동; 원천은 250m 격자" ;
+    ex:temporalGrain "특정 시점 · 시각 필드는 원본 확인 필요" .
+
+ex:org-seoul a foaf:Organization,
+        ex:Organization ;
+    rdfs:label "서울특별시"@ko ;
+    ex:sourceEvidence ex:S2,
+        ex:S4,
+        ex:S7 .
+
+ex:S5 a ex:Source ;
+    rdfs:label "기존 행정동 생활인구 종료 안내"@ko ;
+    dcterms:description "250m 격자 방식 전환에 따라 2026년 7월 31일 이후 기존 자료 생산 종료를 명시. 메타데이터에 표시된 종료를 근거로 사용."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/catalogView.do?currentPageNo=1&infId=OA-14991&searchKey=null&searchValue=&srvType=S> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_catalog_record" .
+
+ex:Source a owl:Class ;
+    rdfs:label "확인한 근거 문서"@ko .
+
+ex:Dataset a owl:Class ;
+    rdfs:label "자료 자체"@ko ;
+    rdfs:subClassOf dcat:Dataset .
+
+ex:S1 a ex:Source ;
+    rdfs:label "공공데이터포털 버스 일별 자료 메타데이터"@ko ;
+    dcterms:description "서울특별시 제공, 일별 집계, 서울 포털로 이동하는 등록정보. 등록정보의 수시 표기와 본문의 일별 갱신 설명을 별도로 보존."@ko ;
+    foaf:page <https://www.data.go.kr/catalog/15051734/fileData.json> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_metadata" .
+
+ex:S4 a ex:Source ;
+    rdfs:label "서울 지하철 일별 승하차 자료"@ko ;
+    dcterms:description "호선·역별 일 단위 교통카드 이용량. 신분당선은 제공하지 않는다고 FAQ에 안내."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_page" .
+
+ex:S9 a ex:Source ;
+    rdfs:label "KOSIS 주민등록인구 공개 경로 답변"@ko ;
+    dcterms:description "행정안전부 공개 후 가공·점검하여 KOSIS에 반영. DT_1B040A3 통계표 주소 확인. 질문자 정보는 수집하지 않음."@ko ;
+    foaf:page <https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=24377> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_answer" .
+
+ex:S8 a ex:Source ;
+    rdfs:label "KOSIS 주민등록인구 최근수록자료"@ko ;
+    dcterms:description "행정구역(시군구)별 성별 인구수, 행정안전부, 월 주기 확인. 표시된 최근 수록 시점은 실제 API 최신값 검증으로 취급하지 않음."@ko ;
+    foaf:page <https://kosis.kr/serviceInfo/newContrainDataDetail.do?boardIdx=2008001&boardOrgId=101> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_catalog" .
+
+ex:S2 a ex:Source ;
+    rdfs:label "서울 버스 일별 승하차 자료"@ko ;
+    dcterms:description "노선·정류장별 일 단위 이용량. 과거 자료는 월별 파일로 제공. 파일 배포 주기와 관측 단위를 구분."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_page" .
+
+ex:S7 a ex:Source ;
+    rdfs:label "250m 기반 행정동 생활인구 자료"@ko ;
+    dcterms:description "250m 격자 자료를 행정동으로 집계한 내국인 생활인구. 출력 공간 단위는 행정동이며 원천 격자와 구분. 페이지 갱신일 2026-09-10."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_page" .
+
+ex:S6 a ex:Source ;
+    rdfs:label "서울 생활인구 정의와 현행 자료 안내"@ko ;
+    dcterms:description "특정 지역·시점의 존재 인구를 추계하는 통계. 현행 행정동 내국인 자료 링크가 OA-23016으로 연결됨. 주민등록인구와 의미가 다름."@ko ;
+    foaf:page <https://data.seoul.go.kr/dataVisual/seoul/seoulLivingPopulation.do> ;
+    ex:reviewedAt "2026-09-10"^^xsd:date ;
+    ex:status "official_guide" .
+
+ex:Claim a owl:Class ;
+    rdfs:label "근거와 상태를 가진 관계 주장"@ko ;
+    rdfs:subClassOf rdf:Statement .

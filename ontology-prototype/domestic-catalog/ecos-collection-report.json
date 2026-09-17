@@ -1,0 +1,18 @@
+{
+  "scope": "ecos",
+  "target_count": 681,
+  "processed": 681,
+  "remaining": 0,
+  "status_counts": {
+    "statistical_definition_observed": 679,
+    "statistical_definition_observed_codes_unresolved": 2
+  },
+  "documented_field_occurrences": 1182,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T08:33:44.682161+00:00",
+  "generated_at": "2026-09-13T09:04:49.765643+00:00",
+  "pid": 16024,
+  "coverage_reassessed_at": "2026-09-13T09:10:14.857340+00:00",
+  "schema_coverage_report": "ecos-schema-coverage-report.json"
+}

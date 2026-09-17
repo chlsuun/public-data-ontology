@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-09-13T17:16:40.815307+00:00",
+  "scope": "hrdk-mcp-tool-metadata",
+  "target_count": 7,
+  "processed": 7,
+  "queue_exhausted": true,
+  "status_counts": {
+    "tool_contract_occurrences": 87
+  },
+  "endpoints": [
+    {
+      "path": "/mcp",
+      "source_label": "통합 MCP",
+      "locator": "guide server address",
+      "pages_received": 1,
+      "tool_contracts": 45,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/qual",
+      "source_label": "국가자격시험 8종 /mcp/qual",
+      "locator": ".mcp-ep[0]",
+      "pages_received": 1,
+      "tool_contracts": 8,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/overseas",
+      "source_label": "해외취업 10종 /mcp/overseas",
+      "locator": ".mcp-ep[1]",
+      "pages_received": 1,
+      "tool_contracts": 10,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/ncs",
+      "source_label": "NCS 직무능력표준 5종 /mcp/ncs",
+      "locator": ".mcp-ep[2]",
+      "pages_received": 1,
+      "tool_contracts": 6,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/dual",
+      "source_label": "과정평가형·일학습병행 7종 /mcp/dual",
+      "locator": ".mcp-ep[3]",
+      "pages_received": 1,
+      "tool_contracts": 7,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/master",
+      "source_label": "숙련기술 4종 /mcp/master",
+      "locator": ".mcp-ep[4]",
+      "pages_received": 1,
+      "tool_contracts": 4,
+      "list_exhausted": true,
+      "error": null
+    },
+    {
+      "path": "/mcp/eps",
+      "source_label": "외국인고용 7종 /mcp/eps",
+      "locator": ".mcp-ep[5]",
+      "pages_received": 1,
+      "tool_contracts": 7,
+      "list_exhausted": true,
+      "error": null
+    }
+  ],
+  "root_tool_count": 45,
+  "guide_root_tool_count_as_reported": 41,
+  "guide_open_api_count_as_reported": 229,
+  "guide_linked_api_count_as_reported": 69,
+  "root_tool_count_matches_guide": false,
+  "source_guide_evidence_id": "hrdk-public-mcp-guide",
+  "documented_dataset_field_count_added": 0,
+  "all_columns_complete": false,
+  "tools_call_executed": false,
+  "input_property_occurrences": 223,
+  "output_schema_occurrences": 0
+}

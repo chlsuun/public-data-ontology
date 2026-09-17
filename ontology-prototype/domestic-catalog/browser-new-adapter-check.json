@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-13T10:01:06.108350+00:00",
+  "passed": true,
+  "checks": {
+    "twelve_portals": true,
+    "library_documented_search": true,
+    "library_authKey_excluded": true,
+    "travel_warning_iso_search": true,
+    "library_label": true
+  },
+  "library_matches": 2,
+  "travel_matches": 1,
+  "coverage_generated_at": "2026-09-13T10:00:21.436485+00:00"
+}

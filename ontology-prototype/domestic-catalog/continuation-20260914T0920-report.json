@@ -1,0 +1,549 @@
+{
+  "generated_at": "2026-09-14T09:22:22.120261+00:00",
+  "coverage_snapshot": {
+    "generated_at": "2026-09-14T09:18:37.864722+00:00",
+    "scope": "국내 포털 전 분야 공개 카탈로그와 공개 칼럼 명세",
+    "registered_portal_candidates": 125,
+    "portals_with_catalog_acquisition": 32,
+    "portal_counts": [
+      {
+        "portal_id": "address",
+        "catalog_records": 42,
+        "distinct_catalog_keys": 42,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1316,
+        "records_with_documented_columns": 40,
+        "records_without_documented_columns": 2,
+        "fields_in_source_definition_documents": 1316
+      },
+      {
+        "portal_id": "assembly",
+        "catalog_records": 278,
+        "distinct_catalog_keys": 278,
+        "provider_codes_in_source_namespace": 8,
+        "declared_output_tokens": 0,
+        "documented_columns": 2188,
+        "records_with_documented_columns": 278,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2188
+      },
+      {
+        "portal_id": "bigdata-culture",
+        "catalog_records": 92,
+        "distinct_catalog_keys": 92,
+        "provider_codes_in_source_namespace": 2,
+        "declared_output_tokens": 0,
+        "documented_columns": 1577,
+        "records_with_documented_columns": 92,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 1577
+      },
+      {
+        "portal_id": "busan",
+        "catalog_records": 12551,
+        "distinct_catalog_keys": 12551,
+        "provider_codes_in_source_namespace": 30,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 12551,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "chungnam",
+        "catalog_records": 4124,
+        "distinct_catalog_keys": 4124,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 9094,
+        "records_with_documented_columns": 644,
+        "records_without_documented_columns": 3480,
+        "fields_in_source_definition_documents": 9094
+      },
+      {
+        "portal_id": "culture",
+        "catalog_records": 938,
+        "distinct_catalog_keys": 938,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 7927,
+        "records_with_documented_columns": 468,
+        "records_without_documented_columns": 470,
+        "fields_in_source_definition_documents": 7927
+      },
+      {
+        "portal_id": "daegu",
+        "catalog_records": 19954,
+        "distinct_catalog_keys": 19954,
+        "provider_codes_in_source_namespace": 9,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 19954,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "data-go",
+        "catalog_records": 108172,
+        "distinct_catalog_keys": 95923,
+        "provider_codes_in_source_namespace": 1231,
+        "declared_output_tokens": 640859,
+        "documented_columns": 762720,
+        "records_with_documented_columns": 49952,
+        "records_without_documented_columns": 58220,
+        "fields_in_source_definition_documents": 514532
+      },
+      {
+        "portal_id": "ecos",
+        "catalog_records": 681,
+        "distinct_catalog_keys": 681,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1182,
+        "records_with_documented_columns": 681,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 1182
+      },
+      {
+        "portal_id": "expressway",
+        "catalog_records": 527,
+        "distinct_catalog_keys": 527,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1859,
+        "records_with_documented_columns": 149,
+        "records_without_documented_columns": 378,
+        "fields_in_source_definition_documents": 1859
+      },
+      {
+        "portal_id": "foodsafety",
+        "catalog_records": 178,
+        "distinct_catalog_keys": 178,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 1861,
+        "records_with_documented_columns": 169,
+        "records_without_documented_columns": 9,
+        "fields_in_source_definition_documents": 1861
+      },
+      {
+        "portal_id": "forest",
+        "catalog_records": 56,
+        "distinct_catalog_keys": 56,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 217,
+        "records_with_documented_columns": 15,
+        "records_without_documented_columns": 41,
+        "fields_in_source_definition_documents": 217
+      },
+      {
+        "portal_id": "grac",
+        "catalog_records": 2,
+        "distinct_catalog_keys": 2,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 24,
+        "records_with_documented_columns": 2,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 24
+      },
+      {
+        "portal_id": "gyeonggi",
+        "catalog_records": 2267,
+        "distinct_catalog_keys": 2267,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 42550,
+        "records_with_documented_columns": 2125,
+        "records_without_documented_columns": 142,
+        "fields_in_source_definition_documents": 42550
+      },
+      {
+        "portal_id": "hrdk-api",
+        "catalog_records": 69,
+        "distinct_catalog_keys": 69,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 69,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "hrfco",
+        "catalog_records": 9,
+        "distinct_catalog_keys": 9,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 73,
+        "records_with_documented_columns": 9,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 73
+      },
+      {
+        "portal_id": "incheon",
+        "catalog_records": 4382,
+        "distinct_catalog_keys": 4382,
+        "provider_codes_in_source_namespace": 72,
+        "declared_output_tokens": 0,
+        "documented_columns": 170,
+        "records_with_documented_columns": 7,
+        "records_without_documented_columns": 4375,
+        "fields_in_source_definition_documents": 170
+      },
+      {
+        "portal_id": "jeju",
+        "catalog_records": 1259,
+        "distinct_catalog_keys": 1259,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 686,
+        "records_with_documented_columns": 93,
+        "records_without_documented_columns": 1166,
+        "fields_in_source_definition_documents": 686
+      },
+      {
+        "portal_id": "jeonbuk",
+        "catalog_records": 2233,
+        "distinct_catalog_keys": 2233,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 2233,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "kdi-api",
+        "catalog_records": 6,
+        "distinct_catalog_keys": 6,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 113,
+        "records_with_documented_columns": 6,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 113
+      },
+      {
+        "portal_id": "kma-api",
+        "catalog_records": 626,
+        "distinct_catalog_keys": 626,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4709,
+        "records_with_documented_columns": 304,
+        "records_without_documented_columns": 322,
+        "fields_in_source_definition_documents": 4709
+      },
+      {
+        "portal_id": "kocca-api",
+        "catalog_records": 6,
+        "distinct_catalog_keys": 6,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 101,
+        "records_with_documented_columns": 6,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 101
+      },
+      {
+        "portal_id": "kosis",
+        "catalog_records": 268388,
+        "distinct_catalog_keys": 268269,
+        "provider_codes_in_source_namespace": 383,
+        "declared_output_tokens": 0,
+        "documented_columns": 371677,
+        "records_with_documented_columns": 50506,
+        "records_without_documented_columns": 217882,
+        "fields_in_source_definition_documents": 371003
+      },
+      {
+        "portal_id": "kspo",
+        "catalog_records": 183,
+        "distinct_catalog_keys": 183,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 183,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "library",
+        "catalog_records": 19,
+        "distinct_catalog_keys": 19,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 436,
+        "records_with_documented_columns": 19,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 436
+      },
+      {
+        "portal_id": "mafra",
+        "catalog_records": 2142,
+        "distinct_catalog_keys": 2142,
+        "provider_codes_in_source_namespace": 17,
+        "declared_output_tokens": 0,
+        "documented_columns": 2725,
+        "records_with_documented_columns": 183,
+        "records_without_documented_columns": 1959,
+        "fields_in_source_definition_documents": 2725
+      },
+      {
+        "portal_id": "neis",
+        "catalog_records": 12,
+        "distinct_catalog_keys": 12,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 178,
+        "records_with_documented_columns": 12,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 178
+      },
+      {
+        "portal_id": "opendart",
+        "catalog_records": 85,
+        "distinct_catalog_keys": 85,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 2175,
+        "records_with_documented_columns": 85,
+        "records_without_documented_columns": 0,
+        "fields_in_source_definition_documents": 2175
+      },
+      {
+        "portal_id": "seoul",
+        "catalog_records": 8272,
+        "distinct_catalog_keys": 8272,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 171837,
+        "records_with_documented_columns": 7441,
+        "records_without_documented_columns": 831,
+        "fields_in_source_definition_documents": 171837
+      },
+      {
+        "portal_id": "sgis",
+        "catalog_records": 68,
+        "distinct_catalog_keys": 68,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 618,
+        "records_with_documented_columns": 67,
+        "records_without_documented_columns": 1,
+        "fields_in_source_definition_documents": 618
+      },
+      {
+        "portal_id": "ulsan",
+        "catalog_records": 2582,
+        "distinct_catalog_keys": 2582,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 0,
+        "records_with_documented_columns": 0,
+        "records_without_documented_columns": 2582,
+        "fields_in_source_definition_documents": 0
+      },
+      {
+        "portal_id": "yeongdeungpo",
+        "catalog_records": 153,
+        "distinct_catalog_keys": 153,
+        "provider_codes_in_source_namespace": 0,
+        "declared_output_tokens": 0,
+        "documented_columns": 4523,
+        "records_with_documented_columns": 150,
+        "records_without_documented_columns": 3,
+        "fields_in_source_definition_documents": 4523
+      }
+    ],
+    "total_catalog_records": 440356,
+    "distinct_catalog_keys_across_portal_namespaces": 427988,
+    "declared_output_tokens": 640859,
+    "documented_column_occurrences": 1392536,
+    "quarantined_source_records": 62,
+    "all_domestic_portals_complete": false,
+    "all_columns_complete": false,
+    "cross_portal_deduplication_complete": false,
+    "raw_observation_values_collected": null,
+    "statistical_associations_verified": 0,
+    "semantic_relationships_approved": 0,
+    "count_note": "명세 항목에는 통계 분류·측정 항목·기간과 API 응답 제어 필드가 포함되며 출처별 중복이 있다.",
+    "fields_in_source_definition_documents": 1143674,
+    "field_count_distinction": "fields_in_source_definition_documents는 명세 문서별 항목 합계이며 의미상 중복 제거 전이다. documented_column_occurrences는 동일 표준 명세를 제공기관별 등록정보에 연결한 반복까지 포함한다.",
+    "csv_first_record_header_candidates": 16385,
+    "bulk_observation_files_downloaded": 0,
+    "raw_values_analysis_performed": false,
+    "raw_observation_note": "통계 관측값 본문·원본 전체 파일은 수집 대상으로 삼지 않았다. CSV 첫 레코드 및 크기를 제한한 공개 미리보기 원문에는 표본 관측값이 포함될 수 있으며, 분석·품질 검증을 했다는 의미가 아니다.",
+    "observed_header_candidate_occurrences": 39147
+  },
+  "progress_snapshots": {
+    "definition-collection-report.json": {
+      "scope": "all_acquired_data_go_file_catalog_keys",
+      "target_count": 83691,
+      "processed": 52625,
+      "remaining": 31066,
+      "status_counts": {
+        "column_definition_observed": 30570,
+        "no_definition_table_observed": 21765,
+        "fetch_unresolved": 290
+      },
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-14T07:45:01.749746+00:00",
+      "generated_at": "2026-09-14T09:22:16.499000+00:00",
+      "pid": 8120
+    },
+    "kosis-collection-report.json": {
+      "scope": "all_acquired_identified_kosis_domestic_tables",
+      "target_count": 266688,
+      "processed": 50675,
+      "remaining": 216013,
+      "status_counts": {
+        "statistical_definition_observed": 50670,
+        "fetch_unresolved": 4,
+        "parse_unresolved": 1
+      },
+      "documented_field_occurrences": 371977,
+      "queue_exhausted": false,
+      "all_columns_complete": false,
+      "started_at": "2026-09-14T07:45:02.463840+00:00",
+      "generated_at": "2026-09-14T09:22:10.968158+00:00",
+      "pid": 11416
+    },
+    "busan-final-metadata-collection-report.json": {
+      "generated_at": "2026-09-14T09:07:24.620594+00:00",
+      "scope": "busan-final-public-metadata-after-connection-retry",
+      "target_count": 12551,
+      "processed": 12551,
+      "remaining": 0,
+      "status_counts": {
+        "public_metadata_observed_schema_pending": 12551
+      },
+      "documented_field_occurrences": 0,
+      "queue_exhausted": true,
+      "all_columns_complete": false,
+      "source_check_ref": "busan-final-metadata-source-check.json",
+      "qa_ref": "busan-source-qa.json",
+      "supersedes_current_progress_only": "busan-collection-report.json",
+      "original_report_preserved": true,
+      "no_worker_restart": true
+    },
+    "kdi-api-collection-report.json": {
+      "generated_at": "2026-09-14T08:56:54.118421+00:00",
+      "scope": "kdi-api-public-reference",
+      "target_count": 6,
+      "processed": 6,
+      "queue_exhausted": true,
+      "status_counts": {
+        "response_definition_observed": 6
+      },
+      "documented_field_occurrences": 113,
+      "all_portal_catalogs_complete": false,
+      "all_columns_complete": false
+    },
+    "kocca-api-collection-report.json": {
+      "generated_at": "2026-09-14T08:56:54.231559+00:00",
+      "scope": "kocca-api-public-reference",
+      "target_count": 6,
+      "processed": 6,
+      "queue_exhausted": true,
+      "status_counts": {
+        "response_definition_observed": 6
+      },
+      "documented_field_occurrences": 101,
+      "all_portal_catalogs_complete": false,
+      "all_columns_complete": false
+    },
+    "kspo-collection-report.json": {
+      "generated_at": "2026-09-14T08:58:53.371795+00:00",
+      "scope": "kspo-officially-referred-external-map",
+      "target_count": 183,
+      "processed": 183,
+      "queue_exhausted": true,
+      "status_counts": {
+        "referred_metadata_observed_primary_schema_pending": 183
+      },
+      "documented_field_occurrences": 0,
+      "header_candidate_occurrences": 3035,
+      "all_columns_complete": false,
+      "external_host_ownership_verified": false,
+      "official_institution_census_complete": false
+    },
+    "culture-market-references-collection-report.json": {
+      "scope": "culture-market-references",
+      "target_count": 92,
+      "processed": 92,
+      "remaining": 0,
+      "status_counts": {
+        "file_column_definition_observed": 92
+      },
+      "documented_field_occurrences": 1577,
+      "queue_exhausted": true,
+      "all_columns_complete": false,
+      "started_at": "2026-09-14T09:03:34.585324+00:00",
+      "generated_at": "2026-09-14T09:05:05.480133+00:00",
+      "pid": 14060
+    }
+  },
+  "added_catalog_records": 287,
+  "added_portals_with_catalogs": [
+    "kdi-api",
+    "kocca-api",
+    "kspo",
+    "bigdata-culture"
+  ],
+  "new_formal_field_occurrences": 1791,
+  "new_secondary_preview_header_candidates": 3035,
+  "institutional_source_check": {
+    "ref": "institutional-source-check.json",
+    "checks_passed": 11,
+    "source_hashes_verified": 193
+  },
+  "institutional_import_check": {
+    "ref": "institutional-import-check.json",
+    "checks_passed": 18,
+    "expansion_exports": [
+      {
+        "path": "inventory/institutional-columns-snapshot.jsonl.gz",
+        "rows": 1791,
+        "compressed_sha256": "4674e189714eb86983d5db8fca553fd60d2f37a5cf2e85bd16b9475d76a57f0d"
+      },
+      {
+        "path": "inventory/institutional-header-candidates-snapshot.jsonl.gz",
+        "rows": 180,
+        "compressed_sha256": "845b5f71b615ebe0897cc63fdd2163de8c93ecd2a43f21bf1bcaab4f1d8a5c44"
+      }
+    ]
+  },
+  "busan_final_source_check": {
+    "ref": "busan-final-metadata-source-check.json",
+    "catalog_records": 12551,
+    "source_receipts_and_hashes_verified": 25022,
+    "connection_failures_recovered": 9,
+    "formal_column_definitions_from_this_queue": 0
+  },
+  "dictionary_copy_comparison_ref": "inventory/kspo-culture-primary-definition-comparison.json",
+  "preview_dictionary_comparison_ref": "inventory/kspo-culture-preview-dictionary-comparison.json",
+  "kosis_source_error_ref": "kosis-source-error-20260914.json",
+  "runtime_check_ref": "workers-20260914T0920-check.json",
+  "runtime_check_passed": true,
+  "runtime_restarted_in_this_step": false,
+  "completed_finite_collectors_not_reregistered": true,
+  "prior_global_validation_remains_20260913T1244_snapshot": true,
+  "national_census_complete": false,
+  "all_columns_complete": false,
+  "quality_scores_assigned": false,
+  "statistical_relationships_approved": false,
+  "git_operations_performed": false,
+  "other_projects_modified": false,
+  "messages_to_others_sent": false,
+  "next_actions": [
+    "Continue the existing FILE and KOSIS queues without duplicates",
+    "Expand remaining domestic portals and full culture market catalog beyond 92 referred pages",
+    "Follow primary schema links and version-specific definitions for metadata-only records",
+    "Keep inaccessible sources and missing definitions unresolved with their original evidence"
+  ]
+}

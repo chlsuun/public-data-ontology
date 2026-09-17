@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-09-14T06:46:09.363937+00:00",
+  "passed": true,
+  "checks_passed": 13,
+  "checks": [
+    {
+      "name": "all_77_new_documents_and_241_api_or_file_fields_indexed_without_extra_copies",
+      "passed": true,
+      "detail": 77
+    },
+    {
+      "name": "live_http_catalog_counts_match_source_registrations",
+      "passed": true,
+      "detail": 58
+    },
+    {
+      "name": "documented_filter_excludes_41_forest_guides_or_links_without_schema",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "game_detail_preserves_xml_errors_raw_names_and_separate_inputs",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "name": "source_typo_searches_and_sample_only_names_do_not_create_columns",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "recruit_conflicting_header_and_repeated_structure_rows_are_visible",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "forest_detail_preserves_source_date_type_without_guessing_units",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "name": "forest_authentication_input_excluded_from_response_search",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "map_attributes_come_from_dictionary_and_usage_note_is_separate",
+      "passed": true,
+      "detail": "forest-PBD0000059"
+    },
+    {
+      "name": "nine_existing_data_go_references_resolve_without_copying_target_fields",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "all_distinct_forest_external_links_have_a_valid_original_evidence_in_frontier",
+      "passed": true,
+      "detail": {
+        "distinct_references": 54,
+        "source_link_occurrences": 60,
+        "additional_source_locations_remain_in_definition_documents": true
+      }
+    },
+    {
+      "name": "browser_labels_and_preview_candidate_wording_cover_new_sources",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "model_registry_source_qa_links_exist_and_completeness_remains_false",
+      "passed": true,
+      "detail": 5
+    }
+  ],
+  "coverage_snapshot": "2026-09-14T06:43:19.522254+00:00",
+  "all_columns_complete": false,
+  "scope": "These new source registrations in SQLite and live local HTTP; not a full recertification of all continuously growing sources"
+}

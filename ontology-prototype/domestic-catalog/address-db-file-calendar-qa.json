@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-13T11:53:00.702009+00:00",
+  "passed": true,
+  "source_receipts_checked": 31,
+  "issues": [],
+  "calendar_existence_flag_counts": {
+    "Y": 771,
+    "N": 366
+  },
+  "existing_named_file_occurrences": 619,
+  "calendar_placeholders_not_imported": true,
+  "all_historical_file_lists_complete": false
+}

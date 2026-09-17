@@ -1,0 +1,17 @@
+{
+  "scope": "foodsafety",
+  "target_count": 178,
+  "processed": 178,
+  "remaining": 0,
+  "status_counts": {
+    "response_definition_observed": 169,
+    "public_metadata_observed_schema_pending": 8,
+    "external_reference_observed_schema_pending": 1
+  },
+  "documented_field_occurrences": 1861,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T18:07:34.459274+00:00",
+  "generated_at": "2026-09-13T18:10:35.673643+00:00",
+  "pid": 26500
+}

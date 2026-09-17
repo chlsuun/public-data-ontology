@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-09-13T16:35:44.161754+00:00",
+  "passed": true,
+  "references_checked": 517,
+  "checks": 1,
+  "scope": "Explicit dataLink URLs in catalog metadata match frontier; API endpoint strings are not promoted to crawl targets and semantic identity remains unasserted."
+}

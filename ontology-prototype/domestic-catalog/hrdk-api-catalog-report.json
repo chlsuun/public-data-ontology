@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-13T17:16:35.697860+00:00",
+  "source_evidence_id": "hrdk-public-home-20260914",
+  "catalog_records": 69,
+  "distinct_linked_public_data_pks": 69,
+  "snapshot_document_body_complete": true,
+  "snapshot_pagination_complete": true,
+  "scope": "All cards in the public /main#section2 document; no claim that this is all agency APIs.",
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "source_reported_total": null
+}

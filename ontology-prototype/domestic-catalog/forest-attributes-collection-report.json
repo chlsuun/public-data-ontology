@@ -1,0 +1,17 @@
+{
+  "scope": "forest-attributes",
+  "target_count": 19,
+  "processed": 19,
+  "remaining": 0,
+  "status_counts": {
+    "public_usage_metadata_observed_schema_pending": 14,
+    "file_attribute_definition_observed_with_source_issues": 2,
+    "file_attribute_definition_observed": 3
+  },
+  "documented_field_occurrences": 61,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-14T06:41:11.927746+00:00",
+  "generated_at": "2026-09-14T06:41:12.658402+00:00",
+  "pid": 20864
+}

@@ -1,0 +1,53 @@
+{
+  "compiled_at": "2026-09-12T09:11:46.061546+00:00",
+  "profile_id": "kr-public-catalog-discovery-v0.2",
+  "national_census_complete": false,
+  "service_entries": 122,
+  "service_entry_unit": "포털·서비스·기관 입구 조사 항목 (미검증 후보 포함)",
+  "entry_kind_counts": {
+    "data_service_candidate": 117,
+    "institution_entrypoint": 5
+  },
+  "observation_counts": {
+    "body_observed": 75,
+    "response_only": 13,
+    "title_only": 24,
+    "interstitial_observed": 3,
+    "fetch_unresolved": 7
+  },
+  "group_counts": {
+    "통합": 4,
+    "통계": 5,
+    "분야": 58,
+    "지역": 38,
+    "기관": 17
+  },
+  "with_official_referral": 90,
+  "with_navigation_candidates": 64,
+  "institution_source_counts": {
+    "directory-gov24": 98,
+    "directory-local": 245,
+    "alio-roster": 355
+  },
+  "institution_source_entries": 698,
+  "homepage_scan": {
+    "targets": 600,
+    "attempted": 600,
+    "pages_with_candidates": 265,
+    "candidate_links": 737,
+    "scope": "One public landing page per listed homepage; not a full website crawl or portal verification",
+    "complete_for_manifest": true,
+    "national_census_complete": false
+  },
+  "unique_candidate_navigation_urls": 703,
+  "data_apis_tested": 0,
+  "full_dataset_catalogs_collected": 0,
+  "verified_dataset_joins": 0,
+  "gaps": [
+    "대학교 개별 기관 목록 미확보",
+    "지방공공기관 전체 목록 미확보",
+    "중앙기관 소속기관 전체 목록 미확보",
+    "출처 사이 중복 기관·조직변경 대응 미검증",
+    "기관별 데이터 제공처 전수조사 미완료"
+  ]
+}

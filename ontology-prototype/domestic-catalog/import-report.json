@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-13T06:48:32.895919+00:00",
+  "sources": {
+    "data-go": {
+      "source_rows": 108234,
+      "imported_records": 108172,
+      "invalid_rows": 50,
+      "implicated_rows": 12,
+      "advertised_rows": 68943,
+      "advertised_count_matches": false,
+      "encoding": "cp949",
+      "snapshot_label": "20260703",
+      "all_current_portal_records_confirmed": false
+    },
+    "seoul": {
+      "imported_records": 8272,
+      "snapshot_label": "26년 8월",
+      "all_acquired_workbook_rows_processed": true,
+      "columns_present_in_bulk": false,
+      "all_current_portal_records_confirmed": false
+    },
+    "kosis": {
+      "non_table_rows": 26932,
+      "imported_records": 268388,
+      "entries_requiring_link_review": 1581,
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 65000,
+          "columns": 8
+        },
+        {
+          "sheet": "Sheet2",
+          "rows": 65000,
+          "columns": 8
+        },
+        {
+          "sheet": "Sheet3",
+          "rows": 65000,
+          "columns": 8
+        },
+        {
+          "sheet": "Sheet4",
+          "rows": 65000,
+          "columns": 8
+        },
+        {
+          "sheet": "Sheet5",
+          "rows": 35320,
+          "columns": 8
+        }
+      ],
+      "all_acquired_workbook_rows_processed": true,
+      "columns_present_in_bulk": false,
+      "scope": "국내 주제별통계 MT_ZTITLE",
+      "all_kosis_views_collected": false
+    }
+  },
+  "national_all_portals_complete": false,
+  "all_columns_complete": false,
+  "raw_observation_values_collected": 0,
+  "human_approved_semantic_relations": 0
+}

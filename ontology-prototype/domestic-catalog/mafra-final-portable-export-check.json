@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-09-13T18:20:54.449672+00:00",
+  "passed": true,
+  "nonempty_dataset_exports": 450,
+  "header_candidates": 16990,
+  "multiple_source_file_versions_preserved": true,
+  "empty_or_unavailable_header_documents_not_exported_as_candidates": true,
+  "all_columns_complete": false
+}

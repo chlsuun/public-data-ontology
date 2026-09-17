@@ -1,0 +1,22 @@
+{
+  "scope": "D-데이터허브 데이터 상세검색의 데이터셋 목록; 별도 외부 LINK 목록은 추가 조사",
+  "generated_at": "2026-09-13T09:40:17.322338+00:00",
+  "reported_total": 19954,
+  "reported_totals": [
+    19954
+  ],
+  "received_rows": 19954,
+  "unique_dataset_ids": 19954,
+  "api_view_unique_ids": 14,
+  "api_view_reported_total": 14,
+  "stored_catalog_records": 19954,
+  "pages_received": 2218,
+  "pages_expected": 2218,
+  "duplicate_observations": [],
+  "failed_pages": [],
+  "snapshot_pagination_complete": true,
+  "all_portal_catalogs_complete": false,
+  "all_columns_complete": false,
+  "identity_note": "dataSetDetailId로 월별·파일별 등록을 구분하며 dataSetId는 상위 목록 ID로 보존",
+  "schema_followup": "공개 상세정보의 API 원기관 명세·파일 헤더 수집은 후속 작업; 현재 완료 처리하지 않음"
+}

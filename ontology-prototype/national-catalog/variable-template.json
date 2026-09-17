@@ -1,0 +1,20 @@
+{
+  "template_only":true,
+  "field_id":null,
+  "schema_id":null,
+  "original_name":null,
+  "original_path":null,
+  "description_raw":null,
+  "data_type":null,
+  "role":null,
+  "allowed_roles":["identifier","dimension","measure","attribute","text","geometry"],
+  "measure_concept_id":null,
+  "unit_id":null,
+  "code_scheme_id":null,
+  "missing_value_codes":[],
+  "aggregation_rule":null,
+  "measurement_scope":null,
+  "version":null,
+  "mapping_status":"not_reviewed",
+  "evidence_ids":[]
+}

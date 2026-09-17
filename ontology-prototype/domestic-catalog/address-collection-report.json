@@ -1,0 +1,17 @@
+{
+  "scope": "address",
+  "target_count": 11,
+  "processed": 11,
+  "remaining": 0,
+  "status_counts": {
+    "column_definition_observed": 9,
+    "public_guide_observed_schema_pending": 1,
+    "public_manual_observed_output_schema_pending": 1
+  },
+  "documented_field_occurrences": 199,
+  "queue_exhausted": true,
+  "all_columns_complete": false,
+  "started_at": "2026-09-13T10:45:22.948134+00:00",
+  "generated_at": "2026-09-13T10:47:01.603983+00:00",
+  "pid": 23264
+}

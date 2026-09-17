@@ -1,0 +1,181 @@
+<div id="discovery-kg-v3">
+  <style>
+    #discovery-kg-v3 { color: var(--foreground); }
+    #discovery-kg-v3 .dg-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    #discovery-kg-v3 .dg-meta { margin: 8px 0 12px; }
+    #discovery-kg-v3 .dg-figure { width: 100%; position: relative; margin: 12px 0 8px; }
+    #discovery-kg-v3 .dg-svg { display: block; width: 100%; touch-action: pan-y; overflow: hidden; }
+    #discovery-kg-v3 .dg-svg text { fill: var(--foreground); }
+    #discovery-kg-v3 .dg-label { paint-order: stroke; stroke: var(--background); stroke-width: 4px; stroke-linejoin: round; }
+    #discovery-kg-v3 .dg-legend { display: flex; align-items: center; gap: 8px 16px; flex-wrap: wrap; margin: 8px 0; }
+    #discovery-kg-v3 .dg-key { display: inline-flex; align-items: center; gap: 6px; }
+    #discovery-kg-v3 .dg-swatch { width: 9px; height: 9px; display: inline-block; border-radius: 50%; background: var(--viz-series-1); }
+    #discovery-kg-v3 .dg-line { display: inline-block; width: 23px; border-top: 1px solid var(--foreground); }
+    #discovery-kg-v3 .dg-dashed { border-top-style: dashed; }
+    #discovery-kg-v3 .dg-detail { margin: 12px 0; overflow-wrap: anywhere; }
+    #discovery-kg-v3 .dg-details { margin: 12px 0; }
+    #discovery-kg-v3 summary { cursor: pointer; }
+    #discovery-kg-v3 td { overflow-wrap: anywhere; }
+    #discovery-kg-v3 .dg-tooltip { position: absolute; pointer-events: none; z-index: 3; padding: 6px 9px; background: var(--popover); color: var(--popover-foreground); max-width: 240px; border-radius: 4px; }
+    #discovery-kg-v3 [hidden] { display: none !important; }
+  </style>
+  <div class="dg-heading"><h3>질문에서 자료로 이어지는 지식그래프</h3><span class="text-small text-muted">v0.3 · 국내외 전 분야를 수용하는 구조</span></div>
+  <div class="nav nav-pills" role="tablist" aria-label="Discovery Platform 보기">
+    <button id="dg-question-tab" class="nav-link active" type="button" role="tab" aria-controls="dg-question-panel" aria-selected="true">질문 중심 탐색</button>
+    <button id="dg-system-tab" class="nav-link" type="button" role="tab" aria-controls="dg-system-panel" aria-selected="false">서비스·Harness 구조</button>
+  </div>
+  <div id="dg-question-panel" role="tabpanel" aria-labelledby="dg-question-tab">
+    <div class="dg-meta text-small text-muted">기존 국내 조사 122개 + 국제 제공처 2개 · 아래는 자료 6개로 구성한 탐색 예시 · LLM 호출 없음</div>
+    <div class="viz-controls">
+      <label class="form-label" for="dg-query">예시 질문<select class="form-select" id="dg-query"></select></label>
+      <label class="form-label" for="dg-node">선택한 노드<select class="form-select" id="dg-node"></select></label>
+    </div>
+    <div class="viz-controls">
+      <label class="form-label" for="dg-depth">개념 탐색 깊이 <span id="dg-depth-value" class="tabular-nums">2</span><input class="form-range" id="dg-depth" type="range" min="1" max="2" step="1" value="2"></label>
+      <label class="form-label" for="dg-nodes">노드 상한 <span id="dg-nodes-value" class="tabular-nums">30</span><input class="form-range" id="dg-nodes" type="range" min="5" max="30" step="5" value="30"></label>
+    </div>
+    <div id="dg-usage" class="dg-meta text-small tabular-nums" aria-live="polite"></div>
+    <div id="dg-plot" class="dg-figure"><svg id="dg-svg" class="dg-svg" role="img" aria-label="질문, 개념, 측정 지표, 실제 자료 안내, 제공기관의 관계 그래프"></svg><div class="dg-tooltip text-small" role="tooltip" hidden></div></div>
+    <div class="dg-legend text-small">
+      <span class="dg-key"><i class="dg-swatch" aria-hidden="true"></i>질문</span>
+      <span class="dg-key"><i class="dg-swatch" style="background:var(--viz-series-2)" aria-hidden="true"></i>개념</span>
+      <span class="dg-key"><i class="dg-swatch" style="background:var(--viz-series-3)" aria-hidden="true"></i>지표</span>
+      <span class="dg-key"><i class="dg-swatch" style="background:var(--viz-series-4)" aria-hidden="true"></i>자료</span>
+      <span class="dg-key"><i class="dg-swatch" style="background:var(--viz-series-5)" aria-hidden="true"></i>제공기관</span>
+      <span class="dg-key"><i class="dg-line dg-dashed" aria-hidden="true"></i>탐색 가설·대응 후보</span>
+    </div>
+    <div id="dg-detail" class="dg-detail text-small" aria-live="polite"></div>
+    <details id="dg-details" class="dg-details"><summary class="text-small">추천 경로·메타데이터·관계 근거</summary><div class="table-responsive"><table class="table table-sm"><thead><tr><th>항목</th><th>내용·출처</th></tr></thead><tbody id="dg-detail-body"></tbody></table></div></details>
+  </div>
+  <div id="dg-system-panel" role="tabpanel" aria-labelledby="dg-system-tab" hidden>
+    <div class="dg-meta text-small text-muted">운영 서비스 설계 · 현재 구현: 관계 모델과 로컬 탐색 상한</div>
+    <div id="dg-system-plot" class="dg-figure"><svg id="dg-system-svg" class="dg-svg" role="img" aria-label="FastAPI와 Harness 안에서 질의 해석, 관계 DB 탐색, 정책 확인, 외부 LLM, 감사와 정리가 연결되는 시스템 설계"></svg></div>
+    <div class="dg-legend text-small"><span class="dg-key"><i class="dg-line" aria-hidden="true"></i>처리 흐름</span><span class="dg-key"><i class="dg-line dg-dashed" aria-hidden="true"></i>선택 호출·자원 제어</span></div>
+    <div class="table-responsive"><table class="table table-sm"><thead><tr><th>제어 대상</th><th>초기 정책</th><th>현재 상태</th></tr></thead><tbody>
+      <tr><td>개념·자료 탐색</td><td>깊이 2 · 노드 30 · 관계 40 · 자료 10</td><td>로컬 탐색기에 적용</td></tr>
+      <tr><td>탐색 작업량</td><td>관계 검사 200 · 1초</td><td>로컬 탐색기에 적용</td></tr>
+      <tr><td>Agent·LLM</td><td>4턴 · LLM 2회 · 도구 8회 · 재시도 1회</td><td>정책 정의 · API 미연결</td></tr>
+      <tr><td>Context·세션</td><td>최근 3턴 · 6,000토큰 · 요청 후 정리</td><td>운영 구현 대상</td></tr>
+      <tr><td>임시 디스크</td><td>요청 200MB · 전체 400MB · TTL 300초</td><td>운영 구현 대상</td></tr>
+      <tr><td>캐시·동시성</td><td>선별 캐시 100MB · 동시 실행 2개</td><td>운영 구현 대상</td></tr>
+      <tr><td>감사 기록</td><td>근거 ID·예산·중단 사유 · 원대화 제외</td><td>운영 구현 대상</td></tr>
+    </tbody></table></div>
+  </div>
+  <script id="dg-data" type="application/json">__DISCOVERY_DATA__</script>
+  <script>
+  (()=>{
+    const root=document.getElementById('discovery-kg-v3');
+    const data=JSON.parse(root.querySelector('#dg-data').textContent);
+    const nodeMap=new Map(data.model.nodes.map(n=>[n.id,n]));
+    const edgeMap=new Map(data.model.relations.map(e=>[e.id,e]));
+    const sourceMap=new Map(data.model.source_evidence.map(s=>[s.id,s]));
+    const query=root.querySelector('#dg-query'),nodeSelect=root.querySelector('#dg-node'),depth=root.querySelector('#dg-depth'),cap=root.querySelector('#dg-nodes');
+    const detail=root.querySelector('#dg-detail'),tbody=root.querySelector('#dg-detail-body');
+    const svg=root.querySelector('#dg-svg'),plot=root.querySelector('#dg-plot'),tip=plot.querySelector('.dg-tooltip');
+    const NS='http://www.w3.org/2000/svg';
+    const typeOrder=['query','concept','indicator','dataset','provider'];
+    const typeNames={query:'질문',concept:'개념',indicator:'지표',dataset:'자료',provider:'제공기관'};
+    const colors={query:'var(--viz-series-1)',concept:'var(--viz-series-2)',indicator:'var(--viz-series-3)',dataset:'var(--viz-series-4)',provider:'var(--viz-series-5)'};
+    const statusNames={candidate:'후보',curated:'편집 정의',documented:'출처에서 확인'};
+    let result,shown=[],shownEdges=[],positions=new Map(),selected='',hover='',width=0,height=0,anim=0;
+    function el(tag,attrs={},text){const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text!==undefined)e.textContent=text;return e;}
+    function link(url,label){const a=document.createElement('a');a.textContent=label;if(/^https?:\/\//i.test(url||'')){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}return a;}
+    function row(name,value,links=[]){const tr=document.createElement('tr'),a=document.createElement('td'),b=document.createElement('td');a.textContent=name;b.textContent=value;links.forEach(l=>b.append(document.createTextNode(' · '),link(l.url,l.label)));tr.append(a,b);tbody.append(tr);}
+    function wrap(label,maxWidth){const lines=[];let line='',units=0;for(const ch of label){const amount=/[\x00-\x7f]/.test(ch)?6:12;if(units+amount>maxWidth&&line){lines.push(line);line='';units=0;}line+=ch;units+=amount;}if(line)lines.push(line);return lines;}
+    function labelAt(parent,text,x,y,maxWidth=96){const label=el('text',{x,y,'text-anchor':'middle','class':'text-small dg-label'});wrap(text,maxWidth).forEach((line,i)=>label.append(el('tspan',{x,dy:i?15:0},line)));parent.append(label);return label;}
+    function calculateLayout(){
+      const w=Math.max(280,Math.round(plot.getBoundingClientRect().width)),narrow=w<620;
+      const groups=typeOrder.map(type=>shown.filter(n=>n.type===type));
+      const next=new Map();let h;
+      if(!narrow){h=Math.max(330,Math.max(...groups.map(g=>g.length))*64+52);groups.forEach((group,i)=>group.forEach((n,j)=>next.set(n.id,{x:58+i*(w-116)/4,y:42+(j+.5)*(h-92)/Math.max(1,group.length)})));}
+      else{let y=35;groups.forEach(group=>{const cols=Math.min(2,group.length),rows=Math.ceil(group.length/Math.max(1,cols));group.forEach((n,j)=>next.set(n.id,{x:cols===1?w/2:65+(j%cols)*(w-130),y:y+Math.floor(j/cols)*73}));y+=rows*73+(rows?27:0);});h=Math.max(260,y-10);}
+      return {w,h,next};
+    }
+    function neighbours(id){const found=new Set(id?[id]:shown.map(n=>n.id));if(id)shownEdges.forEach(e=>{if(e.source===id)found.add(e.target);if(e.target===id)found.add(e.source);});return found;}
+    function draw(){
+      if(!result)return;
+      const focus=hover||selected,near=neighbours(focus);
+      svg.replaceChildren();svg.setAttribute('viewBox',`0 0 ${width} ${height}`);svg.style.height=height+'px';
+      svg.append(el('desc',{},`예시 질문의 ${shown.length}개 노드와 ${shownEdges.length}개 관계. 점선은 탐색 가설 또는 자료 대응 후보이며 인과관계가 아닙니다.`));
+      const defs=el('defs'),marker=el('marker',{id:'dg-arrow',viewBox:'0 0 8 8',refX:7,refY:4,markerWidth:5,markerHeight:5,orient:'auto'});marker.append(el('path',{d:'M0,1 L7,4 L0,7',fill:'none',stroke:'var(--foreground)','stroke-width':1}));defs.append(marker);svg.append(defs);
+      shownEdges.forEach(e=>{
+        const a=positions.get(e.source),b=positions.get(e.target);if(!a||!b)return;
+        const active=focus&&(e.source===focus||e.target===focus),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));
+        const x1=a.x+dx/d*16,y1=a.y+dy/d*16,x2=b.x-dx/d*21,y2=b.y-dy/d*21;
+        const curved=Math.abs(dx)<45;const path=curved?`M${x1},${y1} Q${Math.min(width-8,a.x+38)},${(a.y+b.y)/2} ${x2},${y2}`:`M${x1},${y1} L${x2},${y2}`;
+        const edge=el('path',{d:path,fill:'none',stroke:active?'var(--foreground)':'var(--border)','stroke-width':active?1.5:1.2,opacity:focus?(active?1:.2):1,'marker-end':'url(#dg-arrow)'});
+        if(e.status==='candidate')edge.setAttribute('stroke-dasharray','5 4');svg.append(edge);
+      });
+      shown.forEach(n=>{
+        const p=positions.get(n.id);if(!p)return;const g=el('g',{opacity:!focus||near.has(n.id)?1:.25});
+        if(n.id===focus)g.append(el('circle',{cx:p.x,cy:p.y,r:21,fill:'none',stroke:'var(--ring)','stroke-width':1.5}));
+        const circle=el('circle',{cx:p.x,cy:p.y,r:n.type==='query'?17:14,fill:n.data_gap?'var(--background)':colors[n.type],'fill-opacity':n.data_gap?1:.3,stroke:'var(--border)','stroke-width':1});
+        if(n.data_gap)circle.setAttribute('stroke-dasharray','3 3');g.append(circle);
+        labelAt(g,n.short,p.x,p.y+32,Math.min(112,width<620?120:(width-100)/5));svg.append(g);
+      });
+      if(focus){const adjacent=shownEdges.filter(e=>e.source===focus||e.target===focus).slice(0,3);adjacent.forEach(e=>{const a=positions.get(e.source),b=positions.get(e.target);if(Math.abs(a.x-b.x)>65)labelAt(svg,e.status==='candidate'?'관계 후보':e.label,(a.x+b.x)/2,(a.y+b.y)/2-8,84);});}
+    }
+    function setLayout(animate){
+      const layout=calculateLayout(),old=positions;cancelAnimationFrame(anim);width=layout.w;height=layout.h;
+      if(!animate||old.size===0||window.matchMedia('(prefers-reduced-motion: reduce)').matches){positions=layout.next;draw();return;}
+      const started=performance.now();function frame(now){const t=Math.min(1,(now-started)/190),ease=1-Math.pow(1-t,3);positions=new Map([...layout.next].map(([id,to])=>{const from=old.get(id)||to;return[id,{x:from.x+(to.x-from.x)*ease,y:from.y+(to.y-from.y)*ease}];}));draw();if(t<1)anim=requestAnimationFrame(frame);}anim=requestAnimationFrame(frame);
+    }
+    function showDetails(){
+      tbody.replaceChildren();detail.replaceChildren();
+      const n=nodeMap.get(selected||query.value);
+      const strong=document.createElement('strong');strong.textContent=n.label;detail.append(strong,document.createTextNode(' · '+typeNames[n.type]));
+      if(n.type==='query'){
+        detail.append(document.createTextNode(' · 해석이 필요한 조건: '+result.query_ambiguities.join(', ')));
+        result.recommendations.forEach(rec=>{const d=nodeMap.get(rec.dataset_id);const path=[nodeMap.get(query.value).short,...rec.path.map(id=>nodeMap.get(edgeMap.get(id).target).short)].join(' → ');row(d.short,path+' · '+(rec.reason_kind==='hypothesis_path'?'함께 탐색할 가설':'직접 측정 자료 후보'),[{url:d.source_url,label:'원문'}]);});
+        if(!result.recommendations.length)row('자료 후보','현재 탐색 상한 안에서 자료까지 도달하지 못함');
+        if(result.unresolved_indicators.length)row('자료 대응 미해결',result.unresolved_indicators.map(id=>nodeMap.get(id).short).join(', '));
+      } else if(n.type==='dataset'){
+        detail.append(document.createTextNode(' · '+(n.metadata_status==='metadata_api_verified'?'메타데이터 API 확인':'공식 설명·목록 확인')+' · '),link(n.source_url,'자료 원문'));
+        const rec=result.recommendations.find(r=>r.dataset_id===n.id);
+        if(rec)row('추천 경로',[nodeMap.get(query.value).short,...rec.path.map(id=>nodeMap.get(edgeMap.get(id).target).short)].join(' → '));
+        row('제공기관 / 포털',nodeMap.get(n.provider_id).label+' / '+n.portal_id);
+        row('국가·공간',n.countries?n.countries.join(', ')+' · '+n.spatial_resolution:'국가별 제공 범위 미확인 · '+n.spatial_resolution);
+        row('관측 기간·주기','전체 기간 미확인 · '+(n.temporal_resolution||'주기 추가 확인'));
+        row('측정 대상·단위',(n.population_definition||'추가 확인')+' · '+(n.unit||'미확인'));
+        row('구조 요약',n.schema_summary.join(' / '));
+        row('연결 전 확인',n.limitations.join(' · '));
+        row('자료 API·이용 조건','관측값 API 미검증 · 결합 미검증 · 이용 조건 검토 전',n.metadata_api_url?[{url:n.metadata_api_url,label:'확인한 메타데이터 API'}]:[]);
+      } else {
+        detail.append(document.createTextNode(' · '+(n.definition||n.role||'')));
+        shownEdges.filter(e=>e.source===n.id||e.target===n.id).forEach(e=>{
+          const sources=e.evidence_ids.map(id=>sourceMap.get(id)).filter(s=>s&&s.url).map(s=>({url:s.url,label:'근거'}));
+          row(nodeMap.get(e.source).short+' → '+e.label+' → '+nodeMap.get(e.target).short,statusNames[e.status]+(e.note?' · '+e.note:''),sources);
+        });
+        if(n.data_gap)row('자료 연결 상태','적합한 자료 대응 미해결 · 다른 지표로 자동 대체하지 않음',(n.evidence_ids||[]).map(id=>sourceMap.get(id)).filter(s=>s&&s.url).map(s=>({url:s.url,label:'정의·검토 근거'})));
+      }
+    }
+    function choose(id){selected=id===query.value?'':id;nodeSelect.value=id;hover='';tip.hidden=true;draw();showDetails();}
+    function update(animate=true){
+      result=data.previews[query.value+'|'+depth.value+'|'+cap.value];
+      shown=data.model.nodes.filter(n=>result.node_ids.includes(n.id));shownEdges=data.model.relations.filter(e=>result.relation_ids.includes(e.id));
+      if(!result.node_ids.includes(selected))selected='';
+      root.querySelector('#dg-depth-value').textContent=depth.value;root.querySelector('#dg-nodes-value').textContent=cap.value;
+      const stops=result.budget_stop_reasons.filter(s=>s!=='max_depth');
+      root.querySelector('#dg-usage').textContent=`노드 ${result.counts.nodes}/${cap.value} · 관계 ${result.counts.edges}/40 · 자료 ${result.counts.datasets}/10`+(stops.length?' · 상한에 따라 일부 경로 제한':' · 설정한 개념 범위 내 탐색');
+      nodeSelect.replaceChildren();typeOrder.forEach(type=>{const list=shown.filter(n=>n.type===type);if(!list.length)return;const group=document.createElement('optgroup');group.label=typeNames[type];list.forEach(n=>{const opt=document.createElement('option');opt.value=n.id;opt.textContent=n.label;group.append(opt);});nodeSelect.append(group);});nodeSelect.value=selected||query.value;
+      setLayout(animate);showDetails();
+    }
+    data.model.queries.forEach(q=>{const opt=document.createElement('option');opt.value=q.id;opt.textContent=q.label;query.append(opt);});
+    query.addEventListener('change',()=>{selected='';update();});depth.addEventListener('input',()=>update());cap.addEventListener('input',()=>update());nodeSelect.addEventListener('change',()=>choose(nodeSelect.value));
+    function nearest(event){const rect=svg.getBoundingClientRect(),x=(event.clientX-rect.left)*width/rect.width,y=(event.clientY-rect.top)*height/rect.height;let best=null,distance=event.pointerType==='touch'?28:23;shown.forEach(n=>{const p=positions.get(n.id),d=Math.hypot(p.x-x,p.y-y);if(d<distance){best=n;distance=d;}});return {n:best,x,y};}
+    svg.addEventListener('pointermove',event=>{if(event.pointerType==='touch')return;const {n,x,y}=nearest(event);const id=n?n.id:'';if(hover!==id){hover=id;draw();}svg.style.cursor=n?'pointer':'default';tip.hidden=!n;if(n){tip.textContent=n.label;tip.style.left=Math.max(4,Math.min(width-248,x+12))+'px';tip.style.top=Math.min(height-40,y+16)+'px';}});
+    svg.addEventListener('pointerleave',()=>{hover='';tip.hidden=true;draw();});svg.addEventListener('click',event=>{const {n}=nearest(event);if(n)choose(n.id);});
+    new ResizeObserver(()=>{if(plot.getBoundingClientRect().width>0&&Math.abs(plot.getBoundingClientRect().width-width)>1)setLayout(false);}).observe(plot);
+    function systemGraph(){
+      const container=root.querySelector('#dg-system-plot'),canvas=root.querySelector('#dg-system-svg'),w=container.getBoundingClientRect().width;if(!w)return;
+      const h=w<500?780:650;canvas.setAttribute('viewBox',`0 0 ${w} ${h}`);canvas.style.height=h+'px';canvas.replaceChildren();
+      const defs=el('defs'),marker=el('marker',{id:'dg-system-arrow',viewBox:'0 0 8 8',refX:7,refY:4,markerWidth:5,markerHeight:5,orient:'auto'});marker.append(el('path',{d:'M0,1 L7,4 L0,7',fill:'none',stroke:'var(--foreground)','stroke-width':1}));defs.append(marker);canvas.append(defs);
+      const point=n=>({x:46+n.x*(w-92),y:30+n.y*(h-90)});const ns=new Map(data.system.nodes.map(n=>[n.id,n]));
+      data.system.edges.forEach(e=>{const a=point(ns.get(e.source)),b=point(ns.get(e.target)),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));const line=el('path',{d:`M${a.x+dx/d*18},${a.y+dy/d*18} L${b.x-dx/d*21},${b.y-dy/d*21}`,fill:'none',stroke:'var(--border)','stroke-width':1.3,'marker-end':'url(#dg-system-arrow)'});if(e.optional)line.setAttribute('stroke-dasharray','5 4');canvas.append(line);});
+      data.system.nodes.forEach(n=>{const p=point(n);canvas.append(el('circle',{cx:p.x,cy:p.y,r:17,fill:n.kind==='external'?'var(--viz-series-3)':n.kind==='storage'?'var(--viz-series-2)':'var(--viz-series-1)','fill-opacity':.25,stroke:'var(--border)','stroke-width':1}));labelAt(canvas,n.label,p.x,p.y+33,w<500?86:126);});
+    }
+    new ResizeObserver(systemGraph).observe(root.querySelector('#dg-system-plot'));
+    update(false);
+  })();
+  </script>
+</div>
